@@ -1,0 +1,121 @@
+# $Id: common-inc.pot,v 1.8.2.5 2007/01/30 11:40:42 goba Exp $
+#
+# LANGUAGE translation of Drupal (includes/common.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: common.inc,v 1.611 2007/01/10 23:30:07 unconed
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/common.inc:324
+msgid "Site off-line"
+msgstr ""
+
+#: includes/common.inc:353
+msgid "Page not found"
+msgstr ""
+
+#: includes/common.inc:382
+msgid "Access denied"
+msgstr ""
+
+#: includes/common.inc:383
+msgid "You are not authorized to access this page."
+msgstr ""
+
+#: includes/common.inc:555
+msgid "%message in %file on line %line."
+msgstr ""
+
+#: includes/common.inc:997
+msgid "KB"
+msgstr ""
+
+#: includes/common.inc:1002
+msgid "@size @suffix"
+msgstr ""
+
+#: includes/common.inc:1031
+msgid "0 sec"
+msgstr ""
+
+#: includes/common.inc:1992
+msgid "Cron has been running for more than an hour and is most likely stuck."
+msgstr ""
+
+#: includes/common.inc:1999
+msgid "Attempting to re-run cron while it is already running."
+msgstr ""
+
+#: includes/common.inc:2014
+msgid "Cron run completed."
+msgstr ""
+
+#: includes/common.inc:2030
+msgid "Cron run exceeded the time limit and was aborted."
+msgstr ""
+
+#: includes/common.inc:335
+msgid "page not found"
+msgstr ""
+
+#: includes/common.inc:364
+msgid "access denied"
+msgstr ""
+
+#: includes/common.inc:1992;1999;2014;2030
+msgid "cron"
+msgstr ""
+
+#: includes/common.inc:993
+msgid "1 byte"
+msgid_plural "@count bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] ""
+msgstr[1] ""
+

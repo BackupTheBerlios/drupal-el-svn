@@ -1,0 +1,177 @@
+# $Id: search-module.pot,v 1.8.2.5 2007/01/30 11:40:43 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/search/search.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: search.module,v 1.209.2.2 2007/01/29 23:36:39 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/search/search.module:99
+msgid "The search module adds the ability to search for content by keywords. Search is often the only practical way to find content on a large site. Search is useful for finding users and posts by searching on keywords."
+msgstr ""
+
+#: modules/search/search.module:100
+msgid "The search engine works by maintaining an index of the words in your site's content. It indexes the posts and users. You can adjust the settings to tweak the indexing behaviour. Note that the search requires cron to be set up correctly. The index percentage sets the maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
+msgstr ""
+
+#: modules/search/search.module:101
+msgid "For more information please read the configuration and customization handbook <a href=\"@search\">Search page</a>."
+msgstr ""
+
+#: modules/search/search.module:104
+msgid "The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly."
+msgstr ""
+
+#: modules/search/search.module:106
+msgid "<ul>\n<li>Check if your spelling is correct.</li>\n<li>Remove quotes around phrases to match each word individually: <em>\"blue smurf\"</em> will match less than <em>blue smurf</em>.</li>\n<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will match less than <em>blue OR smurf</em>.</li>\n</ul>"
+msgstr ""
+
+#: modules/search/search.module:126
+msgid "Search form"
+msgstr ""
+
+#: modules/search/search.module:149
+msgid "Search settings"
+msgstr ""
+
+#: modules/search/search.module:150
+msgid "Configure relevance settings for search and other indexing options"
+msgstr ""
+
+#: modules/search/search.module:156
+msgid "Clear index"
+msgstr ""
+
+#: modules/search/search.module:161
+msgid "Top search phrases"
+msgstr ""
+
+#: modules/search/search.module:162
+msgid "View most popular search phrases."
+msgstr ""
+
+#: modules/search/search.module:188;218;242
+msgid "Re-index site"
+msgstr ""
+
+#: modules/search/search.module:194;251
+msgid "The index will be rebuilt."
+msgstr ""
+
+#: modules/search/search.module:215
+msgid "%percentage of the site has been indexed."
+msgstr ""
+
+#: modules/search/search.module:216
+msgid "Indexing status"
+msgstr ""
+
+#: modules/search/search.module:223
+msgid "Indexing throttle"
+msgstr ""
+
+#: modules/search/search.module:224
+msgid "Items to index per cron run"
+msgstr ""
+
+#: modules/search/search.module:224
+msgid "The maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
+msgstr ""
+
+#: modules/search/search.module:226
+msgid "Indexing settings"
+msgstr ""
+
+#: modules/search/search.module:227
+msgid "<p>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</p><p>The default settings should be appropriate for the majority of sites.</p>"
+msgstr ""
+
+#: modules/search/search.module:228
+msgid "Minimum word length to index"
+msgstr ""
+
+#: modules/search/search.module:228
+msgid "The number of characters a word has to be to be indexed. A lower setting means better search result ranking, but also a larger database. Each search query must contain at least one keyword that is this size (or longer)."
+msgstr ""
+
+#: modules/search/search.module:229
+msgid "Simple CJK handling"
+msgstr ""
+
+#: modules/search/search.module:229
+msgid "Whether to apply a simple Chinese/Japanese/Korean tokenizer based on overlapping sequences. Turn this off if you want to use an external preprocessor for this instead. Does not affect other languages."
+msgstr ""
+
+#: modules/search/search.module:241
+msgid "Are you sure you want to re-index the site?"
+msgstr ""
+
+#: modules/search/search.module:242
+msgid " The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed. This action cannot be undone."
+msgstr ""
+
+#: modules/search/search.module:842
+msgid "You must include at least one positive keyword with @count characters or more."
+msgstr ""
+
+#: modules/search/search.module:910
+msgid "%keys (@type)."
+msgstr ""
+
+#: modules/search/search.module:910
+msgid "results"
+msgstr ""
+
+#: modules/search/search.module:916
+msgid "Search results"
+msgstr ""
+
+#: modules/search/search.module:919
+msgid "Your search yielded no results"
+msgstr ""
+
+#: modules/search/search.module:981
+msgid "Enter your keywords"
+msgstr ""
+
+#: modules/search/search.module:1022
+msgid "Please enter some keywords."
+msgstr ""
+
+#: modules/search/search.module:1039
+msgid "Enter the terms you wish to search for."
+msgstr ""
+
+#: modules/search/search.module:910;0
+msgid "search"
+msgstr ""
+
+#: modules/search/search.module:213
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/search/search.module:118
+msgid "search content"
+msgstr ""
+
+#: modules/search/search.module:118
+msgid "use advanced search"
+msgstr ""
+
+#: modules/search/search.module:118
+msgid "administer search"
+msgstr ""
+
