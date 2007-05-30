@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-06-09 00:06+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: modules/blogapi.module:15
+msgid "The blog API module enables a post to be posted to a site via external GUI applications.  Many users prefer to use external tools to improve their ability to read and post responses in a customized way.   The blog api provides users the freedom to use the blogging tools they want but still have the blogging server of choice."
+msgstr "Η μονάδα blogapi (API ιστολογίων) επιτρέπει να υποβάλλεται ύλη σε έναν ιστότοπο μέσω εξωτερικών εφαρμογών με οπτικό χειρισμό (GUI).  Πολλοί χρήστες προτιμούν να χρησιμοποιούν εξωτερικά εργαλεία για να μπορούν καλύτερα να διαβάζουν και να υποβάλλουν απαντήσεις με έναν προσαρμοσμένο τρόπο.  Το blog api προσφέρει στους χρήστες την ελευθερία να χρησιμοποιούν τα εργαλεία ιστολογίου που θέλουν ενώ εξακολουθούν να έχουν το διακομιστή ιστολογίων που προτιμούν."
+
+#: modules/blogapi.module:16
+msgid "When this module is enabled and configured you can use programs like <a href=\"%external-http-ecto-kung-foo-tv\">Ecto</a> to create and publish posts from your desktop. Blog API module supports several XML-RPC based blogging APIs such as the <a href=\"%-\">Blogger API</a>, <a href=\"%external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, and most of the <a href=\"%external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Any desktop blogging tools or other services (e.g. <a href=\"%external-http-www-flickr-com\">Flickr's</a> \"post to blog\") that support these APIs should work with this site."
+msgstr "Όταν αυτή η μοναδα ενεργοποιηθεί και διευθετηθεί, μπορείτε να χρησιμοποιείτε προγράμματα όπως το <a href=\"%external-http-ecto-kung-foo-tv\">Ecto</a> για να γράφετε και να δημοσιεύετε από την οθόνη σας. Η μονάδα blogapi υποστηρίζει πολλά API ιστολογίων βασισμένα σε XML-RPC, όπως το <a href=\"%-\">Blogger API</a>, το <a href=\"%external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, και το μεγαλύτερο μέρος του <a href=\"%external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Οποιαδήποτε εργαλεία ιστολογίων ή άλλες υπηρεσίες (π.χ. το \"post to blog\" του <a href=\"%external-http-www-flickr-com\">Flickr</a>) που υποστηρίζουν αυτά τα API μάλλον θα λειτουργούν και στον ιστότοπό σας."
+
+#: modules/blogapi.module:17
+msgid "This module also allows site administrators to configure which content types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each content type as a separate \"blog\".<!--break-->"
+msgstr "Η μονάδα αυτή επιτρέπει επίσης στους διαχειριστές του ιστοτόπου να διευθετήσουν ποιοι τύποι ύλης μπορούν να υποβάλλονται μέσω των εξωτερικών εφαρμογών. Έτσι, για παράδειγμα, οι χρήστες θα μπορούν να υποβάλλουν θέματα συζήτησης καθώς και ιστολογήματα. Όπου υποστηρίζεται, οι εξωτερικές εφαρμογές θα παρουσιάζουν τον κάθε τύπο ύλης ως ξεχωριστό \"ιστολόγιο\".<!--break-->"
+
+#: modules/blogapi.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view the XML-RPC page on your site at &gt;&gt; <a href=\"%file-xmlrpc\">xmlrpc.php</a>.</li>\n"
+"<li><a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;&gt; blog api</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Μπορείτε</p>\n"
+"<ul>\n"
+"<li>να βλέπετε τη σελίδα XML-RPC στον ιστότοπό σας από το &gt;&gt; <a href=\"%file-xmlrpc\">xmlrpc.php</a>.</li>\n"
+"<li>να διαχειρίζεστε το api ιστολογίων: <a href=\"%admin-settings-blogapi\">διαχείριση &gt;&gt; ρυθμίσεις &gt;&gt; api ιστολογίων</a>.</li>\n"
+"</ul>\n"
+
+#: modules/blogapi.module:24
+msgid "For more information please read the configuration and customization handbook <a href=\"%blogapi\">BlogApi page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"%blogapi\">σελίδα BlogApi</a>."
+
+#: modules/blogapi.module:27
+msgid "Allows users to post content using applications that support XML-RPC blog APIs."
+msgstr "Επιτρέπει στους χρήστες να υποβάλλουν ύλη χρησιμοποιώντας εφαρμογές που υποστηρίζουν API ιστολογίων XML-RPC."
+
+#: modules/blogapi.module:40
+msgid "Returns a list of weblogs to which an author has posting privileges."
+msgstr "Επιστρέφει μία λίστα των ιστολογίων στα οποία ένας συντάκτης έχει δικαιώματα να υποβάλλει ύλη."
+
+#: modules/blogapi.module:45
+msgid "Returns information about an author in the system."
+msgstr "Επιστρέφει πληροφορίες για ένα συντάκτη που είναι στο σύστημα."
+
+#: modules/blogapi.module:50
+#: ;75
+msgid "Creates a new post, and optionally publishes it."
+msgstr "Δημιουργεί μια νέα καταχώριση και προαιρετικά τη δημοσιεύει."
+
+#: modules/blogapi.module:55
+msgid "Updates the information about an existing post."
+msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
+
+#: modules/blogapi.module:60
+#: ;85
+msgid "Returns information about a specific post."
+msgstr "Επιστρέφει πληροφορίες για μια συγκεκριμένη καταχώριση."
+
+#: modules/blogapi.module:65
+msgid "Deletes a post."
+msgstr "Διαγράφει μια καταχώριση."
+
+#: modules/blogapi.module:70
+#: ;100
+msgid "Returns a list of the most recent posts in the system."
+msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος."
+
+#: modules/blogapi.module:80
+msgid "Updates information about an existing post."
+msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
+
+#: modules/blogapi.module:90
+msgid "Uploads a file to your webserver."
+msgstr "Ανεβάζει ένα αρχείο στο διακομιστή σας."
+
+#: modules/blogapi.module:95
+#: ;115
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει τοποθετηθεί η καταχώριση."
+
+#: modules/blogapi.module:105
+msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος, σε μορφή οικονομική ως προς τη χρήση εύρους ζώνης."
+
+#: modules/blogapi.module:110
+msgid "Returns a list of all categories defined in the weblog."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών που ορίζονται στο ιστολόγιο."
+
+#: modules/blogapi.module:120
+msgid "Sets the categories for a post."
+msgstr "Καθορίζει τις κατηγορίες μιας καταχώρισης."
+
+#: modules/blogapi.module:125
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr "Ανάκτηση πληροφοριών για τις μεθόδους XML-RPC που υποστηρίζονται από το διακομιστή."
+
+#: modules/blogapi.module:130
+msgid "Retrieve information about the text formatting plugins supported by the server."
+msgstr "Ανάκτηση πληροφοριών για τα plugin μορφοποίησης κειμένου που υποστηρίζονται από το διακομιστή."
+
+#: modules/blogapi.module:135
+msgid "Retrieve the list of TrackBack pings posted to a particular entry. This could be used to programmatically retrieve the list of pings for a particular entry, then iterate through each of those pings doing the same, until one has built up a graph of the web of entries referencing one another on a particular topic."
+msgstr "Ανάκτηση της λίστας των ping για TrackBack που έχουν υποβληθεί για μια συγκεκριμένη καταχώριση. Αυτό θα μπορούσε να χρησιμοποιηθεί για να ανακτηθεί μέσω προγράμματος η λίστα των ping για μια συγκεκριμένη καταχώριση, και έπειτα να επαναλαμβάνεται το ίδιο για κάθε ένα από αυτά τα ping, μέχρι να δημιουργηθεί ένα γράφημα του ιστού των καταχωρίσεων που αναφέρονται η μία στην άλλη για ένα συγκεκριμένο θέμα."
+
+#: modules/blogapi.module:140
+msgid "Publish (rebuild) all of the static files related to an entry from your weblog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr "Δημοσίευση (ανακατασκευή) όλων των στατικών αρχείων που σχετίζονται με μια καταχώριση από το ιστολόγιό σας. Ισοδυναμεί με την αποθήκευση μιας καταχώρισης του συστήματος (αλλά χωρίς το ping)."
+
+#: modules/blogapi.module:218
+msgid "You do not have permission to create the type of post you wanted to create."
+msgstr "Δεν έχετε την άδεια να υποβάλλετε καταχωρίσεις αυτού του τύπου."
+
+#: modules/blogapi.module:233
+msgid "%type: added %title using blog API."
+msgstr "%type: προστέθηκε το %title με χρήση του API ιστολογίων."
+
+#: modules/blogapi.module:238
+#: ;291
+msgid "Error storing post."
+msgstr "Σφάλμα στην αποθήκευση της καταχώρισης."
+
+#: modules/blogapi.module:260
+#: ;500
+msgid "You do not have permission to update this post."
+msgstr "Δεν έχετε την άδεια να ενημερώσετε αυτή την καταχώριση."
+
+#: modules/blogapi.module:287
+msgid "%type: updated %title using blog API."
+msgstr "%type: ενημερώθηκε το %title με χρήση του API ιστολογίων."
+
+#: modules/blogapi.module:372
+msgid "No file sent."
+msgstr "Δεν στάλθηκε κανένα αρχείο."
+
+#: modules/blogapi.module:376
+msgid "Error storing file."
+msgstr "Σφάλμα στην αποθήκευση αρχείου."
+
+#: modules/blogapi.module:482
+msgid "Not implemented."
+msgstr "Δεν έχει υλοποιηθεί."
+
+#: modules/blogapi.module:495
+msgid "Invalid post."
+msgstr "Μη έγκυρη καταχώριση."
+
+#: modules/blogapi.module:535
+msgid "You either tried to edit somebody else's blog or you don't have permission to edit your own blog."
+msgstr "Είτε επιχειρήσατε να τροποποιήσετε το ιστολόγιο κάποιου άλλου είτε δεν έχετε την άδεια να τροποποιείτε το δικό σας."
+
+#: modules/blogapi.module:539
+msgid "Wrong username or password."
+msgstr "Λάθος όνομα λογαριασμού ή κωδικός εισόδου"
+
+#: modules/blogapi.module:559
+msgid "XML-RPC Engine"
+msgstr "Μηχανή XML-RPC"
+
+#: modules/blogapi.module:561
+msgid "RSD or Really-Simple-Discovery is a mechanism which allows external blogger tools to discover the APIs they can use to interact with Drupal. Here you can set the preferred method for blogger tools to interact with your site. The common XML-RPC engines are Blogger, MetaWeblog and Movabletype. If you are not sure which is the correct setting, choose Blogger."
+msgstr "Το RSD (Really-Simple-Discovery) είναι ένας μηχανισμός που επιτρέπει σε εξωτερικά εργαλεία ιστολογίων να ανακαλύπτουν τα API που μπορούν να χρησιμοποιούν για να συνδιαλέγονται με το Drupal. Εδώ μπορείτε να ορίσετε την προτιμώμενη μέθοδο για να συνδιαλέγονται τα εργαλεία ιστολογίων με τον ιστότοπό σας. Οι πιο συνηθισμένες μηχανές XML-RPC είναι οι Blogger, MetaWeblog και Movabletype. Αν έχετε αμφιβολία για τη σωστή ρύθιμιση, επιλέξτε Blogger."
+
+#: modules/blogapi.module:567
+msgid "Blog types"
+msgstr "Τύποι ιστολογίων"
+
+#: modules/blogapi.module:569
+msgid "Select the content types for which you wish to enable posting via blogapi. Each type will appear as a different \"blog\" in the client application (if supported)."
+msgstr "Επιλέξτε τους τύπους ύλης για τους οποίους θέλετε να κάνετε δυνατή την υποβολή μέσω του API ιστολογίων. Κάθε τύπος θα εμφανίζεται ως διαφορετικό \"ιστολόγιο\" στην εφαρμογή-πελάτη (αν υποστηρίζεται)."
+
+#: modules/blogapi.module:581
+#: ;586
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi.module:0
+msgid "blogapi"
+msgstr "API ιστολογίων"
+

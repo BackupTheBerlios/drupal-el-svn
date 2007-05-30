@@ -1,0 +1,475 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-06-13 23:06+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: modules/comment.module:73
+msgid "The comment module creates a discussion board for each post. Users can post comments to discuss a forum topic, weblog post, story, collaborative book page, etc. The ability to comment is an important part of involving members in a community dialogue."
+msgstr "Η μονάδα comment δημιουργεί μια συζήτηση για κάθε δημοσίευμα. Οι χρήστες μπορούν να υποβάλλουν σχόλια για να συζητούν ένα θέμα συζήτησης, ιστολόγημα, ιστόρημα, σελίδα συνεργατικού βιβλίου κ.λπ. Η δυνατότητα του σχολιασμού είναι σημαντικό μέρος της συμμετοχής των μελών στο διάλογο σε μια κοινότητα."
+
+#: modules/comment.module:74
+msgid "An administrator can give comment permissions to user groups, and users can (optionally) edit their last comment, assuming no others have been posted since.  Attached to each comment board is a control panel for customizing the way that comments are displayed. Users can control the chronological ordering of posts (newest or oldest first) and the number of posts to display on each page.  Comments behave like other user submissions. Filters, smileys and HTML that work in nodes will also work with comments. The comment module provides specific features to inform site members when new comments have been posted."
+msgstr "Ένας διαχειριστής μπορεί να δίνει άδειες σχολιασμού σε ομάδες χρηστών, και οι χρήστες μπορούν (προαιρετικά) να διορθώνουν το τελευταίο τους σχόλιο εφόσον δεν έχουν υποβληθεί άλλα σχόλια στο μεταξύ.  Σε κάθε σελίδα σχολίων υπάρχει ένας πίνακας ελέγχου για την προσαρμογή του τρόπου που παρουσιάζονται τα σχόλια. Οι χρήστες μπορούν να ελέγχουν τη χρονολογική σειρά των καταχωρίσεων (πρώτα τα νεότερα ή τα παλιότερα) και τον αριθμό των σχολίων που θα εμφανίζονται σε κάθε σελίδα. Τα σχόλια συμπεριφέρονται όπως και οι άλλες καταχωρίσεις των χρηστών. Τα φίλτρα, οι φατσούλες και η HTML που λειτουργούν στους κόμβους λειτουργούν και στα σχόλια. Η μονάδα comment παρέχει ειδικές λειτουργίες για να πληροφορούνται τα μέλη του ιστοτόπου όταν έχουν υποβληθεί νέα σχόλια."
+
+#: modules/comment.module:75
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>control access for various comment module functions through access permissions <a href=\"%admin-access\">administer &gt;&gt; access control</a>.</li>\n"
+"<li>administer comments <a href=\"%admin-comment-configure\"> administer &gt;&gt; comments &gt;&gt; configure</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Μπορείτε</p>\n"
+"<ul>\n"
+"<li>να ελέγχετε την πρόσβαση σε διάφορες λειτουργίες της μονάδας comment από τη σελίδα των αδειών πρόσβασης <a href=\"%admin-access\">διαχείριση &gt;&gt; έλεγχος πρόσβασης</a>.</li>\n"
+"<li>να διαχειρίζεστε τα σχόλια: <a href=\"%admin-comment-configure\"> διαχείριση &gt;&gt; σχόλια &gt;&gt; διευθέτηση</a>.</li>\n"
+"</ul>\n"
+
+#: modules/comment.module:81
+msgid "For more information please read the configuration and customization handbook <a href=\"%comment\">Comment page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"%comment\">σελίδα Comment</a>."
+
+#: modules/comment.module:84
+msgid "Allows users to comment on and discuss published content."
+msgstr "Να επιτρέπεται στους χρήστες να σχολιάζουν και να συζητούν δημοσιευμένη ύλη."
+
+#: modules/comment.module:87
+msgid "<p>Below is a list of the latest comments posted to your site. Click on a subject to see the comment, the author's name to edit the author's user information , \"edit\" to modify the text, and \"delete\" to remove their submission.</p>"
+msgstr "<p>Ακολουθεί μια λίστα των τελευταίων σχολίων που υποβλήθηκαν στον ιστότοπό σας. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο \"τροποποίηση\" για να τροποποιήσετε το κείμενο, και στο \"διαγραφή\" για να διαγράψετε την καταχώριση.</p>"
+
+#: modules/comment.module:89
+msgid "<p>Below is a list of the comments posted to your site that need approval. To approve a comment, click on \"edit\" and then change its \"moderation status\" to Approved. Click on a subject to see the comment, the author's name to edit the author's user information, \"edit\" to modify the text, and \"delete\" to remove their submission.</p>"
+msgstr "<p>Ακολουθεί μια λίστα των σχολίων που υποβλήθηκαν στον ιστότοπό σας τα οποία χρειάζονται έγκριση. Για να εγκρίνετε ένα σχόλιο, πατήστε στο \"επεξεργασία\" και μετά αλλάξτε την \"κατάσταση επιμέλειας\" σε Εγκεκριμένο. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο \"τροποποίηση\" για να τροποποιήσετε το κείμενο, και στο \"διαγραφή\" για να διαγράψετε την καταχώριση.</p>"
+
+#: modules/comment.module:92
+msgid "<p>Comments can be attached to any node, and their settings are below. The display comes in two types: a \"flat list\" where everything is flush to the left side, and comments come in chronological order, and a \"threaded list\" where replies to other comments are placed immediately below and slightly indented, forming an outline. They also come in two styles: \"expanded\", where you see both the title and the contents, and \"collapsed\" where you only see the title. Preview comment forces a user to look at their comment by clicking on a \"Preview\" button before they can actually add the comment.</p>"
+msgstr "<p>Σχόλια μπορούν να επισυνάπτονται σε οποιονδήποτε κόμβο, και οι ρυθμίσεις τους παρουσιάζονται παρακάτω. Η παρουσίασή τους μπορεί να είναι δύο τύπων: \"επίπεδη λίστα\" όπου όλα ευθυγραμμίζονται αριστερά και τα σχόλια είναι σε χρονολογική σειρά, και  \"λίστα νημάτων\" όπου οι απαντήσεις στα διάφορα σχόλια τοποθετούνται ακριβώς από κάτω τους και σε εσοχή, σχηματίζοντας μια διάρθρωση. Επίσης, μπορεί να παρουσιάζονται σε δύο στιλ: \"ξεδιπλωμένα\", όπου βλέπετε και τον τίτλο και το περιεχόμενο, και \"συμπτυγμένα\", όπου βλέπετε μόνο τον τίτλο. Η δοκιμή εμφάνισης των σχολίων υποχρεώνει το χρήστη να κοιτάξει το σχόλιό του πατώντας σε ένα κουμπί \"Δοκιμή εμφάνισης\" προτού μπορέσει να το καταχωρίσει πραγματικά.</p>"
+
+#: modules/comment.module:104
+msgid "comments"
+msgstr "σχόλια"
+
+#: modules/comment.module:114
+msgid "published comments"
+msgstr "δημοσιευμένα σχόλια"
+
+#: modules/comment.module:116
+msgid "approval queue"
+msgstr "ουρά έγκρισης"
+
+#: modules/comment.module:124
+msgid "delete comment"
+msgstr "διαγραφή σχολίου"
+
+#: modules/comment.module:128
+msgid "edit comment"
+msgstr "τροποποίηση σχολίου"
+
+#: modules/comment.module:135
+msgid "reply to comment"
+msgstr "απάντηση στο σχόλιο"
+
+#: modules/comment.module:163
+#: ;167
+msgid "Recent comments"
+msgstr "Πρόσφατα σχόλια"
+
+#: modules/comment.module:198
+msgid "Jump to the first comment of this posting."
+msgstr "Στο πρώτο σχόλιο αυτής της καταχώρισης"
+
+#: modules/comment.module:201
+msgid "Jump to the first new comment of this posting."
+msgstr "Στο πρώτο νέο σχόλιο αυτής της καταχώρισης"
+
+#: modules/comment.module:207
+#: ;223
+msgid "add new comment"
+msgstr "σχολιάστε το"
+
+#: modules/comment.module:207
+msgid "Add a new comment to this page."
+msgstr "Προσθέστε ένα νέο σχόλιο σε αυτή τη σελίδα."
+
+#: modules/comment.module:223
+msgid "Share your thoughts and opinions related to this posting."
+msgstr "Μοιραστείτε τις σκέψεις και τις γνώμες σας σχετικα με αυτό το δημιοσίευμα."
+
+#: modules/comment.module:243
+msgid "Default comment setting"
+msgstr "Προεπιλεγμένες ρυθμίσεις σχολίων"
+
+#: modules/comment.module:243
+#: ;259
+msgid "Read only"
+msgstr "Μόνο για ανάγνωση"
+
+#: modules/comment.module:243
+#: ;259
+msgid "Read/Write"
+msgstr "Για ανάγνωση/εγγραφή"
+
+#: modules/comment.module:243
+msgid "Users with the <em>administer comments</em> permission will be able to override this setting."
+msgstr "Οι χρήστες με την άδεια <em>διαχείρισης σχολίων</em> θα μπορούν να παρακάμψουν αυτή τη ρύθμιση."
+
+#: modules/comment.module:250
+#: ;324
+msgid "Comment settings"
+msgstr "Ρυθμίσεις σχολίων"
+
+#: modules/comment.module:329
+msgid "Signature"
+msgstr "Υπογραφή"
+
+#: modules/comment.module:331
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Η υπογραφή σας θα εμφανίζεται δημόσια στο τέλος των σχολίων σας."
+
+#: modules/comment.module:347
+msgid "Viewing options"
+msgstr "Επιλογές εμφάνισης"
+
+#: modules/comment.module:354
+msgid "Default display mode"
+msgstr "Προεπιλεγμένος τρόπος παρουσίασης"
+
+#: modules/comment.module:357
+msgid "The default view for comments. Expanded views display the body of the comment. Threaded views keep replies together."
+msgstr "Η προεπιλεγμένη άποψη των σχολίων. Οι ξεδιπλωμένες απόψεις εμφανίζουν το περιεχόμενο των σχολίων. Οι απόψεις νημάτων διατηρούν τις σχετικές απαντήσεις μαζί."
+
+#: modules/comment.module:362
+msgid "Default display order"
+msgstr "Προεπιλεγμένη σειρά παρουσίασης"
+
+#: modules/comment.module:365
+msgid "The default sorting for new users and anonymous users while viewing comments. These users may change their view using the comment control panel. For registered users, this change is remembered as a persistent user preference."
+msgstr "Η προεπιλεγμένη ταξινόμηση για τους νέους και τους ανώνυμους χρήστες όταν δοαβάζουν σχόλια. Αυτοί οι χρήστες μπορούν να αλλάζουν την άποψή τους χρησιμοποιώντας τον πίνακα ελέγχου των σχολίων. Για τους εγγεγραμμένους χρήστες, η αλλαγή αυτή παραμένει ως μόνιμη προτίμησή τους."
+
+#: modules/comment.module:370
+msgid "Default comments per page"
+msgstr "Προεπιλογή για σχόλια ανά σελίδα"
+
+#: modules/comment.module:373
+msgid "Default number of comments for each page: more comments are distributed in several pages."
+msgstr "Ο προεπιλεγμένος αριθμός σχολίων σε κάθε σελίδα. Αν υπάρχουν περισσότερα σχόλια κατανέμονται σε πολλές σελίδες."
+
+#: modules/comment.module:378
+msgid "Comment controls"
+msgstr "Χειριστήρια σχολίων"
+
+#: modules/comment.module:381
+msgid "Display above the comments"
+msgstr "Να εμφανίζονται πάνω από τα σχόλια"
+
+#: modules/comment.module:382
+msgid "Display below the comments"
+msgstr "Να εμφανίζονται κάτω από τα σχόλια"
+
+#: modules/comment.module:383
+msgid "Display above and below the comments"
+msgstr "Να εμφανίζονται πάνω και κάτω από τα σχόλια"
+
+#: modules/comment.module:384
+msgid "Do not display"
+msgstr "Να μην εμφανίζονται"
+
+#: modules/comment.module:385
+msgid "Position of the comment controls box.  The comment controls let the user change the default display mode and display order of comments."
+msgstr "Η θέση του πλαισίου των χειριστηρίων των σχολίων  Τα χειριστήρια των σχολίων επιτρέπουν στο χρήστη να αλλάζει τον προεπιλεγμένο τρόπο και σειρά παρουσίασης των σχολίων."
+
+#: modules/comment.module:390
+msgid "Posting settings"
+msgstr "Ρυθμίσεις υποβολής"
+
+#: modules/comment.module:397
+msgid "Anonymous commenting"
+msgstr "Ανώνυμος σχολιασμός"
+
+#: modules/comment.module:400
+msgid "Anonymous posters may not enter their contact information"
+msgstr "Οι ανώνυμοι συντάκτες δεν μπορούν να αφήνουν πληροφορίες επικοινωνίας"
+
+#: modules/comment.module:401
+msgid "Anonymous posters may leave their contact information"
+msgstr "Οι ανώνυμοι συντάκτες μπορούν να αφήνουν πληροφορίες επικοινωνίας"
+
+#: modules/comment.module:402
+msgid "Anonymous posters must leave their contact information"
+msgstr "Οι ανώνυμοι συντάκτες πρέπει να αφήνουν πληροφορίες επικοινωνίας"
+
+#: modules/comment.module:403
+msgid "This option is enabled when anonymous users have permission to post comments on the <a href=\"%url\">permissions page</a>."
+msgstr "Η επιλογή αυτή ενεργοποιείται όταν έχει δοθεί στους ανώνυμοι χρήστες η άδεια να υποβάλλουν σχόλια, από τη <a href=\"%url\">σελίδα των αδειών</a>."
+
+#: modules/comment.module:411
+msgid "Comment subject field"
+msgstr "Πεδίο θέματος σχολίου"
+
+#: modules/comment.module:414
+msgid "Can users provide a unique subject for their comments?"
+msgstr "Μπορούν οι χρήστες να δίνουν τίτλο στα σχόλιά τους;"
+
+#: modules/comment.module:419
+#: ;480;1325;1331;1335;1356
+msgid "Preview comment"
+msgstr "Δοκιμή εμφάνισης σχολίου"
+
+#: modules/comment.module:426
+msgid "Location of comment submission form"
+msgstr "Θέση της φόρμας υποβολής σχολίου"
+
+#: modules/comment.module:428
+msgid "Display on separate page"
+msgstr "Να εμφανίζεται σε ξεχωριστή σελίδα"
+
+#: modules/comment.module:428
+msgid "Display below post or comments"
+msgstr "Να εμφανίζεται κάτω από την καταχώριση ή τα σχόλια"
+
+#: modules/comment.module:485
+#: ;521
+msgid "You are not authorized to post comments."
+msgstr "Δεν έχετε εξουσιοδότηση να υποβάλλετε σχόλια."
+
+#: modules/comment.module:496
+#: ;504
+msgid "The comment you are replying to does not exist."
+msgstr "Το σχόλιο στο οποίο απαντάτε δεν υπάρχει."
+
+#: modules/comment.module:514
+msgid "This discussion is closed: you can't post new comments."
+msgstr "Η συζήτηση αυτή έχει κλείσει. Δεν μπορείτε να υποβάλετε νέα σχόλια."
+
+#: modules/comment.module:518
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: modules/comment.module:527
+msgid "You are not authorized to view comments."
+msgstr "Δεν έχετε εξουσιοδότηση να διαβάζετε σχόλια."
+
+#: modules/comment.module:552
+msgid "Comment: duplicate %subject."
+msgstr "Σχόλιο: επανάληψη του %subject."
+
+#: modules/comment.module:566
+#: ;1014
+msgid "Comment: updated %subject."
+msgstr "Σχόλιο: ενημερώθηκε το %subject."
+
+#: modules/comment.module:639
+msgid "Comment: added %subject."
+msgstr "Σχόλιο: προστέθηκε το %subject."
+
+#: modules/comment.module:648
+msgid "Your comment has been queued for moderation by site administrators and will be published after approval."
+msgstr "Το σχόλιό σας είναι στην ουρά για επιμέλεια από τη διαχείριση του ιστοτόπου και θα δημοσιευτεί αφού εγκριθεί."
+
+#: modules/comment.module:657
+msgid "Comment: unauthorized comment submitted or comment submitted to a closed node %subject."
+msgstr "Σχόλιο: υποβλήθηκε σχόλιο χωρίς εξουσιοδότηση ή σε κόμβο που έχει κλείσει: %subject."
+
+#: modules/comment.module:671
+msgid "parent"
+msgstr "γονέας"
+
+#: modules/comment.module:678
+#: ;684
+msgid "reply"
+msgstr "απάντηση"
+
+#: modules/comment.module:863
+msgid "Post new comment"
+msgstr "Υποβολή νέου σχολίου"
+
+#: modules/comment.module:882
+msgid "The comment and all its replies have been deleted."
+msgstr "Το σχόλιο και όλες οι απαντήσεις του διαγράφηκαν."
+
+#: modules/comment.module:897
+msgid "Are you sure you want to delete the comment %title?"
+msgstr "Θέλετε σίγουρα να διαγράψετε το σχόλιο %title;"
+
+#: modules/comment.module:899
+msgid "Any replies to this comment will be lost. This action cannot be undone."
+msgstr "Όλες οι απαντήσεις στο σχόλιο θα χαθούν. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/comment.module:904
+msgid "The comment no longer exists."
+msgstr "Το σχόλιο δεν υπάρχει πια."
+
+#: modules/comment.module:917
+#: ;929
+msgid "Publish the selected comments"
+msgstr "Να δημοσιευτούν τα επιλεγμένα σχόλια"
+
+#: modules/comment.module:918
+#: ;924;931
+msgid "Delete the selected comments"
+msgstr "Να διαγραφούν τα επιλεγμένα σχόλια"
+
+#: modules/comment.module:923
+#: ;930
+msgid "Unpublish the selected comments"
+msgstr "Να αρθεί η δημοσίευση των επιλεγμένων σχολίων"
+
+#: modules/comment.module:991
+msgid "Please select one or more comments to perform the update on."
+msgstr "Επιλέξτε ένα ή περισσότερα σχόλια στα οποία θα γίνει η ενημέρωση."
+
+#: modules/comment.module:1037
+msgid "No comments available."
+msgstr "Δεν υπάρχουν διαθέσιμα σχόλια."
+
+#: modules/comment.module:1066
+msgid "Are you sure you want to delete these comments and all their children?"
+msgstr "Θέλετε σίγουρα να διαγράψετε αυτά τα σχόλια και όλα τα θυγατρικά τους;"
+
+#: modules/comment.module:1068
+msgid "Delete comments"
+msgstr "Διαγραφή σχολίων"
+
+#: modules/comment.module:1082
+msgid "The comments have been deleted."
+msgstr "Τα σχόλια διαγράφηκαν."
+
+#: modules/comment.module:1159
+msgid "You have to specify a valid author."
+msgstr "Πρέπει να δώσετε ένα έγκυρο όνομα."
+
+#: modules/comment.module:1169
+msgid "The name you used belongs to a registered user."
+msgstr "Το όνομα που χρησιμοποιήσατε ανήκει σε εγγεγραμμένο χρήστη."
+
+#: modules/comment.module:1174
+msgid "You have to leave your name."
+msgstr "Πρέπει να αφήσετε το όνομά σας."
+
+#: modules/comment.module:1179
+msgid "The e-mail address you specified is not valid."
+msgstr "Η διεύθυνση e-mail που δώσατε δεν είναι έγκυρη."
+
+#: modules/comment.module:1183
+msgid "You have to leave an e-mail address."
+msgstr "Πρέπει να αφήσετε μια διεύθυνση e-mail."
+
+#: modules/comment.module:1188
+msgid "The URL of your homepage is not valid.  Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
+msgstr "Η URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι σε πλήρη μορφή, δηλαδή σε μορφή <code>http://παράδειγμα.com/λεπτομέρειες</code>."
+
+#: modules/comment.module:1235
+msgid "Administration"
+msgstr "Διαχείριση"
+
+#: modules/comment.module:1278
+#: ;1303;1310
+msgid "Homepage"
+msgstr "Ιστοσελίδα"
+
+#: modules/comment.module:1287
+msgid "Not published"
+msgstr "Αδημοσίευτο"
+
+#: modules/comment.module:1317
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: modules/comment.module:1331
+#: ;1332
+msgid "Post comment"
+msgstr "Υποβολή σχολίου"
+
+#: modules/comment.module:1490
+msgid "%a comments per page"
+msgstr "%a σχόλια ανά σελίδα"
+
+#: modules/comment.module:1499
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: modules/comment.module:1510
+msgid "Select your preferred way to display the comments and click \"Save settings\" to activate your changes."
+msgstr "Επιλέξτε τον τρόπο που προτιμάτε να παρουσιάζονται τα σχόλια και πατήστε στο \"Αποθήκευση ρυθμίσεων\" για να εφαρμοστούν οι αλλαγές σας."
+
+#: modules/comment.module:1511
+msgid "Comment viewing options"
+msgstr "Επιλογές εμφάνισης σχολίων"
+
+#: modules/comment.module:1534
+msgid "by %a on %b"
+msgstr "%a, %b"
+
+#: modules/comment.module:1544
+msgid "by"
+msgstr "από:"
+
+#: modules/comment.module:1582
+msgid "you can't post comments"
+msgstr "δεν μπορείτε να υποβάλετε σχόλια"
+
+#: modules/comment.module:1594
+msgid "<a href=\"%login\">login</a> or <a href=\"%register\">register</a> to post comments"
+msgstr "<a href=\"%login\">εισέλθετε στο σύστημα</a> ή <a href=\"%register\">εγγραφείτε </a> για να υποβάλετε σχόλια"
+
+#: modules/comment.module:1597
+msgid "<a href=\"%login\">login</a> to post comments"
+msgstr "<a href=\"%login\">εισέλθετε στο σύστημα</a> για να υποβάλετε σχόλια"
+
+#: modules/comment.module:1605
+msgid "Comment: deleted %subject."
+msgstr "Σχόλιο: διαγράφηκε το %subject."
+
+#: modules/comment.module:1625
+msgid "Flat list - collapsed"
+msgstr "Επίπεδη λίστα - συμπτυγμένη"
+
+#: modules/comment.module:1626
+msgid "Flat list - expanded"
+msgstr "Επίπεδη λίστα - ξεδιπλωμένη"
+
+#: modules/comment.module:1627
+msgid "Threaded list - collapsed"
+msgstr "Λίστα νημάτων - συμπτυγμένη"
+
+#: modules/comment.module:1628
+msgid "Threaded list - expanded"
+msgstr "Λίστα νημάτων - ξεδιπλωμένη"
+
+#: modules/comment.module:201
+msgid "1 new comment"
+msgid_plural "%count new comments"
+msgstr[0] "1 νέο σχόλιο"
+msgstr[1] "%count νέα σχόλια"
+
+#: modules/comment.module:153
+msgid "access comments"
+msgstr "πρόσβαση σε σχόλια"
+
+#: modules/comment.module:153
+msgid "post comments"
+msgstr "υποβολή σχολίων"
+
+#: modules/comment.module:153
+msgid "administer comments"
+msgstr "διαχείριση σχολίων"
+
+#: modules/comment.module:153
+msgid "post comments without approval"
+msgstr "υποβολή σχολίων χωρίς έγκριση"
+
+#: modules/comment.module:0
+msgid "comment"
+msgstr "σχόλιο"
+

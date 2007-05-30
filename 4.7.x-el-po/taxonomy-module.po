@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-06-02 21:18+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: modules/taxonomy.module:65
+msgid "add vocabulary"
+msgstr "νέο λεξιλόγιο"
+
+#: modules/taxonomy.module:71
+#: ;134
+msgid "edit vocabulary"
+msgstr "τροποποίηση λεξιλογίου"
+
+#: modules/taxonomy.module:77
+msgid "edit term"
+msgstr "τροποποίηση όρου"
+
+#: modules/taxonomy.module:83
+msgid "taxonomy term"
+msgstr "όρος ταξονομίας"
+
+#: modules/taxonomy.module:89
+msgid "autocomplete taxonomy"
+msgstr "αυτόματη συμπλήρωση ταξονομίας"
+
+#: modules/taxonomy.module:97
+#: ;135
+msgid "list terms"
+msgstr "λίστα όρων"
+
+#: modules/taxonomy.module:109
+msgid "add term"
+msgstr "νέος όρος"
+
+#: modules/taxonomy.module:136
+msgid "add terms"
+msgstr "νέοι όροι"
+
+#: modules/taxonomy.module:140
+msgid "No categories available."
+msgstr "Δεν υπάρχουν διαθέσιμες κατηγορίες."
+
+#: modules/taxonomy.module:172
+msgid "No terms available."
+msgstr "Δεν υπάρχουν διαθέσιμοι όροι."
+
+#: modules/taxonomy.module:190
+msgid "Vocabulary name"
+msgstr "Όνομα λεξιλογίου"
+
+#: modules/taxonomy.module:193
+msgid "The name for this vocabulary.  Example: \"Topic\"."
+msgstr "Το όνομα αυτού του λεξιλογίου. Παράδειγμα: \"Θέμα\"."
+
+#: modules/taxonomy.module:199
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "Περιγραφή του λεξιλογίου. Μπορεί να χρησιμοποιείται από τις μονάδες."
+
+#: modules/taxonomy.module:202
+msgid "Help text"
+msgstr "Κείμενο οδηγιών"
+
+#: modules/taxonomy.module:205
+msgid "Instructions to present to the user when choosing a term."
+msgstr "Οδηγίες που θα παρουσιάζονται στο χρήστη όταν διαλέγει έναν όρο."
+
+#: modules/taxonomy.module:208
+msgid "Types"
+msgstr "Τύποι"
+
+#: modules/taxonomy.module:211
+msgid "A list of node types you want to associate with this vocabulary."
+msgstr "Λίστα των τύπων κόμβων που θέλετε να συνδέσετε με αυτό το λεξιλόγιο."
+
+#: modules/taxonomy.module:215
+msgid "Hierarchy"
+msgstr "Ιεραρχία"
+
+#: modules/taxonomy.module:217
+msgid "Single"
+msgstr "Απλή"
+
+#: modules/taxonomy.module:217
+msgid "Multiple"
+msgstr "Πολλαπλή"
+
+#: modules/taxonomy.module:218
+msgid "Allows <a href=\"%help-url\">a tree-like hierarchy</a> between terms of this vocabulary."
+msgstr "Επιτρέπει μια <a href=\"%help-url\">ιεραρχία με μορφή δέντρου</a> μεταξύ των όρων αυτού του λεξιλογίου."
+
+#: modules/taxonomy.module:221
+#: ;375
+msgid "Related terms"
+msgstr "Σχετικοί όροι"
+
+#: modules/taxonomy.module:223
+msgid "Allows <a href=\"%help-url\">related terms</a> in this vocabulary."
+msgstr "Επιτρέπει <a href=\"%help-url\">σχετικούς όρους</a> σε αυτό το λεξιλόγιο."
+
+#: modules/taxonomy.module:226
+msgid "Free tagging"
+msgstr "Ελεύθερη σήμανση"
+
+#: modules/taxonomy.module:228
+msgid "Content is categorized by typing terms instead of choosing from a list."
+msgstr "Η ύλη κατηγοριοποιείται με την πληκτρολόγηση όρων, αντί να επιλέγονται από μια λίστα."
+
+#: modules/taxonomy.module:231
+msgid "Multiple select"
+msgstr "Πολλαπλή επιλογή"
+
+#: modules/taxonomy.module:233
+msgid "Allows nodes to have more than one term from this vocabulary (always true for free tagging)."
+msgstr "Επιτρέπει να έχουν οι κόμβοι περισσότερους από έναν όρους από αυτό το λεξιλόγιο (ισχύει πάντα για την ελεύθερη σήμανση)."
+
+#: modules/taxonomy.module:238
+msgid "If enabled, every node <strong>must</strong> have at least one term in this vocabulary."
+msgstr "Αν επιλεχθεί, κάθε κόμβος <strong>πρέπει</strong> να έχει τουλάχιστον έναν όρο από αυτό το λεξιλόγιο."
+
+#: modules/taxonomy.module:243
+msgid "In listings, the heavier vocabularies will sink and the lighter vocabularies will be positioned nearer the top."
+msgstr "Στις λίστες, τα βαρύτερα λεξιλόγια θα βουλιάζουν και τα ελαφρύτερα θα τοποθετούνται πιο κοντά στην κορυφή."
+
+#: modules/taxonomy.module:272
+msgid "Created new vocabulary %name."
+msgstr "Το νέο λεξιλόγιο %name δημιουργήθηκε."
+
+#: modules/taxonomy.module:275
+msgid "Updated vocabulary %name."
+msgstr "Το λεξιλόγιο %name ενημερώθηκε."
+
+#: modules/taxonomy.module:335
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "Θέλετε σίγουρα να διαγράψετε το λεξιλόγιο %title;"
+
+#: modules/taxonomy.module:337
+msgid "Deleting a vocabulary will delete all the terms in it. This action cannot be undone."
+msgstr "Με τη διαγραφή ενός λεξιλογίου διαγράφονται όλοι οι όροι που περιέχει. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/taxonomy.module:344
+msgid "Deleted vocabulary %name."
+msgstr "Το λεξιλόγιο %name διαγράφηκε."
+
+#: modules/taxonomy.module:352
+msgid "Term name"
+msgstr "Όνομα όρου"
+
+#: modules/taxonomy.module:352
+msgid "The name for this term.  Example: \"Linux\"."
+msgstr "Το όνομα αυτού του όρου. Παράδειγμα: \"Linux\"."
+
+#: modules/taxonomy.module:354
+msgid "A description of the term."
+msgstr "Μια περιγραφή του όρου."
+
+#: modules/taxonomy.module:367
+msgid "Parent term"
+msgstr "Γονικός όρος"
+
+#: modules/taxonomy.module:370
+msgid "Parents"
+msgstr "Γονείς"
+
+#: modules/taxonomy.module:370
+msgid "Parent terms"
+msgstr "Γονικοί όροι"
+
+#: modules/taxonomy.module:378
+msgid "Synonyms"
+msgstr "Συνώνυμα"
+
+#: modules/taxonomy.module:378
+msgid "<a href=\"%help-url\">Synonyms</a> of this term, one synonym per line."
+msgstr "Τα <a href=\"%help-url\">συνώνυμα</a> αυτού του όρου, ένα στην κάθε γραμμή."
+
+#: modules/taxonomy.module:379
+msgid "In listings, the heavier terms will sink and the lighter terms will be positioned nearer the top."
+msgstr "Στις λίστες, οι βαρύτεροι όροι θα βουλιάζουν και οι ελαφρύτεροι θα τοποθετούνται πιο κοντά στην κορυφή."
+
+#: modules/taxonomy.module:411
+msgid "Created new term %term."
+msgstr "Ο νέος όρος %term δημιουργήθηκε."
+
+#: modules/taxonomy.module:414
+msgid "The term %term has been updated."
+msgstr "Ο όρος %term ενημερώθηκε."
+
+#: modules/taxonomy.module:521
+msgid "Are you sure you want to delete the term %title?"
+msgstr "Θέλετε σίγουρα να διαγράψετε τον όρο %title;"
+
+#: modules/taxonomy.module:524
+msgid "Deleting a term will delete all its children if there are any. This action cannot be undone."
+msgstr "Με τη διαγραφή ενός όρου διαγράφονται όλοι οι θυγατρικοί του, αν υπάρχουν. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/taxonomy.module:531
+msgid "Deleted term %name."
+msgstr "Ο όρος %name διαγράφηκε."
+
+#: modules/taxonomy.module:639
+msgid "A comma-separated list of terms describing this content.  Example: funny, bungee jumping, \"Company, Inc.\"."
+msgstr "Λίστα όρων διαχωρισμένων με κόμματα που περιγράφουν αυτή την ύλη.  Παράδειγμα: αστεία, χειμερινά σπορ, \"Εταιρία, ΕΠΕ\"."
+
+#: modules/taxonomy.module:710
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "Το λεξιλόγιο %name δεν μπορεί να τροποποιηθεί με αυτόν τον τρόπο."
+
+#: modules/taxonomy.module:1147
+msgid "There are currently no posts in this category."
+msgstr "Δεν υπάρχουν προς το παρόν καταχωρίσεις σε αυτή την κατηγορία."
+
+#: modules/taxonomy.module:1307
+msgid "The taxonomy module is one of the most popular features because users often want to create categories to organize content by type. It can automatically classify new content, which is very useful for organizing content on-the-fly. A simple example would be organizing a list of music reviews by musical genre."
+msgstr "Η μονάδα taxonomy είναι από τις πιο δημοφιλείς λειτουργικές δυνατότητες επειδή οι χρήστες συχνά θέλουν να δημιουργούν κατηγορίες για να οργανώνουν την ύλη κατά είδος. Μπορεί να ταξινομεί αυτόματα τη νέα ύλη, πράγμα πολύ χρήσιμο για την οργάνωση της ύλης στην πορεία. Ένα απλό παράδειγμα είναι η οργάνωση μιας λίστας μουσικών κριτικών κατά είδος μουσικής."
+
+#: modules/taxonomy.module:1308
+msgid "Taxonomy is also the study of classification. The taxonomy module allows you to define vocabularies (sets of categories) which are used to classify content. The module supports hierarchical classification and association between terms, allowing for truly flexible information retrieval and classification. The taxonomy module allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms) and taxonomies (controlled vocabularies where relationships are indicated hierarchically). To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose <em>edit vocabulary.</em>"
+msgstr "Ταξονομία είναι επίσης η μελέτη της ταξινόμησης. Η μονάδα taxonomy σας επιτρέπει να ορίζετε λεξιλόγια (σύνολα κατηγοριών) τα οποία χρησιμεύουν στην ταξινόμηση ύλης. Η μονάδα υποστηρίζει ιεραρχική ταξινόμηση και συχέτιση μεταξύ όρων, επιτρέποντας πραγματικά ευέλικτη ανάκτηση και κατάταξη των πληροφοριών. Η μονάδα taxonomy επιτρέπει να χρησιμοποιούνται πολλές λίστες κατηγοριών για την ταξινόμηση (ελεγχόμενα λεξιλόγια) και παρέχει τη δυνατότητα να δημιουργούνται θησαυροί (ελεγχόμενα λεξιλόγια που υποδηλώνουν τη σχέση μεταξύ όρων) και ταξονομίες (ελεγχόμενα λεξιλόγια όπου οι σχέσεις υποδηλώνονται ιεραρχικά). Για να βλέπετε και να διαχειρίζεστε τους όρους κάθε λεξιλογίου, πατάτε στην αντίστοιχη παραπομπή <em>λίστας όρων</em>. Για να διαγράψετε ένα λεξιλόγιο και όλους τους όρους του, επιλέξτε <em>τροποποίηση λεξιλογίου.</em>"
+
+#: modules/taxonomy.module:1309
+msgid "A controlled vocabulary is a set of terms to use for describing content (known as descriptors in indexing lingo). Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot's sections. For more complex implementations, you might create a hierarchical list of categories."
+msgstr "Ελεγχόμενο λεξιλόγιο είναι ένα σύνολο όρων που χρησιμοποιούνται για την περιγραφή της ύλης (γνωστοί ως περιγραφείς στην ειδική ορολογία της ευρετηρίασης). Το Drupal σας επιτρέπει να περιγράφετε κάθε στοιχείο ύλης  (ιστολόγιο, ιστόρημα κ.λπ.) χρησιμοποιώντας έναν ή πολλούς από αυτούς τους όρους. Για απλές υλοποιήσεις, θα μπορούσατε να δημιουργήσετε ένα σύνολο κατηγοριών χωρίς υποκατηγορίες, παρόμοιες με τα τμήματα του Slashdot. Για πιο σύνθετες υλοποιήσεις, θα μπορούσατε να δημιουργήσετε μια ιεραρχική λίστα κατηγοριών."
+
+#: modules/taxonomy.module:1310
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>add a vocabulary at <a href=\"%admin-taxonomy-add-vocabulary\">administer &gt;&gt; categories &gt;&gt;  add vocabulary</a>.</li>\n"
+"<li>administer taxonomy at <a href=\"%admin-taxonomy\">administer &gt;&gt; categories</a>.</li>\n"
+"<li>restrict content access by category for specific users roles using the <a href=\"%external-http-drupal-org-project-taxonomy_access\">taxonomy access module</a>.</li>\n"
+"<li>build a custom view of your categories using the <a href=\"%external-http-drupal-org-project-taxonomy_browser\">taxonomy browser</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Μπορείτε</p>\n"
+"<ul>\n"
+"<li>να προσθέσετε ένα λεξιλόγιο: <a href=\"%admin-taxonomy-add-vocabulary\">διαχείριση &gt;&gt; κατηγορίες &gt;&gt;  νέο λεξιλόγιο</a>.</li>\n"
+"<li>να διαχειρίζεστε την ταξονομία: <a href=\"%admin-taxonomy\">διαχείριση &gt;&gt; κατηγορίες</a>.</li>\n"
+"<li>να περιορίσετε την πρόσβαση στην ύλη ανά κατηγορία για συγκεκριμένους ρόλους χρηστών χρησιμοποιώντας τη <a href=\"%external-http-drupal-org-project-taxonomy_access\">μονάδα taxonomy access</a>.</li>\n"
+"<li>να κατασκευάσετε μια προσαρμοσμένη άποψη των κατηγοριών σας χρησιμοποιώντας τη <a href=\"%external-http-drupal-org-project-taxonomy_browser\">μονάδα taxonomy browser</a>.</li>\n"
+"</ul>\n"
+
+#: modules/taxonomy.module:1318
+msgid "For more information please read the configuration and customization handbook <a href=\"%taxonomy\">Taxonomy page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"%taxonomy\">σελίδα Taxonomy</a>."
+
+#: modules/taxonomy.module:1321
+msgid "Enables the categorization of content."
+msgstr "Επιτρέπει την κατάταξη της ύλης σε κατηγορίες."
+
+#: modules/taxonomy.module:1323
+msgid "<p>The taxonomy module allows you to classify content into categories and subcategories; it allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms), taxonomies (controlled vocabularies where relationships are indicated hierarchically), and free vocabularies where terms, or tags, are defined during content creation. To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose \"edit vocabulary\".</p>"
+msgstr "<p>Η μονάδα taxonomy σας επιτρέπει να ταξινομείτε την ύλη σε κατηγορίες και υποκατηγορίες. Επιτρέπει πολλές λίστες κατηγοριών για την ταξινόμηση (ελεγχόμενα λεξιλόγια) και παρέχει τη δυνατότητα να δημιουργούνται θησαυροί (ελεγχόμενα λεξιλόγια που υποδηλώνουν τη σχέση μεταξύ των όρων), ταξονομίες (ελεγχόμενα λεξιλόγια όπου οι σχέσεις υποδηλώνονται ιεραρχικά), και ελεύθερα λεξιλόγια όπου οι όροι, ή ετικέτες, ορίζονται κατά την καταχώριση της ύλης. Για να βλέπετε και να διαχειρίζεστε τους όρους κάθε λεξιλογίου, πατάτε στη σχετική παραπομπή <em>λίστα όρων</em>. Για να διαγράψετε ένα λεξιλόγιο και όλους τους όρους του, επιλέξτε \"τροποποίηση λεξιλογίου\".</p>"
+
+#: modules/taxonomy.module:1325
+msgid "<p>When you create a controlled vocabulary you are creating a set of terms to use for describing content (known as descriptors in indexing lingo).  Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot.org's or Kuro5hin.org's sections. For more complex implementations, you might create a hierarchical list of categories.</p>"
+msgstr "<p>Όταν δημιουργείτε ένα ελεγχόμενο λεξιλόγιο, δημιουργείτε ένα σύνολο όρων που θα χρησιμοποιούνται για την περιγραφή της ύλης (γνωστοί ως περιγραφείς στην ειδική ορολογία της ευρετηρίασης).  Το Drupal σας επιτρέπει να περιγράφετε κάθε στοιχείο ύλης (ιστολόγιο, ιστόρημα κ.λπ.) χρησιμοποιώντας έναν ή πολλούς από αυτούς τους όρους. Για απλές υλοποιήσεις, θα μπορούσατε να δημιουργήσετε ένα σύνολο κατηγοριών χωρίς υποκατηγορίες, παρόμοιες με τα τμήματα του Slashdot.org ή του Kuro5hin.org. Για πιο σύνθετες υλοποιήσεις, θα μπορούσατε να δημιουργήσετε μια ιεραρχική λίστα κατηγοριών.</p>"
+
+#: modules/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "διαχείριση ταξονομίας"
+

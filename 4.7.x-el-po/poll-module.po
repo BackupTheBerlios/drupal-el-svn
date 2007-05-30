@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-05-22 21:09+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: modules/poll.module:16
+msgid "The poll module can be used to create simple polls for site users.  A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll.  Having polls on the site is a good way to get instant feedback from community members."
+msgstr "Η μονάδα poll μπορεί να χρησιμοποιηθεί για τη δημιουργία απλών ψηφοφοριών για τους χρήστες του ιστοτόπου.  Ψηφοφορία είναι ένα απλό ερωτηματολόγιο πολλαπλής επιλογής το οποίο εμφανίζει τα αθροιστικά αποτελέσματα των απαντήσεων.  Οι ψηφοφορίες σε έναν ιστότοπο είναι ένας καλός τρόπος για να παίρνετε άμεσα τη γνώμη των μελών της κοινότητας."
+
+#: modules/poll.module:17
+msgid "Users can create a poll. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.The <a href=\"%poll\">poll</a> item in the navigation menu will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results."
+msgstr "Οι χρήστες μπορούν να δημιουργούν ψηφοφορίες. Ο τίτλος της ψηφοφορίας θα πρέπει να είναι η ερώτηση, και μετά δίνετε τις απαντήσεις και τους \"βασικούς\" αριθμούς ψήφων. Μπορείτε επίσης να ορίσετε μια χρονική περίοδο κατά την οποία θα γίνεται η ψηφοφορία. Το στοιχείο <a href=\"%poll\">ψηφοφορία</a> του μενού πλοήγησης σας πηγαίνει σε μια σελίδα όπου μπορείτε να δείτε όλες τις τρέχουσες ψηφοφορίες, να ψηφίσετε (αν δεν το έχετε κάνει ήδη) και να δείτε τα αποτελέσματα."
+
+#: modules/poll.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view the <a href=\"%poll\">polls page</a>.</li>\n"
+"<li><a href=\"%admin-node-configure-types-poll\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure poll</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Μπορείτε</p>\n"
+"<ul>\n"
+"<li>να δείτε τη <a href=\"%poll\">σελίδα των ψηφοφοριών</a>.</li>\n"
+"<li><a href=\"%admin-node-configure-types-poll\">διαχείριση &gt;&gt; ρυθμίσεις &gt;&gt; τύποι ύλης &gt;&gt; διευθέτηση των ψηφοφοριών</a>.</li>\n"
+"</ul>\n"
+
+#: modules/poll.module:24
+msgid "For more information please read the configuration and customization handbook <a href=\"%poll\">Poll page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"%poll\">σελίδα Poll</a>."
+
+#: modules/poll.module:27
+msgid "Allows your site to capture votes on different topics in the form of multiple choice questions."
+msgstr "Επιτρέπει στον ιστότοπό σας να κάνει ψηφοφορίες σε διάφορα θέματα με τη μορφή ερωτήσεων πολλαπλής επιλογής."
+
+#: modules/poll.module:29
+msgid "A poll is a multiple-choice question which visitors can vote on."
+msgstr "Ψηφοφορία είναι μια ερώτηση πολλαπλής επιλογής στην οι επισκέπτες μπορούν να ψηφίζουν."
+
+#: modules/poll.module:50
+msgid "Most recent poll"
+msgstr "Πρόσφατες ψηφοφορίες"
+
+#: modules/poll.module:65
+msgid "Poll"
+msgstr "Ψηφοφορία"
+
+#: modules/poll.module:116
+msgid "Negative values are not allowed."
+msgstr "Δεν επιτρέπονται αρνητικές τιμές."
+
+#: modules/poll.module:121
+msgid "You must fill in at least two choices."
+msgstr "Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές."
+
+#: modules/poll.module:132
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: modules/poll.module:135
+msgid "Need more choices"
+msgstr "Χρειάζονται περισσότερες επιλογές"
+
+#: modules/poll.module:135
+msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
+msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε το και πατήστε στο κουμπί \"Δοκιμή εμφάνισης\" παρακάτω για να προσθέσετε μερικά ακόμα."
+
+#: modules/poll.module:146
+msgid "Choices"
+msgstr "Επιλογές"
+
+#: modules/poll.module:148
+msgid "Choice %n"
+msgstr "Επιλογή %n"
+
+#: modules/poll.module:150
+msgid "Votes for choice %n"
+msgstr "Ψήφοι υπέρ της επιλογής %n"
+
+#: modules/poll.module:156
+msgid "Closed"
+msgstr "Έχει κλείσει"
+
+#: modules/poll.module:159
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: modules/poll.module:160
+msgid "Poll status"
+msgstr "Κατάσταση ψηφοφορίας"
+
+#: modules/poll.module:160
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Όταν μια ψηφοφορία έχει κλείσει, οι επισκέπτες δεν μπορούν πια να ψηφίζουν."
+
+#: modules/poll.module:162
+msgid "Poll duration"
+msgstr "Διάρκεια ψηφοφορίας"
+
+#: modules/poll.module:162
+msgid "After this period, the poll will be closed automatically."
+msgstr "Μετά από αυτή την περίοδο, η ψηφοφορία θα κλείσει αυτόματα."
+
+#: modules/poll.module:192
+#: ;254;0
+msgid "poll"
+msgstr "ψηφοφορία"
+
+#: modules/poll.module:194
+msgid "polls"
+msgstr "ψηφοφορίες"
+
+#: modules/poll.module:200
+msgid "vote"
+msgstr "ψηφίστε"
+
+#: modules/poll.module:264
+msgid "open"
+msgstr "ανοιχτή"
+
+#: modules/poll.module:264
+msgid "closed"
+msgstr "έχει κλείσει"
+
+#: modules/poll.module:295
+#: ;307
+msgid "Vote"
+msgstr "Ψηφίστε"
+
+#: modules/poll.module:355
+#: ;362
+msgid "Total votes: %votes"
+msgstr "Σύνολο ψήφων: %votes"
+
+#: modules/poll.module:424
+msgid "Your vote was recorded."
+msgstr "Η ψήφος σας καταγράφηκε."
+
+#: modules/poll.module:427
+msgid "You're not allowed to vote on this poll."
+msgstr "Δεν σας επιτρέπεται να ψηφίσετε σ' αυτή την ψηφοφορία."
+
+#: modules/poll.module:431
+msgid "You didn't specify a valid poll choice."
+msgstr "Δεν δώσατε έγκυρη επιλογή για την ψηφοφορία."
+
+#: modules/poll.module:458
+msgid "older polls"
+msgstr "παλιότερες ψηφοφορίες"
+
+#: modules/poll.module:458
+msgid "View the list of polls on this site."
+msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστότοπο."
+
+#: modules/poll.module:460
+msgid "View the current poll results."
+msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
+
+#: modules/poll.module:264
+#: ;341
+msgid "1 vote"
+msgid_plural "%count votes"
+msgstr[0] "1 ψήφος"
+msgstr[1] "%count ψήφοι"
+
+#: modules/poll.module:275
+msgid "create polls"
+msgstr "δημιουργία ψηφοφοριών"
+
+#: modules/poll.module:275
+msgid "vote on polls"
+msgstr "ψήφος σε ψηφοφορίες"
+

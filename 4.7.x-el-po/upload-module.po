@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-06-02 21:23+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: modules/upload.module:16
+msgid "The upload module allows users to upload files to the site.  The ability to upload files to a site is important for members of a community who want to share work. It is also useful to administrators who want to keep uploaded files connected to a node or page."
+msgstr "Η μονάδα upload επιτρέπει στους χρήστες να ανεβάζουν αρχεία στον ιστότοπο.  Η δυνατότητα ανεβάσματος αρχείων σε έναν ιστότοπο είναι σημαντική για τα μέλη μιας κοινότητας τα οποία θέλουν να μοιράζονται δουλειά. Είναι επίσης χρήσιμη για τους διαχειριστές που θέλουν να διατηρούν αρχεία που έχουν ανεβάσει συνδεμένα με έναν κόμβο ή σελίδα."
+
+#: modules/upload.module:17
+msgid "Users with the upload files permission can upload attachments. You can choose which post types can take attachments on the content types settings page.  Each user role can be customized for the file size of uploads, and the dimension of image files."
+msgstr "Οι χρήστες με την άδεια ανεβάσματος αρχείων μπορούν να ανεβάζουν συνημμένα αρχεία. Μπορείτε να επιλέξετε ποιοι τύποι ύλης δέχονται συνημμένα αρχεία από τη σελίδα ρυθμίσεων των τύπων ύλης.  Για κάθε ρόλο χρηστών, μπορεί να ρυθμιστεί το μέγεθος των αρχείων που ανεβάζονται και οι διαστάσεις των αρχείων εικόνων."
+
+#: modules/upload.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer user permissions at <a href=\"%admin-access\">administer &gt;&gt; access control</a>.</li>\n"
+"<li>administer content at <a href=\"%admin-content-types\">administer &gt;&gt; settings &gt;&gt; content types</a>.</li>\n"
+"<li>administer upload at <a href=\"%admin-upload\">administer &gt;&gt; settings &gt;&gt; upload</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Μπορείτε</p>\n"
+"<ul>\n"
+"<li>να διαχειρίζεστε τις άδειες των χρηστών: <a href=\"%admin-access\">διαχείριση &gt;&gt; έλεγχος πρόσβασης</a>.</li>\n"
+"<li>να διαχειρίζεστε τους τύπους ύλης: <a href=\"%admin-content-types\">διαχείριση &gt;&gt; ρυθμίσεις &gt;&gt; τύποι ύλης</a>.</li>\n"
+"<li>να διαχειρίζεστε το ανέβασμα αρχείων: <a href=\"%admin-upload\">διαχείριση &gt;&gt; ρυθμίσεις &gt;&gt; ανέβασμα αρχείων</a>.</li>\n"
+"</ul>\n"
+
+#: modules/upload.module:25
+msgid "For more information please read the configuration and customization handbook <a href=\"%upload\">Upload page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"%upload\">σελίδα Upload</a>."
+
+#: modules/upload.module:28
+msgid "Allows users to upload and attach files to content."
+msgstr "Επιτρέπει στους χρήστες να ανεβάζουν και να επισυνάπτουν αρχεία στην ύλη."
+
+#: modules/upload.module:30
+msgid "<p>Users with the <a href=\"%permissions\">upload files permission</a> can upload attachments. Users with the <a href=\"%permissions\">view uploaded files permission</a> can view uploaded attachments. You can choose which post types can take attachments on the <a href=\"%types\">content types settings</a> page.</p>"
+msgstr "<p>Οι χρήστες με την <a href=\"%permissions\">άδεια ανεβάσματος αρχείων</a> μπορούν να ανεβάζουν συνημμένα αρχεία. Οι χρήστες με την <a href=\"%permissions\">άδεια ανάγνωσης ανεβασμένων αρχείων</a> μπορούν να βλέπουν τα ανεβασμένα συνημμένα αρχεία. Μπορείτε να επιλέξετε ποιοι τύποι καταχωρίσεων θα δέχονται συνημμένα αρχεία από τη σελίδα <a href=\"%types\">ρυθμίσεων των τύπων ύλης</a> page.</p>"
+
+#: modules/upload.module:56
+msgid "Read full article to view attachments."
+msgstr "Διαβάστε ολόκληρο το άρθρο για να δείτε τα συνημμένα."
+
+#: modules/upload.module:107
+msgid "Maximum resolution for uploaded images"
+msgstr "Μέγιστη ανάλυση για τα ανεβασμένα αρχεία εικόνων."
+
+#: modules/upload.module:108
+msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
+msgstr "Το ανώτατο επιτρεπτό μέγεθος αρχείου εκφρασμένο σε ΠΛΑΤΟΣxΥΨΟΣ (π.χ. 640x480). Επιλέξτε 0 για να μην υπάρχει περιορισμός."
+
+#: modules/upload.module:111
+msgid "List files by default"
+msgstr "Προεπιλογή να παρουσιάζεται λίστα των αρχείων"
+
+#: modules/upload.module:114
+msgid "Set whether files attached to nodes are listed or not in the node view by default."
+msgstr "Ορίστε αν η προεπιλογή είναι να παρουσιάζεται λίστα των συνημμένων σε κόμβους αρχείων ή όχι κατά την εμφάνιση του κόμβου."
+
+#: modules/upload.module:120
+msgid "Settings for %role"
+msgstr "Ρυθμίσεις για το ρόλο %role"
+
+#: modules/upload.module:122
+msgid "Permitted file extensions"
+msgstr "Επιτρεπτές προεκτάσεις ονομάτων αρχείων"
+
+#: modules/upload.module:123
+msgid "Extensions that users in this role can upload. Separate extensions with a space and do not include the leading dot."
+msgstr "Προεκτάσεις ονομάτων αρχείων που μπορούν να ανεβάζουν οι χρήστες με αυτό το ρόλο. Διαχωρίζετε τις προεκτάσεις με ένα διάστημα και μη βάζετε την τελεία μπροστά τους."
+
+#: modules/upload.module:126
+msgid "Maximum file size per upload"
+msgstr "Ανώτατο μέγεθος αρχείου ανά ανέβασμα"
+
+#: modules/upload.module:127
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr "Το ανώτατο μέγεθος αρχείου που μπορεί να ανεβάσει ένας χρήστης (σε megabyte)."
+
+#: modules/upload.module:130
+msgid "Total file size per user"
+msgstr "Συνολικό μέγεθος αρχείων ανά χρήστη"
+
+#: modules/upload.module:131
+msgid "The maximum size of all files a user can have on the site (in megabytes)."
+msgstr "Το ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει ανεβασμένα στον ιστότοπο (σε megabyte)."
+
+#: modules/upload.module:234
+msgid "Attachments"
+msgstr "Συνημμένα"
+
+#: modules/upload.module:247
+msgid "File attachments"
+msgstr "Συνημμένα αρχεία"
+
+#: modules/upload.module:250
+msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
+msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι να αποθηκεύσετε την καταχώριση. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στα RSS feed."
+
+#: modules/upload.module:315
+msgid "The selected file %name can not be attached to this post, because it is only possible to attach files with the following extensions: %files-allowed."
+msgstr "Το επιλεγμένο αρχείο %name δεν μπορεί να επισυναφθεί σε αυτή την καταχώριση, επειδή επιτρέπεται να επισυνάπτονται μόνο αρχεία με με τις εξής προεκτάσεις ονομάτων: %files-allowed."
+
+#: modules/upload.module:319
+msgid "The selected file %name can not be attached to this post, because it exceeded the maximum filesize of %maxsize."
+msgstr "Το επιλεγμένο αρχείο %name δεν μπορεί να επισυναφθεί στην καταχώριση, επειδή ξεπερνά το ανώτατο μέγεθος αρχείου, που είναι %maxsize."
+
+#: modules/upload.module:323
+msgid "The selected file %name can not be attached to this post, because the disk quota of %quota has been reached."
+msgstr "Το επιλεγμένο αρχείο %name δεν μπορεί να επισυναφθεί σε αυτή την καταχώριση, επειδή έχει εξαντληθεί το μερίδιο δίσκου, που είναι %quota."
+
+#: modules/upload.module:327
+msgid "The selected file %name can not be attached to this post, because the filename is too long."
+msgstr "Το επιλεγμένο αρχείο %name δεν μπορεί να επισυναφθεί σε αυτή την καταχώριση, επειδή το όνομά του είναι πολύ μεγάλο."
+
+#: modules/upload.module:442
+msgid "Attachment"
+msgstr "Συνημμένο"
+
+#: modules/upload.module:442
+#: ;673
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: modules/upload.module:524
+msgid "Your filename has been renamed to conform to site policy."
+msgstr "Το όνομα του αρχείου άλλαξε ώστε να είναι σύμφωνο με την πρακτική του ιστοτόπου."
+
+#: modules/upload.module:658
+msgid "Attach new file"
+msgstr "Νέο συνημμένο αρχείο"
+
+#: modules/upload.module:659
+msgid "Attach"
+msgstr "Επισύναψη"
+
+#: modules/upload.module:673
+msgid "List"
+msgstr "Λίστα"
+
+#: modules/upload.module:723
+msgid "The image was resized to fit within the maximum allowed resolution of %resolution pixels."
+msgstr "Οι διαστάσεις της εικόνας άλλαξαν ώστε να είναι μέσα στα όρια της μέγιστης επιστρεπής ανάλυσης, που είναι %resolution pixel."
+
+#: modules/upload.module:56
+#: ;409
+msgid "1 attachment"
+msgid_plural "%count attachments"
+msgstr[0] "1 συνημμένο"
+msgstr[1] "%count συνημμένα"
+
+#: modules/upload.module:38
+msgid "upload files"
+msgstr "ανέβασμα αρχείων"
+
+#: modules/upload.module:38
+msgid "view uploaded files"
+msgstr "ανάγνωση ανεβασμένων αρχείων"
+
+#: modules/upload.module:0
+msgid "upload"
+msgstr "ανέβασμα αρχείων"
+

@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 4.7 Greek\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-05-22 21:12+0200\n"
+"Last-Translator: Cog <cog@cogville.com>\n"
+"Language-Team: Project Cogville <cog@cogville.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: H:\\CVS\\Drupal_4.7\\drupal\n"
+
+#: includes/unicode.inc:34
+msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"%url\">PHP PCRE documentation</a> for more information."
+msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεότερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχεται από την PHP. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"%url\">τεκμηρίωση της PHP PCRE</a>."
+
+#: includes/unicode.inc:47
+msgid "Multibyte string function overloading in PHP is active and must be disabled. Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "Η υπερφόρτωση συναρτήσεων για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.func_overload</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"%url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: includes/unicode.inc:53
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.encoding_translation</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.encoding_translation</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"%url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: includes/unicode.inc:59
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.http_input</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"%url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: includes/unicode.inc:65
+msgid "Multibyte string output conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "Η μετατροπή δεδομένων εξόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.http_output</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"%url\">τεκμηρίωση της PHP mbstring</a>."
+
+#: includes/unicode.inc:81
+msgid "Standard PHP: operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"%url\">PHP mbstring extension</a> for improved Unicode support."
+msgstr "Standard PHP: οι πράξεις σε ακολουθίες χαρακτήρων Unicode γίνονται με προσομοίωση όσο καλύτερα επιτρέπουν οι συνθήκες. Για βελτιωμένη υποστήριξη του Unicode εγκαταστήστε την επέκταση <a href=\"%url\">PHP mbstring</a>."
+
+#: includes/unicode.inc:82
+msgid "Multi-byte: operations on Unicode strings are supported through the <a href=\"%url\">PHP mbstring extension</a>."
+msgstr "Χαρακτήρες πολλών byte: οι πράξεις σε ακολουθίες χαρακτήρων Unicode υποστηρίζονται μέσω της <a href=\"%url\">επέκτασης PHP mbstring</a>."
+
+#: includes/unicode.inc:83
+msgid "Invalid: the current configuration is incompatible with Drupal."
+msgstr "Μη έγκυρη: η διευθέτηση αυτή είναι ασύμβατη με το Drupal."
+
+#: includes/unicode.inc:84
+msgid "String handling method"
+msgstr "Μέθοδος χειρισμού ακολουθιών χαρακτήρων"
+
+#: includes/unicode.inc:131
+msgid "Could not convert XML encoding '%s' to UTF-8."
+msgstr "Δεν έγινε δυνατή η μετατροπή της κωδικοποίησης XML encoding '%s' σε UTF-8."
+
+#: includes/unicode.inc:164
+msgid "Unsupported encoding '%s'. Please install iconv, GNU recode or mbstring for PHP."
+msgstr "Η κωδικοποίηση '%s' δεν υποστηρίζεται. Εγκαταστήστε το iconv, το GNU recode ή το mbstring για την PHP."
+
