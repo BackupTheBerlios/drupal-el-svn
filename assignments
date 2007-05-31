@@ -5,15 +5,15 @@ blog-module :
 book-module :
 comment-module :
 common-inc :
-contact-module :
+contact-module : FUBAR
 content_types-inc :
 drupal-module :
 file-inc :
 filter-module :
 form-inc :
-forum-module :
+forum-module : FUBAR
 general :
-installer :
+installer : 
 locale-inc :
 locale-module :
 menu-module :
