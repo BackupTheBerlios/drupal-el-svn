@@ -1,5 +1,5 @@
 aggregator-module : lourdas_v
-block-module :
+block-module : lourdas_v
 blogapi-module :
 blog-module :
 book-module :
