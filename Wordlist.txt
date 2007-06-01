@@ -1,8 +1,8 @@
 default = προεπιλεγμένο
 edit = τροποποίηση
-handbook = εγχειρίδιο
-hierarchy = ιεραρχεία
 forum = φόρουμ
+handbook = εγχειρίδιο
+hierarchy = ιεραρχία
 link = σύνδεσμος, παραπομπή
 module = μονάδα
 post = δημοσίευση, καταχώριση
