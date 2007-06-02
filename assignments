@@ -20,7 +20,7 @@ menu-module :
 node-module :
 path-module :
 poll-module :
-profile-module :
+profile-module : alefteris
 search-module :
 statistics-module :
 system-install :
