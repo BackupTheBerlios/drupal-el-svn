@@ -13,7 +13,7 @@ filter-module :
 form-inc :
 forum-module : FUBAR
 general :
-installer : 
+installer :
 locale-inc :
 locale-module :
 menu-module :
