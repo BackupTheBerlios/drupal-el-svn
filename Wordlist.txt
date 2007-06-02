@@ -1,7 +1,11 @@
 access = πρόσβαση
 administer = διαχείριση
 aggregate = συλλογή, συνάθροιση
+blog = ιστολόγιο
+blog entry = ιστολόγημα
 categorize = κατάταξη σε κατηγορία
+configuration = διευθέτηση, ρύθμιση
+customization = προσαρμογή
 default = προεπιλεγμένο
 edit = τροποποίηση
 forum = φόρουμ
