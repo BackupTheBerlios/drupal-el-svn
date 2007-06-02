@@ -1,8 +1,8 @@
 aggregator-module : lourdas_v
 block-module : lourdas_v
-blogapi-module :
-blog-module :
-book-module :
+blogapi-module : christosk
+blog-module : christosk
+book-module : christosk
 comment-module :
 common-inc :
 contact-module : FUBAR
