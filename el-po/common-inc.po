@@ -1,0 +1,122 @@
+# Greek Drupal translation of common-inc.po to Greek
+# $Id: common-inc.pot,v 1.8.2.5 2007/01/30 11:40:42 goba Exp $
+# LANGUAGE translation of Drupal (includes/common.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: common.inc,v 1.611 2007/01/10 23:30:07 unconed
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: common-inc\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"PO-Revision-Date: 2007-06-04 00:05+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: includes/common.inc:324
+msgid "Site off-line"
+msgstr "Ιστότοπος εκτός λειτουργίας"
+
+#: includes/common.inc:353
+msgid "Page not found"
+msgstr "Δε βρέθηκε η σελίδα"
+
+#: includes/common.inc:382
+msgid "Access denied"
+msgstr "Δεν επιτρέπεται η πρόσβαση"
+
+#: includes/common.inc:383
+msgid "You are not authorized to access this page."
+msgstr "Δεν είστε εξουσιοδοτημένος για να προσπελάσετε αυτή τη σελίδα."
+
+#: includes/common.inc:555
+msgid "%message in %file on line %line."
+msgstr "%message στο %file στη γραμμή %line."
+
+#: includes/common.inc:997
+msgid "KB"
+msgstr "KB"
+
+#: includes/common.inc:1002
+msgid "@size @suffix"
+msgstr "@size @suffix"
+
+#: includes/common.inc:1031
+msgid "0 sec"
+msgstr "0 δευτ."
+
+#: includes/common.inc:1992
+msgid "Cron has been running for more than an hour and is most likely stuck."
+msgstr "Το cron ήδη εκτελείται για παραπάνω από μία ώρα και είναι πολύ πιθανό να έχει κολλήσει."
+
+#: includes/common.inc:1999
+msgid "Attempting to re-run cron while it is already running."
+msgstr "Γίνεται προσπάθεια για επανεκτέλεση του cron καθώς ήδη εκτελείται."
+
+#: includes/common.inc:2014
+msgid "Cron run completed."
+msgstr "Η εκτέλεση του cron ολοκληρώθηκε."
+
+#: includes/common.inc:2030
+msgid "Cron run exceeded the time limit and was aborted."
+msgstr "Η εκτέλεση του cron ξεπέρασε το χρονικό όριο και ακυρώθηκε."
+
+#: includes/common.inc:335
+msgid "page not found"
+msgstr "δε βρέθηκε η σελίδα"
+
+#: includes/common.inc:364
+msgid "access denied"
+msgstr "δεν επιτρέπεται η πρόσβαση"
+
+#: includes/common.inc:1992;1999;2014;2030
+msgid "cron"
+msgstr "cron"
+
+#: includes/common.inc:993
+msgid "1 byte"
+msgid_plural "@count bytes"
+msgstr[0] "1 byte"
+msgstr[1] "@count byte"
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] "1 έτος"
+msgstr[1] "@count έτη"
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] "1 εβδομάδα"
+msgstr[1] "@count εβδομάδες"
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] "1 ημέρα"
+msgstr[1] "@count ημέρες"
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] "1 ώρα"
+msgstr[1] "@count ώρες"
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] "1 λεπτό"
+msgstr[1] "@count λεπτά"
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] "1 δευτερόλεπτο"
+msgstr[1] "@count δευτερόλεπτα"
+
