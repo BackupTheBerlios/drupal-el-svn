@@ -3,7 +3,7 @@ block-module : lourdas_v
 blogapi-module : christosk
 blog-module : christosk
 book-module : christosk
-comment-module :
+comment-module : lourdas_v
 common-inc : lourdas_v
 contact-module : FUBAR
 content_types-inc :
