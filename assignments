@@ -4,7 +4,7 @@ blogapi-module : christosk
 blog-module : christosk
 book-module : christosk
 comment-module :
-common-inc :
+common-inc : lourdas_v
 contact-module : FUBAR
 content_types-inc :
 drupal-module :
