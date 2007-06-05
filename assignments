@@ -6,7 +6,7 @@ book-module : christosk
 comment-module : lourdas_v
 common-inc : lourdas_v
 contact-module : FUBAR
-content_types-inc :
+content_types-inc : lourdas_v
 drupal-module :
 file-inc :
 filter-module :
