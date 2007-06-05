@@ -11,6 +11,7 @@ blog = ιστολόγιο
 box = πλαίσιο
 	--= C =--
 categorize = κατάταξη σε κατηγορία
+collapsed = συμπτυγμένος
 configuration = διευθέτηση, ρύθμιση
 contact = επικοινωνία
 customization = προσαρμογή
@@ -19,6 +20,7 @@ default = προεπιλεγμένο
 	--= E =--
 e-mail = ηλεκτρονικό ταχυδρομείο, e-mail
 edit = τροποποίηση
+expanded = ξεδιπλωμένο
 	--= F =--
 format = μορφότυπος
 form = φόρμα
