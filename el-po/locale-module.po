@@ -1,0 +1,247 @@
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 5.1\n"
+"POT-Creation-Date: 2007-05-28 02:22+0300\n"
+"PO-Revision-Date: 2007-06-03 01:32+0200\n"
+"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
+"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ..\\..\\modules\n"
+
+#: locale/locale.module:22
+msgid "The locale module allows you to present your Drupal site in a language other than the default English. You can use it to set up a multi-lingual web site or replace given <em>built-in</em> text with text which has been customized for your site. Whenever the locale module encounters text which needs to be displayed, it tries to translate it into the currently selected language. If a translation is not available, then the string is remembered, so you can look up untranslated strings easily."
+msgstr "Η μονάδα locale σας επιτρέπει να παρουσιάζετε τον ιστοχώρο σας σε άλλη γλώσσα αντί της προεπιλεγμένης Αγγλικής. Μπορείτε να τη χρησιμοποιήσετε για να εγκαταστήσετε έναν πολύγλωσσο ιστοχώρο ή για να αντικαταστήσετε κάποιο από το <em>ενσωματωμένο</em> κείμενο με κείμενο που έχετε προσαρμόσει για τον ιστότοπό σας. Όποτε η μονάδα locale συναντά κείμενο που πρέπει να εμφανιστεί, επιχειρεί να το μεταφράσει στην τρέχουσα επιλεγμένη γλώσσα. Αν δεν υπάρχει διαθέσιμη μετάφραση, τότε η φράση μένει στη μνήμη ώστε να μπορείτε να αναζητάτε τις αμετάφραστες φράσεις εύκολα."
+
+#: locale/locale.module:23
+msgid "The locale module provides two options for providing translations. The first is the integrated web interface, via which you can search for untranslated strings, and specify their translations. An easier and less time-consuming method is to import existing translations for your language. These translations are available as <em>GNU gettext Portable Object files</em> (<em>.po</em> files for short). Translations for many languages are available for download from the translation page."
+msgstr "Η μονάδα locale διαθέτει δύο επιλογές για να παρέχετε μεταφράσεις. Η πρώτη είναι η ενσωματωμένη διεπαφή χρήστη μέσω του Ιστού, από την οποία μπορείτε να αναζητάτε αμετάφραστες φράσεις και να ορίζετε τη μετάφρασή τους. Μια ευκολότερη και λιγότερη χρονοβόρα μέθοδος είναι να εισάγετε υπάχουσες μεταφράσεις για τη γλώσσα σας.  Αυτές οι μεταφράσεις παρέχονται ως <em>αρχεία Portable Object του GNU gettext</em> (αρχεία <em>.po</em>, για συντομία).  Μεταφράσεις για πολλές γλώσσες είναι διαθέσιμες για κατέβασμα από τη σελίδα μεταφράσεων."
+
+#: locale/locale.module:24
+msgid "If an existing translation does not meet your needs, the <em>.po</em> files are easily edited with special editing tools. The locale module's import feature allows you to add strings from such files into your site's database. The export functionality enables you to share your translations with others, generating Portable Object files from your site strings."
+msgstr "Αν μια υπάρχουσα μετάφραση δεν ικανοποιεί τις ανάγκες σας, τα αρχεία <em>.po</em> τροποποιούνται εύκολα με ειδικά εργαλεία διόρθωσης. Η δυνατότητα εισαγωγής μεταφράσεων της μονάδας locale σας επιτρέπει να προσθέτετε φράσεις από τέτοια αρχεία στη βάση δεδομένων του ιστοχώρου σας. Η δυνατότητα εξαγωγής σας επιτρέπει να μοιράζεστε τις μεταφράσεις σας με άλλους, παράγοντας αρχεία Portable Object από τις φράσεις του ιστοτόπου σας"
+
+#: locale/locale.module:25
+msgid "For more information please read the configuration and customization handbook <a href=\"@locale\">Locale page</a>."
+msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@locale\">σελίδα Locale</a>."
+
+#: locale/locale.module:29
+msgid "<p>Drupal provides support for the translation of its interface text into different languages. This page provides an overview of the installed languages. You can add a language on the <a href=\"@add-language\">add language page</a>, or directly by <a href=\"@import\">importing a translation</a>. If multiple languages are enabled, registered users will be able to set their preferred language. The site default will be used for anonymous visitors and for users without their own settings.</p><p>Drupal interface translations may be added or extended by several courses: by <a href=\"@import\">importing</a> an existing translation, by <a href=\"@search\">translating everything</a> from scratch, or by a combination of these approaches.</p>"
+msgstr "<p>Το Drupal παρέχει υποστήριξη για τη μετάφραση του κειμένου της διεπαφής χρήστη σε άλλες γλώσσες.  Η σελίδα αυτή παρουσιάζει μια επισκόπηση των εγκατεστημένων γλωσσών. Μπορείτε να προσθέσετε μια γλώσσα από τη σελίδα <a href=\"@add-language\">προσθήκης νέας γλώσσας</a>, ή με την απευθείας <a href=\"@import\">εισαγωγή μιας μετάφρασης</a>. Αν είναι ενεργοποιημένες πολλές γλώσσες, οι εγγεγραμμένοι χρήστες θα μπορούν να ορίζουν τη γλώσσα που προτιμούν. Η προεπιλεγμένη γλώσσα του ιστοχώρου θα χρησιμοποιείται για τους ανώνυμους χρήστες και για τους χρήστες που δεν έχουν κάνει δικές τους ρυθμίσεις.</p><p>Μεταφράσεις της διεπαφής χρήστη του Drupal μπορούν να προστίθενται ή να επεκτείνονται με διάφορους τρόπους: με την <a href=\"@import\">εισαγωγή</a> μιας υπάρχουσας μετάφρασης, με τη <a href=\"@search\">μετάφραση όλων</a> από την αρχή, ή με ένα συνδυασμό αυτών των τρόπων.</p>"
+
+#: locale/locale.module:31
+msgid "You need to add all languages in which you would like to display the site interface. If you can't find the desired language in the quick-add dropdown, then you will need to provide the proper language code yourself. The language code may be used to negotiate with browsers and to present flags, etc., so it is important to pick a code that is standardised for the desired language. You can also add a language by <a href=\"@import\">importing a translation</a>."
+msgstr "Θα πρέπει να προσθέσετε όλες τις γλώσσες στις οποίες θέλετε να παρουσιάζεται η διεπαφή χρήστη του ιστοχώρου. Αν δεν μπορέσετε να βρείτε τη γλώσσα που θέλετε στην πτυσσόμενη λίστα, τότε θα χρειαστεί να δώσετε τον κατάλληλο κωδικό γλώσσας απευθείας. Ο κωδικός γλώσσας μπορεί να χρησιμοποιείται για διαπραγμάτευση με τους browser και για την εμφάνιση σημαιών κ.λ.π., γι' αυτό είναι σημαντικό να διαλέξετε έναν κωδικό που καλύπτεται από τα πρότυπα για τη γλώσσα που θέλετε. Μπορείτε επίσης να προσθέσετε μια νέα γλώσσα <a href=\"@import\">εισάγοντας μια μετάφραση</a>."
+
+#: locale/locale.module:33
+msgid "This page allows you to import a translation provided in the gettext Portable Object (.po) format. The easiest way to get your site translated is to obtain an existing Drupal translation and to import it. You can find existing translations on the <a href=\"@url\">Drupal translation page</a>. Note that importing a translation file might take a while."
+msgstr "Η σελίδα αυτή σας επιτρέπει να εισαγάγετε μια μετάφραση σε μορφή Portable Object (.po) του gettext.  Ο ευκολότερος τρόπος για να μεταφράσετε τον ιστότοπό σας είναι να πάρετε μια υπάρχουσα μετάφραση του Drupal και να την εισαγάγετε.  Μπορείτε να βρείτε υπάρχουσες μεταφράσεις στην ιστοσελίδα <a href=\"@url\">μεταφράσεων του Drupal</a>. Σημειώστε ότι η εισαγωγή μιας μετάφρασης μπορεί να χρειαστεί κάποιο χρόνο."
+
+#: locale/locale.module:35
+msgid "This page allows you to export Drupal strings. The first option is to export a translation so it can be shared. The second option generates a translation template, which contains all Drupal strings, but without their translations. You can use this template to start a new translation using various software packages designed for this task."
+msgstr "Η σελίδα αυτή σας επιτρέπει να εξάγετε φράσεις του Drupal. Η πρώτη επιλογή είναι να εξαγάγετε μια μετάφραση για να τη μοιραστείτε.  Η δεύτερη επιλογή παράγει ένα πρότυπο μετάφρασης, το οποίο περιέχει όλες τις φράσεις του Drupal, αλλά χωρίς τις μεταφράσεις τους. Μπορείτε να χρησιμοποιήσετε αυτό το πρότυπο για να αρχίσετε μια νέα μετάφραση χρησιμοποιώντας διάφορα πακέτα λογισμικού σχεδιασμένα γι' αυτή τη δουλειά."
+
+#: locale/locale.module:37
+msgid "It is often convenient to get the strings from your setup on the <a href=\"@export\">export page</a>, and use a desktop Gettext translation editor to edit the translations. On this page you can search in the translated and untranslated strings, and the default English texts provided by Drupal."
+msgstr "Είναι συχνά βολικό να παίρνετε τις φράσεις της εγκατάστασής σας από τη <a href=\"@export\">σελίδα εξαγωγής</a> και να χρησιμοποιείτε ένα πρόγραμμα επεξεργασίας μεταφράσεων Gettext για να τροποποιείτε τις μεταφράσεις.  Σε αυτή τη σελίδα μπορείτε να ψάχνετε στις μεταφρασμένες και τις αμετάφραστες φράσεις, καθώς και στο πρωτότυπο κείμενο στην Αγγλική που παρέχεται από το Drupal."
+
+#: locale/locale.module:51
+msgid "Localization"
+msgstr "Γλωσσική προσαρμογή"
+
+#: locale/locale.module:52
+msgid "Configure site localization and user interface translation."
+msgstr "Ρύθμισε την γλώσσα του ιστοχώρου και την γλωσσικές διεπαφές των μελών."
+
+#: locale/locale.module:58
+msgid "Manage languages"
+msgstr "Διαχείριση γλωσσών"
+
+#: locale/locale.module:63
+msgid "Manage strings"
+msgstr "Διαχείριση φράσεων"
+
+#: locale/locale.module:77
+msgid "Add language"
+msgstr "Προσθήκη γλώσσας"
+
+#: locale/locale.module:83
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: locale/locale.module:89
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: locale/locale.module:107
+msgid "Edit string"
+msgstr "Επεξεργασία φράσης"
+
+#: locale/locale.module:113
+msgid "Delete string"
+msgstr "Διαγραφή φράσης"
+
+#: locale/locale.module:142
+msgid "Interface language settings"
+msgstr "Ρυθμίσεις γλώσσας διεπαφής χρήστη"
+
+#: locale/locale.module:146
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: locale/locale.module:149
+msgid "Selecting a different locale will change the interface language of the site."
+msgstr "Με την επιλογή διαφορετικής γλωσσικής μονάδας θα αλλάξει η γλώσσα της επαφής χρήστη του ιστοχώρου σας."
+
+#: locale/locale.module:314
+msgid "The English locale cannot be deleted."
+msgstr "Η Αγγλική γλωσσική μονάδα δεν μπορεί να διαγραφεί."
+
+#: locale/locale.module:326
+msgid "Are you sure you want to delete the language %name?"
+msgstr "Θέλετε σίγουρα να διαγράψετε τη γλώσσα %name;"
+
+#: locale/locale.module:326
+msgid "Deleting a language will remove all data associated with it. This action cannot be undone."
+msgstr "Με τη διαγραφή μιας γλώσσας θα διαγραφούν όλα τα δεδομένα που σχετίζονται μαζί της. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: locale/locale.module:338
+msgid "The language %locale has been removed."
+msgstr "Η γλώσσα %locale διαγράφηκε."
+
+#: locale/locale.module:340;0
+msgid "locale"
+msgstr "γλώσσα"
+
+#: locale/locale.module:128
+msgid "administer locales"
+msgstr "διαχείριση γλωσσικών μονάδων"
+
+#: locale/locale.module:0
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: locale/locale.module:0
+msgid "Jan"
+msgstr "Ιαν"
+
+#: locale/locale.module:0
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: locale/locale.module:0
+msgid "Feb"
+msgstr "Φεβ"
+
+#: locale/locale.module:0
+msgid "March"
+msgstr "Μάρτιος"
+
+#: locale/locale.module:0
+msgid "Mar"
+msgstr "Μαρ"
+
+#: locale/locale.module:0
+msgid "April"
+msgstr "Απρίλιος"
+
+#: locale/locale.module:0
+msgid "Apr"
+msgstr "Απρ"
+
+#: locale/locale.module:0;0
+msgid "May"
+msgstr "Μάιος"
+
+#: locale/locale.module:0
+msgid "June"
+msgstr "Ιούνιος"
+
+#: locale/locale.module:0
+msgid "Jun"
+msgstr "Ιουν"
+
+#: locale/locale.module:0
+msgid "July"
+msgstr "Ιούλιος"
+
+#: locale/locale.module:0
+msgid "Jul"
+msgstr "Ιουλ"
+
+#: locale/locale.module:0
+msgid "August"
+msgstr "Αύγουστος"
+
+#: locale/locale.module:0
+msgid "Aug"
+msgstr "Αυγ"
+
+#: locale/locale.module:0
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: locale/locale.module:0
+msgid "Sep"
+msgstr "Σεπ"
+
+#: locale/locale.module:0
+msgid "October"
+msgstr "Οκτώμβριος"
+
+#: locale/locale.module:0
+msgid "Oct"
+msgstr "Όκτ"
+
+#: locale/locale.module:0
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: locale/locale.module:0
+msgid "Nov"
+msgstr "Νοε"
+
+#: locale/locale.module:0
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: locale/locale.module:0
+msgid "Dec"
+msgstr "Δεκ"
+
+#: locale/locale.module:0;0
+msgid "Thu"
+msgstr "Πεμ"
+
+#: locale/locale.module:0
+msgid "Fri"
+msgstr "Παρ"
+
+#: locale/locale.module:0
+msgid "Sat"
+msgstr "Σαβ"
+
+#: locale/locale.module:0
+msgid "Sun"
+msgstr "Κυρ"
+
+#: locale/locale.module:0
+msgid "Mon"
+msgstr "Δευ"
+
+#: locale/locale.module:0
+msgid "Tue"
+msgstr "Τρι"
+
+#: locale/locale.module:0
+msgid "Wed"
+msgstr "Τετ"
+

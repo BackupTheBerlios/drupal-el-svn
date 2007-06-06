@@ -1,0 +1,58 @@
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 5.1\n"
+"POT-Creation-Date: 2007-05-28 02:22+0300\n"
+"PO-Revision-Date: 2007-06-03 16:23+0200\n"
+"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
+"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: color/color.module:13
+msgid "Color scheme"
+msgstr "Χρωματικό σχήμα"
+
+#: color/color.module:107
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: color/color.module:110
+msgid "Color set"
+msgstr "Ομάδα χρωμάτων"
+
+#: color/color.module:118
+msgid "Base color"
+msgstr "Βασικό χρώμα"
+
+#: color/color.module:119
+msgid "Link color"
+msgstr "Χρώμα συνδέσμου"
+
+#: color/color.module:120
+msgid "Header top"
+msgstr "Κορυφή κεφαλίδας"
+
+#: color/color.module:121
+msgid "Header bottom"
+msgstr "Βάση κεφαλίδας"
+
+#: color/color.module:122
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: color/color.module:205
+msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
+msgstr "Δεν υπάρχει αρκετή μνήμη για την PHP για να αλλάξετε το χρωματικό θέμα της θεματικής παραλλαγής. Χρειάζεστε τουλάχιστον %size ακόμα. Ελέγξτε την<a href=\"@url\">τεκμηρίωση της PHP</a>για περισσότερες πληροφορίες."
+
+#: color/color.module:0
+msgid "color"
+msgstr "χρώμα"
+
