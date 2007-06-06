@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 5.1\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-04 01:42+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-06 20:07+0200\n"
+"Last-Translator: christos <kalitsis@gmail.com>\n"
 "Language-Team: George Litos <gl@cyberpunk.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -840,7 +840,7 @@ msgstr "Διαγραφή ρόλου"
 
 #: user/user.module:1929;1943;1967
 msgid "Add role"
-msgstr "Όλοι οι ρόλοι"
+msgstr "Προσθήκη ρόλου"
 
 #: user/user.module:1940;1945
 msgid "The role name %name already exists. Please choose another role name."
