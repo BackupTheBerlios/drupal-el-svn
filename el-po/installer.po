@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 5.1\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-07 18:13+0200\n"
+"PO-Revision-Date: 2007-06-07 18:29+0200\n"
 "Last-Translator: George Litos <GL@cyberpunk.gr>\n"
 "Language-Team: George Litos <gl@cyberpunk.gr>\n"
 "MIME-Version: 1.0\n"
@@ -122,5 +122,5 @@ msgstr "Μη ενημερωμένο"
 
 #: (duplicate) system/system.install:158
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
-msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν βάσεις δεδομένων. Θα πρέπει να εκτελέσετε <a href=\"@update\">script ενημέρωσης database</a> αμέσως."
+msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν βάσεις δεδομένων. Θα πρέπει να εκτελέσετε την <a href=\"@update\">ενημέρωση βάσης δεδομένων</a> αμέσως."
 
