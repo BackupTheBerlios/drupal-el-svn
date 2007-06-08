@@ -1,20 +1,17 @@
-# Greek translation of Drupal 5.1
+# Greek translation of Drupal 5.1 (upload.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: upload-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 16:40+0200\n"
-"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 23:41+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: upload/upload.module:16
 msgid "The upload module allows users to upload files to the site. The ability to upload files to a site is important for members of a community who want to share work. It is also useful to administrators who want to keep uploaded files connected to a node or page."
@@ -30,7 +27,7 @@ msgstr "Για περισσότερες πληροφορίες παρακαλώ 
 
 #: upload/upload.module:21
 msgid "Users with the <a href=\"@permissions\">upload files permission</a> can upload attachments. Users with the <a href=\"@permissions\">view uploaded files permission</a> can view uploaded attachments. You can choose which post types can take attachments on the <a href=\"@types\">content types settings</a> page."
-msgstr "Οι χρήστες με την <a href=\"@permissions\">άδεια ανεβάσματος αρχείων</a> μπορούν να ανεβάζουν συνημμένα αρχεία. Οι χρήστες με την <a href=\"@permissions\">άδεια ανάγνωσης ανεβασμένων αρχείων</a> μπορούν να βλέπουν τα ανεβασμένα συνημμένα αρχεία. Μπορείτε να επιλέξετε ποιοι τύποι καταχωρίσεων θα δέχονται συνημμένα αρχεία από τη σελίδα <a href=\"@types\">ρυθμίσεων των τύπων ύλης</a> page.</p>"
+msgstr "Οι χρήστες με την <a href=\"@permissions\">άδεια ανεβάσματος αρχείων</a> μπορούν να ανεβάζουν συνημμένα αρχεία. Οι χρήστες με την <a href=\"@permissions\">άδεια ανάγνωσης ανεβασμένων αρχείων</a> μπορούν να βλέπουν τα ανεβασμένα συνημμένα αρχεία. Μπορείτε να επιλέξετε ποιοι τύποι καταχωρίσεων θα δέχονται συνημμένα αρχεία από τη σελίδα <a href=\"@types\">ρυθμίσεων των τύπων ύλης</a> page."
 
 #: upload/upload.module:50
 msgid "Read full article to view attachments."
