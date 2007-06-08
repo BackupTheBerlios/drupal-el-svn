@@ -1,23 +1,17 @@
-# $Id: forum-module.pot,v 1.8.2.5 2007/01/30 11:40:42 goba Exp $
-#
-# LANGUAGE translation of Drupal (modules/forum/forum.module)
+# Greek translation of Drupal 5.1 (forum.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: forum.module,v 1.375.2.1 2007/01/25 21:49:20 dries
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.x Greek Translation\n"
+"Project-Id-Version: forum-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-05-31 23:56+0100\n"
-"Last-Translator: FUBAR <stratis32@gmail.com>\n"
-"Language-Team: http://mydrupal.gr/ <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-06-08 23:28+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/forum/forum.module:15
 msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
@@ -41,7 +35,7 @@ msgstr "Αυτή είναι μια λίστα με τους υπάρχοντες
 
 #: modules/forum/forum.module:23
 msgid "Containers help you organize your forums. The job of a container is to hold, or contain, other forums that are related. For example, a container named \"Food\" might hold two forums named \"Fruit\" and \"Vegetables\"."
-msgstr "Οι φάκελοι σας βοηθούν να οργανώνετε τα φόρουμ σας. Η δουλειά ενός φακέλου είναι να περιέχει διάφορα φόρουμ που σχετίζονται μεταξύ τους. Για παράδειγμα, ένας φάκελος που ονομάζεται \"Τροφές\" θα μπορούσε να περιέχει δύο φόρουμ, τα \"Φρούτα\" και \"Λαχανικά\".</p>"
+msgstr "Οι φάκελοι σας βοηθούν να οργανώνετε τα φόρουμ σας. Η δουλειά ενός φακέλου είναι να περιέχει διάφορα φόρουμ που σχετίζονται μεταξύ τους. Για παράδειγμα, ένας φάκελος που ονομάζεται \"Τροφές\" θα μπορούσε να περιέχει δύο φόρουμ, τα \"Φρούτα\" και \"Λαχανικά\"."
 
 #: modules/forum/forum.module:25
 msgid "A forum holds discussion topics that are related. For example, a forum named \"Fruit\" might contain topics titled \"Apples\" and \"Bananas\"."
