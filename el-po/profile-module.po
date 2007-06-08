@@ -1,21 +1,17 @@
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+# Greek translation of Drupal 5.1 (profile.module)
+# Copyright 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: profile-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-01 22:45+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 22:29+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\n"
 
 #: profile/profile.module:35
 msgid "The profile module allows you to define custom fields (such as country, real name, age, ...) in the user profile. This permits users of a site to share more information about themselves, and can help community-based sites to organize users around profile fields."
@@ -51,7 +47,7 @@ msgstr "Για περισσότερες πληροφορίες παρακαλώ 
 
 #: profile/profile.module:50
 msgid "Here you can define custom fields that users can fill in in their user profile (such as <em>country</em>, <em>real name</em>, <em>age</em>, ...)."
-msgstr "Εδώ μπορείτε να ορίσετε διάφορα πεδία τα οποία θα συμπληρώσουν οι χρήστες στο προφίλ τους (όπως χώρα, πόλη, ηλικία, κτλ.)"
+msgstr "Εδώ μπορείτε να ορίσετε διάφορα πεδία τα οποία θα συμπληρώσουν οι χρήστες στο προφίλ τους (όπως <em>χώρα</em>, <em>πόλη</em>, <em>ηλικία</em>, ...)."
 
 #: profile/profile.module:62
 msgid "User list"
