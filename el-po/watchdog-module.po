@@ -1,20 +1,17 @@
-# Greek translation of Drupal 5.1
+# Greek translation of Drupal 5.1 (watchdog.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: watchdog-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 16:41+0200\n"
-"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 23:49+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: watchdog/watchdog.module:21
 msgid "The watchdog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
@@ -46,7 +43,7 @@ msgstr "Κορυφαία 'σελίδα δεν βρέθηκε' σφάλματα"
 
 #: watchdog/watchdog.module:42
 msgid "View 'page not found' errors (404s)."
-msgstr "Προβολή 'η σελίδα δεν βρέθηκε' σφάλματα (404)"
+msgstr "Προβολή 'η σελίδα δεν βρέθηκε' σφάλματα (404)."
 
 #: watchdog/watchdog.module:45
 msgid "Top 'access denied' errors"
@@ -54,7 +51,7 @@ msgstr "Κορυφαία 'δεν επιτρέπεται η πρόσβαση' σ�
 
 #: watchdog/watchdog.module:46
 msgid "View 'access denied' errors (403s)."
-msgstr "Προβολή 'δεν επιτρέπεται η πρόσβαση' σφάλματα (403)"
+msgstr "Προβολή 'δεν επιτρέπεται η πρόσβαση' σφάλματα (403)."
 
 #: watchdog/watchdog.module:83
 msgid "all messages"
