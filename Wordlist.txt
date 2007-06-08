@@ -17,6 +17,7 @@ contact = επικοινωνία
 customization = προσαρμογή
 	--= D =--
 default = προεπιλεγμένο
+directory = κατάλογος
 	--= E =--
 e-mail = ηλεκτρονικό ταχυδρομείο, e-mail
 edit = τροποποίηση

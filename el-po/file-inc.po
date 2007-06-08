@@ -1,0 +1,96 @@
+# Greek Drupal translation of file-inc.po to Greek
+# $Id: file-inc.pot,v 1.8.2.5 2007/01/30 11:40:42 goba Exp $
+# LANGUAGE translation of Drupal (includes/file.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: file.inc,v 1.90 2007/01/05 05:32:22 unconed
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: file-inc\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"PO-Revision-Date: 2007-06-08 18:54+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: includes/file.inc:92
+msgid "The directory %directory has been created."
+msgstr "Δημιουργήθηκε ο κατάλογος αρχείων %directory."
+
+#: includes/file.inc:106
+msgid "The permissions of directory %directory have been changed to make it writable."
+msgstr "Οι άδειες του καταλόγου αρχείων %directory άλλαξαν ώστε να επιτρέπει εγγραφή."
+
+#: includes/file.inc:109
+msgid "The directory %directory is not writable"
+msgstr "Ο κατάλογος αρχείων %directory δεν είναι εγγράψιμος"
+
+#: includes/file.inc:110
+msgid "The directory %directory is not writable, because it does not have the correct permissions set."
+msgstr "Ο κατάλογος αρχείων %directory δεν είναι εγγράψιμος, επειδή δεν έχει τις σωστές άδειες."
+
+#: includes/file.inc:122
+msgid "Security warning: Couldn't write .htaccess file. Please create a .htaccess file in your %directory directory which contains the following lines: <code>!htaccess</code>"
+msgstr "Προειδοποίηση ασφάλειας: Δεν ήταν δυνατή η εγγραφή του αρχείου .htaccess. Θα πρέπει να δημιουργήσετε ένα αρχείο .htaccess στον κατάλογο %directory που να περιέχει τις εξής γραμμές: <code>!htaccess</code>"
+
+#: includes/file.inc:208
+msgid "The file %file could not be saved, because it exceeds the maximum allowed size for uploads."
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου %file, επειδή ξεπερνά το ανώτατο επιτρεπτό μέγεθος για την αποστολή αρχείων."
+
+#: includes/file.inc:213
+msgid "The file %file could not be saved, because the upload did not complete."
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου %file, επειδή η αποστολή του δεν ολοκληρώθηκε."
+
+#: includes/file.inc:218
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου %file. Παρουσιάστηκε άγνωστο σφάλμα."
+
+#: includes/file.inc:241
+msgid "File upload error. Could not move uploaded file."
+msgstr "Σφάλμα στην αποστολή του αρχείου. Δεν ήταν δυνατή η μετακίνηση του αποσταλθέντος αρχείου."
+
+#: includes/file.inc:242
+msgid "Upload Error. Could not move uploaded file (%file) to destination (%destination)."
+msgstr "Σφάλμα στην αποστολή του αρχείου. Δεν ήταν δυνατή η μετακίνηση  του αποσταλθέντος αρχείου (%file) στον προορισμό του (%destination)."
+
+#: includes/file.inc:322
+msgid "The selected file %file could not be uploaded, because the destination %directory is not properly configured."
+msgstr "Δεν ήταν δυνατή η αποστολή του επιλεγμένου αρχείου %file, επειδή ο κατάλογος προορισμού %directory δεν είναι σωστά διευθετημένος."
+
+#: includes/file.inc:323
+msgid "The selected file %file could not be uploaded, because the destination %directory could not be found, or because its permissions do not allow the file to be written."
+msgstr "Δεν ήταν δυνατή η αποστολή του επιλεγμένου αρχείου %file, επειδή ο κατάλογος προορισμού %directory δεν βρέθηκε ή επειδή οι άδειές του δεν επιτρέπουν την εγγραφή του αρχείου."
+
+#: includes/file.inc:338
+msgid "The selected file %file could not be copied, because no file by that name exists. Please check that you supplied the correct filename."
+msgstr "Δεν ήταν δυνατή η αντιγραφή του επιλεγμένου αρχείου %file, επειδή δεν υπάρχει αρχείο με αυτό το όνομα. Βεβαιωθείτε ότι δώσατε το σωστό όνομα αρχείου."
+
+#: includes/file.inc:370
+msgid "The selected file %file could not be copied, because a file by that name already exists in the destination."
+msgstr "Δεν ήταν δυνατή η αντιγραφή του επιλεγμένου αρχείου %file, επειδή υπάρχει ήδη ένα αρχείο με αυτό το όνομα στον προορισμό."
+
+#: includes/file.inc:376
+msgid "The selected file %file could not be copied."
+msgstr "Δεν ήταν δυνατή η αντιγραφή του επιλεγμένου αρχείο %file."
+
+#: includes/file.inc:425
+msgid "The removal of the original file %file has failed."
+msgstr "Η διαγραφή του πρωτότυπου αρχείου %file απέτυχε."
+
+#: includes/file.inc:528
+msgid "The file could not be created."
+msgstr "Δεν ήταν δυνατό να δημιουργηθεί το αρχείο."
+
+#: includes/file.inc:110;323
+msgid "file system"
+msgstr "σύστημα αρχείων"
+
+#: includes/file.inc:242
+msgid "file"
+msgstr "αρχείο"
+
