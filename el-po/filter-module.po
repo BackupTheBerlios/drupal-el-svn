@@ -1,20 +1,17 @@
-# Greek translation of Drupal 5.1
+# Greek translation of Drupal 5.1 (filter.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: filter-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-01 23:35+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 23:25+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: filter/filter.module:23
 msgid "The filter module allows administrators to configure  text input formats for the site. For example, an administrator may want a filter to strip out malicious HTML from user's comments. Administrators may also want to make URLs linkable even if they are only entered in an unlinked format."
@@ -72,7 +69,7 @@ msgstr "Μορφότυποι εισόδου"
 
 #: filter/filter.module:59
 msgid "Configure how content input by users is filtered, including allowed HTML tags, PHP code tags. Also allows enabling of module-provided filters."
-msgstr "Προσδιορίζει πώς θα φιλτράρεται η εισαγωγή περιεχομένου από τους χρήστες, HTML ετικέτες, PHP κώδικας. Επίσης επιτρέπει την ενεργοποίηση τα φίλτρα από μονάδες"
+msgstr "Προσδιορίζει πώς θα φιλτράρεται η εισαγωγή περιεχομένου από τους χρήστες, HTML ετικέτες, PHP κώδικας. Επίσης επιτρέπει την ενεργοποίηση τα φίλτρα από μονάδες."
 
 #: filter/filter.module:71
 msgid "Add input format"
