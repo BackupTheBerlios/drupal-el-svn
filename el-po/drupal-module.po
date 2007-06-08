@@ -1,24 +1,21 @@
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+# Greek translation of Drupal 5.1 (drupal-module)
+# Copyright 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: drupal-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 16:33+0200\n"
-"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 23:23+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: drupal/drupal.module:15
 msgid "The Drupal module uses the XML-RPC network communication protocol to connect your site with a central server that maintains a directory of client sites."
-msgstr "Η μονάδα drupal χρησιμοποιεί το δικτυακό πρωτόκολλο επικοινωνίας XML-RPC για να συνδέει τον ιστοχώρο σας με έναν κεντρικό διακομιστή που τηρεί έναν κατάλογο πελατών-ιστοχώρων."
+msgstr "Η μονάδα Drupal χρησιμοποιεί το δικτυακό πρωτόκολλο επικοινωνίας XML-RPC για να συνδέει τον ιστοχώρο σας με έναν κεντρικό διακομιστή που τηρεί έναν κατάλογο πελατών-ιστοχώρων."
 
 #: drupal/drupal.module:16
 msgid ""
@@ -161,7 +158,7 @@ msgstr "Το URL του προεπιλεγμένου διακομιστή ανα
 
 #: drupal/drupal.module:130
 msgid "Only allow authentication from default server"
-msgstr "Επέτρεψε αναγνώριση μόνο από τον προεπιλεγμένο διακομιστή."
+msgstr "Επέτρεψε αναγνώριση μόνο από τον προεπιλεγμένο διακομιστή"
 
 #: drupal/drupal.module:133
 msgid "Only accept remote logins from the above specified default authentication server and not from any other server. Useful when an external system is the solitary authority on user accounts for this site. A common usage is to enable this setting and also enable an authentication module which talks to your company's directory server."
@@ -201,7 +198,7 @@ msgstr "Κατανεμημένη πιστοποίηση"
 
 #: drupal/drupal.module:350
 msgid "Allow your site to accept logins from other Drupal sites such as drupal.org."
-msgstr "Επέτρεψε στον ιστοχώρο σου να δέχεται εγγραφές από άλλους ιστοχώρους Drupal, όπως το drupal.org"
+msgstr "Επέτρεψε στον ιστοχώρο σου να δέχεται εγγραφές από άλλους ιστοχώρους Drupal, όπως το drupal.org."
 
 #: drupal/drupal.module:197
 msgid "client ping"
