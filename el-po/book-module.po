@@ -1,23 +1,17 @@
-# $Id: book-module.po,v 1.8 2007/03/21 02:55:09 fubar Exp $
-#
-# LANGUAGE translation of Drupal (modules/book/book.module)
+# Greek translation of Drupal 5.1 (book.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: book.module,v 1.406 2007/01/09 08:31:22 drumm
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Greek Drupal 5.x\n"
+"Project-Id-Version: book-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-06-06 03:16+0200\n"
-"Last-Translator: christos <kalitsis@gmail.com>\n"
-"Language-Team: Medi. BA Mpakal Team based on the work of Project Cogville cog@cogville.com for Drupal 4.7 <webmastoras@medi-ba.com>\n"
+"PO-Revision-Date: 2007-06-08 23:20+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: Greece\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/book/book.module:15
 msgid "Book page"
@@ -45,7 +39,7 @@ msgstr "Βιβλία"
 
 #: modules/book/book.module:95
 msgid "Manage site's books and orphaned book pages."
-msgstr "Διαχείριση των βιβλίων του ιστότοπου και των ορφανών σελίδων"
+msgstr "Διαχείριση των βιβλίων του ιστότοπου και των ορφανών σελίδων."
 
 #: modules/book/book.module:104
 msgid "Orphan pages"
@@ -141,7 +135,7 @@ msgstr "Ενημερώθηκε το βιβλίο %title."
 
 #: modules/book/book.module:949
 msgid "Updated orphan book pages."
-msgstr "Ενημερώθηκαν οι ορφανές σελίδες βιβλίου"
+msgstr "Ενημερώθηκαν οι ορφανές σελίδες βιβλίου."
 
 #: modules/book/book.module:971
 msgid "outline"
