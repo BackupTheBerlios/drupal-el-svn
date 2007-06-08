@@ -1,23 +1,17 @@
-# $Id: blogapi-module.po,v 1.7 2007/03/21 02:55:01 fubar Exp $
-#
-# LANGUAGE translation of Drupal (modules/blogapi/blogapi.module)
+# Greek translation of Drupal 5.1 (blogapi.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: blogapi.module,v 1.100 2007/01/05 19:05:54 dries
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Greek Drupal 5.x\n"
+"Project-Id-Version: blogapi-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-06-02 05:22+0200\n"
-"Last-Translator: christos <kalitsis@gmail.com>\n"
-"Language-Team: Medi. BA Mpakal Team based on the work of Project Cogville cog@cogville.com for Drupal 4.7 <webmastoras@medi-ba.com>\n"
+"PO-Revision-Date: 2007-06-08 23:17+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: Greece\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/blogapi/blogapi.module:15
 msgid "The blog API module enables a post to be posted to a site via external GUI applications. Many users prefer to use external tools to improve their ability to read and post responses in a customized way. The blog api provides users the freedom to use the blogging tools they want but still have the blogging server of choice."
@@ -137,7 +131,7 @@ msgstr "Είτε επιχειρήσατε να τροποποιήσετε το �
 
 #: modules/blogapi/blogapi.module:521
 msgid "Wrong username or password."
-msgstr "Λάθος όνομα λογαριασμού ή κωδικός εισόδου"
+msgstr "Λάθος όνομα λογαριασμού ή κωδικός εισόδου."
 
 #: modules/blogapi/blogapi.module:544
 msgid "Blog types"
