@@ -1,20 +1,17 @@
-# Greek translation of Drupal 5.1
+# Greek translation of Drupal 5.1 (system-install)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: system-install\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 16:36+0200\n"
-"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-06-08 23:33+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: system/system.install:104
 msgid "You can <a href=\"@cron\">run cron manually</a>."
@@ -66,7 +63,7 @@ msgstr "Μη προστατευμένο"
 
 #: system/system.install:78
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
-msgstr "Το αρχείο %file δεν είναι προστατευμένο από αλλαγές και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο. "
+msgstr "Το αρχείο %file δεν είναι προστατευμένο από αλλαγές και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
 
 #: system/system.install:83
 msgid "Protected"
@@ -98,7 +95,7 @@ msgstr "Ο κατάλογος αρχείων %directory δεν υπάρχει."
 
 #: system/system.install:119
 msgid "The directory %directory is not writable."
-msgstr "Ο φάκελος %directory δεν είναι εγγράψιμος"
+msgstr "Ο φάκελος %directory δεν είναι εγγράψιμος."
 
 #: system/system.install:122
 msgid "Not writable"
