@@ -62,7 +62,7 @@ msgstr ""
 
 #: statistics/statistics.module:34
 msgid "For more information please read the configuration and customization handbook <a href=\"@statistics\">Statistics page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"%statistics\">σελίδα Statistics</a>."
+msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@statistics\">σελίδα Statistics</a>."
 
 #: statistics/statistics.module:37
 msgid "Settings for the statistical information that Drupal will keep about the site. See <a href=\"@statistics\">site statistics</a> for the actual information."

@@ -420,7 +420,7 @@ msgid ""
 "!edit_uri"
 msgstr ""
 "Ο χρήστης !username έχει κάνει αίτηση για λογαριασμό.\n"
-"\"\n"
+"\n"
 "!edit_uri"
 
 #: user/user.module:1283

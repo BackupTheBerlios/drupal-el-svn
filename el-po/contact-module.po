@@ -45,7 +45,7 @@ msgstr "Από τη σελίδα αυτή μπορείτε να διαμορφώ
 
 #: modules/contact/contact.module:24
 msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
-msgstr "Το στοιχείο του μενού μπορεί να προσαρμοστεί και να διευθετηθεί μόνο αφού η μονάδα menu έχει <a href=\"%modules-page\">ενεργοποιηθεί</a>."
+msgstr "Το στοιχείο του μενού μπορεί να προσαρμοστεί και να διευθετηθεί μόνο αφού η μονάδα menu έχει <a href=\"@modules-page\">ενεργοποιηθεί</a>."
 
 #: modules/contact/contact.module:29
 msgid "The contact module also adds a <a href=\"@menu-settings\">menu item</a> (disabled by default) to the navigation block."
@@ -157,7 +157,7 @@ msgstr "Μπορείτε να αφήσετε ένα μήνυμα χρησιμο�
 
 #: modules/contact/contact.module:282
 msgid "Information to show on the <a href=\"@form\">contact page</a>. Can be anything from submission guidelines to your postal address or telephone number."
-msgstr "Πληροφορίες που θα εμφανίζονται στη <a href=\"%form\">σελίδα επικοινωνίας</a>. Μπορεί να είναι οτιδήποτε: οδηγίες υποβολής, η ταχυδρομική σας διεύθυνση ή ο αριθμός τηλεφώνου σας."
+msgstr "Πληροφορίες που θα εμφανίζονται στη <a href=\"@form\">σελίδα επικοινωνίας</a>. Μπορεί να είναι οτιδήποτε: οδηγίες υποβολής, η ταχυδρομική σας διεύθυνση ή ο αριθμός τηλεφώνου σας."
 
 #: modules/contact/contact.module:285
 msgid "Hourly threshold"

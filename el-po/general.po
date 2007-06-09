@@ -1201,7 +1201,7 @@ msgstr ""
 
 #: legacy/legacy.module:27
 msgid "For more information please read the configuration and customization handbook <a href=\"@legacy\">Legacy page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"%legacy\">σελίδα Legacy</a>."
+msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@legacy\">σελίδα Legacy</a>."
 
 #: legacy/legacy.module:119
 msgid "Legacy filter"
@@ -1221,7 +1221,7 @@ msgstr "Η μονάδα ping απαιτεί το <code>cron</code> ή κάποι
 
 #: ping/ping.module:17
 msgid "For more information please read the configuration and customization handbook <a href=\"@ping\">Ping page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"%ping\">σελίδα Ping</a>."
+msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@ping\">σελίδα Ping</a>."
 
 #: ping/ping.module:55
 msgid "Failed to notify pingomatic.com (site)."
