@@ -14,6 +14,8 @@ categorize = κατάταξη σε κατηγορία
 collapsed = συμπτυγμένος
 configuration = διευθέτηση, ρύθμιση
 contact = επικοινωνία
+content = ύλη, περιεχόμενο
+custom = προσαρμοσμένος
 customization = προσαρμογή
 	--= D =--
 default = προεπιλεγμένο
@@ -63,12 +65,14 @@ story = ιστόρημα
 	--= T =--
 tab = καρτέλα
 tag = σήμανση, ετικέτα
+term = όρος
 theme = θεματική παραλλαγή, μοτίβο
 throttle = απόπνιξη
 topic = θέμα
 	--= U =--
 underscore = χαρακτήρας υπογράμμισης
 	--= V =--
+vocabulary = λεξιλόγιο
 	--= W =--
 widget = γραφικό συστατικό
 website = ιστοχώρος
