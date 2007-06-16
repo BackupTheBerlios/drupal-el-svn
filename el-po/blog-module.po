@@ -35,11 +35,11 @@ msgstr "Η μονάδα ιστολόγιο επιτρέπει στους εγγ�
 
 #: modules/blog/blog.module:66
 msgid "The blog module adds a <em>user blogs</em> navigation link to the site, which takes any visitor to a page that displays the most recent blog entries from all the users on the site. The navigation menu has a <em>create a blog entry</em> link (which takes you to a submission form) and a <em>view personal blog</em> link (which displays your blog entries as other people will see them). The blog module also creates a <em>recent blog posts</em> block that can be enabled."
-msgstr "Η μονάδα ιστολόγιο προσθέτει στον ιστότοπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του τόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματα σας όπως θα τα βλέπουν οι άλλοι).  Η μονάδα ιστολόγιο δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
+msgstr "Η μονάδα ιστολόγιο προσθέτει στον ιστότοπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του τόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματά σας όπως θα τα βλέπουν οι άλλοι). Η μονάδα ιστολόγιο δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
 
 #: modules/blog/blog.module:67
 msgid "If a user has the ability to post blogs, then the import module (news aggregator) will display a blog-it link next to each news item in its lists. Clicking on this takes the user to the blog submission form, with the title, a link to the item, and a link to the source into the body text already in the text box, ready for the user to add a comment or explanation. This actively encourages people to add blog entries about things they see and hear elsewhere in the website and from your syndicated partner sites."
-msgstr "Αν ένας χρήστης έχει τη δυνατότητα να υποβάλλει ιστολογήματα, τότε η μονάδα εισαγωγής (συλλέκτης ειδήσεων) θα εμφανίζει μια παραπομπή ιστολογήστε το δίπλα σε κάθε είδηση που παρουσιάζει. Αυτή οδηγεί το χρήστη στη φόρμα υποβολής του ιστολογίου του, και στο κείμενο του περιεχομένου υπάρχει ήδη ο τίτλος, μια παραπομπή στην είδηση και μια παραπομπή στην πηγή. Έτσι, ο χρήστης είναι έτοιμος να προσθέσει ένα σχόλιο ή επεξήγηση. Αυτό ενθαρρύνει ενεργά τον κόσμο να υποβάλλει ιστολογήματα για πράγματα που βλέπει και ακούει σε άλλες περιοχές του ιστοτόπου σας ή σε συνεργαζόμενους ανεξάρτητους τόπους."
+msgstr "Αν ένας χρήστης έχει τη δυνατότητα να υποβάλλει ιστολογήματα, τότε η μονάδα εισαγωγής (συλλέκτης ειδήσεων) θα εμφανίζει μια παραπομπή ιστολογήστε το δίπλα σε κάθε είδηση που παρουσιάζει. Αυτή οδηγεί το χρήστη στη φόρμα υποβολής του ιστολογίου του και στο κείμενο του περιεχομένου υπάρχει ήδη ο τίτλος, μια παραπομπή στην είδηση και μια παραπομπή στην πηγή. Έτσι, ο χρήστης είναι έτοιμος να προσθέσει ένα σχόλιο ή επεξήγηση. Αυτό ενθαρρύνει ενεργά τον κόσμο να υποβάλλει ιστολογήματα για πράγματα που βλέπει και ακούει σε άλλες περιοχές του ιστοτόπου σας ή σε συνεργαζόμενους ανεξάρτητους τόπους."
 
 #: modules/blog/blog.module:68
 msgid "For more information please read the configuration and customization handbook <a href=\"@blog\">Blog page</a>."
@@ -47,7 +47,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/blog/blog.module:134;223
 msgid "@name's blog"
-msgstr "Ιστολόγιο: @name"
+msgstr "Το ιστολόγιο του/της @name"
 
 #: modules/blog/blog.module:137
 msgid "Post new blog entry."
@@ -75,7 +75,7 @@ msgstr "Ιστολόγιο του χρήστη @username"
 
 #: modules/blog/blog.module:261
 msgid "My blog"
-msgstr "Το ιστολόγιο μου"
+msgstr "Το ιστολόγιό μου"
 
 #: modules/blog/blog.module:277;286
 msgid "Recent blog posts"

@@ -76,7 +76,7 @@ msgstr "Βαθμολογία ύλης"
 
 #: node/node.module:817
 msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
-msgstr "Οι παρακάτω αριθμοί ελέγχουν ποιες ιδιότητες θα ευνοεί η αναζήτηση ύλης όταν ταξινομεί τα αποτελέσματα. Μεγαλύτεροι αριθμοί σημαίνουν μεγαλύτερη επιρροή και το μηδέν σημαίνει ότι η ιδιότητα αγνοείται. Η αλλαγή αυτών των αριθμών δεν απαιτεί να επανακατασκευαστεί το ευρετήριο της αναζήτησης.  Οι αλλαγές ισχύουν αμέσως."
+msgstr "Οι παρακάτω αριθμοί ελέγχουν ποιες ιδιότητες θα ευνοεί η αναζήτηση ύλης όταν ταξινομεί τα αποτελέσματα. Μεγαλύτεροι αριθμοί σημαίνουν μεγαλύτερη επιρροή και το μηδέν σημαίνει ότι η ιδιότητα αγνοείται. Η αλλαγή αυτών των αριθμών δεν απαιτεί να επανακατασκευαστεί το ευρετήριο της αναζήτησης. Οι αλλαγές ισχύουν αμέσως."
 
 #: node/node.module:819
 msgid "Keyword relevance"
@@ -168,7 +168,7 @@ msgstr "2000 χαρακτήρες"
 
 #: node/node.module:990
 msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
-msgstr "Ο μέγιστος αριθμός χαρακτήρων που χρησιμοποιούνται στην περικομμένη μορφή μιας καταχώρισης.  Το Drupal θα χρησιμοποιεί αυτή τη ρύθμιση για να προσδιορίζει σε ποιο σημείο πρέπει να κόβονται οι μεγάλες καταχωρίσεις.  Η περικομμένη μορφή μιας καταχώρισης χρησιμοποιείται συνήθως ως περίληψη όταν εμφανίζεται η καταχώριση στην κεντρική σελίδα, σε XML feed κ.λπ.  Για να απενεργοποιήσετε τις περιλήψεις επιλέξτε 'Χωρίς περιορισμό'. Σημειώστε ότι η ρύθμιση αυτή θα έχει επίδραση μόνο στη νέα ή την ενημερωμένη ύλη και όχι στις υπάρχουσες περιλήψεις."
+msgstr "Ο μέγιστος αριθμός χαρακτήρων που χρησιμοποιούνται στην περικομμένη μορφή μιας καταχώρισης. Το Drupal θα χρησιμοποιεί αυτή τη ρύθμιση για να προσδιορίζει σε ποιο σημείο πρέπει να κόβονται οι μεγάλες καταχωρίσεις. Η περικομμένη μορφή μιας καταχώρισης χρησιμοποιείται συνήθως ως περίληψη όταν εμφανίζεται η καταχώριση στην κεντρική σελίδα, σε XML feed κ.λπ. Για να απενεργοποιήσετε τις περιλήψεις επιλέξτε 'Χωρίς περιορισμό'. Σημειώστε ότι η ρύθμιση αυτή θα έχει επίδραση μόνο στη νέα ή την ενημερωμένη ύλη και όχι στις υπάρχουσες περιλήψεις."
 
 #: node/node.module:994
 msgid "Preview post"
@@ -492,7 +492,7 @@ msgstr "<strong>Ενεργοποιήστε πρόσθετες λειτουργι
 
 #: node/node.module:2398
 msgid "<strong>Customize your website design</strong> To change the \"look and feel\" of your website, visit the <a href=\"@themes\">themes section</a>. You may choose from one of the included themes or download additional themes from the <a href=\"@download_themes\">Drupal themes download section</a>."
-msgstr "<strong>Προσαρμόστε την όψη του ιστοχώρου σας</strong> Για να αλλάξετε \"την όψη και την αίσθηση\" του ιστοχώρου σας, πηγαίνετε στη <a href=\"@themes\">σελίδα των εμφανίσεων</a>. Μπορείτε να διαλέξετε μία από τις θεματικές εμφανίσεις που περιλαμβάνονται ή να κατεβάσετε και άλλες  από την <a href=\"@download_themes\">ιστοσελίδα των εμφανίσεων (themes) του Drupal</a>."
+msgstr "<strong>Προσαρμόστε την όψη του ιστοχώρου σας</strong> Για να αλλάξετε \"την όψη και την αίσθηση\" του ιστοχώρου σας, πηγαίνετε στη <a href=\"@themes\">σελίδα των εμφανίσεων</a>. Μπορείτε να διαλέξετε μία από τις θεματικές εμφανίσεις που περιλαμβάνονται ή να κατεβάσετε και άλλες από την <a href=\"@download_themes\">ιστοσελίδα των εμφανίσεων (themes) του Drupal</a>."
 
 #: node/node.module:2399
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
