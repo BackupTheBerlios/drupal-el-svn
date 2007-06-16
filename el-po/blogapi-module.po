@@ -15,11 +15,11 @@ msgstr ""
 
 #: modules/blogapi/blogapi.module:15
 msgid "The blog API module enables a post to be posted to a site via external GUI applications. Many users prefer to use external tools to improve their ability to read and post responses in a customized way. The blog api provides users the freedom to use the blogging tools they want but still have the blogging server of choice."
-msgstr "Η μονάδα blogapi (API ιστολογίων) επιτρέπει να υποβάλλεται ύλη σε έναν ιστότοπο μέσω εξωτερικών εφαρμογών με οπτικό χειρισμό (GUI).  Πολλοί χρήστες προτιμούν να χρησιμοποιούν εξωτερικά εργαλεία για να μπορούν καλύτερα να διαβάζουν και να υποβάλλουν απαντήσεις με έναν προσαρμοσμένο τρόπο.  Το blog api προσφέρει στους χρήστες την ελευθερία να χρησιμοποιούν τα εργαλεία ιστολογίου που θέλουν ενώ εξακολουθούν να έχουν το διακομιστή ιστολογίων που προτιμούν."
+msgstr "Η μονάδα blogapi (API ιστολογίων) επιτρέπει την υποβολή ύλης σε έναν ιστοτόπο μέσω εξωτερικών εφαρμογών με οπτικό χειρισμό (GUI). Πολλοί χρήστες προτιμούν να χρησιμοποιούν εξωτερικά εργαλεία για να μπορούν καλύτερα να διαβάζουν και να υποβάλλουν απαντήσεις με έναν προσαρμοσμένο τρόπο. Το blogapi παρέχει στους χρήστες την ελευθερία να χρησιμοποιούν τα εργαλεία ιστολογίου που θέλουν ενώ εξακολουθούν να έχουν το διακομιστή ιστολογίων που προτιμούν."
 
 #: modules/blogapi/blogapi.module:16
 msgid "When this module is enabled and configured you can use programs like <a href=\"@external-http-ecto-kung-foo-tv\">Ecto</a> to create and publish posts from your desktop. Blog API module supports several XML-RPC based blogging APIs such as the <a href=\"@-\">Blogger API</a>, <a href=\"@external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, and most of the <a href=\"@external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Any desktop blogging tools or other services (e.g. <a href=\"@external-http-www-flickr-com\">Flickr's</a> \"post to blog\") that support these APIs should work with this site."
-msgstr "Όταν αυτή η μοναδα ενεργοποιηθεί και διευθετηθεί, μπορείτε να χρησιμοποιείτε προγράμματα όπως το <a href=\"@external-http-ecto-kung-foo-tv\">Ecto</a> για να γράφετε και να δημοσιεύετε από την οθόνη σας. Η μονάδα blogapi υποστηρίζει πολλά API ιστολογίων βασισμένα σε XML-RPC, όπως το <a href=\"@-\">Blogger API</a>, το <a href=\"@external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, και το μεγαλύτερο μέρος του <a href=\"@external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Οποιαδήποτε εργαλεία ιστολογίων ή άλλες υπηρεσίες (π.χ. το \"post to blog\" του <a href=\"@external-http-www-flickr-com\">Flickr</a>) που υποστηρίζουν αυτά τα API μάλλον θα λειτουργούν και στον ιστότοπό σας."
+msgstr "Όταν αυτή η μοναδα ενεργοποιηθεί και ρυθμιστεί, μπορείτε να χρησιμοποιείτε προγράμματα όπως το <a href=\"@external-http-ecto-kung-foo-tv\">Ecto</a> για να γράφετε και να δημοσιεύετε από την επιφάνεια εργασίας σας. Η μονάδα blogapi υποστηρίζει πολλά API ιστολογίων βασισμένα σε XML-RPC, όπως το <a href=\"@-\">Blogger API</a>, το <a href=\"@external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a> και το μεγαλύτερο μέρος του <a href=\"@external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Οποιαδήποτε εργαλεία ιστολογίων ή άλλες υπηρεσίες (π.χ. το \"post to blog\" του <a href=\"@external-http-www-flickr-com\">Flickr</a>) που υποστηρίζουν αυτά τα API πιθανόν να λειτουργούν και στον ιστοτόπο σας."
 
 #: modules/blogapi/blogapi.module:17
 msgid "This module also allows site administrators to configure which content types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each content type as a separate \"blog\"."
@@ -63,7 +63,7 @@ msgstr "Ενημερώνει τις πληροφορίες για μια υπά�
 
 #: modules/blogapi/blogapi.module:82
 msgid "Uploads a file to your webserver."
-msgstr "Ανεβάζει ένα αρχείο στο διακομιστή σας."
+msgstr "Ανεβάζει ένα αρχείο στο διακομιστή ιστοσελίδων σας."
 
 #: modules/blogapi/blogapi.module:87;107
 msgid "Returns a list of all categories to which the post is assigned."
@@ -87,7 +87,7 @@ msgstr "Ανάκτηση πληροφοριών για τις μεθόδους X
 
 #: modules/blogapi/blogapi.module:122
 msgid "Retrieve information about the text formatting plugins supported by the server."
-msgstr "Ανάκτηση πληροφοριών για τα plugin μορφοποίησης κειμένου που υποστηρίζονται από το διακομιστή."
+msgstr "Ανάκτηση πληροφοριών για τα πρόσθετα μορφοποίησης κειμένου που υποστηρίζονται από το διακομιστή."
 
 #: modules/blogapi/blogapi.module:127
 msgid "Publish (rebuild) all of the static files related to an entry from your weblog. Equivalent to saving an entry in the system (but without the ping)."
