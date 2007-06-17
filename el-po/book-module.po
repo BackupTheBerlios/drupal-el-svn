@@ -163,7 +163,7 @@ msgstr "Οι διαχειριστές μπορούν να βλέπουν μια 
 
 #: modules/book/book.module:989
 msgid "For more information please read the configuration and customization handbook <a href=\"@book\">Book page</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@book\">σελίδα Book</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@book\">σελίδα Book</a>."
 
 #: modules/book/book.module:992
 msgid "The book module offers a means to organize content, authored by many users, in an online manual, outline or FAQ."

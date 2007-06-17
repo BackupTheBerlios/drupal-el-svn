@@ -43,7 +43,7 @@ msgstr "Αν ένας χρήστης έχει τη δυνατότητα να υ�
 
 #: modules/blog/blog.module:68
 msgid "For more information please read the configuration and customization handbook <a href=\"@blog\">Blog page</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@blog\">σελίδα Blog</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">σελίδα Blog</a>."
 
 #: modules/blog/blog.module:134;223
 msgid "@name's blog"

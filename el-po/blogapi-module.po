@@ -27,7 +27,7 @@ msgstr "Η μονάδα αυτή επιτρέπει επίσης στους δι
 
 #: modules/blogapi/blogapi.module:18
 msgid "For more information please read the configuration and customization handbook <a href=\"@blogapi\">BlogApi page</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@blogapi\">σελίδα BlogApi</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blogapi\">σελίδα BlogApi</a>."
 
 #: modules/blogapi/blogapi.module:32
 msgid "Returns a list of weblogs to which an author has posting privileges."
