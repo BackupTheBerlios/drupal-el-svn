@@ -19,7 +19,7 @@ msgstr "Ιστολόγημα"
 
 #: modules/blog/blog.module:17
 msgid "A blog is a regularly updated journal or diary made up of individual posts shown in reversed chronological order. Each member of the site may create and maintain a blog."
-msgstr "Ιστολόγιο (web log ή blog) είναι ένα χρονικό ή ημερολόγιο που ενημερώνεται τακτικά, το οποίο αποτελείται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που εμφανίζονται σε αντίστροφη χρονολογική σειρά. Ένα ιστολόγιο είναι στενά συνδεδεμένο με το συγγραφέα του, έτσι κάθε χρήστης θα έχει το δικό του ιστολόγιο."
+msgstr "Ιστολόγιο είναι ένα χρονικό ή ημερολόγιο που ενημερώνεται τακτικά, το οποίο αποτελείται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που εμφανίζονται σε αντίστροφη χρονολογική σειρά. Κάθε χρήστης του ιστοτόπου μπορεί να δημιουργεί και να τηρεί το δικό του ιστολόγιο."
 
 #: modules/blog/blog.module:52
 msgid "View recent blog entries"
@@ -27,19 +27,19 @@ msgstr "Προβολή πρόσφατων ιστολογημάτων"
 
 #: modules/blog/blog.module:52;241
 msgid "Read @username's latest blog entries."
-msgstr "Διαβάστε τα τελευταία ιστολογήματα του χρήστη @username."
+msgstr "Ανάγνωση των τελευταίων ιστολογημάτων του χρήστη @username."
 
 #: modules/blog/blog.module:65
 msgid "The blog module allows registered users to maintain an online weblog (commonly known as a blog), often referred to as an online journal or diary. Blogs are made up of individual posts that are time stamped and are typically viewed by date as you would a diary. Blogs often contain links to web pages users have read and/or agree/disagree with."
-msgstr "Η μονάδα ιστολόγιο επιτρέπει στους εγγεγραμμένους χρήστες να τηρούν ένα online ιστολόγιο (ή αλλιώς web log ή blog), το οποίο είναι ένα online προσωπικό ημερολόγιο.  Τα ιστολόγια αποτελούνται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που είναι χρονολογημένες και συνήθως εμφανίζονται κατά σειρά ημερομηνίας όπως σε ένα πραγματικό προσωπικό ημερολόγιο. Τα ιστολόγια συχνά περιέχουν παραπομπές σε ιστοσελίδες που διάβασαν οι χρήστες και με τις οποίες συμφωνούν ή διαφωνούν."
+msgstr "Η μονάδα ιστολόγιο επιτρέπει στους εγγεγραμμένους χρήστες να τηρούν ένα online ιστολόγιο (ή αλλιώς web log ή blog), το οποίο είναι ένα online προσωπικό ημερολόγιο. Τα ιστολόγια αποτελούνται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που είναι χρονολογημένες και συνήθως εμφανίζονται κατά σειρά ημερομηνίας όπως σε ένα πραγματικό προσωπικό ημερολόγιο. Τα ιστολόγια συχνά περιέχουν παραπομπές σε ιστοσελίδες που διάβασαν οι χρήστες και με τις οποίες συμφωνούν ή διαφωνούν."
 
 #: modules/blog/blog.module:66
 msgid "The blog module adds a <em>user blogs</em> navigation link to the site, which takes any visitor to a page that displays the most recent blog entries from all the users on the site. The navigation menu has a <em>create a blog entry</em> link (which takes you to a submission form) and a <em>view personal blog</em> link (which displays your blog entries as other people will see them). The blog module also creates a <em>recent blog posts</em> block that can be enabled."
-msgstr "Η μονάδα ιστολόγιο προσθέτει στον ιστότοπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του τόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματά σας όπως θα τα βλέπουν οι άλλοι). Η μονάδα ιστολόγιο δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
+msgstr "Η μονάδα ιστολόγιο προσθέτει στον ιστοτόπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του τόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματά σας όπως θα τα βλέπουν οι άλλοι). Η μονάδα ιστολόγιο δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
 
 #: modules/blog/blog.module:67
 msgid "If a user has the ability to post blogs, then the import module (news aggregator) will display a blog-it link next to each news item in its lists. Clicking on this takes the user to the blog submission form, with the title, a link to the item, and a link to the source into the body text already in the text box, ready for the user to add a comment or explanation. This actively encourages people to add blog entries about things they see and hear elsewhere in the website and from your syndicated partner sites."
-msgstr "Αν ένας χρήστης έχει τη δυνατότητα να υποβάλλει ιστολογήματα, τότε η μονάδα εισαγωγής (συλλέκτης ειδήσεων) θα εμφανίζει μια παραπομπή ιστολογήστε το δίπλα σε κάθε είδηση που παρουσιάζει. Αυτή οδηγεί το χρήστη στη φόρμα υποβολής του ιστολογίου του και στο κείμενο του περιεχομένου υπάρχει ήδη ο τίτλος, μια παραπομπή στην είδηση και μια παραπομπή στην πηγή. Έτσι, ο χρήστης είναι έτοιμος να προσθέσει ένα σχόλιο ή επεξήγηση. Αυτό ενθαρρύνει ενεργά τον κόσμο να υποβάλλει ιστολογήματα για πράγματα που βλέπει και ακούει σε άλλες περιοχές του ιστοτόπου σας ή σε συνεργαζόμενους ανεξάρτητους τόπους."
+msgstr "Αν ένας χρήστης έχει τη δυνατότητα να υποβάλλει ιστολογήματα, τότε η μονάδα εισαγωγής (συλλέκτης ειδήσεων) θα εμφανίζει μια παραπομπή ιστολόγησέ το δίπλα σε κάθε είδηση που παρουσιάζει. Αυτή οδηγεί το χρήστη στη φόρμα υποβολής του ιστολογίου του με τον τίτλο, μια παραπομπή προς την είδηση και μια παραπομπή προς την πηγή μέσα στο σώμα του κειμένου να υπάρχουν ήδη και το χρήστη να είναι έτοιμος να προσθέσει ένα σχόλιο ή επεξήγηση. Αυτό ενθαρρύνει ενεργά τον κόσμο να υποβάλλει ιστολογήματα για πράγματα που βλέπει και ακούει σε άλλες περιοχές του ιστοτόπου σας ή σε συνεργαζόμενους ανεξάρτητους τόπους."
 
 #: modules/blog/blog.module:68
 msgid "For more information please read the configuration and customization handbook <a href=\"@blog\">Blog page</a>."

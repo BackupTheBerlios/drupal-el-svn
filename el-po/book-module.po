@@ -19,7 +19,7 @@ msgstr "Σελίδα βιβλίου"
 
 #: modules/book/book.module:17
 msgid "A book is a collaborative writing effort: users can collaborate writing the pages of the book, positioning the pages in the right order, and reviewing or modifying pages previously written. So when you have some information to share or when you read a page of the book and you didn't like it, or if you think a certain page could have been written better, you can do something about it."
-msgstr "Βιβλίο είναι ένα συνεργατικό συγγραφικό εγχείρημα: Οι χρήστες μπορούν να συνεργάζονται στη σύνταξη των σελίδων του βιβλίου, να τις τοποθετούν στη σωστή διάταξη και να αναθεωρούν ή να τροποποιούν σελίδες που γράφτηκαν προηγουμένως. Πρόκειται για την συλλογή σελίδων από τους χρήστες του ιστοτόπου με απώτερο σκοπό την δημιουργία μεγάλων παρόμοιων θεματικών ενοτήτων."
+msgstr "Βιβλίο είναι ένα συνεργατικό συγγραφικό εγχείρημα: Οι χρήστες μπορούν να συνεργάζονται στη σύνταξη των σελίδων του βιβλίου, να τις τοποθετούν στη σωστή διάταξη και να αναθεωρούν ή να τροποποιούν σελίδες που γράφτηκαν προηγουμένως. Πρόκειται για τη συλλογή σελίδων από τους χρήστες του ιστοτόπου με απώτερο σκοπό την δημιουργία μεγάλων παρόμοιων θεματικών ενοτήτων."
 
 #: modules/book/book.module:68
 msgid "Add child page"
@@ -39,7 +39,7 @@ msgstr "Βιβλία"
 
 #: modules/book/book.module:95
 msgid "Manage site's books and orphaned book pages."
-msgstr "Διαχείριση των βιβλίων του ιστότοπου και των ορφανών σελίδων."
+msgstr "Διαχείριση των βιβλίων του ιστοτόπου και των ορφανών σελίδων."
 
 #: modules/book/book.module:104
 msgid "Orphan pages"
@@ -55,7 +55,7 @@ msgstr "Πλοήγηση βιβλίου"
 
 #: modules/book/book.module:216
 msgid "The parent section in which to place this page. Note that each page whose parent is &lt;top-level&gt; is an independent, top-level book."
-msgstr "Η μητρική ενότητα στην οποία θα τοποθετηθεί αυτή η σελίδα.  Σημειώστε ότι κάθε σελίδα που η μητρική της είναι &lt;πρώτου επιπέδου&gt; είναι ένα ανεξάρτητο βιβλίο πρώτου επιπέδου."
+msgstr "Η μητρική ενότητα στην οποία θα τοποθετηθεί αυτή η σελίδα. Σημειώστε ότι κάθε σελίδα που η μητρική της είναι &lt;πρώτου επιπέδου&gt; είναι ένα ανεξάρτητο βιβλίο πρώτου επιπέδου."
 
 #: modules/book/book.module:216
 msgid "The parent that this page belongs in."
@@ -75,11 +75,11 @@ msgstr "Μια επεξήγηση για να καταλάβουν καλύτε�
 
 #: modules/book/book.module:282;309
 msgid "Update book outline"
-msgstr "Ενημέρωση διάρθρωσης βιβλίου"
+msgstr "Ενημέρωση της διάρθρωσης βιβλίου"
 
 #: modules/book/book.module:285;314
 msgid "Remove from book outline"
-msgstr "Αφαίρεση από διάρθρωση βιβλίου"
+msgstr "Αφαίρεση από τη διάρθρωση βιβλίου"
 
 #: modules/book/book.module:289;304
 msgid "Add to book outline"
@@ -103,7 +103,7 @@ msgstr "επάνω"
 
 #: modules/book/book.module:493
 msgid "Go to parent page"
-msgstr "Μητρική σελίδα"
+msgstr "Μετάβαση στη μητρική σελίδα"
 
 #: modules/book/book.module:548
 msgid "top-level"
@@ -123,7 +123,7 @@ msgstr "Δεν υπάρχουν ορφανές σελίδες."
 
 #: modules/book/book.module:938
 msgid "%type: updated %title."
-msgstr "%type: ενημέρωση %title."
+msgstr "%type: ενημερώθηκε %title."
 
 #: modules/book/book.module:938;0
 msgid "book"
@@ -143,11 +143,11 @@ msgstr "διάρθρωση"
 
 #: modules/book/book.module:984
 msgid "The <em>book</em> module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book,  placing them into the existing document by adding them to a table of contents menu."
-msgstr "Ο τύπος ύλης <em>βιβλίο</em> είναι κατάλληλος για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου όπως οι τουριστικοί οδηγοί, τα εγχειρίδια, και οι \"συχνές ερωτήσεις\". Επιτρέπει να έχει ένα έγγραφο κεφάλαια, ενότητες, υποενότητες κ.λπ.  Οι συντάκτες με τις κατάλληλες άδειες μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
+msgstr "Η μονάδα <em>βιβλίο</em> είναι κατάλληλη για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου όπως οι τουριστικοί οδηγοί, τα εγχειρίδια και οι \"συχνές ερωτήσεις\". Επιτρέπει να έχει ένα έγγραφο κεφάλαια, ενότητες, υποενότητες κ.λπ. Οι συντάκτες με τις κατάλληλες άδειες μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
 
 #: modules/book/book.module:985
 msgid "Book pages have navigation elements at the bottom of the page for moving through the text.  These link to the previous and next pages in the book, as well as a link labeled <em>up</em>, leading to the level above in the structure.  More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">block administration page</a>."
-msgstr "Τα βιβλία έχουν κάποια πρόσθετα στοιχεία πλοήγησης <em>προηγούμενο</em>, <em>επάνω</em> και <em>επόμενο</em> στο κάτω μέρος κάθε σελίδας, για μετακίνηση μέσα στο κείμενο.  Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
+msgstr "Τα βιβλία έχουν κάποια πρόσθετα στοιχεία πλοήγησης <em>προηγούμενο</em>, <em>επάνω</em> και <em>επόμενο</em> στο κάτω μέρος κάθε σελίδας, για τη μετακίνηση μέσα στο κείμενο. Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
 
 #: modules/book/book.module:986
 msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "
@@ -155,11 +155,11 @@ msgstr "Οι χρήστες μπορούν να επιλέγουν την παρ
 
 #: modules/book/book.module:987
 msgid "Posts of type %book are automatically added to the book hierarchy. Users with the <em>outline posts in books</em> permission can also add content of any other type to a book, placing it into the existing book structure through the interface that's available by clicking on the <em>outline</em> tab while viewing that post."
-msgstr "Δημοσιεύσεις τύπου %book προστίθενται αυτόματα στην ιεραρχία του βιβλίου. Χρήστες με δικαιώματα <em>διάρθρωσης καταχωρίσεων σε βιβλία</em> μπορούν επίσης να προσθέτουν κάθε είδους περιεχομένου  σε βιβλίο."
+msgstr "Δημοσιεύσεις τύπου %book προστίθενται αυτόματα στην ιεραρχία του βιβλίου. Χρήστες με δικαιώματα <em>διάρθρωσης καταχωρίσεων σε βιβλία</em> μπορούν επίσης να προσθέτουν κάθε είδους περιεχομένου σε βιβλίο, τοποθετώντας το στην υπάρχουσα δομή του βιβλίου μέσω της διεπαφής που υπάρχει επιλέγοντας την καρτέλα <em>διάρθρωση</em> κατά την εμφάνιση της καταχώρισης."
 
 #: modules/book/book.module:988
 msgid "Administrators can view a list of all books on the <a href=\"@admin-node-book\">book administration page</a>.  In this list there is a link to an outline page for each book, from which is it possible to change the titles of sections, or to change their weight, thus reordering sections. From this administrative interface, it is also possible to determine whether there are any orphan pages - pages that have become disconnected from the rest of the book structure."
-msgstr "Οι διαχειριστές μπορούν να βλέπουν μια διάρθρωση βιβλίου, από την οποία μπορούν να αλλάζουν τους τίτλους των ενοτήτων και τα <i>βάρη</i> τους (αναδιατάσσοντας έτσι τις ενότητες).  Από τη διάρθρωση αυτή, μπορούν επίσης \"να τροποποιούν ή και να διαγράφουν σελίδες βιβλίων.  Πολλοί τύποι ύλης εκτός από σελίδες βιβλίου (για παράδειγμα, ιστολογήματα, ιστορήματα και ψηφοφορίες) μπορούν να προστίθενται σε ένα συνεργατικό βιβλίο από την καρτέλα <em>διάρθρωση</em> όταν εμφανίζεται η καταχώριση."
+msgstr "Οι διαχειριστές μπορούν να βλέπουν μια λίστα όλων των βιβλίων στη <a href=\"@admin-node-book\">σελίδα διαχείρισης βιβλίων</a>. Στη λίστα αυτή, υπάρχει μια παραπομπή στη σελίδα διάρθρωσης κάθε βιβλίου, από την οποία μπορούν να αλλάζουν τους τίτλους των ενοτήτων ή τα βάρη τους, αλλάζοντας έτσι τη διάταξη των ενοτήτων. Από αυτή τη διαχειριστική διεπαφή, μπορούν επίσης να καθορίζουν αν υπάρχουν ορφανές σελίδες - σελίδες που έχουν αποσυνδεθεί από την υπόλοιπη δομή του βιβλίου."
 
 #: modules/book/book.module:989
 msgid "For more information please read the configuration and customization handbook <a href=\"@book\">Book page</a>."
@@ -167,11 +167,11 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/book/book.module:992
 msgid "The book module offers a means to organize content, authored by many users, in an online manual, outline or FAQ."
-msgstr "Η μονάδα book παρέχει ένα μέσο για να οργανώνεται ύλη που γράφεται από πολλούς χρήστες σε ένα εγχειρίδιο, μια διάρθρωση ή ένα τμήμα συχνών ερωτήσεων."
+msgstr "Η μονάδα βιβλίο παρέχει ένα μέσο για να οργανώνεται ύλη που γράφεται από πολλούς χρήστες σε ένα εγχειρίδιο, μια διάρθρωση ή ένα τμήμα συχνών ερωτήσεων."
 
 #: modules/book/book.module:994
 msgid "Pages in a book are like a tree. As pages are edited, reorganized and removed, child pages might be left with no link to the rest of the book. Such pages are referred to as \"orphan pages\". On this page, administrators can review their books for orphans and reattach those pages as desired."
-msgstr "Οι σελίδες ενός βιβλίου μοιάζουν με δέντρο. Καθώς σελίδες τροποποιούνται, αναδιατάσσονται και αφαιρούνται, θυγατρικές σελίδες μπορεί να απομείνουν χωρίς σύνδεσμο με το υπόλοιπο βιβλίο.  Οι σελίδες αυτές λέγονται \"ορφανές σελίδες\". Σε αυτή τη σελίδα, οι διαχειριστές μπορούν να επιθεωρούν τα βιβλία τους για ορφανές σελίδες και να τις επανασυνδέσουν αν χρειάζεται."
+msgstr "Οι σελίδες ενός βιβλίου μοιάζουν με δέντρο. Καθώς σελίδες τροποποιούνται, αναδιατάσσονται και αφαιρούνται, θυγατρικές σελίδες μπορεί να απομείνουν χωρίς σύνδεσμο με το υπόλοιπο βιβλίο. Οι σελίδες αυτές λέγονται \"ορφανές σελίδες\". Σε αυτή τη σελίδα, οι διαχειριστές μπορούν να επιθεωρούν τα βιβλία τους για ορφανές σελίδες και να τις επανασυνδέσουν αν χρειάζεται."
 
 #: modules/book/book.module:998
 msgid "The outline feature allows you to include posts in the <a href=\"@book\">book hierarchy</a>."
@@ -195,9 +195,9 @@ msgstr "τροποποίηση σελίδων βιβλίου"
 
 #: modules/book/book.module:26
 msgid "edit own book pages"
-msgstr "τροποποίηση προσωπικών σελίδων βιβλίου"
+msgstr "τροποποίηση των δικών τους σελίδων βιβλίου"
 
 #: modules/book/book.module:26
 msgid "see printer-friendly version"
-msgstr "Προβολή εκτυπώσιμης μορφής"
+msgstr "προβολή εκτυπώσιμης μορφής"
 

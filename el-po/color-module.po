@@ -18,7 +18,7 @@ msgstr ""
 
 #: color/color.module:13
 msgid "Color scheme"
-msgstr "Χρωματικό σχήμα"
+msgstr "Χρωματικός συνδυασμός"
 
 #: color/color.module:107
 msgid "Custom"
@@ -50,9 +50,8 @@ msgstr "Χρώμα κειμένου"
 
 #: color/color.module:205
 msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
-msgstr "Δεν υπάρχει αρκετή μνήμη για την PHP για να αλλάξετε το χρωματικό θέμα της θεματικής παραλλαγής. Χρειάζεστε τουλάχιστον %size ακόμα. Ελέγξτε την<a href=\"@url\">τεκμηρίωση της PHP</a>για περισσότερες πληροφορίες."
+msgstr "Δεν υπάρχει αρκετή μνήμη για την PHP για να αλλάξετε το χρωματικό συνδυασμό της θεματικής παραλλαγής. Χρειάζεστε τουλάχιστον %size ακόμα. Ελέγξτε την <a href=\"@url\">τεκμηρίωση της PHP</a> για περισσότερες πληροφορίες."
 
 #: color/color.module:0
 msgid "color"
 msgstr "χρώμα"
-

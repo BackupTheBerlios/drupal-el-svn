@@ -23,7 +23,7 @@ msgstr "Όταν αυτή η μοναδα ενεργοποιηθεί και ρυ
 
 #: modules/blogapi/blogapi.module:17
 msgid "This module also allows site administrators to configure which content types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each content type as a separate \"blog\"."
-msgstr "Η μονάδα αυτή επιτρέπει επίσης στους διαχειριστές του ιστοτόπου να διευθετήσουν ποιοι τύποι ύλης μπορούν να υποβάλλονται μέσω των εξωτερικών εφαρμογών. Έτσι, για παράδειγμα, οι χρήστες θα μπορούν να υποβάλλουν θέματα συζήτησης καθώς και ιστολογήματα. Όπου υποστηρίζεται, οι εξωτερικές εφαρμογές θα παρουσιάζουν τον κάθε τύπο ύλης ως ξεχωριστό \"ιστολόγιο\"."
+msgstr "Η μονάδα αυτή επιτρέπει επίσης στους διαχειριστές του ιστοτόπου να ρυθμίσουν ποιοι τύποι ύλης μπορούν να υποβάλλονται μέσω των εξωτερικών εφαρμογών. Έτσι, για παράδειγμα, οι χρήστες θα μπορούν να υποβάλλουν θέματα συζήτησης καθώς και ιστολογήματα. Όπου υποστηρίζεται, οι εξωτερικές εφαρμογές θα παρουσιάζουν τον κάθε τύπο ύλης ως ξεχωριστό \"ιστολόγιο\"."
 
 #: modules/blogapi/blogapi.module:18
 msgid "For more information please read the configuration and customization handbook <a href=\"@blogapi\">BlogApi page</a>."
@@ -107,7 +107,7 @@ msgstr "Σφάλμα στην αποθήκευση της καταχώρισης
 
 #: modules/blogapi/blogapi.module:248;482
 msgid "You do not have permission to update this post."
-msgstr "Δεν έχετε την άδεια να ενημερώσετε αυτή την καταχώριση."
+msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
 #: modules/blogapi/blogapi.module:277
 msgid "@type: updated %title using blog API."
@@ -127,7 +127,7 @@ msgstr "Μη έγκυρη καταχώριση."
 
 #: modules/blogapi/blogapi.module:517
 msgid "You either tried to edit somebody else's blog or you don't have permission to edit your own blog."
-msgstr "Είτε επιχειρήσατε να τροποποιήσετε το ιστολόγιο κάποιου άλλου είτε δεν έχετε την άδεια να τροποποιείτε το δικό σας."
+msgstr "Είτε επιχειρήσατε να τροποποιήσετε το ιστολόγιο κάποιου άλλου χρήστη είτε δεν έχετε την άδεια να τροποποιείτε το δικό σας."
 
 #: modules/blogapi/blogapi.module:521
 msgid "Wrong username or password."
@@ -151,7 +151,7 @@ msgstr "API ιστολογίων"
 
 #: modules/blogapi/blogapi.module:574
 msgid "Configure which content types and engines external blog clients can use."
-msgstr "Ρυθμίστε ποιοι τύποι περιεχομένου και ποιοι εξωτερικοί πελάτες ιστολογίων μπορούν να χρησιμοποιηθούν."
+msgstr "Ρύθμιση των τύπων περιεχομένου και των μηχανισμών που μπορούν να χρησιμοποιούν εξωτερικοί πελάτες ιστολογίων."
 
 #: modules/blogapi/blogapi.module:0
 msgid "blogapi"
