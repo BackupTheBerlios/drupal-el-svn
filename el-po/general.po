@@ -1,21 +1,24 @@
+# Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-06-02 01:46+0300\n"
-"PO-Revision-Date: 2007-06-03 16:21+0200\n"
-"Last-Translator: George Litos <gl@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-07-08 15:46+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: aggregator/aggregator.module:49
 #: contact/contact.module:59
@@ -57,7 +60,7 @@ msgstr "Κατηγορίες"
 #: aggregator/aggregator.module:91
 #: node/node.module:1138
 msgid "RSS feed"
-msgstr "RSS feed"
+msgstr "Ροή RSS"
 
 #: aggregator/aggregator.module:124;146
 #: comment/comment.module:200
@@ -216,7 +219,7 @@ msgstr "Συλλέκτης"
 
 #: aggregator/aggregator.info:0
 msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
-msgstr "Συλλέγει ανεξάρτητη ύλη (feeds RSS, RDF και Atom)."
+msgstr "Συλλέγει ανεξάρτητη ύλη (ροές RSS, RDF και Atom)."
 
 #: aggregator/aggregator.info:0
 #: blog/blog.info:0
@@ -439,7 +442,7 @@ msgstr "Προεπισκόπηση"
 #: node/content_types.inc:210;282;306;327
 #: system/system.module:1077;1093;1119;1129;1170
 msgid "Reset to defaults"
-msgstr "Επαναφορά στις εξ ορισμού ρυθμίσεις"
+msgstr "Επαναφορά στις εξ' ορισμού ρυθμίσεις"
 
 #: color/color.info:0
 msgid "Color"
@@ -533,7 +536,7 @@ msgstr "E-mail"
 #: comment/comment.module:1492;1519;1527
 #: profile/profile.module:618
 msgid "The content of this field is kept private and will not be shown publicly."
-msgstr "Το περιεχόμενο αυτού του πεδίου παραμένει ιδιωτικό και δεν θα εμφανίζεται δημόσια."
+msgstr "Το περιεχόμενο αυτού του πεδίου παραμένει ιδιωτικό και δε θα εμφανίζεται δημόσια."
 
 #: comment/comment.module:1504
 #: node/node.module:2032
@@ -572,7 +575,7 @@ msgstr "Σχόλιο"
 #: comment/comment.module:1878
 #: forum/forum.module:193
 msgid "Date - newest first"
-msgstr "Ημερομηνία - πρώτα τα νεότερα"
+msgstr "Ημερομηνία - πρώτα τα νεώτερα"
 
 #: comment/comment.module:1879
 #: forum/forum.module:193
@@ -588,7 +591,7 @@ msgstr[1] "@count σχόλια"
 
 #: comment/comment.info:0
 msgid "Allows users to comment on and discuss published content."
-msgstr "Επιτρέπει τους χρήστες να σχολιάζουν και να συζητούν για την δημοσιευμένη ύλη."
+msgstr "Επιτρέπει στους χρήστες να σχολιάζουν και να συζητούν για τη δημοσιευμένη ύλη."
 
 #: contact/contact.module:89;101
 #: contact/contact.info:0
@@ -629,7 +632,7 @@ msgstr "Μήνυμα"
 
 #: contact/contact.info:0
 msgid "Enables the use of both personal and site-wide contact forms."
-msgstr "Επιτρέπει να χρησιμοποιούνται φόρμες επικοινωνίας, προσωπικές ή κεντρικές, για ολόκληρο τον ιστοχώρο."
+msgstr "Επιτρέπει να χρησιμοποιούνται φόρμες επικοινωνίας, προσωπικές ή κεντρικές, για ολόκληρο τον ιστοτόπο."
 
 #: drupal/drupal.module:356
 #: drupal/drupal.info:0
@@ -639,7 +642,7 @@ msgstr "Drupal"
 
 #: drupal/drupal.info:0
 msgid "Lets you register your site with a central server and improve ranking of Drupal projects by posting information on your installed modules and themes"
-msgstr "Σας επιτρέπει να καταχωρήσετε τον ιστοχώρο σας σε έναν κεντρικό υπολογιστή και να βελτιώσετε την βαθμολόγηση των προγραμμάτων του Drupal μέσω της αποστολής πληροφοριών για τις εγκατεστημένα μονάδες και τα θέματά σας"
+msgstr "Σας επιτρέπει να καταχωρήσετε τον ιστοτόπο σας σε έναν κεντρικό διακομιστή και να βελτιώσετε την βαθμολόγηση των προγραμμάτων του Drupal μέσω της αποστολής πληροφοριών για τις εγκατεστημένες μονάδες και τα θέματά σας"
 
 #: filter/filter.module:349
 #: system/system.module:1190
@@ -701,7 +704,7 @@ msgstr[1] "@count νέα"
 
 #: forum/forum.info:0
 msgid "Enables threaded discussions about general topics."
-msgstr "Επιτρέπει (νηματικές) συζητήσεις πάνω σε γενικά θέματα."
+msgstr "Επιτρέπει νηματικές συζητήσεις πάνω σε γενικά θέματα."
 
 #: help/help.module:18
 #: help/help.info:0
@@ -812,7 +815,7 @@ msgstr "Μενού"
 
 #: menu/menu.info:0
 msgid "Allows administrators to customize the site navigation menu."
-msgstr "Επιτρέπει στους διαχειριστές να προσαρμόζουν το μενού πλοήγησης του ιστοχώρου."
+msgstr "Επιτρέπει στους διαχειριστές να προσαρμόζουν το μενού πλοήγησης του ιστοτόπου."
 
 #: node/content_types.inc:15;86;100
 #: node/node.module:1571
@@ -904,7 +907,7 @@ msgstr "Κόμβος"
 
 #: node/node.info:0
 msgid "Allows content to be submitted to the site and displayed on pages."
-msgstr "Επιτρέπει να υποβάλλεται ύλη στον ιστοχώρο και να εμφανίζεται στις σελίδες."
+msgstr "Επιτρέπει να υποβάλλεται ύλη στον ιστοτόπο και να εμφανίζεται στις σελίδες."
 
 #: path/path.module:301
 #: system/system.info:0
@@ -921,7 +924,7 @@ msgstr "Ping"
 
 #: ping/ping.info:0
 msgid "Alerts other sites when your site has been updated."
-msgstr "Ειδοποιεί άλλους ιστοχώρους όταν ενημερώνεται ο δικός σας."
+msgstr "Ειδοποιεί άλλους ιστοτόπους όταν ενημερώνεται ο δικός σας."
 
 #: poll/poll.module:54;320
 #: poll/poll.info:0
@@ -940,7 +943,7 @@ msgstr "Επισκέπτης"
 
 #: poll/poll.info:0
 msgid "Allows your site to capture votes on different topics in the form of multiple choice questions."
-msgstr "Επιτρέπει στον ιστοχώρο να διεξάγει ψηφοφορίες σε διάφορα θέματα με τη μορφή ερωτήσεων πολλαπλής επιλογής."
+msgstr "Επιτρέπει στον ιστοτόπο να διεξάγει ψηφοφορίες σε διάφορα θέματα με τη μορφή ερωτήσεων πολλαπλής επιλογής."
 
 #: profile/profile.info:0
 msgid "Profile"
@@ -958,7 +961,7 @@ msgstr "Αναζήτηση"
 
 #: search/search.info:0
 msgid "Enables site-wide keyword searching."
-msgstr "Επιτρέπει την αναζήτηση σε όλο τον ιστοχώρο με λέξεις-κλειδιά."
+msgstr "Επιτρέπει την αναζήτηση σε όλο τον ιστοτόπο με λέξεις-κλειδιά."
 
 #: statistics/statistics.module:135
 #: watchdog/watchdog.module:49
@@ -1004,7 +1007,7 @@ msgstr "Στατιστικά"
 
 #: statistics/statistics.info:0
 msgid "Logs access statistics for your site."
-msgstr "Καταγράφει στατιστικά στοιχεία για τις επισκέψεις στον ιστοχώρο σας."
+msgstr "Καταγράφει στατιστικά στοιχεία για τις επισκέψεις στον ιστοτόπο σας."
 
 #: system/system.module:93
 #: upload/upload.module:94
@@ -1028,7 +1031,7 @@ msgstr "Διεύθυνση e-mail"
 
 #: system/system.info:0
 msgid "Handles general site configuration for administrators."
-msgstr "Χειρίζεται τις γενικές ρυθμίσεις του ιστοχώρου για τους διαχειριστές."
+msgstr "Χειρίζεται τις γενικές ρυθμίσεις του ιστοτόπου για τους διαχειριστές."
 
 #: taxonomy/taxonomy.info:0
 msgid "Enables the categorization of content."
@@ -1043,7 +1046,7 @@ msgstr[1] "@count χρήστες"
 
 #: throttle/throttle.info:0
 msgid "Handles the auto-throttling mechanism, to control site congestion."
-msgstr "Χειρίζεται το μηχανισμό αυτόματης-απόπνιξης, για τον έλεγχο της συμφόρησης του ιστοχώρου."
+msgstr "Χειρίζεται το μηχανισμό αυτόματης-απόπνιξης, για τον έλεγχο της συμφόρησης του ιστοτόπου."
 
 #: tracker/tracker.info:0
 msgid "Tracker"
@@ -1075,7 +1078,7 @@ msgstr "Καταγράφει και αποθηκεύει συμβάντα του
 
 #: color/color.install:21
 msgid "The GD library for PHP is enabled, but was compiled without PNG support. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
-msgstr "Η βιβλιοθήκη GD για την PHP είναι ενεργή, αλλά δεν υποστηρίζει την προβολή PNG. Παρακαλώ ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image </a> για πληροφορίες διόρθωσης του προβλήματος."
+msgstr "Η βιβλιοθήκη GD για την PHP είναι ενεργή, αλλά δεν υποστηρίζει την προβολή PNG. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
 
 #: color/color.install:26
 msgid "Not installed"
@@ -1083,7 +1086,7 @@ msgstr "Μη εγκατεστημένο"
 
 #: color/color.install:28
 msgid "The GD library for PHP is missing or outdated. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
-msgstr "Η βιβλιοθήκη GD για την PHP δεν βρέθηκε ή είναι ξεπερασμένη. Παρακαλώ ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image </a> για πληροφορίες διόρθωσης του προβλήματος."
+msgstr "Η βιβλιοθήκη GD για την PHP δεν βρέθηκε ή είναι ξεπερασμένη. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
 
 #: color/color.install:31
 msgid "GD library"
@@ -1121,8 +1124,8 @@ msgstr ""
 "   <dt>Ρόλος</dt><dd>Ταξινόμηση στην οποία εντάσσονται οι χρήστες για να καθοριστούν τα δικαίωματα τους. Ο χρήστης δέχεται το σύνολο των δικαιωμάτων ανάλογα με τους ρόλους που του έχουν δοθεί.</dd>\n"
 "   <dt>Ταξινομία</dt><dd>Σύστημα κατηγοριοποίησης που επιτρέπει την δημιουργία σύνθετων ιεραρχικών ή συσχετισμένων δομών και ετικετοποίηση της ύλης (δείτε <a href=\"@taxonomy\">οδηγίες για την ταξινομία</a>).</dd>\n"
 "   <dt>Αδημοσίευτο</dt><dd>Δημοσίευμα που είναι ορατό μόνο στούς διαχειριστές.</dd>\n"
-"   <dt>Χρήστης</dt><dd>Πρόσωπο που έχει λογαριασμό στον ιστοχώρο σας, και έχει εισέλθει στο σύστημα με αυτόν το λογαριασμό.</dd>\n"
-"   <dt>Επισκέπτης</dt><dd>Πρόσωπο που δεν έχει λογαριασμό στον ιστοχώρο ή που έχει λογαριασμό αλλά <em>δεν</em>έχει εισέλθει στο σύστημα με αυτόν. Ονομάζεται και \"ανώνυμος χρήστης\".</dd>\n"
+"   <dt>Χρήστης</dt><dd>Πρόσωπο που έχει λογαριασμό στον ιστοτόπο σας, και έχει εισέλθει στο σύστημα με αυτόν το λογαριασμό.</dd>\n"
+"   <dt>Επισκέπτης</dt><dd>Πρόσωπο που δεν έχει λογαριασμό στον ιστοτόπο ή που έχει λογαριασμό αλλά <em>δεν</em>έχει εισέλθει στο σύστημα με αυτόν. Ονομάζεται και \"ανώνυμος χρήστης\".</dd>\n"
 "  </dl>"
 
 #: help/help.module:93
@@ -1130,8 +1133,8 @@ msgid ""
 "<p>This guide explains what the various modules in <a href=\"@Drupal\">Drupal</a> do and how to configure them. Additionally, you will find a glossary of basic Drupal terminology to help get you started.</p>\n"
 "<p>It is not a substitute for the <a href=\"@handbook\">Drupal handbook</a> available online and should be used in conjunction with it. The online reference handbook might be more up-to-date and has helpful user-contributed comments. It is your definitive reference point for all Drupal documentation.</p>\n"
 msgstr ""
-"<p>Ο οδηγός αυτός εξηγεί την λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και την ρύθμιση τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
-"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειριδίου του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
+"<p>Ο οδηγός αυτός εξηγεί τη λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και τη ρύθμισή τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
+"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειρίδιο του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
 
 #: help/help.module:98
 msgid "The help module displays context sensitive help information. Users can learn how to use modules and accomplish tasks quicker with less errors by clicking on links in provided by the help module."
@@ -1155,7 +1158,7 @@ msgstr ""
 
 #: help/help.module:106
 msgid "For more information please read the configuration and customization handbook <a href=\"@help\">Help page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@help\">σελίδα Help</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@help\">σελίδα Help</a>."
 
 #: help/help.module:123
 msgid "No help is available for module %module."
@@ -1171,11 +1174,11 @@ msgstr "βοήθεια"
 
 #: legacy/legacy.module:15
 msgid "The legacy module provides legacy handlers for upgrades from older installations. These handlers help automatically redirect references to pages from old installations and prevent <em>page not found</em> errors for your site."
-msgstr "Η μονάδα legacy παρέχει λειτουργίες χειρισμού παλιών εκδόσεων από παλιές εγκαταστάσεις. Οι λειτουργίες αυτές βοηθούν στην αυτόματη εκτροπή των παραπομπών που αναφέρονται σε σελίδες παλιών εγκαταστάσεων και αποτρέπουν σφάλματα του τύπου <em>η σελίδα δεν βρέθηκε</em> στον ιστοχώρο σας."
+msgstr "Η μονάδα legacy παρέχει λειτουργίες χειρισμού παλιών εκδόσεων από παλιότερες εγκαταστάσεις. Οι λειτουργίες αυτές βοηθούν στην αυτόματη εκτροπή των παραπομπών που αναφέρονται σε σελίδες παλιών εγκαταστάσεων και αποτρέπουν σφάλματα του τύπου <em>η σελίδα δεν βρέθηκε</em> στον ιστοτόπο σας."
 
 #: legacy/legacy.module:16
 msgid "The legacy module handles legacy style taxonomy page, taxonomy feed, and blog feed paths. It also handles URL upgrades from Drupal 4.1. It rewrites old-style URLs to new-style URLs (clean URLs). "
-msgstr "Η μονάδα legacy χειρίζεται τις διαδρομές παλιών εκδόσεων για σελίδες ταξινομίας, feed ταξινομίας και feed ιστολογίων. Χειρίζεται επίσης την αναβάθμιση διευθύνσεων URL από το Drupal 4.1. Μετατρέπει τις URL παλιού-τύπου σε νέου-τύπου (καθαρές URL). "
+msgstr "Η μονάδα legacy χειρίζεται τις διαδρομές παλιών εκδόσεων για σελίδες ταξινομίας, ροές ταξινομίας και ροές ιστολογίων. Χειρίζεται επίσης την αναβάθμιση διευθύνσεων URL από το Drupal 4.1. Μετατρέπει τις URL παλιού-τύπου σε νέου-τύπου (καθαρές URL). "
 
 #: legacy/legacy.module:17
 msgid ""
@@ -1201,7 +1204,7 @@ msgstr ""
 
 #: legacy/legacy.module:27
 msgid "For more information please read the configuration and customization handbook <a href=\"@legacy\">Legacy page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@legacy\">σελίδα Legacy</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@legacy\">σελίδα Legacy</a>."
 
 #: legacy/legacy.module:119
 msgid "Legacy filter"
@@ -1213,7 +1216,7 @@ msgstr "Αντικαθιστά τις διευθύνσεις URL του Drupal 4
 
 #: ping/ping.module:15
 msgid "The ping module is useful for notifying interested sites that your site has changed. It automatically sends notifications (called \"pings\") to the <a href=\"@external-http-pingomatic-com\">pingomatic</a> service to tell it that your site has changed. In turn pingomatic will ping other services such as weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover, etc."
-msgstr "Η μονάδα ping χρησιμεύει για να ειδοποιούνται οι ενδιαφερόμενοι ιστοχώροι ότι ο ιστοχώρος σας έχει αλλάξει.  Στέλνει αυτόματα ειδοποιήσεις (που ονομάζονται \"pings\") στην υπηρεσία <a href=\"@external-http-pingomatic-com\">pingomatic</a> για να δηλώσει ότι ο ιστοχώρος σας έχει αλλάξει. Το pingomatic, με τη σειρά του, στέλνει ping σε άλλες υπηρεσίες όπως τα weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover κλπ."
+msgstr "Η μονάδα ping χρησιμεύει για να ειδοποιούνται οι ενδιαφερόμενοι ιστοτόποι ότι ο ιστοτόπος σας έχει αλλάξει. Στέλνει αυτόματα ειδοποιήσεις (που ονομάζονται \"pings\") στην υπηρεσία <a href=\"@external-http-pingomatic-com\">pingomatic</a> για να δηλώσει ότι ο ιστοτόπος σας έχει αλλάξει. Το pingomatic, με τη σειρά του, στέλνει ping σε άλλες υπηρεσίες όπως τα weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover κλπ."
 
 #: ping/ping.module:16
 msgid "The ping module requires <code>cron</code> or a similar periodic job scheduler to be enabled."
@@ -1221,11 +1224,11 @@ msgstr "Η μονάδα ping απαιτεί το <code>cron</code> ή κάποι
 
 #: ping/ping.module:17
 msgid "For more information please read the configuration and customization handbook <a href=\"@ping\">Ping page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@ping\">σελίδα Ping</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@ping\">σελίδα Ping</a>."
 
 #: ping/ping.module:55
 msgid "Failed to notify pingomatic.com (site)."
-msgstr "Δεν έγινε δυνατό να ειδοποιηθεί το pingomatic.com (ιστοχώρος)."
+msgstr "Δεν έγινε δυνατό να ειδοποιηθεί το pingomatic.com (ιστοτόπος)."
 
 #: ping/ping.module:55
 msgid "directory ping"

@@ -1,17 +1,20 @@
+# Greek Drupal translation of throttle-module.po to Greek
 # Greek translation of Drupal 5.1 (throttle.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: throttle-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:40+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: throttle/throttle.module:15
 msgid "Control how your site cuts out content during heavy load."
@@ -27,7 +30,7 @@ msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορε�
 
 #: throttle/throttle.module:129
 msgid "For more information please read the configuration and customization handbook <a href=\"@throttle\">Throttle page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@throttle\">σελίδα Throttle</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@throttle\">σελίδα Throttle</a>."
 
 #: throttle/throttle.module:132
 msgid "If your site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed. This module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic. This mechanism is utilized by other Drupal modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality."

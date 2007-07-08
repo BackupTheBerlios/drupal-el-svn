@@ -1,17 +1,20 @@
+# Greek Drupal translation of user-module.po to Greek
 # Greek translation of Drupal 5.1 (user.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: user-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:48+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:46+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: user/user.module:242
 msgid "You must enter a username."
@@ -339,7 +342,7 @@ msgstr "Ο χρήστης %name χρησιμοποίησε σύνδεσμο ει
 
 #: user/user.module:1115
 msgid "You have just used your one-time login link. It is no longer necessary to use this link to login. Please change your password."
-msgstr "Μόλις χρησιμοποιήσατε τον σύνδεσμο εισόδου μίας χρήσης. Δε είναι πλέον αναγκαίο να χρησιμοποιήσετε αυτόν τον σύνδεσμο για να εισέλθετε. Παρακαλώ αλλάξτε τον κωδικό σας."
+msgstr "Μόλις χρησιμοποιήσατε τον σύνδεσμο εισόδου μίας χρήσης. Δε είναι πλέον αναγκαίο να χρησιμοποιήσετε αυτόν τον σύνδεσμο για να εισέλθετε. Αλλάξτε τον κωδικό σας."
 
 #: user/user.module:1119
 msgid "<p>This is a one-time login for %user_name and will expire on %expiration_date</p><p>Click on this button to login to the site and change your password.</p>"
@@ -841,7 +844,7 @@ msgstr "Προσθήκη ρόλου"
 
 #: user/user.module:1940;1945
 msgid "The role name %name already exists. Please choose another role name."
-msgstr "Ο ρόλος %name υπάρχει ήδη. Παρακαλώ ορίστε άλλο όνομα ρόλου."
+msgstr "Ο ρόλος %name υπάρχει ήδη. Ορίστε άλλο όνομα ρόλου."
 
 #: user/user.module:1950
 msgid "You must specify a valid role name."
@@ -1085,7 +1088,7 @@ msgstr "Οι χρήστες μπορούν να χρησιμοποιούν έν�
 
 #: user/user.module:2356
 msgid "For more information please read the configuration and customization handbook <a href=\"@user\">User page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@user\">σελίδα User</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@user\">σελίδα User</a>."
 
 #: user/user.module:2359
 msgid "Drupal allows users to register, login, log out, maintain user profiles, etc. Users of the site may not use their own names to post content until they have signed up for a user account."

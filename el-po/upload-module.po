@@ -1,17 +1,20 @@
+# Greek Drupal translation of upload-module.po to Greek
 # Greek translation of Drupal 5.1 (upload.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:41+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:45+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: upload/upload.module:16
 msgid "The upload module allows users to upload files to the site. The ability to upload files to a site is important for members of a community who want to share work. It is also useful to administrators who want to keep uploaded files connected to a node or page."
@@ -23,7 +26,7 @@ msgstr "Οι χρήστες με την άδεια ανεβάσματος αρχ
 
 #: upload/upload.module:18
 msgid "For more information please read the configuration and customization handbook <a href=\"@upload\">Upload page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@upload\">σελίδα Upload</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@upload\">σελίδα Upload</a>."
 
 #: upload/upload.module:21
 msgid "Users with the <a href=\"@permissions\">upload files permission</a> can upload attachments. Users with the <a href=\"@permissions\">view uploaded files permission</a> can view uploaded attachments. You can choose which post types can take attachments on the <a href=\"@types\">content types settings</a> page."
@@ -167,11 +170,11 @@ msgstr "Η επισύναψη αρχείων είναι ανενεργή. Οι �
 
 #: upload/upload.module:384
 msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
-msgstr "Παρακαλώ επισκεφτείτε την σελίδα <a href=\"@admin-file-system\">ρυθμίσεις αρχείων</a>."
+msgstr "Επισκεφτείτε την σελίδα <a href=\"@admin-file-system\">ρυθμίσεις αρχείων συστήματος</a>."
 
 #: upload/upload.module:387
 msgid "Please contact the site administrator."
-msgstr "Παρακαλώ απευθυνθείτε στο διαχειριστή του ιστοχώρου."
+msgstr "Απευθυνθείτε στο διαχειριστή του ιστοχώρου."
 
 #: upload/upload.module:446
 msgid "The selected file %name can not be attached to this post, because it is only possible to attach files with the following extensions: %files-allowed."

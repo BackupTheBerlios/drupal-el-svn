@@ -1,17 +1,20 @@
+# Greek Drupal translation of watchdog-module.po to Greek
 # Greek translation of Drupal 5.1 (watchdog.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: watchdog-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:49+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:47+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: watchdog/watchdog.module:21
 msgid "The watchdog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
@@ -23,7 +26,7 @@ msgstr "Το ημερολόγιο του watchdog είναι απλώς μια �
 
 #: watchdog/watchdog.module:23
 msgid "For more information please read the configuration and customization handbook <a href=\"@watchdog\">Watchdog page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@watchdog\">σελίδα Watchdog</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@watchdog\">σελίδα Watchdog</a>."
 
 #: watchdog/watchdog.module:26
 msgid "The watchdog module monitors your web site, capturing system events in a log to be reviewed by an authorized individual at a later time. The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the watchdog report on a regular basis as it is often the only way to tell what is going on."

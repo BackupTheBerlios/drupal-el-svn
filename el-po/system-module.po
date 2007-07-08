@@ -1,17 +1,20 @@
+# Greek Drupal translation of system-module.po to Greek
 # Greek translation of Drupal 5.1 (system.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:38+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: system/system.module:19
 msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The settings module provides control over preferences, behaviours including visual and operational settings."
@@ -27,7 +30,7 @@ msgstr "Υπάρχει ένας μηχανισμός λανθάνουσας μν
 
 #: system/system.module:22
 msgid "For more information please read the configuration and customization handbook <a href=\"@system\">System page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@system\">σελίδα System</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@system\">σελίδα System</a>."
 
 #: system/system.module:25
 msgid "Welcome to the administration section. Here you may control how your site functions."
@@ -591,7 +594,7 @@ msgstr "Οι επιλογές διευθέτησης αποθηκεύτηκαν.
 
 #: system/system.module:1212
 msgid "Please note that the <a href=\"!admin_theme_page\">administration theme</a> is still set to the %admin_theme theme; consequently, the theme on this page remains unchanged. All non-administrative sections of the site, however, will show the selected %selected_theme theme by default."
-msgstr "Παρακαλώ προσέξτε ότι <a href=\"!admin_theme_page\">η εμφάνιση διαχείρισης</a> είναι ακόμα ορισμένη στην εμφάνιση %admin_theme; με συνέπεια η εμφάνιση αυτών των σελίδων να παραμείνει αναλλοίωτη. Όλες οι υπόλοιπες σελίδες όμως θα έχουν ως προεπιλογή την εμφάνιση %selected_theme."
+msgstr "Προσέξτε ότι <a href=\"!admin_theme_page\">η εμφάνιση διαχείρισης</a> είναι ακόμα ορισμένη στην εμφάνιση %admin_theme; με συνέπεια η εμφάνιση αυτών των σελίδων να παραμείνει αναλλοίωτη. Όλες οι υπόλοιπες σελίδες όμως θα έχουν ως προεπιλογή την εμφάνιση %selected_theme."
 
 #: system/system.module:1279;1312
 msgid " (<span class=\"admin-disabled\">disabled</span>)"

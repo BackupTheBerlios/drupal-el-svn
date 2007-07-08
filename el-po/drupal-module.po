@@ -1,17 +1,20 @@
+# Greek Drupal translation of drupal-module.po to Greek
 # Greek translation of Drupal 5.1 (drupal-module)
 # Copyright 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: drupal-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:23+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:36+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: drupal/drupal.module:15
 msgid "The Drupal module uses the XML-RPC network communication protocol to connect your site with a central server that maintains a directory of client sites."
@@ -70,7 +73,7 @@ msgstr ""
 
 #: drupal/drupal.module:39
 msgid "For more information please read the configuration and customization handbook <a href=\"@drupal\">Drupal page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@drupal\">σελίδα Drupal</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@drupal\">σελίδα Drupal</a>."
 
 #: drupal/drupal.module:42
 msgid "Using this your site can \"call home\" to another Drupal server. By calling home to drupal.org and sending a list of your installed modules and themes, you help rank projects on drupal.org and so assist all Drupal administrators to find the best components for meeting their needs. If you want to register with a different server, you can change the Drupal XML-RPC server setting -- but the server has to be able to handle Drupal XML. Some XML-RPC servers may present directories of all registered sites. To get all your site information listed, go to the <a href=\"@site-settings\">site information settings page</a> and set the site name, the e-mail address, the slogan, and the mission statement."

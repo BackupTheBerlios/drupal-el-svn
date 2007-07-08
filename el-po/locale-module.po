@@ -1,21 +1,24 @@
+# Greek Drupal translation of locale-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: locale-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 01:32+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-07-08 15:37+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ..\\..\\modules\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: locale/locale.module:22
 msgid "The locale module allows you to present your Drupal site in a language other than the default English. You can use it to set up a multi-lingual web site or replace given <em>built-in</em> text with text which has been customized for your site. Whenever the locale module encounters text which needs to be displayed, it tries to translate it into the currently selected language. If a translation is not available, then the string is remembered, so you can look up untranslated strings easily."
@@ -31,7 +34,7 @@ msgstr "Αν μια υπάρχουσα μετάφραση δεν ικανοπο�
 
 #: locale/locale.module:25
 msgid "For more information please read the configuration and customization handbook <a href=\"@locale\">Locale page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@locale\">σελίδα Locale</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@locale\">σελίδα Locale</a>."
 
 #: locale/locale.module:29
 msgid "<p>Drupal provides support for the translation of its interface text into different languages. This page provides an overview of the installed languages. You can add a language on the <a href=\"@add-language\">add language page</a>, or directly by <a href=\"@import\">importing a translation</a>. If multiple languages are enabled, registered users will be able to set their preferred language. The site default will be used for anonymous visitors and for users without their own settings.</p><p>Drupal interface translations may be added or extended by several courses: by <a href=\"@import\">importing</a> an existing translation, by <a href=\"@search\">translating everything</a> from scratch, or by a combination of these approaches.</p>"

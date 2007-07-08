@@ -1,21 +1,24 @@
+# Greek Drupal translation of menu-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: menu-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-03 01:50+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-07-08 15:38+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ..\\..\\modules\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: menu/menu.module:15
 msgid ""
@@ -39,7 +42,7 @@ msgstr ""
 
 #: menu/menu.module:23
 msgid "For more information please read the configuration and customization handbook <a href=\"@menu\">Menu page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@menu\">σελίδα Menu</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@menu\">σελίδα Menu</a>."
 
 #: menu/menu.module:26
 msgid "Menus are a collection of links (menu items) used to navigate a website. The list(s) below display the currently available menus along with their menu items. Select an operation from the list to manage each menu or menu item."

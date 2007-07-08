@@ -1,20 +1,23 @@
+# Greek Drupal translation of tracker-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: tracker-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-01 23:59+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: tracker/tracker.module:15
 msgid "The tracker module displays the most recently added or updated content to the website allowing users to see the most recent contributions. The tracker module provides user level tracking for those who like to follow the contributions of particular authors."
@@ -26,7 +29,7 @@ msgstr "Η σελίδα  &quot;πρόσφατες καταχωρίσεις&quot;
 
 #: tracker/tracker.module:17
 msgid "For more information please read the configuration and customization handbook <a href=\"@tracker\">Tracker page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@tracker\">σελίδα Tracker</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@tracker\">σελίδα Tracker</a>."
 
 #: tracker/tracker.module:30
 msgid "Recent posts"

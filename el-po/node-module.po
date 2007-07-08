@@ -1,15 +1,17 @@
+# Greek Drupal translation of node-module.po to Greek
 # translation of node-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Athanasios Lefteris <alefteris@gmail.com>, 2007.
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: node-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:31+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 15:50+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +50,7 @@ msgstr ""
 
 #: node/node.module:28
 msgid "For more information please read the configuration and customization handbook <a href=\"@node\">Node page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@node\">σελίδα Node</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@node\">σελίδα Node</a>."
 
 #: node/node.module:31
 msgid "Enter a simple pattern to search for a post. Words are matched exactly. Phrases can be surrounded by quotes to do an exact search."
@@ -184,7 +186,7 @@ msgstr "Είστε σίγουροι ότι θέλετε να ξαναδημιο�
 
 #: node/node.module:1015
 msgid "This will wipe all current node permissions and rebuild them based on current settings. Rebuilding the permissions may take a while so please be patient. This action cannot be undone."
-msgstr "Αυτό θα σβήσει όλα τα τωρινά δικαιώματα κόμβων και θα τα ξαναδημιουργήσει με τις νέες επιλογές. Η αναδημιουργία δικαιωμάτων ίσως χρειαστεί χρόνο, παρακαλώ περιμένετε. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+msgstr "Αυτό θα σβήσει όλα τα τωρινά δικαιώματα κόμβων και θα τα ξαναδημιουργήσει με τις νέες επιλογές. Η αναδημιουργία των αδειών ίσως χρειαστεί χρόνο, περιμένετε. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
 
 #: node/node.module:1023
 msgid "The node access table has been rebuilt."
@@ -500,7 +502,7 @@ msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τελ�
 
 #: node/node.module:2401
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
-msgstr "Για περισσότερες πληροφορίες, μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">εγχειρίδια του Drupal στον Ιστό</a>. Μπορείτε επίσης υποβάλλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
+msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης υποβάλλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
 
 #: node/node.module:2496;2548
 msgid "Advanced search"

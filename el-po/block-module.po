@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: block-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-06-03 23:47+0300\n"
+"PO-Revision-Date: 2007-07-08 15:48+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Οι διαχειριστές μπορούν επίσης να ορίζ�
 
 #: modules/block/block.module:39
 msgid "For more information please read the configuration and customization handbook <a href=\"@block\">Block page</a>."
-msgstr "Για περισσότερες πληροφορίες, διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@block\">σελίδα Block</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@block\">σελίδα Block</a>."
 
 #: modules/block/block.module:42
 msgid "<p>Blocks are boxes of content that may be rendered into certain regions of your web pages, for example, into sidebars. They are usually generated automatically by modules, but administrators can create blocks manually.</p>\n<p>Only enabled blocks are shown. You can position blocks by specifying which area of the page they should appear in (e.g., a sidebar).  Highlighted labels on this page show the regions into which blocks can be rendered. You can specify where within a region a block will appear by adjusting its weight.</p>\n<p>If you want certain blocks to disable themselves temporarily during high server loads, check the \"Throttle\" box. You can configure the auto-throttle on the <a href=\"@throttle\">throttle configuration page</a> after having enabled the throttle module.</p>\n<p>You can configure the behaviour of each block (for example, specifying on which pages and for what users it will appear) by clicking the \"configure\" link for each block.</p>"
@@ -196,7 +196,7 @@ msgstr "Αποθήκευση του μπλοκ"
 
 #: modules/block/block.module:488;509
 msgid "Please ensure that each block description is unique."
-msgstr "Παρακαλώ βεβαιωθείτε ότι η περιγραφή του κάθε μπλοκ είναι μοναδική."
+msgstr "Βεβαιωθείτε ότι η περιγραφή του κάθε μπλοκ είναι μοναδική."
 
 #: modules/block/block.module:501
 msgid "The block configuration has been saved."

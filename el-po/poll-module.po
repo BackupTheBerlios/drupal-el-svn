@@ -1,20 +1,23 @@
+# Greek Drupal translation of poll-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 5.1\n"
+"Project-Id-Version: poll-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-01 23:41+0200\n"
-"Last-Translator: George Litos <GL@cyberpunk.gr>\n"
-"Language-Team: George Litos <gl@cyberpunk.gr>\n"
+"PO-Revision-Date: 2007-07-08 15:41+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: poll/poll.module:16
 msgid "The poll module can be used to create simple polls for site users. A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll. Having polls on the site is a good way to get instant feedback from community members."
@@ -26,7 +29,7 @@ msgstr "Οι χρήστες μπορούν να δημιουργούν ψηφο�
 
 #: poll/poll.module:18
 msgid "For more information please read the configuration and customization handbook <a href=\"@poll\">Poll page</a>."
-msgstr "Για περισσότερες πληροφορίες παρακαλώ διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@poll\">σελίδα Poll</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@poll\">σελίδα Poll</a>."
 
 #: poll/poll.module:40
 msgid "Most recent poll"
