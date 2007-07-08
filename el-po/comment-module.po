@@ -20,15 +20,15 @@ msgstr ""
 
 #: modules/comment/comment.module:129
 msgid "The comment module creates a discussion board for each post. Users can post comments to discuss a forum topic, weblog post, story, collaborative book page, etc. The ability to comment is an important part of involving members in a community dialogue."
-msgstr "Η μονάδα σχολίων δημιουργεί μια συζήτηση για κάθε δημοσίευση. Οι χρήστες μπορούν να υποβάλλουν σχόλια για να συζητούν ένα θέμα συζήτησης, ιστολόγημα, ιστόρημα, σελίδα συνεργατικού βιβλίου κ.λπ. Η δυνατότητα του σχολιασμού είναι σημαντικό μέρος της συμμετοχής των μελών στο διάλογο σε μια κοινότητα."
+msgstr "Η μονάδα σχολίων δημιουργεί μια συζήτηση για κάθε δημοσίευση. Οι χρήστες μπορούν να υποβάλλουν σχόλια για να συζητούν ένα θέμα του φόρουμ, ιστολόγημα, ιστόρημα, μια σελίδα συνεργατικού βιβλίου κ.λπ. Η δυνατότητα του σχολιασμού είναι σημαντικό μέρος της συμμετοχής των μελών στο διάλογο σε μια κοινότητα."
 
 #: modules/comment/comment.module:130
 msgid "An administrator can give comment permissions to user groups, and users can (optionally) edit their last comment, assuming no others have been posted since. Attached to each comment board is a control panel for customizing the way that comments are displayed. Users can control the chronological ordering of posts (newest or oldest first) and the number of posts to display on each page. Comments behave like other user submissions. Filters, smileys and HTML that work in nodes will also work with comments. The comment module provides specific features to inform site members when new comments have been posted."
-msgstr "Ένας διαχειριστής μπορεί να δίνει άδειες σχολιασμού σε ομάδες χρηστών και οι χρήστες μπορούν (προαιρετικά) να διορθώνουν το τελευταίο τους σχόλιο εφόσον δεν έχουν υποβληθεί άλλα σχόλια στο μεταξύ. Σε κάθε σελίδα σχολίων υπάρχει ένας πίνακας ελέγχου για την προσαρμογή του τρόπου που παρουσιάζονται τα σχόλια. Οι χρήστες μπορούν να ελέγχουν τη χρονολογική σειρά των καταχωρίσεων (πρώτα τα νεότερα ή τα παλιότερα) και τον αριθμό των σχολίων που θα εμφανίζονται σε κάθε σελίδα. Τα σχόλια συμπεριφέρονται όπως και οι άλλες καταχωρίσεις των χρηστών. Τα φίλτρα, οι φατσούλες και η HTML που λειτουργούν στους κόμβους λειτουργούν και στα σχόλια. Η μονάδα σχολίων παρέχει ειδικές λειτουργίες για να πληροφορούνται τα μέλη του ιστότοπου όταν έχουν υποβληθεί νέα σχόλια."
+msgstr "Ένας διαχειριστής μπορεί να δίνει άδειες σχολιασμού σε ομάδες χρηστών και οι χρήστες μπορούν (προαιρετικά) να διορθώνουν το τελευταίο τους σχόλιο εφόσον δεν έχουν υποβληθεί στο μεταξύ άλλα σχόλια. Σε κάθε σελίδα σχολίων υπάρχει ένας πίνακας ελέγχου για την προσαρμογή του τρόπου που παρουσιάζονται τα σχόλια. Οι χρήστες μπορούν να ελέγχουν τη χρονολογική σειρά των καταχωρίσεων (πρώτα τα νεότερα ή τα παλιότερα) και τον αριθμό των σχολίων που θα εμφανίζονται σε κάθε σελίδα. Τα σχόλια συμπεριφέρονται όπως και οι άλλες καταχωρίσεις των χρηστών. Τα φίλτρα, οι φατσούλες και η HTML που λειτουργούν στους κόμβους λειτουργούν και στα σχόλια. Η μονάδα σχολίων παρέχει ειδικές λειτουργίες για να πληροφορούνται τα μέλη του ιστοτόπου όταν έχουν υποβληθεί νέα σχόλια."
 
 #: modules/comment/comment.module:131
 msgid "For more information please read the configuration and customization handbook <a href=\"@comment\">Comment page</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@comment\">σελίδα Comment</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@comment\">σελίδα Comment</a>."
 
 #: modules/comment/comment.module:135
 msgid "Below is a list of the latest comments posted to your site. Click on a subject to see the comment, the author's name to edit the author's user information , 'edit' to modify the text, and 'delete' to remove their submission."
@@ -40,7 +40,7 @@ msgstr "Ακολουθεί παρακάτω μια λίστα των σχολί�
 
 #: modules/comment/comment.module:139
 msgid "Comments can be attached to any node, and their settings are below. The display comes in two types: a 'flat list' where everything is flush to the left side, and comments come in chronological order, and a 'threaded list' where replies to other comments are placed immediately below and slightly indented, forming an outline. They also come in two styles: 'expanded', where you see both the title and the contents, and 'collapsed' where you only see the title. Preview comment forces a user to look at their comment by clicking on a 'Preview' button before they can actually add the comment."
-msgstr "Σχόλια μπορούν να επισυνάπτονται σε οποιονδήποτε κόμβο και οι ρυθμίσεις τους παρουσιάζονται παρακάτω. Η παρουσίασή τους μπορεί να είναι δύο τύπων: 'επίπεδη λίστα' όπου όλα ευθυγραμμίζονται αριστερά και τα σχόλια είναι σε χρονολογική σειρά, και 'λίστα νημάτων' όπου οι απαντήσεις στα διάφορα σχόλια τοποθετούνται ακριβώς από κάτω τους και σε εσοχή, σχηματίζοντας μια διάρθρωση. Επίσης, μπορεί να παρουσιάζονται σε δύο στυλ: 'ξεδιπλωμένα', όπου βλέπετε και τον τίτλο και το περιεχόμενο, και 'συνεπτυγμένα', όπου βλέπετε μόνο τον τίτλο. Η προεπισκόπηση των σχολίων υποχρεώνει το χρήστη να κοιτάξει το σχόλιό του πατώντας σε ένα κουμπί 'Προεπισκόπηση σχολίου' προτού μπορέσει να το καταχωρίσει πραγματικά."
+msgstr "Σχόλια μπορούν να επισυνάπτονται σε οποιονδήποτε κόμβο και οι ρυθμίσεις τους παρουσιάζονται παρακάτω. Η παρουσίασή τους μπορεί να είναι δύο τύπων: 'επίπεδη λίστα' όπου όλα ευθυγραμμίζονται αριστερά και τα σχόλια είναι σε χρονολογική σειρά, και 'λίστα νημάτων' όπου οι απαντήσεις στα διάφορα σχόλια τοποθετούνται ακριβώς από κάτω τους και σε εσοχή, σχηματίζοντας μια διάρθρωση. Επίσης, μπορεί να παρουσιάζονται σε δύο στυλ: 'ξεδιπλωμένα', όπου βλέπετε και τον τίτλο και το περιεχόμενο, και 'συνεπτυγμένα', όπου βλέπετε μόνο τον τίτλο. Η δοκιμή εμφάνισης των σχολίων υποχρεώνει το χρήστη να κοιτάξει το σχόλιό του πατώντας σε ένα κουμπί 'Δοκιμή εμφάνισης σχολίου' προτού μπορέσει να το καταχωρίσει πραγματικά."
 
 #: modules/comment/comment.module:154
 msgid "List and edit site comments and the comment moderation queue."
@@ -88,11 +88,11 @@ msgstr "Προσθήκη ενός νέου σχολίου σε αυτή τη σ�
 
 #: modules/comment/comment.module:348
 msgid "Share your thoughts and opinions related to this posting."
-msgstr "Μοιραστείτε τις σκέψεις και τη γνώμη σας σχετικά με αυτό το δημοσίευμα."
+msgstr "Μοιραστείτε τις σκέψεις και τη γνώμη σας σχετικά με αυτή την καταχώρηση."
 
 #: modules/comment/comment.module:374
 msgid "Default comment setting"
-msgstr "Προεπιλεγμένες ρυθμίσεις σχολίων"
+msgstr "Προεπιλεγμένη ρύθμιση σχολίου"
 
 #: modules/comment/comment.module:376;395
 msgid "Read only"
@@ -204,7 +204,7 @@ msgstr "Μπορούν οι χρήστες να δίνουν ένα μοναδι
 
 #: modules/comment/comment.module:551;633;1547;1553;1557;1581
 msgid "Preview comment"
-msgstr "Προεπισκόπηση σχολίου"
+msgstr "Δοκιμή εμφάνισης σχολίου"
 
 #: modules/comment/comment.module:558
 msgid "Location of comment submission form"
@@ -252,7 +252,7 @@ msgstr "Σχόλιο: προστέθηκε το %subject."
 
 #: modules/comment/comment.module:804
 msgid "Your comment has been queued for moderation by site administrators and will be published after approval."
-msgstr "Το σχόλιό σας είναι στην ουρά για επιμέλεια από τη διαχείριση του ιστότοπου και θα δημοσιευτεί αφού εγκριθεί."
+msgstr "Το σχόλιό σας είναι στην ουρά για επιμέλεια από τη διαχείριση του ιστοτόπου και θα δημοσιευτεί αφού εγκριθεί."
 
 #: modules/comment/comment.module:813
 msgid "Comment: unauthorized comment submitted or comment submitted to a closed node %subject."
@@ -284,7 +284,7 @@ msgstr "Θέλετε σίγουρα να διαγράψετε το σχόλιο 
 
 #: modules/comment/comment.module:1108
 msgid "Any replies to this comment will be lost. This action cannot be undone."
-msgstr "Όλες οι απαντήσεις στο σχόλιο θα χαθούν. Η ενέργεια αυτή δεν είναι αναστρέψιμη."
+msgstr "Όλες οι απαντήσεις στο σχόλιο θα χαθούν. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/comment/comment.module:1120;1132
 msgid "Publish the selected comments"
@@ -344,7 +344,7 @@ msgstr "Πρέπει να δώσετε μια διεύθυνση e-mail."
 
 #: modules/comment/comment.module:1407
 msgid "The URL of your homepage is not valid. Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
-msgstr "Η διεύθυνση URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι στην πλήρη μορφή της, δηλαδή σε μορφή <code>http://παράδειγμα.com/λεπτομέρειες</code>."
+msgstr "Η διεύθυνση URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι στην πλήρη μορφή της, για παράδειγμα στη μορφή <code>http://παράδειγμα.com/λεπτομέρειες</code>."
 
 #: modules/comment/comment.module:1454
 msgid "Administration"
@@ -396,7 +396,7 @@ msgstr "δεν μπορείτε να υποβάλετε σχόλια"
 
 #: modules/comment/comment.module:1820
 msgid "<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post comments"
-msgstr "<a href=\"@login\">Εισέλθετε στο σύστημα</a> ή <a href=\"@register\">εγγραφή</a> για να υποβάλετε σχόλια"
+msgstr "<a href=\"@login\">Εισέλθετε στο σύστημα</a> ή <a href=\"@register\">εγγραφείτε</a> για να υποβάλετε σχόλια"
 
 #: modules/comment/comment.module:1823
 msgid "<a href=\"@login\">Login</a> to post comments"
