@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: menu-module\n"
-"POT-Creation-Date: 2007-05-28 02:22+0300\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
 "PO-Revision-Date: 2007-07-08 16:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\\..\\modules\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: menu/menu.module:15
+#: modules/menu/menu.module:15
 msgid ""
 "<p>Menus are a collection of links (menu items) used to navigate a website. The menu module provides an interface to control and customize the powerful menu system that comes with Drupal. Menus are primarily displayed as a hierarchical list of links using Drupal's highly flexible <a href=\"@admin-block\">blocks</a> feature. Each menu automatically creates a block of the same name. By default, new menu items are placed inside a built-in menu labelled %navigation, but administrators can also create custom menus.</p>\n"
 "<p>Drupal themes generally provide out-of-the-box support for two menus commonly labelled %primary-links and %secondary-links. These are sets of links which are usually displayed in the header or footer of each page (depending on the currently active theme). Any menu can be designated as the primary or secondary links menu via the <a href=\"@menu-settings\">menu settings page</a>.</p>\n"
@@ -40,239 +40,238 @@ msgstr ""
 "  <li>Χρησιμοποιήστε την καρτέλα \"νέο στοιχείο μενού\" για να δημιουργήσετε νέες παραπομπές είτε στο μενού πλοήγησης είτε σε ένα προσαρμοσμένο (όπως τα μενού των κύριων/δευτερευουσών παραπομπών). Επιλέξτε το μητρικό στοιχείο όπου θα τοποθετηθεί η νέα παραπομπή μέσα σε μια υπάρχουσα δομή μενού. Για στοιχεία μενού του κορυφαίου επιπέδου, επιλέξτε το όνομα του μενού στο οποίο θα προτεθούν οι παραπομπές.</li>\n"
 "</ul>"
 
-#: menu/menu.module:23
+#: modules/menu/menu.module:23
 msgid "For more information please read the configuration and customization handbook <a href=\"@menu\">Menu page</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@menu\">σελίδα Menu</a>."
 
-#: menu/menu.module:26
+#: modules/menu/menu.module:26
 msgid "Menus are a collection of links (menu items) used to navigate a website. The list(s) below display the currently available menus along with their menu items. Select an operation from the list to manage each menu or menu item."
 msgstr "Τα μενού είναι συλλογές συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοτόπο. Η παρακάτω λίστα(ες) παρουσιάζει τα τρέχοντα διαθέσιμα μενού καθώς και τα στοιχεία τους. Επιλέξτε μια ενέργεια από τη λίστα για να διαχειριστείτε κάθε μενού ή στοιχείο μενού."
 
-#: menu/menu.module:28
+#: modules/menu/menu.module:28
 msgid "Enter the name for your new menu. Remember to enable the newly created block in the <a href=\"@blocks\">blocks administration page</a>."
 msgstr "Ορίστε το όνομα του νέου μενού. Θυμηθείτε να ενεργοποιήσετε το νέο μπλοκ που θα δημιουργηθεί από την <a href=\"@blocks\">σελίδα διαχείρισης των μπλοκ</a>."
 
-#: menu/menu.module:30
+#: modules/menu/menu.module:30
 msgid "Enter the title, path, position and the weight for your new menu item."
 msgstr "Ορίστε τον τίτλο, τη διαδρομή, τη θέση και το βάρος του νέου σας στοιχείου μενού."
 
-#: menu/menu.module:42
+#: modules/menu/menu.module:42
 msgid "Menus"
 msgstr "Μενού"
 
-#: menu/menu.module:43
+#: modules/menu/menu.module:43
 msgid "Control your site's navigation menu, primary links and secondary links. as well as rename and reorganize menu items."
 msgstr "Διαχείριση του μενού πλοήγησης του ιστοτόπου, τους πρωταρχικούς και δευτερεύοντες συνδέσμους, καθώς επίσης και μετονομασία και αναδιοργάνωση των στοιχείων μενού."
 
-#: menu/menu.module:52
+#: modules/menu/menu.module:52
 msgid "Add menu item"
 msgstr "Προσθήκη στοιχείου μενού"
 
-#: menu/menu.module:58
+#: modules/menu/menu.module:58
 msgid "Edit menu item"
 msgstr "Τροποποίηση στοιχείου μενού"
 
-#: menu/menu.module:64
+#: modules/menu/menu.module:64
 msgid "Reset menu item"
 msgstr "Επαναφορά στοιχείου μενού"
 
-#: menu/menu.module:70
+#: modules/menu/menu.module:70
 msgid "Disable menu item"
 msgstr "Απενεργοποίηση στοιχείου μενού"
 
-#: menu/menu.module:75
+#: modules/menu/menu.module:75
 msgid "Delete menu item"
 msgstr "Διαγραφή στοιχείου μενού"
 
-#: menu/menu.module:82
+#: modules/menu/menu.module:82
 msgid "Add menu"
 msgstr "Προσθήκη μενού"
 
-#: menu/menu.module:88
+#: modules/menu/menu.module:88
 msgid "Edit menu"
 msgstr "Επεξεργασία μενού"
 
-#: menu/menu.module:94
+#: modules/menu/menu.module:94
 msgid "Delete menu"
 msgstr "Διαγραφή μενού"
 
-#: menu/menu.module:185
+#: modules/menu/menu.module:185
 msgid "Menu settings"
 msgstr "Ρυθμίσεις μενού"
 
-#: menu/menu.module:196
+#: modules/menu/menu.module:196
 msgid "The name to display for this menu link."
 msgstr "Το όνομα που θα εμφανίζεται γι' αυτόν τον σύνδεσμο μενού."
 
-#: menu/menu.module:202;358
+#: modules/menu/menu.module:202;358
 msgid "The description displayed when hovering over a menu item."
 msgstr "Η περιγραφή που θα εμφανίζεται όταν αιωρείστε πάνω από το στοιχείο μενού."
 
-#: menu/menu.module:209;387
+#: modules/menu/menu.module:209;387
 msgid "Parent item"
 msgstr "Γονικό στοιχείο"
 
-#: menu/menu.module:222;394
+#: modules/menu/menu.module:222;394
 msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
 msgstr "Προαιρετικό. Στο μενού, τα βαρύτερα στοιχεία θα βουλιάζουν και τα ελαφρύτερα θα τοποθετούνται πιο κοντά στην κορυφή."
 
-#: menu/menu.module:235
+#: modules/menu/menu.module:235
 msgid "Check to delete this menu item."
 msgstr "Επιλέξτε το για να διαγράψετε αυτό το στοιχείο μενού."
 
-#: menu/menu.module:240
+#: modules/menu/menu.module:240
 msgid "You may also <a href=\"@edit\">edit the advanced settings</a> for this menu item."
 msgstr "Μπορείτε επίσης να <a href=\"@edit\">τροποποιήσετε τις προχωρημένες ρυθμίσεις</a> γι' αυτό το στοιχείο μενού."
 
-#: menu/menu.module:253
+#: modules/menu/menu.module:253
 msgid "No primary links"
 msgstr "Δεν υπάρχουν πρωταρχικοί σύνδεσμοι"
 
-#: menu/menu.module:256
+#: modules/menu/menu.module:256
 msgid "Primary and secondary links settings"
 msgstr "Ρυθμίσεις για τους πρωταρχικούς και τους δευτερεύοντες συνδέσμους"
 
-#: menu/menu.module:260
+#: modules/menu/menu.module:260
 msgid "Primary and secondary links provide a navigational menu system which usually (depending on your theme) appears at the top-right of the browser window. The links displayed can be generated either from a custom list created via the <a href=\"@menu\">menu administration</a> page or from a built-in list of menu items such as the navigation menu links."
 msgstr "Οι πρωταρχικοί και οι δευτερεύοντες σύνδεσμοι παρέχουν ένα σύστημα μενού πλοήγησης που εμφανίζεται συνήθως (ανάλογα με τη θεματική παραλλαγή) στην επάνω δεξιά γωνία στο παράθυρο του φυλλομετρητή. Οι σύνδεσμοι που εμφανίζονται μπορεί να παράγονται είτε από μια προσαρμοσμένη λίστα που δημιουργείται από τη σελίδα <a href=\"@menu\">διαχείρισης των μενού</a> είτε από μια ενσωματωμένη λίστα στοιχείων μενού, όπως οι σύνδεσμοι του μενού πλοήγησης."
 
-#: menu/menu.module:264
+#: modules/menu/menu.module:264
 msgid "Menu containing primary links"
 msgstr "Μενού που περιέχει τους πρωταρχικούς συνδέσμους"
 
-#: menu/menu.module:270
+#: modules/menu/menu.module:270
 msgid "No secondary links"
 msgstr "Δεν υπάρχουν δευτερεύοντες σύνδεσμοι"
 
-#: menu/menu.module:273
+#: modules/menu/menu.module:273
 msgid "Menu containing secondary links"
 msgstr "Μενού που περιέχει τους δευτερεύοντες συνδέσμους"
 
-#: menu/menu.module:276
+#: modules/menu/menu.module:276
 msgid "If you select the same menu as primary links then secondary links will display the appropriate second level of your navigation hierarchy."
 msgstr "Αν επιλέξετε το ίδιο μενού με τους πρωταρχικούς συνδέσμους, τότε οι δευτερεύοντες σύνδεσμοι θα εμφανίζουν το ανάλογο δεύτερο επίπεδο της ιεραρχίας πλοήγησής σας."
 
-#: menu/menu.module:280
+#: modules/menu/menu.module:280
 msgid "Content authoring form settings"
 msgstr "Ρυθμίσεις για τη φόρμα υποβολής ύλης"
 
-#: menu/menu.module:284
+#: modules/menu/menu.module:284
 msgid "The menu module allows on-the-fly creation of menu links in the content authoring forms. The following option limits the menus in which a new link may be added. E.g., this can be used to force new menu items to be created in the primary links menu or to hide admin menu items."
 msgstr "Η μονάδα menu επιτρέπει την δημιουργία επιτόπου συνδέσμων μενού στις φόρμες υποβολής ύλης. Η παρακάτω επιλογή περιορίζει τα μενού στα οποία μπορεί να προστεθεί ένας νέος σύνδεσμος. Αυτό μπορεί να χρησιμοποιηθεί, για παράδειγμα, για να δημιουργούνται αναγκαστικά τα νέα στοιχεία στο μενού πρωταρχικών συνδέσμων ή για να κρύβονται στοιχεία του μενού διαχείρισης."
 
-#: menu/menu.module:288
+#: modules/menu/menu.module:288
 msgid "Show all menus"
 msgstr "Να εμφανίζονται όλα τα μενού"
 
-#: menu/menu.module:291
+#: modules/menu/menu.module:291
 msgid "Restrict parent items to"
 msgstr "Να περιοριστούν τα γονικά στοιχεία στα εξής"
 
-#: menu/menu.module:294
+#: modules/menu/menu.module:294
 msgid "Choose the menu to be made available in the content authoring form. Only this menu item and its children will be shown."
 msgstr "Διαλέξτε το μενού που θα είναι διαθέσιμο στη φόρμα υποβολής ύλης. Μόνο αυτό το στοιχείο μενού και τα θυγατρικά του θα εμφανίζονται."
 
-#: menu/menu.module:316
+#: modules/menu/menu.module:316
 msgid "The name of the menu."
 msgstr "Το όνομα του μενού."
 
-#: menu/menu.module:352
+#: modules/menu/menu.module:352
 msgid "The name of the menu item."
 msgstr "Το όνομα του στοιχείου μενού."
 
-#: menu/menu.module:365
+#: modules/menu/menu.module:365
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
 msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική URL, όπως η %drupal. Δώστε %front για παραπομπή στην αρχική σελίδα του ιστοτόπου."
 
-#: menu/menu.module:379;599
+#: modules/menu/menu.module:379;599
 msgid "Expanded"
 msgstr "Σε ανάπτυξη"
 
-#: menu/menu.module:381
+#: modules/menu/menu.module:381
 msgid "If selected and this menu item has children, the menu will always appear expanded."
 msgstr "Αν το επιλέξετε και αυτό το στοιχείο μενού έχει θυγατρικά, το μενού θα εμφανίζεται πάντα σε ανάπτυξη."
 
-#: menu/menu.module:431
+#: modules/menu/menu.module:431
 msgid "Are you sure you want to delete the menu %item?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το μενού %item;"
 
-#: menu/menu.module:434
+#: modules/menu/menu.module:434
 msgid "Are you sure you want to delete the custom menu item %item?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το προσαρμοσμένο στοιχείο μενού %item;"
 
-#: menu/menu.module:448
+#: modules/menu/menu.module:448
 msgid "The menu %title has been deleted."
 msgstr "Το μενού %title διαγράφηκε."
 
-#: menu/menu.module:449
+#: modules/menu/menu.module:449
 msgid "Deleted menu %title."
 msgstr "Διαγράφηκε το μενού %title."
 
-#: menu/menu.module:452
+#: modules/menu/menu.module:452
 msgid "The menu item %title has been deleted."
 msgstr "Το στοιχείο μενού %title διαγράφηκε."
 
-#: menu/menu.module:453
+#: modules/menu/menu.module:453
 msgid "Deleted menu item %title."
 msgstr "Διαγράφηκε το στοιχείο μενού %title."
 
-#: menu/menu.module:465
+#: modules/menu/menu.module:465
 msgid "Are you sure you want to reset the item %item to its default values?"
 msgstr "Θέλετε σίγουρα να επαναφέρετε το στοιχείο %item στις αρχικές του τιμές;"
 
-#: menu/menu.module:465
+#: modules/menu/menu.module:465
 msgid "Any customizations will be lost. This action cannot be undone."
 msgstr "Οποιεσδήποτε προσαρμογές θα χαθούν. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
 
-#: menu/menu.module:477
+#: modules/menu/menu.module:477
 msgid "The menu item was reset to its default settings."
 msgstr "Το στοιχείο μενού επανήλθε στις αρχικές του ρυθμίσεις."
 
-#: menu/menu.module:492
+#: modules/menu/menu.module:492
 msgid "The menu item has been disabled."
 msgstr "Το στοιχείο μενού απενεργοποιήθηκε."
 
-#: menu/menu.module:526
+#: modules/menu/menu.module:526
 msgid "The menu item %title has been updated."
 msgstr "Το στοιχείο μενού %title ενημερώθηκε."
 
-#: menu/menu.module:529
+#: modules/menu/menu.module:529
 msgid "The menu item %title has been added."
 msgstr "Το στοιχείο μενού %title προστέθηκε."
 
-#: menu/menu.module:530
+#: modules/menu/menu.module:530
 msgid "Added menu item %title."
 msgstr "Προστέθηκε στοιχείο μενού %title."
 
-#: menu/menu.module:599
+#: modules/menu/menu.module:599
 msgid "Menu item"
 msgstr "Στοιχείο μενού"
 
-#: menu/menu.module:611
+#: modules/menu/menu.module:611
 msgid "Add item"
 msgstr "Προσθήκη στοιχείου"
 
-#: menu/menu.module:615
+#: modules/menu/menu.module:615
 msgid "No menu items defined."
 msgstr "Δεν έχουν οριστεί στοιχεία μενού."
 
-#: menu/menu.module:667
+#: modules/menu/menu.module:667
 msgid "disable"
 msgstr "απενεργοποίηση"
 
-#: menu/menu.module:670
+#: modules/menu/menu.module:670
 msgid "enable"
 msgstr "ενεργοποίηση"
 
-#: menu/menu.module:678
+#: modules/menu/menu.module:678
 msgid "reset"
 msgstr "επαναφορά"
 
-#: menu/menu.module:690;747
+#: modules/menu/menu.module:690;747
 msgid "disabled"
 msgstr "ανενεργό"
 
-#: menu/menu.module:167
+#: modules/menu/menu.module:167
 msgid "administer menu"
 msgstr "διαχείριση μενού"
-

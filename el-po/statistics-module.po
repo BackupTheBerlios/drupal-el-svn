@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: statistics-module\n"
-"POT-Creation-Date: 2007-05-28 02:22+0300\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
 "PO-Revision-Date: 2007-07-08 16:11+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: statistics/statistics.module:15
+#: modules/statistics/statistics.module:15
 msgid "The statistics module keeps track of numerous statistics of site usage. It counts how many times, and from where each of your posts is viewed. The statistics module can be used to learn many useful things about how users are interacting with each other and with your site."
 msgstr "Η μονάδα statistics παρακολουθεί διάφορα στατιστικά στοιχεία της χρήσης του ιστοτόπου. Καταμετρά πόσες φορές και από πού διαβάζεται κάθε καταχώρισή σας. Μπορείτε να χρησιμοποιήσετε τη μονάδα statistics για να μάθετε πολλά χρήσιμα στοιχεία για το πώς οι χρήστες αλληλεπιδρούν μεταξύ τους και με τον ιστοτόπο σας."
 
-#: statistics/statistics.module:16
+#: modules/statistics/statistics.module:16
 msgid ""
 "<p>Statistics module features</p>\n"
 "<ul>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "<li>Μπλοκ για τη δημοφιλή ύλη: Δημιουργείται ένα μπλοκ στο οποίο μπορεί να εμφανίζεται η κορυφαία σε επισκέψεις ύλη της ημέρας, η κορυφαία σε επισκέψεις ύλη από πάντα, και η τελευταία ύλη που διαβάστηκε.</li>\n"
 "</ul>\n"
 
-#: statistics/statistics.module:27
+#: modules/statistics/statistics.module:27
 msgid ""
 "<p>Configuring the statistics module</p>\n"
 "<ul>\n"
@@ -63,209 +63,208 @@ msgstr ""
 "<li>Ενεργοποίηση του μετρητή επισκέψεων κόμβων: Σας επιτρέπει να ενεργοποιείτε και να απενεργοποιείτε τη δυνατότητα καταμέτρησης ανά κόμβο. Αν είναι ενεργοποιημένη, προστίθεται ένα ακόμα ερώτημα της βάσης δεδομένων για κάθε κόμβο που εμφανίζεται, το οποίο αυξάνει ένα μετρητή.</li>\n"
 "</ul>\n"
 
-#: statistics/statistics.module:34
+#: modules/statistics/statistics.module:34
 msgid "For more information please read the configuration and customization handbook <a href=\"@statistics\">Statistics page</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@statistics\">σελίδα Statistics</a>."
 
-#: statistics/statistics.module:37
+#: modules/statistics/statistics.module:37
 msgid "Settings for the statistical information that Drupal will keep about the site. See <a href=\"@statistics\">site statistics</a> for the actual information."
 msgstr "Ρυθμίσεις για τα στατιστικά στοιχεία που θα τηρεί το Drupal για τον ιστοτόπο σας. Κοιτάξτε στη σελίδα <a href=\"@statistics\">των στατιστικών στοιχείων</a> για τα ίδια τα στοιχεία."
 
-#: statistics/statistics.module:39
+#: modules/statistics/statistics.module:39
 msgid "This page shows you the most recent hits."
 msgstr "Αυτή η σελίδα σας δείχνει τις πιο πρόσφατες εμφανίσεις ιστοσελίδων του δικτυακού τόπου."
 
-#: statistics/statistics.module:41
+#: modules/statistics/statistics.module:41
 msgid "This page shows you all external referrers. These are links pointing to your web site from outside your web site."
 msgstr "Σε αυτή την σελίδα εμφανίζονται όλες οι εξωτερικές αναφορές. Έιναι σύνδεσμοι από ιστοσελίδες στο διαδίκτυο που \"δείχνουν\" στον ιστοτόπο σας."
 
-#: statistics/statistics.module:43
+#: modules/statistics/statistics.module:43
 msgid "When you ban a visitor, you prevent the visitor's IP address from accessing your site. Unlike blocking a user, banning a visitor works even for anonymous users. The most common use for this is to block bots/web crawlers that are consuming too many resources."
 msgstr "Όταν απαγορεύετε έναν επισκέπτη, απαγορεύετε στη διεύθυνση IP του την πρόσβαση στον ιστοτόπο σας. Αντίθετα με τον αποκλεισμό ενός λογαριασμού χρήστη, η απαγόρευση ενός επισκέπτη λειτουργεί ακόμα και για τους ανώνυμους. Η πιο συνηθισμένη χρήση αυτής της δυνατότητας είναι η απαγόρευση των bot ή των web crawlers που καταναλώνουν πάρα πολλούς πόρους."
 
-#: statistics/statistics.module:109
+#: modules/statistics/statistics.module:109
 msgid "Recent hits"
 msgstr "Τελευταίες εμφανίσεις"
 
-#: statistics/statistics.module:110
+#: modules/statistics/statistics.module:110
 msgid "View pages that have recently been visited."
 msgstr "Δείτε ιστοσελίδες που προσπελάστηκαν πρόσφατα."
 
-#: statistics/statistics.module:115
+#: modules/statistics/statistics.module:115
 msgid "Top pages"
 msgstr "Κορυφαίες σελίδες"
 
-#: statistics/statistics.module:116
+#: modules/statistics/statistics.module:116
 msgid "View pages that have been hit frequently."
 msgstr "Δείτε τις ιστοσελίδες με την συχνότερη προσπέλαση."
 
-#: statistics/statistics.module:122
+#: modules/statistics/statistics.module:122
 msgid "Top visitors"
 msgstr "Κορυφαίοι επισκέπτες"
 
-#: statistics/statistics.module:123
+#: modules/statistics/statistics.module:123
 msgid "View visitors that hit many pages."
 msgstr "Εμφάνιση επισκέπτων που προσπέλασαν πολλές ιστοσελίδες."
 
-#: statistics/statistics.module:129
+#: modules/statistics/statistics.module:129
 msgid "Top referrers"
 msgstr "Κορυφαίες αναφορές"
 
-#: statistics/statistics.module:130
+#: modules/statistics/statistics.module:130
 msgid "View top referrers."
 msgstr "Εμφάνιση κορυφαίων αναφορών από άλλες ιστοσελίδες."
 
-#: statistics/statistics.module:136
+#: modules/statistics/statistics.module:136
 msgid "View access log."
 msgstr "Εμφάνιση καταγραφών πρόσβασης."
 
-#: statistics/statistics.module:142;367
+#: modules/statistics/statistics.module:142;367
 msgid "Access log settings"
 msgstr "Εμφάνιση των ρυθμίσεων καταγραφής"
 
-#: statistics/statistics.module:143
+#: modules/statistics/statistics.module:143
 msgid "Control details about what and how your site logs."
 msgstr "Διαχείριση των λεπτομερειών του αρχείου καταγραφής του ιστοτόπου σας."
 
-#: statistics/statistics.module:154
+#: modules/statistics/statistics.module:154
 msgid "Track page visits"
 msgstr "Παρακολούθηση επισκέψεων σελίδων"
 
-#: statistics/statistics.module:216;242;274
+#: modules/statistics/statistics.module:216;242;274
 msgid "details"
 msgstr "λεπτομέρειες"
 
-#: statistics/statistics.module:233;260
+#: modules/statistics/statistics.module:233;260
 msgid "Timestamp"
 msgstr "Ημερομηνία"
 
-#: statistics/statistics.module:290;314;345
+#: modules/statistics/statistics.module:290;314;345
 msgid "Hits"
 msgstr "Εμφανίσεις"
 
-#: statistics/statistics.module:292
+#: modules/statistics/statistics.module:292
 msgid "Average page generation time"
 msgstr "Μέσος χρόνος δημιουργίας ιστοσελίδας"
 
-#: statistics/statistics.module:293;316
+#: modules/statistics/statistics.module:293;316
 msgid "Total page generation time"
 msgstr "Συνολικός χρόνος δημιουργίας ιστοσελίδας"
 
-#: statistics/statistics.module:299
+#: modules/statistics/statistics.module:299
 msgid "%time ms"
 msgstr "%time ms"
 
-#: statistics/statistics.module:302
+#: modules/statistics/statistics.module:302
 msgid "Top pages in the past %interval"
 msgstr "Κορυφαίες σελίδες τις τελευταίες %interval"
 
-#: statistics/statistics.module:326
+#: modules/statistics/statistics.module:326
 msgid "unban"
 msgstr "άρση απαγόρευσης"
 
-#: statistics/statistics.module:326
+#: modules/statistics/statistics.module:326
 msgid "ban"
 msgstr "απαγόρευση"
 
-#: statistics/statistics.module:330
+#: modules/statistics/statistics.module:330
 msgid "Top visitors in the past %interval"
 msgstr "Κορυφαίοι επισκέπτες τις τελευταίες %interval"
 
-#: statistics/statistics.module:342
+#: modules/statistics/statistics.module:342
 msgid "Top referrers in the past %interval"
 msgstr "Κορυφαίες αναφορές τις τελευταίες %interval"
 
-#: statistics/statistics.module:346
+#: modules/statistics/statistics.module:346
 msgid "Url"
 msgstr "Διεύθυνση (URL)"
 
-#: statistics/statistics.module:347
+#: modules/statistics/statistics.module:347
 msgid "Last visit"
 msgstr "Τελευταία επίσκεψη"
 
-#: statistics/statistics.module:370
+#: modules/statistics/statistics.module:370
 msgid "Enable access log"
 msgstr "Ενεργοποίηση ημερολογίου επισκέψεων"
 
-#: statistics/statistics.module:373
+#: modules/statistics/statistics.module:373
 msgid "Log each page access. Required for referrer statistics."
 msgstr "Να καταγράφεται κάθε επίσκεψη σε σελίδα. Απαραίτητο για τα στατιστικά των παραπεμπτών."
 
-#: statistics/statistics.module:377
+#: modules/statistics/statistics.module:377
 msgid "Discard access logs older than"
 msgstr "Διαγραφή επισκέψεων παλιότερων από"
 
-#: statistics/statistics.module:380
+#: modules/statistics/statistics.module:380
 msgid "Older access log entries (including referrer statistics) will be automatically discarded. Requires crontab."
 msgstr "Οι παλιότερες εγγραφές του ημερολογίου επισκέψεων (μαζί με τα στατιστικά στοιχεία των παραπομπών) θα διαγράφονται αυτόματα. Απαιτεί crontab."
 
-#: statistics/statistics.module:385
+#: modules/statistics/statistics.module:385
 msgid "Content viewing counter settings"
 msgstr "Ρυθμίσεις του μετρητή επισκέψεων ύλης"
 
-#: statistics/statistics.module:388
+#: modules/statistics/statistics.module:388
 msgid "Count content views"
 msgstr "Καταμέτρηση επισκέψεων στην ύλη"
 
-#: statistics/statistics.module:391
+#: modules/statistics/statistics.module:391
 msgid "Increment a counter each time content is viewed."
 msgstr "Να αυξάνεται ένας μετρητής κάθε φορά που διαβάζεται ύλη."
 
-#: statistics/statistics.module:463;502
+#: modules/statistics/statistics.module:463;502
 msgid "Popular content"
 msgstr "Δημοφιλές περιεχόμενο"
 
-#: statistics/statistics.module:470
+#: modules/statistics/statistics.module:470
 msgid "Number of day's top views to display"
 msgstr "Μέγιστος αριθμός των εμφανίσεων ανά μέρα για προβολή"
 
-#: statistics/statistics.module:470
+#: modules/statistics/statistics.module:470
 msgid "How many content items to display in \"day\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στην λίστα \"διαβάστηκαν σήμερα\"."
 
-#: statistics/statistics.module:471
+#: modules/statistics/statistics.module:471
 msgid "Number of all time views to display"
 msgstr "Μέγιστος αριθμός όλων των εμφανίσεων για προβολή"
 
-#: statistics/statistics.module:471
+#: modules/statistics/statistics.module:471
 msgid "How many content items to display in \"all time\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στη λίστα \"πάντα δημοφιλή\"."
 
-#: statistics/statistics.module:472
+#: modules/statistics/statistics.module:472
 msgid "Number of most recent views to display"
 msgstr "Μέγιστος αριθμός των τελευταίων εμφανίσεων για προβολή"
 
-#: statistics/statistics.module:472
+#: modules/statistics/statistics.module:472
 msgid "How many content items to display in \"recently viewed\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στη λίστα \"διαβάστηκαν πρόσφατα\"."
 
-#: statistics/statistics.module:487
+#: modules/statistics/statistics.module:487
 msgid "Today's:"
 msgstr "Σημερινά:"
 
-#: statistics/statistics.module:492
+#: modules/statistics/statistics.module:492
 msgid "All time:"
 msgstr "Όλες οι εμφανίσεις:"
 
-#: statistics/statistics.module:497
+#: modules/statistics/statistics.module:497
 msgid "Last viewed:"
 msgstr "Τελευταίες επισκέψεις:"
 
-#: statistics/statistics.module:92
+#: modules/statistics/statistics.module:92
 msgid "1 read"
 msgid_plural "@count reads"
 msgstr[0] "1 εμφάνιση"
 msgstr[1] "@count εμφανίσεις"
 
-#: statistics/statistics.module:79
+#: modules/statistics/statistics.module:79
 msgid "access statistics"
 msgstr "πρόσβαση στα στατιστικά"
 
-#: statistics/statistics.module:79
+#: modules/statistics/statistics.module:79
 msgid "view post access counter"
 msgstr "εμφάνιση μετρητή επισκέψεων"
 
-#: statistics/statistics.module:0
+#: modules/statistics/statistics.module:0
 msgid "statistics"
 msgstr "στατιστικά"
-
