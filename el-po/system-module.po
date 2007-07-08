@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"PO-Revision-Date: 2007-07-08 16:12+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,11 @@ msgstr ""
 
 #: system/system.module:19
 msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The settings module provides control over preferences, behaviours including visual and operational settings."
-msgstr "Η μονάδα system παρέχει προεπιλεγμένες ρυθμίσεις για όλο το σύστημα, όπως η εκτέλεση εργασιών σε μια συγκεκριμένη ώρα και η αποθήκευση ιστοσελίδων για βελτίωση της αποδοτικότητας.  Η δυνατότητα να εκτελούνται προγραμματισμένες εργασίες κάνει τη διαχείριση του ιστοχώρου ευκολότερη, καθώς οι διαχειριστές δε χρειάζεται να ξεκινούν εργασίες οι ίδιοι. Η αποθήκευση ιστοσελίδων σε λανθάνουσα μνήμη (cache) επιτρέπει στον ιστοχώρο να επαναχρησιμοποιεί αποδοτικά ιστοσελίδες και έτσι να βελτιώνει την αποδοτικότητα του ιστοτόπου. Η μονάδα system παρέχει τη δυνατότητα ελέγχου των προτιμήσεων, για συμπεριφορές που περιλαμβάνουν οπτικές και λειτουργικές ρυθμίσεις."
+msgstr "Η μονάδα system παρέχει προεπιλεγμένες ρυθμίσεις για όλο το σύστημα, όπως η εκτέλεση εργασιών σε μια συγκεκριμένη ώρα και η αποθήκευση ιστοσελίδων για βελτίωση της αποδοτικότητας.  Η δυνατότητα να εκτελούνται προγραμματισμένες εργασίες κάνει τη διαχείριση του ιστοτόπου ευκολότερη, καθώς οι διαχειριστές δε χρειάζεται να ξεκινούν εργασίες οι ίδιοι. Η αποθήκευση ιστοσελίδων σε λανθάνουσα μνήμη (cache) επιτρέπει στον ιστοτόπο να επαναχρησιμοποιεί αποδοτικά ιστοσελίδες και έτσι να βελτιώνει την αποδοτικότητα του ιστοτόπου. Η μονάδα system παρέχει τη δυνατότητα ελέγχου των προτιμήσεων, για συμπεριφορές που περιλαμβάνουν οπτικές και λειτουργικές ρυθμίσεις."
 
 #: system/system.module:20
 msgid "Some modules require regularly scheduled actions, such as cleaning up logfiles. Cron, which stands for chronograph, is a periodic command scheduler executing commands at intervals specified in seconds. It can be used to control the execution of daily, weekly and monthly jobs (or anything with a period measured in seconds). The aggregator module periodically updates feeds using cron. Ping periodically notifies services of new content on your site. Search periodically indexes the content on your site. Automating tasks is one of the best ways to keep a system running smoothly, and if most of your administration does not require your direct involvement, cron is an ideal solution. Cron can, if necessary, also be run manually."
-msgstr "Μερικές μονάδες του Drupal απαιτούν τακτικές, χρονικά προγραμματισμένες ενέργειες, όπως η εκκαθάριση αρχείων του ημερολογίου συστήματος. Το cron, που σημαίνει χρονογράφος, είναι ένα πρόγραμμα χρονικού προγραμματισμού περιοδικής εκτέλεσης εντολών, που εκτελεί εντολές σε διαστήματα που ορίζονται σε δευτερόλεπτα. Μπορεί να χρησιμοποιείται για να ελέγχει την εκτέλεση καθημερινών, εβδομαδιαίων και μηνιαίων εργασιών (ή με οποιαδήποτε περίοδο σε δευτερόλεπτα). Η μονάδα aggregator ενημερώνει περιοδικά τα feed χρησιμοποιώντας το cron. Η μονάδα ping ειδοποιεί περιοδικά διάφορες υπηρεσίες ότι υπάρχει νέα ύλη στον ιστότοπό σας. Η μονάδα search ευρετηριάζει περιοδικά την ύλη του ιστοχώρου σας. Η αυτοματοποίηση των εργασιών είναι ένας από τους καλύτερους τρόπους για τη διαρκή ομαλή λειτουργία ενός συστήματος, και αν το μεγαλύτερο μέρος της διαχείρισης δε χρειάζεται την άμεση ανάμιξή σας το cron είναι ιδανική λύση."
+msgstr "Μερικές μονάδες του Drupal απαιτούν τακτικές, χρονικά προγραμματισμένες ενέργειες, όπως η εκκαθάριση αρχείων του ημερολογίου συστήματος. Το cron, που σημαίνει χρονογράφος, είναι ένα πρόγραμμα χρονικού προγραμματισμού περιοδικής εκτέλεσης εντολών, που εκτελεί εντολές σε διαστήματα που ορίζονται σε δευτερόλεπτα. Μπορεί να χρησιμοποιείται για να ελέγχει την εκτέλεση καθημερινών, εβδομαδιαίων και μηνιαίων εργασιών (ή με οποιαδήποτε περίοδο σε δευτερόλεπτα). Η μονάδα aggregator ενημερώνει περιοδικά τα feed χρησιμοποιώντας το cron. Η μονάδα ping ειδοποιεί περιοδικά διάφορες υπηρεσίες ότι υπάρχει νέα ύλη στον ιστότοπό σας. Η μονάδα search ευρετηριάζει περιοδικά την ύλη του ιστοτόπου σας. Η αυτοματοποίηση των εργασιών είναι ένας από τους καλύτερους τρόπους για τη διαρκή ομαλή λειτουργία ενός συστήματος, και αν το μεγαλύτερο μέρος της διαχείρισης δε χρειάζεται την άμεση ανάμιξή σας το cron είναι ιδανική λύση."
 
 #: system/system.module:21
 msgid "There is a caching mechanism which stores dynamically generated web pages in a database. By caching a web page, the system module does not have to create the page each time someone wants to view it, instead it takes only one SQL query to display it, reducing response time and the server's load. Only pages requested by <em>anonymous</em> users are cached. In order to reduce server load and save bandwidth, the system module stores and sends cached pages compressed."
@@ -42,11 +42,11 @@ msgstr "Αυτή η σελίδα σας δείχνει τις πιθανές ρ�
 
 #: system/system.module:29
 msgid "Select which themes are available to your users and specify the default theme. To configure site-wide display settings, click the \"configure\" task above. Alternately, to override these settings in a specific theme, click the \"configure\" link for the corresponding theme. Note that different themes may have different regions available for rendering content like blocks. If you want consistency in what your users see, you may wish to enable only one theme."
-msgstr "Επιλέξτε ποιες θεματικές παραλλαγές θα είναι διαθέσιμες στους χρήστες σας και ορίστε την προεπιλεγμένη παραλλαγή. Για να διευθετήσετε τις ρυθμίσεις παρουσίασης για ολόκληρο τον ιστοχώρο, πατήστε στην επιλογή \"διευθέτηση\" παραπάνω. Διαφορετικά, για να παραμερίσετε αυτές τις γενικές ρυθμίσεις για μια συγκεκριμένη θεματική παραλλαγή, πατήστε στην επιλογή \"διευθέτηση\" της αντίστοιχης παραλλαγής. Σημειώστε ότι οι διάφορες θεματικές παραλλαγές μπορεί να κάνουν διαθέσιμες διαφορετικές περιοχές για την παρουσίαση στοιχείων όπως τα μπλοκ. Αν θέλετε συνέπεια στο τι βλέπουν οι χρήστες σας, καλό είναι να ενεργοποιήσετε μόνο μία παραλλαγή."
+msgstr "Επιλέξτε ποιες θεματικές παραλλαγές θα είναι διαθέσιμες στους χρήστες σας και ορίστε την προεπιλεγμένη παραλλαγή. Για να διευθετήσετε τις ρυθμίσεις παρουσίασης για ολόκληρο τον ιστοτόπο, πατήστε στην επιλογή \"διευθέτηση\" παραπάνω. Διαφορετικά, για να παραμερίσετε αυτές τις γενικές ρυθμίσεις για μια συγκεκριμένη θεματική παραλλαγή, πατήστε στην επιλογή \"διευθέτηση\" της αντίστοιχης παραλλαγής. Σημειώστε ότι οι διάφορες θεματικές παραλλαγές μπορεί να κάνουν διαθέσιμες διαφορετικές περιοχές για την παρουσίαση στοιχείων όπως τα μπλοκ. Αν θέλετε συνέπεια στο τι βλέπουν οι χρήστες σας, καλό είναι να ενεργοποιήσετε μόνο μία παραλλαγή."
 
 #: system/system.module:31
 msgid "These options control the default display settings for your entire site, across all themes. Unless they have been overridden by a specific theme, these settings will be used."
-msgstr "Οι επιλογές αυτές ελέγχουν τις προεπιλεγμένες ρυθμίσεις παρουσίασης για ολόκληρο τον ιστοχώρο σας, για όλες τις θεματικές παραλλαγές. Αυτές οι ρυθμίσεις θα χρησιμοποιούνται εφόσον δεν παραμερίζονται από κάποια συγκεκριμένη παραλλαγή."
+msgstr "Οι επιλογές αυτές ελέγχουν τις προεπιλεγμένες ρυθμίσεις παρουσίασης για ολόκληρο τον ιστοτόπο σας, για όλες τις θεματικές παραλλαγές. Αυτές οι ρυθμίσεις θα χρησιμοποιούνται εφόσον δεν παραμερίζονται από κάποια συγκεκριμένη παραλλαγή."
 
 #: system/system.module:35
 msgid "These options control the display settings for the <code>%template</code> theme. When your site is displayed using this theme, these settings will be used. By clicking \"Reset to defaults,\" you can choose to use the <a href=\"@global\">global settings</a> for this theme."
@@ -57,7 +57,7 @@ msgid ""
 "<p>Modules are plugins for Drupal that extend its core functionality. Here you can select which modules are enabled. Click on the name of the module in the navigation menu for their individual configuration pages. Once a module is enabled, new <a href=\"@permissions\">permissions</a> might be made available. Modules can automatically be temporarily disabled to reduce server load when your site becomes extremely busy by enabling the throttle.module and checking throttle. The auto-throttle functionality must be enabled on the <a href=\"@throttle\">throttle configuration page</a> after having enabled the throttle module.</p>\n"
 "<p>It is important that <a href=\"@update-php\">update.php</a> is run every time a module is updated to a newer version.</p><p>You can find all administration tasks belonging to a particular module on the <a href=\"@by-module\">administration by module page</a>.</p>"
 msgstr ""
-"<p>Οι μονάδες του Drupal είναι πρόσθετα στοιχεία λογισμικού που επεκτείνουν τη βασική του λειτουργικότητα. Εδώ μπορείτε να επιλέξετε ποιες μονάδες θα είναι ενεργές. Πατήστε στο όνομα της μονάδας στο μενού πλοήγησης για να πάτε στη δική της σελίδα διευθέτησης. Αφού η μονάδα ενεργοποιηθεί, μπορεί να γίνουν διαθέσιμες νέες <a href=\"@permissions\">άδειες</a>. Οι μονάδες μπορούν αυτόματα να απενεργοποιούνται προσωρινά ώστε να μειώνεται ο φόρτος του διακομιστή όταν ο ιστοχώρος σας είναι εξαιρετικά απασχολημένος, εφόσον έχετε ενεργοποιήσει τη μονάδα throttle και έχετε επιλέξει \"απόπνιξη\". Η αυτόματη απόπνιξη πρέπει να τεθεί σε λειτουργία από τη <a href=\"@throttle\">σελίδα διευθέτησης της απόπνιξης</a> αφού πρώτα ενεργοποιηθεί η μονάδα throttle.</p>\n"
+"<p>Οι μονάδες του Drupal είναι πρόσθετα στοιχεία λογισμικού που επεκτείνουν τη βασική του λειτουργικότητα. Εδώ μπορείτε να επιλέξετε ποιες μονάδες θα είναι ενεργές. Πατήστε στο όνομα της μονάδας στο μενού πλοήγησης για να πάτε στη δική της σελίδα διευθέτησης. Αφού η μονάδα ενεργοποιηθεί, μπορεί να γίνουν διαθέσιμες νέες <a href=\"@permissions\">άδειες</a>. Οι μονάδες μπορούν αυτόματα να απενεργοποιούνται προσωρινά ώστε να μειώνεται ο φόρτος του διακομιστή όταν ο ιστοτόπος σας είναι εξαιρετικά απασχολημένος, εφόσον έχετε ενεργοποιήσει τη μονάδα throttle και έχετε επιλέξει \"απόπνιξη\". Η αυτόματη απόπνιξη πρέπει να τεθεί σε λειτουργία από τη <a href=\"@throttle\">σελίδα διευθέτησης της απόπνιξης</a> αφού πρώτα ενεργοποιηθεί η μονάδα throttle.</p>\n"
 "<p>Είναι σημαντικό να εκτελείται το <a href=\"@update-php\">update.php</a> κάθε φορά που ενημερώνεται μια μονάδα σε νεότερη έκδοση.</p>"
 
 #: system/system.module:40
@@ -66,7 +66,7 @@ msgstr "Η διαδικασία απεγκατάστασης απομακρύν�
 
 #: system/system.module:42
 msgid "Here you can find a short overview of your Drupal site's parameters as well as any problems detected with your installation. It is useful to copy/paste this information when you need support."
-msgstr "Εδώ μπορείτε να βρείτε μια σύντομη περιγραφή των παραμέτρων του ιστοχώρου σας όπως και όποιο πρόβλημα ανιχνεύτηκε κατά την εγκατάσταση. Είναι χρήσιμο να αντιγράψετε/επικολλήσετε αυτές τις πληροφορίες όταν χρειαστείτε βοήθεια."
+msgstr "Εδώ μπορείτε να βρείτε μια σύντομη περιγραφή των παραμέτρων του ιστοτόπου σας όπως και όποιο πρόβλημα ανιχνεύτηκε κατά την εγκατάσταση. Είναι χρήσιμο να αντιγράψετε/επικολλήσετε αυτές τις πληροφορίες όταν χρειαστείτε βοήθεια."
 
 #: system/system.module:100
 msgid "Administer"
@@ -86,19 +86,19 @@ msgstr "Βάση μονάδας"
 
 #: system/system.module:119
 msgid "Site configuration"
-msgstr "Γενική διευθέτηση ιστοχώρου"
+msgstr "Γενική διευθέτηση ιστοτόπου"
 
 #: system/system.module:120
 msgid "Adjust basic site configuration options."
-msgstr "Ρυθμίστε τις βασικές επιλογές του ιστοχώρου σας."
+msgstr "Ρυθμίστε τις βασικές επιλογές του ιστοτόπου σας."
 
 #: system/system.module:127
 msgid "Site building"
-msgstr "Δημιουργία ιστοχώρου"
+msgstr "Δημιουργία ιστοτόπου"
 
 #: system/system.module:128
 msgid "Control how your site looks and feels."
-msgstr "Έλεγχος εμφάνισης και αισθητικής του ιστοχώρου."
+msgstr "Έλεγχος εμφάνισης και αισθητικής του ιστοτόπου."
 
 #: system/system.module:136;437
 msgid "Administration theme"
@@ -130,7 +130,7 @@ msgstr "Μονάδες"
 
 #: system/system.module:189
 msgid "Enable or disable add-on modules for your site."
-msgstr "Ενεργοποίση ή απενεργοποίηση πρόσθετων μονάδων του ιστοχώρου."
+msgstr "Ενεργοποίση ή απενεργοποίηση πρόσθετων μονάδων του ιστοτόπου."
 
 #: system/system.module:204;210;1627;1669;1690
 msgid "Uninstall"
@@ -138,11 +138,11 @@ msgstr "Απεγκατάσταση"
 
 #: system/system.module:219
 msgid "Site information"
-msgstr "Πληροφορίες ιστοχώρου"
+msgstr "Πληροφορίες ιστοτόπου"
 
 #: system/system.module:220
 msgid "Change basic site information, such as the site name, slogan, e-mail address, mission, front page and more."
-msgstr "Αλλάξτε τις βασικές πληροφορίες του ιστοχώρου, όπως, όνομα, αποστολή, διεύθυνση e-mail, αρχική σελίδα κ.τ.λ."
+msgstr "Αλλάξτε τις βασικές πληροφορίες του ιστοτόπου, όπως, όνομα, αποστολή, διεύθυνση e-mail, αρχική σελίδα κ.τ.λ."
 
 #: system/system.module:225;634
 msgid "Error reporting"
@@ -190,11 +190,11 @@ msgstr "Επιλογές για το πώς το Drupal θα εμφανίζει 
 
 #: system/system.module:261
 msgid "Site maintenance"
-msgstr "Συντήρηση ιστοχώρου"
+msgstr "Συντήρηση ιστοτόπου"
 
 #: system/system.module:262
 msgid "Take the site off-line for maintenance or bring it back online."
-msgstr "Απενεργοποίηση του ιστοχώρου για συντήρηση ή επαναφορά του."
+msgstr "Απενεργοποίηση του ιστοτόπου για συντήρηση ή επαναφορά του."
 
 #: system/system.module:267;593
 msgid "Clean URLs"
@@ -202,7 +202,7 @@ msgstr "Καθαρές URLs"
 
 #: system/system.module:268
 msgid "Enable or disable clean URLs for your site."
-msgstr "Ενεργοποίηση η απενεργοποίηση καθαρών URL για τον ιστοχώρο."
+msgstr "Ενεργοποίηση η απενεργοποίηση καθαρών URL για τον ιστοτόπο."
 
 #: system/system.module:276
 msgid "Logs"
@@ -218,7 +218,7 @@ msgstr "Αναφορά κατάστασης"
 
 #: system/system.module:284
 msgid "Get a status report about your site's operation and any detected problems."
-msgstr "Αναφορά κατάστασης λειτουργίας του ιστοχώρου και αναφορά σφαλμάτων."
+msgstr "Αναφορά κατάστασης λειτουργίας του ιστοτόπου και αναφορά σφαλμάτων."
 
 #: system/system.module:290
 msgid "Run cron"
@@ -230,7 +230,7 @@ msgstr "SQL"
 
 #: system/system.module:330
 msgid "Selecting a different theme will change the look and feel of the site."
-msgstr "Με την επιλογή διαφορετικού θέματος εμφάνισης αλλάζει η όψη και η αίσθηση του ιστοχώρου."
+msgstr "Με την επιλογή διαφορετικού θέματος εμφάνισης αλλάζει η όψη και η αίσθηση του ιστοτόπου."
 
 #: system/system.module:336
 msgid "Locale settings"
@@ -242,7 +242,7 @@ msgstr "Ζώνη ώρας"
 
 #: system/system.module:345
 msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
-msgstr "Επιλέξτε την τρέχουσα τοπική ώρα σας. Οι ημερομηνίες και οι ώρες σε ολόκληρο τον ιστοχώρο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
+msgstr "Επιλέξτε την τρέχουσα τοπική ώρα σας. Οι ημερομηνίες και οι ώρες σε ολόκληρο τον ιστοτόπο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
 
 #: system/system.module:366
 msgid "One or more problems were detected with your Drupal installation. Check the <a href=\"@status\">status report</a> for more information."
@@ -254,7 +254,7 @@ msgstr "Προεπιλογές συστήματος"
 
 #: system/system.module:438
 msgid "Choose which theme the administration pages should display in. If you choose \"System default\" the administration pages will use the same theme as the rest of the site."
-msgstr "Επιλέξτε με ποία εμφάνιση οι σελίδες διαχείρισης θα εμφανίζονται. Αν επιλέξετε \"Προεπιλογές συστήματος\" οι σελίδες διαχείρισης θα χρησιμοποιούν την ίδια εμφάνιση με τον υπόλοιπο ιστοχώρο."
+msgstr "Επιλέξτε με ποία εμφάνιση οι σελίδες διαχείρισης θα εμφανίζονται. Αν επιλέξετε \"Προεπιλογές συστήματος\" οι σελίδες διαχείρισης θα χρησιμοποιούν την ίδια εμφάνιση με τον υπόλοιπο ιστοτόπο."
 
 #: system/system.module:486
 msgid "Theme configuration"
@@ -270,7 +270,7 @@ msgstr "δεν υπάρχει δείγμα εικόνας"
 
 #: system/system.module:500
 msgid "(site default theme)"
-msgstr "(προεπιλεγμένη εμφάνιση του ιστοχώρου)"
+msgstr "(προεπιλεγμένη εμφάνιση του ιστοτόπου)"
 
 #: system/system.module:522;1190
 msgid "Screenshot"
@@ -278,11 +278,11 @@ msgstr "Δείγμα"
 
 #: system/system.module:543
 msgid "The name of this web site."
-msgstr "Το όνομα αυτού του ιστοχώρου."
+msgstr "Το όνομα αυτού του ιστοτόπου."
 
 #: system/system.module:550
 msgid "A valid e-mail address for this website, used by the auto-mailer during registration, new password requests, notifications, etc."
-msgstr "Μια έγκυρη διεύθυνση e-mail γι' αυτόν τον ιστοχώρο, που χρησιμοποιείται στην αυτόματη αποστολή μηνυμάτων κατά την εγγραφή μελών, τις αιτήσεις για νέο κωδικό εισόδου, τις ειδοποιήσεις κ.λ.π."
+msgstr "Μια έγκυρη διεύθυνση e-mail γι' αυτόν τον ιστοτόπο, που χρησιμοποιείται στην αυτόματη αποστολή μηνυμάτων κατά την εγγραφή μελών, τις αιτήσεις για νέο κωδικό εισόδου, τις ειδοποιήσεις κ.λ.π."
 
 #: system/system.module:554
 msgid "Slogan"
@@ -290,7 +290,7 @@ msgstr "Σύνθημα"
 
 #: system/system.module:556
 msgid "The slogan of this website. Some themes display a slogan when available."
-msgstr "Το σύνθημα αυτού του ιστοχώρου. Μερικές θεματικές παραλλαγές εμφανίζουν αυτό το σύνθημα, αν υπάρχει."
+msgstr "Το σύνθημα αυτού του ιστοτόπου. Μερικές θεματικές παραλλαγές εμφανίζουν αυτό το σύνθημα, αν υπάρχει."
 
 #: system/system.module:561
 msgid "Mission"
@@ -298,7 +298,7 @@ msgstr "Σκοπός"
 
 #: system/system.module:563
 msgid "Your site's mission statement or focus."
-msgstr "Ο σκοπός ή το αντικείμενο του ιστοχώρου σας."
+msgstr "Ο σκοπός ή το αντικείμενο του ιστοτόπου σας."
 
 #: system/system.module:567
 msgid "Footer message"
@@ -366,7 +366,7 @@ msgstr "Καταγραφή σφαλμάτων στο ημερολόγιο συσ
 
 #: system/system.module:636
 msgid "Where Drupal, PHP and SQL errors are logged. On a production server it is recommended that errors are only written to the error log. On a test server it can be helpful to write logs to the screen."
-msgstr "Πού καταγράφονται τα σφάλματα του Drupal, της PHP και της SQL. Σ' ένα ζωντανό ιστοχώρο, συνιστάται να καταγράφονται τα σφάλματα μόνο στο ημερολόγιο σφαλμάτων. Σ' ένα δοκιμαστικό ιστοχώρο, ίσως είναι χρήσιμο να καταγράφονται και στην οθόνη."
+msgstr "Πού καταγράφονται τα σφάλματα του Drupal, της PHP και της SQL. Σ' ένα ζωντανό ιστοτόπο, συνιστάται να καταγράφονται τα σφάλματα μόνο στο ημερολόγιο σφαλμάτων. Σ' ένα δοκιμαστικό ιστοτόπο, ίσως είναι χρήσιμο να καταγράφονται και στην οθόνη."
 
 #: system/system.module:640
 msgid "Never"
@@ -382,7 +382,7 @@ msgstr "Για πόσο χρόνο θα διατηρούνται οι καταχ
 
 #: system/system.module:654
 msgid "The normal cache mode is suitable for most sites and does not cause any side effects. The aggressive cache mode causes Drupal to skip the loading (init) and unloading (exit) of enabled modules when serving a cached page. This results in an additional performance boost but can cause unwanted side effects."
-msgstr "Η φυσιολογική πολιτική λανθάνουσας μνήμης είναι συμβατή για τους περισσότερους ιστοχώρους γιατί δεν έχει παρενέργειες. Η επιθετική πολιτική προκαλεί το Drupal να μην φορτώνει (init) και ξεφορτώνει (exit) τις ενεργές μονάδες όταν παραδίδει απομνημονευμένες σελίδες. Αυτό έχει ως αποτέλεσμα ακόμα μεγαλύτερη και καλύτερη απόδοση αλλά μπορεί να προκαλέσει παρενέργειες στον ιστοχώρο σας."
+msgstr "Η φυσιολογική πολιτική λανθάνουσας μνήμης είναι συμβατή για τους περισσότερους ιστοτόπους γιατί δεν έχει παρενέργειες. Η επιθετική πολιτική προκαλεί το Drupal να μην φορτώνει (init) και ξεφορτώνει (exit) τις ενεργές μονάδες όταν παραδίδει απομνημονευμένες σελίδες. Αυτό έχει ως αποτέλεσμα ακόμα μεγαλύτερη και καλύτερη απόδοση αλλά μπορεί να προκαλέσει παρενέργειες στον ιστοτόπο σας."
 
 #: system/system.module:660
 msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and will not function properly: %modules</strong>"
@@ -418,7 +418,7 @@ msgstr "Ελάχιστος χρόνος ζωής λανθάνουσας μνήμ
 
 #: system/system.module:686
 msgid "On high-traffic sites it can become necessary to enforce a minimum cache lifetime. The minimum cache lifetime is the minimum amount of time that will go by before the cache is emptied and recreated. A larger minimum cache lifetime offers better performance, but users will not see new content for a longer period of time."
-msgstr "Σε ιστοχώρους με υψηλή κίνηση μπορεί να καταστεί αναγκαστικό να μειωθεί ο χρόνος ζωής της λανθάνουσας μνήμης. Ο ελάχιστος χρόνος ζωής της λανθάνουσας μνήμης είναι το ελάχιστο χρονικό διάστημα που θα περάσει πριν το cache  αδειάσει και δημιουργηθεί ξανά. Ένας μεγαλύτερος ελάχιστος χρόνος ζωής λανθάνουσας μνήμης προσφέρει καλύτερη απόδοση, αλλά οι χρήστες δεν θα βλέπουν τα νέα περιεχόμενα για μεγαλύτερο χρονικό διάστημα."
+msgstr "Σε ιστοτόπους με υψηλή κίνηση μπορεί να καταστεί αναγκαστικό να μειωθεί ο χρόνος ζωής της λανθάνουσας μνήμης. Ο ελάχιστος χρόνος ζωής της λανθάνουσας μνήμης είναι το ελάχιστο χρονικό διάστημα που θα περάσει πριν το cache  αδειάσει και δημιουργηθεί ξανά. Ένας μεγαλύτερος ελάχιστος χρόνος ζωής λανθάνουσας μνήμης προσφέρει καλύτερη απόδοση, αλλά οι χρήστες δεν θα βλέπουν τα νέα περιεχόμενα για μεγαλύτερο χρονικό διάστημα."
 
 #: system/system.module:691
 msgid "Bandwidth optimizations"
@@ -426,7 +426,7 @@ msgstr "Βελτιώσεις bandwidth"
 
 #: system/system.module:692
 msgid "These options can help reduce both the size and number of requests made to your website. This can reduce the server load, the bandwidth used, and the average page loading time for your visitors."
-msgstr "Αυτές οι επιλογές μπορούν να βοηθήσουν στην μείωση του μεγέθους και του αριθμού των αιτήσεων προς τον ιστοχώρο σας. Αυτό μπορεί να μειώσει το φόρτο εργασίας του διακομιστή, την χρήση του bandwidth και το μέσο χρόνο φόρτωσης της κάθε σελίδας για τους επισκέπτες."
+msgstr "Αυτές οι επιλογές μπορούν να βοηθήσουν στην μείωση του μεγέθους και του αριθμού των αιτήσεων προς τον ιστοτόπο σας. Αυτό μπορεί να μειώσει το φόρτο εργασίας του διακομιστή, την χρήση του bandwidth και το μέσο χρόνο φόρτωσης της κάθε σελίδας για τους επισκέπτες."
 
 #: system/system.module:699
 msgid "Aggregate and compress CSS files"
@@ -434,7 +434,7 @@ msgstr "Σύλλεξε και συμπίεσε τα αρχεία CSS"
 
 #: system/system.module:703
 msgid "Some Drupal modules include their own CSS files. When these modules are enabled, each module's CSS file adds an additional HTTP request to the page, which can increase the load time of each page. These HTTP requests can also slightly increase server load. It is recommended to only turn this option on when your site is in production, as it can interfere with theme development. This option is disabled if you have not set up your files directory, or if your download method is set to private."
-msgstr "Μερικές μονάδες του Drupal διαθέτουν τα δικά τους αρχεία CSS. Όταν ενεργοποιηθούν αυτές οι μονάδες προσθέτουν αιτήσεις HTTP στην σελίδα, γεγονός που μπορεί να αυξήσει το φόρτο εργασίας κάθε σελίδας. Αυτές οι αιτήσεις HTTP μπορούν να αυξήσουν ελαφρώς το φόρτο του διακομιστή. Συνίσταται να ενεργοποιήσετε αυτή την επιλογή όταν ο ιστοχώρο σας είναι ενεργός και δημοσιευμένος καθώς μπορεί να επηρεάσουν την δημιουργία των εμφανίσεων. Αυτή η επιλογή είναι ανενεργή αν δεν έχετε ορίσει τους φακέλους των αρχείων (files) ή αν η μέθοδος μεταφόρτωσης είναι ορισμένη ως ιδιωτική."
+msgstr "Μερικές μονάδες του Drupal διαθέτουν τα δικά τους αρχεία CSS. Όταν ενεργοποιηθούν αυτές οι μονάδες προσθέτουν αιτήσεις HTTP στην σελίδα, γεγονός που μπορεί να αυξήσει το φόρτο εργασίας κάθε σελίδας. Αυτές οι αιτήσεις HTTP μπορούν να αυξήσουν ελαφρώς το φόρτο του διακομιστή. Συνίσταται να ενεργοποιήσετε αυτή την επιλογή όταν ο ιστοτόπο σας είναι ενεργός και δημοσιευμένος καθώς μπορεί να επηρεάσουν την δημιουργία των εμφανίσεων. Αυτή η επιλογή είναι ανενεργή αν δεν έχετε ορίσει τους φακέλους των αρχείων (files) ή αν η μέθοδος μεταφόρτωσης είναι ορισμένη ως ιδιωτική."
 
 #: system/system.module:716
 msgid "File system path"
@@ -442,7 +442,7 @@ msgstr "Διαδρομή συστήματος αρχείων"
 
 #: system/system.module:719
 msgid "A file system path where the files will be stored. This directory has to exist and be writable by Drupal. If the download method is set to public this directory has to be relative to the Drupal installation directory, and be accessible over the web. When download method is set to private this directory should not be accessible over the web. Changing this location after the site has been in use will cause problems so only change this setting on an existing site if you know what you are doing."
-msgstr "Μια διαδρομή του συστήματος αρχείων όπου θα αποθηκεύονται τα αρχεία. Ο κατάλογος αυτός θα πρέπει να υπάρχει και να επιτρέπει στο Drupal να γράφει. Αν έχει επιλεχθεί η δημόσια μέθοδος κατεβάσματος αρχείων, αυτός ο κατάλογος θα πρέπει να οριστεί σε σχέση με τον κατάλογο εγκατάστασης του Drupal και να είναι προσπελάσιμος από τον Ιστό. Αν έχει επιλεχθεί η ιδιωτική μέθοδος κατεβάσματος αρχείων, αυτός ο κατάλογος δεν θα πρέπει να είναι προσπελάσιμος από τον Ιστό. Η αλλαγή αυτής της θέσης αφού ο ιστοχώρος έχει αρχίσει να χρησιμοποιείται θα προκαλέσει προβλήματα, γι' αυτό μην αλλάξετε αυτή τη ρύθμιση σε έναν υπάρχοντα ιστοχώρο παρά μόνο αν ξέρετε τι κάνετε."
+msgstr "Μια διαδρομή του συστήματος αρχείων όπου θα αποθηκεύονται τα αρχεία. Ο κατάλογος αυτός θα πρέπει να υπάρχει και να επιτρέπει στο Drupal να γράφει. Αν έχει επιλεχθεί η δημόσια μέθοδος κατεβάσματος αρχείων, αυτός ο κατάλογος θα πρέπει να οριστεί σε σχέση με τον κατάλογο εγκατάστασης του Drupal και να είναι προσπελάσιμος από τον Ιστό. Αν έχει επιλεχθεί η ιδιωτική μέθοδος κατεβάσματος αρχείων, αυτός ο κατάλογος δεν θα πρέπει να είναι προσπελάσιμος από τον Ιστό. Η αλλαγή αυτής της θέσης αφού ο ιστοτόπος έχει αρχίσει να χρησιμοποιείται θα προκαλέσει προβλήματα, γι' αυτό μην αλλάξετε αυτή τη ρύθμιση σε έναν υπάρχοντα ιστοτόπο παρά μόνο αν ξέρετε τι κάνετε."
 
 #: system/system.module:725
 msgid "Temporary directory"
@@ -554,7 +554,7 @@ msgstr "Η πρώτη ημέρα της εβδομάδας για τις ημε�
 
 #: system/system.module:862
 msgid "Site status"
-msgstr "Κατάσταση λειτουργίας ιστοχώρου"
+msgstr "Κατάσταση λειτουργίας ιστοτόπου"
 
 #: system/system.module:864
 msgid "Online"
@@ -566,11 +566,11 @@ msgstr "Εκτός λειτουργίας"
 
 #: system/system.module:865
 msgid "When set to \"Online\", all visitors will be able to browse your site normally. When set to \"Off-line\", only users with the \"administer site configuration\" permission will be able to access your site to perform maintenance; all other visitors will see the site off-line message configured below. Authorized users can log in during \"Off-line\" mode directly via the <a href=\"@user-login\">user login</a> page."
-msgstr "Όταν έχει επιλεχθεί το \"Σε λειτουργία\", όλοι οι επισκέπτες θα μπορούν να περιηγούνται τον ιστοχώρο σας κανονικά. Όταν έχει επιλεχθεί το \"Εκτός λειτουργίας\", μόνο οι χρήστες που έχουν την άδεια \"διαχείριση διευθέτησης ιστοχώρου\" θα έχουν πρόσβαση για να πραγματοποιούν εργασίες συντήρησης -- όλοι οι άλλοι επισκέπτες θα βλέπουν το παρακάτω μήνυμα \"εκτός λειτουργίας\". Οι χρήστες που έχουν το δικαίωμα μπορούν να εισέρχονται  στον \"Εκτός λειτουργίας\" ιστοχώρο απευθείας από τη σελίδα <a href=\"@user-login\">εισόδου χρήστη</a>."
+msgstr "Όταν έχει επιλεχθεί το \"Σε λειτουργία\", όλοι οι επισκέπτες θα μπορούν να περιηγούνται τον ιστοτόπο σας κανονικά. Όταν έχει επιλεχθεί το \"Εκτός λειτουργίας\", μόνο οι χρήστες που έχουν την άδεια \"διαχείριση διευθέτησης ιστοτόπου\" θα έχουν πρόσβαση για να πραγματοποιούν εργασίες συντήρησης -- όλοι οι άλλοι επισκέπτες θα βλέπουν το παρακάτω μήνυμα \"εκτός λειτουργίας\". Οι χρήστες που έχουν το δικαίωμα μπορούν να εισέρχονται  στον \"Εκτός λειτουργίας\" ιστοτόπο απευθείας από τη σελίδα <a href=\"@user-login\">εισόδου χρήστη</a>."
 
 #: system/system.module:870
 msgid "Site off-line message"
-msgstr "Μήνυμα όταν ο ιστοχώρος είναι εκτός λειτουργίας"
+msgstr "Μήνυμα όταν ο ιστοτόπος είναι εκτός λειτουργίας"
 
 #: system/system.module:871
 msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
@@ -578,7 +578,7 @@ msgstr "Το @site είναι αυτή τη στιγμή κλειστό για �
 
 #: system/system.module:872
 msgid "Message to show visitors when the site is in off-line mode."
-msgstr "Μήνυμα που θα εμφανίζεται στους επισκέπτες όταν ο ιστοχώρος είναι εκτός λειτουργίας."
+msgstr "Μήνυμα που θα εμφανίζεται στους επισκέπτες όταν ο ιστοτόπος είναι εκτός λειτουργίας."
 
 #: system/system.module:1080
 msgid "The settings have not been saved because of the errors."
@@ -634,7 +634,7 @@ msgstr "Έκδοση"
 
 #: system/system.module:1663
 msgid "The following modules will be completely uninstalled from your site, and <em>all data from these modules will be lost</em>!"
-msgstr "Οι ακόλουθες μονάδες θα απεγκατασταθούν από τον ιστοχώρο σας, <em>όλα τα δεδομένα των μονάδων θα χαθούν</em>!"
+msgstr "Οι ακόλουθες μονάδες θα απεγκατασταθούν από τον ιστοτόπο σας, <em>όλα τα δεδομένα των μονάδων θα χαθούν</em>!"
 
 #: system/system.module:1666
 msgid "Confirm uninstall"
@@ -726,7 +726,7 @@ msgstr "Πληροφορίες λανθάνουσας μνήμης ερωτημ�
 
 #: system/system.module:1816
 msgid "The MySQL query cache can improve performance of your site by storing the result of queries.  Then, if an identical query is received later, the MySQL server retrieves the result from the query cache rather than parsing and executing the statement again."
-msgstr "Το query cache της MySQL μπορεί να βελτιώσει την απόδοση του ιστοχώρου σας αποθηκεύοντας τα αποτελέσματα των ερωτημάτων. Έτσι αν ένα ίδιο ερώτημα γίνει αργότερα, ο διακομιστής MySQL θα απαντησεί με τα αποτελέσματα του προηγούμενου αντί να γίνει η επεξεργασία του ερωτήματος από την αρχή."
+msgstr "Το query cache της MySQL μπορεί να βελτιώσει την απόδοση του ιστοτόπου σας αποθηκεύοντας τα αποτελέσματα των ερωτημάτων. Έτσι αν ένα ίδιο ερώτημα γίνει αργότερα, ο διακομιστής MySQL θα απαντησεί με τα αποτελέσματα του προηγούμενου αντί να γίνει η επεξεργασία του ερωτήματος από την αρχή."
 
 #: system/system.module:1818
 msgid "The number of queries in the query cache."
@@ -754,11 +754,11 @@ msgstr "Λογότυπο"
 
 #: system/system.module:1960
 msgid "Site name"
-msgstr "Όνομα του ιστοχώρου"
+msgstr "Όνομα του ιστοτόπου"
 
 #: system/system.module:1961
 msgid "Site slogan"
-msgstr "Σύνθημα του ιστοχώρου"
+msgstr "Σύνθημα του ιστοτόπου"
 
 #: system/system.module:1962
 msgid "Mission statement"
@@ -908,7 +908,7 @@ msgstr[1] "Πρέπει να ενεργοποιήσετε τις μονάδες 
 
 #: system/system.module:50
 msgid "administer site configuration"
-msgstr "διαχείριση διευθέτησης ιστοχώρου"
+msgstr "διαχείριση διευθέτησης ιστοτόπου"
 
 #: system/system.module:50
 msgid "access administration pages"

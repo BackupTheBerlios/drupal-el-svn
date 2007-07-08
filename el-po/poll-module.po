@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: poll-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:41+0300\n"
+"PO-Revision-Date: 2007-07-08 16:09+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: poll/poll.module:16
 msgid "The poll module can be used to create simple polls for site users. A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll. Having polls on the site is a good way to get instant feedback from community members."
-msgstr "Η μονάδα poll μπορεί να χρησιμοποιηθεί για τη δημιουργία απλών ψηφοφοριών για τους χρήστες του ιστοχώρου. Ψηφοφορία είναι ένα απλό ερωτηματολόγιο πολλαπλής επιλογής το οποίο εμφανίζει τα αθροιστικά αποτελέσματα των απαντήσεων. Οι ψηφοφορίες σε έναν ιστοχώρο είναι ένας καλός τρόπος για να παίρνετε άμεσα τη γνώμη των μελών της κοινότητας."
+msgstr "Η μονάδα poll μπορεί να χρησιμοποιηθεί για τη δημιουργία απλών ψηφοφοριών για τους χρήστες του ιστοτόπου. Ψηφοφορία είναι ένα απλό ερωτηματολόγιο πολλαπλής επιλογής το οποίο εμφανίζει τα αθροιστικά αποτελέσματα των απαντήσεων. Οι ψηφοφορίες σε έναν ιστοτόπο είναι ένας καλός τρόπος για να παίρνετε άμεσα τη γνώμη των μελών της κοινότητας."
 
 #: poll/poll.module:17
 msgid "Users can create a poll. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.The <a href=\"@poll\">poll</a> item in the navigation menu will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results."
@@ -153,7 +153,7 @@ msgstr "Παλιότερες ψηφοφορίες"
 
 #: poll/poll.module:600
 msgid "View the list of polls on this site."
-msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοχώρο."
+msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
 
 #: poll/poll.module:602
 msgid "View the current poll results."

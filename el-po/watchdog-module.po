@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: watchdog-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:47+0300\n"
+"PO-Revision-Date: 2007-07-08 16:18+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,11 @@ msgstr ""
 
 #: watchdog/watchdog.module:21
 msgid "The watchdog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
-msgstr "Η μονάδα watchdog (φύλακας) παρακολουθεί το σύστημά σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο.  Αυτό είναι χρήσιμο για τους διαχειριστές που θέλουν να κάνουν μια γρήγορη επισκόπηση των δραστηριοτήτων στον ιστοχώρο τους. Στο ημερολόγιο συστήματος καταγράφεται επίσης η ακολουθία των συμβάντων, γι' αυτό μπορεί να φανεί χρήσιμο στην αντιμετώπιση σφαλμάτων του ιστοχώρου."
+msgstr "Η μονάδα watchdog (φύλακας) παρακολουθεί το σύστημά σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο.  Αυτό είναι χρήσιμο για τους διαχειριστές που θέλουν να κάνουν μια γρήγορη επισκόπηση των δραστηριοτήτων στον ιστοτόπο τους. Στο ημερολόγιο συστήματος καταγράφεται επίσης η ακολουθία των συμβάντων, γι' αυτό μπορεί να φανεί χρήσιμο στην αντιμετώπιση σφαλμάτων του ιστοτόπου."
 
 #: watchdog/watchdog.module:22
 msgid "The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the watchdog report on a regular basis to ensure their site is working properly."
-msgstr "Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές θα πρέπει να ελέγχουν τακτικά την αναφορά του watchdog για να βεβαιώνονται ότι ο ιστοχώρος λειτουργεί κανονικά."
+msgstr "Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές θα πρέπει να ελέγχουν τακτικά την αναφορά του watchdog για να βεβαιώνονται ότι ο ιστοτόπος λειτουργεί κανονικά."
 
 #: watchdog/watchdog.module:23
 msgid "For more information please read the configuration and customization handbook <a href=\"@watchdog\">Watchdog page</a>."

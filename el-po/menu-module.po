@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: menu-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:38+0300\n"
+"PO-Revision-Date: 2007-07-08 16:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid ""
 "  <li>Use the \"add menu item\" tab to create new links in either the navigation or a custom menu (such as a primary/secondary links menu). Select the parent item to place the new link within an existing menu structure. For top level menu items, choose the name of the menu in which the link is to be added.</li>\n"
 "</ul>"
 msgstr ""
-"<p>Τα μενού είναι μια συλλογή συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοχώρο. Η μονάδα menu παρέχει μια διεπαφή χρήστη για να ελέγχετε και να προσαρμόζετε το σύστημα μενού που συνοδεύει το Drupal.  Τα μενού παρουσιάζονται κυρίως σαν μια ιεραρχική λίστα συνδέσμων που χρησιμοποιούν τα πολύ ευέλικτα <a href=\"%admin-block\">μπλοκ</a> του Drupal. Κάθε μενού δημιουργεί αυτόματα ένα μπλοκ με το ίδιο όνομα. Εξ ορισμού, τα νέα στοιχεία μενού τοποθετούνται μέσα σε ένα προϋπάρχον μενού που ονομάζεται %navigation, αλλά οι διαχειριστές μπορούν επίσης να δημιουργούν προσαρμοσμένα μενού.</p>\n"
+"<p>Τα μενού είναι μια συλλογή συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοτόπο. Η μονάδα menu παρέχει μια διεπαφή χρήστη για να ελέγχετε και να προσαρμόζετε το σύστημα μενού που συνοδεύει το Drupal.  Τα μενού παρουσιάζονται κυρίως σαν μια ιεραρχική λίστα συνδέσμων που χρησιμοποιούν τα πολύ ευέλικτα <a href=\"%admin-block\">μπλοκ</a> του Drupal. Κάθε μενού δημιουργεί αυτόματα ένα μπλοκ με το ίδιο όνομα. Εξ ορισμού, τα νέα στοιχεία μενού τοποθετούνται μέσα σε ένα προϋπάρχον μενού που ονομάζεται %navigation, αλλά οι διαχειριστές μπορούν επίσης να δημιουργούν προσαρμοσμένα μενού.</p>\n"
 "<p>Οι θεματικές παραλλαγές του Drupal γενικά παρέχουν εξ αρχής υποστήριξη για δύο έτοιμα μενού που ονομάζονται συνήθως %primary-links και %secondary-links. Αυτά είναι σύνολα συνδέσμων που εμφανίζονται συνήθως στην κεφαλίδα ή το υποσέλιδο κάθε σελίδας (ανάλογα με την τρέχουσα ενεργή παραλλαγή). Οποιοδήποτε μενού μπορεί να οριστεί ως μενού των πρωταρχικών ή των δευτερευόντων συνδέσμων, από τη <a href=\"@menu-settings\">σελίδα ρυθμίσεων μενού</a>.</p>\n"
 "Καρτέλες διαχείρισης μενού:\n"
 "<ul>\n"
@@ -46,7 +46,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: menu/menu.module:26
 msgid "Menus are a collection of links (menu items) used to navigate a website. The list(s) below display the currently available menus along with their menu items. Select an operation from the list to manage each menu or menu item."
-msgstr "Τα μενού είναι συλλογές συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοχώρο. Η παρακάτω λίστα(ες) παρουσιάζει τα τρέχοντα διαθέσιμα μενού καθώς και τα στοιχεία τους. Επιλέξτε μια ενέργεια από τη λίστα για να διαχειριστείτε κάθε μενού ή στοιχείο μενού."
+msgstr "Τα μενού είναι συλλογές συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοτόπο. Η παρακάτω λίστα(ες) παρουσιάζει τα τρέχοντα διαθέσιμα μενού καθώς και τα στοιχεία τους. Επιλέξτε μια ενέργεια από τη λίστα για να διαχειριστείτε κάθε μενού ή στοιχείο μενού."
 
 #: menu/menu.module:28
 msgid "Enter the name for your new menu. Remember to enable the newly created block in the <a href=\"@blocks\">blocks administration page</a>."
@@ -62,7 +62,7 @@ msgstr "Μενού"
 
 #: menu/menu.module:43
 msgid "Control your site's navigation menu, primary links and secondary links. as well as rename and reorganize menu items."
-msgstr "Διαχείριση του μενού πλοήγησης του ιστοχώρου, τους πρωταρχικούς και δευτερεύοντες συνδέσμους, καθώς επίσης και μετονομασία και αναδιοργάνωση των στοιχείων μενού."
+msgstr "Διαχείριση του μενού πλοήγησης του ιστοτόπου, τους πρωταρχικούς και δευτερεύοντες συνδέσμους, καθώς επίσης και μετονομασία και αναδιοργάνωση των στοιχείων μενού."
 
 #: menu/menu.module:52
 msgid "Add menu item"
@@ -182,7 +182,7 @@ msgstr "Το όνομα του στοιχείου μενού."
 
 #: menu/menu.module:365
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
-msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική URL, όπως η %drupal. Δώστε %front για παραπομπή στην αρχική σελίδα του ιστοχώρου."
+msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική URL, όπως η %drupal. Δώστε %front για παραπομπή στην αρχική σελίδα του ιστοτόπου."
 
 #: menu/menu.module:379;599
 msgid "Expanded"

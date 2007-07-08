@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drupal-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:36+0300\n"
+"PO-Revision-Date: 2007-07-08 16:06+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: drupal/drupal.module:15
 msgid "The Drupal module uses the XML-RPC network communication protocol to connect your site with a central server that maintains a directory of client sites."
-msgstr "Η μονάδα Drupal χρησιμοποιεί το δικτυακό πρωτόκολλο επικοινωνίας XML-RPC για να συνδέει τον ιστοχώρο σας με έναν κεντρικό διακομιστή που τηρεί έναν κατάλογο πελατών-ιστοχώρων."
+msgstr "Η μονάδα Drupal χρησιμοποιεί το δικτυακό πρωτόκολλο επικοινωνίας XML-RPC για να συνδέει τον ιστοτόπο σας με έναν κεντρικό διακομιστή που τηρεί έναν κατάλογο πελατών-ιστοτόπων."
 
 #: drupal/drupal.module:16
 msgid ""
@@ -33,9 +33,9 @@ msgstr ""
 "<p>Αν ενεργοποιήσετε τη μονάδα drupal θα μπορείτε:</p>\n"
 "<ul>\n"
 "  <li>να δηλώσετε τον ιστότοπό σας σε ένα διακομιστή, υποβάλλοντας (προαιρετικά) πληροφορίες για τις μονάδες και τις θεματικές παραλλαγές που έχετε εγκαταστήσει και συνοπτικά στατιστικά στοιχεία για τον αριθμό των καταχωρίσεων και των χρηστών σας, πληροφορίες που μπορούν να βοηθήσουν στην αξιολόγηση των μονάδων και των παραλλαγών του Drupal</li>\n"
-"  <li>να επιτρέψετε σε άλλους ιστοχώρους να εγγράφονται στο δικό σας</li>\n"
-"  <li>να επιτρέψετε στα μέλη άλλων ιστοχώρων που χρησιμοποιούν τη μονάδα drupal να εισέρχονται στο δικό σας χωρίς να εγγραφούν, χρησιμοποιώντας την κατανεμημένη πιστοποίησή τους</li>\n"
-"  <li>να επιτρέψετε στα μέλη σας να εισέρχονται σε οποιονδήποτε άλλο ιστοχώρο που χρησιμοποιεί τη μονάδα drupal, χρησιμοποιώντας ένα όνομα λογαριασμού που μοιάζει με διεύθυνση e-mail: <em>όνομα_λογαριασμού@παράδειγμα.com</em></li>\n"
+"  <li>να επιτρέψετε σε άλλους ιστοτόπους να εγγράφονται στο δικό σας</li>\n"
+"  <li>να επιτρέψετε στα μέλη άλλων ιστοτόπων που χρησιμοποιούν τη μονάδα drupal να εισέρχονται στο δικό σας χωρίς να εγγραφούν, χρησιμοποιώντας την κατανεμημένη πιστοποίησή τους</li>\n"
+"  <li>να επιτρέψετε στα μέλη σας να εισέρχονται σε οποιονδήποτε άλλο ιστοτόπο που χρησιμοποιεί τη μονάδα drupal, χρησιμοποιώντας ένα όνομα λογαριασμού που μοιάζει με διεύθυνση e-mail: <em>όνομα_λογαριασμού@παράδειγμα.com</em></li>\n"
 "</ul>\n"
 
 #: drupal/drupal.module:24
@@ -58,7 +58,7 @@ msgid ""
 "  <li>Save the page.</li>\n"
 "</ul>"
 msgstr ""
-"<p>Αν διατηρείτε έναν κατάλογο ιστοχώρων, μπορείτε να τους παρουσιάζετε σε μια σελίδα χρησιμοποιώντας τη συνάρτηση <code>drupal_client_page()</code>. Οδηγίες για ένα παράδειγμα:</p>\n"
+"<p>Αν διατηρείτε έναν κατάλογο ιστοτόπων, μπορείτε να τους παρουσιάζετε σε μια σελίδα χρησιμοποιώντας τη συνάρτηση <code>drupal_client_page()</code>. Οδηγίες για ένα παράδειγμα:</p>\n"
 "<ul>\n"
 "  <li>Ενεργοποιήστε τη μονάδα page. Επιλέξτε υποβολή ύλης &gt;&gt; στατική σελίδα.</li>\n"
 "  <li>Για μορφότυπο εισόδου επιλέξτε κώδικα PHP.</li>\n"
@@ -84,12 +84,12 @@ msgid ""
 "<p><a href=\"@Drupal\">Drupal</a> is the name of the software that powers %this-site. There are Drupal websites all over the world, and many of them share their registration databases so that users may freely log in to any Drupal site using a single <strong>Drupal ID</strong>.</p>\n"
 "<p>So please feel free to log in to your account here at %this-site with a username from another Drupal site. The format of a Drupal ID is similar to an e-mail address: <strong>username</strong>@<em>server</em>. An example of a valid Drupal ID is <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
 msgstr ""
-"<p><a href=\"@Drupal\">Drupal</a> είναι το όνομα του λογισμικού που κάνει το %this-site να λειτουργεί. Υπάρχουν ιστοχώροι βασισμένοι στο Drupal σε όλο τον κόσμο και πολλοί από αυτούς μοιράζονται τις βάσεις δεδομένων των χρηστών τους, ώστε αυτοί να μπορούν να εισέρχονται ελεύθερα σε οποιονδήποτε τόπο Drupal χρησιμοποιώντας μία και μόνο <strong>ταυτότητα Drupal</strong> (Drupal ID).</p>\n"
-"<p>Μπορείτε λοιπόν να εισέρχεστε στο λογαριασμό σας εδώ στο %this-site με ένα όνομα λογαριασμού από έναν άλλο ιστοχώρο βασισμένο στο Drupal. Η μορφή μιας ταυτότητας Drupal μοιάζει με διεύθυνση e-mail: <strong>όνομα_λογαριασμού</strong>@<em>διακομιστής</em>. Ένα παράδειγμα έγκυρης ταυτότητας Drupal είναι <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
+"<p><a href=\"@Drupal\">Drupal</a> είναι το όνομα του λογισμικού που κάνει το %this-site να λειτουργεί. Υπάρχουν ιστοτόποι βασισμένοι στο Drupal σε όλο τον κόσμο και πολλοί από αυτούς μοιράζονται τις βάσεις δεδομένων των χρηστών τους, ώστε αυτοί να μπορούν να εισέρχονται ελεύθερα σε οποιονδήποτε τόπο Drupal χρησιμοποιώντας μία και μόνο <strong>ταυτότητα Drupal</strong> (Drupal ID).</p>\n"
+"<p>Μπορείτε λοιπόν να εισέρχεστε στο λογαριασμό σας εδώ στο %this-site με ένα όνομα λογαριασμού από έναν άλλο ιστοτόπο βασισμένο στο Drupal. Η μορφή μιας ταυτότητας Drupal μοιάζει με διεύθυνση e-mail: <strong>όνομα_λογαριασμού</strong>@<em>διακομιστής</em>. Ένα παράδειγμα έγκυρης ταυτότητας Drupal είναι <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
 
 #: drupal/drupal.module:52
 msgid "You must set the name of your site on the <a href=\"@url\">administer &raquo; settings &raquo; site information</a> page."
-msgstr "Πρέπει να ορίσετε το όνομα του ιστοχώρου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
+msgstr "Πρέπει να ορίσετε το όνομα του ιστοτόπου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
 
 #: drupal/drupal.module:55
 msgid "You must set an e-mail address for your site on the <a href=\"@url\">site information settings page</a>."
@@ -97,11 +97,11 @@ msgstr "Πρέπει να ορίσετε μια διεύθυνση e-mail για
 
 #: drupal/drupal.module:58
 msgid "You must set your site slogan on the <a href=\"@url\">site information settings page</a>."
-msgstr "Πρέπει να ορίσετε το σύνθημα του ιστοχώρου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
+msgstr "Πρέπει να ορίσετε το σύνθημα του ιστοτόπου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
 
 #: drupal/drupal.module:61
 msgid "You must set your site mission on the <a href=\"@url\">site information settings page</a>."
-msgstr "Πρέπει να ορίσετε το σκοπό του ιστοχώρου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
+msgstr "Πρέπει να ορίσετε το σκοπό του ιστοτόπου σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
 
 #: drupal/drupal.module:68
 msgid "Register with a Drupal server"
@@ -125,7 +125,7 @@ msgstr "Αποστολή πληροφοριών του συστήματος"
 
 #: drupal/drupal.module:86
 msgid "If enabled, your site will send information on its installed components (modules, themes, and theme engines). This information can help in compiling statistics on usage of Drupal projects."
-msgstr "Αν το επιλέξετε, ο ιστοχώρος σας θα στέλνει πληροφορίες για τα στοιχεία που έχετε εγκαταστήσει (μονάδες, θεματικές παραλλαγές και μηχανές παραλλαγών). Οι πληροφορίες αυτές μπορούν να βοηθήσουν στη συγκέντρωση στατιστικών στοιχείων για τη χρήση των έργων του Drupal."
+msgstr "Αν το επιλέξετε, ο ιστοτόπος σας θα στέλνει πληροφορίες για τα στοιχεία που έχετε εγκαταστήσει (μονάδες, θεματικές παραλλαγές και μηχανές παραλλαγών). Οι πληροφορίες αυτές μπορούν να βοηθήσουν στη συγκέντρωση στατιστικών στοιχείων για τη χρήση των έργων του Drupal."
 
 #: drupal/drupal.module:91
 msgid "Send statistics"
@@ -157,7 +157,7 @@ msgstr "Προεπιλεγμένος διακομιστής πιστοποίησ
 
 #: drupal/drupal.module:125
 msgid "The URL of the default Drupal authentication server. Omit the %http prefix (e.g. drupal.org, www.example.com, etc.). If the authentication service has been enabled, users registered at the server specified here, will not need to append the server to their user name when logging into your site. This enables users to provide a briefer, more familiar username in the login form."
-msgstr "Το URL του προεπιλεγμένου διακομιστή αναγνώρισης. Χωρίς το %http (π.χ drupal.org, www.drupal.org κτλ). Αν η υπηρεσία αναγνώρισης είναι ενεργή, οι εγγεγραμμένοι χρήστες στον ορισμένο διακομιστή, δεν θα χρειάζονται να ορίζουν στον διακομιστή το όνομα χρήστη για να εισέλθουν στον ιστοχώρο. Αυτό προσφέρει ένα συντομότερο, προσφιλέστερο όνομα χρήστη στην φόρμα εισόδου."
+msgstr "Το URL του προεπιλεγμένου διακομιστή αναγνώρισης. Χωρίς το %http (π.χ drupal.org, www.drupal.org κτλ). Αν η υπηρεσία αναγνώρισης είναι ενεργή, οι εγγεγραμμένοι χρήστες στον ορισμένο διακομιστή, δεν θα χρειάζονται να ορίζουν στον διακομιστή το όνομα χρήστη για να εισέλθουν στον ιστοτόπο. Αυτό προσφέρει ένα συντομότερο, προσφιλέστερο όνομα χρήστη στην φόρμα εισόδου."
 
 #: drupal/drupal.module:130
 msgid "Only allow authentication from default server"
@@ -189,11 +189,11 @@ msgstr "Σφάλμα %code : %message"
 
 #: drupal/drupal.module:343
 msgid "Sites registry"
-msgstr "Εγγραφή ιστοχώρου"
+msgstr "Εγγραφή ιστοτόπου"
 
 #: drupal/drupal.module:344
 msgid "Register with another Drupal site (drupal.org by default) for statistics sharing, or set up your server to be a central server for registrations."
-msgstr "Εγγραφή σε άλλο ιστοχώρο Drupal (προεπιλογή drupal.org) για διανομή στατιστικών, ή όρισε τον διακομιστή σου ως κεντρικό διακομιστή για εγγραφές."
+msgstr "Εγγραφή σε άλλο ιστοτόπο Drupal (προεπιλογή drupal.org) για διανομή στατιστικών, ή όρισε τον διακομιστή σου ως κεντρικό διακομιστή για εγγραφές."
 
 #: drupal/drupal.module:349
 msgid "Distributed authentication"
@@ -201,7 +201,7 @@ msgstr "Κατανεμημένη πιστοποίηση"
 
 #: drupal/drupal.module:350
 msgid "Allow your site to accept logins from other Drupal sites such as drupal.org."
-msgstr "Επέτρεψε στον ιστοχώρο σου να δέχεται εγγραφές από άλλους ιστοχώρους Drupal, όπως το drupal.org."
+msgstr "Επέτρεψε στον ιστοτόπο σου να δέχεται εγγραφές από άλλους ιστοτόπους Drupal, όπως το drupal.org."
 
 #: drupal/drupal.module:197
 msgid "client ping"

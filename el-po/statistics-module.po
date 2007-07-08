@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: statistics-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:43+0300\n"
+"PO-Revision-Date: 2007-07-08 16:11+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: statistics/statistics.module:15
 msgid "The statistics module keeps track of numerous statistics of site usage. It counts how many times, and from where each of your posts is viewed. The statistics module can be used to learn many useful things about how users are interacting with each other and with your site."
-msgstr "Η μονάδα statistics παρακολουθεί διάφορα στατιστικά στοιχεία της χρήσης του ιστοχώρου. Καταμετρά πόσες φορές και από πού διαβάζεται κάθε καταχώρισή σας. Μπορείτε να χρησιμοποιήσετε τη μονάδα statistics για να μάθετε πολλά χρήσιμα στοιχεία για το πώς οι χρήστες αλληλεπιδρούν μεταξύ τους και με τον ιστοχώρο σας."
+msgstr "Η μονάδα statistics παρακολουθεί διάφορα στατιστικά στοιχεία της χρήσης του ιστοτόπου. Καταμετρά πόσες φορές και από πού διαβάζεται κάθε καταχώρισή σας. Μπορείτε να χρησιμοποιήσετε τη μονάδα statistics για να μάθετε πολλά χρήσιμα στοιχεία για το πώς οι χρήστες αλληλεπιδρούν μεταξύ τους και με τον ιστοτόπο σας."
 
 #: statistics/statistics.module:16
 msgid ""
@@ -38,10 +38,10 @@ msgid ""
 msgstr ""
 "<p>Δυνατότητες της μονάδας statistics</p>\n"
 "<ul>\n"
-"<li>Ημερολόγιο επισκέψεων: Τηρούνται στατιστικά στοιχεία για το πόσες φορές ο ιστοχώρος σας και το συγκεκριμένο περιεχόμενο σας έχει προσπελασθεί.</li>\n"
+"<li>Ημερολόγιο επισκέψεων: Τηρούνται στατιστικά στοιχεία για το πόσες φορές ο ιστοτόπος σας και το συγκεκριμένο περιεχόμενο σας έχει προσπελασθεί.</li>\n"
 "<li>Παραπέμπτες: Από πού ήρθαν οι επισκέπτες (URL παραπομπής).</li>\n"
 "<li>Κορυφαίες σελίδες: Τι διαβάζεται περισσότερο, ποια ύλη είναι η πιο δημοφιλής στον ιστότοπό σας.</li>\n"
-"<li>Κορυφαίοι χρήστες: Ποιοι είναι οι πιο ενεργοί χρήστες του ιστοχώρου σας.</li>\n"
+"<li>Κορυφαίοι χρήστες: Ποιοι είναι οι πιο ενεργοί χρήστες του ιστοτόπου σας.</li>\n"
 "<li>Πρόσφατες επισκέψεις: Πληροφορίες για την πιο πρόσφατη δραστηριότητα στον ιστότοπό σας.</li>\n"
 "<li>Επισκέψεις ανά κόμβο: Πόσες επισκέψεις έχουν γίνει σε έναν κόμβο. Η ένδειξη εμφανίζεται στην περιοχή παραπομπών του κόμβου, δίπλα στον <em>αριθμό σχολίων</em>.</li>\n"
 "<li>Μπλοκ για τη δημοφιλή ύλη: Δημιουργείται ένα μπλοκ στο οποίο μπορεί να εμφανίζεται η κορυφαία σε επισκέψεις ύλη της ημέρας, η κορυφαία σε επισκέψεις ύλη από πάντα, και η τελευταία ύλη που διαβάστηκε.</li>\n"
@@ -69,7 +69,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: statistics/statistics.module:37
 msgid "Settings for the statistical information that Drupal will keep about the site. See <a href=\"@statistics\">site statistics</a> for the actual information."
-msgstr "Ρυθμίσεις για τα στατιστικά στοιχεία που θα τηρεί το Drupal για τον ιστοχώρο σας. Κοιτάξτε στη σελίδα <a href=\"@statistics\">των στατιστικών στοιχείων</a> για τα ίδια τα στοιχεία."
+msgstr "Ρυθμίσεις για τα στατιστικά στοιχεία που θα τηρεί το Drupal για τον ιστοτόπο σας. Κοιτάξτε στη σελίδα <a href=\"@statistics\">των στατιστικών στοιχείων</a> για τα ίδια τα στοιχεία."
 
 #: statistics/statistics.module:39
 msgid "This page shows you the most recent hits."
@@ -77,11 +77,11 @@ msgstr "Αυτή η σελίδα σας δείχνει τις πιο πρόσφ�
 
 #: statistics/statistics.module:41
 msgid "This page shows you all external referrers. These are links pointing to your web site from outside your web site."
-msgstr "Σε αυτή την σελίδα εμφανίζονται όλες οι εξωτερικές αναφορές. Έιναι σύνδεσμοι από ιστοσελίδες στο διαδίκτυο που \"δείχνουν\" στον ιστοχώρο σας."
+msgstr "Σε αυτή την σελίδα εμφανίζονται όλες οι εξωτερικές αναφορές. Έιναι σύνδεσμοι από ιστοσελίδες στο διαδίκτυο που \"δείχνουν\" στον ιστοτόπο σας."
 
 #: statistics/statistics.module:43
 msgid "When you ban a visitor, you prevent the visitor's IP address from accessing your site. Unlike blocking a user, banning a visitor works even for anonymous users. The most common use for this is to block bots/web crawlers that are consuming too many resources."
-msgstr "Όταν απαγορεύετε έναν επισκέπτη, απαγορεύετε στη διεύθυνση IP του την πρόσβαση στον ιστοχώρο σας. Αντίθετα με τον αποκλεισμό ενός λογαριασμού χρήστη, η απαγόρευση ενός επισκέπτη λειτουργεί ακόμα και για τους ανώνυμους. Η πιο συνηθισμένη χρήση αυτής της δυνατότητας είναι η απαγόρευση των bot ή των web crawlers που καταναλώνουν πάρα πολλούς πόρους."
+msgstr "Όταν απαγορεύετε έναν επισκέπτη, απαγορεύετε στη διεύθυνση IP του την πρόσβαση στον ιστοτόπο σας. Αντίθετα με τον αποκλεισμό ενός λογαριασμού χρήστη, η απαγόρευση ενός επισκέπτη λειτουργεί ακόμα και για τους ανώνυμους. Η πιο συνηθισμένη χρήση αυτής της δυνατότητας είναι η απαγόρευση των bot ή των web crawlers που καταναλώνουν πάρα πολλούς πόρους."
 
 #: statistics/statistics.module:109
 msgid "Recent hits"
@@ -125,7 +125,7 @@ msgstr "Εμφάνιση των ρυθμίσεων καταγραφής"
 
 #: statistics/statistics.module:143
 msgid "Control details about what and how your site logs."
-msgstr "Διαχείριση των λεπτομερειών του αρχείου καταγραφής του ιστοχώρου σας."
+msgstr "Διαχείριση των λεπτομερειών του αρχείου καταγραφής του ιστοτόπου σας."
 
 #: statistics/statistics.module:154
 msgid "Track page visits"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: profile-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:41+0300\n"
+"PO-Revision-Date: 2007-07-08 16:10+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: profile/profile.module:35
 msgid "The profile module allows you to define custom fields (such as country, real name, age, ...) in the user profile. This permits users of a site to share more information about themselves, and can help community-based sites to organize users around profile fields."
-msgstr "Η μονάδα profile σας επιτρέπει να ορίζετε προσαρμοσμένα πεδία (όπως χώρα, πραγματικό όνομα, ηλικία, ...) για το προφίλ χρήστη. Αυτό επιτρέπει στους χρήστες ενός ιστοχώρου να μοιράζονται περισσότερες πληροφορίες για τον εαυτό τους, και μπορεί να βοηθήσει τους ιστοχώρους-κοινότητες να οργανώνουν τους χρήστες τους με βάση κάποια πεδία του προφίλ."
+msgstr "Η μονάδα profile σας επιτρέπει να ορίζετε προσαρμοσμένα πεδία (όπως χώρα, πραγματικό όνομα, ηλικία, ...) για το προφίλ χρήστη. Αυτό επιτρέπει στους χρήστες ενός ιστοτόπου να μοιράζονται περισσότερες πληροφορίες για τον εαυτό τους, και μπορεί να βοηθήσει τους ιστοτόπους-κοινότητες να οργανώνουν τους χρήστες τους με βάση κάποια πεδία του προφίλ."
 
 #: profile/profile.module:36
 msgid ""

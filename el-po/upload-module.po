@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:45+0300\n"
+"PO-Revision-Date: 2007-07-08 16:13+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: upload/upload.module:16
 msgid "The upload module allows users to upload files to the site. The ability to upload files to a site is important for members of a community who want to share work. It is also useful to administrators who want to keep uploaded files connected to a node or page."
-msgstr "Η μονάδα upload επιτρέπει στους χρήστες να ανεβάζουν αρχεία στον ιστοχώρο.  Η δυνατότητα ανεβάσματος αρχείων σε έναν ιστοχώρο είναι σημαντική για τα μέλη μιας κοινότητας τα οποία θέλουν να μοιράζονται δουλειά. Είναι επίσης χρήσιμη για τους διαχειριστές που θέλουν να διατηρούν αρχεία που έχουν ανεβάσει συνδεδεμένα με έναν κόμβο ή σελίδα."
+msgstr "Η μονάδα upload επιτρέπει στους χρήστες να ανεβάζουν αρχεία στον ιστοτόπο. Η δυνατότητα ανεβάσματος αρχείων σε έναν ιστοτόπο είναι σημαντική για τα μέλη μιας κοινότητας τα οποία θέλουν να μοιράζονται δουλειά. Είναι επίσης χρήσιμη για τους διαχειριστές που θέλουν να διατηρούν αρχεία που έχουν ανεβάσει συνδεδεμένα με έναν κόμβο ή σελίδα."
 
 #: upload/upload.module:17
 msgid "Users with the upload files permission can upload attachments. You can choose which post types can take attachments on the content types settings page. Each user role can be customized for the file size of uploads, and the dimension of image files."
@@ -54,7 +54,7 @@ msgstr "Οι ρυθμίσεις του PHP σας ορίζουν ως μέγισ
 
 #: upload/upload.module:121
 msgid "Depending on your sever environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
-msgstr "Ανάλογα με τον διακομιστή σας αυτές οι ρυθμίσεις μπορούν να αλλάξουν στο php.ini του συστήματος, σε ένα php.ini στον root φάκελο του Drupal, στο settings.php του ιστοχώρου σας ή στο αρχείο .htaccess του φάκελου root."
+msgstr "Ανάλογα με τον διακομιστή σας αυτές οι ρυθμίσεις μπορούν να αλλάξουν στο php.ini του συστήματος, σε ένα php.ini στον root φάκελο του Drupal, στο settings.php του ιστοτόπου σας ή στο αρχείο .htaccess του φάκελου root."
 
 #: upload/upload.module:124;127;142;145
 msgid "The %role file size limit must be a number and greater than zero."
@@ -118,7 +118,7 @@ msgstr "Το προεπιλεγμένο συνολικό μέγεθος αρχε
 
 #: upload/upload.module:209
 msgid "The default maximum size of all files a user can have on the site."
-msgstr "Το προεπιλεγμένο ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει ανεβασμένα στον ιστοχώρο."
+msgstr "Το προεπιλεγμένο ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει ανεβασμένα στον ιστοτόπο."
 
 #: upload/upload.module:213
 msgid "Your PHP settings limit the maximum file size per upload to %size."
@@ -150,7 +150,7 @@ msgstr "Συνολικό μέγεθος αρχείων ανά χρήστη"
 
 #: upload/upload.module:246
 msgid "The maximum size of all files a user can have on the site (in megabytes)."
-msgstr "Το ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει ανεβασμένα στον ιστοχώρο (σε megabyte)."
+msgstr "Το ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει ανεβασμένα στον ιστοτόπο (σε megabyte)."
 
 #: upload/upload.module:345
 msgid "Attachments"
@@ -174,7 +174,7 @@ msgstr "Επισκεφτείτε την σελίδα <a href=\"@admin-file-syste
 
 #: upload/upload.module:387
 msgid "Please contact the site administrator."
-msgstr "Απευθυνθείτε στο διαχειριστή του ιστοχώρου."
+msgstr "Απευθυνθείτε στο διαχειριστή του ιστοτόπου."
 
 #: upload/upload.module:446
 msgid "The selected file %name can not be attached to this post, because it is only possible to attach files with the following extensions: %files-allowed."
@@ -202,7 +202,7 @@ msgstr "Μέγεθος"
 
 #: upload/upload.module:664
 msgid "Your filename has been renamed to conform to site policy."
-msgstr "Το όνομα του αρχείου άλλαξε ώστε να είναι σύμφωνο με την πρακτική του ιστοχώρου."
+msgstr "Το όνομα του αρχείου άλλαξε ώστε να είναι σύμφωνο με την πρακτική του ιστοτόπου."
 
 #: upload/upload.module:800
 msgid "Attach new file"

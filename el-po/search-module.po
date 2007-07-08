@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: search-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:41+0300\n"
+"PO-Revision-Date: 2007-07-08 16:10+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Η μονάδα search προσθέτει τη δυνατότητα αν
 
 #: search/search.module:100
 msgid "The search engine works by maintaining an index of the words in your site's content. It indexes the posts and users. You can adjust the settings to tweak the indexing behaviour. Note that the search requires cron to be set up correctly. The index percentage sets the maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοχώρου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες.  Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες.  Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
 
 #: search/search.module:101
 msgid "For more information please read the configuration and customization handbook <a href=\"@search\">Search page</a>."
@@ -33,7 +33,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: search/search.module:104
 msgid "The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοχώρου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφιρά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφιρά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron."
 
 #: search/search.module:106
 msgid ""
@@ -75,7 +75,7 @@ msgstr "Προβολή δημοφιλών φράσεων αναζήτησης."
 
 #: search/search.module:188;218;242
 msgid "Re-index site"
-msgstr "Επανευρετηρίαση του ιστοχώρου"
+msgstr "Επανευρετηρίαση του ιστοτόπου"
 
 #: search/search.module:194;251
 msgid "The index will be rebuilt."
@@ -83,7 +83,7 @@ msgstr "Το ευρετήριο θα ξανακατασκευαστεί."
 
 #: search/search.module:215
 msgid "%percentage of the site has been indexed."
-msgstr "%percentage του ιστοχώρου έχει ευρετηριαστεί."
+msgstr "%percentage του ιστοτόπου έχει ευρετηριαστεί."
 
 #: search/search.module:216
 msgid "Indexing status"
@@ -107,7 +107,7 @@ msgstr "Ρυθμίσεις ευρετηρίασης"
 
 #: search/search.module:227
 msgid "<p>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</p><p>The default settings should be appropriate for the majority of sites.</p>"
-msgstr "<p>Η αλλαγή των παρακάτω ρυθμίσεων θα κάνει το ευρετήριο του ιστοχώρου να ξανακατασκευαστεί. Το ευρετήριο της αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δεν θα ευρετηριάζεται, μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα.</p><p>Οι προεπιλεγμένες ρυθμίσεις είναι μάλλον κατάλληλες για τους περισσότερους ιστοτόπους.</p>"
+msgstr "<p>Η αλλαγή των παρακάτω ρυθμίσεων θα κάνει το ευρετήριο του ιστοτόπου να ξανακατασκευαστεί. Το ευρετήριο της αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δεν θα ευρετηριάζεται, μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα.</p><p>Οι προεπιλεγμένες ρυθμίσεις είναι μάλλον κατάλληλες για τους περισσότερους ιστοτόπους.</p>"
 
 #: search/search.module:228
 msgid "Minimum word length to index"

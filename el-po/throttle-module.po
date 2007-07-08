@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: throttle-module\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"PO-Revision-Date: 2007-07-08 16:13+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,15 +18,15 @@ msgstr ""
 
 #: throttle/throttle.module:15
 msgid "Control how your site cuts out content during heavy load."
-msgstr "Ελέγξτε πώς ο ιστοχώρος σας αποκόβει λειτουργίες σε βαρύ φόρτο εργασίας."
+msgstr "Ελέγξτε πώς ο ιστοτόπος σας αποκόβει λειτουργίες σε βαρύ φόρτο εργασίας."
 
 #: throttle/throttle.module:127
 msgid "The throttle module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic. If the site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed. This mechanism is utilized by other modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality. For example, in the site theme, you might choose to disable pictures when the site is too busy (reducing bandwidth), or in modules, you might choose to disable some complicated logic (reducing CPU utilization)."
-msgstr "Η μονάδα throttle παρέχει ένα μηχανισμό απόπνιξης για τον έλεγχο της συμφόρησης που ανιχνεύει αυτόματα τις αιχμές στην εισερχόμενη κυκλοφορία. Αν κάποιος δημοφιλής ιστοχώρος κάνει μια παραπομπή στο δικό σας ή αν γίνετε στόχος επίθεσης άρνησης εξυπηρέτησης \"Denial of Service\" (DoS), ο διακομιστής σας μπορεί να καταρρεύσει. Ο μηχανισμός αυτός χρησιμοποιείται από άλλες μονάδες για να βελτιστοποιεί αυτόματα την απόδοσή τους με την προσωρινή απενεργοποίηση λειτουργιών που κάνουν έντονη χρήση της CPU. Για παράδειγμα, στη θεματική παραλλαγή του ιστοχώρου, θα μπορούσατε να επιλέξετε να απενεργοποιούνται οι εικόνες όταν ο ιστοχώρος είναι πολύ απασχολημένος (ώστε να μειωθεί το ζωνικό εύρος) ή, στις μονάδες, θα μπορούσατε να επιλέξετε να απενεργοποιείται κάποια σύνθετη επεξεργασία (ώστε να μειωθεί η χρήση της CPU)."
+msgstr "Η μονάδα throttle παρέχει ένα μηχανισμό απόπνιξης για τον έλεγχο της συμφόρησης που ανιχνεύει αυτόματα τις αιχμές στην εισερχόμενη κυκλοφορία. Αν κάποιος δημοφιλής ιστοτόπος κάνει μια παραπομπή στο δικό σας ή αν γίνετε στόχος επίθεσης άρνησης εξυπηρέτησης \"Denial of Service\" (DoS), ο διακομιστής σας μπορεί να καταρρεύσει. Ο μηχανισμός αυτός χρησιμοποιείται από άλλες μονάδες για να βελτιστοποιεί αυτόματα την απόδοσή τους με την προσωρινή απενεργοποίηση λειτουργιών που κάνουν έντονη χρήση της CPU. Για παράδειγμα, στη θεματική παραλλαγή του ιστοτόπου, θα μπορούσατε να επιλέξετε να απενεργοποιούνται οι εικόνες όταν ο ιστοτόπος είναι πολύ απασχολημένος (ώστε να μειωθεί το ζωνικό εύρος) ή, στις μονάδες, θα μπορούσατε να επιλέξετε να απενεργοποιείται κάποια σύνθετη επεξεργασία (ώστε να μειωθεί η χρήση της CPU)."
 
 #: throttle/throttle.module:128
 msgid "The congestion control throttle can be automatically enabled when the number of anonymous or authenticated users currently visiting the site exceeds the specified threshold. "
-msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των ανώνυμων ή πιστοποιημένων χρηστών που επισκέπτονται τον ιστοχώρο ξεπεράσει το καθορισμένο κατώφλι."
+msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των ανώνυμων ή πιστοποιημένων χρηστών που επισκέπτονται τον ιστοτόπο ξεπεράσει το καθορισμένο κατώφλι."
 
 #: throttle/throttle.module:129
 msgid "For more information please read the configuration and customization handbook <a href=\"@throttle\">Throttle page</a>."
@@ -34,7 +34,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: throttle/throttle.module:132
 msgid "If your site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed. This module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic. This mechanism is utilized by other Drupal modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality."
-msgstr "Αν κάποιος δημοφιλής ιστοχώρος κάνει παραπομπή στο δικό σας ή αν γίνετε στόχος επίθεσης άρνησης εξυπηρέτησης \"Denial of Service\", (DoS), ο διακομιστής σας μπορεί να καταρρεύσει. Η μονάδα αυτή παρέχει ένα μηχανισμό απόπνιξης για έλεγχο της συμφόρησης που ανιχνεύει αυτόματα τις αιχμές στην εισερχόμενη κυκλοφορία. Αυτός ο μηχανισμός χρησιμοποιείται από άλλες μονάδες του Drupal για να βελτιστοποιεί αυτόματα την απόδοσή τους με την προσωρινή απενεργοποίηση λειτουργιών που κάνουν έντονη χρήση της CPU."
+msgstr "Αν κάποιος δημοφιλής ιστοτόπος κάνει παραπομπή στο δικό σας ή αν γίνετε στόχος επίθεσης άρνησης εξυπηρέτησης \"Denial of Service\", (DoS), ο διακομιστής σας μπορεί να καταρρεύσει. Η μονάδα αυτή παρέχει ένα μηχανισμό απόπνιξης για έλεγχο της συμφόρησης που ανιχνεύει αυτόματα τις αιχμές στην εισερχόμενη κυκλοφορία. Αυτός ο μηχανισμός χρησιμοποιείται από άλλες μονάδες του Drupal για να βελτιστοποιεί αυτόματα την απόδοσή τους με την προσωρινή απενεργοποίηση λειτουργιών που κάνουν έντονη χρήση της CPU."
 
 #: throttle/throttle.module:141
 msgid "Auto-throttle on anonymous users"
@@ -58,7 +58,7 @@ msgstr "Περιορισμός πιθανότητας αυτόματης από�
 
 #: throttle/throttle.module:160
 msgid "The auto-throttle probability limiter is an efficiency mechanism to statistically reduce the overhead of the auto-throttle. The limiter is expressed as a percentage of page views, so for example if set to the default of 10% we only perform the extra database queries to update the throttle status 1 out of every 10 page views. The busier your site, the lower you should set the limiter value."
-msgstr "Ο περιορισμός πιθανότητας αυτόματης απόπνιξης είναι ένας μηχανισμός αποδοτικότητας για να μειώνεται στατιστικά η επιβάρυνση της αυτόματης απόπνιξης. Ο περιορισμός εκφράζεται ως ποσοστό των προβολών σελίδων, έτσι για παράδειγμα, αν τον θέσετε στην προεπιλεγμένη τιμή 10%, τα πρόσθετα ερωτήματα στη βάση δεδομένων για την ενημέρωση της κατάστασης της απόπνιξης θα εκτελούνται μόνο κάθε 1 στις 10 προβολές σελίδων. Όσο πιο απασχολημένος είναι ο ιστοχώρος σας τόσο χαμηλότερη πρέπει να είναι η τιμή του περιορισμού."
+msgstr "Ο περιορισμός πιθανότητας αυτόματης απόπνιξης είναι ένας μηχανισμός αποδοτικότητας για να μειώνεται στατιστικά η επιβάρυνση της αυτόματης απόπνιξης. Ο περιορισμός εκφράζεται ως ποσοστό των προβολών σελίδων, έτσι για παράδειγμα, αν τον θέσετε στην προεπιλεγμένη τιμή 10%, τα πρόσθετα ερωτήματα στη βάση δεδομένων για την ενημέρωση της κατάστασης της απόπνιξης θα εκτελούνται μόνο κάθε 1 στις 10 προβολές σελίδων. Όσο πιο απασχολημένος είναι ο ιστοτόπος σας τόσο χαμηλότερη πρέπει να είναι η τιμή του περιορισμού."
 
 #: throttle/throttle.module:168;171
 msgid "%value is not a valid auto-throttle setting. Please enter a positive numeric value."
@@ -71,18 +71,18 @@ msgstr "απόπνιξη"
 #: throttle/throttle.module:93
 msgid "1 user accessing site; throttle enabled."
 msgid_plural "@count users accessing site; throttle enabled."
-msgstr[0] "1 χρήστης στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε."
-msgstr[1] "@count χρήστες στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε."
+msgstr[0] "1 χρήστης στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε."
+msgstr[1] "@count χρήστες στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε."
 
 #: throttle/throttle.module:101
 msgid "1 guest accessing site; throttle enabled."
 msgid_plural "@count guests accessing site; throttle enabled."
-msgstr[0] "1 επισκέπτης στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε."
-msgstr[1] "@count επισκέπτες στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε."
+msgstr[0] "1 επισκέπτης στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε."
+msgstr[1] "@count επισκέπτες στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε."
 
 #: throttle/throttle.module:111
 msgid "1 guest accessing site; throttle disabled"
 msgid_plural "@count guests accessing site; throttle disabled"
-msgstr[0] "1 επισκέπτης στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε"
-msgstr[1] "@count επισκέπτες στον ιστοχώρο. Η απόπνιξη ενεργοποιήθηκε"
+msgstr[0] "1 επισκέπτης στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε"
+msgstr[1] "@count επισκέπτες στον ιστοτόπο. Η απόπνιξη ενεργοποιήθηκε"
 

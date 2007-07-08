@@ -1,21 +1,24 @@
+# Greek Drupal translation of system-install.po to Greek
 # Greek translation of Drupal 5.1 (system-install)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: system-install\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-06-08 23:33+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-08 16:11+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: system/system.install:104
 msgid "You can <a href=\"@cron\">run cron manually</a>."
-msgstr "Μπορείτε να συγχρονίσετε τον ιστοχώρο <a href=\"@cron\">χειροκίνητα (εκτέλεση cron)</a>."
+msgstr "Μπορείτε να συγχρονίσετε τον ιστοτόπο <a href=\"@cron\">χειροκίνητα (εκτέλεση cron)</a>."
 
 #: system/system.install:3245
 msgid "If you want to add a static page, like a contact page or an about page, use a page."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: content_types-inc\n"
 "POT-Creation-Date: 2007-05-28 02:22+0300\n"
-"PO-Revision-Date: 2007-07-08 15:35+0300\n"
+"PO-Revision-Date: 2007-07-08 16:04+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "Ελάχιστος αριθμός λέξεων"
 
 #: node/content_types.inc:144
 msgid "The minimum number of words for the body field to be considered valid for this content type. This can be useful to rule out submissions that do not meet the site's standards, such as short test posts."
-msgstr "Ο ελάχιστος αριθμός λέξεων για το πεδίο κειμένου έτσι ώστε να ληφθεί ως έγκυρο για το συγκεκριμένο τύπο ύλης. Μπορεί να φανεί χρήσιμο ώστε να αποκλείσει δημοσιεύματα που δεν ανταποκρίνονται στα πρότυπα του ιστοχώρου, όπως πολύ σύντομα δημοσιεύματα."
+msgstr "Ο ελάχιστος αριθμός λέξεων για το πεδίο κειμένου έτσι ώστε να ληφθεί ως έγκυρο για το συγκεκριμένο τύπο ύλης. Μπορεί να φανεί χρήσιμο ώστε να αποκλείσει δημοσιεύματα που δεν ανταποκρίνονται στα πρότυπα του ιστοτόπου, όπως πολύ σύντομα δημοσιεύματα."
 
 #: node/content_types.inc:148
 msgid "Explanation or submission guidelines"
@@ -142,6 +142,6 @@ msgstr "Διαγραφή τύπου ύλης %name."
 #: node/content_types.inc:391
 msgid "<strong>Warning:</strong> there is currently @count %type post on your site. It may not be able to be displayed or edited correctly, once you have removed this content type."
 msgid_plural "<strong>Warning:</strong> there are currently @count %type posts on your site. They may not be able to be displayed or edited correctly, once you have removed this content type."
-msgstr[0] "<strong>Προειδοποίηση:</strong> υπάρχει ήδη @count %type δημοσίευμα στον ιστοχώρο σας. Μπορεί να μην είναι σε θέση να εμφανιστεί ή να τροποποιηθεί σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
-msgstr[1] "<strong>Προειδοποίηση:</strong> υπάρχουν ήδη @count %type δημοσιεύματα στον ιστοχώρο σας. Μπορεί να μην είναι σε θέση να εμφανιστούν ή να τροποποιηθούν σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+msgstr[0] "<strong>Προειδοποίηση:</strong> υπάρχει ήδη @count %type δημοσίευμα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να εμφανιστεί ή να τροποποιηθεί σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+msgstr[1] "<strong>Προειδοποίηση:</strong> υπάρχουν ήδη @count %type δημοσιεύματα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να εμφανιστούν ή να τροποποιηθούν σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
 
