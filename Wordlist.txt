@@ -11,6 +11,7 @@ blog = ιστολόγιο
 box = πλαίσιο
 	--= C =--
 categorize = κατάταξη σε κατηγορία
+checkbox = πλαίσιο/κουτί επιλογής
 collapsed = συμπτυγμένος
 configuration = διευθέτηση, ρύθμιση
 contact = επικοινωνία
@@ -20,6 +21,7 @@ customization = προσαρμογή
 	--= D =--
 default = προεπιλεγμένο
 directory = κατάλογος
+download = λήψη, λαμβάνω
 	--= E =--
 e-mail = ηλεκτρονικό ταχυδρομείο, e-mail
 edit = τροποποίηση
@@ -61,7 +63,7 @@ region = περιοχή
 server = διακομιστής
 settings = ρυθμίσεις
 sidebar = πλευρική/παράπλευρη μπάρα
-site = ιστότοπος
+site = ιστοτόπος
 story = ιστόρημα
 	--= T =--
 tab = καρτέλα
@@ -73,6 +75,7 @@ throttle = απόπνιξη
 topic = θέμα
 	--= U =--
 underscore = χαρακτήρας υπογράμμισης
+upload = αποστολή, αποστέλλω
 	--= V =--
 vocabulary = λεξιλόγιο
 	--= W =--
