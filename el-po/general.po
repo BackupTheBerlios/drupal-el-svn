@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:46+0300\n"
+"PO-Revision-Date: 2007-07-11 23:58+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,49 +22,48 @@ msgstr ""
 
 #: includes/common.inc:326 modules/system/system.module:871
 msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
-msgstr ""
+msgstr "Το @site είναι αυτή τη στιγμή κλειστό για συντήρηση. Θα επανέλθουμε σύντομα. Ευχαριστούμε για την κατανόησή σας."
 
 #: includes/common.inc:1000 modules/upload/upload.module:201;210
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: includes/common.inc:555 includes/image.inc:61 includes/unicode.inc:151;184
 #: modules/system/system.install:2340;2570
 msgid "php"
-msgstr ""
+msgstr "php"
 
 #: includes/database.mysql.inc:24 includes/database.mysqli.inc:27
 msgid "MySQL database"
-msgstr ""
+msgstr "Βάση δεδομένων MySQL"
 
 #: includes/database.mysql.inc:30 includes/database.mysqli.inc:33
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
-msgstr ""
+msgstr "Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον MySQL %version."
 
 #: includes/file.inc:97 modules/system/system.install:116
 msgid "The directory %directory does not exist."
-msgstr ""
+msgstr "Ο κατάλογος αρχείων %directory δεν υπάρχει."
 
 #: includes/file.inc:124 modules/user/user.module:1225;1472;2193
 msgid "security"
-msgstr ""
+msgstr "ασφάλεια"
 
 #: includes/form.inc:554;560 modules/filter/filter.module:848
 msgid "An illegal choice has been detected. Please contact the site administrator."
-msgstr ""
+msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
 
 #: includes/form.inc:561 modules/filter/filter.module:849
 msgid "Illegal choice %choice in %name element."
-msgstr ""
+msgstr "Μη επιτρεπτή επιλογή %choice στο στοιχείο %name."
 
 #: includes/form.inc:1111 modules/user/user.module:488;908
 msgid "Password"
-msgstr ""
+msgstr "Συνθηματικό"
 
 #: includes/form.inc:555;561 modules/filter/filter.module:849
-#, fuzzy
 msgid "form"
-msgstr "Φόρουμ"
+msgstr "φόρμα"
 
 #: includes/locale.inc:77 modules/filter/filter.module:463;553
 #: modules/system/system.module:1076;1169;1201;1362
@@ -114,16 +113,15 @@ msgstr "Λειτουργίες"
 
 #: includes/locale.inc:141 modules/locale/locale.module:77
 msgid "Add language"
-msgstr ""
+msgstr "Προσθήκη γλώσσας"
 
 #: includes/locale.inc:248 modules/locale/locale.module:83
-#, fuzzy
 msgid "Import"
-msgstr "περισσότερα"
+msgstr "Εισαγωγή"
 
 #: includes/locale.inc:286;297 modules/locale/locale.module:89
 msgid "Export"
-msgstr ""
+msgstr "Εξαγωγή"
 
 #: includes/locale.inc:341;360 modules/search/search.module:131;144;1001;1041
 #: modules/search/search.info:0 modules/user/user.module:2327
@@ -132,7 +130,7 @@ msgstr "Αναζήτηση"
 
 #: includes/locale.inc:351 modules/locale/locale.module:146
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 #: includes/locale.inc:1383 modules/aggregator/aggregator.module:986;997
 #: modules/book/book.module:864 modules/comment/comment.module:841;852;1186
@@ -145,40 +143,35 @@ msgid "edit"
 msgstr "επεξεργασία"
 
 #: includes/locale.inc:32;270;498;1143;1164 modules/locale/locale.module:340;0
-#, fuzzy
 msgid "locale"
-msgstr "Γλωσσική προσαρμογή"
+msgstr "γλωσσική προσαρμογή"
 
 #: includes/menu.inc:540 modules/node/node.module:2218
 #: themes/bluemarine/page.tpl.php:17;17;18
 #: themes/chameleon/chameleon.theme:51;51
 #: themes/pushbutton/page.tpl.php:19;19;25
-#, fuzzy
 msgid "Home"
-msgstr "Όνομα υπολογιστή"
+msgstr "Αρχική"
 
 #: includes/menu.inc:1047 modules/user/user.module:513;557
-#, fuzzy
 msgid "Navigation"
-msgstr "Αποθήκευση ρυθμίσεων"
+msgstr "Πλοήγηση"
 
 #: includes/pager.inc:382 modules/book/book.module:489
 msgid "Go to previous page"
-msgstr ""
+msgstr "Προηγούμενη σελίδα"
 
 #: includes/pager.inc:383 modules/book/book.module:497
-#, fuzzy
 msgid "Go to next page"
-msgstr "Προβιβασμένο στην πρώτη σελίδα"
+msgstr "Επόμενη σελίδα"
 
 #: includes/theme.inc:899 themes/engines/phptemplate/phptemplate.engine:310
-#, fuzzy
 msgid "new"
-msgstr "1 νέο"
+msgstr "νέο"
 
 #: includes/theme.inc:1047 modules/user/user.module:628
 msgid "View user profile."
-msgstr ""
+msgstr "Προβολή προσωπικού προφίλ."
 
 #: includes/theme.inc:1068 modules/comment/comment.module:1516;1525
 #: modules/node/node.module:2031 modules/system/system.module:574
@@ -285,7 +278,7 @@ msgstr "Διαγραφή"
 #: modules/node/content_types.inc:337 modules/node/node.module:2260;2265
 #: modules/profile/profile.module:348;388
 msgid "view"
-msgstr "εμφάνιση"
+msgstr "προβολή"
 
 #: modules/aggregator/aggregator.module:430 modules/profile/profile.module:792
 #: modules/statistics/statistics.module:187
@@ -456,18 +449,17 @@ msgid "Allows the user to change the color scheme of certain themes."
 msgstr "Επιτρέπει στον χρήστη να αλλάξει το χρωματικό σχήμα από συγκεκριμένα θέματα εμφάνισης."
 
 #: modules/comment/comment.module:153 themes/garland/template.php:49
-#, fuzzy
 msgid "Comments"
-msgstr "Σχόλιο"
+msgstr "Σχόλια"
 
 #: modules/comment/comment.module:553 modules/node/node.module:995
 msgid "Optional"
-msgstr "Προαιρετικά"
+msgstr "Προαιρετικό"
 
 #: modules/comment/comment.module:553 modules/node/node.module:995
 #: modules/taxonomy/taxonomy.module:265
 msgid "Required"
-msgstr "Απαιτείται"
+msgstr "Υποχρεωτικό"
 
 #: modules/comment/comment.module:1157 modules/node/node.module:1541
 #: modules/user/user.module:2012
@@ -512,7 +504,7 @@ msgstr "Πρέπει να δώσετε έγκυρη ημερομηνία."
 
 #: modules/comment/comment.module:1464;1480 modules/node/node.module:2031
 msgid "Authored by"
-msgstr "Γράφτηκε από"
+msgstr "Συντάχθηκε από"
 
 #: modules/comment/comment.module:1488;1519;1527
 #: modules/user/user.module:1568;1705
@@ -953,11 +945,11 @@ msgstr "Επιτρέπει την παρακολούθηση πρόσφατων 
 
 #: modules/upload/upload.info:0
 msgid "Upload"
-msgstr "Ανέβασμα"
+msgstr "Αποστολή"
 
 #: modules/upload/upload.info:0
 msgid "Allows users to upload and attach files to content."
-msgstr "Επιτρέπει στους χρήστες να ανεβάζουν και να επισυνάπτουν αρχεία στην ύλη."
+msgstr "Επιτρέπει στους χρήστες να αποστέλλουν και να επισυνάπτουν αρχεία στην ύλη."
 
 #: modules/user/user.info:0
 msgid "Manages the user registration and login system."
@@ -965,9 +957,8 @@ msgstr "Διαχειρίζεται το σύστημα εγγραφής και �
 
 #: modules/watchdog/watchdog.module:109;109;198
 #: themes/engines/phptemplate/phptemplate.engine:383
-#, fuzzy
 msgid "error"
-msgstr "Παραπέμπτης"
+msgstr "σφάλμα"
 
 #: modules/watchdog/watchdog.info:0
 msgid "Watchdog"
@@ -980,256 +971,253 @@ msgstr "Καταγράφει και αποθηκεύει συμβάντα του
 #: themes/chameleon/chameleon.theme:19
 #: themes/engines/phptemplate/phptemplate.engine:28
 msgid "left sidebar"
-msgstr ""
+msgstr "αριστερή πλευρική ζώνη"
 
 #: themes/chameleon/chameleon.theme:20
 #: themes/engines/phptemplate/phptemplate.engine:29
 msgid "right sidebar"
-msgstr ""
+msgstr "δεξιά πλευρική ζώνη"
 
 #: themes/garland/comment.tpl.php:5 themes/garland/node.tpl.php:12
 msgid "!date — !username"
-msgstr ""
+msgstr "!date — !username"
 
 #: themes/garland/color/color.inc:8 themes/garland/minnelli/color/color.inc:8
 msgid "Blue Lagoon (Default)"
-msgstr ""
+msgstr "Blue Lagoon (προεπιλεγμένο)"
 
 #: themes/garland/color/color.inc:9 themes/garland/minnelli/color/color.inc:9
 msgid "Ash"
-msgstr ""
+msgstr "Ash"
 
 #: themes/garland/color/color.inc:10
 #: themes/garland/minnelli/color/color.inc:10
 msgid "Aquamarine"
-msgstr ""
+msgstr "Aquamarine"
 
 #: themes/garland/color/color.inc:11
 #: themes/garland/minnelli/color/color.inc:11
 msgid "Belgian Chocolate"
-msgstr ""
+msgstr "Belgian Chocolate"
 
 #: themes/garland/color/color.inc:12
 #: themes/garland/minnelli/color/color.inc:12
 msgid "Bluemarine"
-msgstr ""
+msgstr "Bluemarine"
 
 #: themes/garland/color/color.inc:13
 #: themes/garland/minnelli/color/color.inc:13
 msgid "Citrus Blast"
-msgstr ""
+msgstr "Citrus Blast"
 
 #: themes/garland/color/color.inc:14
 #: themes/garland/minnelli/color/color.inc:14
 msgid "Cold Day"
-msgstr ""
+msgstr "Cold Day"
 
 #: themes/garland/color/color.inc:15
 #: themes/garland/minnelli/color/color.inc:15
 msgid "Greenbeam"
-msgstr ""
+msgstr "Greenbeam"
 
 #: themes/garland/color/color.inc:16
 #: themes/garland/minnelli/color/color.inc:16
 msgid "Mediterrano"
-msgstr ""
+msgstr "Mediterrano"
 
 #: themes/garland/color/color.inc:17
 #: themes/garland/minnelli/color/color.inc:17
 msgid "Mercury"
-msgstr ""
+msgstr "Mercury"
 
 #: themes/garland/color/color.inc:18
 #: themes/garland/minnelli/color/color.inc:18
 msgid "Nocturnal"
-msgstr ""
+msgstr "Nocturnal"
 
 #: themes/garland/color/color.inc:19
 #: themes/garland/minnelli/color/color.inc:19
 msgid "Olivia"
-msgstr ""
+msgstr "Olivia"
 
 #: themes/garland/color/color.inc:20
 #: themes/garland/minnelli/color/color.inc:20
 msgid "Pink Plastic"
-msgstr ""
+msgstr "Pink Plastic"
 
 #: themes/garland/color/color.inc:21
 #: themes/garland/minnelli/color/color.inc:21
 msgid "Shiny Tomato"
-msgstr ""
+msgstr "Shiny Tomato"
 
 #: themes/garland/color/color.inc:22
 #: themes/garland/minnelli/color/color.inc:22
 msgid "Teal Top"
-msgstr ""
+msgstr "Teal Top"
 
 #: includes/database.pgsql.inc:23
 msgid "PostgreSQL database"
-msgstr ""
+msgstr "Βάση δεδομένων PostgreSQL"
 
 #: includes/database.pgsql.inc:29
 msgid "Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL %version."
-msgstr ""
+msgstr "Ο διακομιστής σας PostgreSQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον PostgreSQL %version."
 
 #: includes/database.pgsql.inc:405
 msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
-msgstr ""
+msgstr "Η βάση δεδομένων PostgreSQL που χρησιμοποιείτε έχει λανθασμένη ρύθμιση για την κωδικοποίηση χαρακτήρων (%encoding). Είναι πιθανό να μη λειτουργήσει με τον αναμενόμενο τρόπο. Προτείνεται να την ξαναδημιουργήσετε με κωδικοποίηση UTF-8/Unicode. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <a href=\"@url\">τεκμηρίωση της PostgreSQL</a>."
 
 #: includes/image.inc:21
 msgid "Built-in GD2 toolkit"
-msgstr ""
+msgstr "Ενσωματωμένη εργαλειοθήκη GD2"
 
 #: includes/image.inc:61
 msgid "The selected image handling toolkit %toolkit can not correctly process %function."
-msgstr ""
+msgstr "Η επιλεγμένη εργαλειοθήκη χειρισμού εικόνων %toolkit δεν μπορεί να επεξεργαστεί σωστά την %function."
 
 #: includes/image.inc:185
 msgid "The built-in GD2 toolkit is installed and working properly."
-msgstr ""
+msgstr "Η ενσωματωμένη εργαλειοθήκη GD2 έχει εγκατασταθεί και λειτουργεί κανονικά."
 
 #: includes/image.inc:189
 msgid "JPEG quality"
-msgstr ""
+msgstr "Ποιότητα JPEG"
 
 #: includes/image.inc:190
 msgid "Define the image quality for JPEG manipulations. Ranges from 0 to 100. Higher values mean better image quality but bigger files."
-msgstr ""
+msgstr "Προσδιορισμός της ποιότητας εικόνων για τον χειρισμό JPEG. Επιλογή από το 0 ως το 100. Μεγαλύτερες τιμές σημαίνουν καλύτερη ποιότητα εικόνας αλλά και μεγαλύτερα αρχεία."
 
 #: includes/image.inc:194
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: includes/image.inc:200
 msgid "The built-in GD image toolkit requires that the GD module for PHP be installed and configured properly. For more information see <a href=\"@url\">PHP's image documentation</a>."
-msgstr ""
+msgstr "Η ενσωματωμένη εργαλειοθήκη GD2 απαιτεί να έχει εγκατασταθεί και ρυθμιστεί σωστά η μονάδα GD για την PHP. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση του PHP image</a>."
 
 #: includes/install.inc:734
 msgid "Currently using !item !version"
-msgstr ""
+msgstr "Χρησιμοποίηση του !item !version"
 
 #: includes/menu.inc:875
 msgid "Edit primary links"
-msgstr ""
+msgstr "Τροποποίηση κύριων παραπομπών"
 
 #: includes/menu.inc:1383
 msgid "Operating in off-line mode."
-msgstr ""
+msgstr "Λειτουργία χωρίς σύνδεση."
 
 #: includes/pager.inc:118;381
 msgid "« first"
-msgstr ""
+msgstr "« πρώτο"
 
 #: includes/pager.inc:119;382
 msgid "‹ previous"
-msgstr ""
+msgstr "‹ προηγούμενο"
 
 #: includes/pager.inc:121;383
-#, fuzzy
 msgid "next ›"
-msgstr " ›"
+msgstr "επόμενο ›"
 
 #: includes/pager.inc:122;384
 msgid "last »"
-msgstr ""
+msgstr "τελευταίο »"
 
 #: includes/pager.inc:381
-#, fuzzy
 msgid "Go to first page"
-msgstr "Προβιβασμένο στην πρώτη σελίδα"
+msgstr "Στην πρώτη σελίδα"
 
 #: includes/pager.inc:384
 msgid "Go to last page"
-msgstr ""
+msgstr "Στην τελευταία σελίδα"
 
 #: includes/pager.inc:391
 msgid "Go to page @number"
-msgstr ""
+msgstr "Στη σελίδα @number"
 
 #: includes/tablesort.inc:66
 msgid "sort by @s"
-msgstr ""
+msgstr "ταξινόμηση κατά @s"
 
 #: includes/xmlrpc.inc:450
 msgid "Parse error. Not well formed"
-msgstr ""
+msgstr "Σφάλμα συντακτικής ανάλυσης. Δεν υπάρχει συμμόρφωση"
 
 #: includes/xmlrpcs.inc:62
 msgid "Parse error. Request not well formed."
-msgstr ""
+msgstr "Σφάλμα συντακτικής ανάλυσης. Η αίτηση δεν έχει σωστή διαμόρφωση."
 
 #: includes/xmlrpcs.inc:65
 msgid "Server error. Invalid XML-RPC. Request must be a methodCall."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Μη έγκυρο XML-RPC. Η αίτηση πρέπει να είναι ένα methodCall."
 
 #: includes/xmlrpcs.inc:152;296
 msgid "Server error. Requested method %methodname not specified."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος %methodname δεν έχει οριστεί."
 
 #: includes/xmlrpcs.inc:163
 msgid "Server error. Wrong number of method parameters."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Εσφαλμένος αριθμός παραμέτρων μεθόδου."
 
 #: includes/xmlrpcs.inc:200
 msgid "Server error. Invalid method parameters."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Μη έγκυρες παράμετροι μεθόδου."
 
 #: includes/xmlrpcs.inc:211
 msgid "Server error. Requested function %method does not exist."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος %method δεν υπάρχει."
 
 #: includes/xmlrpcs.inc:224
 msgid "Invalid syntax for system.multicall."
-msgstr ""
+msgstr "Μη έγκυρη σύνταξη για system.multicall."
 
 #: includes/xmlrpcs.inc:230
 msgid "Recursive calls to system.multicall are forbidden."
-msgstr ""
+msgstr "Αναδρομικές κλήσεις της system.multicall δεν επιτρέπονται."
 
 #: includes/xmlrpcs.inc:299
 msgid "Server error. Requested method %methodname signature not specified."
-msgstr ""
+msgstr "Σφάλμα διακομιστή. Η υπογραφή της ζητούμενης μεθόδου %methodname δεν έχει οριστεί."
 
 #: modules/color/color.module:13
 msgid "Color scheme"
-msgstr ""
+msgstr "Χρωματικό σχήμα"
 
 #: modules/color/color.module:107
 msgid "Custom"
-msgstr ""
+msgstr "Προσαρμοσμένο"
 
 #: modules/color/color.module:110
-#, fuzzy
 msgid "Color set"
-msgstr "Χρώμα"
+msgstr "Ομάδα χρωμάτων"
 
 #: modules/color/color.module:118
 msgid "Base color"
-msgstr ""
+msgstr "Βασικό χρώμα"
 
 #: modules/color/color.module:119
 msgid "Link color"
-msgstr ""
+msgstr "Χρώμα συνδέσμου"
 
 #: modules/color/color.module:120
 msgid "Header top"
-msgstr ""
+msgstr "Κορυφή κεφαλίδας"
 
 #: modules/color/color.module:121
 msgid "Header bottom"
-msgstr ""
+msgstr "Βάση κεφαλίδας"
 
 #: modules/color/color.module:122
 msgid "Text color"
-msgstr ""
+msgstr "Χρώμα κειμένου"
 
 #: modules/color/color.module:205
 msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
-msgstr ""
+msgstr "Δεν υπάρχει αρκετή μνήμη για την PHP για την αλλαγή του χρωματικού θέματος της παραλλαγής. Χρειάζεστε τουλάχιστον %size ακόμη. Ελέγξτε την <a href=\"@url\">τεκμηρίωση της PHP</a>για περισσότερες πληροφορίες."
 
 #: modules/color/color.install:21
 msgid "The GD library for PHP is enabled, but was compiled without PNG support. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
-msgstr "Η βιβλιοθήκη GD για την PHP είναι ενεργή, αλλά δεν υποστηρίζει την προβολή PNG. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
+msgstr "Η βιβλιοθήκη GD για την PHP είναι ενεργοποιημένη, αλλά δεν υποστηρίζει τη μορφή PNG. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
 
 #: modules/color/color.install:26
 msgid "Not installed"
@@ -1268,15 +1256,15 @@ msgstr ""
 "  !help_pages\n"
 "  <h2>Γλωσσάρι ορολογίας του Drupal</h2>\n"
 "  <dl>\n"
-"   <dt>Μπλοκ</dt><dd>Ένα μικρό πλαίσιο που περιέχει πληροφορίες ή ύλη και τοποθετείται σε μια περιοχή της ιστοσελίδας (π.χ. σε μια πλάγια στήλη, κάτω η πάνω από το περιεχόμενο, ή σε όποια άλλη περιοχή επιτρέπει η τρέχουσα θεματική διαμόρφωση).</dd>\n"
+"   <dt>Μπλοκ</dt><dd>Ένα μικρό πλαίσιο που περιέχει πληροφορίες ή ύλη και τοποθετείται σε μια περιοχή της ιστοσελίδας (π.χ. σε μια πλευρική ζώνη, κάτω η πάνω από το περιεχόμενο, ή σε όποια άλλη περιοχή επιτρέπει η τρέχουσα θεματική διαμόρφωση).</dd>\n"
 "   <dt>Σχόλιο</dt><dd>Κείμενο που επισυνάπτεται σε έναν κόμβο και έχει σαν στόχο να διευκρινίσει, να εξηγήσει, να κρίνει ή να εκφράσει μια άλλη γνώμη σχετικά με το αρχικό θέμα του κόμβου</dd>\n"
 "   <dt>Κόμβος</dt><dd>Ο βασικός τύπος ύλης στο Drupal, συχνά αναφέρεται και ως \"δημοσίευμα\" ή \"καταχώριση\". Όποιο περιεχόμενο μπορεί να δημιουργηθεί από το μενού \"δημιουργία ύλης\" είναι κόμβος. Λάβετε υπόψη πως τα σχόλια, μπλοκ και οι χρήστες <em>δεν</em> είναι κόμβοι.</dd>\n"
-"   <dt>Δημοσιευμένο</dt><dd>Δημοσίευμα που είναι ορατό σε όλους ανεξάρτητα με το αν έχουν εισέλθει στο σύστημα (δείτε επίσης \"Αδημοσίευτο\").</dd>\n"
-"   <dt>Ρόλος</dt><dd>Ταξινόμηση στην οποία εντάσσονται οι χρήστες για να καθοριστούν τα δικαίωματα τους. Ο χρήστης δέχεται το σύνολο των δικαιωμάτων ανάλογα με τους ρόλους που του έχουν δοθεί.</dd>\n"
-"   <dt>Ταξινομία</dt><dd>Σύστημα κατηγοριοποίησης που επιτρέπει την δημιουργία σύνθετων ιεραρχικών ή συσχετισμένων δομών και ετικετοποίηση της ύλης (δείτε <a href=\"@taxonomy\">οδηγίες για την ταξινομία</a>).</dd>\n"
-"   <dt>Αδημοσίευτο</dt><dd>Δημοσίευμα που είναι ορατό μόνο στούς διαχειριστές.</dd>\n"
-"   <dt>Χρήστης</dt><dd>Πρόσωπο που έχει λογαριασμό στον ιστοτόπο σας, και έχει εισέλθει στο σύστημα με αυτόν το λογαριασμό.</dd>\n"
-"   <dt>Επισκέπτης</dt><dd>Πρόσωπο που δεν έχει λογαριασμό στον ιστοτόπο ή που έχει λογαριασμό αλλά <em>δεν</em>έχει εισέλθει στο σύστημα με αυτόν. Ονομάζεται και \"ανώνυμος χρήστης\".</dd>\n"
+"   <dt>Δημοσιευμένο</dt><dd>Δημοσίευμα που είναι ορατό σε όλους ανεξάρτητα με το αν έχουν εισέλθει στο σύστημα (δείτε επίσης \"Μη δημοσιευμένο\").</dd>\n"
+"   <dt>Ρόλος</dt><dd>Ταξινόμηση στην οποία εντάσσονται οι χρήστες για να καθοριστούν τα δικαίωματά τους. Ο χρήστης δέχεται το σύνολο των δικαιωμάτων ανάλογα με τους ρόλους που του έχουν δοθεί.</dd>\n"
+"   <dt>Ταξινομία</dt><dd>Σύστημα κατηγοριοποίησης που επιτρέπει την δημιουργία σύνθετων ιεραρχικών ή συσχετισμένων δομών και ετικετοποίηση της ύλης (δείτε τη <a href=\"@taxonomy\">βοήθεια για την ταξινομία</a>).</dd>\n"
+"   <dt>Μη δημοσιευμένο</dt><dd>Δημοσίευμα που είναι ορατό μόνο στους διαχειριστές.</dd>\n"
+"   <dt>Χρήστης</dt><dd>Πρόσωπο που έχει λογαριασμό στον ιστοτόπο σας και έχει εισέλθει στο σύστημα με αυτόν το λογαριασμό.</dd>\n"
+"   <dt>Επισκέπτης</dt><dd>Πρόσωπο που δεν έχει λογαριασμό στον ιστοτόπο ή που έχει λογαριασμό, αλλά <em>δεν</em>έχει εισέλθει στο σύστημα με αυτόν. Ονομάζεται και \"ανώνυμος χρήστης\".</dd>\n"
 "  </dl>"
 
 #: modules/help/help.module:93
@@ -1300,7 +1288,7 @@ msgid ""
 "<li>The help for a distributed authorization module (if applicable).</li>\n"
 "</ul>\n"
 msgstr ""
-"<p>Οι μονάδες μπορούν να παρέχουν διαθέσιμη τεκμηρίωση σε άλλες μονάδες με αυτή τη μονάδα. Όλες οι οδηγίες προς τον χρήστη μπορούν να προβληθούν μέσω αυτής της μονάδας. Μερικά παραδείγματα βοήθειας: </p>\n"
+"<p>Οι μονάδες μπορούν να παρέχουν διαθέσιμη τεκμηρίωση σε άλλες μονάδες μέσω αυτής της μονάδας. Όλες οι οδηγίες προς τον χρήστη μπορούν να προβληθούν μέσω αυτής της μονάδας. Μερικά παραδείγματα βοήθειας: </p>\n"
 "<ul>\n"
 "<li>Το κείμενο βοήθειας της μονάδας, όπως εμφανίζεται στην <a href=\"@help\">σελίδα βοήθειας</a> και μέσω του συνδέσμου βοήθειας της ίδιας της μονάδας.</li>\n"
 "<li>Το επιμελημένο κείμενο βοήθειας που καθορίζεται από μια μονάδα.</li>\n"
@@ -1317,7 +1305,7 @@ msgstr "Δεν υπάρχει διαθέσιμη βοήθεια για τη μο
 
 #: modules/help/help.module:131
 msgid "@module administration pages"
-msgstr "@module σελίδες διαχείρισης"
+msgstr "σελίδες διαχείρισης του @module"
 
 #: modules/help/help.module:0
 msgid "help"
@@ -1379,7 +1367,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/ping/ping.module:55
 msgid "Failed to notify pingomatic.com (site)."
-msgstr "Δεν έγινε δυνατό να ειδοποιηθεί το pingomatic.com (ιστοτόπος)."
+msgstr "Δεν υπήρξε δυνατή η ειδοποίηση του pingomatic.com (ιστοτόπος)."
 
 #: modules/ping/ping.module:55
 msgid "directory ping"
@@ -1391,33 +1379,29 @@ msgstr "ping"
 
 #: themes/chameleon/chameleon.theme:141;162
 msgid "By !author at @date"
-msgstr ""
+msgstr "Από !author την @date"
 
 #: themes/chameleon/chameleon.theme:0
 msgid "chameleon"
-msgstr ""
+msgstr "chameleon"
 
 #: themes/engines/phptemplate/phptemplate.engine:31
 msgid "header"
-msgstr ""
+msgstr "κεφαλίδα"
 
 #: themes/engines/phptemplate/phptemplate.engine:32
-#, fuzzy
 msgid "footer"
-msgstr "ρίζα"
+msgstr "υποσέλιδο"
 
 #: themes/engines/phptemplate/phptemplate.engine:288;312
 msgid "Submitted by !a on @b."
-msgstr ""
+msgstr "Υποβλήθηκε από !a στις @b."
 
 #: themes/engines/phptemplate/phptemplate.engine:383
 msgid "%engine.engine was instructed to override the %name theme function, but no valid template file was found."
-msgstr ""
+msgstr "Ζητήθηκε από το %engine.engine να αγνοήσει τη μέθοδο θεματικής παραλλαγής %name, αλλά δε βρέθηκε κανένα έγκυρο αρχείο προτύπου."
 
 #: themes/pushbutton/page.tpl.php:13;13
-#, fuzzy
 msgid "Skip navigation"
-msgstr "Αποθήκευση ρυθμίσεων"
+msgstr "Παράκαμψη της πλοήγησης"
 
-#~ msgid "drupal"
-#~ msgstr "drupal"
