@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:13+0300\n"
+"PO-Revision-Date: 2007-07-12 13:22+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -158,7 +158,7 @@ msgstr "Συνημμένα αρχεία"
 
 #: modules/upload/upload.module:364
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
-msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι να αποθηκεύσετε την καταχώριση. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στα RSS feed."
+msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι να αποθηκεύσετε την καταχώριση. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στις ροές RSS."
 
 #: modules/upload/upload.module:382
 msgid "File attachments are disabled. The file directories have not been properly configured."
@@ -230,5 +230,3 @@ msgstr "προβολή ανεβασμένων αρχείων"
 msgid "upload"
 msgstr "ανέβασμα"
 
-#~ msgid "MB"
-#~ msgstr "MB"

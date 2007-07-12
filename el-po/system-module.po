@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:12+0300\n"
+"PO-Revision-Date: 2007-07-12 13:26+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Η μονάδα system παρέχει προεπιλεγμένες ρυ�
 
 #: modules/system/system.module:20
 msgid "Some modules require regularly scheduled actions, such as cleaning up logfiles. Cron, which stands for chronograph, is a periodic command scheduler executing commands at intervals specified in seconds. It can be used to control the execution of daily, weekly and monthly jobs (or anything with a period measured in seconds). The aggregator module periodically updates feeds using cron. Ping periodically notifies services of new content on your site. Search periodically indexes the content on your site. Automating tasks is one of the best ways to keep a system running smoothly, and if most of your administration does not require your direct involvement, cron is an ideal solution. Cron can, if necessary, also be run manually."
-msgstr "Μερικές μονάδες του Drupal απαιτούν τακτικές, χρονικά προγραμματισμένες ενέργειες, όπως η εκκαθάριση αρχείων του ημερολογίου συστήματος. Το cron, που σημαίνει χρονογράφος, είναι ένα πρόγραμμα χρονικού προγραμματισμού περιοδικής εκτέλεσης εντολών, που εκτελεί εντολές σε διαστήματα που ορίζονται σε δευτερόλεπτα. Μπορεί να χρησιμοποιείται για να ελέγχει την εκτέλεση καθημερινών, εβδομαδιαίων και μηνιαίων εργασιών (ή με οποιαδήποτε περίοδο σε δευτερόλεπτα). Η μονάδα aggregator ενημερώνει περιοδικά τα feed χρησιμοποιώντας το cron. Η μονάδα ping ειδοποιεί περιοδικά διάφορες υπηρεσίες ότι υπάρχει νέα ύλη στον ιστότοπό σας. Η μονάδα search ευρετηριάζει περιοδικά την ύλη του ιστοτόπου σας. Η αυτοματοποίηση των εργασιών είναι ένας από τους καλύτερους τρόπους για τη διαρκή ομαλή λειτουργία ενός συστήματος, και αν το μεγαλύτερο μέρος της διαχείρισης δε χρειάζεται την άμεση ανάμιξή σας το cron είναι ιδανική λύση."
+msgstr "Μερικές μονάδες του Drupal απαιτούν τακτικές, χρονικά προγραμματισμένες ενέργειες, όπως η εκκαθάριση αρχείων του ημερολογίου συστήματος. Το cron, που σημαίνει χρονογράφος, είναι ένα πρόγραμμα χρονικού προγραμματισμού περιοδικής εκτέλεσης εντολών, που εκτελεί εντολές σε διαστήματα που ορίζονται σε δευτερόλεπτα. Μπορεί να χρησιμοποιείται για να ελέγχει την εκτέλεση καθημερινών, εβδομαδιαίων και μηνιαίων εργασιών (ή με οποιαδήποτε περίοδο σε δευτερόλεπτα). Η μονάδα aggregator ενημερώνει περιοδικά τις ροές χρησιμοποιώντας το cron. Η μονάδα ping ειδοποιεί περιοδικά διάφορες υπηρεσίες ότι υπάρχει νέα ύλη στον ιστοτόπο σας. Η μονάδα search ευρετηριάζει περιοδικά την ύλη του ιστοτόπου σας. Η αυτοματοποίηση των εργασιών είναι ένας από τους καλύτερους τρόπους για τη διαρκή ομαλή λειτουργία ενός συστήματος, και αν το μεγαλύτερο μέρος της διαχείρισης δε χρειάζεται την άμεση ανάμιξή σας το cron είναι ιδανική λύση."
 
 #: modules/system/system.module:21
 msgid "There is a caching mechanism which stores dynamically generated web pages in a database. By caching a web page, the system module does not have to create the page each time someone wants to view it, instead it takes only one SQL query to display it, reducing response time and the server's load. Only pages requested by <em>anonymous</em> users are cached. In order to reduce server load and save bandwidth, the system module stores and sends cached pages compressed."
@@ -50,7 +50,7 @@ msgstr "Οι επιλογές αυτές ελέγχουν τις προεπιλ�
 
 #: modules/system/system.module:35
 msgid "These options control the display settings for the <code>%template</code> theme. When your site is displayed using this theme, these settings will be used. By clicking \"Reset to defaults,\" you can choose to use the <a href=\"@global\">global settings</a> for this theme."
-msgstr "Οι επιλογές αυτές ελέγχουν τις ρυθμίσεις παρουσίασης για τη θεματική παραλλαγή <code>@template</code>. Όταν ο ιστότοπός σας χρησιμοποιεί αυτή την παραλλαγή, θα χρησιμοποιούνται αυτές οι ρυθμίσεις. Πατώντας το κουμπί \"Επαναφορά αρχικών ρυθμίσεων\", μπορείτε να επιλέξετε να χρησιμοποιούνται για τη συγκεκριμένη παραλλαγή οι <a href=\"@global\">γενικές ρυθμίσεις</a>."
+msgstr "Οι επιλογές αυτές ελέγχουν τις ρυθμίσεις παρουσίασης για τη θεματική παραλλαγή <code>@template</code>. Όταν ο ιστοτόπος σας χρησιμοποιεί αυτή την παραλλαγή, θα χρησιμοποιούνται αυτές οι ρυθμίσεις. Πατώντας το κουμπί \"Επαναφορά αρχικών ρυθμίσεων\", μπορείτε να επιλέξετε να χρησιμοποιούνται για τη συγκεκριμένη παραλλαγή οι <a href=\"@global\">γενικές ρυθμίσεις</a>."
 
 #: modules/system/system.module:37
 msgid ""
@@ -178,7 +178,7 @@ msgstr "Δημοσίευση RSS"
 
 #: modules/system/system.module:250
 msgid "Configure the number of items per feed and whether feeds should be titles/teasers/full-text."
-msgstr "Προσδιορίστε τον αριθμό των αντικειμένων ανά feed και τρόπο εμφάνισης, τίτλος/περίληψη/πλήρες κείμενο."
+msgstr "Προσδιορίστε τον αριθμό των αντικειμένων ανά ροή και τρόπο εμφάνισης, τίτλος/περίληψη/πλήρες κείμενο."
 
 #: modules/system/system.module:255
 msgid "Date and time"
@@ -478,15 +478,15 @@ msgstr "Καμία εργαλειοθήκη εικόνων δεν βρέθηκε
 
 #: modules/system/system.module:764
 msgid "Number of items per feed"
-msgstr "Αριθμός στοιχείων σε κάθε feed"
+msgstr "Αριθμός στοιχείων σε κάθε ροή"
 
 #: modules/system/system.module:767
 msgid "The default number of items to include in a feed."
-msgstr "Ο προεπιλεγμένος αριθμός των στοιχείων που θα περιλαμβάνονται σε ένα feed."
+msgstr "Ο προεπιλεγμένος αριθμός των στοιχείων που θα περιλαμβάνονται σε μια ροή."
 
 #: modules/system/system.module:771
 msgid "Display of XML feed items"
-msgstr "Εμφάνιση στοιχείων XML feed"
+msgstr "Εμφάνιση στοιχείων ροής XML"
 
 #: modules/system/system.module:773
 msgid "Titles only"
@@ -502,7 +502,7 @@ msgstr "Όλο το κείμενο"
 
 #: modules/system/system.module:774
 msgid "Global setting for the length of XML feed items that are output by default."
-msgstr "Γενικές ρυθμίσεις για το προεπιλεγμένο μήκος των στοιχείων ενός XML feed που θα εμφανίζονται."
+msgstr "Γενικές ρυθμίσεις για το προεπιλεγμένο μήκος των στοιχείων μιας ροής XML που θα εμφανίζονται."
 
 #: modules/system/system.module:809
 msgid "Default time zone"
@@ -918,5 +918,3 @@ msgstr "επιλογή άλλης παραλλαγής εμφάνισης"
 msgid "system"
 msgstr "σύστημα"
 
-#~ msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
-#~ msgstr "Το @site είναι αυτή τη στιγμή κλειστό για συντήρηση. Θα επανέλθουμε σύντομα. Ευχαριστούμε για την κατανόηση."

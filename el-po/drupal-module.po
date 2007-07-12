@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drupal-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 20:09+0300\n"
+"PO-Revision-Date: 2007-07-12 13:25+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "<p>Αν ενεργοποιήσετε τη μονάδα drupal θα μπορείτε:</p>\n"
 "<ul>\n"
-"  <li>να δηλώσετε τον ιστότοπό σας σε ένα διακομιστή, υποβάλλοντας (προαιρετικά) πληροφορίες για τις μονάδες και τις θεματικές παραλλαγές που έχετε εγκαταστήσει και συνοπτικά στατιστικά στοιχεία για τον αριθμό των καταχωρίσεων και των χρηστών σας, πληροφορίες που μπορούν να βοηθήσουν στην αξιολόγηση των μονάδων και των παραλλαγών του Drupal</li>\n"
+"  <li>να δηλώσετε τον ιστοτόπο σας σε ένα διακομιστή, υποβάλλοντας (προαιρετικά) πληροφορίες για τις μονάδες και τις θεματικές παραλλαγές που έχετε εγκαταστήσει και συνοπτικά στατιστικά στοιχεία για τον αριθμό των καταχωρίσεων και των χρηστών σας, πληροφορίες που μπορούν να βοηθήσουν στην αξιολόγηση των μονάδων και των παραλλαγών του Drupal</li>\n"
 "  <li>να επιτρέψετε σε άλλους ιστοτόπους να εγγράφονται στο δικό σας</li>\n"
 "  <li>να επιτρέψετε στα μέλη άλλων ιστοτόπων που χρησιμοποιούν τη μονάδα drupal να εισέρχονται στο δικό σας χωρίς να εγγραφούν, χρησιμοποιώντας την κατανεμημένη πιστοποίησή τους</li>\n"
 "  <li>να επιτρέψετε στα μέλη σας να εισέρχονται σε οποιονδήποτε άλλο ιστοτόπο που χρησιμοποιεί τη μονάδα drupal, χρησιμοποιώντας ένα όνομα λογαριασμού που μοιάζει με διεύθυνση e-mail: <em>όνομα_λογαριασμού@παράδειγμα.com</em></li>\n"
@@ -77,7 +77,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/drupal/drupal.module:42
 msgid "Using this your site can \"call home\" to another Drupal server. By calling home to drupal.org and sending a list of your installed modules and themes, you help rank projects on drupal.org and so assist all Drupal administrators to find the best components for meeting their needs. If you want to register with a different server, you can change the Drupal XML-RPC server setting -- but the server has to be able to handle Drupal XML. Some XML-RPC servers may present directories of all registered sites. To get all your site information listed, go to the <a href=\"@site-settings\">site information settings page</a> and set the site name, the e-mail address, the slogan, and the mission statement."
-msgstr "Με αυτή τη μονάδα, ο ιστότοπός σας μπορεί να \"καλεί το κέντρο\" σε έναν άλλο διακομιστή Drupal. Καλώντας το drupal.org και στέλνοντας μια λίστα των μονάδων και των θεματικών παραλλαγών που έχετε εγκαταστήσει, βοηθάτε στην αξιολόγηση των έργων του drupal.org και έτσι βοηθάτε όλους τους διαχειριστές τόπων Drupal να βρουν τα καλύτερα στοιχεία για να ικανοποιήσουν τις ανάγκες τους. Αν θέλετε να εγγραφείτε σε διαφορετικό διακομιστή XML-RPC, μπορείτε να αλλάξετε τη ρύθμιση του διακομιστή Drupal XML-RPC -- όμως ο διακομιστής πρέπει να έχει τη δυνατότητα να χειρίζεται την XML του Drupal. Μερικοί διακομιστές XML-RPC μπορεί να παρουσιάζουν καταλόγους όλων των εγγεγραμμένων τόπων. Για να παρουσιάζονται όλες οι πληροφορίες του τόπου σας, πηγαίνετε στη <a href=\"@site-settings\">σελίδα ρυθμίσεων</a> και ορίστε το όνομα, τη διεύθυνση e-mai, το σύνθημα και την περιγραφή του σκοπού του τόπου."
+msgstr "Με αυτή τη μονάδα, ο ιστοτόπος σας μπορεί να \"καλεί το κέντρο\" σε έναν άλλο διακομιστή Drupal. Καλώντας το drupal.org και στέλνοντας μια λίστα των μονάδων και των θεματικών παραλλαγών που έχετε εγκαταστήσει, βοηθάτε στην αξιολόγηση των έργων του drupal.org και έτσι βοηθάτε όλους τους διαχειριστές τόπων Drupal να βρουν τα καλύτερα στοιχεία για να ικανοποιήσουν τις ανάγκες τους. Αν θέλετε να εγγραφείτε σε διαφορετικό διακομιστή XML-RPC, μπορείτε να αλλάξετε τη ρύθμιση του διακομιστή Drupal XML-RPC -- όμως ο διακομιστής πρέπει να έχει τη δυνατότητα να χειρίζεται την XML του Drupal. Μερικοί διακομιστές XML-RPC μπορεί να παρουσιάζουν καταλόγους όλων των εγγεγραμμένων τόπων. Για να παρουσιάζονται όλες οι πληροφορίες του τόπου σας, πηγαίνετε στη <a href=\"@site-settings\">σελίδα ρυθμίσεων</a> και ορίστε το όνομα, τη διεύθυνση e-mai, το σύνθημα και την περιγραφή του σκοπού του τόπου."
 
 #: modules/drupal/drupal.module:44
 msgid ""
@@ -93,7 +93,7 @@ msgstr "Πρέπει να ορίσετε το όνομα του ιστοτόπο
 
 #: modules/drupal/drupal.module:55
 msgid "You must set an e-mail address for your site on the <a href=\"@url\">site information settings page</a>."
-msgstr "Πρέπει να ορίσετε μια διεύθυνση e-mail για τον ιστότοπό σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
+msgstr "Πρέπει να ορίσετε μια διεύθυνση e-mail για τον ιστοτόπο σας από τη σελίδα <a href=\"@url\">διαχείριση &raquo; ρυθμίσεις</a>."
 
 #: modules/drupal/drupal.module:58
 msgid "You must set your site slogan on the <a href=\"@url\">site information settings page</a>."
@@ -109,7 +109,7 @@ msgstr "Εγγραφή σε ένα διακομιστή Drupal"
 
 #: modules/drupal/drupal.module:71
 msgid "If enabled, your Drupal site will register itself with the specified Drupal XML-RPC server. For this to work properly, you must set your site's name, e-mail address, slogan and mission statement. When the Drupal XML-RPC server field is set to %drupal-xml-rpc, your web site will register itself with drupal.org. Requires the cron feature to be enabled."
-msgstr "Αν το επιλέξετε, ο ιστότοπός σας θα δηλωθεί στον καθορισμένο διακομιστή Drupal XML-RPC. Για να λειτουργήσει αυτό σωστά, πρέπει να ορίσετε το όνομα, τη διεύθυνση e-mail, το σύνθημα και την περιγραφή του σκοπού του τόπου σας. Όταν στο πεδίο Διακομιστής Drupal XML-RPC έχει δοθεί η τιμή %drupal-xml-rpc, ο ιστότοπός σας θα δηλωθεί στο drupal.org. Απαιτεί να είναι ενεργοποιημένη η λειτουργία cron."
+msgstr "Αν το επιλέξετε, ο ιστοτόπος σας θα δηλωθεί στον καθορισμένο διακομιστή Drupal XML-RPC. Για να λειτουργήσει αυτό σωστά, πρέπει να ορίσετε το όνομα, τη διεύθυνση e-mail, το σύνθημα και την περιγραφή του σκοπού του τόπου σας. Όταν στο πεδίο Διακομιστής Drupal XML-RPC έχει δοθεί η τιμή %drupal-xml-rpc, ο ιστοτόπος σας θα δηλωθεί στο drupal.org. Απαιτεί να είναι ενεργοποιημένη η λειτουργία cron."
 
 #: modules/drupal/drupal.module:76
 msgid "Drupal XML-RPC server"
@@ -133,7 +133,7 @@ msgstr "Αποστολή στατιστικών στοιχείων"
 
 #: modules/drupal/drupal.module:94
 msgid "If enabled, your site will send summary statistics on the number of registered users and the total number of posts. No private information will be sent. These data help to improve the ranking statistics of Drupal projects."
-msgstr "Αν το επιλέξετε, ο ιστότοπός σας θα στέλνει συνοπτικά στατιστικά στοιχεία για τον αριθμό των εγγεγραμμένων χρηστών και για το συνολικό αριθμό καταχωρίσεων. Δεν θα στέλνεται καμία ιδιωτική πληροφορία. Τα δεδομένα αυτά βοηθούν στη βελτίωση των στατιστικών αξιολόγησης των έργων του Drupal."
+msgstr "Αν το επιλέξετε, ο ιστοτόπος σας θα στέλνει συνοπτικά στατιστικά στοιχεία για τον αριθμό των εγγεγραμμένων χρηστών και για το συνολικό αριθμό καταχωρίσεων. Δεν θα στέλνεται καμία ιδιωτική πληροφορία. Τα δεδομένα αυτά βοηθούν στη βελτίωση των στατιστικών αξιολόγησης των έργων του Drupal."
 
 #: modules/drupal/drupal.module:100
 msgid "Allow other Drupal sites to register"
