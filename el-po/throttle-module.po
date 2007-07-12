@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: throttle-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:27+0300\n"
+"PO-Revision-Date: 2007-07-12 20:14+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: modules/throttle/throttle.module:15
 msgid "Control how your site cuts out content during heavy load."
-msgstr "Ελέγξτε πώς ο ιστοτόπος σας αποκόβει λειτουργίες σε βαρύ φόρτο εργασίας."
+msgstr "Έλεγχος του πώς ο ιστοτόπος σας αποκόβει λειτουργίες σε βαρύ φόρτο εργασίας."
 
 #: modules/throttle/throttle.module:127
 msgid "The throttle module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic. If the site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed. This mechanism is utilized by other modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality. For example, in the site theme, you might choose to disable pictures when the site is too busy (reducing bandwidth), or in modules, you might choose to disable some complicated logic (reducing CPU utilization)."

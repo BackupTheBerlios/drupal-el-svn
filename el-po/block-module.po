@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: block-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:48+0300\n"
+"PO-Revision-Date: 2007-07-12 20:06+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "Μπλοκ"
 
 #: modules/block/block.module:69
 msgid "Configure what block content appears in your site's sidebars and other regions."
-msgstr "Προσδιορίστε το περιεχόμενο των μπλοκ που θα εμφανίζεται στις πλευρικές μπάρες του ιστοτόπου σας και στις διάφορες περιοχές της ιστοσελίδας."
+msgstr "Προσδιορισμός του περιεχομένου των μπλοκ που θα εμφανίζεται στις πλευρικές μπάρες του ιστοτόπου σας και στις διάφορες περιοχές της ιστοσελίδας."
 
 #: modules/block/block.module:74
 msgid "Configure block"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:26+0300\n"
+"PO-Revision-Date: 2007-07-12 20:33+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/system/system.module:25
 msgid "Welcome to the administration section. Here you may control how your site functions."
-msgstr "Καλωσήρθατε στο τμήμα διαχείρισης. Τα παρακάτω είναι τα πιο πρόσφατα συμβάντα του συστήματος."
+msgstr "Καλωσήρθατε στο τμήμα διαχείρισης. Εδώ μπορείτε να ελέγξετε τον τρόπο λειτουργίας του ιστοτόπου σας."
 
 #: modules/system/system.module:27
 msgid "This page shows you all available administration tasks for each module."
@@ -90,7 +90,7 @@ msgstr "Γενική διευθέτηση ιστοτόπου"
 
 #: modules/system/system.module:120
 msgid "Adjust basic site configuration options."
-msgstr "Ρυθμίστε τις βασικές επιλογές του ιστοτόπου σας."
+msgstr "Ρύθμιση των βασικών επιλογών του ιστοτόπου."
 
 #: modules/system/system.module:127
 msgid "Site building"
@@ -98,27 +98,27 @@ msgstr "Δημιουργία ιστοτόπου"
 
 #: modules/system/system.module:128
 msgid "Control how your site looks and feels."
-msgstr "Έλεγχος εμφάνισης και αισθητικής του ιστοτόπου."
+msgstr "Έλεγχος της εμφάνισης και της αισθητικής του ιστοτόπου."
 
 #: modules/system/system.module:136;437
 msgid "Administration theme"
-msgstr "Εμφάνιση διαχείρισης"
+msgstr "Θεματική παραλλαγή της διαχείρισης"
 
 #: modules/system/system.module:137
 msgid "Settings for how your administrative pages should look."
-msgstr "Επιλογές για την εμφάνιση των σελίδων διαχείρισης."
+msgstr "Επιλογές για την θεματική παραλλαγή των σελίδων διαχείρισης."
 
 #: modules/system/system.module:147
 msgid "Themes"
-msgstr "Θέματα εμφανίσεων"
+msgstr "Θεματικές παραλλαγές"
 
 #: modules/system/system.module:148
 msgid "Change which theme your site uses or allows users to set."
-msgstr "Αλλάξτε την εμφάνιση την οποία θα βλέπουν και θα ορίζουν οι χρήστες."
+msgstr "Αλλαγή της θεματικής παραλλαγής που θα βλέπουν και θα ορίζουν οι χρήστες."
 
 #: modules/system/system.module:156
 msgid "Select the default theme."
-msgstr "Επιλογή προεπιλεγμένης εμφάνισης."
+msgstr "Επιλογή προεπιλεγμένης θεματικής παραλλαγής."
 
 #: modules/system/system.module:171
 msgid "Global settings"
@@ -130,7 +130,7 @@ msgstr "Μονάδες"
 
 #: modules/system/system.module:189
 msgid "Enable or disable add-on modules for your site."
-msgstr "Ενεργοποίση ή απενεργοποίηση πρόσθετων μονάδων του ιστοτόπου."
+msgstr "Ενεργοποίηση ή απενεργοποίηση πρόσθετων μονάδων του ιστοτόπου."
 
 #: modules/system/system.module:204;210;1627;1669;1690
 msgid "Uninstall"
@@ -142,7 +142,7 @@ msgstr "Πληροφορίες ιστοτόπου"
 
 #: modules/system/system.module:220
 msgid "Change basic site information, such as the site name, slogan, e-mail address, mission, front page and more."
-msgstr "Αλλάξτε τις βασικές πληροφορίες του ιστοτόπου, όπως, όνομα, αποστολή, διεύθυνση e-mail, αρχική σελίδα κ.τ.λ."
+msgstr "Αλλαγή των βασικών πληροφοριών του ιστοτόπου, όπως, όνομα, αποστολή, διεύθυνση e-mail, αρχική σελίδα κ.τ.λ."
 
 #: modules/system/system.module:225;634
 msgid "Error reporting"
@@ -150,7 +150,7 @@ msgstr "Αναφορά σφαλμάτων"
 
 #: modules/system/system.module:226
 msgid "Control how Drupal deals with errors including 403/404 errors as well as PHP error reporting."
-msgstr "Ελέγξτε πώς το Drupal χειρίζεται τα σφάλματα, 403/404 και αναφορές σφαλμάτων PHP."
+msgstr "Έλεγχος του πώς το Drupal θα χειρίζεται τα σφάλματα, συμπεριλαμβανομένων αυτών των 403/404 και τις αναφορές σφαλμάτων PHP."
 
 #: modules/system/system.module:231
 msgid "Performance"
@@ -158,11 +158,11 @@ msgstr "Απόδοση"
 
 #: modules/system/system.module:232
 msgid "Enable or disable page caching for anonymous users, and enable or disable CSS preprocessor."
-msgstr "Ενεργοποίηση η απενεργοποίηση σελίδων λανθάνουσας μνήμης (caching) για ανώνυμους χρήστες, και ενεργοποιήστε ή απενεργοποιήστε την προ-επεξεργασία CSS."
+msgstr "Ενεργοποίηση ή απενεργοποίηση των σελίδων λανθάνουσας μνήμης για ανώνυμους χρήστες και ενεργοποίηση ή απενεργοποίηση της προ-επεξεργασίας CSS."
 
 #: modules/system/system.module:238
 msgid "Tell Drupal where to store uploaded files and how they are accessed."
-msgstr "Ορίστε στο Drupal που θα αποθηκεύει τα ανεβασμένα αρχεία και τα δικαιώματα πρόσβασης."
+msgstr "Καθορισμός του Drupal για το που θα αποθηκεύει τα απεσταλθέντα αρχεία και του τρόπου πρόσβασής τους."
 
 #: modules/system/system.module:243
 msgid "Image toolkit"
@@ -170,7 +170,7 @@ msgstr "Εργαλειοθήκη εικόνων"
 
 #: modules/system/system.module:244
 msgid "Choose which image toolkit to use if you have installed optional toolkits."
-msgstr "Επιλέξτε ποια εργαλειοθήκη εικόνων θα χρησιμοποιείτε αν έχετε εγκατεστημένες εναλλακτικές εργαλειοθήκες."
+msgstr "Επιλογή της εργαλειοθήκης εικόνων που θα χρησιμοποιηθεί αν είναι εγκατεστημένες εναλλακτικές εργαλειοθήκες."
 
 #: modules/system/system.module:249
 msgid "RSS publishing"
@@ -178,7 +178,7 @@ msgstr "Δημοσίευση RSS"
 
 #: modules/system/system.module:250
 msgid "Configure the number of items per feed and whether feeds should be titles/teasers/full-text."
-msgstr "Προσδιορίστε τον αριθμό των αντικειμένων ανά ροή και τρόπο εμφάνισης, τίτλος/περίληψη/πλήρες κείμενο."
+msgstr "Προσδιορισμός του αριθμού των αντικειμένων ανά ροή και του αν οι ροές θα είναι τίτλος/περίληψη/πλήρες κείμενο."
 
 #: modules/system/system.module:255
 msgid "Date and time"
@@ -198,7 +198,7 @@ msgstr "Απενεργοποίηση του ιστοτόπου για συντή
 
 #: modules/system/system.module:267;593
 msgid "Clean URLs"
-msgstr "Καθαρές URLs"
+msgstr "Καθαρές διευθύνσεις URLs"
 
 #: modules/system/system.module:268
 msgid "Enable or disable clean URLs for your site."

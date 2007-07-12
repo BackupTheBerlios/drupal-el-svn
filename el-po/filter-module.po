@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filter-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:07+0300\n"
+"PO-Revision-Date: 2007-07-12 20:32+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Μορφότυποι εισόδου"
 
 #: modules/filter/filter.module:59
 msgid "Configure how content input by users is filtered, including allowed HTML tags, PHP code tags. Also allows enabling of module-provided filters."
-msgstr "Προσδιορίζει πώς θα φιλτράρεται η εισαγωγή περιεχομένου από τους χρήστες, HTML ετικέτες, PHP κώδικας. Επίσης επιτρέπει την ενεργοποίηση τα φίλτρα από μονάδες."
+msgstr "Προσδιορισμός του πώς θα φιλτράρεται η εισαγωγή περιεχομένου από τους χρήστες, συμπεριλαμβανομένων των ετικετών HTML και του κώδικα PHP. Επίσης επιτρέπει την ενεργοποίηση των φίλτρων που παρέχουν οι μονάδες."
 
 #: modules/filter/filter.module:71
 msgid "Add input format"
@@ -576,11 +576,3 @@ msgstr "διαχείριση φίλτρων"
 msgid "filter"
 msgstr "φίλτρο"
 
-#~ msgid "An illegal choice has been detected. Please contact the site administrator."
-#~ msgstr "Ανιχνεύτηκε ανεπίτρεπτη επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
-
-#~ msgid "Illegal choice %choice in %name element."
-#~ msgstr "Ανεπίτρεπτη επιλογή %choice στο στοιχείο %name."
-
-#~ msgid "form"
-#~ msgstr "φόρμα"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:25+0300\n"
+"PO-Revision-Date: 2007-07-12 20:17+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "Γλωσσική προσαρμογή"
 
 #: modules/locale/locale.module:52
 msgid "Configure site localization and user interface translation."
-msgstr "Ρύθμισε την γλώσσα του ιστοτόπου και την γλωσσικές διεπαφές των μελών."
+msgstr "Ρύθμιση της γλωσσικής προσαρμογής του ιστοτόπου και της γλώσσας διεπαφής των χρηστών."
 
 #: modules/locale/locale.module:58
 msgid "Manage languages"

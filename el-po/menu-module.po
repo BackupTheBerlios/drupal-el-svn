@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: menu-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:07+0300\n"
+"PO-Revision-Date: 2007-07-12 20:04+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "Μενού"
 
 #: modules/menu/menu.module:43
 msgid "Control your site's navigation menu, primary links and secondary links. as well as rename and reorganize menu items."
-msgstr "Διαχείριση του μενού πλοήγησης του ιστοτόπου, τους πρωταρχικούς και δευτερεύοντες συνδέσμους, καθώς επίσης και μετονομασία και αναδιοργάνωση των στοιχείων μενού."
+msgstr "Διαχείριση των μενού πλοήγησης του ιστοτόπου, των πρωταρχικών και δευτερευόντων συνδέσμων, καθώς επίσης μετονομασία και αναδιοργάνωση των στοιχείων μενού."
 
 #: modules/menu/menu.module:52
 msgid "Add menu item"
@@ -275,3 +275,4 @@ msgstr "ανενεργό"
 #: modules/menu/menu.module:167
 msgid "administer menu"
 msgstr "διαχείριση μενού"
+

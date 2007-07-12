@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contact-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:49+0300\n"
+"PO-Revision-Date: 2007-07-12 20:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "Φόρμα επικοινωνίας"
 
 #: modules/contact/contact.module:48
 msgid "Create a system contact form and set up categories for the form to use."
-msgstr "Δημιουργήστε φόρμες επικοινωνίας και ορίστε τις κατηγορίες που θα χρησιμοποιεί η φόρμα."
+msgstr "Δημιουργία φορμών επικοινωνίας και ορισμός των κατηγοριών που θα χρησιμοποιεί η φόρμα."
 
 #: modules/contact/contact.module:67
 msgid "Edit contact category"

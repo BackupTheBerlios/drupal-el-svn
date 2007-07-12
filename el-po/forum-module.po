@@ -1,17 +1,20 @@
+# Greek Drupal translation of forum-module.po to Greek
 # Greek translation of Drupal 5.1 (forum.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: forum-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-06-08 23:28+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-12 19:49+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/forum/forum.module:15
 msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
@@ -51,7 +54,7 @@ msgstr "Φόρουμ"
 
 #: modules/forum/forum.module:45
 msgid "Control forums and their hierarchy and change forum settings."
-msgstr "Ελέγξτε τα φόρουμ και την ιεραρχία τους και τροποποιήστε τις ρυθμίσεις τους."
+msgstr "Έλεγχος των φόρουμ και της ιεραρχίας τους και τροποποίηση των ρυθμίσεων τους."
 
 #: modules/forum/forum.module:55
 msgid "Add container"

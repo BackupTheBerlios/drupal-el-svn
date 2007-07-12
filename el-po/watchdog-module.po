@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: watchdog-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:27+0300\n"
+"PO-Revision-Date: 2007-07-12 20:49+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Η μονάδα watchdog (φύλακας) παρακολουθεί το 
 
 #: modules/watchdog/watchdog.module:22
 msgid "The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the watchdog report on a regular basis to ensure their site is working properly."
-msgstr "Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές θα πρέπει να ελέγχουν τακτικά την αναφορά του watchdog για να βεβαιώνονται ότι ο ιστοτόπος λειτουργεί κανονικά."
+msgstr "Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές θα πρέπει να ελέγχουν τακτικά την αναφορά του watchdog για να βεβαιώνονται ότι ο ιστοτόπος λειτουργεί κανονικά."
 
 #: modules/watchdog/watchdog.module:23
 msgid "For more information please read the configuration and customization handbook <a href=\"@watchdog\">Watchdog page</a>."
@@ -30,7 +30,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/watchdog/watchdog.module:26
 msgid "The watchdog module monitors your web site, capturing system events in a log to be reviewed by an authorized individual at a later time. The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the watchdog report on a regular basis as it is often the only way to tell what is going on."
-msgstr "Η μονάδα watchdog (φύλακας) παρακολουθεί τον ιστοτόπο σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο. Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Είναι ζωτικό να ελέγχετε τακτικά την αναφορά του watchdog, αφού συχνά είναι ο μόνος τρόπος για να διαπιστώσετε τι γίνεται."
+msgstr "Η μονάδα watchdog (φύλακας) παρακολουθεί τον ιστοτόπο σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο. Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Είναι ζωτικός ο τακτικός έλεγχος της αναφοράς του watchdog, αφού συχνά είναι ο μόνος τρόπος για να διαπιστωθεί τι συμβαίνει."
 
 #: modules/watchdog/watchdog.module:37
 msgid "Recent log entries"
@@ -42,19 +42,19 @@ msgstr "Προβολή γεγονότων που καταγράφηκαν πρό
 
 #: modules/watchdog/watchdog.module:41
 msgid "Top 'page not found' errors"
-msgstr "Κορυφαία 'σελίδα δεν βρέθηκε' σφάλματα"
+msgstr "Δημοφιλέστερα σφάλματα τύπου 'η σελίδα δεν βρέθηκε'"
 
 #: modules/watchdog/watchdog.module:42
 msgid "View 'page not found' errors (404s)."
-msgstr "Προβολή 'η σελίδα δεν βρέθηκε' σφάλματα (404)."
+msgstr "Προβολή σφαλμάτων τύπου 'η σελίδα δεν βρέθηκε' (404)."
 
 #: modules/watchdog/watchdog.module:45
 msgid "Top 'access denied' errors"
-msgstr "Κορυφαία 'δεν επιτρέπεται η πρόσβαση' σφάλματα"
+msgstr "Δημοφιλέστερα σφάλματα τύπου 'δεν επιτρέπεται η πρόσβαση'"
 
 #: modules/watchdog/watchdog.module:46
 msgid "View 'access denied' errors (403s)."
-msgstr "Προβολή 'δεν επιτρέπεται η πρόσβαση' σφάλματα (403)."
+msgstr "Προβολή  σφαλμάτων τύπου 'δεν επιτρέπεται η πρόσβαση' (403)."
 
 #: modules/watchdog/watchdog.module:83
 msgid "all messages"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drupal-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:25+0300\n"
+"PO-Revision-Date: 2007-07-12 20:29+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr "Προεπιλεγμένος διακομιστής πιστοποίησ
 
 #: modules/drupal/drupal.module:125
 msgid "The URL of the default Drupal authentication server. Omit the %http prefix (e.g. drupal.org, www.example.com, etc.). If the authentication service has been enabled, users registered at the server specified here, will not need to append the server to their user name when logging into your site. This enables users to provide a briefer, more familiar username in the login form."
-msgstr "Το URL του προεπιλεγμένου διακομιστή αναγνώρισης. Χωρίς το %http (π.χ drupal.org, www.drupal.org κτλ). Αν η υπηρεσία αναγνώρισης είναι ενεργή, οι εγγεγραμμένοι χρήστες στον ορισμένο διακομιστή, δεν θα χρειάζονται να ορίζουν στον διακομιστή το όνομα χρήστη για να εισέλθουν στον ιστοτόπο. Αυτό προσφέρει ένα συντομότερο, προσφιλέστερο όνομα χρήστη στην φόρμα εισόδου."
+msgstr "Το URL του προεπιλεγμένου διακομιστή αναγνώρισης. Χωρίς το %http (π.χ drupal.org, www.drupal.org κ.τ.λ.). Αν η υπηρεσία αναγνώρισης είναι ενεργή, οι εγγεγραμμένοι χρήστες στον ορισμένο διακομιστή, δεν θα χρειάζονται να ορίζουν στον διακομιστή το όνομα χρήστη για να εισέλθουν στον ιστοτόπο. Αυτό προσφέρει ένα συντομότερο, προσφιλέστερο όνομα χρήστη στην φόρμα εισόδου."
 
 #: modules/drupal/drupal.module:130
 msgid "Only allow authentication from default server"
@@ -193,7 +193,7 @@ msgstr "Εγγραφή ιστοτόπου"
 
 #: modules/drupal/drupal.module:344
 msgid "Register with another Drupal site (drupal.org by default) for statistics sharing, or set up your server to be a central server for registrations."
-msgstr "Εγγραφή σε άλλο ιστοτόπο Drupal (προεπιλογή drupal.org) για διανομή στατιστικών, ή όρισε τον διακομιστή σου ως κεντρικό διακομιστή για εγγραφές."
+msgstr "Εγγραφή σε άλλο ιστοτόπο Drupal (προεπιλογή drupal.org) για διανομή στατιστικών ή ορισμός του διακομιστή σας ως κεντρικού διακομιστή για εγγραφές."
 
 #: modules/drupal/drupal.module:349
 msgid "Distributed authentication"
@@ -201,7 +201,7 @@ msgstr "Κατανεμημένη πιστοποίηση"
 
 #: modules/drupal/drupal.module:350
 msgid "Allow your site to accept logins from other Drupal sites such as drupal.org."
-msgstr "Επέτρεψε στον ιστοτόπο σου να δέχεται εγγραφές από άλλους ιστοτόπους Drupal, όπως το drupal.org."
+msgstr "Να επιτρέπεται ο ιστοτόπο σας να δέχεται εγγραφές από άλλους ιστοτόπους Drupal, όπως το drupal.org."
 
 #: modules/drupal/drupal.module:197
 msgid "client ping"

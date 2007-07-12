@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:22+0300\n"
+"PO-Revision-Date: 2007-07-12 20:11+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,11 +38,11 @@ msgstr "Διαβάστε ολόκληρο το άρθρο για να δείτε
 
 #: modules/upload/upload.module:73
 msgid "File uploads"
-msgstr "Ανέβασμα αρχείων"
+msgstr "Αποστολή αρχείων"
 
 #: modules/upload/upload.module:74
 msgid "Control how files may be attached to content."
-msgstr "Ελέγξτε πώς θα επισυνάπτονται τα αρχεία στο περιεχόμενο"
+msgstr "Έλεγχος του πώς θα επισυνάπτονται τα αρχεία στο περιεχόμενο."
 
 #: modules/upload/upload.module:113
 msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."

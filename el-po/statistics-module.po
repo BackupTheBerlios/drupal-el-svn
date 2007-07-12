@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: statistics-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 13:26+0300\n"
+"PO-Revision-Date: 2007-07-12 20:38+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "Τελευταίες εμφανίσεις"
 
 #: modules/statistics/statistics.module:110
 msgid "View pages that have recently been visited."
-msgstr "Δείτε ιστοσελίδες που προσπελάστηκαν πρόσφατα."
+msgstr "Προβολή ιστοσελίδων που προσπελάστηκαν πρόσφατα."
 
 #: modules/statistics/statistics.module:115
 msgid "Top pages"
@@ -97,7 +97,7 @@ msgstr "Κορυφαίες σελίδες"
 
 #: modules/statistics/statistics.module:116
 msgid "View pages that have been hit frequently."
-msgstr "Δείτε τις ιστοσελίδες με την συχνότερη προσπέλαση."
+msgstr "Προβολή ιστοσελίδων με την συχνότερη προσπέλαση."
 
 #: modules/statistics/statistics.module:122
 msgid "Top visitors"
@@ -105,7 +105,7 @@ msgstr "Κορυφαίοι επισκέπτες"
 
 #: modules/statistics/statistics.module:123
 msgid "View visitors that hit many pages."
-msgstr "Εμφάνιση επισκέπτων που προσπέλασαν πολλές ιστοσελίδες."
+msgstr "Εμφάνιση επισκεπτών που προσπέλασαν πολλές ιστοσελίδες."
 
 #: modules/statistics/statistics.module:129
 msgid "Top referrers"
@@ -113,19 +113,19 @@ msgstr "Κορυφαίες αναφορές"
 
 #: modules/statistics/statistics.module:130
 msgid "View top referrers."
-msgstr "Εμφάνιση κορυφαίων αναφορών από άλλες ιστοσελίδες."
+msgstr "Προβολή κορυφαίων αναφορών από άλλες ιστοσελίδες."
 
 #: modules/statistics/statistics.module:136
 msgid "View access log."
-msgstr "Εμφάνιση καταγραφών πρόσβασης."
+msgstr "Προβολή του ημερολογίου πρόσβασης."
 
 #: modules/statistics/statistics.module:142;367
 msgid "Access log settings"
-msgstr "Εμφάνιση των ρυθμίσεων καταγραφής"
+msgstr "Ρύθμιση του ημερολογίου πρόσβασης"
 
 #: modules/statistics/statistics.module:143
 msgid "Control details about what and how your site logs."
-msgstr "Διαχείριση των λεπτομερειών του αρχείου καταγραφής του ιστοτόπου σας."
+msgstr "Έλεγχος του τι και το πως το καταγράφει ο ιστοτόπος σας."
 
 #: modules/statistics/statistics.module:154
 msgid "Track page visits"
