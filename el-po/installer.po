@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: installer\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:10+0300\n"
+"PO-Revision-Date: 2007-07-12 10:17+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,398 +18,387 @@ msgstr ""
 
 #: install.php:92
 msgid "All necessary changes to %file have been made, so you should now remove write permissions to this file. Failure to remove write permissions to this file is a security risk."
-msgstr ""
+msgstr "Όλες οι απαραίτητες αλλαγές στο αρχείο %file ολοκληρώθηκαν, οπότε μπορείτε να αφαιρέσετε τις άδειες εγγραφής στο αρχείο. Η αποτυχία της αφαίρεσης των αδειών εγγραφής στο αρχείο αυτό αποτελεί ρίσκο ασφαλείας."
 
 #: install.php:95
 msgid "All necessary changes to %file have been made. It has been set to read-only for security."
-msgstr ""
+msgstr "Όλες οι απαραίτητες αλλαγές στο αρχείο %file ολοκληρώθηκαν. Έχουν οριστεί οι άδειές του μόνο για ανάγνωση, για λόγους ασφαλείας."
 
 #: install.php:158
 msgid "The @drupal installer requires write permissions to %file during the installation process."
-msgstr ""
+msgstr "Ο εγκαταστάτης @drupal απαιτεί άδεια εγγραφής στο αρχείο %file κατά τη διάρκεια της διαδικασίας εγκατάστασης."
 
 #: install.php:160
-#, fuzzy
 msgid "Drupal database setup"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Εγκατάσταση βάσης δεδομένων του Drupal"
 
 #: install.php:170
-#, fuzzy
 msgid "Database configuration"
-msgstr "Αρχείο ρυθμίσεων"
+msgstr "Ρυθμίσεις βάσης δεδομένων"
 
 #: install.php:183
 msgid "Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that <a href=\"@drupal-databases\">Drupal supports</a>."
-msgstr ""
+msgstr "Ο διακομιστής ιστοσελίδων σας φαίνεται να μην υποστηρίζει οποιοδήποτε από τους κοινούς τύπους βάσεων δεδομένων. Επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας προκειμένου να δείτε αν παρέχουν βάσεις δεδομένων που <a href=\"@drupal-databases\">υποστηρίζει το Drupal</a>."
 
 #: install.php:189
 msgid "Basic options"
-msgstr ""
+msgstr "Βασικές επιλογές"
 
 #: install.php:190
 msgid "To set up your @drupal database, enter the following information."
-msgstr ""
+msgstr "Για να δημιουργήσετε τη βάση δεδομένων @drupal, εισάγετε τις παρακάτω πληροφορίες."
 
 #: install.php:198
-#, fuzzy
 msgid "Database type"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Τύπος βάσης δεδομένων"
 
 #: install.php:202
 msgid "The type of database your @drupal data will be stored in."
-msgstr ""
+msgstr "Ο τύπος της βάσης δεδομένων στην οποία θα αποθηκεύονται τα @drupal δεδομένα σας."
 
 #: install.php:204
 msgid "The name of the database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
-msgstr ""
+msgstr "Το όνομα της βάσης δεδομένων όπου θα αποθηκεύονται τα @drupal δεδομένα σας. Πρέπει να υπάρχει ήδη στο διακομιστή προκειμένου το @drupal να εγκατασταθεί."
 
 #: install.php:213
 msgid "The name of the %db_type database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
-msgstr ""
+msgstr "Το όνομα της %db_type βάσης δεδομένων όπου θα αποθηκεύονται τα @drupal δεδομένα σας. Πρέπει να υπάρχει ήδη στο διακομιστή προκειμένου το @drupal να εγκατασταθεί."
 
 #: install.php:220
-#, fuzzy
 msgid "Database name"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Όνομα βάσης δεδομένων"
 
 #: install.php:231
-#, fuzzy
 msgid "Database username"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Όνομα χρήστη βάσης δεδομένων"
 
 #: install.php:241
-#, fuzzy
 msgid "Database password"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Συνθηματικό βάσης δεδομένων"
 
 #: install.php:249
 msgid "Advanced options"
-msgstr ""
+msgstr "Επιλογές για προχωρημένους"
 
 #: install.php:252
 msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
-msgstr ""
+msgstr "Οι επιλογές αυτές απαιτούνται για ορισμένους ιστοτόπους. Αν δεν είστε σίγουρος/η τι θα πρέπει να εισάγετε εδώ, αφήστε τις προεπιλεγμένες ρυθμίσεις ή επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: install.php:258
-#, fuzzy
 msgid "Database host"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Όνομα διακομιστή βάσης δεδομένων"
 
 #: install.php:263
 msgid "If your database is located on a different server, change this."
-msgstr ""
+msgstr "Αν η βάση δεδομένων εκτελείται σε διαφορετικό διακομιστή, αλλάξτε το αυτό."
 
 #: install.php:269
-#, fuzzy
 msgid "Database port"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Αριθμός θύρας επικοινωνίας της βάσης δεδομένων"
 
 #: install.php:273
 msgid "If your database server is listening to a non-standard port, enter its number."
-msgstr ""
+msgstr "Αν ο διακομιστής της βάσης δεδομένων «ακούει» σε μη πρότυπο αριθμό θύρας, εισάγετε εδώ τον αριθμό της."
 
 #: install.php:279
 msgid "Table prefix"
-msgstr ""
+msgstr "Πρόθεμα για τους πίνακες της βάσης δεδομένων"
 
 #: install.php:283
 msgid "If more than one @drupal web site will be sharing this database, enter a table prefix for your @drupal site here."
-msgstr ""
+msgstr "Αν περισσότεροι από ένας @drupal ιστοτόποι θα μοιράζονται αυτή τη βάση δεδομένων, εισάγετε εδώ ένα πρόθεμα για τους πίνακες για τον @drupal ιστοτόπο σας."
 
 #: install.php:288;429;485
-#, fuzzy
 msgid "Save configuration"
-msgstr "Αρχείο ρυθμίσεων"
+msgstr "Αποθήκευση ρυθμίσεων"
 
 #: install.php:315
 msgid "You have configured @drupal to use the default username and password. This is not allowed for security reasons."
-msgstr ""
+msgstr "Έχετε διευθετήσει το @drupal να χρησιμοποιεί το εξ' ορισμού όνομα χρήστη και συνθηματικό. Αυτό δεν επιτρέπεται για λόγους ασφάλειας."
 
 #: install.php:320
 msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters, underscores or dots."
-msgstr ""
+msgstr "Το πρόθεμα, %db_prefix, που εισάγατε για τους πίνακες της βάσης δεδομένων είναι μη έγκυρο. Το πρόθεμα των πινάκων μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, κάτω παύλες ή τελείες."
 
 #: install.php:324
 msgid "Database port must be a number."
-msgstr ""
+msgstr "Ο αριθμός θύρας για τη βάση δεδομένων πρέπει να είναι αριθμός."
 
 #: install.php:334
 msgid "In your %settings_file file you have configured @drupal to use a %db_type server, however your PHP installation currently does not support this database type."
-msgstr ""
+msgstr "Στο αρχείο ρυθμίσεων %settings_file έχετε καθορίσει το @drupal να χρησιμοποιεί ένα διακομιστή %db_type, η εγκατάστασή σας όμως της PHP δεν υποστηρίζει αυτόν τον τύπο της βάσης δεδομένων."
 
 #: install.php:347
 msgid "In order for Drupal to work and to proceed with the installation process you must resolve all permission issues reported above. We were able to verify that we have permission for the following commands: %commands. For more help with configuring your database server, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what any of this means you should probably contact your hosting provider."
-msgstr ""
+msgstr "Προκειμένου το Drupal να δουλεύει σωστά και να συνεχιστεί η διαδικασία εγκατάστασης θα πρέπει να επιλυθούν όλα τα προβλήματα σχετικά με την ασφάλεια που αναφέρονται παραπάνω. Ήταν δυνατή η επαλήθευση ότι υπάρχουν οι απαιτούμενες άδειες για τις ακόλουθες εντολές: %commands. Για περισσότερη βοήθεια σχετικά με την ρύθμιση του διακομιστή της βάσης δεδομένων, δείτε το <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν τα παραπάνω, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: install.php:402
 msgid "Select an installation profile"
-msgstr ""
+msgstr "Επιλέξτε ένα προφίλ εγκατάστασης"
 
 #: install.php:460
 msgid "Choose your preferred language"
-msgstr ""
+msgstr "Επιλέξτε την προτεινόμενη γλώσσα"
 
 #: install.php:473
 msgid "(@language)"
-msgstr ""
+msgstr "(@language)"
 
 #: install.php:479
 msgid "(built-in)"
-msgstr ""
+msgstr "(ενσωματωμένη)"
 
 #: install.php:495
 msgid "No profiles available"
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμα προφίλ"
 
 #: install.php:496
 msgid "We were unable to find any installer profiles. Installer profiles tell us what modules to enable and what schema to install in the database. A profile is necessary to continue with the installation process."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εύρεση οποιωνδήποτε προφίλ εγκατάστασης. Τα προφίλ εγκατάστασης πληροφορούν για το ποιες μονάδες πρέπει να ενεργοποιηθούν και ποιο σχήμα βάσης να εγκατασταθεί στη βάση δεδομένων. Απαιτείται ένα προφίλ για τη συνέχεια της διαδικασίας της εγκατάστασης."
 
 #: install.php:508
 msgid "Drupal already installed"
-msgstr ""
+msgstr "Το Drupal έχει ήδη εγκατασταθεί"
 
 #: install.php:509
 msgid "<ul><li>To start over, you must empty your existing database.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
-msgstr ""
+msgstr "<ul><li>Για να ξεκινήσετε πάλι, θα πρέπει να αδειάσετε την υπάρχουσα βάση δεδομένων.</li><li>Για να εγκαταστήσετε σε διαφορετική βάση δεδομένων, τροποποιήστε το σωστό αρχείο <em>settings.php</em> που είναι μέσα στον κατάλογο <em>sites</em>.</li><li>Για να αναβαθμίσετε μια υπάρχουσα εγκατάσταση, μεταβείτε στο <a href=\"@base-url/update.php\">σενάριο αναβάθμισης</a>.</li></ul>"
 
 #: install.php:520
 msgid "Modules missing"
-msgstr ""
+msgstr "Λείπουν μονάδες"
 
 #: install.php:521
 msgid "One or more required modules are missing. Please check the error messages and <a href=\"!url\">try again</a>."
-msgstr ""
+msgstr "Δεν υπάρχουν μία ή περισσότερες απαιτούμενες μονάδες. Ελέγξτε τα μηνύματα λάθους και <a href=\"!url\">προσπαθήστε πάλι</a>."
 
 #: install.php:540
 msgid "@drupal installation complete"
-msgstr ""
+msgstr "Ολοκληρώθηκε η εγκατάσταση του @drupal"
 
 #: install.php:541
 msgid "Congratulations, @drupal has been successfully installed."
-msgstr ""
+msgstr "Συγχαρητήρια, το @drupal εγκαταστάθηκε επιτυχώς."
 
 #: install.php:556
 msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
-msgstr ""
+msgstr "Διαβάστε τα παραπάνω μηνύματα προτού μεταβείτε στο <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
 #: install.php:556
 msgid "You may now visit <a href=\"@url\">your new site</a>."
-msgstr ""
+msgstr "Μπορείτε τώρα να επισκεφθείτε το <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
 #: install.php:575
 msgid "Currently using !item !version"
-msgstr ""
+msgstr "Χρησιμοποίηση του !item !version"
 
 #: install.php:579
 msgid "Incompatible environment"
-msgstr ""
+msgstr "Ασύμβατο περιβάλλον"
 
 #: (duplicate) includes/database.mysql.inc:24 includes/database.mysqli.inc:27
 msgid "MySQL database"
-msgstr ""
+msgstr "Βάση δεδομένων MySQL"
 
 #: (duplicate) includes/database.mysql.inc:30 includes/database.mysqli.inc:33
-#, fuzzy
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
-msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον Apache %version."
+msgstr "Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον MySQL %version."
 
 #: (duplicate) includes/database.pgsql.inc:23
 msgid "PostgreSQL database"
-msgstr ""
+msgstr "Βάση δεδομένων PostgreSQL"
 
 #: (duplicate) includes/database.pgsql.inc:29
-#, fuzzy
 msgid "Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL %version."
-msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον Apache %version."
+msgstr "Ο διακομιστής σας PostgreSQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον PostgreSQL %version."
 
 #: (duplicate) includes/database.pgsql.inc:405
 msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
-msgstr ""
+msgstr "Η βάση δεδομένων PostgreSQL που χρησιμοποιείτε έχει λανθασμένη ρύθμιση για την κωδικοποίηση χαρακτήρων (%encoding). Είναι πιθανό να μη λειτουργήσει με τον αναμενόμενο τρόπο. Προτείνεται να την ξαναδημιουργήσετε με κωδικοποίηση UTF-8/Unicode. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <a href=\"@url\">τεκμηρίωση της PostgreSQL</a>."
 
 #: includes/install.inc:229
 msgid "Failed to modify %settings, please verify the file permissions."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η τροποποίηση των %settings, ελέγξτε τις άδειες του αρχείου."
 
 #: includes/install.inc:233
 msgid "Failed to open %settings, please verify the file permissions."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάγνωση των %settings, ελέγξτε τις άδειες του αρχείου."
 
 #: includes/install.inc:287
 msgid "The %module module is required but was not found. Please move it into the <em>modules</em> subdirectory."
-msgstr ""
+msgstr "Η μονάδα %module απαιτείται, αλλά δε βρέθηκε. Μετακινήστε την στον υποκατάλογο <em>modules</em>."
 
 #: includes/install.mysql.inc:24
 msgid "PHP MySQL support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη για MySQL της PHP δεν είναι ενεργοποιημένη."
 
 #: includes/install.mysql.inc:44 includes/install.mysqli.inc:39
 msgid "Failure to connect to your MySQL database server. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η επικοινωνία με το διακομιστή βάσης δεδομένων MySQL. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα έχετε το σωστό όνομα χρήστη και συνθηματικό;</li><li>Έχετε εισάγει το σωστό όνομα του διακομιστή της βάσης δεδομένων;</li><li>Γνωρίζετε αν σίγουρα εκτελείται ο διακομιστής της βάσης δεδομένων;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: includes/install.mysql.inc:50 includes/install.mysqli.inc:45
 msgid "We were able to connect to the MySQL database server (which means your username and password are valid) but not able to select your database. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct database name?</li><li>Are you sure the database exists?</li><li>Are you sure the username has permission to access the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
-msgstr ""
+msgstr "Ήταν δυνατή η σύνδεση με το διακομιστή βάσης δεδομένων MySQL (που σημαίνει ότι το όνομα χρήστη και το συνθηματικό είναι σωστά), αλλά δεν ήταν δυνατή η επιλογή για χρήση της βάσης δεδομένων. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα έχετε εισάγει το σωστό όνομα βάσης δεδομένων;</li><li>Υπάρχει σίγουρα η βάση;</li><li>Σίγουρα το όνομα χρήστη έχει άδεια για την προσπέλαση της βάσης δεδομένων;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: includes/install.mysql.inc:60 includes/install.mysqli.inc:55
 msgid "We were unable to create a test table on your MySQL database server with the command %query. MySQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary MySQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL με την εντολή %query. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα το καθορισμένο όνομα χρήστη έχει τις απαραίτητες άδειες της MySQL για τη δημιουργία πινάκων στη βάση;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: includes/install.mysql.inc:71 includes/install.mysqli.inc:66
 msgid "We were unable to insert a value into a test table on your MySQL database server. We tried inserting a value with the command %query and MySQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εισαγωγή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια εισαγωγής μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysql.inc:82 includes/install.mysqli.inc:77
 msgid "We were unable to update a value in a test table on your MySQL database server. We tried updating a value with the command %query and MySQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ενημέρωση μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια ενημέρωσης μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysql.inc:93 includes/install.mysqli.inc:88
 msgid "We were unable to lock a test table on your MySQL database server. We tried locking a table with the command %query and MySQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το κλείδωμα ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια κλειδώματος ενός πίνακα με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysql.inc:104 includes/install.mysqli.inc:99
 msgid "We were unable to unlock a test table on your MySQL database server. We tried unlocking a table with the command %query and MySQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το ξεκλείδωμα ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια ξεκλειδώματος ενός πίνακα με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysql.inc:115 includes/install.mysqli.inc:110
 msgid "We were unable to delete a value from a test table on your MySQL database server. We tried deleting a value with the command %query and MySQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια διαγραφής μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysql.inc:126 includes/install.mysqli.inc:121
 msgid "We were unable to drop a test table from your MySQL database server. We tried dropping a table with the command %query and MySQL reported the following error %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια διαγραφής ενός πίνακα με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.mysqli.inc:24
 msgid "PHP MySQLi support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη MySQLi της PHP δεν είναι ενεργοποιημένη."
 
 #: includes/install.pgsql.inc:24
 msgid "PHP PostgreSQL support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη PostgreSQL της PHP δεν είναι ενεργοποιημένη."
 
 #: includes/install.pgsql.inc:43
 msgid "Failure to connect to your PostgreSQL database server. PostgreSQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li><li>Are you sure you typed the correct database name?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η επικοινωνία με το διακομιστή βάσης δεδομένων PostgreSQL. Η PostgreSQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα έχετε το σωστό όνομα χρήστη και συνθηματικό;</li><li>Έχετε εισάγει το σωστό όνομα του διακομιστή της βάσης δεδομένων;</li><li>Γνωρίζετε αν σίγουρα εκτελείται ο διακομιστής της βάσης δεδομένων;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: includes/install.pgsql.inc:53
 msgid "We were unable to create a test table on your PostgreSQL database server with the command %query. PostgreSQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary PostgreSQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL με την εντολή %query. Η PostgreSQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα το καθορισμένο όνομα χρήστη έχει τις απαραίτητες άδειες της PostgreSQL για τη δημιουργία πινάκων στη βάση;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: includes/install.pgsql.inc:64
 msgid "We were unable to insert a value into a test table on your PostgreSQL database server. We tried inserting a value with the command %query and PostgreSQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εισαγωγή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια εισαγωγής μιας τιμής με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.pgsql.inc:75
 msgid "We were unable to update a value in a test table on your PostgreSQL database server. We tried updating a value with the command %query and PostgreSQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ενημέρωση μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια ενημέρωσης μιας τιμής με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.pgsql.inc:86
 msgid "We were unable to lock a test table on your PostgreSQL database server. We tried locking a table with the command %query and PostgreSQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το κλείδωμα ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια κλειδώματος ενός πίνακα με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.pgsql.inc:97
 msgid "We were unable to unlock a test table on your PostgreSQL database server. We tried unlocking a table with the command %query and PostgreSQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το ξεκλείδωμα ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια ξεκλειδώματος ενός πίνακα με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.pgsql.inc:108
 msgid "We were unable to delete a value from a test table on your PostgreSQL database server. We tried deleting a value with the command %query and PostgreSQL reported the following error: %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια διαγραφής μιας τιμής με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: includes/install.pgsql.inc:119
 msgid "We were unable to drop a test table from your PostgreSQL database server. We tried dropping a table with the command %query and PostgreSQL reported the following error %error."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η διαγραφή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων PostgreSQL. Έγινε προσπάθεια διαγραφής μιας τιμής με την εντολή %query και η PostgreSQL ανέφερε το παρακάτω μήνυμα: %error."
 
 #: (duplicate) includes/locale.inc:518
 msgid "The translation import failed, because the file %filename could not be read."
-msgstr ""
+msgstr "Η εισαγωγή της μετάφρασης απέτυχε, διότι δεν ήταν δυνατή η ανάγνωση του αρχείου %filenamel."
 
 #: (duplicate) includes/locale.inc:543
 msgid "The translation file %filename contains an error: \"msgstr\" was expected but not found on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgstr\" αναμενόταν να βρεθεί στη γραμμή %line, αλλά δε βρέθηκε."
 
 #: (duplicate) includes/locale.inc:549
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgid_plural\" αναμενόταν να βρεθεί στη γραμμή %line, αλλά δε βρέθηκε."
 
 #: (duplicate) includes/locale.inc:555;573;585;593;607;616
 msgid "The translation file %filename contains a syntax error on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει ένα συντακτικό σφάλμα στη γραμμή %line."
 
 #: (duplicate) includes/locale.inc:567
 msgid "The translation file %filename contains an error: \"msgid\" is unexpected on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgid\" δεν αναμενόταν να βρεθεί στη γραμμή %line."
 
 #: (duplicate) includes/locale.inc:581
 msgid "The translation file %filename contains an error: \"msgstr[]\" is unexpected on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgstr[]\" δεν αναμενόταν να βρεθεί στη γραμμή %line."
 
 #: (duplicate) includes/locale.inc:601
 msgid "The translation file %filename contains an error: \"msgstr\" is unexpected on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgstr\" δεν αναμενόταν να βρεθεί στη γραμμή %line."
 
 #: (duplicate) includes/locale.inc:629
 msgid "The translation file %filename contains an error: there is an unexpected string on line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: βρέθηκε μη αναμενόμενη φράση στη γραμμή %line."
 
 #: (duplicate) includes/locale.inc:640
 msgid "The translation file %filename ended unexpectedly at line %line."
-msgstr ""
+msgstr "Το αρχείο μετάφρασης %filename τελείωσε απροσδόκητα στη γραμμή %line."
 
 #: includes/theme.inc:475
 msgid "The following errors must be resolved before you can continue the installation process"
-msgstr ""
+msgstr "Τα παρακάτω σφάλματα πρέπει να επιλυθούν προτού συνεχιστεί η διαδικασία της εγκατάστασης"
 
 #: includes/theme.inc:475
 msgid "The following error must be resolved before you can continue the installation process"
-msgstr ""
+msgstr "Το παρακάτω σφάλμα πρέπει να επιλυθεί προτού συνεχιστεί η διαδικασία της εγκατάστασης"
 
 #: includes/theme.inc:481
 msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
-msgstr ""
+msgstr "Πρέπει να γίνει προσεκτική επισκόπηση των παρακάτω προειδοποιητικών μηνυμάτων, αλλά στις περισσότερες περιπτώσεις μπορούν να αγνοηθούν με ασφάλεια"
 
 #: includes/theme.inc:481
 msgid "The following installation warning should be carefully reviewed, but in most cases may be safely ignored"
-msgstr ""
+msgstr "Πρέπει να γίνει προσεκτική επισκόπηση του παρακάτω προειδοποιητικού μηνύματος, αλλά στις περισσότερες περιπτώσεις μπορεί να αγνοηθεί με ασφάλεια"
 
 #: (duplicate) includes/unicode.inc:48
 msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for more information."
-msgstr ""
+msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεώτερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP PCRE</a>."
 
 #: (duplicate) includes/unicode.inc:53
 msgid "Operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"@url\">PHP mbstring extension</a> for improved Unicode support."
-msgstr ""
+msgstr "Οι πράξεις σε ακολουθίες χαρακτήρων Unicode γίνονται με προσομοίωση όσο καλύτερα επιτρέπουν οι συνθήκες. Για βελτιωμένη υποστήριξη Unicode εγκαταστήστε την επέκταση <a href=\"@url\">PHP mbstring</a>."
 
 #: (duplicate) includes/unicode.inc:58
 msgid "Multibyte string function overloading in PHP is active and must be disabled. Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
-msgstr ""
+msgstr "Η υπερφόρτωση συναρτήσεων για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.func_overload</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
 
 #: (duplicate) includes/unicode.inc:61
 msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.encoding_translation</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
-msgstr ""
+msgstr "Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.encoding_translation</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
 
 #: (duplicate) includes/unicode.inc:64
 msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
-msgstr ""
+msgstr "Η μετατροπή δεδομένων εισόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.http_input</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
 
 #: (duplicate) includes/unicode.inc:67
 msgid "Multibyte string output conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
-msgstr ""
+msgstr "Η μετατροπή δεδομένων εξόδου για τις ακολουθίες χαρακτήρων πολλών byte της PHP είναι ενεργή και πρέπει να απενεργοποιηθεί. Ελέγξτε τη ρύθμιση <em>mbstring.http_output</em> στο php.ini. Για περισσότερες πληροφορίες ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP mbstring</a>."
 
 #: (duplicate) includes/unicode.inc:84
 msgid "Standard PHP"
-msgstr ""
+msgstr "Πρότυπο PHP"
 
 #: (duplicate) includes/unicode.inc:85
 msgid "PHP Mbstring Extension"
-msgstr ""
+msgstr "Επέκταση PHP Mbstring"
 
 #: (duplicate) includes/unicode.inc:86
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: (duplicate) includes/unicode.inc:96
 msgid "Unicode library"
-msgstr ""
+msgstr "Βιβλιοθήκη Unicode"
 
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
@@ -465,7 +454,7 @@ msgstr "Τελευταία εκτέλεση πριν !time"
 
 #: (duplicate) modules/system/system.install:98
 msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
-msgstr "Δεν έγινε εκτέλεση του cron. Φαίνεται ότι δεν έχουν οριστεί εργασίες του cron στο σύστημα σας. Ελέγξτε τις σελίδες βοήθειας <a href=\"@url\">ρύθμιση εργασιών του cron</a>."
+msgstr "Δεν έγινε εκτέλεση του cron. Φαίνεται ότι δεν έχουν οριστεί εργασίες του cron στο σύστημά σας. Ελέγξτε τις σελίδες βοήθειας για τη <a href=\"@url\">ρύθμιση εργασιών του cron</a>."
 
 #: (duplicate) modules/system/system.install:100
 msgid "Never run"
@@ -489,7 +478,7 @@ msgstr "Μη εγγράψιμο"
 
 #: (duplicate) modules/system/system.install:124
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
-msgstr "Ίσως χρειαστεί να ορίσετε τον σωστό φάκελο στο <a href=\"@admin-file-system\">σελίδες ρυθμίσεις αρχείων συστήματος</a> ή να αλλάξετε τις άδειες ώστε ο φάκελος να είναι εγγράψιμος."
+msgstr "Ίσως χρειαστεί να ορίσετε τον σωστό φάκελο στη <a href=\"@admin-file-system\">σελίδα ρύθμισης αρχείων συστήματος</a> ή να αλλάξετε τις άδειες ώστε ο φάκελος να είναι εγγράψιμος."
 
 #: (duplicate) modules/system/system.install:130
 msgid "Writable (<em>public</em> download method)"
@@ -521,16 +510,17 @@ msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν
 
 #: profiles/default/default.profile:39
 msgid "Page"
-msgstr ""
+msgstr "Σελίδα"
 
 #: profiles/default/default.profile:41
 msgid "If you want to add a static page, like a contact page or an about page, use a page."
-msgstr ""
+msgstr "Αν θέλετε να δημοσιεύσετε στατικές πληροφορίες, όπως οι πληροφορίες επικοινωνίας ή μια ιστοσελίδα 'Περί..', χρησιμοποιήστε στατική σελίδα."
 
 #: profiles/default/default.profile:48
 msgid "Story"
-msgstr ""
+msgstr "Ιστόρημα"
 
 #: profiles/default/default.profile:50
 msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
-msgstr ""
+msgstr "Τα ιστορήματα είναι άρθρα στην απλούστερη μορφή: έχουν τίτλο, περίληψη και σώμα κειμένου και μπορούν να επεκταθούν από άλλες μονάδες. Η περίληψη είναι τμήμα του σώματος. Τα ιστορήματα μπορούν να χρησιμοποιηθούν ως προσωπικό ιστολόγημα ή ως κλασικά άρθρα."
+

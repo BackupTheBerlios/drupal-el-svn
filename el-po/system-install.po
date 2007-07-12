@@ -26,11 +26,11 @@ msgstr "Αν θέλετε να δημοσιεύσετε στατικές πλη�
 
 #: modules/system/system.install:3252
 msgid "Story"
-msgstr "Δημοσίευμα"
+msgstr "Ιστόρημα"
 
 #: modules/system/system.install:3254
 msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
-msgstr "Τα δημοσιεύματα είναι άρθρα στην απλούστερη μορφή: έχουν τίτλο, περίληψη και σώμα κειμένου, μπορούν να επεκταθούν από άλλες μονάδες. Η περίληψη είναι τμήμα του σώματος. Τα δημοσιεύματα μπορούν να χρησιμοποιηθούν ως προσωπικό ιστολόγημα ή ως κλασσικά άρθρα."
+msgstr "Τα ιστορήματα είναι άρθρα στην απλούστερη μορφή: έχουν τίτλο, περίληψη και σώμα κειμένου και μπορούν να επεκταθούν από άλλες μονάδες. Η περίληψη είναι τμήμα του σώματος. Τα ιστορήματα μπορούν να χρησιμοποιηθούν ως προσωπικό ιστολόγημα ή ως κλασικά άρθρα."
 
 #: modules/system/system.install:3354
 msgid "URL Filter module was disabled; this functionality has now been added to core."
