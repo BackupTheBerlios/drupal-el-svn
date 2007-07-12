@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contact-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 20:07+0300\n"
+"PO-Revision-Date: 2007-07-13 00:55+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: modules/contact/contact.module:15
 msgid "The contact module enables the use of both personal and site-wide contact forms, thereby facilitating easy communication within the community. While personal contact forms allow users to contact each other by e-mail, site-wide forms allow community members to contact the site administration from a central location. Users can specify a subject and message in the contact form, and also request that a copy of the e-mail be sent to their own address."
-msgstr "Η μονάδα contact επιτρέπει να χρησιμοποιούνται φόρμες επικοινωνίας, τόσο προσωπικές όσο και κεντρικές για ολόκληρο τον ιστότοπο, οι οποίες διευκολύνουν την επικοινωνία μέσα στην κοινότητα. Οι προσωπικές φόρμες επικοινωνίας επιτρέπουν στους χρήστες να επικοινωνούν μεταξύ τους μέσω e-mail, ενώ οι κεντρικές φόρμες επιτρέπουν στα μέλη της κοινότητας να επικοινωνούν με τους διαχειριστές από ένα κεντρικό σημείο. Στη φόρμα επικοινωνίας, οι χρήστες μπορούν να ορίζουν το θέμα και να γράφουν ένα μήνυμα, και επίσης να ζητούν να σταλεί ένα αντίγραφο του e-mail στη δική τους διεύθυνση."
+msgstr "Η μονάδα contact επιτρέπει να χρησιμοποιούνται φόρμες επικοινωνίας, τόσο προσωπικές όσο και κεντρικές για ολόκληρο τον ιστότοπο, οι οποίες διευκολύνουν την επικοινωνία μέσα στην κοινότητα. Οι προσωπικές φόρμες επικοινωνίας επιτρέπουν στους χρήστες να επικοινωνούν μεταξύ τους μέσω e-mail, ενώ οι κεντρικές φόρμες επιτρέπουν στα μέλη της κοινότητας να επικοινωνούν με τους διαχειριστές από ένα κεντρικό σημείο. Στη φόρμα επικοινωνίας, οι χρήστες μπορούν να ορίζουν το θέμα και να γράφουν ένα μήνυμα και να ζητούν επίσης να σταλεί ένα αντίγραφο του e-mail στη δική τους διεύθυνση."
 
 #: modules/contact/contact.module:16
 msgid "Users can activate/deactivate their personal contact forms in their account settings. Upon activation, a contact tab will appear in their user profiles. Privileged users such as site administrators are able to contact users even if they have chosen not to enable this feature."
-msgstr "Οι χρήστες μπορούν να ενεργοποιήσουν/απενεργοποιήσουν την προσωπική τους φόρμα επικοινωνίας από τις ρυθμίσεις του λογαριασμού τους. Με την ενεργοποίηση, μια καρτέλα επικοινωνίας εμφανίζεται στο προσωπικό προφίλ τους. Προνομιούχοι χρήστες όπως οι διαχειριστές του ιστότοπου μπορούν να επικοινωνούν με τους χρήστες ακόμα και αν αυτοί έχουν επιλέξει να μην ενεργοποιήσουν αυτή τη δυνατότητα."
+msgstr "Οι χρήστες μπορούν να ενεργοποιήσουν/απενεργοποιήσουν την προσωπική τους φόρμα επικοινωνίας από τις ρυθμίσεις του λογαριασμού τους. Με την ενεργοποίηση, μια καρτέλα επικοινωνίας εμφανίζεται στο προσωπικό προφίλ τους. Προνομιούχοι χρήστες όπως οι διαχειριστές του ιστότοπου μπορούν να επικοινωνούν με τους χρήστες ακόμα και αν αυτοί έχουν επιλέξει να έχουν απενεργοποιημένη αυτή τη δυνατότητα."
 
 #: modules/contact/contact.module:17
 msgid "Note that the contact tab will not appear when a user views his or her own profile; only when viewing another user's profile, if that user's contact form is enabled."
-msgstr "Θυμηθείτε ότι η καρτέλα επικοινωνίας δεν θα εμφανίζεται όταν ένας χρήστης κοιτάει το προσωπικό του προφίλ, αλλά μόνο στα προφίλ τρίτων χρηστών, αν έχουν ενεργοποιημένες τις φόρμες επικοινωνίας."
+msgstr "Θυμηθείτε ότι η καρτέλα επικοινωνίας δε θα εμφανίζεται όταν ένας χρήστης κοιτάει το προσωπικό του προφίλ, αλλά μόνο στα προφίλ τρίτων χρηστών, αν έχουν ενεργοποιημένες τις φόρμες επικοινωνίας."
 
 #: modules/contact/contact.module:18
 msgid "If the menu module is enabled, a menu item linking to the site-wide contact page is added to the navigation block. It is disabled by default, but can be enabled via the <a href=\"@menu-module\">menu management</a> page. Links to the contact page may also be added to the primary and secondary links using the same page."
@@ -44,7 +44,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/contact/contact.module:22
 msgid "This page lets you setup <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
-msgstr "Από τη σελίδα αυτή μπορείτε να διαμορφώσετε την <a href=\"@form\">κεντρική φόρμα επικοινωνίας</a> του ιστότοπου σας. Γι' αυτό το σκοπό, προσθέστε μία ή περισσότερες κατηγορίες. Μπορείτε να βάλετε διαφορετικούς παραλήπτες σε κάθε κατηγορία, ώστε να δρομολογούνται τα e-mail σε διαφορετικά άτομα. Για παράδειγμα, μπορείτε να δρομολογείτε την επικοινωνία σχετικά με τον ιστότοπο στον webmaster και τα αιτήματα για πληροφορίες προϊόντων στο τμήμα πωλήσεων. Από τη <a href=\"@settings\">σελίδα ρυθμίσεων</a>, μπορείτε να προσαρμόσετε τις πληροφορίες που εμφανίζονται πάνω από τη φόρμα επικοινωνίας. Αυτό μπορεί να είναι χρήσιμο για να παρέχετε πρόσθετες πληροφορίες επικοινωνίας, όπως την ταχυδρομική σας διεύθυνση και τον αριθμό τηλεφώνου σας."
+msgstr "Από τη σελίδα αυτή μπορείτε να διαμορφώσετε την <a href=\"@form\">κεντρική φόρμα επικοινωνίας</a> του ιστότοπου σας. Γι' αυτό το σκοπό, προσθέστε μία ή περισσότερες κατηγορίες. Μπορείτε να εισάγετε διαφορετικούς παραλήπτες σε κάθε κατηγορία, ώστε να δρομολογούνται τα e-mail σε διαφορετικά άτομα. Για παράδειγμα, μπορείτε να δρομολογείτε την επικοινωνία σχετικά με τον ιστότοπο στον webmaster και τα αιτήματα για πληροφορίες προϊόντων στο τμήμα πωλήσεων. Από τη <a href=\"@settings\">σελίδα ρυθμίσεων</a>, μπορείτε να προσαρμόσετε τις πληροφορίες που εμφανίζονται πάνω από τη φόρμα επικοινωνίας. Αυτό μπορεί να είναι χρήσιμο για να παρέχετε πρόσθετες πληροφορίες επικοινωνίας, όπως την ταχυδρομική σας διεύθυνση και τον αριθμό τηλεφώνου σας."
 
 #: modules/contact/contact.module:24
 msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
@@ -80,7 +80,7 @@ msgstr "Προσωπική φόρμα επικοινωνίας"
 
 #: modules/contact/contact.module:129
 msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
-msgstr "Να μπορούν οι άλλοι χρήστες να επικοινωνούν μαζί σας μέσω e-mail από την <a href=\"@url\">προσωπική σας φόρμα επικοινωνίας</a>. Θυμηθείτε ότι παρόλο που το e-mail σας δεν θα είναι σε δημόσια χρήση από τα υπόλοιπα μέλη της κοινότητας, χρήστες με προνόμια και οι διαχειριστές του ιστότοπου θα έχουν την δυνατότητα να επικοινωνήσουν μαζί σας αν ενεργοποιήσετε αυτή την δυναττότητα."
+msgstr "Να μπορούν οι άλλοι χρήστες να επικοινωνούν μαζί σας μέσω e-mail από την <a href=\"@url\">προσωπική σας φόρμα επικοινωνίας</a>. Θυμηθείτε ότι παρόλο που το e-mail σας δε θα είναι σε δημόσια χρήση από τα υπόλοιπα μέλη της κοινότητας, χρήστες με προνόμια και οι διαχειριστές του ιστότοπου θα έχουν την δυνατότητα να επικοινωνήσουν μαζί σας ακόμη κι αν έχετε απενεργοποιημένη αυτή την δυναττότητα."
 
 #: modules/contact/contact.module:150;170
 msgid "Recipients"
@@ -100,11 +100,11 @@ msgstr "Αυτόματη απάντηση"
 
 #: modules/contact/contact.module:178
 msgid "Optional auto-reply. Leave empty if you do not want to send the user an auto-reply message."
-msgstr "Προαιρετική αυτόματη απάντηση. Αφήστε την κενή αν δεν θέλετε να στέλνεται στο χρήστη μήνυμα αυτόματης απάντησης."
+msgstr "Προαιρετική αυτόματη απάντηση. Αφήστε την κενή αν δεν θέλετε να αποστέλλεται στο χρήστη μήνυμα αυτόματης απάντησης."
 
 #: modules/contact/contact.module:183
 msgid "When listing categories, those with lighter (smaller) weights get listed before categories with heavier (larger) weights. Categories with equal weights are sorted alphabetically."
-msgstr "Στις λίστες κατηγοριών, εκείνες με τα μικρότερα βάρη (οι ελαφρύτερες) παρουσιάζονται πριν από εκείνες με τα μεγαλύτερα βάρη (τις βαρύτερες). Οι κατηγορίες με ίδιο βάρος ταξινομούνται αλφαβητικά."
+msgstr "Στις λίστες κατηγοριών, εκείνες με τα μικρότερα βάρη (οι ελαφρύτερες) παρουσιάζονται πριν από εκείνες με τα μεγαλύτερα βάρη (οι βαρύτερες). Οι κατηγορίες με ίδιο βάρος ταξινομούνται αλφαβητικά."
 
 #: modules/contact/contact.module:189
 msgid "Set this to <em>Yes</em> if you would like this category to be selected by default."
@@ -116,7 +116,7 @@ msgstr "Πρέπει να ορίσετε έναν ή περισσότερους 
 
 #: modules/contact/contact.module:215
 msgid "%recipient is an invalid e-mail address."
-msgstr "%recipient δεν είναι έγκυρη διεύθυνση e-mail."
+msgstr "Το %recipient δεν είναι έγκυρη διεύθυνση e-mail."
 
 #: modules/contact/contact.module:237
 msgid "Category %category has been added."
@@ -160,7 +160,7 @@ msgstr "Μπορείτε να αφήσετε ένα μήνυμα χρησιμο�
 
 #: modules/contact/contact.module:282
 msgid "Information to show on the <a href=\"@form\">contact page</a>. Can be anything from submission guidelines to your postal address or telephone number."
-msgstr "Πληροφορίες που θα εμφανίζονται στη <a href=\"@form\">σελίδα επικοινωνίας</a>. Μπορεί να είναι οτιδήποτε: οδηγίες υποβολής, η ταχυδρομική σας διεύθυνση ή ο αριθμός τηλεφώνου σας."
+msgstr "Πληροφορίες που θα εμφανίζονται στη <a href=\"@form\">σελίδα επικοινωνίας</a>. Μπορεί να είναι οτιδήποτε· οδηγίες υποβολής, η ταχυδρομική σας διεύθυνση ή ο αριθμός τηλεφώνου σας."
 
 #: modules/contact/contact.module:285
 msgid "Hourly threshold"
@@ -168,7 +168,7 @@ msgstr "Όριο μηνυμάτων ανά ώρα"
 
 #: modules/contact/contact.module:288
 msgid "The maximum number of contact form submissions a user can perform per hour."
-msgstr "Ο μέγιστος αριθμός μηνυμάτων ανά ώρα που μπορεί να υποβάλλει ένας χρήστης με φόρμα επικοινωνίας."
+msgstr "Ο μέγιστος αριθμός μηνυμάτων μέσα σε μια ώρα που μπορεί να υποβάλλει ένας χρήστης από τη φόρμα επικοινωνίας."
 
 #: modules/contact/contact.module:292
 msgid "Enable personal contact form by default"
@@ -184,7 +184,7 @@ msgstr "Πρέπει να δώσετε μια έγκυρη διεύθυνση e-
 
 #: modules/contact/contact.module:310
 msgid "You cannot contact more than %number users per hour. Please try again later."
-msgstr "Δεν επιτρέπεται η επικοινωνία με περισσότερους από %number χρήστες ανά ώρα. Ξαναδοκιμάστε αργότερα."
+msgstr "Δεν επιτρέπεται η επικοινωνία με περισσότερους από %number χρήστες μέσα σε μια ώρα. Ξαναδοκιμάστε αργότερα."
 
 #: modules/contact/contact.module:328
 msgid "From"
@@ -204,11 +204,11 @@ msgstr "Αποστολή e-mail"
 
 #: modules/contact/contact.module:363
 msgid "!name (!name-url) has sent you a message via your contact form (!form-url) at !site."
-msgstr "!name (!name-url) σας έχει στείλει μήνυμα μέσω της φόρμας επικοινωνίας σας (!form-url) στο !site."
+msgstr "Ο/Η !name (!name-url) σας έχει στείλει μήνυμα μέσω της φόρμας επικοινωνίας σας (!form-url) στο !site."
 
 #: modules/contact/contact.module:364
 msgid "If you don't want to receive such e-mails, you can change your settings at !url."
-msgstr "Αν δεν θέλετε να παίρνετε τέτοια e-mail, μπορείτε να αλλάξετε τις ρυθμίσεις σας από τη σελίδα !url."
+msgstr "Αν δεν επιθυμείτε να λαμβάνετε τέτοια e-mail, μπορείτε να αλλάξετε τις ρυθμίσεις σας από τη σελίδα !url."
 
 #: modules/contact/contact.module:365
 msgid "Message:"
@@ -216,7 +216,7 @@ msgstr "Μήνυμα:"
 
 #: modules/contact/contact.module:393
 msgid "%name-from sent %name-to an e-mail."
-msgstr "%name-from έστειλε e-mail σε %name-to."
+msgstr "Ο/Η %name-from έστειλε e-mail στον/στην %name-to."
 
 #: modules/contact/contact.module:396
 msgid "The message has been sent."
@@ -224,7 +224,7 @@ msgstr "Το μήνυμα στάλθηκε."
 
 #: modules/contact/contact.module:409
 msgid "You cannot send more than %number messages per hour. Please try again later."
-msgstr "Δεν επιτρέπεται να στέλνετε περισσότερα από %number μηνύματα ανά ώρα. Ξαναδοκιμάστε αργότερα."
+msgstr "Δεν επιτρέπεται να στέλνετε περισσότερα από %number μηνύματα μέσα σε μια ώρα. Ξαναδοκιμάστε αργότερα."
 
 #: modules/contact/contact.module:431
 msgid "You can leave us a message using the contact form below."
@@ -252,7 +252,7 @@ msgstr "Πρέπει να δώσετε μια έγκυρη διεύθυνση e-
 
 #: modules/contact/contact.module:512
 msgid "!name sent a message using the contact form at !form."
-msgstr "!name έστειλε μήνυμα χρησιμοποιώντας τη φόρμα επικοινωνίας στη σελίδα !form."
+msgstr "Ο/Η !name έστειλε μήνυμα χρησιμοποιώντας τη φόρμα επικοινωνίας στη σελίδα !form."
 
 #: modules/contact/contact.module:524
 msgid "[!category] !subject"
@@ -260,7 +260,7 @@ msgstr "[!category] !subject"
 
 #: modules/contact/contact.module:544
 msgid "%name-from sent an e-mail regarding %category."
-msgstr "%name-from έστειλε e-mail σχετικά με %category."
+msgstr "Ο/Η %name-from έστειλε e-mail σχετικά με %category."
 
 #: modules/contact/contact.module:547
 msgid "Your message has been sent."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: node-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 19:36+0300\n"
+"PO-Revision-Date: 2007-07-13 00:23+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -494,11 +494,11 @@ msgstr "<strong>Προσαρμόστε την όψη του ιστοτόπου �
 
 #: modules/node/node.module:2399
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
-msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τελικά, μπορείτε να <a href=\"@content\">υποβάλλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
+msgstr "<strong>Αρχίστε να υποβάλετε ύλη</strong> Τελικά, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
 
 #: modules/node/node.module:2401
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
-msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης να υποβάλλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
+msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης να υποβάλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
 
 #: modules/node/node.module:2496;2548
 msgid "Advanced search"

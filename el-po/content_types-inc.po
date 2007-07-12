@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: content_types-inc\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:04+0300\n"
+"PO-Revision-Date: 2007-07-13 01:06+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Προσδιορισμός"
 
 #: modules/node/content_types.inc:80
 msgid "The human-readable name of this content type. This text will be displayed as part of the list on the <em>create content</em> page. It is recommended that this name begins with a capital letter and consists only of letters, numbers, and <strong>spaces</strong>. This name must be unique to this content type."
-msgstr "Το ανθρωπίνως αναγνώσιμο όνομα του τύπου ύλης. Αυτό κείμενο θα εμφανίζεται σαν μέρος της λίστας στην σελίδα <em>υποβολή ύλης</em>. Συνιστάται αυτό το όνομα να αρχίζει με ένα κεφαλαίο γράμμα και να αποτελείται μόνο από γράμματα, αριθμούς, και <strong>διαστήματα</strong>. Το όνομα πρέπει να είναι μοναδικό για αυτόν τον τύπο ύλης."
+msgstr "Το ανθρωπίνως αναγνώσιμο όνομα αυτού του τύπου ύλης. Το κείμενο αυτό θα εμφανίζεται ως μέρος της λίστας στην σελίδα <em>υποβολή ύλης</em>. Συνιστάται αυτό το όνομα να αρχίζει με κεφαλαίο γράμμα και να αποτελείται μόνο από γράμματα, αριθμούς και <strong>διαστήματα</strong>. Το όνομα πρέπει να είναι μοναδικό για αυτόν τον τύπο ύλης."
 
 #: modules/node/content_types.inc:91
 msgid "The machine-readable name of this content type. This text will be used for constructing the URL of the <em>create content</em> page for this content type. This name may consist of only of lowercase letters, numbers, and underscores. Dashes are not allowed. Underscores will be converted into dashes when constructing the URL of the <em>create content</em> page. This name must be unique to this content type."
@@ -33,7 +33,7 @@ msgstr "Το μηχανικώς αναγνώσιμο όνομα του τύπο�
 
 #: modules/node/content_types.inc:103
 msgid "The machine-readable name of this content type. This field cannot be modified for system-defined content types."
-msgstr "Το μηχανικώς αναγνώσιμο όνομα του τύπου ύλης. Το πεδίο αυτό δεν μπορεί να τροποποιηθεί για τους καθορισμένους από το σύστημα τύπους ύλης."
+msgstr "Το μηχανικώς αναγνώσιμο όνομα του τύπου ύλης. Το πεδίο αυτό δεν μπορεί να τροποποιηθεί για τους προκαθορισμένους από το σύστημα τύπους ύλης."
 
 #: modules/node/content_types.inc:111
 msgid "A brief description of this content type. This text will be displayed as part of the list on the <em>create content</em> page."
@@ -65,7 +65,7 @@ msgstr "Ελάχιστος αριθμός λέξεων"
 
 #: modules/node/content_types.inc:144
 msgid "The minimum number of words for the body field to be considered valid for this content type. This can be useful to rule out submissions that do not meet the site's standards, such as short test posts."
-msgstr "Ο ελάχιστος αριθμός λέξεων για το πεδίο κειμένου έτσι ώστε να ληφθεί ως έγκυρο για το συγκεκριμένο τύπο ύλης. Μπορεί να φανεί χρήσιμο ώστε να αποκλείσει δημοσιεύματα που δεν ανταποκρίνονται στα πρότυπα του ιστοτόπου, όπως πολύ σύντομα δημοσιεύματα."
+msgstr "Ο ελάχιστος αριθμός λέξεων για το πεδίο κειμένου έτσι ώστε να ληφθεί ως έγκυρο για το συγκεκριμένο τύπο ύλης. Μπορεί να φανεί χρήσιμο ώστε να αποκλείσει δημοσιεύματα που δεν ανταποκρίνονται στα πρότυπα του ιστοτόπου, όπως πολύ σύντομα δοκιμαστικά δημοσιεύματα."
 
 #: modules/node/content_types.inc:148
 msgid "Explanation or submission guidelines"
@@ -85,7 +85,7 @@ msgstr "Προεπιλεγμένες ρυθμίσεις"
 
 #: modules/node/content_types.inc:166
 msgid "Users with the <em>administer nodes</em> permission will be able to override these options."
-msgstr "Οι χρήστες με το δικαίωμα <em>administer nodes</em> θα μπορούν να παρακάμψουν αυτές τις ρυθμίσεις."
+msgstr "Οι χρήστες με την άδεια <em>διαχείριση των κόμβων</em> θα μπορούν να παρακάμψουν αυτές τις ρυθμίσεις."
 
 #: modules/node/content_types.inc:196
 msgid "Save content type"
@@ -105,7 +105,7 @@ msgstr "Το μηχανικώς αναγνώσιμο όνομα μπορεί ν�
 
 #: modules/node/content_types.inc:242
 msgid "Invalid type. Please enter a type name other than '0' (the character zero)."
-msgstr "Άκυρος τύπος. Εισάγετε ένα όνομα τύπου εκτός από '0' (τον χαρακτήρα μηδέν)."
+msgstr "Μη έγκυρος τύπος. Εισάγετε ένα όνομα τύπου εκτός από '0' (τον χαρακτήρα μηδέν)."
 
 #: modules/node/content_types.inc:249
 msgid "The human-readable name %name is already taken."
@@ -137,10 +137,11 @@ msgstr "Ο τύπος ύλης %name διαγράφηκε."
 
 #: modules/node/content_types.inc:407
 msgid "Deleted content type %name."
-msgstr "Διαγραφή τύπου ύλης %name."
+msgstr "Διαγράφηκε ο τύπος ύλης %name."
 
 #: modules/node/content_types.inc:391
 msgid "<strong>Warning:</strong> there is currently @count %type post on your site. It may not be able to be displayed or edited correctly, once you have removed this content type."
 msgid_plural "<strong>Warning:</strong> there are currently @count %type posts on your site. They may not be able to be displayed or edited correctly, once you have removed this content type."
-msgstr[0] "<strong>Προειδοποίηση:</strong> υπάρχει ήδη @count %type δημοσίευμα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να εμφανιστεί ή να τροποποιηθεί σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
-msgstr[1] "<strong>Προειδοποίηση:</strong> υπάρχουν ήδη @count %type δημοσιεύματα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να εμφανιστούν ή να τροποποιηθούν σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+msgstr[0] "<strong>Προειδοποίηση:</strong> υπάρχει ήδη @count %type δημοσίευμα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να προβληθεί ή τροποποιηθεί σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+msgstr[1] "<strong>Προειδοποίηση:</strong> υπάρχουν ήδη @count %type δημοσιεύματα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να προβληθούν ή τροποποιηθούν σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+

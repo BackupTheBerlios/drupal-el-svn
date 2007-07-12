@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: block-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 20:06+0300\n"
+"PO-Revision-Date: 2007-07-13 00:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Μπλοκ ορισμένα από το διαχειριστή"
 
 #: modules/block/block.module:38
 msgid "Administrators can also define custom blocks. These blocks consist of a title, a description, and a body which can be as long as you wish. Block content can be in any of the input formats supported for other content."
-msgstr "Οι διαχειριστές μπορούν επίσης να ορίζουν ειδικά σχεδιασμένα μπλοκ. Αυτά τα μπλοκ αποτελούνται από έναν τίτλο, μια περιγραφή και το περιεχόμενο, το οποίο μπορεί να είναι όσο μεγάλο θέλετε. Το περιεχόμενο των μπλοκ μπορεί να είναι σε οποιονδήποτε από τους μορφοτύπους εισόδου που υποστηρίζονται και για την άλλη ύλη."
+msgstr "Οι διαχειριστές μπορούν επίσης να ορίζουν ειδικά σχεδιασμένα μπλοκ. Αυτά τα μπλοκ αποτελούνται από έναν τίτλο, μια περιγραφή και το σώμα, το οποίο μπορεί να είναι όσο μεγάλο θέλετε. Το περιεχόμενο των μπλοκ μπορεί να είναι σε οποιονδήποτε από τους μορφοτύπους εισόδου που υποστηρίζονται και για την άλλη ύλη."
 
 #: modules/block/block.module:39
 msgid "For more information please read the configuration and customization handbook <a href=\"@block\">Block page</a>."
@@ -172,7 +172,7 @@ msgstr "Να εμφανίζεται μόνο στις παρακάτω σελί�
 
 #: modules/block/block.module:457
 msgid "Enter one page per line as Drupal paths. The '*' character is a wildcard. Example paths are %blog for the blog page and %blog-wildcard for every personal blog. %front is the front page."
-msgstr "Εισάγετε μία σελίδα ανά γραμμή ως μορφή διαδρομών του Drupal. Ο χαρακτήρας '*' είναι μπαλαντέρ. Παραδείγματα διαδρομών: %blog για τη σελίδα των ιστολογίων και %blog-wildcard για κάθε προσωπικό ιστολόγιο. %front είναι η πρώτη σελίδα."
+msgstr "Εισάγετε μία σελίδα ανά γραμμή ως μορφή διαδρομών του Drupal. Ο χαρακτήρας '*' είναι μπαλαντέρ. Παραδείγματα διαδρομών: %blog για τη σελίδα των ιστολογίων και %blog-wildcard για κάθε προσωπικό ιστολόγιο. %front είναι η κεντρική σελίδα."
 
 #: modules/block/block.module:460
 msgid "Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts only)."

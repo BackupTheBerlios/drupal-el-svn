@@ -1,17 +1,20 @@
+# Greek Drupal translation of blogapi-module.po to Greek
 # Greek translation of Drupal 5.1 (blogapi.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: blogapi-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-06-08 23:17+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-07-13 00:23+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/blogapi/blogapi.module:15
 msgid "The blog API module enables a post to be posted to a site via external GUI applications. Many users prefer to use external tools to improve their ability to read and post responses in a customized way. The blog api provides users the freedom to use the blogging tools they want but still have the blogging server of choice."
@@ -31,11 +34,11 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/blogapi/blogapi.module:32
 msgid "Returns a list of weblogs to which an author has posting privileges."
-msgstr "Επιστρέφει μία λίστα των ιστολογίων στα οποία ένας συντάκτης έχει δικαιώματα να υποβάλλει ύλη."
+msgstr "Επιστρέφει μία λίστα των ιστολογίων στα οποία ένας συντάκτης έχει δικαίωμα να υποβάλλει ύλη."
 
 #: modules/blogapi/blogapi.module:37
 msgid "Returns information about an author in the system."
-msgstr "Επιστρέφει πληροφορίες για ένα συντάκτη που είναι στο σύστημα."
+msgstr "Επιστρέφει πληροφορίες για ένα συντάκτη του συστήματος."
 
 #: modules/blogapi/blogapi.module:42;67
 msgid "Creates a new post, and optionally publishes it."
@@ -63,15 +66,15 @@ msgstr "Ενημερώνει τις πληροφορίες για μια υπά�
 
 #: modules/blogapi/blogapi.module:82
 msgid "Uploads a file to your webserver."
-msgstr "Ανεβάζει ένα αρχείο στο διακομιστή ιστοσελίδων σας."
+msgstr "Αποστέλλει ένα αρχείο στο διακομιστή ιστοσελίδων σας."
 
 #: modules/blogapi/blogapi.module:87;107
 msgid "Returns a list of all categories to which the post is assigned."
-msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει τοποθετηθεί η καταχώριση."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει ταξινομηθεί η καταχώριση."
 
 #: modules/blogapi/blogapi.module:97
 msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
-msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος, σε μορφή οικονομική ως προς τη χρήση εύρους ζώνης."
+msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος, σε μορφή οικονομική ως προς τη χρήση εύρους ζώνης του δικτύου."
 
 #: modules/blogapi/blogapi.module:102
 msgid "Returns a list of all categories defined in the weblog."
@@ -131,7 +134,7 @@ msgstr "Είτε επιχειρήσατε να τροποποιήσετε το �
 
 #: modules/blogapi/blogapi.module:521
 msgid "Wrong username or password."
-msgstr "Λάθος όνομα λογαριασμού ή κωδικός εισόδου."
+msgstr "Λάθος όνομα χρήστη ή συνθηματικό."
 
 #: modules/blogapi/blogapi.module:544
 msgid "Blog types"
