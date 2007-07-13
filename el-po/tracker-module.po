@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tracker-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:44+0300\n"
+"PO-Revision-Date: 2007-07-13 23:54+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: modules/tracker/tracker.module:15
 msgid "The tracker module displays the most recently added or updated content to the website allowing users to see the most recent contributions. The tracker module provides user level tracking for those who like to follow the contributions of particular authors."
-msgstr "Η μονάδα tracker παρουσιάζει την ύλη που προστέθηκε ή ενημερώθηκε πιο πρόσφατα στον ιστότοπο, επιτρέποντας στους χρήστες να βλέπουν τις πιο πρόσφατες καταχωρίσεις.  Η μονάδα tracker παρέχει παρακολούθηση ύλης σε επίπεδο χρήστη, για όσους θέλουν να παρακολουθούν τις καταχωρίσεις συγκεκριμένων συντακτών."
+msgstr "Η μονάδα tracker παρουσιάζει την ύλη που προστέθηκε ή ενημερώθηκε πιο πρόσφατα στον ιστότοπο, επιτρέποντας στους χρήστες να βλέπουν τις πιο πρόσφατες καταχωρίσεις. Η μονάδα tracker παρέχει παρακολούθηση ύλης σε επίπεδο χρήστη, για όσους θέλουν να παρακολουθούν τις καταχωρίσεις συγκεκριμένων συντακτών."
 
 #: modules/tracker/tracker.module:16
 msgid "The  &quot;recent posts&quot; page is available via a link in the navigation menu block and contains a reverse chronological list of new and recently-updated content. The table displays  the content type, the title, the author's name, how many comments that item has received, and when it was last updated. Updates include any changes to the text, either by the original author or someone else, as well as any new comments added to an item. To use the tracker module to <em>watch</em> for a user's updated content, click on that user's profile, then the <em>track</em> tab."
-msgstr "Η σελίδα  &quot;πρόσφατες καταχωρίσεις&quot; είναι διαθέσιμη μέσω μιας παραπομπής του μπλοκ του μενού πλοήγησης και περιέχει μια αντίστροφη χρονολογική λίστα της νέας ή πρόσφατα ενημερωμένης ύλης. Ο πίνακας εμφανίζει τον τύπο ύλης, τον τίτλο, το όνομα του συντάκτη, πόσα σχόλια υποβλήθηκαν στη συγκεκριμένη καταχώριση και πότε ενημερώθηκε τελευταία. Ενημερώσεις θεωρούνται οποιεσδήποτε μεταβολές στο κείμενο, είτε από τον αρχικό συντάκτη είτε από κάποιον άλλο, καθώς και οποιαδήποτε σχόλια προστέθηκαν στην καταχώριση.  Για να χρησιμοποιήσετε τη μονάδα tracker για να <em>παρακολουθείτε</em> την ενημερωμένη ύλη ενός χρήστη, μπορείτε να πηγαίνετε στο προσωπικό προφίλ του και να πατάτε στην καρτέλα <em>παρακολούθηση</em>."
+msgstr "Η σελίδα &quot;πρόσφατες καταχωρίσεις&quot; είναι διαθέσιμη μέσω μιας παραπομπής του μπλοκ του μενού πλοήγησης και περιέχει μια αντίστροφη χρονολογική λίστα της νέας ή πρόσφατα ενημερωμένης ύλης. Ο πίνακας εμφανίζει τον τύπο ύλης, τον τίτλο, το όνομα του συντάκτη, πόσα σχόλια υποβλήθηκαν στη συγκεκριμένη καταχώριση και πότε ενημερώθηκε τελευταία. Ενημερώσεις θεωρούνται οποιεσδήποτε μεταβολές στο κείμενο, είτε από τον αρχικό συντάκτη είτε από κάποιον άλλο, καθώς και οποιαδήποτε σχόλια προστέθηκαν στην καταχώριση. Για να χρησιμοποιήσετε τη μονάδα tracker για να <em>παρακολουθείτε</em> την ενημερωμένη ύλη ενός χρήστη, μπορείτε να πηγαίνετε στο προσωπικό προφίλ του και να πατάτε στην καρτέλα <em>παρακολούθηση</em>."
 
 #: modules/tracker/tracker.module:17
 msgid "For more information please read the configuration and customization handbook <a href=\"@tracker\">Tracker page</a>."
@@ -49,7 +49,7 @@ msgstr "Παρακολούθηση καταχωρίσεων"
 
 #: modules/tracker/tracker.module:113
 msgid "!time ago"
-msgstr "!time πριν"
+msgstr "Πριν από !time"
 
 #: modules/tracker/tracker.module:121
 msgid "Post"
@@ -62,3 +62,4 @@ msgstr "Τελευταία ενημέρωση"
 #: modules/tracker/tracker.module:0
 msgid "tracker"
 msgstr "παρακολούθηση"
+

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-install\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:11+0300\n"
+"PO-Revision-Date: 2007-07-14 00:05+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "Τα ιστορήματα είναι άρθρα στην απλούστ�
 
 #: modules/system/system.install:3354
 msgid "URL Filter module was disabled; this functionality has now been added to core."
-msgstr "Το φίλτρο URL  είναι απενεργοποιημένο, αυτή η λειτουργία είναι προσαρμοσμένη στον πυρήνα πλέον."
+msgstr "Το φίλτρο URL είναι απενεργοποιημένο, αυτή η λειτουργία είναι προσαρμοσμένη στον πυρήνα πλέον."
 
 #: modules/system/system.install:30
 msgid "Web server"
@@ -128,8 +128,3 @@ msgstr "Μη ενημερωμένο"
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
 msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν βάσεις δεδομένων. Θα πρέπει να εκτελέσετε την <a href=\"@update\"> ενημέρωση βάσης δεδομένων</a> αμέσως."
 
-#~ msgid "The directory %directory does not exist."
-#~ msgstr "Ο κατάλογος αρχείων %directory δεν υπάρχει."
-
-#~ msgid "php"
-#~ msgstr "php"

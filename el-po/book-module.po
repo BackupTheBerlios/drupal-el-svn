@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: book-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-07-13 00:41+0300\n"
+"PO-Revision-Date: 2007-07-14 00:04+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,7 @@ msgstr "Η μονάδα <em>βιβλίο</em> είναι κατάλληλη γι
 
 #: modules/book/book.module:985
 msgid "Book pages have navigation elements at the bottom of the page for moving through the text.  These link to the previous and next pages in the book, as well as a link labeled <em>up</em>, leading to the level above in the structure.  More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">block administration page</a>."
-msgstr "Τα βιβλία έχουν στοιχεία πλοήγησης στο κάτω μέρος κάθε σελίδας, για τη μετακίνηση μέσα στο κείμενο.  Αυτά οδηγούν στις προηγούμενες και επόμενες σελίδες του βιβλίου, όπως επίσης και ο σύνδεσμος <em>επάνω</em> που οδηγεί στο παραπάνω επίπεδο στη δομή.  Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
+msgstr "Τα βιβλία έχουν στοιχεία πλοήγησης στο κάτω μέρος κάθε σελίδας, για τη μετακίνηση μέσα στο κείμενο. Αυτά οδηγούν στις προηγούμενες και επόμενες σελίδες του βιβλίου, όπως επίσης και ο σύνδεσμος <em>επάνω</em> που οδηγεί στο παραπάνω επίπεδο στη δομή. Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
 
 #: modules/book/book.module:986
 msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: locale-inc\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-06-11 13:48+0300\n"
+"PO-Revision-Date: 2007-07-14 00:05+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgstr "Αρχείο μετάφρασης"
 
 #: includes/locale.inc:236
 msgid "A gettext Portable Object (.po) file."
-msgstr "Ένα αρχείο  Portable Object (.po) του gettext."
+msgstr "Ένα αρχείο Portable Object (.po) του gettext."
 
 #: includes/locale.inc:239
 msgid "Import into"
@@ -981,3 +981,4 @@ msgstr "Chinese, Traditional"
 #: includes/locale.inc:1435
 msgid "Zulu"
 msgstr "Zulu"
+

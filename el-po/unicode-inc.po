@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unicode-inc\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-06-08 21:50+0300\n"
+"PO-Revision-Date: 2007-07-13 16:28+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Η κωδικοποίηση %s δεν υποστηρίζεται. Εγκ
 
 #: includes/unicode.inc:48
 msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for more information."
-msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεότερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP PCRE</a>."
+msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεώτερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP PCRE</a>."
 
 #: includes/unicode.inc:53
 msgid "Operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"@url\">PHP mbstring extension</a> for improved Unicode support."

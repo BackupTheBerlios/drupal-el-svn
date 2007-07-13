@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: forum-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 00:23+0300\n"
+"PO-Revision-Date: 2007-07-13 16:25+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,11 @@ msgstr ""
 
 #: modules/forum/forum.module:15
 msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
-msgstr "Η μονάδα forum σας επιτρέπει να δημιουργείτε στον ιστότοπο σας φόρουμ με νήματα συζητήσεων πάνω σε συγκεκριμένα θέματα. Η δυνατότητα αυτή είναι παρόμοια με τα συστήματα πίνακα μηνυμάτων όπως το phpBB. Τα φόρουμ είναι πολύ χρήσιμα επειδή επιτρέπουν στα μέλη της κοινότητας να συζητούν θέματα μεταξύ τους, τα οποία και αρχειοθετούνται για μελλοντική αναφορά."
+msgstr "Η μονάδα forum σας επιτρέπει να δημιουργείτε στον ιστοτόπο σας νήματα συζητήσεων στο φόρουμ γύρω από συγκεκριμένα θέματα. Η δυνατότητα αυτή είναι παρόμοια με τα συστήματα πίνακα μηνυμάτων όπως το phpBB. Τα φόρουμ είναι πολύ χρήσιμα επειδή επιτρέπουν στα μέλη της κοινότητας να συζητούν θέματα μεταξύ τους, τα οποία και αρχειοθετούνται για μελλοντική αναφορά."
 
 #: modules/forum/forum.module:16
 msgid "Forums can be organized under what are called <em>containers</em>. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them. Forum topics can be moved by selecting a different forum and can be left in the existing forum by selecting <em>leave a shadow copy</em>. Forum topics can also have their own URL."
-msgstr "Τα φόρουμ μπορούν να οργανώνονται κάτω από τους λεγόμενους <em>φακέλους</em>. Οι φάκελοι περιέχουν φόρουμ και τα φόρουμ, με τη σειρά τους, περιέχουν νήματα συζητήσεων. Και οι φάκελοι και τα φόρουμ μπορούν να τοποθετούνται μέσα σε άλλους φακέλους και φόρουμ. Με τον καλό σχεδιασμό της δομής των φακέλων και των φόρουμ σας, διευκολύνετε τους χρήστες να βρουν μια θεματική περιοχή που τους ενδιαφέρει. Τα θέματα συζήτησης μπορούν να μετακινούνται σε άλλο φόρουμ, και μπορεί επίσης να αφήνεται ένα σκιώδες αντίγραφο στο υπάρχον φόρουμ, με την επιλογή <em>να παραμείνει ένα σκιώδες αντίγραφο</em>.  Τα θέματα συζήτησης μπορούν επίσης να έχουν δική τους διεύθυνση URL."
+msgstr "Τα φόρουμ μπορούν να οργανώνονται κάτω από τους λεγόμενους <em>φακέλους</em>. Οι φάκελοι περιέχουν φόρουμ και τα φόρουμ, με τη σειρά τους, περιέχουν νήματα συζητήσεων. Και οι φάκελοι και τα φόρουμ μπορούν να τοποθετούνται μέσα σε άλλους φακέλους και φόρουμ. Με τον καλό σχεδιασμό της δομής των φακέλων και των φόρουμ σας, διευκολύνετε τους χρήστες να βρουν μια θεματική περιοχή που τους ενδιαφέρει. Τα θέματα συζήτησης μπορούν να μετακινούνται σε άλλο φόρουμ και μπορεί επίσης να αφήνεται ένα σκιώδες αντίγραφο στο υπάρχον φόρουμ, με την επιλογή <em>να παραμείνει ένα σκιώδες αντίγραφο</em>. Τα θέματα συζήτησης μπορούν επίσης να έχουν δική τους διεύθυνση URL."
 
 #: modules/forum/forum.module:17
 msgid "Forums module <strong>requires Taxonomy and Comments module</strong> be enabled."
@@ -38,7 +38,7 @@ msgstr "Αυτή είναι μια λίστα με τους υπάρχοντες
 
 #: modules/forum/forum.module:23
 msgid "Containers help you organize your forums. The job of a container is to hold, or contain, other forums that are related. For example, a container named \"Food\" might hold two forums named \"Fruit\" and \"Vegetables\"."
-msgstr "Οι φάκελοι σας βοηθούν να οργανώνετε τα φόρουμ σας. Η δουλειά ενός φακέλου είναι να περιέχει διάφορα φόρουμ που σχετίζονται μεταξύ τους. Για παράδειγμα, ένας φάκελος που ονομάζεται \"Τροφές\" θα μπορούσε να περιέχει δύο φόρουμ, τα \"Φρούτα\" και \"Λαχανικά\"."
+msgstr "Οι φάκελοι σάς βοηθούν να οργανώνετε τα φόρουμ σας. Η δουλειά ενός φακέλου είναι να περιέχει διάφορα φόρουμ που σχετίζονται μεταξύ τους. Για παράδειγμα, ένας φάκελος που ονομάζεται \"Τροφές\" θα μπορούσε να περιέχει δύο φόρουμ, τα \"Φρούτα\" και \"Λαχανικά\"."
 
 #: modules/forum/forum.module:25
 msgid "A forum holds discussion topics that are related. For example, a forum named \"Fruit\" might contain topics titled \"Apples\" and \"Bananas\"."
@@ -46,7 +46,7 @@ msgstr "Ένα φόρουμ περιέχει θέματα συζήτησης π�
 
 #: modules/forum/forum.module:27
 msgid "These settings provide the ability to fine tune the display of your forum topics."
-msgstr "Αυτές οι ρυθμίσεις σας επιτρέπουν να προσδιορίσετε με ακρίβεια την εμφάνιση των θεμάτων του φόρουμ."
+msgstr "Αυτές οι ρυθμίσεις σάς επιτρέπουν να προσδιορίσετε με ακρίβεια την εμφάνιση των θεμάτων του φόρουμ."
 
 #: modules/forum/forum.module:39;44
 msgid "Forums"
@@ -54,7 +54,7 @@ msgstr "Φόρουμ"
 
 #: modules/forum/forum.module:45
 msgid "Control forums and their hierarchy and change forum settings."
-msgstr "Έλεγχος των φόρουμ και της ιεραρχίας τους και τροποποίηση των ρυθμίσεων τους."
+msgstr "Έλεγχος των φόρουμ και της ιεραρχίας τους και τροποποίηση των ρυθμίσεών τους."
 
 #: modules/forum/forum.module:55
 msgid "Add container"
@@ -94,7 +94,7 @@ msgstr "Θέματα ανά σελίδα"
 
 #: modules/forum/forum.module:191
 msgid "The default number of topics displayed per page; links to browse older messages are automatically being displayed."
-msgstr "Ο προεπιλεγμένος αριθμός θεμάτων που εμφανίζοντα ανά σελίδα. Παραπομπές για τη φυλλομέτρηση παλιότερων μηνυμάτων εμφανίζονται αυτόματα."
+msgstr "Ο προεπιλεγμένος αριθμός θεμάτων που εμφανίζονται ανά σελίδα. Παραπομπές για τη φυλλομέτρηση παλιότερων μηνυμάτων εμφανίζονται αυτόματα."
 
 #: modules/forum/forum.module:193
 msgid "Posts - most active first"
@@ -118,11 +118,11 @@ msgstr "Αυτό είναι το προκαθορισμένο λεξιλόγιο
 
 #: modules/forum/forum.module:214
 msgid "forum topic"
-msgstr "θέματα φόρουμ"
+msgstr "θέμα φόρουμ"
 
 #: modules/forum/forum.module:214
 msgid "forum topic is affixed to the forum vocabulary."
-msgstr "Τα θέματα των φόρουμ είναι μόνιμα συνδεδεμένος με τα λεξιλόγια των φόρουμ."
+msgstr "Το θέμα των φόρουμ είναι μόνιμα συνδεδεμένο με τα λεξιλόγια των φόρουμ."
 
 #: modules/forum/forum.module:245;261
 msgid "Active forum topics"
@@ -138,7 +138,7 @@ msgstr "Αριθμός θεμάτων"
 
 #: modules/forum/forum.module:280
 msgid "Read the latest forum topics."
-msgstr "Διαβάστε τα τελευταία θέματα συζήτησης."
+msgstr "Ανάγνωση των τελευταίων θεμάτων συζήτησης."
 
 #: modules/forum/forum.module:368
 msgid "The item %forum is only a container for forums. Please select one of the forums below it."
@@ -158,7 +158,7 @@ msgstr "Όνομα φακέλου"
 
 #: modules/forum/forum.module:444
 msgid "The container name is used to identify related forums."
-msgstr "Το όνομα του φακέλου χρησιμοποιείται για τον προσδιορισμό των σχετικών φόρουμ."
+msgstr "Το όνομα του φακέλου χρησιμοποιείται για τον προσδιορισμό σχετιζόμενων φόρουμ."
 
 #: modules/forum/forum.module:452
 msgid "The container description can give users more information about the forums it contains."
@@ -206,7 +206,7 @@ msgstr "Θέλετε σίγουρα να διαγράψετε το φόρουμ 
 
 #: modules/forum/forum.module:569
 msgid "Deleting a forum or container will delete all sub-forums and associated posts as well. This action cannot be undone."
-msgstr "Με τη διαγραφή ενός φόρουμ ή φακέλου διαγράφονται επίσης όλα τα υπο-φόρουμ και οι καταχωρίσεις που περιέχουν. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+msgstr "Με τη διαγραφή ενός φόρουμ ή φακέλου διαγράφονται επίσης όλα τα υπο-φόρουμ και οι καταχωρίσεις που περιέχουν. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/forum/forum.module:577
 msgid "The forum %term and all sub-forums and associated posts have been deleted."
@@ -238,7 +238,7 @@ msgstr "Μπορείτε να τοποθετήσετε το φόρουμ σας 
 
 #: modules/forum/forum.module:694
 msgid "@time ago<br />by !author"
-msgstr "πριν από @time<br />από !author"
+msgstr "πριν από @time<br />από τον/την !author"
 
 #: modules/forum/forum.module:779
 msgid "Topic"

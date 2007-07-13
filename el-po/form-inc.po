@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: form-inc\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-06-08 19:18+0300\n"
+"PO-Revision-Date: 2007-07-13 11:54+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,15 +36,15 @@ msgstr "Μη επιτρεπτή επιλογή %choice στο πεδίο !name."
 
 #: includes/form.inc:1116
 msgid "Confirm password"
-msgstr "Επιβεβαίωση κωδικού"
+msgstr "Επιβεβαίωση συνθηματικού"
 
 #: includes/form.inc:1137
 msgid "The specified passwords do not match."
-msgstr "Τα δοθέντα συνθηματικά δεν είναι ίδια."
+msgstr "Τα συνθηματικά που δόθηκαν δεν είναι ίδια."
 
 #: includes/form.inc:1141
 msgid "Password field is required."
-msgstr "Το πεδίο του κωδικού είναι υποχρεωτικό."
+msgstr "Το πεδίο του συνθηματικού είναι υποχρεωτικό."
 
 #: includes/form.inc:1219
 msgid "The specified date is invalid."

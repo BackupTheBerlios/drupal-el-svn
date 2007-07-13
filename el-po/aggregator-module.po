@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aggregator-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 15:47+0300\n"
+"PO-Revision-Date: 2007-07-14 00:04+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "Να διαγράφονται οι ειδήσεις που είναι π
 
 #: modules/aggregator/aggregator.module:213
 msgid "Older news items will be automatically discarded. Requires crontab."
-msgstr "Οι παλιότερες ειδήσεις θα διαγράφονται αυτόματα.  Απαιτεί το crontab."
+msgstr "Οι παλιότερες ειδήσεις θα διαγράφονται αυτόματα. Απαιτεί το crontab."
 
 #: modules/aggregator/aggregator.module:217
 msgid "Category selection type"

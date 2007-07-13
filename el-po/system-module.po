@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 20:33+0300\n"
+"PO-Revision-Date: 2007-07-13 22:50+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -282,7 +282,7 @@ msgstr "Το όνομα αυτού του ιστοτόπου."
 
 #: modules/system/system.module:550
 msgid "A valid e-mail address for this website, used by the auto-mailer during registration, new password requests, notifications, etc."
-msgstr "Μια έγκυρη διεύθυνση e-mail γι' αυτόν τον ιστοτόπο, που χρησιμοποιείται στην αυτόματη αποστολή μηνυμάτων κατά την εγγραφή μελών, τις αιτήσεις για νέο κωδικό εισόδου, τις ειδοποιήσεις κ.λ.π."
+msgstr "Μια έγκυρη διεύθυνση e-mail γι' αυτόν τον ιστοτόπο, που χρησιμοποιείται στην αυτόματη αποστολή μηνυμάτων κατά την εγγραφή μελών, τις αιτήσεις για νέο συνθηματικό εισόδου, τις ειδοποιήσεις κ.λ.π."
 
 #: modules/system/system.module:554
 msgid "Slogan"
