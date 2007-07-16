@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: profile-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-16 23:32+0300\n"
+"PO-Revision-Date: 2007-07-17 00:45+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -186,11 +186,11 @@ msgstr "Τίτλος σελίδας"
 
 #: modules/profile/profile.module:276
 msgid "To enable browsing this field by value, enter a title for the resulting page. The word <code>%value</code> will be substituted with the corresponding value. An example page title is \"People whose favorite color is %value\". This is only applicable for a public field."
-msgstr "Για να είναι δυνατή η προβολή αυτού του πεδίου μέσω των τιμών του, δώστε έναν τίτλο για τη σελίδα που θα προκύψει. Η λέξη <code>%value</code> θα αντικατασταθεί με την αντίστοιχη τιμή. Παράδειγμα τίτλου σελίδας: \"Ποιοι έχουν αγαπημένο χρώμα το %value\". Αυτό έχει εφαρμογή μόνο σε δημόσια πεδία."
+msgstr "Για να είναι δυνατή η προβολή αυτού του πεδίου μέσω των τιμών του, εισάγετε έναν τίτλο για τη σελίδα που θα προκύψει. Η λέξη <code>%value</code> θα αντικατασταθεί με την αντίστοιχη τιμή. Παράδειγμα τίτλου σελίδας: \"Ποιοι έχουν αγαπημένο χρώμα το %value\". Αυτό έχει εφαρμογή μόνο σε δημόσια πεδία."
 
 #: modules/profile/profile.module:283
 msgid "To enable browsing this field by value, enter a title for the resulting page. An example page title is \"People who are employed\". This is only applicable for a public field."
-msgstr "Για να είναι δυνατή η προβολή αυτού του πεδίου μέσω των τιμών του, δώστε έναν τίτλο για τη σελίδα που θα προκύψει. Παράδειγμα τίτλου σελίδας: \"Επαγγέλματα των μελών μας\". Αυτό έχει εφαρμογή μόνο σε δημόσια πεδία."
+msgstr "Για να είναι δυνατή η προβολή αυτού του πεδίου μέσω των τιμών του, εισάγετε έναν τίτλο για τη σελίδα που θα προκύψει. Παράδειγμα τίτλου σελίδας: \"Επαγγέλματα των μελών μας\". Αυτό έχει εφαρμογή μόνο σε δημόσια πεδία."
 
 #: modules/profile/profile.module:287
 msgid "Form will auto-complete while user is typing."

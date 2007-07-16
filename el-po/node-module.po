@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: node-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-17 00:01+0300\n"
+"PO-Revision-Date: 2007-07-17 00:45+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/node/node.module:31
 msgid "Enter a simple pattern to search for a post. Words are matched exactly. Phrases can be surrounded by quotes to do an exact search."
-msgstr "Δώστε ένα απλό υπόδειγμα για να ψάξετε για μια καταχώριση. Οι λέξεις ταυτίζονται αυτούσιες. Μπορείτε να χρησιμοποιήσετε εισαγωγικά για μια ακόμα πιο ακριβή αναζήτηση."
+msgstr "Εισάγετε ένα απλό υπόδειγμα για να ψάξετε για μια καταχώριση. Οι λέξεις ταυτίζονται αυτούσιες. Μπορείτε να χρησιμοποιήσετε εισαγωγικά για μια ακόμα πιο ακριβή αναζήτηση."
 
 #: modules/node/node.module:33
 msgid "Below is a list of all the content types on your site. All posts that exist on your site are instances of one of these content types."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: throttle-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 23:58+0300\n"
+"PO-Revision-Date: 2007-07-17 00:46+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Αυτόματη απόπνιξη για τους ανώνυμους χ�
 
 #: modules/throttle/throttle.module:145
 msgid "The congestion control throttle can be automatically enabled when the number of anonymous users currently visiting your site exceeds the specified threshold. For example, to start the throttle when your site has 250 anonymous users online at once, enter '250' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on anonymous users. You can inspect the current number of anonymous users using the \"Who's online\" block."
-msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των ανώνυμων χρηστών που επισκέπτονται τον ιστοτόπο σας ξεπεράσει το καθορισμένο κατώφλι. Για παράδειγμα, για να ξεκινά η απόπνιξη όταν ο ιστοτόπος σας έχει 250 ανώνυμους επισκέπτες ταυτόχρονα, εισάγετε την τιμή '250' σε αυτό το πεδίο. Αφήστε την τιμή κενή ή δώστε \"0\" αν δεν θέλετε αυτόματη απόπνιξη για τους ανώνυμους χρήστες. Μπορείτε να βλέπετε τον τρέχοντα αριθμό των ανώνυμων χρηστών χρησιμοποιώντας το μπλοκ \"Ποιοι είναι εδώ\"."
+msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των ανώνυμων χρηστών που επισκέπτονται τον ιστοτόπο σας ξεπεράσει το καθορισμένο κατώφλι. Για παράδειγμα, για να ξεκινά η απόπνιξη όταν ο ιστοτόπος σας έχει 250 ανώνυμους επισκέπτες ταυτόχρονα, εισάγετε την τιμή '250' σε αυτό το πεδίο. Αφήστε την τιμή κενή ή εισάγετε \"0\" αν δεν θέλετε αυτόματη απόπνιξη για τους ανώνυμους χρήστες. Μπορείτε να βλέπετε τον τρέχοντα αριθμό των ανώνυμων χρηστών χρησιμοποιώντας το μπλοκ \"Ποιοι είναι εδώ\"."
 
 #: modules/throttle/throttle.module:149
 msgid "Auto-throttle on authenticated users"
@@ -50,7 +50,7 @@ msgstr "Αυτόματη απόπνιξη για τους πιστοποιημέ
 
 #: modules/throttle/throttle.module:153
 msgid "The congestion control throttle can be automatically enabled when the number of authenticated users currently visiting your site exceeds the specified threshold. For example, to start the throttle when your site has 50 registered users online at once, enter '50' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on authenticated users. You can inspect the current number of authenticated users using the \"Who's online\" block."
-msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των πιστοποιημένων χρηστών που επισκέπτονται τον ιστοτόπο σας ξεπεράσει το καθορισμένο κατώφλι. Για παράδειγμα, για να ξεκινά η απόπνιξη όταν βρίσκονται στον ιστοτόπο σας 50 εγγεγραμμένοι χρήστες ταυτόχρονα, δώστε την τιμή '50' σε αυτό το πεδίο. Αφήστε την τιμή κενή ή δώστε \"0\" αν δεν θέλετε αυτόματη απόπνιξη για τους πιστοποιημένους χρήστες. Μπορείτε να βλέπετε τον τρέχοντα αριθμό των πιστοποιημένων χρηστών χρησιμοποιώντας το μπλοκ \"Ποιοι είναι εδώ\"."
+msgstr "Ο έλεγχος συμφόρησης με απόπνιξη μπορεί να ενεργοποιείται αυτόματα όταν ο αριθμός των πιστοποιημένων χρηστών που επισκέπτονται τον ιστοτόπο σας ξεπεράσει το καθορισμένο κατώφλι. Για παράδειγμα, για να ξεκινά η απόπνιξη όταν βρίσκονται στον ιστοτόπο σας 50 εγγεγραμμένοι χρήστες ταυτόχρονα, εισάγετε την τιμή '50' σε αυτό το πεδίο. Αφήστε την τιμή κενή ή εισάγετε \"0\" αν δεν θέλετε αυτόματη απόπνιξη για τους πιστοποιημένους χρήστες. Μπορείτε να βλέπετε τον τρέχοντα αριθμό των πιστοποιημένων χρηστών χρησιμοποιώντας το μπλοκ \"Ποιοι είναι εδώ\"."
 
 #: modules/throttle/throttle.module:157
 msgid "Auto-throttle probability limiter"

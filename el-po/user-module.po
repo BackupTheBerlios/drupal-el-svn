@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 23:38+0300\n"
+"PO-Revision-Date: 2007-07-17 00:46+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1110,7 +1110,7 @@ msgstr ""
 
 #: modules/user/user.module:2374
 msgid "Enter a simple pattern (\"*\" may be used as a wildcard match) to search for a username. For example, one may search for \"br\" and Drupal might return \"brian\", \"brad\", and \"brenda\"."
-msgstr "Δώστε ένα απλό υπόδειγμα (το σύμβολο \"*\" μπορεί να χρησιμοποιηθεί ως χαρακτήρας-μπαλαντέρ) για να ψάξετε για ένα όνομα λογαριασμού. Για παράδειγμα, μπορεί κανείς να αναζητήσει το \"br\" και το σύστημα να επιστρέψει \"brian\", \"brad\" και \"brenda\"."
+msgstr "Εισάγετε ένα απλό υπόδειγμα (το σύμβολο \"*\" μπορεί να χρησιμοποιηθεί ως χαρακτήρας-μπαλαντέρ) για να ψάξετε για ένα όνομα λογαριασμού. Για παράδειγμα, μπορεί κανείς να αναζητήσει το \"br\" και το σύστημα να επιστρέψει \"brian\", \"brad\" και \"brenda\"."
 
 #: modules/user/user.module:2383
 msgid "one of our affiliates"

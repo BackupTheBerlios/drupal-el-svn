@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: poll-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-16 23:37+0300\n"
+"PO-Revision-Date: 2007-07-17 00:43+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "Χρειάζονται περισσότερες επιλογές"
 
 #: modules/poll/poll.module:161
 msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
-msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε αυτό το κουτάκι και πατήστε στο κουμπί Προεπισκόπηση παρακάτω για να προσθέσετε μερικά ακόμα."
+msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε αυτό το κουτάκι και πατήστε στο κουμπί Δοκιμή εμφάνισης παρακάτω για να προσθέσετε μερικά ακόμα."
 
 #: modules/poll/poll.module:168
 msgid "Choice @n"

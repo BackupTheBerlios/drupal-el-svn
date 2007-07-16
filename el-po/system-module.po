@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-16 09:57+0300\n"
+"PO-Revision-Date: 2007-07-17 00:46+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "Προεπιλεγμένη πρώτη σελίδα"
 
 #: modules/system/system.module:582
 msgid "The home page displays content from this relative URL. If unsure, specify \"node\"."
-msgstr "Η αρχική σελίδα εμφανίζει ύλη από αυτή τη σχετική διεύθυνση URL. Αν έχετε αμφιβολία, δώστε \"node\"."
+msgstr "Η αρχική σελίδα εμφανίζει ύλη από αυτή τη σχετική διεύθυνση URL. Αν έχετε αμφιβολία, εισάγετε \"node\"."
 
 #: modules/system/system.module:596
 msgid "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> in the URL.)"
@@ -450,7 +450,7 @@ msgstr "Προσωρινός κατάλογος αρχείων"
 
 #: modules/system/system.module:728
 msgid "Location where uploaded files will be kept during previews. Relative paths will be resolved relative to the Drupal installation directory."
-msgstr "Θέση όπου θα διατηρούνται τα αρχεία που ανεβάζονται κατά την προεπισκόπηση. Οι σχετικές διαδρομές αρχείων θα βασίζονται στον κατάλογο εγκατάστασης του Drupal."
+msgstr "Θέση όπου θα διατηρούνται τα αρχεία που ανεβάζονται κατά τη δοκιμή εμφάνισης. Οι σχετικές διαδρομές αρχείων θα βασίζονται στον κατάλογο εγκατάστασης του Drupal."
 
 #: modules/system/system.module:734
 msgid "Download method"

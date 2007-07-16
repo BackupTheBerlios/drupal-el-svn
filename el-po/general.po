@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-11 23:58+0300\n"
+"PO-Revision-Date: 2007-07-17 00:43+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -432,7 +432,7 @@ msgstr "Επιτρέπει την συνεργασία των χρηστών γ�
 #: modules/color/color.module:164 modules/menu/menu.module:180
 #: modules/node/node.module:2057;2071;2091;2217
 msgid "Preview"
-msgstr "Προεπισκόπηση"
+msgstr "Δοκιμή εμφάνισης"
 
 #: modules/color/color.module:220
 #: modules/node/content_types.inc:210;282;306;327
