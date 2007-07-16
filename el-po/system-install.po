@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-install\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-14 00:05+0300\n"
+"PO-Revision-Date: 2007-07-16 11:31+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: modules/system/system.install:104
 msgid "You can <a href=\"@cron\">run cron manually</a>."
-msgstr "Μπορείτε να συγχρονίσετε τον ιστοτόπο <a href=\"@cron\">χειροκίνητα (εκτέλεση cron)</a>."
+msgstr "Μπορείτε να <a href=\"@cron\">εκτελέσετε το cron χειροκίνητα</a>."
 
 #: modules/system/system.install:3245
 msgid "If you want to add a static page, like a contact page or an about page, use a page."
@@ -46,7 +46,7 @@ msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το 
 
 #: modules/system/system.install:45
 msgid "The web server you're using has not been tested with Drupal and might not work properly."
-msgstr "Ο διακομιστής ιστοσελίδων που χρησιμοποιείτε δεν έχει δοκιμαστεί με το Drupal και ίσως να μην λειτουργεί σωστά."
+msgstr "Ο διακομιστής ιστοσελίδων που χρησιμοποιείτε δεν έχει δοκιμαστεί με το Drupal και ίσως να μη λειτουργεί σωστά."
 
 #: modules/system/system.install:51
 msgid "Unknown"
@@ -54,7 +54,7 @@ msgstr "Άγνωστο"
 
 #: modules/system/system.install:52
 msgid "Unable to determine your web server type and version. Drupal might not work properly."
-msgstr "Αδυναμία προσδιορισμού τύπου και έκδοσης του διακομιστή ιστοσελίδων. Το Drupal ίσως να μην λειτουργεί σωστά."
+msgstr "Δεν ήταν δυνατός ο προσδιορισμός της έκδοσης του διακομιστή ιστοσελίδων. Το Drupal ίσως να μη λειτουργεί σωστά."
 
 #: modules/system/system.install:62
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
@@ -66,7 +66,7 @@ msgstr "Μη προστατευμένο"
 
 #: modules/system/system.install:78
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
-msgstr "Το αρχείο %file δεν είναι προστατευμένο από αλλαγές και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
+msgstr "Το αρχείο %file δεν είναι προστατευμένο από εγγραφή και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
 
 #: modules/system/system.install:83
 msgid "Protected"
@@ -78,11 +78,11 @@ msgstr "Αρχείο ρυθμίσεων"
 
 #: modules/system/system.install:94
 msgid "Last run !time ago"
-msgstr "Τελευταία χρήση !time πριν"
+msgstr "Τελευταία εκτέλεση πριν !time"
 
 #: modules/system/system.install:98
 msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
-msgstr "Ο συγχρονισμός δεν εκτελέστηκε. Φαίνεται ότι καμιά εργασία συγχρονισμού δεν είναι ενεργή στο σύστημα σας. Ελέγξτε τις σελίδες βοήθειας <a href=\"@url\">ρύθμιση εργασιών συγχρονισμού</a>."
+msgstr "Το cron δεν εκτελέστηκε. Φαίνεται ότι οι εργασίες cron δεν ρυθμιστεί για το σύστημά σας. Ελέγξτε τις σελίδες βοήθειας στη <a href=\"@url\">ρύθμιση εργασιών cron</a>."
 
 #: modules/system/system.install:100
 msgid "Never run"
@@ -90,11 +90,11 @@ msgstr "Δεν εκτελέστηκε ποτέ"
 
 #: modules/system/system.install:106
 msgid "Cron maintenance tasks"
-msgstr "Λειτουργίες συντήρησης συγχρονισμού"
+msgstr "Λειτουργίες συντήρησης του cron"
 
 #: modules/system/system.install:119
 msgid "The directory %directory is not writable."
-msgstr "Ο φάκελος %directory δεν είναι εγγράψιμος."
+msgstr "Ο κατάλογος %directory δεν είναι εγγράψιμος."
 
 #: modules/system/system.install:122
 msgid "Not writable"
@@ -102,15 +102,15 @@ msgstr "Μη εγγράψιμο"
 
 #: modules/system/system.install:124
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
-msgstr "Ίσως χρειαστεί να ορίσετε τον σωστό φάκελο στο <a href=\"@admin-file-system\">σελίδες ρυθμίσεις αρχείων συστήματος</a> ή να αλλάξετε τα δικαιώματα ώστε ο φάκελος να είναι εγγράψιμος."
+msgstr "Ίσως χρειαστεί να ορίσετε το σωστό κατάλογο στη <a href=\"@admin-file-system\">σελίδα ρύθμισης των αρχείων συστήματος</a> ή να αλλάξετε τα δικαιώματα ώστε ο κατάλογος να είναι εγγράψιμος."
 
 #: modules/system/system.install:130
 msgid "Writable (<em>public</em> download method)"
-msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος μεταφόρτωσης)"
+msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος λήψης)"
 
 #: modules/system/system.install:135
 msgid "Writable (<em>private</em> download method)"
-msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος μεταφόρτωσης)"
+msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος λήψης)"
 
 #: modules/system/system.install:145
 msgid "Database schema"
@@ -126,5 +126,5 @@ msgstr "Μη ενημερωμένο"
 
 #: modules/system/system.install:158
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
-msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν βάσεις δεδομένων. Θα πρέπει να εκτελέσετε την <a href=\"@update\"> ενημέρωση βάσης δεδομένων</a> αμέσως."
+msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν ενημερώσεις στη βάση δεδομένων. Θα πρέπει να εκτελέσετε αμέσως την <a href=\"@update\">ενημέρωση βάσης δεδομένων</a>."
 
