@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-17 00:43+0300\n"
+"PO-Revision-Date: 2007-07-17 01:12+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -836,7 +836,7 @@ msgstr "Ψηφοφορία"
 
 #: modules/poll/poll.module:184 modules/user/user.module:1327
 msgid "Active"
-msgstr "Ενεργό"
+msgstr "Ενεργός"
 
 #: modules/poll/poll.module:487 modules/statistics/statistics.module:315
 msgid "Visitor"

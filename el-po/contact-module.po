@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contact-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 00:55+0300\n"
+"PO-Revision-Date: 2007-07-17 01:15+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr "Προσωπική φόρμα επικοινωνίας"
 
 #: modules/contact/contact.module:129
 msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
-msgstr "Να μπορούν οι άλλοι χρήστες να επικοινωνούν μαζί σας μέσω e-mail από την <a href=\"@url\">προσωπική σας φόρμα επικοινωνίας</a>. Θυμηθείτε ότι παρόλο που το e-mail σας δε θα είναι σε δημόσια χρήση από τα υπόλοιπα μέλη της κοινότητας, χρήστες με προνόμια και οι διαχειριστές του ιστότοπου θα έχουν την δυνατότητα να επικοινωνήσουν μαζί σας ακόμη κι αν έχετε απενεργοποιημένη αυτή την δυναττότητα."
+msgstr "Να μπορούν οι άλλοι χρήστες να επικοινωνούν μαζί σας μέσω e-mail από την <a href=\"@url\">προσωπική σας φόρμα επικοινωνίας</a>. Θυμηθείτε ότι παρόλο που το e-mail σας δε θα είναι σε δημόσια χρήση από τα υπόλοιπα μέλη της κοινότητας, χρήστες με προνόμια και οι διαχειριστές του ιστότοπου θα έχουν την δυνατότητα να επικοινωνήσουν μαζί σας ακόμη κι αν έχετε απενεργοποιημένη αυτή την δυνατότητα."
 
 #: modules/contact/contact.module:150;170
 msgid "Recipients"

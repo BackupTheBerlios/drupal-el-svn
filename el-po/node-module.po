@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: node-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-17 00:45+0300\n"
+"PO-Revision-Date: 2007-07-17 01:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -494,7 +494,7 @@ msgstr "<strong>Προσαρμόστε την όψη του ιστοτόπου �
 
 #: modules/node/node.module:2399
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
-msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
+msgstr "<strong>Αρχίστε να υποβάλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
 
 #: modules/node/node.module:2401
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
