@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: search-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-14 00:05+0300\n"
+"PO-Revision-Date: 2007-07-16 23:25+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: modules/search/search.module:99
 msgid "The search module adds the ability to search for content by keywords. Search is often the only practical way to find content on a large site. Search is useful for finding users and posts by searching on keywords."
-msgstr "Η μονάδα search προσθέτει τη δυνατότητα αναζήτησης ύλης με λέξεις-κλειδιά. Η αναζήτηση είναι συχνά ο μόνος πρακτικός τρόπος για να βρίσκεται ύλη σε ένα μεγάλο ιστότοπο. Η αναζήτηση χρησιμεύει στην εύρεση χρηστών και δημοσιευμάτων με αναζήτηση με λέξεις-κλειδιά."
+msgstr "Η μονάδα search προσθέτει τη δυνατότητα αναζήτησης ύλης με λέξεις-κλειδιά. Η αναζήτηση είναι συχνά ο μόνος πρακτικός τρόπος για να βρίσκει κανείς ύλη σε ένα μεγάλο ιστοτόπο. Η αναζήτηση χρησιμεύει στην εύρεση χρηστών και δημοσιευμάτων με αναζήτηση με λέξεις-κλειδιά."
 
 #: modules/search/search.module:100
 msgid "The search engine works by maintaining an index of the words in your site's content. It indexes the posts and users. You can adjust the settings to tweak the indexing behaviour. Note that the search requires cron to be set up correctly. The index percentage sets the maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες. Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες. Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
 
 #: modules/search/search.module:101
 msgid "For more information please read the configuration and customization handbook <a href=\"@search\">Search page</a>."
@@ -33,7 +33,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/search/search.module:104
 msgid "The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφιρά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να είναι σωστά διευθετημένο το cron."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron."
 
 #: modules/search/search.module:106
 msgid ""
@@ -45,8 +45,8 @@ msgid ""
 msgstr ""
 "<ul>\n"
 "<li>Ελέγξτε αν η ορθογραφία σας είναι σωστή.</li>\n"
-"<li>Αφαιρέστε τα εισαγωγικά γύρω από τις φράσεις για να αναζητηθεί κάθε ξεχωριστή λέξη: η αναζήτηση <em>\"μπλε σμουρφ\"</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε σμουρφ</em>.</li>\n"
-"<li>Σκεφτείτε την περίπτωση να χαλαρώσετε το ερώτημά σας με <em>OR</em>: η αναζήτηση <em>μπλε σμουρφ</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε OR σμουρφ</em>.</li>\n"
+"<li>Αφαιρέστε τα εισαγωγικά γύρω από τις φράσεις για να αναζητηθεί κάθε ξεχωριστή λέξη: η αναζήτηση <em>\"μπλε στρουμφ\"</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε στρουμφ</em>.</li>\n"
+"<li>Σκεφτείτε την περίπτωση να χαλαρώσετε το ερώτημά σας με τη χρήση του <em>OR</em>: η αναζήτηση <em>μπλε στρουμφ</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε OR στρουμφ</em>.</li>\n"
 "</ul>"
 
 #: modules/search/search.module:126
@@ -67,11 +67,11 @@ msgstr "Εκκαθάριση ευρετηρίου"
 
 #: modules/search/search.module:161
 msgid "Top search phrases"
-msgstr "Κορυφαίες λέξεις αναζήτησης"
+msgstr "Δημοφιλέστερες λέξεις αναζήτησης"
 
 #: modules/search/search.module:162
 msgid "View most popular search phrases."
-msgstr "Προβολή δημοφιλών φράσεων αναζήτησης."
+msgstr "Προβολή δημοφιλέστερων φράσεων αναζήτησης."
 
 #: modules/search/search.module:188;218;242
 msgid "Re-index site"
@@ -79,7 +79,7 @@ msgstr "Επανευρετηρίαση του ιστοτόπου"
 
 #: modules/search/search.module:194;251
 msgid "The index will be rebuilt."
-msgstr "Το ευρετήριο θα ξανακατασκευαστεί."
+msgstr "Το ευρετήριο θα επαναδημιουργηθεί."
 
 #: modules/search/search.module:215
 msgid "%percentage of the site has been indexed."
@@ -99,7 +99,7 @@ msgstr "Στοιχεία που θα ευρετηριάζονται σε κάθ�
 
 #: modules/search/search.module:224
 msgid "The maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
-msgstr "Ο μέγιστος αριθμός στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνο του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
+msgstr "Ο μέγιστος αριθμός στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
 
 #: modules/search/search.module:226
 msgid "Indexing settings"
@@ -107,7 +107,7 @@ msgstr "Ρυθμίσεις ευρετηρίασης"
 
 #: modules/search/search.module:227
 msgid "<p>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</p><p>The default settings should be appropriate for the majority of sites.</p>"
-msgstr "<p>Η αλλαγή των παρακάτω ρυθμίσεων θα κάνει το ευρετήριο του ιστοτόπου να ξανακατασκευαστεί. Το ευρετήριο της αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δεν θα ευρετηριάζεται, μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα.</p><p>Οι προεπιλεγμένες ρυθμίσεις είναι μάλλον κατάλληλες για τους περισσότερους ιστοτόπους.</p>"
+msgstr "<p>Η αλλαγή των παρακάτω ρυθμίσεων θα προκαλέσει την επαναδημιουργία του ευρετηρίου του ιστοτόπου. Το ευρετήριο της αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δε θα ευρετηριάζεται, μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα.</p><p>Οι προεπιλεγμένες ρυθμίσεις είναι οι πλέον κατάλληλες για τους περισσότερους ιστοτόπους.</p>"
 
 #: modules/search/search.module:228
 msgid "Minimum word length to index"
@@ -131,11 +131,11 @@ msgstr "Θέλετε σίγουρα να επανευρετηριάσετε το
 
 #: modules/search/search.module:242
 msgid " The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed. This action cannot be undone."
-msgstr "Το ευρετήριο αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δεν θα ευρετηριάζεται μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+msgstr "Το ευρετήριο αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δε θα ευρετηριάζεται μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/search/search.module:842
 msgid "You must include at least one positive keyword with @count characters or more."
-msgstr "Πρέπει να δώσετε τουλάχιστον μία θετική λέξη-κλειδί με @count χαρακτήρες ή περισσότερους."
+msgstr "Πρέπει να εισάγετε τουλάχιστον μία θετική λέξη-κλειδί με @count χαρακτήρες ή περισσότερους."
 
 #: modules/search/search.module:910
 msgid "%keys (@type)."
@@ -151,11 +151,11 @@ msgstr "Αποτελέσματα αναζήτησης"
 
 #: modules/search/search.module:919
 msgid "Your search yielded no results"
-msgstr "Η αναζήτησή σας δεν έδωσε κανένα αποτέλεσμα"
+msgstr "Η αναζήτησή σας δεν έδωσε αποτελέσματα"
 
 #: modules/search/search.module:981
 msgid "Enter your keywords"
-msgstr "Δώστε τις λέξεις-κλειδιά"
+msgstr "Εισάγετε τις λέξεις-κλειδιά"
 
 #: modules/search/search.module:1022
 msgid "Please enter some keywords."

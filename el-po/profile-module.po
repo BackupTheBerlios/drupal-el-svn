@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: profile-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-08 16:10+0300\n"
+"PO-Revision-Date: 2007-07-16 23:32+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: modules/profile/profile.module:35
 msgid "The profile module allows you to define custom fields (such as country, real name, age, ...) in the user profile. This permits users of a site to share more information about themselves, and can help community-based sites to organize users around profile fields."
-msgstr "Η μονάδα profile σας επιτρέπει να ορίζετε προσαρμοσμένα πεδία (όπως χώρα, πραγματικό όνομα, ηλικία, ...) για το προφίλ χρήστη. Αυτό επιτρέπει στους χρήστες ενός ιστοτόπου να μοιράζονται περισσότερες πληροφορίες για τον εαυτό τους, και μπορεί να βοηθήσει τους ιστοτόπους-κοινότητες να οργανώνουν τους χρήστες τους με βάση κάποια πεδία του προφίλ."
+msgstr "Η μονάδα profile σας επιτρέπει να ορίζετε προσαρμοσμένα πεδία (όπως χώρα, πραγματικό όνομα, ηλικία, ...) για το προφίλ χρήστη. Αυτό επιτρέπει στους χρήστες ενός ιστοτόπου να μοιράζονται περισσότερες πληροφορίες για τον εαυτό τους και μπορεί να βοηθήσει τους ιστοτόπους-κοινότητες να οργανώνουν τους χρήστες τους με βάση κάποια πεδία του προφίλ."
 
 #: modules/profile/profile.module:36
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 "<li>κουτάκι επιλογής</li>\n"
 "<li>λίστα επιλογής</li>\n"
 "<li>λίστα ελεύθερης μορφής</li>\n"
-"<li>URL</li>\n"
+"<li>διεύθυνση URL</li>\n"
 "<li>ημερομηνία</li>\n"
 "</ul>\n"
 
@@ -90,7 +90,7 @@ msgstr "Πληροφορίες για το συντάκτη"
 
 #: modules/profile/profile.module:116
 msgid "Link to full user profile"
-msgstr "Προσωπικό προφίλ"
+msgstr "Παραπομπή προς το πλήρες προσωπικό προφίλ του χρήστη"
 
 #: modules/profile/profile.module:118
 msgid "Profile fields to display"
@@ -102,7 +102,7 @@ msgstr "Επιλέξτε ποια πεδία του προφίλ θέλετε ν
 
 #: modules/profile/profile.module:152
 msgid "View full user profile"
-msgstr "Εμφάνιση πλήρες προφίλ του χρήστη"
+msgstr "Προβολή πλήρους προφίλ του χρήστη"
 
 #: modules/profile/profile.module:157
 msgid "About %name"
@@ -122,11 +122,11 @@ msgstr "Ρυθμίσεις πεδίου"
 
 #: modules/profile/profile.module:233
 msgid "The category the new field should be part of. Categories are used to group fields logically. An example category is \"Personal information\"."
-msgstr "Η κατηγορία στην οποία θα ανήκει το νέο πεδίο. Οι κατηγορίες χρησιμοποιούνται για τη λογική ομαδοποίηση των πεδίων. Παράδειγμα κατηγορίας είναι τα \"Προσωπικά στοιχεία\"."
+msgstr "Η κατηγορία στην οποία θα ανήκει το νέο πεδίο. Οι κατηγορίες χρησιμοποιούνται για τη λογική ομαδοποίηση των πεδίων. Ένα παράδειγμα κατηγορίας είναι τα \"Προσωπικά στοιχεία\"."
 
 #: modules/profile/profile.module:239
 msgid "The title of the new field. The title will be shown to the user. An example title is \"Favorite color\"."
-msgstr "Ο τίτλος του νέου πεδίου. Ο τίτλος θα εμφανίζεται στο χρήστη. Παράδειγμα τίτλου είναι το \"Αγαπημένο χρώμα\"."
+msgstr "Ο τίτλος του νέου πεδίου. Ο τίτλος θα εμφανίζεται στο χρήστη. Ένα παράδειγμα τίτλου είναι το \"Αγαπημένο χρώμα\"."
 
 #: modules/profile/profile.module:243
 msgid "Form name"
@@ -138,7 +138,7 @@ msgid ""
 "Unless you know what you are doing, it is highly recommended that you prefix the form name with <code>profile_</code> to avoid name clashes with other fields. Spaces or any other special characters except dash (-) and underscore (_) are not allowed. An example name is \"profile_favorite_color\" or perhaps just \"profile_color\"."
 msgstr ""
 "Το όνομα του πεδίου. Το όνομα της φόρμας δεν εμφανίζεται στο χρήστη αλλά χρησιμοποιείται εσωτερικά στον κώδικα HTML και στις διευθύνσεις URL.\n"
-"Συνιστούμε να συμπεριλάβετε στο όνομα της φόρμας το πρόθεμα <code>profile_</code> για να αποφύγετε συγκρούσεις ονομάτων με άλλα πεδία, εκτός αν ξέρετε καλά τι κάνετε. Δεν επιτρέπονται διαστήματα ή άλλοι ειδικοί ή μη λατινικοί χαρακτήρες, εκτός από την παύλα (-) και το χαρακτήρα υπογράμμισης (_). Παράδειγμα ονόματος φόρμας είναι το \"profile_favorite_color\" ή ίσως το απλούστερο \"profile_color\"."
+"Συνιστάται να συμπεριλαμβάνετε στο όνομα της φόρμας το πρόθεμα <code>profile_</code> για να αποφύγετε συγκρούσεις ονομάτων με άλλα πεδία, εκτός αν γνωρίζετε πολύ καλά τι κάνετε. Δεν επιτρέπονται διαστήματα ή άλλοι ειδικοί ή μη λατινικοί χαρακτήρες, εκτός από την παύλα (-) και το χαρακτήρα υπογράμμισης (_). Ένα παράδειγμα ονόματος φόρμας είναι το \"profile_favorite_color\" ή ίσως το απλούστερο \"profile_color\"."
 
 #: modules/profile/profile.module:250
 msgid "Explanation"
@@ -174,7 +174,7 @@ msgstr "Ιδιωτικό πεδίο, το περιεχόμενο θα είναι
 
 #: modules/profile/profile.module:270
 msgid "Public field, content shown on profile page but not used on member list pages."
-msgstr "Δημόσιο πεδίο, το περιεχόμενο θα εμφανίζεται στη σελίδα του προφίλ αλλά δεν θα χρησιμοποιείται στις λίστες μελών."
+msgstr "Δημόσιο πεδίο, το περιεχόμενο θα εμφανίζεται στη σελίδα του προφίλ αλλά δε θα χρησιμοποιείται στις λίστες μελών."
 
 #: modules/profile/profile.module:270
 msgid "Public field, content shown on profile page and on member list pages."
@@ -198,7 +198,7 @@ msgstr "Η φόρμα θα συμπληρωθεί αυτόματα καθώς ο
 
 #: modules/profile/profile.module:291
 msgid "The user must enter a value."
-msgstr "Ο χρήστης πρέπει να δώσει μια τιμή."
+msgstr "Ο χρήστης πρέπει να εισάγει μια τιμή."
 
 #: modules/profile/profile.module:295
 msgid "Visible in user registration form."
@@ -210,19 +210,19 @@ msgstr "Αποθήκευση πεδίου"
 
 #: modules/profile/profile.module:310
 msgid "The specified form name contains one or more illegal characters. Spaces or any other special characters except dash (-) and underscore (_) are not allowed."
-msgstr "Το όνομα φόρμας που δώσατε περιέχει έναν ή περισσότερους ανεπίτρεπτους χαρακτήρες. Τα διαστήματα ή άλλοι ειδικοί ή μη λατινικοί χαρακτήρες, εκτός από την παύλα (-) και το χαρακτήρα υπογράμμισης (_), δεν επιτρέπονται."
+msgstr "Το όνομα φόρμας που εισάγατε περιέχει έναν ή περισσότερους μη επιτρεπτούς χαρακτήρες. Τα διαστήματα ή άλλοι ειδικοί ή μη λατινικοί χαρακτήρες, εκτός από την παύλα (-) και το χαρακτήρα υπογράμμισης (_), δεν επιτρέπονται."
 
 #: modules/profile/profile.module:314
 msgid "The specified form name is reserved for use by Drupal."
-msgstr "Το όνομα φόρμας που δώσατε είναι δεσμευμένο για χρήση από το Drupal."
+msgstr "Το όνομα φόρμας που εισάγατε είναι δεσμευμένο για χρήση από το Drupal."
 
 #: modules/profile/profile.module:321
 msgid "The specified category name is reserved for use by Drupal."
-msgstr "Το όνομα κατηγορίας που δώσατε είναι δεσμευμένο για χρήση από το Drupal."
+msgstr "Το όνομα κατηγορίας που εισάγατε είναι δεσμευμένο για χρήση από το Drupal."
 
 #: modules/profile/profile.module:333
 msgid "The specified title is already in use."
-msgstr "Ο τίτλος που δώσατε χρησιμοποιείται ήδη."
+msgstr "Ο τίτλος που εισάγατε χρησιμοποιείται ήδη."
 
 #: modules/profile/profile.module:336
 msgid "The specified name is already in use."
@@ -246,7 +246,7 @@ msgstr "Θέλετε σίγουρα να διαγράψετε το πεδίο %f
 
 #: modules/profile/profile.module:374
 msgid "This action cannot be undone. If users have entered values into this field in their profile, these entries will also be deleted. If you want to keep the user-entered data, instead of deleting the field you may wish to <a href=\"@edit-field\">edit this field</a> and change it to a hidden profile field so that it may only be accessed by administrators."
-msgstr "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Αν οι χρήστες έχουν δώσει τιμή σε αυτό το πεδίο στο προσωπικό τους προφίλ, οι τιμές αυτές θα διαγραφούν. Αν θέλετε να διατηρήσετε τα δεδομένα που έχουν δώσει οι χρήστες, αντί να διαγράψετε το πεδίο μπορείτε να το <a href=\"@edit-field\">τροποποιήσετε</a> και να το αλλάξετε σε κρυφό πεδίο προφίλ έτσι ώστε να μπορούν να το προσπελάσουν μόνο οι διαχειριστές."
+msgstr "Αυτή η ενέργεια είναι μη αναστρέψιμη. Αν οι χρήστες έχουν εισάγει τιμή σε αυτό το πεδίο στο προσωπικό τους προφίλ, οι τιμές αυτές θα διαγραφούν. Αν θέλετε να διατηρήσετε τα δεδομένα που έχουν δώσει οι χρήστες, αντί να διαγράψετε το πεδίο μπορείτε να το <a href=\"@edit-field\">τροποποιήσετε</a> και να το αλλάξετε σε κρυφό πεδίο προφίλ έτσι ώστε να μπορούν να το προσπελάσουν μόνο οι διαχειριστές."
 
 #: modules/profile/profile.module:387
 msgid "The field %field has been deleted."
@@ -270,11 +270,11 @@ msgstr "λίστα χρηστών"
 
 #: modules/profile/profile.module:614
 msgid "Put each item on a separate line or separate them by commas. No HTML allowed."
-msgstr "Τοποθετήστε το κάθε στοιχείο σε ξεχωριστή γραμμή ή διαχωρίστε τα με κόμματα. Δεν επιτρέπεται HTML."
+msgstr "Τοποθετήστε το κάθε στοιχείο σε ξεχωριστή γραμμή ή διαχωρίστε τα με κόμματα. Δεν επιτρέπεται η χρήση HTML."
 
 #: modules/profile/profile.module:731
 msgid "The value provided for %field is not a valid URL."
-msgstr "Η τιμή για το %field δεν είναι έγκυρη URL."
+msgstr "Η τιμή για το %field δεν είναι έγκυρη διεύθυνση URL."
 
 #: modules/profile/profile.module:736
 msgid "The field %field is required."
@@ -307,3 +307,4 @@ msgstr "ημερομηνία"
 #: modules/profile/profile.module:348;388;0
 msgid "profile"
 msgstr "προφίλ"
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: node-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 00:23+0300\n"
+"PO-Revision-Date: 2007-07-17 00:01+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: modules/node/node.module:18
 msgid "All content in a website is stored and treated as <b>nodes</b>. Therefore nodes are any postings such as blogs, stories, polls and forums. The node module manages these content types and is one of the strengths of Drupal over other content management systems."
-msgstr "Όλη η ύλη ενός ιστοτόπου αποθηκεύεται και αντιμετωπίζεται ως <b>κόμβοι</b> (nodes). Κόμβοι είναι λοιπόν οποιεσδήποτε καταχωρίσεις, όπως ιστολογήματα. Ιστορήματα, ψηφοφορίες και θέματα φόρουμ. Η μονάδα node διαχειρίζεται αυτούς τους τύπους ύλης και είναι ένα από τα σημεία όπου πλεονεκτεί το Drupal έναντι άλλων συστημάτων διαχείρισης ύλης."
+msgstr "Όλη η ύλη ενός ιστοτόπου αποθηκεύεται και αντιμετωπίζεται ως <b>κόμβοι</b> (nodes). Κόμβοι είναι λοιπόν οποιεσδήποτε καταχωρίσεις, όπως ιστολογήματα, ιστορήματα, ψηφοφορίες και φόρουμ. Η μονάδα node διαχειρίζεται αυτούς τους τύπους ύλης και είναι ένα από τα σημεία όπου πλεονεκτεί το Drupal έναντι άλλων συστημάτων διαχείρισης ύλης."
 
 #: modules/node/node.module:19
 msgid "Treating all content as nodes allows the flexibility of creating new types of content. It also allows you to painlessly apply new features or changes to all content. Comments are not stored as nodes but are always associated with a node."
@@ -62,7 +62,7 @@ msgstr "Παρακάτω είναι μια λίστα με όλους τους �
 
 #: modules/node/node.module:35
 msgid "To create a new content type, enter the human-readable name, the machine-readable name, and all other relevant fields that are on this page. Once created, users of your site will be able to create posts that are instances of this content type."
-msgstr "Για να δημιουργήσετε νέο τύπο ύλης, εισάγετε το ανθρωπίνως αναγνώσιμο όνομα, το μηχανικώς αναγνώσιμο όνομα και τα υπόλοιπα στοιχεία σε αυτή την σελίδα. Μόλις δημιουργηθεί οι χρήστες θα μπορούν να υποβάλλουν ύλη σε αυτό τον τύπο."
+msgstr "Για να δημιουργήσετε νέο τύπο ύλης, εισάγετε το ανθρωπίνως αναγνώσιμο όνομα, το μηχανικώς αναγνώσιμο όνομα και τα υπόλοιπα στοιχεία σε αυτή την σελίδα. Μόλις δημιουργηθεί, οι χρήστες θα μπορούν να υποβάλλουν ύλη αυτού του τύπου."
 
 #: modules/node/node.module:39
 msgid "The revisions let you track differences between multiple versions of a post."
@@ -78,7 +78,7 @@ msgstr "Βαθμολογία ύλης"
 
 #: modules/node/node.module:817
 msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
-msgstr "Οι παρακάτω αριθμοί ελέγχουν ποιες ιδιότητες θα ευνοεί η αναζήτηση ύλης όταν ταξινομεί τα αποτελέσματα. Μεγαλύτεροι αριθμοί σημαίνουν μεγαλύτερη επιρροή και το μηδέν σημαίνει ότι η ιδιότητα αγνοείται. Η αλλαγή αυτών των αριθμών δεν απαιτεί να επανακατασκευαστεί το ευρετήριο της αναζήτησης. Οι αλλαγές ισχύουν αμέσως."
+msgstr "Οι παρακάτω αριθμοί ελέγχουν ποιες ιδιότητες θα ευνοεί η αναζήτηση ύλης όταν ταξινομεί τα αποτελέσματα. Μεγαλύτεροι αριθμοί σημαίνουν μεγαλύτερη επιρροή και το μηδέν σημαίνει ότι η ιδιότητα αγνοείται. Η αλλαγή αυτών των αριθμών δεν απαιτεί την επαναδημιουργία του ευρετηρίου της αναζήτησης. Οι αλλαγές ισχύουν αμέσως."
 
 #: modules/node/node.module:819
 msgid "Keyword relevance"
@@ -102,11 +102,11 @@ msgstr "Συντελεστής"
 
 #: modules/node/node.module:972
 msgid "If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Possible causes for permission problems are disabling modules or configuration changes to permissions. Rebuilding will remove all privileges to posts, and replace them with permissions based on the current modules and settings."
-msgstr "Αν ο ιστοτόπος αντιμετωπίζει προβλήματα με τις άδειες χρήσης των τύπων ύλης, ίσως χρειάζεται να ξαναδημιουργήσετε την λανθάνουσα μνήμη των δικαιωμάτων. Πιθανές αιτίες για προβλήματα δικαιωμάτων είναι η ενεργοποίηση μονάδες ή αλλαγές στην σελίδα δικαιωμάτων. Η αναδημιουργία θα αφαιρέσει όλα τα δικαιώματα από της δημοσιεύσεις και θα τα αντικαταστήσει με τα νέα."
+msgstr "Αν ο ιστοτόπος αντιμετωπίζει προβλήματα με τις άδειες χρήσης των τύπων ύλης, ίσως χρειάζεται να ξαναδημιουργήσετε την λανθάνουσα μνήμη των δικαιωμάτων. Πιθανές αιτίες για προβλήματα δικαιωμάτων είναι η απενεργοποίηση μονάδων ή αλλαγές στην σελίδα δικαιωμάτων. Η επαναδημιουργία θα αφαιρέσει όλα τα δικαιώματα από τις δημοσιεύσεις και θα τα αντικαταστήσει με τα δικαιώματα βάση των υπάρχοντων μονάδων και ρυθμίσεων."
 
 #: modules/node/node.module:973
 msgid "Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed posts will automatically use the new permissions."
-msgstr "Η αναδημιουργία ίσως χρειαστεί κάποιο χρόνο αν έχετε αρκετό περιεχόμενο ή πολύπλοκες επιλογές δικαιωμάτων. Μετά την αναδημιουργία οι δημοσιεύσεις θα χρησιμοποιήσουν αυτόματα τα νέα δικαιώματα."
+msgstr "Η επαναδημιουργία ίσως χρειαστεί κάποιο χρόνο αν έχετε αρκετό περιεχόμενο ή πολύπλοκες ρυθμίσεις δικαιωμάτων. Μετά την επαναδημιουργία, οι δημοσιεύσεις θα χρησιμοποιήσουν αυτόματα τα νέα δικαιώματα."
 
 #: modules/node/node.module:975
 msgid "Node access status"
@@ -114,7 +114,7 @@ msgstr "Κατάσταση πρόσβασης κόμβου"
 
 #: modules/node/node.module:977;1005;1015
 msgid "Rebuild permissions"
-msgstr "Αναδημιουργία δικαιωμάτων"
+msgstr "Επαναδημιουργία δικαιωμάτων"
 
 #: modules/node/node.module:981
 msgid "Number of posts on main page"
@@ -182,15 +182,15 @@ msgstr "Πρέπει οι χρήστες να κάνουν δοκιμή εμφά
 
 #: modules/node/node.module:1014
 msgid "Are you sure you want to rebuild node permissions on the site?"
-msgstr "Είστε σίγουροι ότι θέλετε να ξαναδημιουργήσετε τα δικαιώματα κόμβων στον ιστοτόπο;"
+msgstr "Είστε σίγουροι ότι θέλετε να επαναδημιουργήσετε τις άδειες των κόμβων στον ιστοτόπο;"
 
 #: modules/node/node.module:1015
 msgid "This will wipe all current node permissions and rebuild them based on current settings. Rebuilding the permissions may take a while so please be patient. This action cannot be undone."
-msgstr "Αυτό θα σβήσει όλα τα τωρινά δικαιώματα κόμβων και θα τα ξαναδημιουργήσει με τις νέες επιλογές. Η αναδημιουργία των αδειών ίσως χρειαστεί χρόνο, περιμένετε. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+msgstr "Αυτό θα σβήσει όλες τις τωρινές άδειες των κόμβων και θα τις επαναδημιουργήσει βάση των τρέχουσων ρυθμίσεων. Η επαναδημιουργία των αδειών ίσως χρειαστεί χρόνο, οπότε περιμένετε. Αυτή η ενέργεια είναι μη αναστρέψιμη."
 
 #: modules/node/node.module:1023
 msgid "The node access table has been rebuilt."
-msgstr "Η ταμπέλα πρόσβασης κόμβων αναδημιουργήθηκε."
+msgstr "Ο πίνακας πρόσβασης κόμβων επαναδημιουργήθηκε."
 
 #: modules/node/node.module:1047
 msgid "Read more"
@@ -226,11 +226,11 @@ msgstr "Επιλογές δημοσιεύσεων"
 
 #: modules/node/node.module:1094
 msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
-msgstr "Έλεγχος της συμπεριφοράς δημοσίευσης, όπως το μέγεθος της περίληψης, υποχρεωτική προεπισκόπηση, νούμερο δημοσιεύσεων της αρχικής σελίδας."
+msgstr "Έλεγχος της συμπεριφοράς δημοσίευσης, όπως το μέγεθος της περίληψης, υποχρεωτική δοκιμή εμφάνισης και του αριθμού των δημοσιεύσεων της αρχικής σελίδας."
 
 #: modules/node/node.module:1101
 msgid "rebuild permissions"
-msgstr "αναδημιουργία δικαιωμάτων"
+msgstr "επαναδημιουργία αδειών"
 
 #: modules/node/node.module:1109
 msgid "Content types"
@@ -238,7 +238,7 @@ msgstr "Τύποι ύλης"
 
 #: modules/node/node.module:1110
 msgid "Manage posts by content type, including default status, front page promotion, etc."
-msgstr "Διαχείριση δημοσιευμάτων με βάση τον τύπο, περιλαμβανομένων των προεπιλογών, προβιβασμός στην αρχική σελίδα κ.τ.λ."
+msgstr "Διαχείριση δημοσιευμάτων με βάση τον τύπο, συμπεριλαμβανομένων των προεπιλογών, του προβιβασμού στην αρχική σελίδα κ.τ.λ."
 
 #: modules/node/node.module:1122
 msgid "Add content type"
@@ -262,7 +262,7 @@ msgstr "Άρση δημοσίευσης"
 
 #: modules/node/node.module:1259
 msgid "Promote to front page"
-msgstr "Προαγωγή σε αρχική σελίδα"
+msgstr "Προβιβασμός σε αρχική σελίδα"
 
 #: modules/node/node.module:1263
 msgid "Demote from front page"
@@ -270,7 +270,7 @@ msgstr "Αφαίρεση από αρχική σελίδα"
 
 #: modules/node/node.module:1267
 msgid "Make sticky"
-msgstr "Κάνε το μόνιμο"
+msgstr "Μετατροπή σε μόνιμο"
 
 #: modules/node/node.module:1271
 msgid "Remove stickiness"
@@ -282,7 +282,7 @@ msgstr "δημοσιευμένο"
 
 #: modules/node/node.module:1329;1558
 msgid "not published"
-msgstr "αδημοσίευτο"
+msgstr "μη δημοσιευμένο"
 
 #: modules/node/node.module:1330
 msgid "promoted"
@@ -290,7 +290,7 @@ msgstr "προβιβασμένο"
 
 #: modules/node/node.module:1330
 msgid "not promoted"
-msgstr "απροβίβαστο"
+msgstr "μη προβιβασμένο"
 
 #: modules/node/node.module:1331
 msgid "sticky"
@@ -378,11 +378,11 @@ msgstr "Για ανεξάρτητη κυκλοφορία"
 
 #: modules/node/node.module:1920
 msgid "The body of your @type is too short. You need at least %words words."
-msgstr "Το περιεχόμενο αυτής της καταχώρισης τύπου @type σας είναι πολύ σύντομη. Χρειάζονται τουλάχιστον %words λέξεις."
+msgstr "Το περιεχόμενο αυτής της καταχώρισης τύπου @type σας είναι πολύ σύντομο. Χρειάζονται τουλάχιστον %words λέξεις."
 
 #: modules/node/node.module:1924
 msgid "This content has been modified by another user, changes cannot be saved."
-msgstr "Η ύλη έχει τροποποιηθεί από κάποιον άλλο. Οι μεταβολές σας δεν μπορούν να αποθηκευτούν."
+msgstr "Η ύλη έχει τροποποιηθεί από κάποιον άλλο, οι μεταβολές σας δεν μπορούν να αποθηκευτούν."
 
 #: modules/node/node.module:1933
 msgid "The username %name does not exist."
@@ -450,7 +450,7 @@ msgstr "@type: προστέθηκε το %title."
 
 #: modules/node/node.module:2266
 msgid "Your %post has been created."
-msgstr "%post καταχωρήθηκε."
+msgstr "Το %post καταχωρήθηκε."
 
 #: modules/node/node.module:2287
 msgid "Are you sure you want to delete %title?"
@@ -494,7 +494,7 @@ msgstr "<strong>Προσαρμόστε την όψη του ιστοτόπου �
 
 #: modules/node/node.module:2399
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
-msgstr "<strong>Αρχίστε να υποβάλετε ύλη</strong> Τελικά, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
+msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώριση."
 
 #: modules/node/node.module:2401
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
