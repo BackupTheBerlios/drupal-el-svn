@@ -170,7 +170,7 @@ msgstr "2000 χαρακτήρες"
 
 #: modules/node/node.module:990
 msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
-msgstr "Ο μέγιστος αριθμός χαρακτήρων που χρησιμοποιούνται στην περικομμένη μορφή μιας καταχώρισης. Το Drupal θα χρησιμοποιεί αυτή τη ρύθμιση για να προσδιορίζει σε ποιο σημείο πρέπει να κόβονται οι μεγάλες καταχωρίσεις. Η περικομμένη μορφή μιας καταχώρισης χρησιμοποιείται συνήθως ως περίληψη όταν εμφανίζεται η καταχώριση στην κεντρική σελίδα, σε ροή XML, κλπ. Για να απενεργοποιήσετε τις περιλήψεις επιλέξτε 'Χωρίς περιορισμό'. Σημειώστε ότι η ρύθμιση αυτή θα έχει επίδραση μόνο στη νέα ή την ενημερωμένη ύλη και όχι στις υπάρχουσες περιλήψεις."
+msgstr "Ο μέγιστος αριθμός χαρακτήρων που χρησιμοποιούνται στην περικομμένη μορφή μιας καταχώρισης. Το Drupal θα χρησιμοποιεί αυτή τη ρύθμιση για να προσδιορίζει σε ποιο σημείο πρέπει να κόβονται οι μεγάλες καταχωρίσεις. Η περικομμένη μορφή μιας καταχώρισης χρησιμοποιείται συνήθως ως περίληψη όταν εμφανίζεται η καταχώριση στην κεντρική σελίδα, σε ροή XML, κλπ. Για να απενεργοποιήσετε τις περιλήψεις επιλέξτε 'Απεριόριστο'. Σημειώστε ότι η ρύθμιση αυτή θα έχει επίδραση μόνο στη νέα ή την ενημερωμένη ύλη και όχι στις υπάρχουσες περιλήψεις."
 
 #: modules/node/node.module:994
 msgid "Preview post"
