@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: book-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-07-14 00:04+0300\n"
+"PO-Revision-Date: 2007-07-27 19:49+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgstr "διάρθρωση"
 
 #: modules/book/book.module:984
 msgid "The <em>book</em> module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book,  placing them into the existing document by adding them to a table of contents menu."
-msgstr "Η μονάδα <em>βιβλίο</em> είναι κατάλληλη για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου όπως οι τουριστικοί οδηγοί, τα εγχειρίδια και οι \"συχνές ερωτήσεις\" (FAQs). Επιτρέπει να έχει ένα έγγραφο κεφάλαια, ενότητες, υποενότητες κ.λπ. Οι συντάκτες με τις κατάλληλες άδειες μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
+msgstr "Η μονάδα <em>book</em> είναι κατάλληλη για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου όπως οι τουριστικοί οδηγοί, τα εγχειρίδια και οι \"συχνές ερωτήσεις\" (FAQs). Επιτρέπει να έχει ένα έγγραφο κεφάλαια, ενότητες, υποενότητες κ.λπ. Οι συντάκτες με τις κατάλληλες άδειες μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
 
 #: modules/book/book.module:985
 msgid "Book pages have navigation elements at the bottom of the page for moving through the text.  These link to the previous and next pages in the book, as well as a link labeled <em>up</em>, leading to the level above in the structure.  More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">block administration page</a>."
@@ -170,7 +170,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/book/book.module:992
 msgid "The book module offers a means to organize content, authored by many users, in an online manual, outline or FAQ."
-msgstr "Η μονάδα βιβλίο παρέχει ένα μέσο για να οργανώνεται ύλη που γράφεται από πολλούς χρήστες σε ένα εγχειρίδιο, μια διάρθρωση ή μια λίστα από συχνές ερωτήσεις."
+msgstr "Η μονάδα book παρέχει ένα μέσο για να οργανώνεται ύλη που γράφεται από πολλούς χρήστες σε ένα εγχειρίδιο, μια διάρθρωση ή μια λίστα από συχνές ερωτήσεις."
 
 #: modules/book/book.module:994
 msgid "Pages in a book are like a tree. As pages are edited, reorganized and removed, child pages might be left with no link to the rest of the book. Such pages are referred to as \"orphan pages\". On this page, administrators can review their books for orphans and reattach those pages as desired."

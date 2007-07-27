@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: search-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-16 23:25+0300\n"
+"PO-Revision-Date: 2007-07-27 21:23+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr ""
 "<ul>\n"
 "<li>Ελέγξτε αν η ορθογραφία σας είναι σωστή.</li>\n"
 "<li>Αφαιρέστε τα εισαγωγικά γύρω από τις φράσεις για να αναζητηθεί κάθε ξεχωριστή λέξη: η αναζήτηση <em>\"μπλε στρουμφ\"</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε στρουμφ</em>.</li>\n"
-"<li>Σκεφτείτε την περίπτωση να χαλαρώσετε το ερώτημά σας με τη χρήση του <em>OR</em>: η αναζήτηση <em>μπλε στρουμφ</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε OR στρουμφ</em>.</li>\n"
+"<li>Σκεφτείτε την περίπτωση να κάνετε το ερώτημά σας ποιο χαλαρό με τη χρήση του <em>OR</em>: η αναζήτηση <em>μπλε στρουμφ</em> βρίσκει λιγότερα από την αναζήτηση <em>μπλε OR στρουμφ</em>.</li>\n"
 "</ul>"
 
 #: modules/search/search.module:126
@@ -67,7 +67,7 @@ msgstr "Εκκαθάριση ευρετηρίου"
 
 #: modules/search/search.module:161
 msgid "Top search phrases"
-msgstr "Δημοφιλέστερες λέξεις αναζήτησης"
+msgstr "Συχνότερες φράσεις αναζήτησης"
 
 #: modules/search/search.module:162
 msgid "View most popular search phrases."

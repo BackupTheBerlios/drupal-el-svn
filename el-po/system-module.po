@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-17 00:46+0300\n"
+"PO-Revision-Date: 2007-07-27 19:22+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -78,11 +78,11 @@ msgstr "Συμπτυγμένη μορφή"
 
 #: modules/system/system.module:108
 msgid "By task"
-msgstr "Βάση λειτουργίας"
+msgstr "Κατά εργασία"
 
 #: modules/system/system.module:111
 msgid "By module"
-msgstr "Βάση μονάδας"
+msgstr "Κατά μονάδα"
 
 #: modules/system/system.module:119
 msgid "Site configuration"

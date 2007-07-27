@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: statistics-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-16 12:51+0300\n"
+"PO-Revision-Date: 2007-07-27 21:20+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +109,7 @@ msgstr "Εμφάνιση επισκεπτών που προσπέλασαν πο
 
 #: modules/statistics/statistics.module:129
 msgid "Top referrers"
-msgstr "Δημοφιλέστερες αναφορές"
+msgstr "Συχνότερες αναφορές"
 
 #: modules/statistics/statistics.module:130
 msgid "View top referrers."

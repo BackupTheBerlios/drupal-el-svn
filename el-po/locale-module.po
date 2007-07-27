@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-17 01:14+0300\n"
+"PO-Revision-Date: 2007-07-27 21:19+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: modules/locale/locale.module:22
 msgid "The locale module allows you to present your Drupal site in a language other than the default English. You can use it to set up a multi-lingual web site or replace given <em>built-in</em> text with text which has been customized for your site. Whenever the locale module encounters text which needs to be displayed, it tries to translate it into the currently selected language. If a translation is not available, then the string is remembered, so you can look up untranslated strings easily."
-msgstr "Η μονάδα locale σας επιτρέπει να παρουσιάζετε τον ιστοτόπο σας σε άλλη γλώσσα αντί της προεπιλεγμένης Αγγλικής. Μπορείτε να τη χρησιμοποιήσετε για να εγκαταστήσετε έναν πολύγλωσσο ιστοτόπο ή για να αντικαταστήσετε κάποιο από το <em>ενσωματωμένο</em> κείμενο με κείμενο που έχετε προσαρμόσει για τον ιστοτόπο σας. Όποτε η μονάδα locale συναντά κείμενο που πρέπει να εμφανιστεί, επιχειρεί να το μεταφράσει στην τρέχουσα επιλεγμένη γλώσσα. Αν δεν υπάρχει διαθέσιμη μετάφραση, τότε η φράση μένει στη μνήμη ώστε να μπορείτε να αναζητάτε τις αμετάφραστες φράσεις εύκολα."
+msgstr "Η μονάδα locale σάς επιτρέπει να παρουσιάζετε τον ιστοτόπο σας σε άλλη γλώσσα αντί της προεπιλεγμένης Αγγλικής. Μπορείτε να τη χρησιμοποιήσετε για να εγκαταστήσετε έναν πολύγλωσσο ιστοτόπο ή για να αντικαταστήσετε κάποιο από το <em>ενσωματωμένο</em> κείμενο με κείμενο που έχετε προσαρμόσει για τον ιστοτόπο σας. Όποτε η μονάδα locale συναντά κείμενο που πρέπει να εμφανιστεί, επιχειρεί να το μεταφράσει στην τρέχουσα επιλεγμένη γλώσσα. Αν δεν υπάρχει διαθέσιμη μετάφραση, τότε η φράση μένει στη μνήμη ώστε να μπορείτε να αναζητάτε τις αμετάφραστες φράσεις εύκολα."
 
 #: modules/locale/locale.module:23
 msgid "The locale module provides two options for providing translations. The first is the integrated web interface, via which you can search for untranslated strings, and specify their translations. An easier and less time-consuming method is to import existing translations for your language. These translations are available as <em>GNU gettext Portable Object files</em> (<em>.po</em> files for short). Translations for many languages are available for download from the translation page."
@@ -30,7 +30,7 @@ msgstr "Η μονάδα locale διαθέτει δύο επιλογές για �
 
 #: modules/locale/locale.module:24
 msgid "If an existing translation does not meet your needs, the <em>.po</em> files are easily edited with special editing tools. The locale module's import feature allows you to add strings from such files into your site's database. The export functionality enables you to share your translations with others, generating Portable Object files from your site strings."
-msgstr "Αν μια υπάρχουσα μετάφραση δεν ικανοποιεί τις ανάγκες σας, τα αρχεία <em>.po</em> τροποποιούνται εύκολα με ειδικά εργαλεία διόρθωσης. Η δυνατότητα εισαγωγής μεταφράσεων της μονάδας locale σας επιτρέπει να προσθέτετε φράσεις από τέτοια αρχεία στη βάση δεδομένων του ιστοτόπου σας. Η δυνατότητα εξαγωγής σας επιτρέπει να μοιράζεστε τις μεταφράσεις σας με άλλους, παράγοντας αρχεία Portable Object από τις φράσεις του ιστοτόπου σας."
+msgstr "Αν μια υπάρχουσα μετάφραση δεν ικανοποιεί τις ανάγκες σας, τα αρχεία <em>.po</em> τροποποιούνται εύκολα με ειδικά εργαλεία διόρθωσης. Η δυνατότητα εισαγωγής μεταφράσεων της μονάδας locale σάς επιτρέπει να προσθέτετε φράσεις από τέτοια αρχεία στη βάση δεδομένων του ιστοτόπου σας. Η δυνατότητα εξαγωγής σάς επιτρέπει να μοιράζεστε τις μεταφράσεις σας με άλλους, με την παραγωγή αρχείων Portable Object από τις φράσεις του ιστοτόπου σας."
 
 #: modules/locale/locale.module:25
 msgid "For more information please read the configuration and customization handbook <a href=\"@locale\">Locale page</a>."
@@ -46,11 +46,11 @@ msgstr "Θα πρέπει να προσθέσετε όλες τις γλώσσε
 
 #: modules/locale/locale.module:33
 msgid "This page allows you to import a translation provided in the gettext Portable Object (.po) format. The easiest way to get your site translated is to obtain an existing Drupal translation and to import it. You can find existing translations on the <a href=\"@url\">Drupal translation page</a>. Note that importing a translation file might take a while."
-msgstr "Η σελίδα αυτή σας επιτρέπει να εισαγάγετε μια μετάφραση σε μορφή Portable Object (.po) του gettext. Ο ευκολότερος τρόπος για να μεταφράσετε τον ιστοτόπο σας είναι να πάρετε μια υπάρχουσα μετάφραση του Drupal και να την εισαγάγετε. Μπορείτε να βρείτε υπάρχουσες μεταφράσεις στην ιστοσελίδα <a href=\"@url\">μεταφράσεων του Drupal</a>. Σημειώστε ότι η εισαγωγή μιας μετάφρασης μπορεί να χρειαστεί κάποιο χρόνο."
+msgstr "Η σελίδα αυτή σάς επιτρέπει να εισάγετε μια μετάφραση σε μορφή Portable Object (.po) του gettext. Ο ευκολότερος τρόπος για να μεταφράσετε τον ιστοτόπο σας είναι να πάρετε μια υπάρχουσα μετάφραση του Drupal και να την εισάγετε. Μπορείτε να βρείτε υπάρχουσες μεταφράσεις στην ιστοσελίδα <a href=\"@url\">μεταφράσεων του Drupal</a>. Σημειώστε ότι η εισαγωγή μιας μετάφρασης μπορεί να χρειαστεί κάποιο χρόνο."
 
 #: modules/locale/locale.module:35
 msgid "This page allows you to export Drupal strings. The first option is to export a translation so it can be shared. The second option generates a translation template, which contains all Drupal strings, but without their translations. You can use this template to start a new translation using various software packages designed for this task."
-msgstr "Η σελίδα αυτή σας επιτρέπει να εξάγετε φράσεις του Drupal. Η πρώτη επιλογή είναι να εξαγάγετε μια μετάφραση για να τη μοιραστείτε. Η δεύτερη επιλογή παράγει ένα πρότυπο μετάφρασης, το οποίο περιέχει όλες τις φράσεις του Drupal, αλλά χωρίς τις μεταφράσεις τους. Μπορείτε να χρησιμοποιήσετε αυτό το πρότυπο για να αρχίσετε μια νέα μετάφραση χρησιμοποιώντας διάφορα πακέτα λογισμικού σχεδιασμένα γι' αυτή τη δουλειά."
+msgstr "Η σελίδα αυτή σάς επιτρέπει να εξάγετε φράσεις του Drupal. Η πρώτη επιλογή είναι να εξαγάγετε μια μετάφραση για να τη μοιραστείτε. Η δεύτερη επιλογή παράγει ένα πρότυπο μετάφρασης, το οποίο περιέχει όλες τις φράσεις του Drupal, αλλά χωρίς τις μεταφράσεις τους. Μπορείτε να χρησιμοποιήσετε αυτό το πρότυπο για να αρχίσετε μια νέα μετάφραση χρησιμοποιώντας διάφορα πακέτα λογισμικού σχεδιασμένα γι' αυτή τη δουλειά."
 
 #: modules/locale/locale.module:37
 msgid "It is often convenient to get the strings from your setup on the <a href=\"@export\">export page</a>, and use a desktop Gettext translation editor to edit the translations. On this page you can search in the translated and untranslated strings, and the default English texts provided by Drupal."

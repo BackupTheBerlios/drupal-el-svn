@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: forum-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-13 16:25+0300\n"
+"PO-Revision-Date: 2007-07-27 21:14+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: modules/forum/forum.module:15
 msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
-msgstr "Η μονάδα forum σας επιτρέπει να δημιουργείτε στον ιστοτόπο σας νήματα συζητήσεων στο φόρουμ γύρω από συγκεκριμένα θέματα. Η δυνατότητα αυτή είναι παρόμοια με τα συστήματα πίνακα μηνυμάτων όπως το phpBB. Τα φόρουμ είναι πολύ χρήσιμα επειδή επιτρέπουν στα μέλη της κοινότητας να συζητούν θέματα μεταξύ τους, τα οποία και αρχειοθετούνται για μελλοντική αναφορά."
+msgstr "Η μονάδα forum σάς επιτρέπει να δημιουργείτε στον ιστοτόπο σας νήματα συζητήσεων στο φόρουμ γύρω από συγκεκριμένα θέματα. Η δυνατότητα αυτή είναι παρόμοια με τα συστήματα πίνακα μηνυμάτων όπως το phpBB. Τα φόρουμ είναι πολύ χρήσιμα επειδή επιτρέπουν στα μέλη της κοινότητας να συζητούν θέματα μεταξύ τους, τα οποία και αρχειοθετούνται για μελλοντική αναφορά."
 
 #: modules/forum/forum.module:16
 msgid "Forums can be organized under what are called <em>containers</em>. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them. Forum topics can be moved by selecting a different forum and can be left in the existing forum by selecting <em>leave a shadow copy</em>. Forum topics can also have their own URL."

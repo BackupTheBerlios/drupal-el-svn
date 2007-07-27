@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: blog-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-07-13 01:27+0300\n"
+"PO-Revision-Date: 2007-07-27 19:42+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,11 +34,11 @@ msgstr "Ανάγνωση των τελευταίων ιστολογημάτων 
 
 #: modules/blog/blog.module:65
 msgid "The blog module allows registered users to maintain an online weblog (commonly known as a blog), often referred to as an online journal or diary. Blogs are made up of individual posts that are time stamped and are typically viewed by date as you would a diary. Blogs often contain links to web pages users have read and/or agree/disagree with."
-msgstr "Η μονάδα ιστολόγιο επιτρέπει στους εγγεγραμμένους χρήστες να τηρούν ένα online ιστολόγιο (ή αλλιώς web log ή blog), το οποίο είναι ένα online προσωπικό ημερολόγιο. Τα ιστολόγια αποτελούνται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που είναι χρονολογημένες και συνήθως εμφανίζονται κατά σειρά ημερομηνίας όπως σε ένα πραγματικό προσωπικό ημερολόγιο. Τα ιστολόγια συχνά περιέχουν παραπομπές σε ιστοσελίδες που διάβασαν οι χρήστες και με τις οποίες συμφωνούν ή διαφωνούν."
+msgstr "Η μονάδα blog επιτρέπει στους εγγεγραμμένους χρήστες να τηρούν ένα online ιστολόγιο (ή αλλιώς web log ή blog), το οποίο είναι ένα online προσωπικό ημερολόγιο. Τα ιστολόγια αποτελούνται από μεμονωμένες καταχωρίσεις (ιστολογήματα) που είναι χρονολογημένες και συνήθως εμφανίζονται κατά σειρά ημερομηνίας όπως σε ένα πραγματικό προσωπικό ημερολόγιο. Τα ιστολόγια συχνά περιέχουν παραπομπές σε ιστοσελίδες που διάβασαν οι χρήστες και με τις οποίες συμφωνούν ή διαφωνούν."
 
 #: modules/blog/blog.module:66
 msgid "The blog module adds a <em>user blogs</em> navigation link to the site, which takes any visitor to a page that displays the most recent blog entries from all the users on the site. The navigation menu has a <em>create a blog entry</em> link (which takes you to a submission form) and a <em>view personal blog</em> link (which displays your blog entries as other people will see them). The blog module also creates a <em>recent blog posts</em> block that can be enabled."
-msgstr "Η μονάδα ιστολόγιο προσθέτει στον ιστοτόπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του ιστοτόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματά σας όπως θα τα βλέπουν οι άλλοι). Η μονάδα ιστολόγιο δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
+msgstr "Η μονάδα blog προσθέτει στον ιστοτόπο μια παραπομπή για πλοήγηση στα <em>ιστολόγια των χρηστών</em>, η οποία οδηγεί τον επισκέπτη σε μια σελίδα που παρουσιάζονται τα πιο πρόσφατα ιστολογήματα όλων των χρηστών του ιστοτόπου. Το μενού πλοήγησης έχει μια παραπομπή για <em>υποβολή ιστολογήματος</em> (η οποία ανοίγει μια φόρμα υποβολής) και μια παραπομπή για <em>εμφάνιση προσωπικού ιστολογίου</em> (η οποία παρουσιάζει τα ιστολογήματά σας όπως θα τα βλέπουν οι άλλοι). Η μονάδα blog δημιουργεί επίσης ένα μπλοκ <em>πρόσφατων ιστολογημάτων</em> που μπορεί να ενεργοποιηθεί."
 
 #: modules/blog/blog.module:67
 msgid "If a user has the ability to post blogs, then the import module (news aggregator) will display a blog-it link next to each news item in its lists. Clicking on this takes the user to the blog submission form, with the title, a link to the item, and a link to the source into the body text already in the text box, ready for the user to add a comment or explanation. This actively encourages people to add blog entries about things they see and hear elsewhere in the website and from your syndicated partner sites."
