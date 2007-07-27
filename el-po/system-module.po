@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-27 19:22+0300\n"
+"PO-Revision-Date: 2007-07-28 01:41+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,7 @@ msgstr "Αναφορά σφαλμάτων"
 
 #: modules/system/system.module:226
 msgid "Control how Drupal deals with errors including 403/404 errors as well as PHP error reporting."
-msgstr "Έλεγχος του πώς το Drupal θα χειρίζεται τα σφάλματα, συμπεριλαμβανομένων αυτών των 403/404 και τις αναφορές σφαλμάτων PHP."
+msgstr "Έλεγχος του πώς το Drupal θα χειρίζεται τα σφάλματα, συμπεριλαμβανομένων αυτών των 403/404 και των αναφορών σφαλμάτων της PHP."
 
 #: modules/system/system.module:231
 msgid "Performance"
@@ -186,7 +186,7 @@ msgstr "Ημερομηνία και ώρα"
 
 #: modules/system/system.module:256
 msgid "Settings for how Drupal displays date and time, as well as the system's default timezone."
-msgstr "Επιλογές για το πώς το Drupal θα εμφανίζει τις ημερομηνίες και την ώρα, όπως και την προεπιλεγμένη χρονική ζώνη του συστήματος."
+msgstr "Επιλογές για το πώς το Drupal θα εμφανίζει τις ημερομηνίες και την ώρα, όπως και την προεπιλεγμένη ώρας ζώνης του συστήματος."
 
 #: modules/system/system.module:261
 msgid "Site maintenance"
@@ -202,7 +202,7 @@ msgstr "Καθαρές διευθύνσεις URLs"
 
 #: modules/system/system.module:268
 msgid "Enable or disable clean URLs for your site."
-msgstr "Ενεργοποίηση η απενεργοποίηση καθαρών διευθύνσεων URL για τον ιστοτόπο."
+msgstr "Ενεργοποίηση η απενεργοποίηση των καθαρών διευθύνσεων URL για τον ιστοτόπο."
 
 #: modules/system/system.module:276
 msgid "Logs"

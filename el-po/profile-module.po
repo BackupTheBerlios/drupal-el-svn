@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: profile-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-27 21:18+0300\n"
+"PO-Revision-Date: 2007-07-28 01:44+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "Προφίλ χρηστών"
 
 #: modules/profile/profile.module:68
 msgid "Create customizable fields for your users."
-msgstr "Δημιουργήστε προσαρμοσμένα πεδία για τους χρήστες."
+msgstr "Δημιουργία προσαρμοσμένων πεδίων για τους χρήστες."
 
 #: modules/profile/profile.module:71
 msgid "Add field"
