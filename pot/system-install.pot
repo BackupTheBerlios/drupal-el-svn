@@ -1,0 +1,115 @@
+# $Id: system-install.pot,v 1.1.2.5 2007/07/27 22:03:36 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/system/system.install)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: system.install,v 1.69.2.4 2007/07/19 05:39:25 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/system/system.install:81
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr ""
+
+#: modules/system/system.install:3223
+msgid "If you want to add a static page, like a contact page or an about page, use a page."
+msgstr ""
+
+#: modules/system/system.install:3230
+msgid "Story"
+msgstr ""
+
+#: modules/system/system.install:3232
+msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
+msgstr ""
+
+#: modules/system/system.install:3332
+msgid "URL Filter module was disabled; this functionality has now been added to core."
+msgstr ""
+
+#: modules/system/system.install:29
+msgid "Web server"
+msgstr ""
+
+#: modules/system/system.install:39
+msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr ""
+
+#: modules/system/system.install:53
+msgid "Not protected"
+msgstr ""
+
+#: modules/system/system.install:55
+msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
+msgstr ""
+
+#: modules/system/system.install:60
+msgid "Protected"
+msgstr ""
+
+#: modules/system/system.install:63
+msgid "Configuration file"
+msgstr ""
+
+#: modules/system/system.install:71
+msgid "Last run !time ago"
+msgstr ""
+
+#: modules/system/system.install:75
+msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
+msgstr ""
+
+#: modules/system/system.install:77
+msgid "Never run"
+msgstr ""
+
+#: modules/system/system.install:83
+msgid "Cron maintenance tasks"
+msgstr ""
+
+#: modules/system/system.install:96
+msgid "The directory %directory is not writable."
+msgstr ""
+
+#: modules/system/system.install:99
+msgid "Not writable"
+msgstr ""
+
+#: modules/system/system.install:101
+msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
+msgstr ""
+
+#: modules/system/system.install:107
+msgid "Writable (<em>public</em> download method)"
+msgstr ""
+
+#: modules/system/system.install:112
+msgid "Writable (<em>private</em> download method)"
+msgstr ""
+
+#: modules/system/system.install:122
+msgid "Database schema"
+msgstr ""
+
+#: modules/system/system.install:124
+msgid "Up to date"
+msgstr ""
+
+#: modules/system/system.install:134
+msgid "Out of date"
+msgstr ""
+
+#: modules/system/system.install:135
+msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
+msgstr ""
+

@@ -1,0 +1,267 @@
+# $Id: taxonomy-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/taxonomy/taxonomy.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: taxonomy.module,v 1.330.2.10 2007/07/26 19:16:49 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/taxonomy/taxonomy.module:78
+msgid "Create vocabularies and terms to categorize your content."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:88
+msgid "Add vocabulary"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:95
+msgid "Edit vocabulary"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:101
+msgid "Edit term"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:107
+msgid "Taxonomy term"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:113
+msgid "Autocomplete taxonomy"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:122
+msgid "List terms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:134
+msgid "Add term"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:159
+msgid "edit vocabulary"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:160
+msgid "list terms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:161
+msgid "add terms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:165
+msgid "No categories available."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:214
+msgid "No terms available."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:234
+msgid "Vocabulary name"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:237
+msgid "The name for this vocabulary. Example: \"Topic\"."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:243
+msgid "Description of the vocabulary; can be used by modules."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:246
+msgid "Help text"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:249
+msgid "Instructions to present to the user when choosing a term."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:252
+msgid "Types"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:255
+msgid "A list of node types you want to associate with this vocabulary."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:259
+msgid "Hierarchy"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:261
+msgid "Single"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:261
+msgid "Multiple"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:262
+msgid "Allows <a href=\"@help-url\">a tree-like hierarchy</a> between terms of this vocabulary."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:265;432
+msgid "Related terms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:267
+msgid "Allows <a href=\"@help-url\">related terms</a> in this vocabulary."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:270
+msgid "Free tagging"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:272
+msgid "Content is categorized by typing terms instead of choosing from a list."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:275
+msgid "Multiple select"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:277
+msgid "Allows nodes to have more than one term from this vocabulary (always true for free tagging)."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:282
+msgid "If enabled, every node <strong>must</strong> have at least one term in this vocabulary."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:287
+msgid "In listings, the heavier vocabularies will sink and the lighter vocabularies will be positioned nearer the top."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:307;308
+msgid "Created new vocabulary %name."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:311;312
+msgid "Updated vocabulary %name."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:380
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:383
+msgid "Deleting a vocabulary will delete all the terms in it. This action cannot be undone."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:390;391
+msgid "Deleted vocabulary %name."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:401
+msgid "Term name"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:404
+msgid "The name of this term."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:411
+msgid "A description of the term."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:424
+msgid "Parent term"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:427
+msgid "Parents"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:427
+msgid "Parent terms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:437
+msgid "Synonyms"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:439
+msgid "<a href=\"@help-url\">Synonyms</a> of this term, one synonym per line."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:444
+msgid "In listings, the heavier terms will sink and the lighter terms will be positioned nearer the top."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:473;474
+msgid "Created new term %term."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:477;478
+msgid "Updated term %term."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:604
+msgid "Are you sure you want to delete the term %title?"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:607
+msgid "Deleting a term will delete all its children if there are any. This action cannot be undone."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:614;615
+msgid "Deleted term %name."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:723
+msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:803
+msgid "The %name vocabulary can not be modified in this way."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1291
+msgid "There are currently no posts in this category."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1465
+msgid "The taxonomy module is one of the most popular features because users often want to create categories to organize content by type. A simple example would be organizing a list of music reviews by musical genre."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1466
+msgid "Taxonomy is the study of classification. The taxonomy module allows you to define vocabularies (sets of categories) which are used to classify content. The module supports hierarchical classification and association between terms, allowing for truly flexible information retrieval and classification. The taxonomy module allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms) and taxonomies (controlled vocabularies where relationships are indicated hierarchically). To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose <em>edit vocabulary.</em>"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1467
+msgid "A controlled vocabulary is a set of terms to use for describing content (known as descriptors in indexing lingo). Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot's sections. For more complex implementations, you might create a hierarchical list of categories."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1468
+msgid "For more information please read the configuration and customization handbook <a href=\"@taxonomy\">Taxonomy page</a>."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1471
+msgid "The taxonomy module allows you to classify content into categories and subcategories; it allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms), taxonomies (controlled vocabularies where relationships are indicated hierarchically), and free vocabularies where terms, or tags, are defined during content creation. To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose \"edit vocabulary\"."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1473
+msgid "When you create a controlled vocabulary you are creating a set of terms to use for describing content (known as descriptors in indexing lingo). Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories. For more complex implementations, you might create a hierarchical list of categories."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:308;312;391;474;478;615;0
+msgid "taxonomy"
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr ""
+

@@ -1,0 +1,185 @@
+# $Id: poll-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/poll/poll.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: poll.module,v 1.222.2.1 2007/07/26 19:16:48 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/poll/poll.module:16
+msgid "The poll module can be used to create simple polls for site users. A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll. Having polls on the site is a good way to get instant feedback from community members."
+msgstr ""
+
+#: modules/poll/poll.module:17
+msgid "Users can create a poll. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.The <a href=\"@poll\">poll</a> item in the navigation menu will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results."
+msgstr ""
+
+#: modules/poll/poll.module:18
+msgid "For more information please read the configuration and customization handbook <a href=\"@poll\">Poll page</a>."
+msgstr ""
+
+#: modules/poll/poll.module:40
+msgid "Most recent poll"
+msgstr ""
+
+#: modules/poll/poll.module:105
+msgid "Negative values are not allowed."
+msgstr ""
+
+#: modules/poll/poll.module:110
+msgid "You must fill in at least two choices."
+msgstr ""
+
+#: modules/poll/poll.module:147
+msgid "Choices"
+msgstr ""
+
+#: modules/poll/poll.module:159
+msgid "Need more choices"
+msgstr ""
+
+#: modules/poll/poll.module:161
+msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
+msgstr ""
+
+#: modules/poll/poll.module:168
+msgid "Choice @n"
+msgstr ""
+
+#: modules/poll/poll.module:175
+msgid "Votes for choice @n"
+msgstr ""
+
+#: modules/poll/poll.module:184
+msgid "Closed"
+msgstr ""
+
+#: modules/poll/poll.module:191
+msgid "Poll status"
+msgstr ""
+
+#: modules/poll/poll.module:194
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr ""
+
+#: modules/poll/poll.module:199
+msgid "Poll duration"
+msgstr ""
+
+#: modules/poll/poll.module:202
+msgid "After this period, the poll will be closed automatically."
+msgstr ""
+
+#: modules/poll/poll.module:234
+msgid "Polls"
+msgstr ""
+
+#: modules/poll/poll.module:240;382;490;611
+msgid "Vote"
+msgstr ""
+
+#: modules/poll/poll.module:260
+msgid "Votes"
+msgstr ""
+
+#: modules/poll/poll.module:268;604
+msgid "Results"
+msgstr ""
+
+#: modules/poll/poll.module:322
+msgid "A poll is a multiple-choice question which visitors can vote on."
+msgstr ""
+
+#: modules/poll/poll.module:323
+msgid "Question"
+msgstr ""
+
+#: modules/poll/poll.module:336
+msgid "open"
+msgstr ""
+
+#: modules/poll/poll.module:336
+msgid "closed"
+msgstr ""
+
+#: modules/poll/poll.module:430;437
+msgid "Total votes: %votes"
+msgstr ""
+
+#: modules/poll/poll.module:449
+msgid "Cancel your vote"
+msgstr ""
+
+#: modules/poll/poll.module:487
+msgid "This table lists all the recorded votes for this poll.  If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
+msgstr ""
+
+#: modules/poll/poll.module:536
+msgid "Your vote was recorded."
+msgstr ""
+
+#: modules/poll/poll.module:539
+msgid "You are not allowed to vote on this poll."
+msgstr ""
+
+#: modules/poll/poll.module:543
+msgid "You did not specify a valid poll choice."
+msgstr ""
+
+#: modules/poll/poll.module:573
+msgid "Your vote was canceled."
+msgstr ""
+
+#: modules/poll/poll.module:576
+msgid "You are not allowed to cancel an invalid poll choice."
+msgstr ""
+
+#: modules/poll/poll.module:602
+msgid "Older polls"
+msgstr ""
+
+#: modules/poll/poll.module:602
+msgid "View the list of polls on this site."
+msgstr ""
+
+#: modules/poll/poll.module:604
+msgid "View the current poll results."
+msgstr ""
+
+#: modules/poll/poll.module:336;416
+msgid "1 vote"
+msgid_plural "@count votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/poll/poll.module:347
+msgid "create polls"
+msgstr ""
+
+#: modules/poll/poll.module:347
+msgid "vote on polls"
+msgstr ""
+
+#: modules/poll/poll.module:347
+msgid "cancel own vote"
+msgstr ""
+
+#: modules/poll/poll.module:347
+msgid "inspect all votes"
+msgstr ""
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr ""
+

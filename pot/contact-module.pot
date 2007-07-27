@@ -1,0 +1,271 @@
+# $Id: contact-module.pot,v 1.6.2.6 2007/07/27 22:03:35 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/contact/contact.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: contact.module,v 1.74.2.1 2007/06/05 07:18:05 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/contact/contact.module:15
+msgid "The contact module enables the use of both personal and site-wide contact forms, thereby facilitating easy communication within the community. While personal contact forms allow users to contact each other by e-mail, site-wide forms allow community members to contact the site administration from a central location. Users can specify a subject and message in the contact form, and also request that a copy of the e-mail be sent to their own address."
+msgstr ""
+
+#: modules/contact/contact.module:16
+msgid "Users can activate/deactivate their personal contact forms in their account settings. Upon activation, a contact tab will appear in their user profiles. Privileged users such as site administrators are able to contact users even if they have chosen not to enable this feature."
+msgstr ""
+
+#: modules/contact/contact.module:17
+msgid "Note that the contact tab will not appear when a user views his or her own profile; only when viewing another user's profile, if that user's contact form is enabled."
+msgstr ""
+
+#: modules/contact/contact.module:18
+msgid "If the menu module is enabled, a menu item linking to the site-wide contact page is added to the navigation block. It is disabled by default, but can be enabled via the <a href=\"@menu-module\">menu management</a> page. Links to the contact page may also be added to the primary and secondary links using the same page."
+msgstr ""
+
+#: modules/contact/contact.module:19
+msgid "For more information, please read the configuration and customization handbook page for the <a href=\"@contact\">contact module</a>."
+msgstr ""
+
+#: modules/contact/contact.module:22
+msgid "This page lets you setup <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
+msgstr ""
+
+#: modules/contact/contact.module:24
+msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
+msgstr ""
+
+#: modules/contact/contact.module:29
+msgid "The contact module also adds a <a href=\"@menu-settings\">menu item</a> (disabled by default) to the navigation block."
+msgstr ""
+
+#: modules/contact/contact.module:47
+msgid "Contact form"
+msgstr ""
+
+#: modules/contact/contact.module:48
+msgid "Create a system contact form and set up categories for the form to use."
+msgstr ""
+
+#: modules/contact/contact.module:67
+msgid "Edit contact category"
+msgstr ""
+
+#: modules/contact/contact.module:74
+msgid "Delete contact"
+msgstr ""
+
+#: modules/contact/contact.module:122
+msgid "Contact settings"
+msgstr ""
+
+#: modules/contact/contact.module:127
+msgid "Personal contact form"
+msgstr ""
+
+#: modules/contact/contact.module:129
+msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
+msgstr ""
+
+#: modules/contact/contact.module:150;170
+msgid "Recipients"
+msgstr ""
+
+#: modules/contact/contact.module:166
+msgid "Example: 'website feedback' or 'product information'."
+msgstr ""
+
+#: modules/contact/contact.module:172
+msgid "Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. To specify multiple recipients, separate each e-mail address with a comma."
+msgstr ""
+
+#: modules/contact/contact.module:176
+msgid "Auto-reply"
+msgstr ""
+
+#: modules/contact/contact.module:178
+msgid "Optional auto-reply. Leave empty if you do not want to send the user an auto-reply message."
+msgstr ""
+
+#: modules/contact/contact.module:183
+msgid "When listing categories, those with lighter (smaller) weights get listed before categories with heavier (larger) weights. Categories with equal weights are sorted alphabetically."
+msgstr ""
+
+#: modules/contact/contact.module:189
+msgid "Set this to <em>Yes</em> if you would like this category to be selected by default."
+msgstr ""
+
+#: modules/contact/contact.module:209
+msgid "You must enter one or more recipients."
+msgstr ""
+
+#: modules/contact/contact.module:215
+msgid "%recipient is an invalid e-mail address."
+msgstr ""
+
+#: modules/contact/contact.module:237
+msgid "Category %category has been added."
+msgstr ""
+
+#: modules/contact/contact.module:238
+msgid "Contact form: category %category added."
+msgstr ""
+
+#: modules/contact/contact.module:243
+msgid "Category %category has been updated."
+msgstr ""
+
+#: modules/contact/contact.module:244
+msgid "Contact form: category %category updated."
+msgstr ""
+
+#: modules/contact/contact.module:259
+msgid "Are you sure you want to delete %category?"
+msgstr ""
+
+#: modules/contact/contact.module:262
+msgid "Category not found."
+msgstr ""
+
+#: modules/contact/contact.module:272
+msgid "Category %category has been deleted."
+msgstr ""
+
+#: modules/contact/contact.module:273
+msgid "Contact form: category %category deleted."
+msgstr ""
+
+#: modules/contact/contact.module:280
+msgid "Additional information"
+msgstr ""
+
+#: modules/contact/contact.module:281;431
+msgid "You can leave a message using the contact form below."
+msgstr ""
+
+#: modules/contact/contact.module:282
+msgid "Information to show on the <a href=\"@form\">contact page</a>. Can be anything from submission guidelines to your postal address or telephone number."
+msgstr ""
+
+#: modules/contact/contact.module:285
+msgid "Hourly threshold"
+msgstr ""
+
+#: modules/contact/contact.module:288
+msgid "The maximum number of contact form submissions a user can perform per hour."
+msgstr ""
+
+#: modules/contact/contact.module:292
+msgid "Enable personal contact form by default"
+msgstr ""
+
+#: modules/contact/contact.module:294
+msgid "Default status of the personal contact form for new users."
+msgstr ""
+
+#: modules/contact/contact.module:307
+msgid "You need to provide a valid e-mail address to contact other users. Please update your <a href=\"@url\">user information</a> and try again."
+msgstr ""
+
+#: modules/contact/contact.module:310
+msgid "You cannot contact more than %number users per hour. Please try again later."
+msgstr ""
+
+#: modules/contact/contact.module:328
+msgid "From"
+msgstr ""
+
+#: modules/contact/contact.module:332
+msgid "To"
+msgstr ""
+
+#: modules/contact/contact.module:346;477
+msgid "Send yourself a copy."
+msgstr ""
+
+#: modules/contact/contact.module:349;481
+msgid "Send e-mail"
+msgstr ""
+
+#: modules/contact/contact.module:363
+msgid "!name (!name-url) has sent you a message via your contact form (!form-url) at !site."
+msgstr ""
+
+#: modules/contact/contact.module:364
+msgid "If you don't want to receive such e-mails, you can change your settings at !url."
+msgstr ""
+
+#: modules/contact/contact.module:365
+msgid "Message:"
+msgstr ""
+
+#: modules/contact/contact.module:393
+msgid "%name-from sent %name-to an e-mail."
+msgstr ""
+
+#: modules/contact/contact.module:396
+msgid "The message has been sent."
+msgstr ""
+
+#: modules/contact/contact.module:409
+msgid "You cannot send more than %number messages per hour. Please try again later."
+msgstr ""
+
+#: modules/contact/contact.module:439
+msgid "Your e-mail address"
+msgstr ""
+
+#: modules/contact/contact.module:453
+msgid "--"
+msgstr ""
+
+#: modules/contact/contact.module:485
+msgid "The contact form has not been configured."
+msgstr ""
+
+#: modules/contact/contact.module:495
+msgid "You must select a valid category."
+msgstr ""
+
+#: modules/contact/contact.module:498
+msgid "You must enter a valid e-mail address."
+msgstr ""
+
+#: modules/contact/contact.module:512
+msgid "!name sent a message using the contact form at !form."
+msgstr ""
+
+#: modules/contact/contact.module:524
+msgid "[!category] !subject"
+msgstr ""
+
+#: modules/contact/contact.module:544
+msgid "%name-from sent an e-mail regarding %category."
+msgstr ""
+
+#: modules/contact/contact.module:547
+msgid "Your message has been sent."
+msgstr ""
+
+#: modules/contact/contact.module:238;244;273;393;544
+msgid "mail"
+msgstr ""
+
+#: modules/contact/contact.module:38
+msgid "access site-wide contact form"
+msgstr ""
+
+#: modules/contact/contact.module:0
+msgid "contact"
+msgstr ""
+

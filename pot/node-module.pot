@@ -1,0 +1,543 @@
+# $Id: node-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/node/node.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: node.module,v 1.776.2.19 2007/07/26 19:16:46 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/node/node.module:18
+msgid "All content in a website is stored and treated as <b>nodes</b>. Therefore nodes are any postings such as blogs, stories, polls and forums. The node module manages these content types and is one of the strengths of Drupal over other content management systems."
+msgstr ""
+
+#: modules/node/node.module:19
+msgid "Treating all content as nodes allows the flexibility of creating new types of content. It also allows you to painlessly apply new features or changes to all content. Comments are not stored as nodes but are always associated with a node."
+msgstr ""
+
+#: modules/node/node.module:20
+msgid "<p>Node module features</p>\n<ul>\n<li>The list tab provides an interface to search and sort all content on your site.</li>\n<li>The configure settings tab has basic settings for content on your site.</li>\n<li>The configure content types tab lists all content types for your site and lets you configure their default workflow.</li>\n<li>The search tab lets you search all content on your site</li>\n</ul>\n"
+msgstr ""
+
+#: modules/node/node.module:28
+msgid "For more information please read the configuration and customization handbook <a href=\"@node\">Node page</a>."
+msgstr ""
+
+#: modules/node/node.module:31
+msgid "Enter a simple pattern to search for a post. Words are matched exactly. Phrases can be surrounded by quotes to do an exact search."
+msgstr ""
+
+#: modules/node/node.module:33
+msgid "Below is a list of all the content types on your site. All posts that exist on your site are instances of one of these content types."
+msgstr ""
+
+#: modules/node/node.module:35
+msgid "To create a new content type, enter the human-readable name, the machine-readable name, and all other relevant fields that are on this page. Once created, users of your site will be able to create posts that are instances of this content type."
+msgstr ""
+
+#: modules/node/node.module:39
+msgid "The revisions let you track differences between multiple versions of a post."
+msgstr ""
+
+#: modules/node/node.module:815;1091;1145
+msgid "Content"
+msgstr ""
+
+#: modules/node/node.module:832
+msgid "Content ranking"
+msgstr ""
+
+#: modules/node/node.module:834
+msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
+msgstr ""
+
+#: modules/node/node.module:836
+msgid "Keyword relevance"
+msgstr ""
+
+#: modules/node/node.module:837
+msgid "Recently posted"
+msgstr ""
+
+#: modules/node/node.module:839
+msgid "Number of comments"
+msgstr ""
+
+#: modules/node/node.module:842
+msgid "Number of views"
+msgstr ""
+
+#: modules/node/node.module:969
+msgid "Factor"
+msgstr ""
+
+#: modules/node/node.module:989
+msgid "If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Possible causes for permission problems are disabling modules or configuration changes to permissions. Rebuilding will remove all privileges to posts, and replace them with permissions based on the current modules and settings."
+msgstr ""
+
+#: modules/node/node.module:990
+msgid "Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed posts will automatically use the new permissions."
+msgstr ""
+
+#: modules/node/node.module:992
+msgid "Node access status"
+msgstr ""
+
+#: modules/node/node.module:994;1022;1032
+msgid "Rebuild permissions"
+msgstr ""
+
+#: modules/node/node.module:998
+msgid "Number of posts on main page"
+msgstr ""
+
+#: modules/node/node.module:1000
+msgid "The default maximum number of posts to display per page on overview pages such as the main page."
+msgstr ""
+
+#: modules/node/node.module:1003
+msgid "Length of trimmed posts"
+msgstr ""
+
+#: modules/node/node.module:1004
+msgid "200 characters"
+msgstr ""
+
+#: modules/node/node.module:1004
+msgid "400 characters"
+msgstr ""
+
+#: modules/node/node.module:1004
+msgid "600 characters"
+msgstr ""
+
+#: modules/node/node.module:1005
+msgid "800 characters"
+msgstr ""
+
+#: modules/node/node.module:1005
+msgid "1000 characters"
+msgstr ""
+
+#: modules/node/node.module:1005
+msgid "1200 characters"
+msgstr ""
+
+#: modules/node/node.module:1005
+msgid "1400 characters"
+msgstr ""
+
+#: modules/node/node.module:1006
+msgid "1600 characters"
+msgstr ""
+
+#: modules/node/node.module:1006
+msgid "1800 characters"
+msgstr ""
+
+#: modules/node/node.module:1006
+msgid "2000 characters"
+msgstr ""
+
+#: modules/node/node.module:1007
+msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
+msgstr ""
+
+#: modules/node/node.module:1011
+msgid "Preview post"
+msgstr ""
+
+#: modules/node/node.module:1012
+msgid "Must users preview posts before submitting?"
+msgstr ""
+
+#: modules/node/node.module:1031
+msgid "Are you sure you want to rebuild node permissions on the site?"
+msgstr ""
+
+#: modules/node/node.module:1032
+msgid "This will wipe all current node permissions and rebuild them based on current settings. Rebuilding the permissions may take a while so please be patient. This action cannot be undone."
+msgstr ""
+
+#: modules/node/node.module:1040
+msgid "The node access table has been rebuilt."
+msgstr ""
+
+#: modules/node/node.module:1064
+msgid "Read more"
+msgstr ""
+
+#: modules/node/node.module:1066
+msgid "Read the rest of this posting."
+msgstr ""
+
+#: modules/node/node.module:1081
+msgid "Content management"
+msgstr ""
+
+#: modules/node/node.module:1082
+msgid "Manage your site's content."
+msgstr ""
+
+#: modules/node/node.module:1092
+msgid "View, edit, and delete your site's content."
+msgstr ""
+
+#: modules/node/node.module:1101
+msgid "Search content"
+msgstr ""
+
+#: modules/node/node.module:1102
+msgid "Search content by keyword."
+msgstr ""
+
+#: modules/node/node.module:1110
+msgid "Post settings"
+msgstr ""
+
+#: modules/node/node.module:1111
+msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
+msgstr ""
+
+#: modules/node/node.module:1118
+msgid "rebuild permissions"
+msgstr ""
+
+#: modules/node/node.module:1126
+msgid "Content types"
+msgstr ""
+
+#: modules/node/node.module:1127
+msgid "Manage posts by content type, including default status, front page promotion, etc."
+msgstr ""
+
+#: modules/node/node.module:1139
+msgid "Add content type"
+msgstr ""
+
+#: modules/node/node.module:1150;2267
+msgid "Create content"
+msgstr ""
+
+#: modules/node/node.module:1216
+msgid "Revisions"
+msgstr ""
+
+#: modules/node/node.module:1281
+msgid "Publish"
+msgstr ""
+
+#: modules/node/node.module:1285
+msgid "Unpublish"
+msgstr ""
+
+#: modules/node/node.module:1289
+msgid "Promote to front page"
+msgstr ""
+
+#: modules/node/node.module:1293
+msgid "Demote from front page"
+msgstr ""
+
+#: modules/node/node.module:1297
+msgid "Make sticky"
+msgstr ""
+
+#: modules/node/node.module:1301
+msgid "Remove stickiness"
+msgstr ""
+
+#: modules/node/node.module:1359;1587
+msgid "published"
+msgstr ""
+
+#: modules/node/node.module:1359;1587
+msgid "not published"
+msgstr ""
+
+#: modules/node/node.module:1360
+msgid "promoted"
+msgstr ""
+
+#: modules/node/node.module:1360
+msgid "not promoted"
+msgstr ""
+
+#: modules/node/node.module:1361
+msgid "sticky"
+msgstr ""
+
+#: modules/node/node.module:1361
+msgid "not sticky"
+msgstr ""
+
+#: modules/node/node.module:1362
+msgid "type"
+msgstr ""
+
+#: modules/node/node.module:1365
+msgid "category"
+msgstr ""
+
+#: modules/node/node.module:1413
+msgid "Show only items where"
+msgstr ""
+
+#: modules/node/node.module:1545
+msgid "No items selected."
+msgstr ""
+
+#: modules/node/node.module:1642
+msgid "Are you sure you want to delete these items?"
+msgstr ""
+
+#: modules/node/node.module:1652
+msgid "The items have been deleted."
+msgstr ""
+
+#: modules/node/node.module:1661
+msgid "Revisions for %title"
+msgstr ""
+
+#: modules/node/node.module:1663
+msgid "Revision"
+msgstr ""
+
+#: modules/node/node.module:1681;1687
+msgid "!date by !username"
+msgstr ""
+
+#: modules/node/node.module:1684
+msgid "current revision"
+msgstr ""
+
+#: modules/node/node.module:1690
+msgid "revert"
+msgstr ""
+
+#: modules/node/node.module:1715
+msgid "You tried to revert to an invalid revision."
+msgstr ""
+
+#: modules/node/node.module:1727
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr ""
+
+#: modules/node/node.module:1727
+msgid "Revert"
+msgstr ""
+
+#: modules/node/node.module:1734
+msgid "Copy of the revision from %date."
+msgstr ""
+
+#: modules/node/node.module:1741
+msgid "%title has been reverted back to the revision from %revision-date"
+msgstr ""
+
+#: modules/node/node.module:1742
+msgid "@type: reverted %title revision %revision."
+msgstr ""
+
+#: modules/node/node.module:1761
+msgid "Deletion failed. You tried to delete a non-existing revision."
+msgstr ""
+
+#: modules/node/node.module:1765
+msgid "Deletion failed. You tried to delete the current revision."
+msgstr ""
+
+#: modules/node/node.module:1785
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr ""
+
+#: modules/node/node.module:1792
+msgid "Deleted %title revision %revision."
+msgstr ""
+
+#: modules/node/node.module:1793
+msgid "@type: deleted %title revision %revision."
+msgstr ""
+
+#: modules/node/node.module:1825;1829
+msgid "Syndicate"
+msgstr ""
+
+#: modules/node/node.module:1968
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr ""
+
+#: modules/node/node.module:1972
+msgid "This content has been modified by another user, changes cannot be saved."
+msgstr ""
+
+#: modules/node/node.module:1981
+msgid "The username %name does not exist."
+msgstr ""
+
+#: modules/node/node.module:2067
+msgid "An explanation of the additions or updates being made to help other authors understand your motivations."
+msgstr ""
+
+#: modules/node/node.module:2075
+msgid "Authoring information"
+msgstr ""
+
+#: modules/node/node.module:2080
+msgid "Leave blank for %anonymous."
+msgstr ""
+
+#: modules/node/node.module:2081
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr ""
+
+#: modules/node/node.module:2091
+msgid "Publishing options"
+msgstr ""
+
+#: modules/node/node.module:2197;2267
+msgid "Submit @name"
+msgstr ""
+
+#: modules/node/node.module:2205
+msgid "Add a new @s."
+msgstr ""
+
+#: modules/node/node.module:2214
+msgid "Choose the appropriate item from the list:"
+msgstr ""
+
+#: modules/node/node.module:2282
+msgid "The trimmed version of your post shows what your post looks like when promoted to the main page or when exported for syndication. You can insert the delimiter \"&lt;!--break--&gt;\" (without the quotes) to fine-tune where your post gets split."
+msgstr ""
+
+#: modules/node/node.module:2283
+msgid "Preview trimmed version"
+msgstr ""
+
+#: modules/node/node.module:2285
+msgid "Preview full version"
+msgstr ""
+
+#: modules/node/node.module:2297
+msgid "Log"
+msgstr ""
+
+#: modules/node/node.module:2309
+msgid "@type: updated %title."
+msgstr ""
+
+#: modules/node/node.module:2310
+msgid "The %post has been updated."
+msgstr ""
+
+#: modules/node/node.module:2314
+msgid "@type: added %title."
+msgstr ""
+
+#: modules/node/node.module:2315
+msgid "Your %post has been created."
+msgstr ""
+
+#: modules/node/node.module:2336
+msgid "Are you sure you want to delete %title?"
+msgstr ""
+
+#: modules/node/node.module:2375
+msgid "%title has been deleted."
+msgstr ""
+
+#: modules/node/node.module:2376
+msgid "@type: deleted %title."
+msgstr ""
+
+#: modules/node/node.module:2399
+msgid "Revision of %title from %date"
+msgstr ""
+
+#: modules/node/node.module:2425
+msgid "RSS"
+msgstr ""
+
+#: modules/node/node.module:2437
+msgid "<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow these steps to set up and start using your website:</p>"
+msgstr ""
+
+#: modules/node/node.module:2441
+msgid "<strong>Create your administrator account</strong> To begin, <a href=\"@register\">create the first account</a>. This account will have full administration rights and will allow you to configure your website."
+msgstr ""
+
+#: modules/node/node.module:2443
+msgid "<strong>Configure your website</strong> Once logged in, visit the <a href=\"@admin\">administration section</a>, where you can <a href=\"@config\">customize and configure</a> all aspects of your website."
+msgstr ""
+
+#: modules/node/node.module:2444
+msgid "<strong>Enable additional functionality</strong> Next, visit the <a href=\"@modules\">module list</a> and enable features which suit your specific needs. You can find additional modules in the <a href=\"@download_modules\">Drupal modules download section</a>."
+msgstr ""
+
+#: modules/node/node.module:2445
+msgid "<strong>Customize your website design</strong> To change the \"look and feel\" of your website, visit the <a href=\"@themes\">themes section</a>. You may choose from one of the included themes or download additional themes from the <a href=\"@download_themes\">Drupal themes download section</a>."
+msgstr ""
+
+#: modules/node/node.module:2446
+msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
+msgstr ""
+
+#: modules/node/node.module:2448
+msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
+msgstr ""
+
+#: modules/node/node.module:2543;2595
+msgid "Advanced search"
+msgstr ""
+
+#: modules/node/node.module:2554
+msgid "Containing any of the words"
+msgstr ""
+
+#: modules/node/node.module:2560
+msgid "Containing the phrase"
+msgstr ""
+
+#: modules/node/node.module:2566
+msgid "Containing none of the words"
+msgstr ""
+
+#: modules/node/node.module:2575
+msgid "Only in the category(s)"
+msgstr ""
+
+#: modules/node/node.module:2588
+msgid "Only of the type(s)"
+msgstr ""
+
+#: modules/node/node.module:794
+msgid "administer content types"
+msgstr ""
+
+#: modules/node/node.module:794
+msgid "administer nodes"
+msgstr ""
+
+#: modules/node/node.module:794
+msgid "access content"
+msgstr ""
+
+#: modules/node/node.module:794
+msgid "view revisions"
+msgstr ""
+
+#: modules/node/node.module:794
+msgid "revert revisions"
+msgstr ""
+

@@ -1,0 +1,307 @@
+# $Id: forum-module.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+#
+# LANGUAGE translation of Drupal (modules/forum/forum.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: forum.module,v 1.375.2.5 2007/05/31 05:58:17 drumm
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/forum/forum.module:15
+msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
+msgstr ""
+
+#: modules/forum/forum.module:16
+msgid "Forums can be organized under what are called <em>containers</em>. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them. Forum topics can be moved by selecting a different forum and can be left in the existing forum by selecting <em>leave a shadow copy</em>. Forum topics can also have their own URL."
+msgstr ""
+
+#: modules/forum/forum.module:17
+msgid "Forums module <strong>requires Taxonomy and Comments module</strong> be enabled."
+msgstr ""
+
+#: modules/forum/forum.module:18
+msgid "For more information please read the configuration and customization handbook <a href=\"@forum\">Forum page</a>."
+msgstr ""
+
+#: modules/forum/forum.module:21
+msgid "This is a list of existing containers and forums that you can edit. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them."
+msgstr ""
+
+#: modules/forum/forum.module:23
+msgid "Containers help you organize your forums. The job of a container is to hold, or contain, other forums that are related. For example, a container named \"Food\" might hold two forums named \"Fruit\" and \"Vegetables\"."
+msgstr ""
+
+#: modules/forum/forum.module:25
+msgid "A forum holds discussion topics that are related. For example, a forum named \"Fruit\" might contain topics titled \"Apples\" and \"Bananas\"."
+msgstr ""
+
+#: modules/forum/forum.module:27
+msgid "These settings provide the ability to fine tune the display of your forum topics."
+msgstr ""
+
+#: modules/forum/forum.module:39;44;677
+msgid "Forums"
+msgstr ""
+
+#: modules/forum/forum.module:45
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr ""
+
+#: modules/forum/forum.module:55
+msgid "Add container"
+msgstr ""
+
+#: modules/forum/forum.module:61
+msgid "Add forum"
+msgstr ""
+
+#: modules/forum/forum.module:79
+msgid "Edit container"
+msgstr ""
+
+#: modules/forum/forum.module:85
+msgid "Edit forum"
+msgstr ""
+
+#: modules/forum/forum.module:107
+msgid "Forum topic"
+msgstr ""
+
+#: modules/forum/forum.module:109
+msgid "Create a new topic for discussion in the forums."
+msgstr ""
+
+#: modules/forum/forum.module:181
+msgid "Hot topic threshold"
+msgstr ""
+
+#: modules/forum/forum.module:184
+msgid "The number of posts a topic must have to be considered hot."
+msgstr ""
+
+#: modules/forum/forum.module:188
+msgid "Topics per page"
+msgstr ""
+
+#: modules/forum/forum.module:191
+msgid "The default number of topics displayed per page; links to browse older messages are automatically being displayed."
+msgstr ""
+
+#: modules/forum/forum.module:193
+msgid "Posts - most active first"
+msgstr ""
+
+#: modules/forum/forum.module:193
+msgid "Posts - least active first"
+msgstr ""
+
+#: modules/forum/forum.module:195
+msgid "Default order"
+msgstr ""
+
+#: modules/forum/forum.module:198
+msgid "The default display order for topics."
+msgstr ""
+
+#: modules/forum/forum.module:211
+msgid "This is the designated forum vocabulary. Some of the normal vocabulary options have been removed."
+msgstr ""
+
+#: modules/forum/forum.module:214
+msgid "forum topic"
+msgstr ""
+
+#: modules/forum/forum.module:214
+msgid "forum topic is affixed to the forum vocabulary."
+msgstr ""
+
+#: modules/forum/forum.module:245;261
+msgid "Active forum topics"
+msgstr ""
+
+#: modules/forum/forum.module:246;270
+msgid "New forum topics"
+msgstr ""
+
+#: modules/forum/forum.module:250
+msgid "Number of topics"
+msgstr ""
+
+#: modules/forum/forum.module:280
+msgid "Read the latest forum topics."
+msgstr ""
+
+#: modules/forum/forum.module:368
+msgid "The item %forum is only a container for forums. Please select one of the forums below it."
+msgstr ""
+
+#: modules/forum/forum.module:398
+msgid "Leave shadow copy"
+msgstr ""
+
+#: modules/forum/forum.module:398
+msgid "If you move this topic, you can leave a link in the old forum to the new forum."
+msgstr ""
+
+#: modules/forum/forum.module:440
+msgid "Container name"
+msgstr ""
+
+#: modules/forum/forum.module:444
+msgid "The container name is used to identify related forums."
+msgstr ""
+
+#: modules/forum/forum.module:452
+msgid "The container description can give users more information about the forums it contains."
+msgstr ""
+
+#: modules/forum/forum.module:459
+msgid "When listing containers, those with with light (small) weights get listed before containers with heavier (larger) weights. Containers with equal weights are sorted alphabetically."
+msgstr ""
+
+#: modules/forum/forum.module:498
+msgid "Forum name"
+msgstr ""
+
+#: modules/forum/forum.module:501
+msgid "The forum name is used to identify related discussions."
+msgstr ""
+
+#: modules/forum/forum.module:507
+msgid "The forum description can give users more information about the discussion topics it contains."
+msgstr ""
+
+#: modules/forum/forum.module:514
+msgid "When listing forums, those with lighter (smaller) weights get listed before containers with heavier (larger) weights. Forums with equal weights are sorted alphabetically."
+msgstr ""
+
+#: modules/forum/forum.module:534
+msgid "forum container"
+msgstr ""
+
+#: modules/forum/forum.module:538;0
+msgid "forum"
+msgstr ""
+
+#: modules/forum/forum.module:549
+msgid "Created new @type %term."
+msgstr ""
+
+#: modules/forum/forum.module:552
+msgid "The @type %term has been updated."
+msgstr ""
+
+#: modules/forum/forum.module:569
+msgid "Are you sure you want to delete the forum %name?"
+msgstr ""
+
+#: modules/forum/forum.module:569
+msgid "Deleting a forum or container will delete all sub-forums and associated posts as well. This action cannot be undone."
+msgstr ""
+
+#: modules/forum/forum.module:577
+msgid "The forum %term and all sub-forums and associated posts have been deleted."
+msgstr ""
+
+#: modules/forum/forum.module:578
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr ""
+
+#: modules/forum/forum.module:593
+msgid "edit container"
+msgstr ""
+
+#: modules/forum/forum.module:596
+msgid "edit forum"
+msgstr ""
+
+#: modules/forum/forum.module:602
+msgid "There are no existing containers or forums. You may add some on the <a href=\"@container\">add container</a> or <a href=\"@forum\">add forum</a> pages."
+msgstr ""
+
+#: modules/forum/forum.module:643
+msgid "Containers are usually placed at the top (root) level of your forum but you can also place a container inside a parent container or forum."
+msgstr ""
+
+#: modules/forum/forum.module:646
+msgid "You may place your forum inside a parent container or forum, or at the top (root) level of your forum."
+msgstr ""
+
+#: modules/forum/forum.module:694
+msgid "@time ago<br />by !author"
+msgstr ""
+
+#: modules/forum/forum.module:779
+msgid "Topic"
+msgstr ""
+
+#: modules/forum/forum.module:781
+msgid "Created"
+msgstr ""
+
+#: modules/forum/forum.module:782
+msgid "Last reply"
+msgstr ""
+
+#: modules/forum/forum.module:902
+msgid "Post new forum topic."
+msgstr ""
+
+#: modules/forum/forum.module:905
+msgid "You are not allowed to post a new forum topic."
+msgstr ""
+
+#: modules/forum/forum.module:908
+msgid "<a href=\"@login\">Login</a> to post a new forum topic."
+msgstr ""
+
+#: modules/forum/forum.module:921
+msgid "No forums defined"
+msgstr ""
+
+#: modules/forum/forum.module:938
+msgid "Topics"
+msgstr ""
+
+#: modules/forum/forum.module:938
+msgid "Posts"
+msgstr ""
+
+#: modules/forum/forum.module:938
+msgid "Last post"
+msgstr ""
+
+#: modules/forum/forum.module:997
+msgid "This topic has been moved"
+msgstr ""
+
+#: modules/forum/forum.module:1083
+msgid "Go to previous forum topic"
+msgstr ""
+
+#: modules/forum/forum.module:1090
+msgid "Go to next forum topic"
+msgstr ""
+
+#: modules/forum/forum.module:136
+msgid "create forum topics"
+msgstr ""
+
+#: modules/forum/forum.module:136
+msgid "edit own forum topics"
+msgstr ""
+
+#: modules/forum/forum.module:136
+msgid "administer forums"
+msgstr ""
+
