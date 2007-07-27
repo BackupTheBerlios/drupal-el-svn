@@ -1,0 +1,147 @@
+# Greek Drupal translation of content_types-inc.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: content_types-inc\n"
+"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"PO-Revision-Date: 2007-07-13 01:06+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/node/content_types.inc:74
+msgid "Identification"
+msgstr "Προσδιορισμός"
+
+#: modules/node/content_types.inc:80
+msgid "The human-readable name of this content type. This text will be displayed as part of the list on the <em>create content</em> page. It is recommended that this name begins with a capital letter and consists only of letters, numbers, and <strong>spaces</strong>. This name must be unique to this content type."
+msgstr "Το ανθρωπίνως αναγνώσιμο όνομα αυτού του τύπου ύλης. Το κείμενο αυτό θα εμφανίζεται ως μέρος της λίστας στην σελίδα <em>υποβολή ύλης</em>. Συνιστάται αυτό το όνομα να αρχίζει με κεφαλαίο γράμμα και να αποτελείται μόνο από γράμματα, αριθμούς και <strong>διαστήματα</strong>. Το όνομα πρέπει να είναι μοναδικό για αυτόν τον τύπο ύλης."
+
+#: modules/node/content_types.inc:91
+msgid "The machine-readable name of this content type. This text will be used for constructing the URL of the <em>create content</em> page for this content type. This name may consist of only of lowercase letters, numbers, and underscores. Dashes are not allowed. Underscores will be converted into dashes when constructing the URL of the <em>create content</em> page. This name must be unique to this content type."
+msgstr "Το μηχανικώς αναγνώσιμο όνομα του τύπου ύλης. Αυτό το κείμενο θα χρησιμοποιηθεί για την κατασκευή του URL της σελίδας <em>υποβολή ύλης</em> για αυτόν τον τύπο ύλης. Το όνομα πρέπει να αποτελείται μόνο από λατινικά μικρά γράμματα, αριθμούς και χαρακτήρες υπογράμμισης. Παύλες δεν επιτρέπονται. Οι χαρακτήρες υπογράμμισης θα μετατραπούν σε παύλες κατά την δημιουργία του URL της σελίδας <em>υποβολή ύλης</em>. Το όνομα πρέπει να είναι μοναδικό για αυτόν τον τύπο ύλης."
+
+#: modules/node/content_types.inc:103
+msgid "The machine-readable name of this content type. This field cannot be modified for system-defined content types."
+msgstr "Το μηχανικώς αναγνώσιμο όνομα του τύπου ύλης. Το πεδίο αυτό δεν μπορεί να τροποποιηθεί για τους προκαθορισμένους από το σύστημα τύπους ύλης."
+
+#: modules/node/content_types.inc:111
+msgid "A brief description of this content type. This text will be displayed as part of the list on the <em>create content</em> page."
+msgstr "Μια σύντομη περιγραφή του τύπου ήλης. Το κείμενο θα εμφανίζεται στην λίστα της σελίδας <em>υποβολής ύλης</em>."
+
+#: modules/node/content_types.inc:116
+msgid "Submission form"
+msgstr "Φόρμα υποβολής"
+
+#: modules/node/content_types.inc:121
+msgid "Title field label"
+msgstr "Ετικέτα του πεδίου τίτλου "
+
+#: modules/node/content_types.inc:130
+msgid "This content type does not have a title field."
+msgstr "Αυτός ο τύπος ύλης δεν έχει πεδίο τίτλου."
+
+#: modules/node/content_types.inc:134
+msgid "Body field label"
+msgstr "Ετικέτα του πεδίου κειμένου σώματος"
+
+#: modules/node/content_types.inc:137
+msgid "To omit the body field for this content type, remove any text and leave this field blank."
+msgstr "Για να παραλείψετε το πεδίο κειμένου για αυτόν τον τύπο ύλης, αφαιρέστε οποιοδήποτε κείμενο και αφήστε το πεδίο κενό."
+
+#: modules/node/content_types.inc:141
+msgid "Minimum number of words"
+msgstr "Ελάχιστος αριθμός λέξεων"
+
+#: modules/node/content_types.inc:144
+msgid "The minimum number of words for the body field to be considered valid for this content type. This can be useful to rule out submissions that do not meet the site's standards, such as short test posts."
+msgstr "Ο ελάχιστος αριθμός λέξεων για το πεδίο κειμένου έτσι ώστε να ληφθεί ως έγκυρο για το συγκεκριμένο τύπο ύλης. Μπορεί να φανεί χρήσιμο ώστε να αποκλείσει δημοσιεύματα που δεν ανταποκρίνονται στα πρότυπα του ιστοτόπου, όπως πολύ σύντομα δοκιμαστικά δημοσιεύματα."
+
+#: modules/node/content_types.inc:148
+msgid "Explanation or submission guidelines"
+msgstr "Εξήγηση ή οδηγίες υποβολής"
+
+#: modules/node/content_types.inc:150
+msgid "This text will be displayed at the top of the submission form for this content type. It is useful for helping or instructing your users."
+msgstr "Αυτό το κείμενο θα εμφανίζεται στην κορυφή της φόρμας υποβολής για αυτόν τον τύπο ύλης. Είναι χρήσιμο για να βοηθά ή να καθοδηγεί τους χρήστες σας."
+
+#: modules/node/content_types.inc:154
+msgid "Workflow"
+msgstr "Ροή εργασίας"
+
+#: modules/node/content_types.inc:158
+msgid "Default options"
+msgstr "Προεπιλεγμένες ρυθμίσεις"
+
+#: modules/node/content_types.inc:166
+msgid "Users with the <em>administer nodes</em> permission will be able to override these options."
+msgstr "Οι χρήστες με την άδεια <em>διαχείριση των κόμβων</em> θα μπορούν να παρακάμψουν αυτές τις ρυθμίσεις."
+
+#: modules/node/content_types.inc:196
+msgid "Save content type"
+msgstr "Αποθήκευση τύπου ύλης"
+
+#: modules/node/content_types.inc:203;285
+msgid "Delete content type"
+msgstr "Διαγραφή τύπου ύλης"
+
+#: modules/node/content_types.inc:235
+msgid "The machine-readable name %type is already taken."
+msgstr "Το μηχανικώς αναγνώσιμο όνομα %type είναι ήδη κατειλημμένο."
+
+#: modules/node/content_types.inc:238
+msgid "The machine-readable name can only consist of lowercase letters, underscores, and numbers."
+msgstr "Το μηχανικώς αναγνώσιμο όνομα μπορεί να αποτελείται μόνο από μικρά λατινικά γράμματα, τον χαρακτήρα υπογράμμισης και αριθμούς."
+
+#: modules/node/content_types.inc:242
+msgid "Invalid type. Please enter a type name other than '0' (the character zero)."
+msgstr "Μη έγκυρος τύπος. Εισάγετε ένα όνομα τύπου εκτός από '0' (τον χαρακτήρα μηδέν)."
+
+#: modules/node/content_types.inc:249
+msgid "The human-readable name %name is already taken."
+msgstr "Το ανθρωπίνως αναγνώσιμο όνομα %name είναι ήδη κατειλημμένο."
+
+#: modules/node/content_types.inc:328
+msgid "The content type %name has been reset to its default values."
+msgstr "Οι ρυθμίσεις του τύπου ύλης %name επανήλθαν στις αρχικές τους τιμές."
+
+#: modules/node/content_types.inc:333
+msgid "The content type %name has been updated."
+msgstr "Ο τύπος ύλης %name ενημερώθηκε."
+
+#: modules/node/content_types.inc:336
+msgid "The content type %name has been added."
+msgstr "Ο τύπος ύλης %name προστέθηκε."
+
+#: modules/node/content_types.inc:337
+msgid "Added content type %name."
+msgstr "Προστέθηκε ο τύπος ύλης %name."
+
+#: modules/node/content_types.inc:386
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τον τύπο ύλης %type;"
+
+#: modules/node/content_types.inc:406
+msgid "The content type %name has been deleted."
+msgstr "Ο τύπος ύλης %name διαγράφηκε."
+
+#: modules/node/content_types.inc:407
+msgid "Deleted content type %name."
+msgstr "Διαγράφηκε ο τύπος ύλης %name."
+
+#: modules/node/content_types.inc:391
+msgid "<strong>Warning:</strong> there is currently @count %type post on your site. It may not be able to be displayed or edited correctly, once you have removed this content type."
+msgid_plural "<strong>Warning:</strong> there are currently @count %type posts on your site. They may not be able to be displayed or edited correctly, once you have removed this content type."
+msgstr[0] "<strong>Προειδοποίηση:</strong> υπάρχει ήδη @count %type δημοσίευμα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να προβληθεί ή τροποποιηθεί σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+msgstr[1] "<strong>Προειδοποίηση:</strong> υπάρχουν ήδη @count %type δημοσιεύματα στον ιστοτόπο σας. Μπορεί να μην είναι σε θέση να προβληθούν ή τροποποιηθούν σωστά, μόλις αφαιρέσετε αυτόν τον τύπο ύλης."
+
