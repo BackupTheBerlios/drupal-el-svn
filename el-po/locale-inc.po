@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: locale-inc\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-14 00:05+0300\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-28 02:01+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -218,23 +218,23 @@ msgstr "Η εισαγωγή της μετάφρασης έγινε με επιτ
 msgid "Imported %file into %locale: %number new strings added and %update updated."
 msgstr "Έγινε εισαγωγή του %file στην %locale: %number νέες φράσεις προστέθηκαν και %update ενημερώθηκαν."
 
-#: includes/locale.inc:865
+#: includes/locale.inc:869
 msgid "The translation file %filename contains an error: the plural formula could not be parsed."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: δεν έγινε δυνατή η συντακτική ανάλυση του τύπου του πληθυντικού."
 
-#: includes/locale.inc:1143
+#: includes/locale.inc:1157
 msgid "Exported %locale translation file: %filename."
 msgstr "Έγινε εξαγωγή αρχείου μετάφρασης για την %locale: %filename."
 
-#: includes/locale.inc:1164
+#: includes/locale.inc:1178
 msgid "Exported translation file: %filename."
 msgstr "Έγινε εξαγωγή αρχείου μετάφρασης: %filename."
 
-#: includes/locale.inc:1375
+#: includes/locale.inc:1389
 msgid "String"
 msgstr "Φράση"
 
-#: includes/locale.inc:1375
+#: includes/locale.inc:1389
 msgid "Locales"
 msgstr "Γλώσσες"
 
@@ -274,711 +274,715 @@ msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: 
 msgid "The translation file %filename ended unexpectedly at line %line."
 msgstr "Το αρχείο μετάφρασης %filename τελείωσε απροσδόκητα στη γραμμή %line."
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1451
 msgid "Afar"
 msgstr "Afar"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1452
 msgid "Abkhazian"
 msgstr "Abkhazian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1453
 msgid "Avestan"
 msgstr "Avestan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1454
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1455
 msgid "Akan"
 msgstr "Akan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1456
 msgid "Amharic"
 msgstr "Amharic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1457
 msgid "Arabic"
 msgstr "Arabic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1458
 msgid "Assamese"
 msgstr "Assamese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1459
 msgid "Avar"
 msgstr "Avar"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1460
 msgid "Aymara"
 msgstr "Aymara"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1461
 msgid "Azerbaijani"
 msgstr "Azerbaijani"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1462
 msgid "Bashkir"
 msgstr "Bashkir"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1463
 msgid "Belarusian"
 msgstr "Belarusian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1464
 msgid "Bulgarian"
 msgstr "Bulgarian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1465
 msgid "Bihari"
 msgstr "Bihari"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1466
 msgid "Bislama"
 msgstr "Bislama"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1467
 msgid "Bambara"
 msgstr "Bambara"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1468
 msgid "Bengali"
 msgstr "Bengali"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1469
 msgid "Tibetan"
 msgstr "Tibetan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1470
 msgid "Breton"
 msgstr "Breton"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1471
 msgid "Bosnian"
 msgstr "Bosnian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1472
 msgid "Catalan"
 msgstr "Catalan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1473
 msgid "Chechen"
 msgstr "Chechen"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1474
 msgid "Chamorro"
 msgstr "Chamorro"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1475
 msgid "Corsican"
 msgstr "Corsican"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1476
 msgid "Cree"
 msgstr "Cree"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1477
 msgid "Czech"
 msgstr "Czech"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1478
 msgid "Old Slavonic"
 msgstr "Old Slavonic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1479
 msgid "Chuvash"
 msgstr "Chuvash"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1480
 msgid "Welsh"
 msgstr "Welsh"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1481
 msgid "Danish"
 msgstr "Danish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1482
 msgid "German"
 msgstr "German"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1483
 msgid "Maldivian"
 msgstr "Maldivian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1484
 msgid "Bhutani"
 msgstr "Bhutani"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1485
 msgid "Ewe"
 msgstr "Ewe"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1486
 msgid "Greek"
 msgstr "Greek"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1487
 msgid "English"
 msgstr "English"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1488
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1489
 msgid "Spanish"
 msgstr "Spanish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1490
 msgid "Estonian"
 msgstr "Estonian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1491
 msgid "Basque"
 msgstr "Basque"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1492
 msgid "Persian"
 msgstr "Persian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1493
 msgid "Fulah"
 msgstr "Fulah"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1494
 msgid "Finnish"
 msgstr "Finnish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1495
 msgid "Fiji"
 msgstr "Fiji"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1496
 msgid "Faeroese"
 msgstr "Faeroese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1497
 msgid "French"
 msgstr "French"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1498
 msgid "Frisian"
 msgstr "Frisian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1499
 msgid "Irish"
 msgstr "Irish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1500
 msgid "Scots Gaelic"
 msgstr "Scots Gaelic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1501
 msgid "Galician"
 msgstr "Galician"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1502
 msgid "Guarani"
 msgstr "Guarani"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1503
 msgid "Gujarati"
 msgstr "Gujarati"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1504
 msgid "Manx"
 msgstr "Manx"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1505
 msgid "Hausa"
 msgstr "Hausa"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1506
 msgid "Hebrew"
 msgstr "Hebrew"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1507
 msgid "Hindi"
 msgstr "Hindi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1508
 msgid "Hiri Motu"
 msgstr "Hiri Motu"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1509
 msgid "Croatian"
 msgstr "Croatian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1510
 msgid "Hungarian"
 msgstr "Hungarian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1511
 msgid "Armenian"
 msgstr "Armenian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1512
 msgid "Herero"
 msgstr "Herero"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1513
 msgid "Interlingua"
 msgstr "Interlingua"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1514
 msgid "Indonesian"
 msgstr "Indonesian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1515
 msgid "Interlingue"
 msgstr "Interlingue"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1516
 msgid "Igbo"
 msgstr "Igbo"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1517
 msgid "Inupiak"
 msgstr "Inupiak"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1518
 msgid "Icelandic"
 msgstr "Icelandic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1519
 msgid "Italian"
 msgstr "Italian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1520
 msgid "Inuktitut"
 msgstr "Inuktitut"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1521
 msgid "Japanese"
 msgstr "Japanese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1522
 msgid "Javanese"
 msgstr "Javanese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1523
 msgid "Georgian"
 msgstr "Georgian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1524
 msgid "Kongo"
 msgstr "Kongo"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1525
 msgid "Kikuyu"
 msgstr "Kikuyu"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1526
 msgid "Kwanyama"
 msgstr "Kwanyama"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1527
 msgid "Kazakh"
 msgstr "Kazakh"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1528
 msgid "Greenlandic"
 msgstr "Greenlandic"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1529
 msgid "Cambodian"
 msgstr "Cambodian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1530
 msgid "Kannada"
 msgstr "Kannada"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1531
 msgid "Korean"
 msgstr "Korean"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1532
 msgid "Kanuri"
 msgstr "Kanuri"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1533
 msgid "Kashmiri"
 msgstr "Kashmiri"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1534
 msgid "Kurdish"
 msgstr "Kurdish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1535
 msgid "Komi"
 msgstr "Komi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1536
 msgid "Cornish"
 msgstr "Cornish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1537
 msgid "Kirghiz"
 msgstr "Kirghiz"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1538
 msgid "Latin"
 msgstr "Latin"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1539
 msgid "Luxembourgish"
 msgstr "Luxembourgish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1540
 msgid "Luganda"
 msgstr "Luganda"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1541
 msgid "Lingala"
 msgstr "Lingala"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1542
 msgid "Laothian"
 msgstr "Laothian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1543
 msgid "Lithuanian"
 msgstr "Lithuanian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1544
 msgid "Latvian"
 msgstr "Latvian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1545
 msgid "Malagasy"
 msgstr "Malagasy"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1546
 msgid "Marshallese"
 msgstr "Marshallese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1547
 msgid "Maori"
 msgstr "Maori"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1548
 msgid "Macedonian"
-msgstr "Macedonian"
+msgstr "F.Y.R.O.M."
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1549
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1550
 msgid "Mongolian"
 msgstr "Mongolian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1551
 msgid "Moldavian"
 msgstr "Moldavian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1552
 msgid "Marathi"
 msgstr "Marathi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1553
 msgid "Malay"
 msgstr "Malay"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1554
 msgid "Maltese"
 msgstr "Maltese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1555
 msgid "Burmese"
 msgstr "Burmese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1556
 msgid "Nauru"
 msgstr "Nauru"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1557
 msgid "North Ndebele"
 msgstr "North Ndebele"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1558
 msgid "Nepali"
 msgstr "Nepali"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1559
 msgid "Ndonga"
 msgstr "Ndonga"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1560
 msgid "Dutch"
 msgstr "Dutch"
 
-#: includes/locale.inc:1435
-msgid "Norwegian"
-msgstr "Norwegian"
+#: includes/locale.inc:1561
+msgid "Norwegian Bokmål"
+msgstr "Norwegian Bokmål"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1562
+msgid "Norwegian Nynorsk"
+msgstr "Norwegian Nynorsk"
+
+#: includes/locale.inc:1563
 msgid "South Ndebele"
 msgstr "South Ndebele"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1564
 msgid "Navajo"
 msgstr "Navajo"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1565
 msgid "Chichewa"
 msgstr "Chichewa"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1566
 msgid "Occitan"
 msgstr "Occitan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1567
 msgid "Oromo"
 msgstr "Oromo"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1568
 msgid "Oriya"
 msgstr "Oriya"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1569
 msgid "Ossetian"
 msgstr "Ossetian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1570
 msgid "Punjabi"
 msgstr "Punjabi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1571
 msgid "Pali"
 msgstr "Pali"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1572
 msgid "Polish"
 msgstr "Polish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1573
 msgid "Pashto"
 msgstr "Pashto"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1574
 msgid "Portuguese, Portugal"
 msgstr "Portuguese, Portugal"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1575
 msgid "Portuguese, Brazil"
 msgstr "Portuguese, Brazil"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1576
 msgid "Quechua"
 msgstr "Quechua"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1577
 msgid "Rhaeto-Romance"
 msgstr "Rhaeto-Romance"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1578
 msgid "Kirundi"
 msgstr "Kirundi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1579
 msgid "Romanian"
 msgstr "Romanian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1580
 msgid "Russian"
 msgstr "Russian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1581
 msgid "Kinyarwanda"
 msgstr "Kinyarwanda"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1582
 msgid "Sanskrit"
 msgstr "Sanskrit"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1583
 msgid "Sardinian"
 msgstr "Sardinian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1584
 msgid "Sindhi"
 msgstr "Sindhi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1585
 msgid "Northern Sami"
 msgstr "Northern Sami"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1586
 msgid "Sango"
 msgstr "Sango"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1587
 msgid "Serbo-Croatian"
 msgstr "Serbo-Croatian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1588
 msgid "Singhalese"
 msgstr "Singhalese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1589
 msgid "Slovak"
 msgstr "Slovak"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1590
 msgid "Slovenian"
 msgstr "Slovenian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1591
 msgid "Samoan"
 msgstr "Samoan"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1592
 msgid "Shona"
 msgstr "Shona"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1593
 msgid "Somali"
 msgstr "Somali"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1594
 msgid "Albanian"
 msgstr "Albanian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1595
 msgid "Serbian"
 msgstr "Serbian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1596
 msgid "Siswati"
 msgstr "Siswati"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1597
 msgid "Sesotho"
 msgstr "Sesotho"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1598
 msgid "Sudanese"
 msgstr "Sudanese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1599
 msgid "Swedish"
 msgstr "Swedish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1600
 msgid "Swahili"
 msgstr "Swahili"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1601
 msgid "Tamil"
 msgstr "Tamil"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1602
 msgid "Telugu"
 msgstr "Telugu"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1603
 msgid "Tajik"
 msgstr "Tajik"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1604
 msgid "Thai"
 msgstr "Thai"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1605
 msgid "Tigrinya"
 msgstr "Tigrinya"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1606
 msgid "Turkmen"
 msgstr "Turkmen"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1607
 msgid "Tagalog"
 msgstr "Tagalog"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1608
 msgid "Setswana"
 msgstr "Setswana"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1609
 msgid "Tonga"
 msgstr "Tonga"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1610
 msgid "Turkish"
 msgstr "Turkish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1611
 msgid "Tsonga"
 msgstr "Tsonga"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1612
 msgid "Tatar"
 msgstr "Tatar"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1613
 msgid "Twi"
 msgstr "Twi"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1614
 msgid "Tahitian"
 msgstr "Tahitian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1615
 msgid "Uighur"
 msgstr "Uighur"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1616
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1617
 msgid "Urdu"
 msgstr "Urdu"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1618
 msgid "Uzbek"
 msgstr "Uzbek"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1619
 msgid "Venda"
 msgstr "Venda"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1620
 msgid "Vietnamese"
 msgstr "Vietnamese"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1621
 msgid "Wolof"
 msgstr "Wolof"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1622
 msgid "Xhosa"
 msgstr "Xhosa"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1623
 msgid "Yiddish"
 msgstr "Yiddish"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1624
 msgid "Yoruba"
 msgstr "Yoruba"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1625
 msgid "Zhuang"
 msgstr "Zhuang"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1626
 msgid "Chinese, Simplified"
 msgstr "Chinese, Simplified"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1627
 msgid "Chinese, Traditional"
 msgstr "Chinese, Traditional"
 
-#: includes/locale.inc:1435
+#: includes/locale.inc:1628
 msgid "Zulu"
 msgstr "Zulu"
 

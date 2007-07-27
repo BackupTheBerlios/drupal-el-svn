@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: common-inc\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
 "PO-Revision-Date: 2007-07-13 00:43+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 
-#: includes/common.inc:324
+#: includes/common.inc:322
 msgid "Site off-line"
 msgstr "Ιστοτόπος εκτός λειτουργίας"
 
-#: includes/common.inc:353
+#: includes/common.inc:351
 msgid "Page not found"
 msgstr "Δε βρέθηκε η σελίδα"
 
-#: includes/common.inc:382
+#: includes/common.inc:380
 msgid "Access denied"
 msgstr "Δεν επιτρέπεται η πρόσβαση"
 
-#: includes/common.inc:383
+#: includes/common.inc:381
 msgid "You are not authorized to access this page."
 msgstr "Δεν είστε εξουσιοδοτημένος για να προσπελάσετε αυτή τη σελίδα."
 
@@ -53,31 +53,31 @@ msgstr "@size @suffix"
 msgid "0 sec"
 msgstr "0 δευτ."
 
-#: includes/common.inc:1992
+#: includes/common.inc:2001
 msgid "Cron has been running for more than an hour and is most likely stuck."
 msgstr "Το cron ήδη εκτελείται για παραπάνω από μία ώρα και είναι πολύ πιθανό να έχει κολλήσει."
 
-#: includes/common.inc:1999
+#: includes/common.inc:2008
 msgid "Attempting to re-run cron while it is already running."
 msgstr "Γίνεται προσπάθεια για επανεκτέλεση του cron καθώς ήδη εκτελείται."
 
-#: includes/common.inc:2014
+#: includes/common.inc:2023
 msgid "Cron run completed."
 msgstr "Η εκτέλεση του cron ολοκληρώθηκε."
 
-#: includes/common.inc:2030
+#: includes/common.inc:2039
 msgid "Cron run exceeded the time limit and was aborted."
 msgstr "Η εκτέλεση του cron ξεπέρασε το χρονικό όριο και ακυρώθηκε."
 
-#: includes/common.inc:335
+#: includes/common.inc:333
 msgid "page not found"
 msgstr "δε βρέθηκε η σελίδα"
 
-#: includes/common.inc:364
+#: includes/common.inc:362
 msgid "access denied"
 msgstr "δεν επιτρέπεται η πρόσβαση"
 
-#: includes/common.inc:1992;1999;2014;2030
+#: includes/common.inc:2001;2008;2023;2039
 msgid "cron"
 msgstr "cron"
 
@@ -122,4 +122,3 @@ msgid "1 sec"
 msgid_plural "@count sec"
 msgstr[0] "1 δευτερόλεπτο"
 msgstr[1] "@count δευτερόλεπτα"
-

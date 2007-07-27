@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form-inc\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
 "PO-Revision-Date: 2007-07-13 11:54+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -18,43 +18,42 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: includes/form.inc:396
+#: includes/form.inc:395
 msgid "Validation error, please try again. If this error persists, please contact the site administrator."
 msgstr "Σφάλμα επαλήθευσης, δοκιμάστε πάλι. Αν το σφάλμα εξακολουθήσει, απευθυνθείτε στο διαχειριστή του ιστοτόπου."
 
-#: includes/form.inc:533
+#: includes/form.inc:536
 msgid "!name field is required."
 msgstr "Το πεδίο !name είναι απαραίτητο."
 
-#: includes/form.inc:538
+#: includes/form.inc:541
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr "Το !name δεν μπορεί να είναι μεγαλύτερο από %max χαρακτήρες και ήδη είναι %length χαρακτήρες."
 
-#: includes/form.inc:555
+#: includes/form.inc:558
 msgid "Illegal choice %choice in !name element."
 msgstr "Μη επιτρεπτή επιλογή %choice στο πεδίο !name."
 
-#: includes/form.inc:1116
+#: includes/form.inc:1120
 msgid "Confirm password"
 msgstr "Επιβεβαίωση συνθηματικού"
 
-#: includes/form.inc:1137
+#: includes/form.inc:1142
 msgid "The specified passwords do not match."
 msgstr "Τα συνθηματικά που δόθηκαν δεν είναι ίδια."
 
-#: includes/form.inc:1141
+#: includes/form.inc:1146
 msgid "Password field is required."
 msgstr "Το πεδίο του συνθηματικού είναι υποχρεωτικό."
 
-#: includes/form.inc:1219
+#: includes/form.inc:1224
 msgid "The specified date is invalid."
 msgstr "Η δοθείσα ημερομηνία δεν είναι έγκυρη."
 
-#: includes/form.inc:1535
+#: includes/form.inc:1540
 msgid "This field is required."
 msgstr "Το πεδίο είναι απαραίτητο."
 
-#: includes/form.inc:1540;1543
+#: includes/form.inc:1545;1548
 msgid "!title: !required"
 msgstr "!title: !required"
-

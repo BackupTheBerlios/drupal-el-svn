@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: installer\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-12 10:17+0300\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-28 02:00+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -117,8 +117,8 @@ msgid "You have configured @drupal to use the default username and password. Thi
 msgstr "Έχετε διευθετήσει το @drupal να χρησιμοποιεί το εξ' ορισμού όνομα χρήστη και συνθηματικό. Αυτό δεν επιτρέπεται για λόγους ασφάλειας."
 
 #: install.php:320
-msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters, underscores or dots."
-msgstr "Το πρόθεμα, %db_prefix, που εισάγατε για τους πίνακες της βάσης δεδομένων είναι μη έγκυρο. Το πρόθεμα των πινάκων μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, κάτω παύλες ή τελείες."
+msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters or underscores."
+msgstr "Το πρόθεμα, %db_prefix, που εισάγατε για τους πίνακες της βάσης δεδομένων είναι μη έγκυρο. Το πρόθεμα των πινάκων μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες ή κάτω παύλες."
 
 #: install.php:324
 msgid "Database port must be a number."
@@ -172,27 +172,27 @@ msgstr "Λείπουν μονάδες"
 msgid "One or more required modules are missing. Please check the error messages and <a href=\"!url\">try again</a>."
 msgstr "Δεν υπάρχουν μία ή περισσότερες απαιτούμενες μονάδες. Ελέγξτε τα μηνύματα λάθους και <a href=\"!url\">προσπαθήστε πάλι</a>."
 
-#: install.php:540
+#: install.php:541
 msgid "@drupal installation complete"
 msgstr "Ολοκληρώθηκε η εγκατάσταση του @drupal"
 
-#: install.php:541
+#: install.php:542
 msgid "Congratulations, @drupal has been successfully installed."
 msgstr "Συγχαρητήρια, το @drupal εγκαταστάθηκε επιτυχώς."
 
-#: install.php:556
+#: install.php:557
 msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
 msgstr "Διαβάστε τα παραπάνω μηνύματα προτού μεταβείτε στο <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
-#: install.php:556
+#: install.php:557
 msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr "Μπορείτε τώρα να επισκεφθείτε το <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
-#: install.php:575
+#: install.php:576
 msgid "Currently using !item !version"
 msgstr "Χρησιμοποίηση του !item !version"
 
-#: install.php:579
+#: install.php:580
 msgid "Incompatible environment"
 msgstr "Ασύμβατο περιβάλλον"
 
@@ -320,7 +320,7 @@ msgstr "Το αρχείο μετάφρασης %filename περιέχει σφά
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
 msgstr "Το αρχείο μετάφρασης %filename περιέχει σφάλμα: το \"msgid_plural\" αναμενόταν να βρεθεί στη γραμμή %line, αλλά δε βρέθηκε."
 
-#: (duplicate) includes/locale.inc:555;573;585;593;607;616
+#: (duplicate) includes/locale.inc:555 ;573 ;585 ;593 ;607 ;616
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr "Το αρχείο μετάφρασης %filename περιέχει ένα συντακτικό σφάλμα στη γραμμή %line."
 
@@ -344,19 +344,19 @@ msgstr "Το αρχείο μετάφρασης %filename περιέχει σφά
 msgid "The translation file %filename ended unexpectedly at line %line."
 msgstr "Το αρχείο μετάφρασης %filename τελείωσε απροσδόκητα στη γραμμή %line."
 
-#: includes/theme.inc:475
+#: includes/theme.inc:478
 msgid "The following errors must be resolved before you can continue the installation process"
 msgstr "Τα παρακάτω σφάλματα πρέπει να επιλυθούν προτού συνεχιστεί η διαδικασία της εγκατάστασης"
 
-#: includes/theme.inc:475
+#: includes/theme.inc:478
 msgid "The following error must be resolved before you can continue the installation process"
 msgstr "Το παρακάτω σφάλμα πρέπει να επιλυθεί προτού συνεχιστεί η διαδικασία της εγκατάστασης"
 
-#: includes/theme.inc:481
+#: includes/theme.inc:484
 msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
 msgstr "Πρέπει να γίνει προσεκτική επισκόπηση των παρακάτω προειδοποιητικών μηνυμάτων, αλλά στις περισσότερες περιπτώσεις μπορούν να αγνοηθούν με ασφάλεια"
 
-#: includes/theme.inc:481
+#: includes/theme.inc:484
 msgid "The following installation warning should be carefully reviewed, but in most cases may be safely ignored"
 msgstr "Πρέπει να γίνει προσεκτική επισκόπηση του παρακάτω προειδοποιητικού μηνύματος, αλλά στις περισσότερες περιπτώσεις μπορεί να αγνοηθεί με ασφάλεια"
 
@@ -400,127 +400,111 @@ msgstr "Σφάλμα"
 msgid "Unicode library"
 msgstr "Βιβλιοθήκη Unicode"
 
-#: (duplicate) modules/system/system.install:20
+#: (duplicate) modules/system/system.install:19
 msgid "Drupal"
 msgstr "Drupal"
 
-#: (duplicate) modules/system/system.install:30
+#: (duplicate) modules/system/system.install:29
 msgid "Web server"
 msgstr "Διακομιστής ιστοσελίδων"
 
-#: (duplicate) modules/system/system.install:39
-msgid "Your Apache server is too old. Drupal requires at least Apache %version."
-msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον Apache %version."
-
-#: (duplicate) modules/system/system.install:45
-msgid "The web server you're using has not been tested with Drupal and might not work properly."
-msgstr "Ο διακομιστής ιστοσελίδων που χρησιμοποιείτε δεν έχει δοκιμαστεί με το Drupal και ίσως να μην λειτουργεί σωστά."
-
-#: (duplicate) modules/system/system.install:51
-msgid "Unknown"
-msgstr "Άγνωστο"
-
-#: (duplicate) modules/system/system.install:52
-msgid "Unable to determine your web server type and version. Drupal might not work properly."
-msgstr "Αδυναμία προσδιορισμού τύπου και έκδοσης του διακομιστή ιστοσελίδων. Το Drupal ίσως να μην λειτουργεί σωστά."
-
-#: (duplicate) modules/system/system.install:58
+#: (duplicate) modules/system/system.install:35
 msgid "PHP"
 msgstr "PHP"
 
-#: (duplicate) modules/system/system.install:62
+#: (duplicate) modules/system/system.install:39
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
 msgstr "Η εγκατεστημένη έκδοση PHP είναι πολύ παλιά. Το Drupal απαιτεί τουλάχιστον έκδοση PHP %version."
 
-#: (duplicate) modules/system/system.install:76
+#: (duplicate) modules/system/system.install:53
 msgid "Not protected"
 msgstr "Μη προστατευμένο"
 
-#: (duplicate) modules/system/system.install:78
+#: (duplicate) modules/system/system.install:55
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
 msgstr "Το αρχείο %file δεν είναι προστατευμένο από αλλαγές και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τις άδειες του αρχείου ώστε να είναι μη εγγράψιμο."
 
-#: (duplicate) modules/system/system.install:83
+#: (duplicate) modules/system/system.install:60
 msgid "Protected"
 msgstr "Προστατευμένο"
 
-#: (duplicate) modules/system/system.install:86
+#: (duplicate) modules/system/system.install:63
 msgid "Configuration file"
 msgstr "Αρχείο ρυθμίσεων"
 
-#: (duplicate) modules/system/system.install:94
+#: (duplicate) modules/system/system.install:71
 msgid "Last run !time ago"
 msgstr "Τελευταία εκτέλεση πριν !time"
 
-#: (duplicate) modules/system/system.install:98
+#: (duplicate) modules/system/system.install:75
 msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
 msgstr "Δεν έγινε εκτέλεση του cron. Φαίνεται ότι δεν έχουν οριστεί εργασίες του cron στο σύστημά σας. Ελέγξτε τις σελίδες βοήθειας για τη <a href=\"@url\">ρύθμιση εργασιών του cron</a>."
 
-#: (duplicate) modules/system/system.install:100
+#: (duplicate) modules/system/system.install:77
 msgid "Never run"
 msgstr "Δεν εκτελέστηκε ποτέ"
 
-#: (duplicate) modules/system/system.install:106
+#: (duplicate) modules/system/system.install:83
 msgid "Cron maintenance tasks"
 msgstr "Λειτουργίες συντήρησης του cron"
 
-#: (duplicate) modules/system/system.install:116
+#: (duplicate) modules/system/system.install:93
 msgid "The directory %directory does not exist."
 msgstr "Ο κατάλογος αρχείων %directory δεν υπάρχει."
 
-#: (duplicate) modules/system/system.install:119
+#: (duplicate) modules/system/system.install:96
 msgid "The directory %directory is not writable."
 msgstr "Ο κατάλογος %directory δεν είναι εγγράψιμος."
 
-#: (duplicate) modules/system/system.install:122
+#: (duplicate) modules/system/system.install:99
 msgid "Not writable"
 msgstr "Μη εγγράψιμο"
 
-#: (duplicate) modules/system/system.install:124
+#: (duplicate) modules/system/system.install:101
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
 msgstr "Ίσως χρειαστεί να ορίσετε τον σωστό φάκελο στη <a href=\"@admin-file-system\">σελίδα ρύθμισης αρχείων συστήματος</a> ή να αλλάξετε τις άδειες ώστε ο φάκελος να είναι εγγράψιμος."
 
-#: (duplicate) modules/system/system.install:130
+#: (duplicate) modules/system/system.install:107
 msgid "Writable (<em>public</em> download method)"
 msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος λήψης)"
 
-#: (duplicate) modules/system/system.install:135
+#: (duplicate) modules/system/system.install:112
 msgid "Writable (<em>private</em> download method)"
 msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος λήψης)"
 
-#: (duplicate) modules/system/system.install:139
+#: (duplicate) modules/system/system.install:116
 msgid "File system"
 msgstr "Σύστημα αρχείων"
 
-#: (duplicate) modules/system/system.install:145
+#: (duplicate) modules/system/system.install:122
 msgid "Database schema"
 msgstr "Σχήμα βάσης δεδομένων"
 
-#: (duplicate) modules/system/system.install:147
+#: (duplicate) modules/system/system.install:124
 msgid "Up to date"
 msgstr "Ενημερωμένο"
 
-#: (duplicate) modules/system/system.install:157
+#: (duplicate) modules/system/system.install:134
 msgid "Out of date"
 msgstr "Μη ενημερωμένο"
 
-#: (duplicate) modules/system/system.install:158
+#: (duplicate) modules/system/system.install:135
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
 msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν ενημερώσεις στη βάση δεδομένων. Θα πρέπει να εκτελέσετε αμέσως την <a href=\"@update\">ενημέρωση βάσης δεδομένων</a>."
 
-#: profiles/default/default.profile:39
+#: profiles/default/default.profile:42
 msgid "Page"
 msgstr "Σελίδα"
 
-#: profiles/default/default.profile:41
+#: profiles/default/default.profile:44
 msgid "If you want to add a static page, like a contact page or an about page, use a page."
 msgstr "Αν θέλετε να δημοσιεύσετε στατικές πληροφορίες, όπως οι πληροφορίες επικοινωνίας ή μια ιστοσελίδα 'Περί..', χρησιμοποιήστε στατική σελίδα."
 
-#: profiles/default/default.profile:48
+#: profiles/default/default.profile:51
 msgid "Story"
 msgstr "Ιστόρημα"
 
-#: profiles/default/default.profile:50
+#: profiles/default/default.profile:53
 msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
 msgstr "Τα ιστορήματα είναι άρθρα στην απλούστερη μορφή: έχουν τίτλο, περίληψη και σώμα κειμένου και μπορούν να επεκταθούν από άλλες μονάδες. Η περίληψη είναι τμήμα του σώματος. Τα ιστορήματα μπορούν να χρησιμοποιηθούν ως προσωπικό ιστολόγημα ή ως κλασικά άρθρα."
 

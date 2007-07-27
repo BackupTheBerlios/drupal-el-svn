@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: theme-inc\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
 "PO-Revision-Date: 2007-06-08 19:25+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -18,55 +18,53 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: includes/theme.inc:674
+#: includes/theme.inc:677
 msgid "!title by !name"
 msgstr "!title από !name"
 
-#: includes/theme.inc:677
+#: includes/theme.inc:680
 msgid "by !name"
 msgstr "από !name"
 
-#: includes/theme.inc:822
+#: includes/theme.inc:827
 msgid "Select all rows in this table"
 msgstr "Επιλογή όλων των γραμμών σε αυτό τον πίνακα"
 
-#: includes/theme.inc:822
+#: includes/theme.inc:827
 msgid "Deselect all rows in this table"
 msgstr "Αποεπιλογή όλων των γραμμών σε αυτό τον πίνακα"
 
-#: includes/theme.inc:838;841
+#: includes/theme.inc:843;846
 msgid "sort icon"
 msgstr "εικονίδιο ταξινόμησης"
 
-#: includes/theme.inc:838
+#: includes/theme.inc:843
 msgid "sort ascending"
 msgstr "αύξουσα ταξινόμηση"
 
-#: includes/theme.inc:841
+#: includes/theme.inc:846
 msgid "sort descending"
 msgstr "φθίνουσα ταξινόμηση"
 
-#: includes/theme.inc:902
+#: includes/theme.inc:907
 msgid "updated"
 msgstr "ενημερώθηκε"
 
-#: includes/theme.inc:967
+#: includes/theme.inc:972
 msgid "[<a href=\"@link\">more help...</a>]"
 msgstr "[<a href=\"@link\">περισσότερες οδηγίες...</a>]"
 
-#: includes/theme.inc:974;974
+#: includes/theme.inc:979;979
 msgid "XML feed"
 msgstr "ροή XML"
 
-#: includes/theme.inc:983;983
+#: includes/theme.inc:988;988
 msgid "Syndicate content"
 msgstr "Συλλογή ανεξάρτητου περιεχόμενου"
 
-#: includes/theme.inc:1065
+#: includes/theme.inc:1070
 msgid "not verified"
 msgstr "χωρίς επαλήθευση"
 
-#: includes/theme.inc:0
-msgid "theme"
-msgstr "θεματική παραλλαγή"
-
+#~ msgid "theme"
+#~ msgstr "θεματική παραλλαγή"

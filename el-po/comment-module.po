@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: comment-module\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
 "PO-Revision-Date: 2007-07-27 19:49+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -202,7 +202,7 @@ msgstr "Πεδίο θέματος σχολίου"
 msgid "Can users provide a unique subject for their comments?"
 msgstr "Μπορούν οι χρήστες να δίνουν ένα μοναδικό τίτλο θέματος στα σχόλιά τους;"
 
-#: modules/comment/comment.module:551;633;1547;1553;1557;1581
+#: modules/comment/comment.module:551;633;1554;1560;1564;1588
 msgid "Preview comment"
 msgstr "Δοκιμή εμφάνισης σχολίου"
 
@@ -238,7 +238,7 @@ msgstr "Απάντηση"
 msgid "You are not authorized to view comments."
 msgstr "Δεν έχετε εξουσιοδότηση να διαβάζετε σχόλια."
 
-#: modules/comment/comment.module:715;1222
+#: modules/comment/comment.module:715;1229
 msgid "Comment: updated %subject."
 msgstr "Σχόλιο: ενημερώθηκε το %subject."
 
@@ -270,159 +270,159 @@ msgstr "απάντηση"
 msgid "Post new comment"
 msgstr "Υποβολή νέου σχολίου"
 
-#: modules/comment/comment.module:1081
-msgid "The comment and all its replies have been deleted."
-msgstr "Το σχόλιο και όλες οι απαντήσεις του διαγράφηκαν."
-
-#: modules/comment/comment.module:1097
+#: modules/comment/comment.module:1082
 msgid "The comment no longer exists."
 msgstr "Το σχόλιο δεν υπάρχει πλέον."
 
-#: modules/comment/comment.module:1106
+#: modules/comment/comment.module:1098
 msgid "Are you sure you want to delete the comment %title?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το σχόλιο %title;"
 
-#: modules/comment/comment.module:1108
+#: modules/comment/comment.module:1100
 msgid "Any replies to this comment will be lost. This action cannot be undone."
 msgstr "Όλες οι απαντήσεις στο σχόλιο θα χαθούν. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
-#: modules/comment/comment.module:1120;1132
+#: modules/comment/comment.module:1114
+msgid "The comment and all its replies have been deleted."
+msgstr "Το σχόλιο και όλες οι απαντήσεις του διαγράφηκαν."
+
+#: modules/comment/comment.module:1127;1139
 msgid "Publish the selected comments"
 msgstr "Δημοσίευση των επιλεγμένων σχολίων"
 
-#: modules/comment/comment.module:1121;1127;1134
+#: modules/comment/comment.module:1128;1134;1141
 msgid "Delete the selected comments"
 msgstr "Διαγραφή των επιλεγμένων σχολίων"
 
-#: modules/comment/comment.module:1126;1133
+#: modules/comment/comment.module:1133;1140
 msgid "Unpublish the selected comments"
 msgstr "Να αρθεί η δημοσίευση των επιλεγμένων σχολίων"
 
-#: modules/comment/comment.module:1199
+#: modules/comment/comment.module:1206
 msgid "Please select one or more comments to perform the update on."
 msgstr "Επιλέξτε ένα ή περισσότερα σχόλια στα οποία θα γίνει η ενημέρωση."
 
-#: modules/comment/comment.module:1245
+#: modules/comment/comment.module:1252
 msgid "No comments available."
 msgstr "Δεν υπάρχουν διαθέσιμα σχόλια."
 
-#: modules/comment/comment.module:1279
+#: modules/comment/comment.module:1286
 msgid "There do not appear to be any comments to delete or your selected comment was deleted by another administrator."
 msgstr "Φαίνεται ότι δεν υπάρχουν σχόλια προς διαγραφή ή το επιλεγμένο σχόλιο έχει ήδη διαγραφεί από άλλο διαχειριστή."
 
-#: modules/comment/comment.module:1284
+#: modules/comment/comment.module:1291
 msgid "Are you sure you want to delete these comments and all their children?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτά τα σχόλια και όλα τα θυγατρικά τους;"
 
-#: modules/comment/comment.module:1286
+#: modules/comment/comment.module:1293
 msgid "Delete comments"
 msgstr "Διαγραφή σχολίων"
 
-#: modules/comment/comment.module:1301
+#: modules/comment/comment.module:1308
 msgid "The comments have been deleted."
 msgstr "Τα σχόλια διαγράφηκαν."
 
-#: modules/comment/comment.module:1378
+#: modules/comment/comment.module:1385
 msgid "You have to specify a valid author."
 msgstr "Πρέπει να δώσετε ένα έγκυρο όνομα συντάκτη."
 
-#: modules/comment/comment.module:1388
+#: modules/comment/comment.module:1395
 msgid "The name you used belongs to a registered user."
 msgstr "Το όνομα που χρησιμοποιήσατε ανήκει σε εγγεγραμμένο χρήστη."
 
-#: modules/comment/comment.module:1393
+#: modules/comment/comment.module:1400
 msgid "You have to leave your name."
 msgstr "Πρέπει να δώσετε το όνομά σας."
 
-#: modules/comment/comment.module:1398
+#: modules/comment/comment.module:1405
 msgid "The e-mail address you specified is not valid."
 msgstr "Η διεύθυνση e-mail που εισάγατε δεν είναι έγκυρη."
 
-#: modules/comment/comment.module:1402
+#: modules/comment/comment.module:1409
 msgid "You have to leave an e-mail address."
 msgstr "Πρέπει να δώσετε μια διεύθυνση e-mail."
 
-#: modules/comment/comment.module:1407
+#: modules/comment/comment.module:1414
 msgid "The URL of your homepage is not valid. Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
 msgstr "Η διεύθυνση URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι στην πλήρη μορφή της, για παράδειγμα στη μορφή <code>http://παράδειγμα.com/λεπτομέρειες</code>."
 
-#: modules/comment/comment.module:1454
+#: modules/comment/comment.module:1461
 msgid "Administration"
 msgstr "Διαχείριση"
 
-#: modules/comment/comment.module:1497;1522;1529
+#: modules/comment/comment.module:1504;1529;1536
 msgid "Homepage"
 msgstr "Ιστοσελίδα"
 
-#: modules/comment/comment.module:1506
+#: modules/comment/comment.module:1513
 msgid "Not published"
 msgstr "Μη δημοσιευμένο"
 
-#: modules/comment/comment.module:1553;1554
+#: modules/comment/comment.module:1560;1561
 msgid "Post comment"
 msgstr "Υποβολή σχολίου"
 
-#: modules/comment/comment.module:1658
+#: modules/comment/comment.module:1665
 msgid "(No subject)"
 msgstr "(Δεν υπάρχει θέμα)"
 
-#: modules/comment/comment.module:1727
+#: modules/comment/comment.module:1734
 msgid "!a comments per page"
 msgstr "!a σχόλια ανά σελίδα"
 
-#: modules/comment/comment.module:1736
+#: modules/comment/comment.module:1743
 msgid "Save settings"
 msgstr "Αποθήκευση ρυθμίσεων"
 
-#: modules/comment/comment.module:1747
+#: modules/comment/comment.module:1754
 msgid "Select your preferred way to display the comments and click \"Save settings\" to activate your changes."
 msgstr "Επιλέξτε τον προτεινόμενο τρόπο παρουσίασης των σχολίων και πατήστε στο \"Αποθήκευση ρυθμίσεων\" για να ισχύσουν οι αλλαγές σας."
 
-#: modules/comment/comment.module:1748
+#: modules/comment/comment.module:1755
 msgid "Comment viewing options"
 msgstr "Επιλογές εμφάνισης σχολίων"
 
-#: modules/comment/comment.module:1771
+#: modules/comment/comment.module:1778
 msgid "by %a on %b"
 msgstr "από τον %a στις %b"
 
-#: modules/comment/comment.module:1781
+#: modules/comment/comment.module:1788
 msgid "by"
 msgstr "από"
 
-#: modules/comment/comment.module:1808
+#: modules/comment/comment.module:1815
 msgid "you can't post comments"
 msgstr "δεν μπορείτε να υποβάλετε σχόλια"
 
-#: modules/comment/comment.module:1820
+#: modules/comment/comment.module:1827
 msgid "<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post comments"
 msgstr "<a href=\"@login\">Εισέλθετε στο σύστημα</a> ή <a href=\"@register\">εγγραφείτε</a> για να υποβάλετε σχόλια"
 
-#: modules/comment/comment.module:1823
+#: modules/comment/comment.module:1830
 msgid "<a href=\"@login\">Login</a> to post comments"
 msgstr "<a href=\"@login\">Εισέλθετε στο σύστημα</a> για να υποβάλετε σχόλια"
 
-#: modules/comment/comment.module:1837
+#: modules/comment/comment.module:1844
 msgid "Can not delete non-existent comment."
 msgstr "Δεν μπορείτε να σβήσετε σχόλιο που δεν υπάρχει."
 
-#: modules/comment/comment.module:1843
+#: modules/comment/comment.module:1850
 msgid "Comment: deleted %subject."
 msgstr "Σχόλιο: διαγράφηκε %subject."
 
-#: modules/comment/comment.module:1863
+#: modules/comment/comment.module:1870
 msgid "Flat list - collapsed"
 msgstr "Επίπεδη λίστα - συμπτυγμένη"
 
-#: modules/comment/comment.module:1864
+#: modules/comment/comment.module:1871
 msgid "Flat list - expanded"
 msgstr "Επίπεδη λίστα - ξεδιπλωμένη"
 
-#: modules/comment/comment.module:1865
+#: modules/comment/comment.module:1872
 msgid "Threaded list - collapsed"
 msgstr "Λίστα νημάτων - συμπτυγμένη"
 
-#: modules/comment/comment.module:1866
+#: modules/comment/comment.module:1873
 msgid "Threaded list - expanded"
 msgstr "Λίστα νημάτων - ξεδιπλωμένη"
 
@@ -451,4 +451,3 @@ msgstr "υποβολή σχολίων χωρίς έγκριση"
 #: modules/comment/comment.module:0
 msgid "comment"
 msgstr "σχόλιο"
-

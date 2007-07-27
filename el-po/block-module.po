@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: block-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-14 00:04+0300\n"
+"PO-Revision-Date: 2007-07-28 02:20+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +180,7 @@ msgstr "Να εμφανίζεται αν ο παρακάτω κώδικας PHP 
 
 #: modules/block/block.module:461
 msgid "If the PHP-mode is chosen, enter PHP code between %php. Note that executing incorrect PHP-code can break your Drupal site."
-msgstr "Αν έχει επιλεχτεί η κατάσταση λειτουργίας PHP, εισάγετε τον κώδικα PHP μεταξύ των %php. Σημειώστε ότι η εκτέλεση λανθασμένου κώδικα PHP μπορεί να θέσει εκτός λειτουργίας τον ιστοτόπο σας."
+msgstr "Αν έχει επιλεχτεί η κατάσταση λειτουργίας PHP, εισάγετε τον κώδικα PHP μεταξύ των %php. Πρέπει να σημειωθεί ότι η εκτέλεση λανθασμένου κώδικα PHP μπορεί να θέσει εκτός λειτουργίας τον ιστοτόπο σας."
 
 #: modules/block/block.module:465
 msgid "Show block on specific pages"

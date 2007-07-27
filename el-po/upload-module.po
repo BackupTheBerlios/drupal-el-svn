@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
 "PO-Revision-Date: 2007-07-13 23:49+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -192,23 +192,23 @@ msgstr "Το επιλεγμένο αρχείο %name δεν μπορεί να ε
 msgid "Attachment"
 msgstr "Συνημμένο"
 
-#: modules/upload/upload.module:582;815
+#: modules/upload/upload.module:582;818
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: modules/upload/upload.module:664
+#: modules/upload/upload.module:666
 msgid "Your filename has been renamed to conform to site policy."
 msgstr "Το όνομα του αρχείου άλλαξε ώστε να είναι σύμφωνο με την πρακτική του ιστοτόπου."
 
-#: modules/upload/upload.module:800
+#: modules/upload/upload.module:803
 msgid "Attach new file"
 msgstr "Επισύναψη νέου αρχείου"
 
-#: modules/upload/upload.module:801
+#: modules/upload/upload.module:804
 msgid "Attach"
 msgstr "Επισύναψη"
 
-#: modules/upload/upload.module:865
+#: modules/upload/upload.module:868
 msgid "The image was resized to fit within the maximum allowed resolution of %resolution pixels."
 msgstr "Οι διαστάσεις της εικόνας άλλαξαν ώστε να είναι μέσα στα όρια της μέγιστης επιτρεπτής ανάλυσης, που είναι %resolution pixel."
 
@@ -229,4 +229,3 @@ msgstr "προβολή απεσταλθέντων αρχείων"
 #: modules/upload/upload.module:0
 msgid "upload"
 msgstr "αποστολή"
-

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: search-module\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-28 01:45+0300\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-28 02:21+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Η μονάδα search προσθέτει τη δυνατότητα αν
 
 #: modules/search/search.module:100
 msgid "The search engine works by maintaining an index of the words in your site's content. It indexes the posts and users. You can adjust the settings to tweak the indexing behaviour. Note that the search requires cron to be set up correctly. The index percentage sets the maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες. Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Ευρετηριάζει τις καταχωρίσεις και τους χρήστες. Μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Πρέπει να σημειωθεί ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron. Το ποσοστό ευρετηρίασης καθορίζει το μέγιστο αριθμό στοιχείων που θα ευρετηριάζονται σε κάθε εκτέλεση του cron. Χαμηλώστε αυτόν τον αριθμό αν λήγει ο χρόνος του cron (time out) ή αν εξαντλείται η μνήμη της PHP."
 
 #: modules/search/search.module:101
 msgid "For more information please read the configuration and customization handbook <a href=\"@search\">Search page</a>."
@@ -33,7 +33,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/search/search.module:104
 msgid "The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly."
-msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Σημειώστε ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron."
+msgstr "Η μηχανή αναζήτησης λειτουργεί με τη συντήρηση ενός ευρετηρίου των λέξεων της ύλης του ιστοτόπου σας. Παρακάτω μπορείτε να προσαρμόσετε τις ρυθμίσεις για να αλλάξετε τη συμπεριφορά της ευρετηρίασης. Πρέπει να σημειωθεί ότι η αναζήτηση απαιτεί να έχει διευθετηθεί σωστά το cron."
 
 #: modules/search/search.module:106
 msgid ""
@@ -153,15 +153,15 @@ msgstr "Αποτελέσματα αναζήτησης"
 msgid "Your search yielded no results"
 msgstr "Η αναζήτησή σας δεν έδωσε αποτελέσματα"
 
-#: modules/search/search.module:981
+#: modules/search/search.module:985
 msgid "Enter your keywords"
 msgstr "Εισάγετε τις λέξεις-κλειδιά"
 
-#: modules/search/search.module:1022
+#: modules/search/search.module:1026
 msgid "Please enter some keywords."
 msgstr "Πληκτρολογήστε κάποιες λέξεις-κλειδιά."
 
-#: modules/search/search.module:1039
+#: modules/search/search.module:1043
 msgid "Enter the terms you wish to search for."
 msgstr "Πληκτρολογήστε τους όρους που θέλετε να αναζητήσετε."
 

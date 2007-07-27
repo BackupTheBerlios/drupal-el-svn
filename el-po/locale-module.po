@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-27 21:19+0300\n"
+"PO-Revision-Date: 2007-07-28 02:21+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "Θα πρέπει να προσθέσετε όλες τις γλώσσε
 
 #: modules/locale/locale.module:33
 msgid "This page allows you to import a translation provided in the gettext Portable Object (.po) format. The easiest way to get your site translated is to obtain an existing Drupal translation and to import it. You can find existing translations on the <a href=\"@url\">Drupal translation page</a>. Note that importing a translation file might take a while."
-msgstr "Η σελίδα αυτή σάς επιτρέπει να εισάγετε μια μετάφραση σε μορφή Portable Object (.po) του gettext. Ο ευκολότερος τρόπος για να μεταφράσετε τον ιστοτόπο σας είναι να πάρετε μια υπάρχουσα μετάφραση του Drupal και να την εισάγετε. Μπορείτε να βρείτε υπάρχουσες μεταφράσεις στην ιστοσελίδα <a href=\"@url\">μεταφράσεων του Drupal</a>. Σημειώστε ότι η εισαγωγή μιας μετάφρασης μπορεί να χρειαστεί κάποιο χρόνο."
+msgstr "Η σελίδα αυτή σάς επιτρέπει να εισάγετε μια μετάφραση σε μορφή Portable Object (.po) του gettext. Ο ευκολότερος τρόπος για να μεταφράσετε τον ιστοτόπο σας είναι να πάρετε μια υπάρχουσα μετάφραση του Drupal και να την εισάγετε. Μπορείτε να βρείτε υπάρχουσες μεταφράσεις στην ιστοσελίδα <a href=\"@url\">μεταφράσεων του Drupal</a>. Πρέπει να σημειωθεί ότι η εισαγωγή μιας μετάφρασης μπορεί να χρειαστεί κάποιο χρόνο."
 
 #: modules/locale/locale.module:35
 msgid "This page allows you to export Drupal strings. The first option is to export a translation so it can be shared. The second option generates a translation template, which contains all Drupal strings, but without their translations. You can use this template to start a new translation using various software packages designed for this task."
