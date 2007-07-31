@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comment-module\n"
 "POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-07-27 19:49+0300\n"
+"PO-Revision-Date: 2007-07-28 14:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Η μονάδα comment δημιουργεί μια συζήτηση γ�
 
 #: modules/comment/comment.module:130
 msgid "An administrator can give comment permissions to user groups, and users can (optionally) edit their last comment, assuming no others have been posted since. Attached to each comment board is a control panel for customizing the way that comments are displayed. Users can control the chronological ordering of posts (newest or oldest first) and the number of posts to display on each page. Comments behave like other user submissions. Filters, smileys and HTML that work in nodes will also work with comments. The comment module provides specific features to inform site members when new comments have been posted."
-msgstr "Ένας διαχειριστής μπορεί να δίνει άδειες σχολιασμού σε ομάδες χρηστών και οι χρήστες μπορούν (προαιρετικά) να διορθώνουν το τελευταίο τους σχόλιο εφόσον δεν έχουν υποβληθεί στο μεταξύ άλλα σχόλια. Σε κάθε σελίδα σχολίων υπάρχει ένας πίνακας ελέγχου για την προσαρμογή του τρόπου που παρουσιάζονται τα σχόλια. Οι χρήστες μπορούν να ελέγχουν τη χρονολογική σειρά των καταχωρίσεων (πρώτα τα νεότερα ή τα παλιότερα) και τον αριθμό των σχολίων που θα εμφανίζονται σε κάθε σελίδα. Τα σχόλια συμπεριφέρονται όπως και οι άλλες καταχωρίσεις των χρηστών. Τα φίλτρα, οι φατσούλες και η HTML που λειτουργούν στους κόμβους λειτουργούν και στα σχόλια. Η μονάδα comment παρέχει ειδικές λειτουργίες για να πληροφορούνται τα μέλη του ιστοτόπου όταν έχουν υποβληθεί νέα σχόλια."
+msgstr "Ένας διαχειριστής μπορεί να δίνει άδειες σχολιασμού σε ομάδες χρηστών και οι χρήστες μπορούν (προαιρετικά) να διορθώνουν το τελευταίο τους σχόλιο εφόσον δεν έχουν υποβληθεί στο μεταξύ άλλα σχόλια. Σε κάθε σελίδα σχολίων υπάρχει ένας πίνακας ελέγχου για την προσαρμογή του τρόπου που παρουσιάζονται τα σχόλια. Οι χρήστες μπορούν να ελέγχουν τη χρονολογική σειρά των καταχωρίσεων (πρώτα τα νεώτερα ή τα παλιότερα) και τον αριθμό των σχολίων που θα εμφανίζονται σε κάθε σελίδα. Τα σχόλια συμπεριφέρονται όπως και οι άλλες καταχωρίσεις των χρηστών. Τα φίλτρα, οι φατσούλες και η HTML που λειτουργούν στους κόμβους λειτουργούν και στα σχόλια. Η μονάδα comment παρέχει ειδικές λειτουργίες για να πληροφορούνται τα μέλη του ιστοτόπου όταν έχουν υποβληθεί νέα σχόλια."
 
 #: modules/comment/comment.module:131
 msgid "For more information please read the configuration and customization handbook <a href=\"@comment\">Comment page</a>."
@@ -451,3 +451,4 @@ msgstr "υποβολή σχολίων χωρίς έγκριση"
 #: modules/comment/comment.module:0
 msgid "comment"
 msgstr "σχόλιο"
+

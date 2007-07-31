@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: book-module\n"
 "POT-Creation-Date: 2007-01-16 11:35+0100\n"
-"PO-Revision-Date: 2007-07-28 02:20+0300\n"
+"PO-Revision-Date: 2007-07-31 15:07+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -198,7 +198,7 @@ msgstr "τροποποίηση σελίδων βιβλίου"
 
 #: modules/book/book.module:26
 msgid "edit own book pages"
-msgstr "τροποποίηση των δικών τους σελίδων βιβλίου"
+msgstr "τροποποίηση δικών τους σελίδων βιβλίου"
 
 #: modules/book/book.module:26
 msgid "see printer-friendly version"

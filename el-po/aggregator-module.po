@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aggregator-module\n"
 "POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-14 00:04+0300\n"
+"PO-Revision-Date: 2007-07-28 12:22+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -164,7 +164,7 @@ msgstr "Η κατηγορία %category προστέθηκε."
 
 #: modules/aggregator/aggregator.module:426
 msgid "The name of the feed; typically the name of the web site you syndicate content from."
-msgstr "Το όνομα της ροής· συνήθως το όνομα του ιστοτόπου από το οποίο συλλέγετε ανεξάρτητη ύλη."
+msgstr "Το όνομα της ροής· συνήθως το όνομα του ιστοτόπου από τον οποίο συλλέγεται η ανεξάρτητη ύλη."
 
 #: modules/aggregator/aggregator.module:433
 msgid "The fully-qualified URL of the feed."
