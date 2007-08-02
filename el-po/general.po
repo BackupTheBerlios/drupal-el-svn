@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-08-02 00:34+0300\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -601,7 +601,7 @@ msgstr "Drupal"
 
 #: modules/drupal/drupal.info:0
 msgid "Lets you register your site with a central server and improve ranking of Drupal projects by posting information on your installed modules and themes"
-msgstr "Σας επιτρέπει να καταχωρήσετε τον ιστοτόπο σας σε έναν κεντρικό διακομιστή και να βελτιώσετε την βαθμολόγηση των προγραμμάτων του Drupal μέσω της αποστολής πληροφοριών για τις εγκατεστημένες μονάδες και τα θέματά σας"
+msgstr "Σας επιτρέπει να καταχωρήσετε τον ιστοτόπο σας σε έναν κεντρικό διακομιστή και να βελτιώσετε την βαθμολόγηση των προγραμμάτων του Drupal μέσω της αποστολής πληροφοριών για τις εγκατεστημένες μονάδες και τα θέματά σας."
 
 #: modules/filter/filter.module:349;562 modules/forum/forum.module:587
 #: modules/node/content_types.inc:15;76 modules/profile/profile.module:408
