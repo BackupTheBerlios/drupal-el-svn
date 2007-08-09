@@ -1,0 +1,35 @@
+# $Id$
+# LANGUAGE translation of Drupal
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-31 16:54+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgid "create page content"
+msgstr "δημιουργία ύλης σελίδας"
+
+msgid "create story content"
+msgstr "δημιουργία ύλης ιστορήματος"
+
+msgid "edit own page content"
+msgstr "τροποποίηση δικών τους σελίδων"
+
+msgid "edit own story content"
+msgstr "τροποποίηση δικών τους ιστορημάτων"
+
+msgid "edit page content"
+msgstr "τροποποίηση ύλης σελίδων"
+
+msgid "edit story content"
+msgstr "τροποποίηση ύλης ιστορημάτων"

@@ -1,0 +1,60 @@
+# Greek Drupal translation of color-module.po to Greek
+# $Id: color-module.pot,v 1.1.2.3 2007/07/27 22:03:35 goba Exp $
+# LANGUAGE translation of Drupal (modules/color/color.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: color.module,v 1.13.2.2 2007/07/09 05:02:32 drumm
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: color-module\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-28 01:59+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/color/color.module:13
+msgid "Color scheme"
+msgstr "Χρωματικός συνδυασμός"
+
+#: modules/color/color.module:107
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: modules/color/color.module:110
+msgid "Color set"
+msgstr "Σύνολο χρωμάτων"
+
+#: modules/color/color.module:118
+msgid "Base color"
+msgstr "Βασικό χρώμα"
+
+#: modules/color/color.module:119
+msgid "Link color"
+msgstr "Χρώμα παραπομπής"
+
+#: modules/color/color.module:120
+msgid "Header top"
+msgstr "Επικεφαλίδα πάνω"
+
+#: modules/color/color.module:121
+msgid "Header bottom"
+msgstr "Επικεφαλίδα κάτω"
+
+#: modules/color/color.module:122
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: modules/color/color.module:205
+msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
+msgstr "Δεν υπάρχει αρκετή μνήμη διαθέσιμη για την PHP για την αλλαγή αυτού του χρωματικού συνδυασμού. Χρειάζεστε τουλάχιστον %size ακόμη. Ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP</a> για περισσότερες πληροφορίες."
+
+#: modules/color/color.module:0
+msgid "color"
+msgstr "χρώμα"
+

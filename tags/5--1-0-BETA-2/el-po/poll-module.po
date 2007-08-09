@@ -1,0 +1,186 @@
+# Greek Drupal translation of poll-module.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: poll-module\n"
+"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"PO-Revision-Date: 2007-07-17 00:43+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/poll/poll.module:16
+msgid "The poll module can be used to create simple polls for site users. A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll. Having polls on the site is a good way to get instant feedback from community members."
+msgstr "Η μονάδα poll μπορεί να χρησιμοποιηθεί για τη δημιουργία απλών ψηφοφοριών για τους χρήστες του ιστοτόπου. Ψηφοφορία είναι ένα απλό ερωτηματολόγιο πολλαπλής επιλογής το οποίο εμφανίζει τα αθροιστικά αποτελέσματα των απαντήσεων. Οι ψηφοφορίες σε έναν ιστοτόπο είναι ένας καλός τρόπος για να παίρνετε άμεσα τη γνώμη των μελών της κοινότητας."
+
+#: modules/poll/poll.module:17
+msgid "Users can create a poll. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.The <a href=\"@poll\">poll</a> item in the navigation menu will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results."
+msgstr "Οι χρήστες μπορούν να δημιουργούν ψηφοφορίες. Ο τίτλος της ψηφοφορίας θα πρέπει να είναι η ερώτηση και μετά δίνονται οι απαντήσεις και οι \"βασικοί\" αριθμοί ψήφων. Μπορείτε επίσης να ορίσετε μια χρονική περίοδο κατά την οποία θα γίνεται η ψηφοφορία. Το στοιχείο <a href=\"@poll\">ψηφοφορία</a> του μενού πλοήγησης σάς πηγαίνει σε μια σελίδα όπου μπορείτε να δείτε όλες τις τρέχουσες ψηφοφορίες, να ψηφίσετε (αν δεν το έχετε κάνει ήδη) και να δείτε τα αποτελέσματα."
+
+#: modules/poll/poll.module:18
+msgid "For more information please read the configuration and customization handbook <a href=\"@poll\">Poll page</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@poll\">σελίδα Poll</a>."
+
+#: modules/poll/poll.module:40
+msgid "Most recent poll"
+msgstr "Πρόσφατες ψηφοφορίες"
+
+#: modules/poll/poll.module:105
+msgid "Negative values are not allowed."
+msgstr "Δεν επιτρέπονται αρνητικές τιμές."
+
+#: modules/poll/poll.module:110
+msgid "You must fill in at least two choices."
+msgstr "Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές."
+
+#: modules/poll/poll.module:147
+msgid "Choices"
+msgstr "Επιλογές"
+
+#: modules/poll/poll.module:159
+msgid "Need more choices"
+msgstr "Χρειάζονται περισσότερες επιλογές"
+
+#: modules/poll/poll.module:161
+msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
+msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε αυτό το κουτάκι και πατήστε στο κουμπί Δοκιμή εμφάνισης παρακάτω για να προσθέσετε μερικά ακόμα."
+
+#: modules/poll/poll.module:168
+msgid "Choice @n"
+msgstr "Επιλογή @n"
+
+#: modules/poll/poll.module:175
+msgid "Votes for choice @n"
+msgstr "Ψήφοι υπέρ της επιλογής @n"
+
+#: modules/poll/poll.module:184
+msgid "Closed"
+msgstr "Έχει κλείσει"
+
+#: modules/poll/poll.module:191
+msgid "Poll status"
+msgstr "Κατάσταση ψηφοφορίας"
+
+#: modules/poll/poll.module:194
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Όταν μια ψηφοφορία έχει κλείσει, οι επισκέπτες δεν μπορούν πια να ψηφίζουν."
+
+#: modules/poll/poll.module:199
+msgid "Poll duration"
+msgstr "Διάρκεια ψηφοφορίας"
+
+#: modules/poll/poll.module:202
+msgid "After this period, the poll will be closed automatically."
+msgstr "Μετά από αυτή την περίοδο, η ψηφοφορία θα κλείσει αυτόματα."
+
+#: modules/poll/poll.module:234
+msgid "Polls"
+msgstr "Ψηφοφορίες"
+
+#: modules/poll/poll.module:240;382;490;611
+msgid "Vote"
+msgstr "Ψήφος"
+
+#: modules/poll/poll.module:260
+msgid "Votes"
+msgstr "Ψήφοι"
+
+#: modules/poll/poll.module:268;604
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: modules/poll/poll.module:322
+msgid "A poll is a multiple-choice question which visitors can vote on."
+msgstr "Ψηφοφορία είναι μια ερώτηση πολλαπλής επιλογής στην οποία μπορούν οι επισκέπτες να ψηφίζουν."
+
+#: modules/poll/poll.module:323
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: modules/poll/poll.module:336
+msgid "open"
+msgstr "ανοιχτή"
+
+#: modules/poll/poll.module:336
+msgid "closed"
+msgstr "έχει κλείσει"
+
+#: modules/poll/poll.module:430;437
+msgid "Total votes: %votes"
+msgstr "Σύνολο ψήφων: %votes"
+
+#: modules/poll/poll.module:449
+msgid "Cancel your vote"
+msgstr "Ακύρωση της ψήφου σας"
+
+#: modules/poll/poll.module:487
+msgid "This table lists all the recorded votes for this poll.  If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
+msgstr "Αυτή η λίστα καταγράφει όλες τις ψήφους για αυτή την ψηφοφορία. Αν ένας ανώνυμος χρήστης επιτρέπεται να ψηφίσει, θα αναγνωρίζεται από την IP του υπολογιστή που χρησιμοποίησε για να ψηφίσει."
+
+#: modules/poll/poll.module:536
+msgid "Your vote was recorded."
+msgstr "Η ψήφος σας καταγράφηκε."
+
+#: modules/poll/poll.module:539
+msgid "You are not allowed to vote on this poll."
+msgstr "Δεν σας επιτρέπεται να ψηφίσετε σ' αυτή την ψηφοφορία."
+
+#: modules/poll/poll.module:543
+msgid "You did not specify a valid poll choice."
+msgstr "Δεν δώσατε έγκυρη επιλογή για την ψηφοφορία."
+
+#: modules/poll/poll.module:573
+msgid "Your vote was canceled."
+msgstr "Η ψήφος σας ακυρώθηκε."
+
+#: modules/poll/poll.module:576
+msgid "You are not allowed to cancel an invalid poll choice."
+msgstr "Δεν επιτρέπεται να ακυρώσετε μία μη έγκυρη επιλογή ψηφοφορίας."
+
+#: modules/poll/poll.module:602
+msgid "Older polls"
+msgstr "Παλιότερες ψηφοφορίες"
+
+#: modules/poll/poll.module:602
+msgid "View the list of polls on this site."
+msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
+
+#: modules/poll/poll.module:604
+msgid "View the current poll results."
+msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
+
+#: modules/poll/poll.module:336;416
+msgid "1 vote"
+msgid_plural "@count votes"
+msgstr[0] "1 ψήφος"
+msgstr[1] "@count ψήφοι"
+
+#: modules/poll/poll.module:347
+msgid "create polls"
+msgstr "δημιουργία ψηφοφοριών"
+
+#: modules/poll/poll.module:347
+msgid "vote on polls"
+msgstr "υποβολή ψήφου σε ψηφοφορίες"
+
+#: modules/poll/poll.module:347
+msgid "cancel own vote"
+msgstr "ακύρωση προσωπικού ψήφου"
+
+#: modules/poll/poll.module:347
+msgid "inspect all votes"
+msgstr "επιθεώρηση ψήφων"
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr "ψηφοφορία"
