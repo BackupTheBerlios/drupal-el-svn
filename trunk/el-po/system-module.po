@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
 "POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-07-28 02:21+0300\n"
+"PO-Revision-Date: 2007-09-07 17:56+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -234,7 +234,7 @@ msgstr "Με την επιλογή διαφορετικής θεματικής �
 
 #: modules/system/system.module:336
 msgid "Locale settings"
-msgstr "Γλωσσικές ρυθμίσεις"
+msgstr "Τοπικές ρυθμίσεις"
 
 #: modules/system/system.module:342
 msgid "Time zone"
