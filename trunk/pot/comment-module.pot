@@ -1,14 +1,14 @@
-# $Id: comment-module.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/comment/comment.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: comment.module,v 1.520.2.6 2007/07/26 19:16:45 drumm
+# Generated from file: comment.module,v 1.520.2.10 2007/10/17 21:29:00 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -201,7 +201,7 @@ msgstr ""
 msgid "Can users provide a unique subject for their comments?"
 msgstr ""
 
-#: modules/comment/comment.module:551;633;1554;1560;1564;1588
+#: modules/comment/comment.module:551;633;1555;1561;1565;1589
 msgid "Preview comment"
 msgstr ""
 
@@ -237,7 +237,7 @@ msgstr ""
 msgid "You are not authorized to view comments."
 msgstr ""
 
-#: modules/comment/comment.module:715;1229
+#: modules/comment/comment.module:715;1230
 msgid "Comment: updated %subject."
 msgstr ""
 
@@ -265,163 +265,163 @@ msgstr ""
 msgid "reply"
 msgstr ""
 
-#: modules/comment/comment.module:1060
+#: modules/comment/comment.module:1061
 msgid "Post new comment"
 msgstr ""
 
-#: modules/comment/comment.module:1082
+#: modules/comment/comment.module:1083
 msgid "The comment no longer exists."
 msgstr ""
 
-#: modules/comment/comment.module:1098
+#: modules/comment/comment.module:1099
 msgid "Are you sure you want to delete the comment %title?"
 msgstr ""
 
-#: modules/comment/comment.module:1100
+#: modules/comment/comment.module:1101
 msgid "Any replies to this comment will be lost. This action cannot be undone."
 msgstr ""
 
-#: modules/comment/comment.module:1114
+#: modules/comment/comment.module:1115
 msgid "The comment and all its replies have been deleted."
 msgstr ""
 
-#: modules/comment/comment.module:1127;1139
+#: modules/comment/comment.module:1128;1140
 msgid "Publish the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1128;1134;1141
+#: modules/comment/comment.module:1129;1135;1142
 msgid "Delete the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1133;1140
+#: modules/comment/comment.module:1134;1141
 msgid "Unpublish the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1206
+#: modules/comment/comment.module:1207
 msgid "Please select one or more comments to perform the update on."
 msgstr ""
 
-#: modules/comment/comment.module:1252
+#: modules/comment/comment.module:1253
 msgid "No comments available."
 msgstr ""
 
-#: modules/comment/comment.module:1286
+#: modules/comment/comment.module:1287
 msgid "There do not appear to be any comments to delete or your selected comment was deleted by another administrator."
 msgstr ""
 
-#: modules/comment/comment.module:1291
+#: modules/comment/comment.module:1292
 msgid "Are you sure you want to delete these comments and all their children?"
 msgstr ""
 
-#: modules/comment/comment.module:1293
+#: modules/comment/comment.module:1294
 msgid "Delete comments"
 msgstr ""
 
-#: modules/comment/comment.module:1308
+#: modules/comment/comment.module:1309
 msgid "The comments have been deleted."
 msgstr ""
 
-#: modules/comment/comment.module:1385
+#: modules/comment/comment.module:1386
 msgid "You have to specify a valid author."
 msgstr ""
 
-#: modules/comment/comment.module:1395
+#: modules/comment/comment.module:1396
 msgid "The name you used belongs to a registered user."
 msgstr ""
 
-#: modules/comment/comment.module:1400
+#: modules/comment/comment.module:1401
 msgid "You have to leave your name."
 msgstr ""
 
-#: modules/comment/comment.module:1405
+#: modules/comment/comment.module:1406
 msgid "The e-mail address you specified is not valid."
 msgstr ""
 
-#: modules/comment/comment.module:1409
+#: modules/comment/comment.module:1410
 msgid "You have to leave an e-mail address."
 msgstr ""
 
-#: modules/comment/comment.module:1414
+#: modules/comment/comment.module:1415
 msgid "The URL of your homepage is not valid. Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
 msgstr ""
 
-#: modules/comment/comment.module:1461
+#: modules/comment/comment.module:1462
 msgid "Administration"
 msgstr ""
 
-#: modules/comment/comment.module:1504;1529;1536
+#: modules/comment/comment.module:1505;1530;1537
 msgid "Homepage"
 msgstr ""
 
-#: modules/comment/comment.module:1513
+#: modules/comment/comment.module:1514
 msgid "Not published"
 msgstr ""
 
-#: modules/comment/comment.module:1560;1561
+#: modules/comment/comment.module:1561;1562
 msgid "Post comment"
 msgstr ""
 
-#: modules/comment/comment.module:1665
+#: modules/comment/comment.module:1667
 msgid "(No subject)"
 msgstr ""
 
-#: modules/comment/comment.module:1734
+#: modules/comment/comment.module:1736
 msgid "!a comments per page"
 msgstr ""
 
-#: modules/comment/comment.module:1743
+#: modules/comment/comment.module:1745
 msgid "Save settings"
 msgstr ""
 
-#: modules/comment/comment.module:1754
+#: modules/comment/comment.module:1756
 msgid "Select your preferred way to display the comments and click \"Save settings\" to activate your changes."
 msgstr ""
 
-#: modules/comment/comment.module:1755
+#: modules/comment/comment.module:1757
 msgid "Comment viewing options"
 msgstr ""
 
-#: modules/comment/comment.module:1778
+#: modules/comment/comment.module:1780
 msgid "by %a on %b"
 msgstr ""
 
-#: modules/comment/comment.module:1788
+#: modules/comment/comment.module:1790
 msgid "by"
 msgstr ""
 
-#: modules/comment/comment.module:1815
+#: modules/comment/comment.module:1817
 msgid "you can't post comments"
 msgstr ""
 
-#: modules/comment/comment.module:1827
+#: modules/comment/comment.module:1829
 msgid "<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post comments"
 msgstr ""
 
-#: modules/comment/comment.module:1830
+#: modules/comment/comment.module:1832
 msgid "<a href=\"@login\">Login</a> to post comments"
 msgstr ""
 
-#: modules/comment/comment.module:1844
+#: modules/comment/comment.module:1846
 msgid "Can not delete non-existent comment."
 msgstr ""
 
-#: modules/comment/comment.module:1850
+#: modules/comment/comment.module:1852
 msgid "Comment: deleted %subject."
 msgstr ""
 
-#: modules/comment/comment.module:1870
+#: modules/comment/comment.module:1872
 msgid "Flat list - collapsed"
 msgstr ""
 
-#: modules/comment/comment.module:1871
+#: modules/comment/comment.module:1873
 msgid "Flat list - expanded"
 msgstr ""
 
-#: modules/comment/comment.module:1872
+#: modules/comment/comment.module:1874
 msgid "Threaded list - collapsed"
 msgstr ""
 
-#: modules/comment/comment.module:1873
+#: modules/comment/comment.module:1875
 msgid "Threaded list - expanded"
 msgstr ""
 

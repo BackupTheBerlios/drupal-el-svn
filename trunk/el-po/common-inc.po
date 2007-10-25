@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: common-inc\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: 2007-07-13 00:43+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -21,67 +21,67 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 
-#: includes/common.inc:322
+#: includes/common.inc:327
 msgid "Site off-line"
 msgstr "Ιστοτόπος εκτός λειτουργίας"
 
-#: includes/common.inc:351
+#: includes/common.inc:356
 msgid "Page not found"
 msgstr "Δε βρέθηκε η σελίδα"
 
-#: includes/common.inc:380
+#: includes/common.inc:385
 msgid "Access denied"
 msgstr "Δεν επιτρέπεται η πρόσβαση"
 
-#: includes/common.inc:381
+#: includes/common.inc:386
 msgid "You are not authorized to access this page."
 msgstr "Δεν είστε εξουσιοδοτημένος για να προσπελάσετε αυτή τη σελίδα."
 
-#: includes/common.inc:555
+#: includes/common.inc:560
 msgid "%message in %file on line %line."
 msgstr "%message στο αρχείο %file στη γραμμή %line."
 
-#: includes/common.inc:997
+#: includes/common.inc:1002
 msgid "KB"
 msgstr "KB"
 
-#: includes/common.inc:1002
+#: includes/common.inc:1007
 msgid "@size @suffix"
 msgstr "@size @suffix"
 
-#: includes/common.inc:1031
+#: includes/common.inc:1036
 msgid "0 sec"
 msgstr "0 δευτ."
 
-#: includes/common.inc:2001
+#: includes/common.inc:2008
 msgid "Cron has been running for more than an hour and is most likely stuck."
 msgstr "Το cron ήδη εκτελείται για παραπάνω από μία ώρα και είναι πολύ πιθανό να έχει κολλήσει."
 
-#: includes/common.inc:2008
+#: includes/common.inc:2015
 msgid "Attempting to re-run cron while it is already running."
 msgstr "Γίνεται προσπάθεια για επανεκτέλεση του cron καθώς ήδη εκτελείται."
 
-#: includes/common.inc:2023
+#: includes/common.inc:2030
 msgid "Cron run completed."
 msgstr "Η εκτέλεση του cron ολοκληρώθηκε."
 
-#: includes/common.inc:2039
+#: includes/common.inc:2046
 msgid "Cron run exceeded the time limit and was aborted."
 msgstr "Η εκτέλεση του cron ξεπέρασε το χρονικό όριο και ακυρώθηκε."
 
-#: includes/common.inc:333
+#: includes/common.inc:338
 msgid "page not found"
 msgstr "δε βρέθηκε η σελίδα"
 
-#: includes/common.inc:362
+#: includes/common.inc:367
 msgid "access denied"
 msgstr "δεν επιτρέπεται η πρόσβαση"
 
-#: includes/common.inc:2001;2008;2023;2039
+#: includes/common.inc:2008;2015;2030;2046
 msgid "cron"
 msgstr "cron"
 
-#: includes/common.inc:993
+#: includes/common.inc:998
 msgid "1 byte"
 msgid_plural "@count bytes"
 msgstr[0] "1 byte"

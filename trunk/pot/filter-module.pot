@@ -1,14 +1,14 @@
-# $Id: filter-module.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/filter/filter.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: filter.module,v 1.160.2.2 2007/06/05 07:29:14 drumm
+# Generated from file: filter.module,v 1.160.2.3 2007/08/08 06:54:10 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -71,6 +71,10 @@ msgstr ""
 
 #: modules/filter/filter.module:121
 msgid "Rearrange"
+msgstr ""
+
+#: modules/filter/filter.module:162;164
+msgid "Allowed HTML tags: @tags"
 msgstr ""
 
 #: modules/filter/filter.module:169

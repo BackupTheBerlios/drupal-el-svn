@@ -1,36 +1,36 @@
-# $Id: general.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  common.inc,v 1.611.2.9 2007/07/26 19:16:45 drumm
-#  system.module,v 1.440.2.15 2007/07/26 19:16:48 drumm
-#  upload.module,v 1.148.2.1 2007/03/07 03:27:24 drumm
+#  common.inc,v 1.611.2.12 2007/10/17 21:28:59 drumm
+#  system.module,v 1.440.2.19 2007/10/17 21:29:00 drumm
+#  upload.module,v 1.148.2.2 2007/10/17 21:29:00 drumm
 #  image.inc,v 1.17 2006/12/26 14:01:41 dries
 #  unicode.inc,v 1.23.2.2 2007/05/21 01:09:21 drumm
-#  system.install,v 1.69.2.4 2007/07/19 05:39:25 drumm
+#  system.install,v 1.69.2.6 2007/10/16 06:20:39 drumm
 #  database.mysql.inc,v 1.66.2.1 2007/01/22 02:20:50 unconed
 #  database.mysqli.inc,v 1.32 2006/12/27 22:50:09 dries
 #  file.inc,v 1.90.2.1 2007/05/31 05:48:58 drumm
-#  user.module,v 1.745.2.13 2007/07/26 19:16:50 drumm
+#  user.module,v 1.745.2.20 2007/10/17 21:29:00 drumm
 #  form.inc,v 1.174.2.11 2007/07/26 19:16:45 drumm
-#  filter.module,v 1.160.2.2 2007/06/05 07:29:14 drumm
+#  filter.module,v 1.160.2.3 2007/08/08 06:54:10 drumm
 #  locale.inc,v 1.105.2.4 2007/05/21 00:20:02 drumm
 #  blogapi.module,v 1.100.2.2 2007/07/26 19:16:45 drumm
-#  forum.module,v 1.375.2.5 2007/05/31 05:58:17 drumm
-#  block.module,v 1.246.2.5 2007/06/14 06:06:48 drumm
+#  forum.module,v 1.375.2.6 2007/08/08 06:27:22 drumm
+#  block.module,v 1.246.2.6 2007/09/12 07:49:35 drumm
 #  book.module,v 1.406.2.1 2007/02/14 04:30:33 drumm
-#  comment.module,v 1.520.2.6 2007/07/26 19:16:45 drumm
+#  comment.module,v 1.520.2.10 2007/10/17 21:29:00 drumm
 #  contact.module,v 1.74.2.1 2007/06/05 07:18:05 drumm
 #  menu.module,v 1.100.2.1 2007/07/26 19:16:45 drumm
 #  content_types.inc,v 1.24.2.2 2007/07/26 19:16:46 drumm
-#  node.module,v 1.776.2.19 2007/07/26 19:16:46 drumm
+#  node.module,v 1.776.2.21 2007/09/29 23:41:28 drumm
 #  path.module,v 1.105.2.1 2007/05/21 00:52:28 drumm
 #  profile.module,v 1.189.2.8 2007/07/26 19:16:48 drumm
 #  drupal.module,v 1.138 2006/12/23 21:13:18 dries
 #  statistics.module,v 1.249 2007/01/10 15:17:51 dries
 #  aggregator.module,v 1.324.2.1 2007/07/09 03:38:22 drumm
-#  taxonomy.module,v 1.330.2.10 2007/07/26 19:16:49 drumm
+#  taxonomy.module,v 1.330.2.11 2007/09/12 07:49:36 drumm
 #  watchdog.module,v 1.165.2.1 2007/01/23 19:07:33 dries
 #  locale.module,v 1.155 2006/12/27 13:11:59 drumm
 #  search.module,v 1.209.2.5 2007/07/26 19:16:48 drumm
@@ -40,7 +40,7 @@
 #  pager.inc,v 1.59 2006/10/15 19:57:05 dries
 #  theme.inc,v 1.337.2.2 2007/05/31 05:52:42 drumm
 #  phptemplate.engine,v 1.54.2.2 2007/05/31 06:21:32 drumm
-#  poll.module,v 1.222.2.1 2007/07/26 19:16:48 drumm
+#  poll.module,v 1.222.2.2 2007/10/07 00:21:18 drumm
 #  legacy.module,v 1.15 2006/11/21 20:14:18 dries
 #  blog.module,v 1.271.2.2 2007/04/23 17:05:11 dries
 #  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
@@ -72,13 +72,13 @@
 #  system.info,v 1.3 2006/11/21 20:55:35 dries
 #  user.info,v 1.3 2006/11/21 20:55:36 dries
 #  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
-#  color.module,v 1.13.2.2 2007/07/09 05:02:32 drumm
+#  color.module,v 1.13.2.3 2007/10/16 07:02:40 drumm
 #  template.php,v 1.4.2.1 2007/04/18 03:38:59 drumm
 #  tracker.module,v 1.143.2.2 2007/07/26 19:16:50 drumm
-#  help.module,v 1.69 2006/12/23 22:06:05 dries
+#  help.module,v 1.69.2.1 2007/10/16 06:57:22 drumm
 #  color.inc,v 1.2 2006/12/06 16:32:54 dries
 #  database.pgsql.inc,v 1.43 2006/12/27 22:13:56 dries
-#  install.inc,v 1.31.2.1 2007/02/06 08:20:17 drumm
+#  install.inc,v 1.31.2.2 2007/10/06 22:38:28 drumm
 #  tablesort.inc,v 1.43.2.1 2007/06/16 22:29:25 drumm
 #  xmlrpc.inc,v 1.38.2.1 2007/04/19 02:05:15 drumm
 #  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
@@ -89,7 +89,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -98,15 +98,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: includes/common.inc:324 modules/system/system.module:872
+#: includes/common.inc:329 modules/system/system.module:872
 msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
 msgstr ""
 
-#: includes/common.inc:1000 modules/upload/upload.module:201;210
+#: includes/common.inc:1005 modules/upload/upload.module:201;210
 msgid "MB"
 msgstr ""
 
-#: includes/common.inc:555 includes/image.inc:61 includes/unicode.inc:151;184 modules/system/system.install:2318;2548
+#: includes/common.inc:560 includes/image.inc:61 includes/unicode.inc:151;184 modules/system/system.install:2320;2550
 msgid "php"
 msgstr ""
 
@@ -122,7 +122,7 @@ msgstr ""
 msgid "The directory %directory does not exist."
 msgstr ""
 
-#: includes/file.inc:124 modules/user/user.module:1232;1481;2202
+#: includes/file.inc:124 modules/user/user.module:1233;1484;2205
 msgid "security"
 msgstr ""
 
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Illegal choice %choice in %name element."
 msgstr ""
 
-#: includes/form.inc:1114 modules/user/user.module:495;915
+#: includes/form.inc:1114 modules/user/user.module:496;916
 msgid "Password"
 msgstr ""
 
@@ -146,15 +146,15 @@ msgstr ""
 msgid "Save configuration"
 msgstr ""
 
-#: includes/locale.inc:90 modules/blogapi/blogapi.module:242 modules/filter/filter.module:783 modules/forum/forum.module:697
+#: includes/locale.inc:90 modules/blogapi/blogapi.module:242 modules/filter/filter.module:783 modules/forum/forum.module:693
 msgid "n/a"
 msgstr ""
 
-#: includes/locale.inc:90;1397 modules/block/block.module:247 modules/book/book.module:865 modules/comment/comment.module:837 modules/contact/contact.module:148 modules/filter/filter.module:320 modules/menu/menu.module:686 modules/node/content_types.inc:30 modules/node/node.module:1693 modules/path/path.module:309 modules/profile/profile.module:402 modules/user/user.module:1744
+#: includes/locale.inc:90;1397 modules/block/block.module:247 modules/book/book.module:865 modules/comment/comment.module:837 modules/contact/contact.module:148 modules/filter/filter.module:320 modules/menu/menu.module:686 modules/node/content_types.inc:30 modules/node/node.module:1699 modules/path/path.module:309 modules/profile/profile.module:402 modules/user/user.module:1747
 msgid "delete"
 msgstr ""
 
-#: includes/locale.inc:93 modules/comment/comment.module:545 modules/drupal/drupal.module:64;111 modules/statistics/statistics.module:364 modules/system/system.module:596;703;820;1191;1533 modules/upload/upload.module:347 modules/user/user.module:2321
+#: includes/locale.inc:93 modules/comment/comment.module:545 modules/drupal/drupal.module:64;111 modules/statistics/statistics.module:364 modules/system/system.module:596;703;820;1191;1533 modules/upload/upload.module:347 modules/user/user.module:2324
 msgid "Enabled"
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: includes/locale.inc:93;1389 modules/aggregator/aggregator.module:983;994 modules/block/block.module:352 modules/book/book.module:854;973 modules/comment/comment.module:1181 modules/contact/contact.module:150 modules/filter/filter.module:349 modules/forum/forum.module:587 modules/menu/menu.module:610 modules/node/content_types.inc:15 modules/node/node.module:1600;1663 modules/path/path.module:302 modules/profile/profile.module:408 modules/statistics/statistics.module:208;235;263;317 modules/system/system.module:1191 modules/taxonomy/taxonomy.module:167;179 modules/user/user.module:1739;1984;2012;2080 modules/watchdog/watchdog.module:120
+#: includes/locale.inc:93;1389 modules/aggregator/aggregator.module:983;994 modules/block/block.module:352 modules/book/book.module:854;973 modules/comment/comment.module:1182 modules/contact/contact.module:150 modules/filter/filter.module:349 modules/forum/forum.module:583 modules/menu/menu.module:610 modules/node/content_types.inc:15 modules/node/node.module:1606;1669 modules/path/path.module:302 modules/profile/profile.module:408 modules/statistics/statistics.module:208;235;263;317 modules/system/system.module:1191 modules/taxonomy/taxonomy.module:167;179 modules/user/user.module:1742;1987;2015;2083 modules/watchdog/watchdog.module:120
 msgid "Operations"
 msgstr ""
 
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: includes/locale.inc:341;360 modules/search/search.module:131;144;1005;1045 modules/search/search.info:0 modules/user/user.module:2336
+#: includes/locale.inc:341;360 modules/search/search.module:131;144;1005;1045 modules/search/search.info:0 modules/user/user.module:2339
 msgid "Search"
 msgstr ""
 
@@ -186,7 +186,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: includes/locale.inc:1397 modules/aggregator/aggregator.module:986;997 modules/book/book.module:864 modules/comment/comment.module:841;852;1193 modules/contact/contact.module:148 modules/menu/menu.module:665 modules/node/content_types.inc:26 modules/node/node.module:1588 modules/path/path.module:309 modules/profile/profile.module:402 modules/taxonomy/taxonomy.module:198;209;308;312;474;478 modules/user/user.module:1008;1244;1744;2057
+#: includes/locale.inc:1397 modules/aggregator/aggregator.module:986;997 modules/book/book.module:864 modules/comment/comment.module:841;852;1194 modules/contact/contact.module:148 modules/menu/menu.module:665 modules/node/content_types.inc:26 modules/node/node.module:1594 modules/path/path.module:309 modules/profile/profile.module:402 modules/taxonomy/taxonomy.module:198;209;308;312;474;478 modules/user/user.module:1009;1245;1747;2060
 msgid "edit"
 msgstr ""
 
@@ -194,11 +194,11 @@ msgstr ""
 msgid "locale"
 msgstr ""
 
-#: includes/menu.inc:540 modules/node/node.module:2267 themes/bluemarine/page.tpl.php:17;17;18 themes/chameleon/chameleon.theme:51;51 themes/pushbutton/page.tpl.php:19;19;25
+#: includes/menu.inc:540 modules/node/node.module:2273 themes/bluemarine/page.tpl.php:17;17;18 themes/chameleon/chameleon.theme:51;51 themes/pushbutton/page.tpl.php:19;19;25
 msgid "Home"
 msgstr ""
 
-#: includes/menu.inc:1047 modules/user/user.module:520;564
+#: includes/menu.inc:1047 modules/user/user.module:521;565
 msgid "Navigation"
 msgstr ""
 
@@ -214,11 +214,11 @@ msgstr ""
 msgid "new"
 msgstr ""
 
-#: includes/theme.inc:1052 modules/user/user.module:635
+#: includes/theme.inc:1052 modules/user/user.module:636
 msgid "View user profile."
 msgstr ""
 
-#: includes/theme.inc:1073 modules/comment/comment.module:1523;1532 modules/node/node.module:2080 modules/system/system.module:575 modules/user/user.module:632
+#: includes/theme.inc:1073 modules/comment/comment.module:1524;1533 modules/node/node.module:2086 modules/system/system.module:575 modules/user/user.module:633
 msgid "Anonymous"
 msgstr ""
 
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Add category"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:65 modules/block/block.module:72 modules/book/book.module:100 modules/comment/comment.module:160 modules/contact/contact.module:53 modules/filter/filter.module:65 modules/forum/forum.module:50 modules/locale/locale.module:71 modules/menu/menu.module:47 modules/node/node.module:1097;1133 modules/path/path.module:56 modules/system/system.module:155;194;198 modules/taxonomy/taxonomy.module:83;129 modules/upload/upload.module:818 modules/user/user.module:734;757
+#: modules/aggregator/aggregator.module:65 modules/block/block.module:72 modules/book/book.module:100 modules/comment/comment.module:160 modules/contact/contact.module:53 modules/filter/filter.module:65 modules/forum/forum.module:50 modules/locale/locale.module:71 modules/menu/menu.module:47 modules/node/node.module:1097;1133 modules/path/path.module:56 modules/system/system.module:155;194;198 modules/taxonomy/taxonomy.module:83;129 modules/upload/upload.module:818 modules/user/user.module:735;758
 msgid "List"
 msgstr ""
 
@@ -242,7 +242,7 @@ msgstr ""
 msgid "RSS feed"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:124;146 modules/comment/comment.module:200 modules/filter/filter.module:105 modules/legacy/legacy.module:58;64;70 modules/node/node.module:1176;1193;1198 modules/user/user.module:814
+#: modules/aggregator/aggregator.module:124;146 modules/comment/comment.module:200 modules/filter/filter.module:105 modules/legacy/legacy.module:58;64;70 modules/node/node.module:1176;1193;1198 modules/user/user.module:815
 msgid "View"
 msgstr ""
 
@@ -254,31 +254,31 @@ msgstr ""
 msgid "none"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:199 modules/filter/filter.module:162;164;1048
+#: modules/aggregator/aggregator.module:199 modules/filter/filter.module:1048
 msgid "Allowed HTML tags"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:288;296 modules/blog/blog.module:285 modules/forum/forum.module:280
+#: modules/aggregator/aggregator.module:288;296 modules/blog/blog.module:285 modules/forum/forum.module:275
 msgid "more"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:319;423;983;994 modules/book/book.module:854 modules/filter/filter.module:202 modules/menu/menu.module:195;315;351 modules/node/content_types.inc:62 modules/node/node.module:390;1600 modules/profile/profile.module:238;408 modules/statistics/statistics.module:188
+#: modules/aggregator/aggregator.module:319;423;983;994 modules/book/book.module:854 modules/filter/filter.module:202 modules/menu/menu.module:195;315;351 modules/node/content_types.inc:62 modules/node/node.module:390;1606 modules/profile/profile.module:238;408 modules/statistics/statistics.module:188
 msgid "Title"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:325 modules/forum/forum.module:450;505 modules/menu/menu.module:201;357 modules/node/content_types.inc:15;107 modules/system/system.module:1539;1693;1784 modules/taxonomy/taxonomy.module:241;409 modules/upload/upload.module:818
+#: modules/aggregator/aggregator.module:325 modules/forum/forum.module:446;501 modules/menu/menu.module:201;357 modules/node/content_types.inc:15;107 modules/system/system.module:1539;1693;1784 modules/taxonomy/taxonomy.module:241;409 modules/upload/upload.module:818
 msgid "Description"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:328;342;459;473 modules/contact/contact.module:195 modules/forum/forum.module:466;518 modules/menu/menu.module:325;405 modules/node/node.module:2107 modules/taxonomy/taxonomy.module:290;450 modules/user/user.module:1440
+#: modules/aggregator/aggregator.module:328;342;459;473 modules/contact/contact.module:195 modules/forum/forum.module:462;514 modules/menu/menu.module:325;405 modules/node/node.module:2113 modules/taxonomy/taxonomy.module:290;450 modules/user/user.module:1436
 msgid "Submit"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:331;361;462;497 modules/block/block.module:530 modules/comment/comment.module:1101 modules/contact/contact.module:259 modules/filter/filter.module:368 modules/forum/forum.module:469;478;520;569 modules/locale/locale.module:326 modules/menu/menu.module:438;620 modules/node/content_types.inc:398 modules/node/node.module:1207;1258;1305;1785;2109;2339;2469 modules/path/path.module:101 modules/profile/profile.module:376 modules/taxonomy/taxonomy.module:292;384;455;608;1424;1437 modules/upload/upload.module:818 modules/user/user.module:820;1428;1442;1455;1676
+#: modules/aggregator/aggregator.module:331;361;462;497 modules/block/block.module:530 modules/comment/comment.module:1102 modules/contact/contact.module:259 modules/filter/filter.module:368 modules/forum/forum.module:465;474;516;565 modules/locale/locale.module:326 modules/menu/menu.module:438;620 modules/node/content_types.inc:398 modules/node/node.module:1207;1258;1305;1791;2115;2345;2475 modules/path/path.module:101 modules/profile/profile.module:376 modules/taxonomy/taxonomy.module:292;384;455;608;1425;1438 modules/upload/upload.module:818 modules/user/user.module:821;1424;1438;1452;1679
 msgid "Delete"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:390;526 modules/blogapi/blogapi.module:221;277 modules/book/book.module:863;938 modules/comment/comment.module:715;795;1229 modules/contact/contact.module:238;244 modules/menu/menu.module:541 modules/node/content_types.inc:339 modules/node/node.module:2309;2314 modules/profile/profile.module:349;389
+#: modules/aggregator/aggregator.module:390;526 modules/blogapi/blogapi.module:221;277 modules/book/book.module:863;938 modules/comment/comment.module:715;795;1230 modules/contact/contact.module:238;244 modules/menu/menu.module:541 modules/node/content_types.inc:339 modules/node/node.module:2315;2320 modules/profile/profile.module:349;389
 msgid "view"
 msgstr ""
 
@@ -286,15 +286,15 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:986;1301 modules/comment/comment.module:281 modules/statistics/statistics.module:354 modules/user/user.module:2056
+#: modules/aggregator/aggregator.module:986;1301 modules/comment/comment.module:281 modules/statistics/statistics.module:354 modules/user/user.module:2059
 msgid "@time ago"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:986;986;1304 modules/user/user.module:2056
+#: modules/aggregator/aggregator.module:986;986;1304 modules/user/user.module:2059
 msgid "never"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:1207 modules/node/node.module:1892
+#: modules/aggregator/aggregator.module:1207 modules/node/node.module:1898
 msgid "read more"
 msgstr ""
 
@@ -314,7 +314,7 @@ msgstr ""
 msgid "configure"
 msgstr ""
 
-#: modules/block/block.module:328 modules/comment/comment.module:376;395;545 modules/drupal/drupal.module:64;111 modules/statistics/statistics.module:364;469 modules/system/system.module:596;676;703;820 modules/taxonomy/taxonomy.module:261 modules/upload/upload.module:347 modules/user/user.module:2321
+#: modules/block/block.module:328 modules/comment/comment.module:376;395;545 modules/drupal/drupal.module:64;111 modules/statistics/statistics.module:364;469 modules/system/system.module:596;676;703;820 modules/taxonomy/taxonomy.module:261 modules/upload/upload.module:347 modules/user/user.module:2324
 msgid "Disabled"
 msgstr ""
 
@@ -322,7 +322,7 @@ msgstr ""
 msgid "Block"
 msgstr ""
 
-#: modules/block/block.module:348 modules/book/book.module:236;269;854 modules/contact/contact.module:181 modules/filter/filter.module:562 modules/forum/forum.module:457;512 modules/menu/menu.module:220;393 modules/node/node.module:969 modules/profile/profile.module:263 modules/taxonomy/taxonomy.module:285;442
+#: modules/block/block.module:348 modules/book/book.module:236;269;854 modules/contact/contact.module:181 modules/filter/filter.module:562 modules/forum/forum.module:453;508 modules/menu/menu.module:220;393 modules/node/node.module:969 modules/profile/profile.module:263 modules/taxonomy/taxonomy.module:285;442
 msgid "Weight"
 msgstr ""
 
@@ -330,7 +330,7 @@ msgstr ""
 msgid "Throttle"
 msgstr ""
 
-#: modules/block/block.module:530 modules/comment/comment.module:1102;1293 modules/contact/contact.module:259 modules/filter/filter.module:368 modules/forum/forum.module:569 modules/locale/locale.module:326 modules/menu/menu.module:494 modules/node/node.module:1032;1644;1727;1785;2339 modules/path/path.module:101 modules/poll/poll.module:246 modules/profile/profile.module:376 modules/search/search.module:242 modules/system/system.module:1420;1671;2156 modules/taxonomy/taxonomy.module:385;609 modules/user/user.module:1455;1677;2283
+#: modules/block/block.module:530 modules/comment/comment.module:1103;1294 modules/contact/contact.module:259 modules/filter/filter.module:368 modules/forum/forum.module:565 modules/locale/locale.module:326 modules/menu/menu.module:494 modules/node/node.module:1032;1650;1733;1791;2345 modules/path/path.module:101 modules/poll/poll.module:246 modules/profile/profile.module:376 modules/search/search.module:242 modules/system/system.module:1420;1671;2156 modules/taxonomy/taxonomy.module:385;609 modules/user/user.module:1452;1680;2286
 msgid "Cancel"
 msgstr ""
 
@@ -346,7 +346,7 @@ msgstr ""
 msgid "Blog"
 msgstr ""
 
-#: modules/blog/blog.module:55 modules/user/user.module:463
+#: modules/blog/blog.module:55 modules/user/user.module:464
 msgid "History"
 msgstr ""
 
@@ -354,7 +354,7 @@ msgstr ""
 msgid "Enables keeping easily and regularly updated user web pages or blogs."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:221;277 modules/book/book.module:938 modules/comment/comment.module:715;722;795;814;1229;1844;1850 modules/forum/forum.module:578 modules/node/node.module:1742;1793;2309;2314;2376 themes/engines/phptemplate/phptemplate.engine:30
+#: modules/blogapi/blogapi.module:221;277 modules/book/book.module:938 modules/comment/comment.module:715;722;795;814;1230;1846;1852 modules/forum/forum.module:574 modules/node/node.module:1748;1799;2315;2320;2382 themes/engines/phptemplate/phptemplate.engine:30
 msgid "content"
 msgstr ""
 
@@ -366,19 +366,19 @@ msgstr ""
 msgid "Allows users to post content using applications that support XML-RPC blog APIs."
 msgstr ""
 
-#: modules/book/book.module:212;263 modules/forum/forum.module:455;510 modules/taxonomy/taxonomy.module:424
+#: modules/book/book.module:212;263 modules/forum/forum.module:451;506 modules/taxonomy/taxonomy.module:424
 msgid "Parent"
 msgstr ""
 
-#: modules/book/book.module:275 modules/node/node.module:2064
+#: modules/book/book.module:275 modules/node/node.module:2070
 msgid "Log message"
 msgstr ""
 
-#: modules/book/book.module:489 modules/forum/forum.module:1083
+#: modules/book/book.module:489 modules/forum/forum.module:1080
 msgid "‹ "
 msgstr ""
 
-#: modules/book/book.module:497 modules/forum/forum.module:1090
+#: modules/book/book.module:497 modules/forum/forum.module:1087
 msgid " ›"
 msgstr ""
 
@@ -390,11 +390,11 @@ msgstr ""
 msgid "Allows users to collaboratively author a book."
 msgstr ""
 
-#: modules/color/color.module:164 modules/menu/menu.module:181 modules/node/node.module:2106;2120;2140;2266
+#: modules/color/color.module:176 modules/menu/menu.module:181 modules/node/node.module:2112;2126;2146;2272
 msgid "Preview"
 msgstr ""
 
-#: modules/color/color.module:220 modules/node/content_types.inc:211;284;308;329 modules/system/system.module:1078;1094;1120;1130;1171
+#: modules/color/color.module:232 modules/node/content_types.inc:211;284;308;329 modules/system/system.module:1078;1094;1120;1130;1171
 msgid "Reset to defaults"
 msgstr ""
 
@@ -418,75 +418,75 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: modules/comment/comment.module:1164 modules/node/node.module:1570 modules/user/user.module:2021
+#: modules/comment/comment.module:1165 modules/node/node.module:1576 modules/user/user.module:2024
 msgid "Update options"
 msgstr ""
 
-#: modules/comment/comment.module:1172 modules/node/node.module:1579 modules/user/user.module:2036;2653
+#: modules/comment/comment.module:1173 modules/node/node.module:1585 modules/user/user.module:2039;2661
 msgid "Update"
 msgstr ""
 
-#: modules/comment/comment.module:1178;1540 modules/contact/contact.module:336;445 modules/forum/forum.module:110
+#: modules/comment/comment.module:1179;1541 modules/contact/contact.module:336;445 modules/forum/forum.module:105
 msgid "Subject"
 msgstr ""
 
-#: modules/comment/comment.module:1179 modules/node/node.module:1600 modules/tracker/tracker.module:121
+#: modules/comment/comment.module:1180 modules/node/node.module:1606 modules/tracker/tracker.module:121
 msgid "Author"
 msgstr ""
 
-#: modules/comment/comment.module:1180 modules/statistics/statistics.module:205
+#: modules/comment/comment.module:1181 modules/statistics/statistics.module:205
 msgid "Time"
 msgstr ""
 
-#: modules/comment/comment.module:1233 modules/node/node.module:1538 modules/user/user.module:2130
+#: modules/comment/comment.module:1234 modules/node/node.module:1544 modules/user/user.module:2133
 msgid "The update has been performed."
 msgstr ""
 
-#: modules/comment/comment.module:1292 modules/contact/contact.module:259 modules/menu/menu.module:438 modules/node/content_types.inc:396 modules/node/node.module:1643;1785;2338 modules/path/path.module:100 modules/system/system.module:2147 modules/user/user.module:1675;2282
+#: modules/comment/comment.module:1293 modules/contact/contact.module:259 modules/menu/menu.module:438 modules/node/content_types.inc:396 modules/node/node.module:1649;1791;2344 modules/path/path.module:100 modules/system/system.module:2147 modules/user/user.module:1678;2285
 msgid "This action cannot be undone."
 msgstr ""
 
-#: modules/comment/comment.module:1381 modules/node/node.module:1986
+#: modules/comment/comment.module:1382 modules/node/node.module:1992
 msgid "You have to specify a valid date."
 msgstr ""
 
-#: modules/comment/comment.module:1471;1487 modules/node/node.module:2080
+#: modules/comment/comment.module:1472;1488 modules/node/node.module:2086
 msgid "Authored by"
 msgstr ""
 
-#: modules/comment/comment.module:1495;1526;1534 modules/user/user.module:1577;1714
+#: modules/comment/comment.module:1496;1527;1535 modules/user/user.module:1580;1717
 msgid "E-mail"
 msgstr ""
 
-#: modules/comment/comment.module:1499;1526;1534 modules/profile/profile.module:619
+#: modules/comment/comment.module:1500;1527;1535 modules/profile/profile.module:619
 msgid "The content of this field is kept private and will not be shown publicly."
 msgstr ""
 
-#: modules/comment/comment.module:1511 modules/node/node.module:2081
+#: modules/comment/comment.module:1512 modules/node/node.module:2087
 msgid "Authored on"
 msgstr ""
 
-#: modules/comment/comment.module:1513 modules/node/node.module:1600 modules/user/user.module:1336;2008;2076
+#: modules/comment/comment.module:1514 modules/node/node.module:1606 modules/user/user.module:1337;2011;2079
 msgid "Status"
 msgstr ""
 
-#: modules/comment/comment.module:1513 modules/node/content_types.inc:160 modules/node/node.module:2096
+#: modules/comment/comment.module:1514 modules/node/content_types.inc:160 modules/node/node.module:2102
 msgid "Published"
 msgstr ""
 
-#: modules/comment/comment.module:1517;1523;1532 modules/contact/contact.module:433
+#: modules/comment/comment.module:1518;1524;1533 modules/contact/contact.module:433
 msgid "Your name"
 msgstr ""
 
-#: modules/comment/comment.module:1543 modules/comment/comment.info:0
+#: modules/comment/comment.module:1544 modules/comment/comment.info:0
 msgid "Comment"
 msgstr ""
 
-#: modules/comment/comment.module:1885 modules/forum/forum.module:193
+#: modules/comment/comment.module:1887 modules/forum/forum.module:188
 msgid "Date - newest first"
 msgstr ""
 
-#: modules/comment/comment.module:1886 modules/forum/forum.module:193
+#: modules/comment/comment.module:1888 modules/forum/forum.module:188
 msgid "Date - oldest first"
 msgstr ""
 
@@ -540,15 +540,15 @@ msgstr ""
 msgid "Lets you register your site with a central server and improve ranking of Drupal projects by posting information on your installed modules and themes"
 msgstr ""
 
-#: modules/filter/filter.module:349;562 modules/forum/forum.module:587 modules/node/content_types.inc:15;76 modules/profile/profile.module:408 modules/system/system.module:522;541;1191;1537;1692 modules/taxonomy/taxonomy.module:167;179 modules/user/user.module:1984
+#: modules/filter/filter.module:349;562 modules/forum/forum.module:583 modules/node/content_types.inc:15;76 modules/profile/profile.module:408 modules/system/system.module:522;541;1191;1537;1692 modules/taxonomy/taxonomy.module:167;179 modules/user/user.module:1987
 msgid "Name"
 msgstr ""
 
-#: modules/filter/filter.module:349;418 modules/user/user.module:747;1342;2009;2077
+#: modules/filter/filter.module:349;418 modules/user/user.module:748;1343;2012;2080
 msgid "Roles"
 msgstr ""
 
-#: modules/filter/filter.info:0 modules/node/node.module:1440;1497 modules/user/user.module:2574;2637 modules/watchdog/watchdog.module:98
+#: modules/filter/filter.info:0 modules/node/node.module:1446;1503 modules/user/user.module:2582;2645 modules/watchdog/watchdog.module:98
 msgid "Filter"
 msgstr ""
 
@@ -556,19 +556,19 @@ msgstr ""
 msgid "Handles the filtering of content in preparation for display."
 msgstr ""
 
-#: modules/forum/forum.module:634 modules/taxonomy/taxonomy.module:424;427
+#: modules/forum/forum.module:630 modules/taxonomy/taxonomy.module:424;427
 msgid "root"
 msgstr ""
 
-#: modules/forum/forum.module:780 modules/tracker/tracker.module:121
+#: modules/forum/forum.module:776 modules/tracker/tracker.module:121
 msgid "Replies"
 msgstr ""
 
-#: modules/forum/forum.module:938 modules/forum/forum.info:0
+#: modules/forum/forum.module:935 modules/forum/forum.info:0
 msgid "Forum"
 msgstr ""
 
-#: modules/forum/forum.module:969;1004 modules/tracker/tracker.module:104
+#: modules/forum/forum.module:966;1001 modules/tracker/tracker.module:104
 msgid "1 new"
 msgid_plural "@count new"
 msgstr[0] ""
@@ -578,7 +578,7 @@ msgstr[1] ""
 msgid "Enables threaded discussions about general topics."
 msgstr ""
 
-#: modules/help/help.module:18 modules/help/help.info:0 modules/user/user.module:720
+#: modules/help/help.module:18 modules/help/help.info:0 modules/user/user.module:721
 msgid "Help"
 msgstr ""
 
@@ -590,7 +590,7 @@ msgstr ""
 msgid "Taxonomy"
 msgstr ""
 
-#: modules/legacy/legacy.module:0 modules/system/system.install:2764
+#: modules/legacy/legacy.module:0 modules/system/system.install:2766
 msgid "legacy"
 msgstr ""
 
@@ -646,15 +646,15 @@ msgstr ""
 msgid "Path"
 msgstr ""
 
-#: modules/menu/menu.module:466 modules/node/node.module:1443;1513 modules/user/user.module:2581;2650
+#: modules/menu/menu.module:466 modules/node/node.module:1449;1519 modules/user/user.module:2589;2658
 msgid "Reset"
 msgstr ""
 
-#: modules/menu/menu.module:617 modules/node/node.module:1201 modules/user/user.module:817
+#: modules/menu/menu.module:617 modules/node/node.module:1201 modules/user/user.module:818
 msgid "Edit"
 msgstr ""
 
-#: modules/menu/menu.module:660 modules/user/user.module:1991
+#: modules/menu/menu.module:660 modules/user/user.module:1994
 msgid "locked"
 msgstr ""
 
@@ -670,11 +670,11 @@ msgstr ""
 msgid "Allows administrators to customize the site navigation menu."
 msgstr ""
 
-#: modules/node/content_types.inc:15;85;99 modules/node/node.module:1600 modules/profile/profile.module:408 modules/taxonomy/taxonomy.module:167 modules/tracker/tracker.module:121 modules/watchdog/watchdog.module:116;204
+#: modules/node/content_types.inc:15;85;99 modules/node/node.module:1606 modules/profile/profile.module:408 modules/taxonomy/taxonomy.module:167 modules/tracker/tracker.module:121 modules/watchdog/watchdog.module:116;204
 msgid "Type"
 msgstr ""
 
-#: modules/node/content_types.inc:46 modules/node/node.module:2217
+#: modules/node/content_types.inc:46 modules/node/node.module:2223
 msgid "No content types available."
 msgstr ""
 
@@ -682,15 +682,15 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: modules/node/content_types.inc:161 modules/node/node.module:2097
+#: modules/node/content_types.inc:161 modules/node/node.module:2103
 msgid "Promoted to front page"
 msgstr ""
 
-#: modules/node/content_types.inc:162 modules/node/node.module:2098
+#: modules/node/content_types.inc:162 modules/node/node.module:2104
 msgid "Sticky at top of lists"
 msgstr ""
 
-#: modules/node/content_types.inc:163 modules/node/node.module:2099
+#: modules/node/content_types.inc:163 modules/node/node.module:2105
 msgid "Create new revision"
 msgstr ""
 
@@ -702,35 +702,35 @@ msgstr ""
 msgid "Unlimited"
 msgstr ""
 
-#: modules/node/node.module:1358 modules/user/user.module:2502
+#: modules/node/node.module:1364 modules/user/user.module:2505
 msgid "status"
 msgstr ""
 
-#: modules/node/node.module:1440;1498 modules/user/user.module:2574;2637
+#: modules/node/node.module:1446;1504 modules/user/user.module:2582;2645
 msgid "Refine"
 msgstr ""
 
-#: modules/node/node.module:1442;1510 modules/user/user.module:2578;2647
+#: modules/node/node.module:1448;1516 modules/user/user.module:2586;2655
 msgid "Undo"
 msgstr ""
 
-#: modules/node/node.module:1471 modules/user/user.module:2610
+#: modules/node/node.module:1477 modules/user/user.module:2618
 msgid "and"
 msgstr ""
 
-#: modules/node/node.module:1471 modules/user/user.module:2610
+#: modules/node/node.module:1477 modules/user/user.module:2618
 msgid "where"
 msgstr ""
 
-#: modules/node/node.module:1477 modules/user/user.module:2616
+#: modules/node/node.module:1483 modules/user/user.module:2624
 msgid "is"
 msgstr ""
 
-#: modules/node/node.module:1617 modules/tracker/tracker.module:118
+#: modules/node/node.module:1623 modules/tracker/tracker.module:118
 msgid "No posts available."
 msgstr ""
 
-#: modules/node/node.module:1644 modules/user/user.module:2283
+#: modules/node/node.module:1650 modules/user/user.module:2286
 msgid "Delete all"
 msgstr ""
 
@@ -762,11 +762,11 @@ msgstr ""
 msgid "Poll"
 msgstr ""
 
-#: modules/poll/poll.module:184 modules/user/user.module:1336
+#: modules/poll/poll.module:184 modules/user/user.module:1337
 msgid "Active"
 msgstr ""
 
-#: modules/poll/poll.module:489 modules/statistics/statistics.module:315
+#: modules/poll/poll.module:491 modules/statistics/statistics.module:315
 msgid "Visitor"
 msgstr ""
 
@@ -802,15 +802,15 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: modules/statistics/statistics.module:191;207;262 modules/user/user.module:810 modules/user/user.info:0 modules/watchdog/watchdog.module:119;212
+#: modules/statistics/statistics.module:191;207;262 modules/user/user.module:811 modules/user/user.info:0 modules/watchdog/watchdog.module:119;212
 msgid "User"
 msgstr ""
 
-#: modules/statistics/statistics.module:192 modules/user/user.module:1586 modules/watchdog/watchdog.module:232
+#: modules/statistics/statistics.module:192 modules/user/user.module:1589 modules/watchdog/watchdog.module:232
 msgid "Hostname"
 msgstr ""
 
-#: modules/statistics/statistics.module:234;261;291 modules/system/system.install:3221
+#: modules/statistics/statistics.module:234;261;291 modules/system/system.install:3223
 msgid "Page"
 msgstr ""
 
@@ -834,7 +834,7 @@ msgstr ""
 msgid "PHP"
 msgstr ""
 
-#: modules/system/system.module:548 modules/user/user.module:1315
+#: modules/system/system.module:548 modules/user/user.module:1316
 msgid "E-mail address"
 msgstr ""
 
@@ -846,7 +846,7 @@ msgstr ""
 msgid "Enables the categorization of content."
 msgstr ""
 
-#: modules/throttle/throttle.module:110 modules/user/user.module:596;599
+#: modules/throttle/throttle.module:110 modules/user/user.module:597;600
 msgid "1 user"
 msgid_plural "@count users"
 msgstr[0] ""
@@ -1000,7 +1000,7 @@ msgstr ""
 msgid "The built-in GD image toolkit requires that the GD module for PHP be installed and configured properly. For more information see <a href=\"@url\">PHP's image documentation</a>."
 msgstr ""
 
-#: includes/install.inc:734
+#: includes/install.inc:735
 msgid "Currently using !item !version"
 msgstr ""
 
@@ -1124,7 +1124,7 @@ msgstr ""
 msgid "No help is available for module %module."
 msgstr ""
 
-#: modules/help/help.module:131
+#: modules/help/help.module:134
 msgid "@module administration pages"
 msgstr ""
 

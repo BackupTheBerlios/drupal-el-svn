@@ -1,4 +1,4 @@
-# $Id: locale-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/locale/locale.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -223,5 +223,21 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Wed"
+msgstr ""
+
+#: modules/locale/locale.module:0
+msgid "am"
+msgstr ""
+
+#: modules/locale/locale.module:0
+msgid "pm"
+msgstr ""
+
+#: modules/locale/locale.module:0
+msgid "AM"
+msgstr ""
+
+#: modules/locale/locale.module:0
+msgid "PM"
 msgstr ""
 

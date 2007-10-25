@@ -1,14 +1,14 @@
-# $Id: upload-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/upload/upload.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: upload.module,v 1.148.2.1 2007/03/07 03:27:24 drumm
+# Generated from file: upload.module,v 1.148.2.2 2007/10/17 21:29:00 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

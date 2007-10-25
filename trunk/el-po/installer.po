@@ -1,15 +1,17 @@
+# translation of installer.po to Greek
 # Greek Drupal translation of installer.po to Greek
 # Greek translation of Drupal 5.1 (installer)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: installer\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-07-28 02:00+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-10-25 21:58+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,167 +34,167 @@ msgstr "Ο εγκαταστάτης @drupal απαιτεί άδεια εγγρα
 msgid "Drupal database setup"
 msgstr "Εγκατάσταση βάσης δεδομένων του Drupal"
 
-#: install.php:170
+#: install.php:174
 msgid "Database configuration"
 msgstr "Ρυθμίσεις βάσης δεδομένων"
 
-#: install.php:183
+#: install.php:187
 msgid "Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that <a href=\"@drupal-databases\">Drupal supports</a>."
 msgstr "Ο διακομιστής ιστοσελίδων σας φαίνεται να μην υποστηρίζει οποιοδήποτε από τους κοινούς τύπους βάσεων δεδομένων. Επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας προκειμένου να δείτε αν παρέχουν βάσεις δεδομένων που <a href=\"@drupal-databases\">υποστηρίζει το Drupal</a>."
 
-#: install.php:189
+#: install.php:193
 msgid "Basic options"
 msgstr "Βασικές επιλογές"
 
-#: install.php:190
+#: install.php:194
 msgid "To set up your @drupal database, enter the following information."
 msgstr "Για να δημιουργήσετε τη βάση δεδομένων @drupal, εισάγετε τις παρακάτω πληροφορίες."
 
-#: install.php:198
+#: install.php:202
 msgid "Database type"
 msgstr "Τύπος βάσης δεδομένων"
 
-#: install.php:202
+#: install.php:206
 msgid "The type of database your @drupal data will be stored in."
 msgstr "Ο τύπος της βάσης δεδομένων στην οποία θα αποθηκεύονται τα @drupal δεδομένα σας."
 
-#: install.php:204
+#: install.php:208
 msgid "The name of the database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
 msgstr "Το όνομα της βάσης δεδομένων όπου θα αποθηκεύονται τα @drupal δεδομένα σας. Πρέπει να υπάρχει ήδη στο διακομιστή προκειμένου το @drupal να εγκατασταθεί."
 
-#: install.php:213
+#: install.php:217
 msgid "The name of the %db_type database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
 msgstr "Το όνομα της %db_type βάσης δεδομένων όπου θα αποθηκεύονται τα @drupal δεδομένα σας. Πρέπει να υπάρχει ήδη στο διακομιστή προκειμένου το @drupal να εγκατασταθεί."
 
-#: install.php:220
+#: install.php:224
 msgid "Database name"
 msgstr "Όνομα βάσης δεδομένων"
 
-#: install.php:231
+#: install.php:235
 msgid "Database username"
 msgstr "Όνομα χρήστη βάσης δεδομένων"
 
-#: install.php:241
+#: install.php:245
 msgid "Database password"
 msgstr "Συνθηματικό βάσης δεδομένων"
 
-#: install.php:249
+#: install.php:253
 msgid "Advanced options"
 msgstr "Επιλογές για προχωρημένους"
 
-#: install.php:252
+#: install.php:256
 msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
 msgstr "Οι επιλογές αυτές απαιτούνται για ορισμένους ιστοτόπους. Αν δεν είστε σίγουρος/η τι θα πρέπει να εισάγετε εδώ, αφήστε τις προεπιλεγμένες ρυθμίσεις ή επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
-#: install.php:258
+#: install.php:262
 msgid "Database host"
 msgstr "Όνομα διακομιστή βάσης δεδομένων"
 
-#: install.php:263
+#: install.php:267
 msgid "If your database is located on a different server, change this."
 msgstr "Αν η βάση δεδομένων εκτελείται σε διαφορετικό διακομιστή, αλλάξτε το αυτό."
 
-#: install.php:269
+#: install.php:273
 msgid "Database port"
 msgstr "Αριθμός θύρας επικοινωνίας της βάσης δεδομένων"
 
-#: install.php:273
+#: install.php:277
 msgid "If your database server is listening to a non-standard port, enter its number."
 msgstr "Αν ο διακομιστής της βάσης δεδομένων «ακούει» σε μη πρότυπο αριθμό θύρας, εισάγετε εδώ τον αριθμό της."
 
-#: install.php:279
+#: install.php:283
 msgid "Table prefix"
 msgstr "Πρόθεμα για τους πίνακες της βάσης δεδομένων"
 
-#: install.php:283
+#: install.php:287
 msgid "If more than one @drupal web site will be sharing this database, enter a table prefix for your @drupal site here."
 msgstr "Αν περισσότεροι από ένας @drupal ιστοτόποι θα μοιράζονται αυτή τη βάση δεδομένων, εισάγετε εδώ ένα πρόθεμα για τους πίνακες για τον @drupal ιστοτόπο σας."
 
-#: install.php:288;429;485
+#: install.php:292;433;489
 msgid "Save configuration"
 msgstr "Αποθήκευση ρυθμίσεων"
 
-#: install.php:315
+#: install.php:319
 msgid "You have configured @drupal to use the default username and password. This is not allowed for security reasons."
 msgstr "Έχετε διευθετήσει το @drupal να χρησιμοποιεί το εξ' ορισμού όνομα χρήστη και συνθηματικό. Αυτό δεν επιτρέπεται για λόγους ασφάλειας."
 
-#: install.php:320
+#: install.php:324
 msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters or underscores."
 msgstr "Το πρόθεμα, %db_prefix, που εισάγατε για τους πίνακες της βάσης δεδομένων είναι μη έγκυρο. Το πρόθεμα των πινάκων μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες ή κάτω παύλες."
 
-#: install.php:324
+#: install.php:328
 msgid "Database port must be a number."
 msgstr "Ο αριθμός θύρας για τη βάση δεδομένων πρέπει να είναι αριθμός."
 
-#: install.php:334
+#: install.php:338
 msgid "In your %settings_file file you have configured @drupal to use a %db_type server, however your PHP installation currently does not support this database type."
 msgstr "Στο αρχείο ρυθμίσεων %settings_file έχετε καθορίσει το @drupal να χρησιμοποιεί ένα διακομιστή %db_type, η εγκατάστασή σας όμως της PHP δεν υποστηρίζει αυτόν τον τύπο της βάσης δεδομένων."
 
-#: install.php:347
+#: install.php:351
 msgid "In order for Drupal to work and to proceed with the installation process you must resolve all permission issues reported above. We were able to verify that we have permission for the following commands: %commands. For more help with configuring your database server, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what any of this means you should probably contact your hosting provider."
 msgstr "Προκειμένου το Drupal να δουλεύει σωστά και να συνεχιστεί η διαδικασία εγκατάστασης θα πρέπει να επιλυθούν όλα τα προβλήματα σχετικά με την ασφάλεια που αναφέρονται παραπάνω. Ήταν δυνατή η επαλήθευση ότι υπάρχουν οι απαιτούμενες άδειες για τις ακόλουθες εντολές: %commands. Για περισσότερη βοήθεια σχετικά με την ρύθμιση του διακομιστή της βάσης δεδομένων, δείτε το <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν τα παραπάνω, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
-#: install.php:402
+#: install.php:406
 msgid "Select an installation profile"
 msgstr "Επιλέξτε ένα προφίλ εγκατάστασης"
 
-#: install.php:460
+#: install.php:464
 msgid "Choose your preferred language"
 msgstr "Επιλέξτε την προτεινόμενη γλώσσα"
 
-#: install.php:473
+#: install.php:477
 msgid "(@language)"
 msgstr "(@language)"
 
-#: install.php:479
+#: install.php:483
 msgid "(built-in)"
 msgstr "(ενσωματωμένη)"
 
-#: install.php:495
+#: install.php:499
 msgid "No profiles available"
 msgstr "Δεν υπάρχουν διαθέσιμα προφίλ"
 
-#: install.php:496
+#: install.php:500
 msgid "We were unable to find any installer profiles. Installer profiles tell us what modules to enable and what schema to install in the database. A profile is necessary to continue with the installation process."
 msgstr "Δεν ήταν δυνατή η εύρεση οποιωνδήποτε προφίλ εγκατάστασης. Τα προφίλ εγκατάστασης πληροφορούν για το ποιες μονάδες πρέπει να ενεργοποιηθούν και ποιο σχήμα βάσης να εγκατασταθεί στη βάση δεδομένων. Απαιτείται ένα προφίλ για τη συνέχεια της διαδικασίας της εγκατάστασης."
 
-#: install.php:508
+#: install.php:512
 msgid "Drupal already installed"
 msgstr "Το Drupal έχει ήδη εγκατασταθεί"
 
-#: install.php:509
-msgid "<ul><li>To start over, you must empty your existing database.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
-msgstr "<ul><li>Για να ξεκινήσετε πάλι, θα πρέπει να αδειάσετε την υπάρχουσα βάση δεδομένων.</li><li>Για να εγκαταστήσετε σε διαφορετική βάση δεδομένων, τροποποιήστε το σωστό αρχείο <em>settings.php</em> που είναι μέσα στον κατάλογο <em>sites</em>.</li><li>Για να αναβαθμίσετε μια υπάρχουσα εγκατάσταση, μεταβείτε στο <a href=\"@base-url/update.php\">σενάριο αναβάθμισης</a>.</li></ul>"
+#: install.php:513
+msgid "<ul><li>To start over, you must empty your existing database and replace the appropriate <em>settings.php</em> with an unmodified copy.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
+msgstr "<ul><li>Για να ξεκινήσετε πάλι, θα πρέπει να αδειάσετε την υπάρχουσα βάση δεδομένων και να αντικαταστήσετε το κατάλληλο <em>settings.php</em> με ένα μη τροποποιημένο αντίγραφο.</li><li>Για να εγκαταστήσετε σε διαφορετική βάση δεδομένων, τροποποιήστε το σωστό αρχείο <em>settings.php</em> που είναι μέσα στον κατάλογο <em>sites</em>.</li><li>Για να αναβαθμίσετε μια υπάρχουσα εγκατάσταση, μεταβείτε στο <a href=\"@base-url/update.php\">σενάριο αναβάθμισης</a>.</li></ul>"
 
-#: install.php:520
+#: install.php:524
 msgid "Modules missing"
 msgstr "Λείπουν μονάδες"
 
-#: install.php:521
+#: install.php:525
 msgid "One or more required modules are missing. Please check the error messages and <a href=\"!url\">try again</a>."
 msgstr "Δεν υπάρχουν μία ή περισσότερες απαιτούμενες μονάδες. Ελέγξτε τα μηνύματα λάθους και <a href=\"!url\">προσπαθήστε πάλι</a>."
 
-#: install.php:541
+#: install.php:545
 msgid "@drupal installation complete"
 msgstr "Ολοκληρώθηκε η εγκατάσταση του @drupal"
 
-#: install.php:542
+#: install.php:546
 msgid "Congratulations, @drupal has been successfully installed."
 msgstr "Συγχαρητήρια, το @drupal εγκαταστάθηκε επιτυχώς."
 
-#: install.php:557
+#: install.php:561
 msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
 msgstr "Διαβάστε τα παραπάνω μηνύματα προτού μεταβείτε στο <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
-#: install.php:557
+#: install.php:561
 msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr "Μπορείτε τώρα να επισκεφθείτε το <a href=\"@url\">νέο ιστοτόπο σας</a>."
 
-#: install.php:576
+#: install.php:580
 msgid "Currently using !item !version"
 msgstr "Χρησιμοποίηση του !item !version"
 
-#: install.php:580
+#: install.php:584
 msgid "Incompatible environment"
 msgstr "Ασύμβατο περιβάλλον"
 

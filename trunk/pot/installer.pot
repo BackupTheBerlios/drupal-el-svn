@@ -1,27 +1,27 @@
-# $Id: installer.pot,v 1.1.2.5 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (installer)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  install.php,v 1.34.2.2 2007/07/12 06:53:03 drumm
+#  install.php,v 1.34.2.3 2007/10/17 21:28:59 drumm
 #  database.mysql.inc,v 1.66.2.1 2007/01/22 02:20:50 unconed
 #  database.mysqli.inc,v 1.32 2006/12/27 22:50:09 dries
 #  database.pgsql.inc,v 1.43 2006/12/27 22:13:56 dries
-#  install.inc,v 1.31.2.1 2007/02/06 08:20:17 drumm
+#  install.inc,v 1.31.2.2 2007/10/06 22:38:28 drumm
 #  install.mysql.inc,v 1.4 2006/12/27 13:02:34 drumm
 #  install.mysqli.inc,v 1.6 2006/12/27 13:02:34 drumm
 #  install.pgsql.inc,v 1.2 2006/12/27 13:02:34 drumm
 #  locale.inc,v 1.105.2.4 2007/05/21 00:20:02 drumm
 #  theme.inc,v 1.337.2.2 2007/05/31 05:52:42 drumm
 #  unicode.inc,v 1.23.2.2 2007/05/21 01:09:21 drumm
-#  system.install,v 1.69.2.4 2007/07/19 05:39:25 drumm
+#  system.install,v 1.69.2.6 2007/10/16 06:20:39 drumm
 #  default.profile,v 1.4.2.1 2007/03/25 22:59:33 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -46,167 +46,167 @@ msgstr ""
 msgid "Drupal database setup"
 msgstr ""
 
-#: install.php:170
+#: install.php:174
 msgid "Database configuration"
 msgstr ""
 
-#: install.php:183
+#: install.php:187
 msgid "Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that <a href=\"@drupal-databases\">Drupal supports</a>."
 msgstr ""
 
-#: install.php:189
+#: install.php:193
 msgid "Basic options"
 msgstr ""
 
-#: install.php:190
+#: install.php:194
 msgid "To set up your @drupal database, enter the following information."
 msgstr ""
 
-#: install.php:198
+#: install.php:202
 msgid "Database type"
 msgstr ""
 
-#: install.php:202
+#: install.php:206
 msgid "The type of database your @drupal data will be stored in."
 msgstr ""
 
-#: install.php:204
+#: install.php:208
 msgid "The name of the database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
 msgstr ""
 
-#: install.php:213
+#: install.php:217
 msgid "The name of the %db_type database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
 msgstr ""
 
-#: install.php:220
+#: install.php:224
 msgid "Database name"
 msgstr ""
 
-#: install.php:231
+#: install.php:235
 msgid "Database username"
 msgstr ""
 
-#: install.php:241
+#: install.php:245
 msgid "Database password"
 msgstr ""
 
-#: install.php:249
+#: install.php:253
 msgid "Advanced options"
 msgstr ""
 
-#: install.php:252
+#: install.php:256
 msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
 msgstr ""
 
-#: install.php:258
+#: install.php:262
 msgid "Database host"
 msgstr ""
 
-#: install.php:263
+#: install.php:267
 msgid "If your database is located on a different server, change this."
 msgstr ""
 
-#: install.php:269
+#: install.php:273
 msgid "Database port"
 msgstr ""
 
-#: install.php:273
+#: install.php:277
 msgid "If your database server is listening to a non-standard port, enter its number."
 msgstr ""
 
-#: install.php:279
+#: install.php:283
 msgid "Table prefix"
 msgstr ""
 
-#: install.php:283
+#: install.php:287
 msgid "If more than one @drupal web site will be sharing this database, enter a table prefix for your @drupal site here."
 msgstr ""
 
-#: install.php:288;429;485
+#: install.php:292;433;489
 msgid "Save configuration"
 msgstr ""
 
-#: install.php:315
+#: install.php:319
 msgid "You have configured @drupal to use the default username and password. This is not allowed for security reasons."
 msgstr ""
 
-#: install.php:320
+#: install.php:324
 msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters or underscores."
 msgstr ""
 
-#: install.php:324
+#: install.php:328
 msgid "Database port must be a number."
 msgstr ""
 
-#: install.php:334
+#: install.php:338
 msgid "In your %settings_file file you have configured @drupal to use a %db_type server, however your PHP installation currently does not support this database type."
 msgstr ""
 
-#: install.php:347
+#: install.php:351
 msgid "In order for Drupal to work and to proceed with the installation process you must resolve all permission issues reported above. We were able to verify that we have permission for the following commands: %commands. For more help with configuring your database server, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what any of this means you should probably contact your hosting provider."
 msgstr ""
 
-#: install.php:402
+#: install.php:406
 msgid "Select an installation profile"
 msgstr ""
 
-#: install.php:460
+#: install.php:464
 msgid "Choose your preferred language"
 msgstr ""
 
-#: install.php:473
+#: install.php:477
 msgid "(@language)"
 msgstr ""
 
-#: install.php:479
+#: install.php:483
 msgid "(built-in)"
 msgstr ""
 
-#: install.php:495
+#: install.php:499
 msgid "No profiles available"
 msgstr ""
 
-#: install.php:496
+#: install.php:500
 msgid "We were unable to find any installer profiles. Installer profiles tell us what modules to enable and what schema to install in the database. A profile is necessary to continue with the installation process."
 msgstr ""
 
-#: install.php:508
+#: install.php:512
 msgid "Drupal already installed"
 msgstr ""
 
-#: install.php:509
-msgid "<ul><li>To start over, you must empty your existing database.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
+#: install.php:513
+msgid "<ul><li>To start over, you must empty your existing database and replace the appropriate <em>settings.php</em> with an unmodified copy.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
 msgstr ""
 
-#: install.php:520
+#: install.php:524
 msgid "Modules missing"
 msgstr ""
 
-#: install.php:521
+#: install.php:525
 msgid "One or more required modules are missing. Please check the error messages and <a href=\"!url\">try again</a>."
 msgstr ""
 
-#: install.php:541
+#: install.php:545
 msgid "@drupal installation complete"
 msgstr ""
 
-#: install.php:542
+#: install.php:546
 msgid "Congratulations, @drupal has been successfully installed."
 msgstr ""
 
-#: install.php:557
+#: install.php:561
 msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
 msgstr ""
 
-#: install.php:557
+#: install.php:561
 msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr ""
 
-#: install.php:576
+#: install.php:580
 msgid "Currently using !item !version"
 msgstr ""
 
-#: install.php:580
+#: install.php:584
 msgid "Incompatible environment"
 msgstr ""
 

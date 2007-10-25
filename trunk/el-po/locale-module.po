@@ -1,15 +1,17 @@
+# translation of locale-module.po to Greek
 # Greek Drupal translation of locale-module.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-28 02:21+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-10-25 21:48+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -227,4 +229,20 @@ msgstr "Τρι"
 #: modules/locale/locale.module:0
 msgid "Wed"
 msgstr "Τετ"
+
+#: modules/locale/locale.module:0
+msgid "am"
+msgstr "πμ"
+
+#: modules/locale/locale.module:0
+msgid "pm"
+msgstr "μμ"
+
+#: modules/locale/locale.module:0
+msgid "AM"
+msgstr "ΠΜ"
+
+#: modules/locale/locale.module:0
+msgid "PM"
+msgstr "ΜΜ"
 

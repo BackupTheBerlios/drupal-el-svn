@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: poll-module\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: 2007-07-17 00:43+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -87,7 +87,7 @@ msgstr "Μετά από αυτή την περίοδο, η ψηφοφορία θ
 msgid "Polls"
 msgstr "Ψηφοφορίες"
 
-#: modules/poll/poll.module:240;382;490;611
+#: modules/poll/poll.module:240;384;492;613
 msgid "Vote"
 msgstr "Ψήφος"
 
@@ -95,7 +95,7 @@ msgstr "Ψήφος"
 msgid "Votes"
 msgstr "Ψήφοι"
 
-#: modules/poll/poll.module:268;604
+#: modules/poll/poll.module:268;606
 msgid "Results"
 msgstr "Αποτελέσματα"
 
@@ -107,77 +107,77 @@ msgstr "Ψηφοφορία είναι μια ερώτηση πολλαπλής �
 msgid "Question"
 msgstr "Ερώτηση"
 
-#: modules/poll/poll.module:336
+#: modules/poll/poll.module:338
 msgid "open"
 msgstr "ανοιχτή"
 
-#: modules/poll/poll.module:336
+#: modules/poll/poll.module:338
 msgid "closed"
 msgstr "έχει κλείσει"
 
-#: modules/poll/poll.module:430;437
+#: modules/poll/poll.module:432;439
 msgid "Total votes: %votes"
 msgstr "Σύνολο ψήφων: %votes"
 
-#: modules/poll/poll.module:449
+#: modules/poll/poll.module:451
 msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
-#: modules/poll/poll.module:487
+#: modules/poll/poll.module:489
 msgid "This table lists all the recorded votes for this poll.  If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr "Αυτή η λίστα καταγράφει όλες τις ψήφους για αυτή την ψηφοφορία. Αν ένας ανώνυμος χρήστης επιτρέπεται να ψηφίσει, θα αναγνωρίζεται από την IP του υπολογιστή που χρησιμοποίησε για να ψηφίσει."
 
-#: modules/poll/poll.module:536
+#: modules/poll/poll.module:538
 msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
-#: modules/poll/poll.module:539
+#: modules/poll/poll.module:541
 msgid "You are not allowed to vote on this poll."
 msgstr "Δεν σας επιτρέπεται να ψηφίσετε σ' αυτή την ψηφοφορία."
 
-#: modules/poll/poll.module:543
+#: modules/poll/poll.module:545
 msgid "You did not specify a valid poll choice."
 msgstr "Δεν δώσατε έγκυρη επιλογή για την ψηφοφορία."
 
-#: modules/poll/poll.module:573
+#: modules/poll/poll.module:575
 msgid "Your vote was canceled."
 msgstr "Η ψήφος σας ακυρώθηκε."
 
-#: modules/poll/poll.module:576
+#: modules/poll/poll.module:578
 msgid "You are not allowed to cancel an invalid poll choice."
 msgstr "Δεν επιτρέπεται να ακυρώσετε μία μη έγκυρη επιλογή ψηφοφορίας."
 
-#: modules/poll/poll.module:602
+#: modules/poll/poll.module:604
 msgid "Older polls"
 msgstr "Παλιότερες ψηφοφορίες"
 
-#: modules/poll/poll.module:602
+#: modules/poll/poll.module:604
 msgid "View the list of polls on this site."
 msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
 
-#: modules/poll/poll.module:604
+#: modules/poll/poll.module:606
 msgid "View the current poll results."
 msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
 
-#: modules/poll/poll.module:336;416
+#: modules/poll/poll.module:338;418
 msgid "1 vote"
 msgid_plural "@count votes"
 msgstr[0] "1 ψήφος"
 msgstr[1] "@count ψήφοι"
 
-#: modules/poll/poll.module:347
+#: modules/poll/poll.module:349
 msgid "create polls"
 msgstr "δημιουργία ψηφοφοριών"
 
-#: modules/poll/poll.module:347
+#: modules/poll/poll.module:349
 msgid "vote on polls"
 msgstr "υποβολή ψήφου σε ψηφοφορίες"
 
-#: modules/poll/poll.module:347
+#: modules/poll/poll.module:349
 msgid "cancel own vote"
 msgstr "ακύρωση προσωπικού ψήφου"
 
-#: modules/poll/poll.module:347
+#: modules/poll/poll.module:349
 msgid "inspect all votes"
 msgstr "επιθεώρηση ψήφων"
 

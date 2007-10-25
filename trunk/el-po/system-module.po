@@ -1,15 +1,17 @@
+# translation of system-module.po to Greek
 # Greek Drupal translation of system-module.po to Greek
 # Greek translation of Drupal 5.1 (system.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: system-module\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-09-07 17:56+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-10-25 21:39+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +19,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: modules/system/system.module:19
-msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The settings module provides control over preferences, behaviours including visual and operational settings."
+msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The system module provides control over preferences, behaviours including visual and operational settings."
 msgstr "Η μονάδα system παρέχει προεπιλεγμένες ρυθμίσεις για όλο το σύστημα, όπως η εκτέλεση εργασιών σε μια συγκεκριμένη ώρα και η αποθήκευση ιστοσελίδων για βελτίωση της αποδοτικότητας. Η δυνατότητα να εκτελούνται προγραμματισμένες εργασίες κάνει τη διαχείριση του ιστοτόπου ευκολότερη, καθώς οι διαχειριστές δε χρειάζεται να ξεκινούν εργασίες οι ίδιοι. Η αποθήκευση ιστοσελίδων σε λανθάνουσα μνήμη (cache) επιτρέπει στον ιστοτόπο να επαναχρησιμοποιεί αποδοτικά τις ιστοσελίδες και να έτσι βελτιώνει την αποδοτικότητα του ιστοτόπου. Η μονάδα system παρέχει τη δυνατότητα ελέγχου των προτιμήσεων, για συμπεριφορές που περιλαμβάνουν οπτικές και λειτουργικές ρυθμίσεις."
 
 #: modules/system/system.module:20
@@ -385,8 +387,8 @@ msgid "The normal cache mode is suitable for most sites and does not cause any s
 msgstr "Η φυσιολογική πολιτική λανθάνουσας μνήμης είναι συμβατή για τους περισσότερους ιστοτόπους και δεν έχει παρενέργειες. Η επιθετική πολιτική προκαλεί το Drupal να μην φορτώνει (init) και ξεφορτώνει (exit) τις ενεργές μονάδες όταν παραδίδει σελίδες από τη λανθάνουσα μνήμη. Αυτό έχει ως αποτέλεσμα ακόμα μεγαλύτερη και καλύτερη απόδοση αλλά μπορεί να έχει ανεπιθύμητες παρενέργειες στον ιστοτόπο σας."
 
 #: modules/system/system.module:661
-msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and will not function properly: %modules</strong>"
-msgstr "<strong class=\"error\">Οι ακόλουθες μονάδες δεν είναι συμβατές με την επιθετική πολιτική λανθάνουσας μνήμης και δε θα λειτουργούν σωστά: %modules</strong>"
+msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and might not function properly: %modules</strong>"
+msgstr "<strong class=\"error\">Οι ακόλουθες μονάδες δεν είναι συμβατές με την επιθετική πολιτική λανθάνουσας μνήμης και ίσως να μη λειτουργούν σωστά: %modules</strong>"
 
 #: modules/system/system.module:664
 msgid "<strong class=\"ok\">Currently, all enabled modules are compatible with the aggressive caching policy.</strong> Please note, if you use aggressive caching and enable new modules, you will need to check this page again to ensure compatibility."

@@ -1,14 +1,14 @@
-# $Id: block-module.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/block/block.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: block.module,v 1.246.2.5 2007/06/14 06:06:48 drumm
+# Generated from file: block.module,v 1.246.2.6 2007/09/12 07:49:35 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -229,7 +229,7 @@ msgstr ""
 msgid "The content of the block as shown to the user."
 msgstr ""
 
-#: modules/block/block.module:598
+#: modules/block/block.module:600
 msgid "Block configuration"
 msgstr ""
 

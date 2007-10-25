@@ -1,14 +1,14 @@
-# $Id: system-module.pot,v 1.8.2.6 2007/07/27 22:03:36 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/system/system.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: system.module,v 1.440.2.15 2007/07/26 19:16:48 drumm
+# Generated from file: system.module,v 1.440.2.19 2007/10/17 21:29:00 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: modules/system/system.module:19
-msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The settings module provides control over preferences, behaviours including visual and operational settings."
+msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The system module provides control over preferences, behaviours including visual and operational settings."
 msgstr ""
 
 #: modules/system/system.module:20
@@ -382,7 +382,7 @@ msgid "The normal cache mode is suitable for most sites and does not cause any s
 msgstr ""
 
 #: modules/system/system.module:661
-msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and will not function properly: %modules</strong>"
+msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and might not function properly: %modules</strong>"
 msgstr ""
 
 #: modules/system/system.module:664

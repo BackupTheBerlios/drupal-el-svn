@@ -1,14 +1,14 @@
-# $Id: common-inc.pot,v 1.8.2.6 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (includes/common.inc)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: common.inc,v 1.611.2.9 2007/07/26 19:16:45 drumm
+# Generated from file: common.inc,v 1.611.2.12 2007/10/17 21:28:59 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -17,67 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: includes/common.inc:322
+#: includes/common.inc:327
 msgid "Site off-line"
 msgstr ""
 
-#: includes/common.inc:351
+#: includes/common.inc:356
 msgid "Page not found"
 msgstr ""
 
-#: includes/common.inc:380
+#: includes/common.inc:385
 msgid "Access denied"
 msgstr ""
 
-#: includes/common.inc:381
+#: includes/common.inc:386
 msgid "You are not authorized to access this page."
 msgstr ""
 
-#: includes/common.inc:555
+#: includes/common.inc:560
 msgid "%message in %file on line %line."
 msgstr ""
 
-#: includes/common.inc:997
+#: includes/common.inc:1002
 msgid "KB"
 msgstr ""
 
-#: includes/common.inc:1002
+#: includes/common.inc:1007
 msgid "@size @suffix"
 msgstr ""
 
-#: includes/common.inc:1031
+#: includes/common.inc:1036
 msgid "0 sec"
 msgstr ""
 
-#: includes/common.inc:2001
+#: includes/common.inc:2008
 msgid "Cron has been running for more than an hour and is most likely stuck."
 msgstr ""
 
-#: includes/common.inc:2008
+#: includes/common.inc:2015
 msgid "Attempting to re-run cron while it is already running."
 msgstr ""
 
-#: includes/common.inc:2023
+#: includes/common.inc:2030
 msgid "Cron run completed."
 msgstr ""
 
-#: includes/common.inc:2039
+#: includes/common.inc:2046
 msgid "Cron run exceeded the time limit and was aborted."
 msgstr ""
 
-#: includes/common.inc:333
+#: includes/common.inc:338
 msgid "page not found"
 msgstr ""
 
-#: includes/common.inc:362
+#: includes/common.inc:367
 msgid "access denied"
 msgstr ""
 
-#: includes/common.inc:2001;2008;2023;2039
+#: includes/common.inc:2008;2015;2030;2046
 msgid "cron"
 msgstr ""
 
-#: includes/common.inc:993
+#: includes/common.inc:998
 msgid "1 byte"
 msgid_plural "@count bytes"
 msgstr[0] ""

@@ -1,3 +1,4 @@
+# translation of color-module.po to Greek
 # Greek Drupal translation of color-module.po to Greek
 # $Id: color-module.pot,v 1.1.2.3 2007/07/27 22:03:35 goba Exp $
 # LANGUAGE translation of Drupal (modules/color/color.module)
@@ -5,52 +6,61 @@
 # Generated from file: color.module,v 1.13.2.2 2007/07/09 05:02:32 drumm
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: color-module\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
-"PO-Revision-Date: 2007-07-28 01:59+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-10-25 23:06+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: modules/color/color.module:13
+#: modules/color/color.module:10
+msgid "Color module allows a site administrator to quickly and easily change the color scheme of the entire site. In order for color module to work however, a theme must be specifically designed to use the color changing features. The default theme, Garland, (as well as its fixed width counterpart, Minnelli) was designed to take advantage of these features. With color module, you can easily change the color of links, backgrounds, text, and more depending on which color module enabled theme you are using. Color module requires your <a href=\"@url\">file download method</a> to be set to public."
+msgstr "Η μονάδα color επιτρέπει στον διαχειριστή του ιστοτόπου να αλλάξει γρήγορα και εύκολα το χρωματικό συνδυασμό ολόκληρου του ιστοτόπου. Αλλά για να μπορεί να δουλέψει η μονάδα color, μια χρωματική παραλλαγή θα πρέπει να έχει ειδικά σχεδιαστεί ώστε να χρησιμοποιεί τις λειτουργίες αλλαγής χρώματος. Η προεπιλεγμένη χρωματική παραλλαγή, το Garland, (όπως και το συγκεκριμένου πλάτους ομόλογο του, Minnelli) έχει σχεδιαστεί ώστε να εκμεταλλεύεται αυτές τις λειτουργίες. Με την μονάδα color, μπορείτε να αλλάξετε εύκολα το χρώμα των δεσμών, φόντων, κείμενων, και άλλων που εξαρτάτε από το ποιά χρωματική παραλλαγή, εκμεταλλευόμενη την μονάδα color, χρησιμοποιείτε. Η μονάδα color απαιτεί να έχει τεθεί η <a href=\"@url\">μέθοδος λήψης αρχείων</a> ως δημόσια."
+
+#: modules/color/color.module:11
+msgid "It is important to remember that color module saves a modified copy of the theme's style.css file in the files directory, and includes it after the theme's original style.css. This means that if you make any manual changes to your theme's style.css file, you must save your color settings again, even if they haven't changed. This causes the color module generated version of style.css in the files directory to be recreated using the new version of the original file."
+msgstr "Είναι σημαντικό να θυμάστε ότι η μονάδα color αποθηκεύει ένα τροποποιημένο αντίγραφο του αρχείου style.css της θεματικής παραλλαγής στον κατάλογο files, και το συμπεριλαμβάνει μετά το πρωτότυπο style.css της θεματικής παραλλαγής. Αυτό σημαίνει πως αν κάνετε οποιεσδήποτε χειροκίνητες τροποποιήσεις στο στο αρχείο style.css της θεματικής παραλλαγής, θα πρέπει να αποθηκεύσετε ξανά τις ρυθμίσεις χρώματος, ακόμα και εάν δεν έχουν αλλάξει. Έτσι, η παραγόμενη από την μονάδα color, έκδοση του style.css στον κατάλογο files αναδημιουργείτε χρησιμοποιώντας την νέα έκδοση του πρωτότυπου αρχείου."
+
+#: modules/color/color.module:25
 msgid "Color scheme"
 msgstr "Χρωματικός συνδυασμός"
 
-#: modules/color/color.module:107
+#: modules/color/color.module:119
 msgid "Custom"
 msgstr "Προσαρμοσμένο"
 
-#: modules/color/color.module:110
+#: modules/color/color.module:122
 msgid "Color set"
 msgstr "Σύνολο χρωμάτων"
 
-#: modules/color/color.module:118
+#: modules/color/color.module:130
 msgid "Base color"
 msgstr "Βασικό χρώμα"
 
-#: modules/color/color.module:119
+#: modules/color/color.module:131
 msgid "Link color"
 msgstr "Χρώμα παραπομπής"
 
-#: modules/color/color.module:120
+#: modules/color/color.module:132
 msgid "Header top"
 msgstr "Επικεφαλίδα πάνω"
 
-#: modules/color/color.module:121
+#: modules/color/color.module:133
 msgid "Header bottom"
 msgstr "Επικεφαλίδα κάτω"
 
-#: modules/color/color.module:122
+#: modules/color/color.module:134
 msgid "Text color"
 msgstr "Χρώμα κειμένου"
 
-#: modules/color/color.module:205
+#: modules/color/color.module:217
 msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
 msgstr "Δεν υπάρχει αρκετή μνήμη διαθέσιμη για την PHP για την αλλαγή αυτού του χρωματικού συνδυασμού. Χρειάζεστε τουλάχιστον %size ακόμη. Ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP</a> για περισσότερες πληροφορίες."
 

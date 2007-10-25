@@ -1,14 +1,14 @@
-# $Id: system-install.pot,v 1.1.2.5 2007/07/27 22:03:36 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/system/system.install)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: system.install,v 1.69.2.4 2007/07/19 05:39:25 drumm
+# Generated from file: system.install,v 1.69.2.6 2007/10/16 06:20:39 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "You can <a href=\"@cron\">run cron manually</a>."
 msgstr ""
 
-#: modules/system/system.install:3223
+#: modules/system/system.install:3225
 msgid "If you want to add a static page, like a contact page or an about page, use a page."
 msgstr ""
 
-#: modules/system/system.install:3230
+#: modules/system/system.install:3232
 msgid "Story"
 msgstr ""
 
-#: modules/system/system.install:3232
+#: modules/system/system.install:3234
 msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
 msgstr ""
 
-#: modules/system/system.install:3332
+#: modules/system/system.install:3334
 msgid "URL Filter module was disabled; this functionality has now been added to core."
 msgstr ""
 

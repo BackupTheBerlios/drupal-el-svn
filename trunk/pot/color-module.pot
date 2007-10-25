@@ -1,14 +1,14 @@
-# $Id: color-module.pot,v 1.1.2.3 2007/07/27 22:03:35 goba Exp $
+# $Id$
 #
 # LANGUAGE translation of Drupal (modules/color/color.module)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: color.module,v 1.13.2.2 2007/07/09 05:02:32 drumm
+# Generated from file: color.module,v 1.13.2.3 2007/10/16 07:02:40 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-07-27 23:37+0200\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -17,39 +17,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: modules/color/color.module:13
+#: modules/color/color.module:10
+msgid "Color module allows a site administrator to quickly and easily change the color scheme of the entire site. In order for color module to work however, a theme must be specifically designed to use the color changing features. The default theme, Garland, (as well as its fixed width counterpart, Minnelli) was designed to take advantage of these features. With color module, you can easily change the color of links, backgrounds, text, and more depending on which color module enabled theme you are using. Color module requires your <a href=\"@url\">file download method</a> to be set to public."
+msgstr ""
+
+#: modules/color/color.module:11
+msgid "It is important to remember that color module saves a modified copy of the theme's style.css file in the files directory, and includes it after the theme's original style.css. This means that if you make any manual changes to your theme's style.css file, you must save your color settings again, even if they haven't changed. This causes the color module generated version of style.css in the files directory to be recreated using the new version of the original file."
+msgstr ""
+
+#: modules/color/color.module:25
 msgid "Color scheme"
 msgstr ""
 
-#: modules/color/color.module:107
+#: modules/color/color.module:119
 msgid "Custom"
 msgstr ""
 
-#: modules/color/color.module:110
+#: modules/color/color.module:122
 msgid "Color set"
 msgstr ""
 
-#: modules/color/color.module:118
+#: modules/color/color.module:130
 msgid "Base color"
 msgstr ""
 
-#: modules/color/color.module:119
+#: modules/color/color.module:131
 msgid "Link color"
 msgstr ""
 
-#: modules/color/color.module:120
+#: modules/color/color.module:132
 msgid "Header top"
 msgstr ""
 
-#: modules/color/color.module:121
+#: modules/color/color.module:133
 msgid "Header bottom"
 msgstr ""
 
-#: modules/color/color.module:122
+#: modules/color/color.module:134
 msgid "Text color"
 msgstr ""
 
-#: modules/color/color.module:205
+#: modules/color/color.module:217
 msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
 msgstr ""
 

@@ -1,15 +1,17 @@
+# translation of filter-module.po to Greek
 # Greek Drupal translation of filter-module.po to Greek
 # Greek translation of Drupal 5.1 (filter.module)
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: filter-module\n"
-"POT-Creation-Date: 2007-01-30 12:39+0100\n"
-"PO-Revision-Date: 2007-07-28 02:21+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-10-25 22:04+0300\n"
+"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
+"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -93,6 +95,10 @@ msgstr "Μορφότυπος εισόδου !format"
 #: modules/filter/filter.module:121
 msgid "Rearrange"
 msgstr "Αναδιάταξη"
+
+#: modules/filter/filter.module:162;164
+msgid "Allowed HTML tags: @tags"
+msgstr "Επιτρεπόμενες ετικέτες HTML: @tags"
 
 #: modules/filter/filter.module:169
 msgid ""
