@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
 "POT-Creation-Date: 2007-10-25 20:22+0300\n"
-"PO-Revision-Date: 2007-10-25 21:48+0300\n"
-"Last-Translator: Athanasios Lefteris <alefteris@gmail.com>\n"
-"Language-Team: Greek <drupal-el-team@lists.berlios.de>\n"
+"PO-Revision-Date: 2007-11-28 23:32+0200\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -184,7 +184,7 @@ msgstr "Οκτώβριος"
 
 #: modules/locale/locale.module:0
 msgid "Oct"
-msgstr "Όκτ"
+msgstr "Οκτ"
 
 #: modules/locale/locale.module:0
 msgid "November"
