@@ -3,8 +3,8 @@
 # Generates a single po file (el.po) from a folder containing all the small 
 # po files.
 
-mv ../el-po/installer.po ../el-po/installer.po.
+mv ../5.x-el-po/installer.po ../5.x-el-po/installer.po.
 
-msgcat --use-first ../el-po/general.po ../el-po/[^g]*.po | msgattrib --no-fuzzy -o el.po
+msgcat --use-first ../5.x-el-po/general.po ../5.x-el-po/[^g]*.po | msgattrib --no-fuzzy -o el.po
 
-mv ../el-po/installer.po. ../el-po/installer.po
+mv ../5.x-el-po/installer.po. ../5.x-el-po/installer.po
