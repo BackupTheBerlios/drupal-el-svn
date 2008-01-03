@@ -1,39 +1,43 @@
-# $Id: modules-color.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# Greek Drupal translation of general.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# LANGUAGE translation of Drupal (modules-color)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from files:
-#  color.module,v 1.35 2007/12/18 21:29:43 dries
-#  color.install,v 1.2 2006/12/05 05:49:50 dries
-#
-#, fuzzy
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/color/color.module:10
+#, fuzzy
 msgid "The color module allows a site administrator to quickly and easily change the color scheme of certain themes. Although not all themes support color module, both Garland (the default theme) and Minnelli were designed to take advantage of its features. By using color module with a compatible theme, you can easily change the color of links, backgrounds, text, and other theme elements. Color module requires that your <a href=\"@url\">file download method</a> be set to public."
-msgstr ""
+msgstr "Η μονάδα color επιτρέπει στον διαχειριστή του ιστοτόπου να αλλάξει γρήγορα και εύκολα το χρωματικό συνδυασμό ολόκληρου του ιστοτόπου. Αλλά για να μπορεί να δουλέψει η μονάδα color, μια χρωματική παραλλαγή θα πρέπει να έχει ειδικά σχεδιαστεί ώστε να χρησιμοποιεί τις λειτουργίες αλλαγής χρώματος. Η προεπιλεγμένη χρωματική παραλλαγή, το Garland, (όπως και το συγκεκριμένου πλάτους ομόλογο του, Minnelli) έχει σχεδιαστεί ώστε να εκμεταλλεύεται αυτές τις λειτουργίες. Με την μονάδα color, μπορείτε να αλλάξετε εύκολα το χρώμα των δεσμών, φόντων, κείμενων, και άλλων που εξαρτάτε από το ποιά χρωματική παραλλαγή, εκμεταλλευόμενη την μονάδα color, χρησιμοποιείτε. Η μονάδα color απαιτεί να έχει τεθεί η <a href=\"@url\">μέθοδος λήψης αρχείων</a> ως δημόσια."
 
 #: modules/color/color.module:11
+#, fuzzy
 msgid "It is important to remember that color module saves a modified copy of the theme's specified stylesheets in the files directory. This means that if you make any manual changes to your theme's stylesheet, you must save your color settings again, even if they haven't changed. This causes the color module generated version of the stylesheets in the files directory to be recreated using the new version of the original file."
-msgstr ""
+msgstr "Είναι σημαντικό να θυμάστε ότι η μονάδα color αποθηκεύει ένα τροποποιημένο αντίγραφο του αρχείου style.css της θεματικής παραλλαγής στον κατάλογο files, και το συμπεριλαμβάνει μετά το πρωτότυπο style.css της θεματικής παραλλαγής. Αυτό σημαίνει πως αν κάνετε οποιεσδήποτε χειροκίνητες τροποποιήσεις στο στο αρχείο style.css της θεματικής παραλλαγής, θα πρέπει να αποθηκεύσετε ξανά τις ρυθμίσεις χρώματος, ακόμα και εάν δεν έχουν αλλάξει. Έτσι, η παραγόμενη από την μονάδα color, έκδοση του style.css στον κατάλογο files αναδημιουργείτε χρησιμοποιώντας την νέα έκδοση του πρωτότυπου αρχείου."
 
 #: modules/color/color.module:12
 msgid "To change the color settings for a compatible theme, select the \"configure\" link for the theme on the <a href=\"@themes\">themes administration page</a>."
 msgstr ""
 
 #: modules/color/color.module:13
+#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@color\">Color module</a>."
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα contact</a>."
 
 #: modules/color/color.module:38
 msgid "The color picker only works if the <a href=\"@url\">download method</a> is set to public."
@@ -41,57 +45,56 @@ msgstr ""
 
 #: modules/color/color.module:43
 msgid "Color scheme"
-msgstr ""
+msgstr "Χρωματικός συνδυασμός"
 
 #: modules/color/color.module:171
 msgid "Custom"
-msgstr ""
+msgstr "Προσαρμοσμένο"
 
 #: modules/color/color.module:174
 msgid "Color set"
-msgstr ""
+msgstr "Σύνολο χρωμάτων"
 
 #: modules/color/color.module:182
 msgid "Base color"
-msgstr ""
+msgstr "Βασικό χρώμα"
 
 #: modules/color/color.module:183
 msgid "Link color"
-msgstr ""
+msgstr "Χρώμα παραπομπής"
 
 #: modules/color/color.module:184
 msgid "Header top"
-msgstr ""
+msgstr "Επικεφαλίδα πάνω"
 
 #: modules/color/color.module:185
 msgid "Header bottom"
-msgstr ""
+msgstr "Επικεφαλίδα κάτω"
 
 #: modules/color/color.module:186
 msgid "Text color"
-msgstr ""
+msgstr "Χρώμα κειμένου"
 
 #: modules/color/color.module:271
 msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"@url\">PHP documentation</a> for more information."
-msgstr ""
+msgstr "Δεν υπάρχει αρκετή μνήμη διαθέσιμη για την PHP για την αλλαγή αυτού του χρωματικού συνδυασμού. Χρειάζεστε τουλάχιστον %size ακόμη. Ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP</a> για περισσότερες πληροφορίες."
 
 #: modules/color/color.module:0
 msgid "color"
-msgstr ""
+msgstr "χρώμα"
 
 #: modules/color/color.install:21
 msgid "The GD library for PHP is enabled, but was compiled without PNG support. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
-msgstr ""
+msgstr "Η βιβλιοθήκη GD για την PHP είναι ενεργοποιημένη, αλλά δεν υποστηρίζει τη μορφή PNG. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
 
 #: modules/color/color.install:26
 msgid "Not installed"
-msgstr ""
+msgstr "Μη εγκατεστημένο"
 
 #: modules/color/color.install:28
 msgid "The GD library for PHP is missing or outdated. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
-msgstr ""
+msgstr "Η βιβλιοθήκη GD για την PHP δεν βρέθηκε ή είναι ξεπερασμένη. Ελέγξτε την <a href=\"@url\">τεκμηρίωση του PHP image</a> για πληροφορίες σχετικά με τη διόρθωση του προβλήματος."
 
 #: modules/color/color.install:31
 msgid "GD library"
-msgstr ""
-
+msgstr "Βιβλιοθήκη GD"

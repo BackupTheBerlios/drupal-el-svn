@@ -1,23 +1,24 @@
-# $Id: modules-locale.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# Greek Drupal translation of general.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# LANGUAGE translation of Drupal (modules-locale)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from files:
-#  locale.module,v 1.205 2007/12/19 21:40:05 goba
-#  locale.install,v 1.25 2007/12/18 12:59:21 dries
-#
-#, fuzzy
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/locale/locale.module:35
 msgid "The locale module allows your Drupal site to be presented in languages other than the default English, a defining feature of multi-lingual websites. The locale module works by examining text as it is about to be displayed: when a translation of the text is available in the language to be displayed, the translation is displayed rather than the original text. When a translation is unavailable, the original text is displayed, and then stored for later review by a translator."
@@ -44,8 +45,9 @@ msgid "If an existing translation package does not meet your needs, the Gettext 
 msgstr ""
 
 #: modules/locale/locale.module:41
+#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@locale\">Locale module</a>."
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@locale\">σελίδα Locale</a>."
 
 #: modules/locale/locale.module:44
 msgid "This page provides an overview of your site's enabled languages. If multiple languages are available and enabled, the text on your site interface may be translated, registered users may select their preferred language on the <em>My account</em> page, and site authors may indicate a specific language when creating posts. The site's default language is used for anonymous visitors and for users who have not selected a preferred language."
@@ -120,8 +122,9 @@ msgid "Built-in interface"
 msgstr ""
 
 #: modules/locale/locale.module:224
+#, fuzzy
 msgid "Language settings"
-msgstr ""
+msgstr "Ρυθμίσεις εικόνας λογοτύπου"
 
 #: modules/locale/locale.module:233
 msgid "Sets the default site interface and e-mail language for this account."
@@ -140,52 +143,59 @@ msgid "Enable multilingual support for this content type. If enabled, a language
 msgstr ""
 
 #: modules/locale/locale.module:428
+#, fuzzy
 msgid "All"
-msgstr ""
+msgstr "Επιτρέπεται"
 
 #: modules/locale/locale.module:549
+#, fuzzy
 msgid "Language switcher"
-msgstr ""
+msgstr "Λίστα γλωσσών"
 
 #: modules/locale/locale.module:501
 msgid "Parsed JavaScript file %file."
 msgstr ""
 
 #: modules/locale/locale.module:189
+#, fuzzy
 msgid "administer languages"
-msgstr ""
+msgstr "διαχείριση γλωσσικών μονάδων"
 
 #: modules/locale/locale.module:189
 msgid "translate interface"
 msgstr ""
 
 #: modules/locale/locale.module:88
+#, fuzzy
 msgid "Configure languages for content and the user interface."
-msgstr ""
+msgstr "Ρύθμιση της γλωσσικής προσαρμογής του ιστοτόπου και της γλώσσας διεπαφής των χρηστών."
 
 #: modules/locale/locale.module:113
+#, fuzzy
 msgid "Edit language"
-msgstr ""
+msgstr "Προσθήκη γλώσσας"
 
 #: modules/locale/locale.module:127
+#, fuzzy
 msgid "Translate interface"
-msgstr ""
+msgstr "Μεταφρασμένο"
 
 #: modules/locale/locale.module:128
 msgid "Translate the built in interface as well as menu items and taxonomies."
 msgstr ""
 
 #: modules/locale/locale.module:134
+#, fuzzy
 msgid "Overview"
-msgstr ""
+msgstr "Επισκόπηση ροής"
 
 #: modules/locale/locale.module:160
 msgid "Edit string"
-msgstr ""
+msgstr "Επεξεργασία φράσης"
 
 #: modules/locale/locale.module:166
 msgid "Delete string"
-msgstr ""
+msgstr "Διαγραφή φράσης"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name January"
@@ -193,7 +203,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Jan"
-msgstr ""
+msgstr "Ιαν"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name February"
@@ -201,7 +211,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Feb"
-msgstr ""
+msgstr "Φεβ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name March"
@@ -209,7 +219,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Mar"
-msgstr ""
+msgstr "Μαρ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name April"
@@ -217,7 +227,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Apr"
-msgstr ""
+msgstr "Απρ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name May"
@@ -225,7 +235,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "May"
-msgstr ""
+msgstr "Μάιος"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name June"
@@ -233,7 +243,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Jun"
-msgstr ""
+msgstr "Ιουν"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name July"
@@ -241,7 +251,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Jul"
-msgstr ""
+msgstr "Ιουλ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name August"
@@ -249,7 +259,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Aug"
-msgstr ""
+msgstr "Αυγ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name September"
@@ -257,7 +267,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Sep"
-msgstr ""
+msgstr "Σεπ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name October"
@@ -265,7 +275,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Oct"
-msgstr ""
+msgstr "Οκτ"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name November"
@@ -273,7 +283,7 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Nov"
-msgstr ""
+msgstr "Νοε"
 
 #: modules/locale/locale.module:0
 msgid "!long-month-name December"
@@ -281,51 +291,51 @@ msgstr ""
 
 #: modules/locale/locale.module:0
 msgid "Dec"
-msgstr ""
+msgstr "Δεκ"
 
 #: modules/locale/locale.module:0;0
 msgid "Thu"
-msgstr ""
+msgstr "Πεμ"
 
 #: modules/locale/locale.module:0
 msgid "Fri"
-msgstr ""
+msgstr "Παρ"
 
 #: modules/locale/locale.module:0
 msgid "Sat"
-msgstr ""
+msgstr "Σαβ"
 
 #: modules/locale/locale.module:0
 msgid "Sun"
-msgstr ""
+msgstr "Κυρ"
 
 #: modules/locale/locale.module:0
 msgid "Mon"
-msgstr ""
+msgstr "Δευ"
 
 #: modules/locale/locale.module:0
 msgid "Tue"
-msgstr ""
+msgstr "Τρι"
 
 #: modules/locale/locale.module:0
 msgid "Wed"
-msgstr ""
+msgstr "Τετ"
 
 #: modules/locale/locale.module:0
 msgid "am"
-msgstr ""
+msgstr "πμ"
 
 #: modules/locale/locale.module:0
 msgid "pm"
-msgstr ""
+msgstr "μμ"
 
 #: modules/locale/locale.module:0
 msgid "AM"
-msgstr ""
+msgstr "ΠΜ"
 
 #: modules/locale/locale.module:0
 msgid "PM"
-msgstr ""
+msgstr "ΜΜ"
 
 #: modules/locale/locale.install:190
 msgid "List of all available languages in the system."
@@ -336,12 +346,14 @@ msgid "Language code, e.g. 'de' or 'en-US'."
 msgstr ""
 
 #: modules/locale/locale.install:204
+#, fuzzy
 msgid "Language name in English."
-msgstr ""
+msgstr "Το όνομα της γλώσσας στην Αγγλική"
 
 #: modules/locale/locale.install:211
+#, fuzzy
 msgid "Native language name."
-msgstr ""
+msgstr "Όνομα γλώσσας"
 
 #: modules/locale/locale.install:217
 msgid "Direction of language (Left-to-Right = 0, Right-to-Left = 1)."
@@ -352,8 +364,9 @@ msgid "Enabled flag (1 = Enabled, 0 = Disabled)."
 msgstr ""
 
 #: modules/locale/locale.install:229
+#, fuzzy
 msgid "Number of plural indexes in this language."
-msgstr ""
+msgstr "Ο αριθμός των ερωτημάτων στη λανθάνουσα μνήμη ερωτημάτων."
 
 #: modules/locale/locale.install:236
 msgid "Plural formula in PHP code to evaluate to get plural indexes."
@@ -380,8 +393,9 @@ msgid "List of English source strings."
 msgstr ""
 
 #: modules/locale/locale.install:278
+#, fuzzy
 msgid "Unique identifier of this string."
-msgstr ""
+msgstr "Διαβάστε την υπόλοιπη καταχώριση."
 
 #: modules/locale/locale.install:285
 msgid "Drupal path in case of online discovered translations or file path in case of imported strings."
@@ -400,16 +414,18 @@ msgid "Version of Drupal, where the string was last used (for locales optimizati
 msgstr ""
 
 #: modules/locale/locale.install:315
+#, fuzzy
 msgid "Stores translated versions of strings."
-msgstr ""
+msgstr "Μόνο μεταφρασμένες φράσεις"
 
 #: modules/locale/locale.install:321
 msgid "Source string ID. References {locales_source}.lid."
 msgstr ""
 
 #: modules/locale/locale.install:327
+#, fuzzy
 msgid "Translation string value in this language."
-msgstr ""
+msgstr "Όλες τις φράσεις σε αυτή τη γλώσσα"
 
 #: modules/locale/locale.install:334
 msgid "Language code. References {languages}.language."
@@ -422,4 +438,3 @@ msgstr ""
 #: modules/locale/locale.install:346
 msgid "Plural index number in case of plural strings."
 msgstr ""
-

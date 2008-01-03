@@ -1,27 +1,24 @@
-# $Id: modules-update.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# Greek Drupal translation of general.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# LANGUAGE translation of Drupal (modules-update)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from files:
-#  update.compare.inc,v 1.1 2007/07/11 15:15:40 dries
-#  update.fetch.inc,v 1.5 2007/12/20 08:57:55 goba
-#  update.module,v 1.7 2007/12/14 18:08:49 goba
-#  update.report.inc,v 1.6 2007/12/20 08:42:05 goba
-#  update.settings.inc,v 1.3 2007/10/20 21:57:50 goba
-#  update.install,v 1.3 2007/10/10 11:39:34 goba
-#
-#, fuzzy
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/update/update.compare.inc:343;390
 msgid "No available releases found"
@@ -32,8 +29,9 @@ msgid "Unknown release date"
 msgstr ""
 
 #: modules/update/update.compare.inc:385
+#, fuzzy
 msgid "Invalid info"
-msgstr ""
+msgstr "Μη έγκυρη καταχώριση."
 
 #: modules/update/update.fetch.inc:14;50
 msgid "Fetched information about all available new releases and updates."
@@ -44,52 +42,61 @@ msgid "Unable to fetch any information about available new releases and updates.
 msgstr ""
 
 #: modules/update/update.fetch.inc:50;54 modules/update/update.module:0
+#, fuzzy
 msgid "update"
-msgstr ""
+msgstr "ενημερώθηκε"
 
 #: modules/update/update.report.inc:30
+#, fuzzy
 msgid "Last checked: "
-msgstr ""
+msgstr "Τελευταίες επισκέψεις:"
 
 #: modules/update/update.report.inc:30
+#, fuzzy
 msgid "ago"
-msgstr ""
+msgstr "Sango"
 
 #: modules/update/update.report.inc:30
 msgid "Never"
-msgstr ""
+msgstr "Ποτέ"
 
 #: modules/update/update.report.inc:31
+#, fuzzy
 msgid "Check manually"
-msgstr ""
+msgstr "Έλεγχος e-mail"
 
 #: modules/update/update.report.inc:72
 msgid "Security update required!"
 msgstr ""
 
 #: modules/update/update.report.inc:76
+#, fuzzy
 msgid "Update available"
-msgstr ""
+msgstr "Ενημέρωση ψευδωνύμου"
 
 #: modules/update/update.report.inc:130
+#, fuzzy
 msgid "Recommended version:"
-msgstr ""
+msgstr "Δοκιμή εμφάνισης της περικομμένης μορφής"
 
 #: modules/update/update.report.inc:136
+#, fuzzy
 msgid "Security update:"
-msgstr ""
+msgstr "Επόμενη ενημέρωση"
 
 #: modules/update/update.report.inc:142
 msgid "Latest version:"
 msgstr ""
 
 #: modules/update/update.report.inc:147
+#, fuzzy
 msgid "Development version:"
-msgstr ""
+msgstr "Δοκιμή εμφάνισης της περικομμένης μορφής"
 
 #: modules/update/update.report.inc:153
+#, fuzzy
 msgid "Also available:"
-msgstr ""
+msgstr "Δεν υπάρχει καμία καταχώριση."
 
 #: modules/update/update.report.inc:173
 msgid "Includes: %includes"
@@ -100,16 +107,19 @@ msgid "Drupal core"
 msgstr ""
 
 #: modules/update/update.report.inc:191
+#, fuzzy
 msgid "Disabled modules"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #: modules/update/update.report.inc:192
+#, fuzzy
 msgid "Disabled themes"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #: modules/update/update.report.inc:221
+#, fuzzy
 msgid "Download"
-msgstr ""
+msgstr "Μέθοδος λήψης αρχείων"
 
 #: modules/update/update.report.inc:225
 msgid "Release notes"
@@ -124,8 +134,9 @@ msgid "Whenever your site checks for available updates and finds new releases, i
 msgstr ""
 
 #: modules/update/update.settings.inc:26
+#, fuzzy
 msgid "Check for updates"
-msgstr ""
+msgstr "Ο προεπιλεγμένος μορφότυπος εισόδου ενημερώθηκε."
 
 #: modules/update/update.settings.inc:29
 msgid "Daily"
@@ -140,8 +151,9 @@ msgid "Select how frequently you want to automatically check for new releases of
 msgstr ""
 
 #: modules/update/update.settings.inc:37
+#, fuzzy
 msgid "Notification threshold"
-msgstr ""
+msgstr "Κατώφλι καυτού θέματος"
 
 #: modules/update/update.settings.inc:40
 msgid "All newer versions"
@@ -156,12 +168,14 @@ msgid "If there are updates available of Drupal core or any of your installed mo
 msgstr ""
 
 #: modules/update/update.settings.inc:80
+#, fuzzy
 msgid "%email is not a valid e-mail address."
-msgstr ""
+msgstr "Το %recipient δεν είναι έγκυρη διεύθυνση e-mail."
 
 #: modules/update/update.settings.inc:83
+#, fuzzy
 msgid "%emails are not valid e-mail addresses."
-msgstr ""
+msgstr "Το %recipient δεν είναι έγκυρη διεύθυνση e-mail."
 
 #: modules/update/update.module:50
 msgid "Here you can find information about available updates for your installed modules and themes. Note that each module or theme is part of a \"project\", which may or may not have the same name, and might include multiple modules or themes within it."
@@ -188,8 +202,9 @@ msgid "Please note that in order to provide this information, anonymous usage st
 msgstr ""
 
 #: modules/update/update.module:79
+#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@update\">Update status module</a>."
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα contact</a>."
 
 #: modules/update/update.module:182
 msgid "Drupal core update status"
@@ -212,8 +227,9 @@ msgid "Not secure!"
 msgstr ""
 
 #: modules/update/update.module:236
+#, fuzzy
 msgid "No update data available"
-msgstr ""
+msgstr "Κανένας διαθέσιμος χρήστης."
 
 #: modules/update/update.module:276
 msgid "No information is available about potential new releases for currently installed modules and themes. To check for updates, you may need to <a href=\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check manually</a>. Please note that checking for available updates can take a long time, so please be patient."
@@ -248,12 +264,14 @@ msgid "See the <a href=\"@available_updates\">available updates</a> page for mor
 msgstr ""
 
 #: modules/update/update.module:109
+#, fuzzy
 msgid "Available updates"
-msgstr ""
+msgstr "Οι διαθέσιμες μεταβλητές είναι:"
 
 #: modules/update/update.module:110
+#, fuzzy
 msgid "Get a status report about available updates for your installed modules and themes."
-msgstr ""
+msgstr "Αναφορά κατάστασης λειτουργίας του ιστοτόπου και αναφορά σφαλμάτων."
 
 #: modules/update/update.module:132
 msgid "Manual update check"
@@ -262,4 +280,3 @@ msgstr ""
 #: modules/update/update.install:37
 msgid "Cache table for the Update module to store information about available releases, fetched from central server."
 msgstr ""
-

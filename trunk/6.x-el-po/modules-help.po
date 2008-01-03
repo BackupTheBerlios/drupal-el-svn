@@ -1,27 +1,29 @@
-# $Id: modules-help.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# Greek Drupal translation of general.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# LANGUAGE translation of Drupal (modules-help)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from files:
-#  help.admin.inc,v 1.5 2007/11/25 11:11:17 goba
-#  help.module,v 1.78 2007/12/14 18:08:46 goba
-#
-#, fuzzy
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/help/help.admin.inc:15
+#, fuzzy
 msgid "Help topics"
-msgstr ""
+msgstr "Κείμενο βοήθειας"
 
 #: modules/help/help.admin.inc:15
 msgid "Help is available on the following items:"
@@ -29,25 +31,31 @@ msgstr ""
 
 #: modules/help/help.admin.inc:30
 msgid "No help is available for module %module."
-msgstr ""
+msgstr "Δεν υπάρχει διαθέσιμη βοήθεια για τη μονάδα %module."
 
 #: modules/help/help.admin.inc:41
 msgid "@module administration pages"
-msgstr ""
+msgstr "σελίδες διαχείρισης του @module"
 
 #: modules/help/help.module:40
+#, fuzzy
 msgid "This guide provides context sensitive help on the use and configuration of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online handbook may contain more up-to-date information, is annotated with helpful user-contributed comments, and serves as the definitive reference point for all Drupal documentation."
 msgstr ""
+"<p>Ο οδηγός αυτός εξηγεί τη λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και τη ρύθμισή τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
+"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειρίδιο του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
 
 #: modules/help/help.module:43
+#, fuzzy
 msgid "The help module provides context sensitive help on the use and configuration of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online handbook may contain more up-to-date information, is annotated with helpful user-contributed comments, and serves as the definitive reference point for all Drupal documentation."
 msgstr ""
+"<p>Ο οδηγός αυτός εξηγεί τη λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και τη ρύθμισή τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
+"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειρίδιο του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
 
 #: modules/help/help.module:44
+#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@help\">Help module</a>."
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@help\">σελίδα Help</a>."
 
 #: modules/help/help.module:0
 msgid "help"
-msgstr ""
-
+msgstr "βοήθεια"

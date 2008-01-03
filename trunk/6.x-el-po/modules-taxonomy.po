@@ -1,64 +1,68 @@
-# $Id: modules-taxonomy.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# Greek Drupal translation of general.po to Greek
+# Greek translation of Drupal 5.1
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# LANGUAGE translation of Drupal (modules-taxonomy)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from files:
-#  taxonomy.admin.inc,v 1.19 2007/12/19 16:17:37 goba
-#  taxonomy.module,v 1.410 2007/12/19 22:18:15 goba
-#  taxonomy.install,v 1.6 2007/12/18 12:59:22 dries
-#
-#, fuzzy
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: modules/taxonomy/taxonomy.admin.inc:29
 msgid "edit vocabulary"
-msgstr ""
+msgstr "τροποποίηση λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.admin.inc:30
 msgid "list terms"
-msgstr ""
+msgstr "λίστα όρων"
 
 #: modules/taxonomy/taxonomy.admin.inc:31
 msgid "add terms"
-msgstr ""
+msgstr "προσθήκη όρων"
 
 #: modules/taxonomy/taxonomy.admin.inc:85
+#, fuzzy
 msgid "No vocabularies available."
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμες κατηγορίες."
 
 #: modules/taxonomy/taxonomy.admin.inc:122
 msgid "Vocabulary name"
-msgstr ""
+msgstr "Όνομα λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.admin.inc:125
+#, fuzzy
 msgid "The name for this vocabulary. i.e. <em>\"Tags\"</em>."
-msgstr ""
+msgstr "Το όνομα αυτού του λεξιλογίου. Παράδειγμα: \"Θέμα\"."
 
 #: modules/taxonomy/taxonomy.admin.inc:131
 msgid "Description of the vocabulary; can be used by modules."
-msgstr ""
+msgstr "Περιγραφή του λεξιλογίου· μπορεί να χρησιμοποιείται από τις μονάδες."
 
 #: modules/taxonomy/taxonomy.admin.inc:134
 msgid "Help text"
-msgstr ""
+msgstr "Κείμενο βοήθειας"
 
 #: modules/taxonomy/taxonomy.admin.inc:137
+#, fuzzy
 msgid "Instructions to present to the user when selecting terms. i.e. <em>\"Enter a comma separated list of words\".</em>"
-msgstr ""
+msgstr "Οδηγίες που θα παρουσιάζονται στο χρήστη όταν διαλέγει έναν όρο."
 
 #: modules/taxonomy/taxonomy.admin.inc:148
+#, fuzzy
 msgid "Select content types to categorize using this vocabulary."
-msgstr ""
+msgstr "Λίστα των τύπων κόμβων που θέλετε να συσχετίσετε με αυτό το λεξιλόγιο."
 
 #: modules/taxonomy/taxonomy.admin.inc:156
 msgid "Tags"
@@ -70,11 +74,12 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:161
 msgid "Multiple select"
-msgstr ""
+msgstr "Πολλαπλή επιλογή"
 
 #: modules/taxonomy/taxonomy.admin.inc:163
+#, fuzzy
 msgid "Allows posts to have more than one term from this vocabulary (always true for tags)."
-msgstr ""
+msgstr "Επιτρέπει να έχουν οι κόμβοι περισσότερους από έναν όρους από αυτό το λεξιλόγιο (ισχύει πάντα για την ελεύθερη σήμανση)."
 
 #: modules/taxonomy/taxonomy.admin.inc:168
 msgid "At least one term in this vocabulary must be selected when submitting a post."
@@ -86,35 +91,38 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:202;203
 msgid "Created new vocabulary %name."
-msgstr ""
+msgstr "Το νέο λεξιλόγιο %name δημιουργήθηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:206;207
 msgid "Updated vocabulary %name."
-msgstr ""
+msgstr "Το λεξιλόγιο %name ενημερώθηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:254
+#, fuzzy
 msgid "Terms in %vocabulary"
-msgstr ""
+msgstr "τροποποίηση λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.admin.inc:409
 msgid "No terms available."
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμοι όροι."
 
 #: modules/taxonomy/taxonomy.admin.inc:418;445;912
+#, fuzzy
 msgid "Reset to alphabetical"
-msgstr ""
+msgstr "Επαναφορά στις εξ' ορισμού ρυθμίσεις"
 
 #: modules/taxonomy/taxonomy.admin.inc:624
+#, fuzzy
 msgid "Add term to %vocabulary"
-msgstr ""
+msgstr "Προσθήκη λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.admin.inc:663
 msgid "Term name"
-msgstr ""
+msgstr "Όνομα όρου"
 
 #: modules/taxonomy/taxonomy.admin.inc:666
 msgid "The name of this term."
-msgstr ""
+msgstr "Το όνομα αυτού του όρου."
 
 #: modules/taxonomy/taxonomy.admin.inc:672
 msgid "A description of the term. To be displayed on taxonomy/term pages and RSS feeds."
@@ -122,23 +130,24 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:695
 msgid "Parents"
-msgstr ""
+msgstr "Γονείς"
 
 #: modules/taxonomy/taxonomy.admin.inc:695
 msgid "Parent terms"
-msgstr ""
+msgstr "Γονικοί όροι"
 
 #: modules/taxonomy/taxonomy.admin.inc:696
 msgid "Related terms"
-msgstr ""
+msgstr "Σχετιζόμενοι όροι"
 
 #: modules/taxonomy/taxonomy.admin.inc:700
 msgid "Synonyms"
-msgstr ""
+msgstr "Συνώνυμα"
 
 #: modules/taxonomy/taxonomy.admin.inc:702
+#, fuzzy
 msgid "Synonyms of this term, one synonym per line."
-msgstr ""
+msgstr "Τα <a href=\"@help-url\">συνώνυμα</a> αυτού του όρου, ένα σε κάθε γραμμή."
 
 #: modules/taxonomy/taxonomy.admin.inc:708
 msgid "Terms are displayed in ascending order by weight."
@@ -150,11 +159,11 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:768;769
 msgid "Created new term %term."
-msgstr ""
+msgstr "Ο νέος όρος %term δημιουργήθηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:772;773
 msgid "Updated term %term."
-msgstr ""
+msgstr "Ο όρος %term ενημερώθηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:818
 msgid "Set multiple term parents?"
@@ -174,47 +183,51 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:838
 msgid "Are you sure you want to delete the term %title?"
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε τον όρο %title;"
 
 #: modules/taxonomy/taxonomy.admin.inc:841
 msgid "Deleting a term will delete all its children if there are any. This action cannot be undone."
-msgstr ""
+msgstr "Με τη διαγραφή ενός όρου διαγράφονται όλοι οι θυγατρικοί του, αν υπάρχουν. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/taxonomy/taxonomy.admin.inc:854;855
 msgid "Deleted term %name."
-msgstr ""
+msgstr "Ο όρος %name διαγράφηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:873
 msgid "Are you sure you want to delete the vocabulary %title?"
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε το λεξιλόγιο %title;"
 
 #: modules/taxonomy/taxonomy.admin.inc:876
 msgid "Deleting a vocabulary will delete all the terms in it. This action cannot be undone."
-msgstr ""
+msgstr "Με τη διαγραφή ενός λεξιλογίου διαγράφονται όλοι οι όροι που περιέχει. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/taxonomy/taxonomy.admin.inc:888;889
 msgid "Deleted vocabulary %name."
-msgstr ""
+msgstr "Το λεξιλόγιο %name διαγράφηκε."
 
 #: modules/taxonomy/taxonomy.admin.inc:908
+#, fuzzy
 msgid "Are you sure you want to reset the vocabulary %title to alphabetical order?"
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε το λεξιλόγιο %title;"
 
 #: modules/taxonomy/taxonomy.admin.inc:911
 msgid "Resetting a vocabulary will discard all custom ordering and sort items alphabetically."
 msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:923;924
+#, fuzzy
 msgid "Reset vocabulary %name to alphabetical order."
-msgstr ""
+msgstr "Το λεξιλόγιο %name διαγράφηκε."
 
-#: modules/taxonomy/taxonomy.admin.inc:203;207;769;773;855;889;924 modules/taxonomy/taxonomy.module:0
+#: modules/taxonomy/taxonomy.admin.inc:203;207;769;773;855;889;924
+#: modules/taxonomy/taxonomy.module:0
 msgid "taxonomy"
-msgstr ""
+msgstr "ταξινομία"
 
 #: modules/taxonomy/taxonomy.module:418
+#, fuzzy
 msgid "- None selected -"
-msgstr ""
+msgstr "Δεν επιλέχθηκε κανένα στοιχείο."
 
 #: modules/taxonomy/taxonomy.module:421
 msgid "- None -"
@@ -222,19 +235,20 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.module:517
 msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
-msgstr ""
+msgstr "Λίστα όρων διαχωρισμένων με κόμματα που περιγράφουν αυτή την ύλη. Παράδειγμα: αστεία, χειμερινά σπορ, \"Εταιρία, ΕΠΕ\"."
 
 #: modules/taxonomy/taxonomy.module:548
+#, fuzzy
 msgid "Vocabularies"
-msgstr ""
+msgstr "Όνομα λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.module:635
 msgid "The %name vocabulary can not be modified in this way."
-msgstr ""
+msgstr "Το λεξιλόγιο %name δεν μπορεί να τροποποιηθεί με αυτόν τον τρόπο."
 
 #: modules/taxonomy/taxonomy.module:1128
 msgid "There are currently no posts in this category."
-msgstr ""
+msgstr "Δεν υπάρχουν προς το παρόν καταχωρίσεις σε αυτή την κατηγορία."
 
 #: modules/taxonomy/taxonomy.module:1231
 msgid "The taxonomy module allows you to categorize content using various systems of classification. Free-tagging vocabularies are created by users on the fly when they submit posts (as commonly found in blogs and social bookmarking applications). Controlled vocabularies allow for administrator-defined short lists of terms as well as complex hierarchies with multiple relationships between different terms. These methods can be applied to different content types and combined together to create a powerful and flexible method of classifying and presenting your content."
@@ -265,8 +279,9 @@ msgid "The taxonomy module supports the use of both synonyms and related terms, 
 msgstr ""
 
 #: modules/taxonomy/taxonomy.module:1238
+#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@taxonomy\">Taxonomy module</a>."
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@taxonomy\">σελίδα Taxonomy</a>."
 
 #: modules/taxonomy/taxonomy.module:1241
 msgid "The taxonomy module allows you to categorize your content using both tags and administrator defined terms. It is a flexible tool for classifying content with many advanced features. To begin, create a 'Vocabulary' to hold one set of terms or tags. You can create one free-tagging vocabulary for everything, or separate controlled vocabularies to define the various properties of your content, for example 'Countries' or 'Colors'."
@@ -306,59 +321,63 @@ msgstr ""
 
 #: modules/taxonomy/taxonomy.module:13
 msgid "administer taxonomy"
-msgstr ""
+msgstr "διαχείριση ταξινομίας"
 
 #: modules/taxonomy/taxonomy.module:114
+#, fuzzy
 msgid "Manage tagging, categorization, and classification of your content."
-msgstr ""
+msgstr "Επιτρέπει την κατηγοριοποίηση της ύλης."
 
 #: modules/taxonomy/taxonomy.module:128
 msgid "Add vocabulary"
-msgstr ""
+msgstr "Προσθήκη λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.module:137
 msgid "Edit vocabulary"
-msgstr ""
+msgstr "Τροποποίηση λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.module:145
 msgid "Edit term"
-msgstr ""
+msgstr "Τροποποίηση όρου"
 
 #: modules/taxonomy/taxonomy.module:152
 msgid "Taxonomy term"
-msgstr ""
+msgstr "Όρος ταξινομίας"
 
 #: modules/taxonomy/taxonomy.module:161
 msgid "Autocomplete taxonomy"
-msgstr ""
+msgstr "Αυτόματη συμπλήρωση ταξινομίας"
 
 #: modules/taxonomy/taxonomy.module:168
 msgid "List terms"
-msgstr ""
+msgstr "Λίστα όρων"
 
 #: modules/taxonomy/taxonomy.module:183
 msgid "Add term"
-msgstr ""
+msgstr "Προσθήκη όρου"
 
 #: modules/taxonomy/taxonomy.install:9
+#, fuzzy
 msgid "Stores term information."
-msgstr ""
+msgstr "Αποστολή πληροφοριών του συστήματος"
 
 #: modules/taxonomy/taxonomy.install:15
 msgid "Primary Key: Unique term ID."
 msgstr ""
 
 #: modules/taxonomy/taxonomy.install:22
+#, fuzzy
 msgid "The {vocabulary}.vid of the vocabulary to which the term is assigned."
-msgstr ""
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει ταξινομηθεί η καταχώριση."
 
 #: modules/taxonomy/taxonomy.install:29
+#, fuzzy
 msgid "The term name."
-msgstr ""
+msgstr "Όνομα όρου"
 
 #: modules/taxonomy/taxonomy.install:35
 msgid "A description of the term."
-msgstr ""
+msgstr "Μια περιγραφή του όρου."
 
 #: modules/taxonomy/taxonomy.install:42
 msgid "The weight of this term in relation to other terms."
@@ -413,32 +432,38 @@ msgid "Primary Key: Unique term synonym ID."
 msgstr ""
 
 #: modules/taxonomy/taxonomy.install:153
+#, fuzzy
 msgid "The {term_data}.tid of the term."
-msgstr ""
+msgstr "Το όνομα αυτού του όρου."
 
 #: modules/taxonomy/taxonomy.install:160
+#, fuzzy
 msgid "The name of the synonym."
-msgstr ""
+msgstr "Το όνομα του μενού."
 
 #: modules/taxonomy/taxonomy.install:173
 msgid "Stores vocabulary information."
 msgstr ""
 
 #: modules/taxonomy/taxonomy.install:179
+#, fuzzy
 msgid "Primary Key: Unique vocabulary ID."
-msgstr ""
+msgstr "Το νέο λεξιλόγιο %name δημιουργήθηκε."
 
 #: modules/taxonomy/taxonomy.install:186
+#, fuzzy
 msgid "Name of the vocabulary."
-msgstr ""
+msgstr "τροποποίηση λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.install:192
+#, fuzzy
 msgid "Description of the vocabulary."
-msgstr ""
+msgstr "Περιγραφή του λεξιλογίου· μπορεί να χρησιμοποιείται από τις μονάδες."
 
 #: modules/taxonomy/taxonomy.install:199
+#, fuzzy
 msgid "Help text to display for the vocabulary."
-msgstr ""
+msgstr "Το όνομα που θα εμφανίζεται γι' αυτόν τον σύνδεσμο μενού."
 
 #: modules/taxonomy/taxonomy.install:207
 msgid "Whether or not related terms are enabled within the vocabulary. (0 = disabled, 1 = enabled)"
@@ -479,4 +504,3 @@ msgstr ""
 #: modules/taxonomy/taxonomy.install:277
 msgid "The {node}.type of the node type for which the vocabulary may be used."
 msgstr ""
-
