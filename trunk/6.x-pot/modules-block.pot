@@ -1,11 +1,11 @@
-# $Id: modules-block.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-block.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-block)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  block-admin-display-form.tpl.php,v 1.2 2007/11/14 09:49:30 dries
-#  block.admin.inc,v 1.13 2007/12/19 19:13:28 goba
-#  block.module,v 1.296 2007/12/19 21:40:05 goba
+#  block.admin.inc,v 1.14 2007/12/22 23:24:24 goba
+#  block.module,v 1.297 2007/12/24 10:33:39 goba
 #  block.install,v 1.8 2007/12/18 12:59:20 dries
 #  block.js,v 1.2 2007/12/16 10:36:53 goba
 #
@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

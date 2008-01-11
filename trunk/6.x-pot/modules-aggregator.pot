@@ -1,21 +1,21 @@
-# $Id: modules-aggregator.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-aggregator.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-aggregator)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  aggregator-feed-source.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator-item.tpl.php,v 1.1 2007/09/13 08:02:38 goba
-#  aggregator.pages.inc,v 1.11 2007/12/18 21:39:47 dries
-#  aggregator.module,v 1.369 2007/12/20 08:57:54 goba
+#  aggregator.pages.inc,v 1.12 2008/01/08 10:35:40 goba
+#  aggregator.module,v 1.373 2008/01/10 22:47:17 goba
 #  aggregator-summary-items.tpl.php,v 1.1 2007/09/13 08:02:38 goba
-#  aggregator.admin.inc,v 1.4 2007/12/19 17:45:41 goba
+#  aggregator.admin.inc,v 1.7 2008/01/10 22:47:17 goba
 #  aggregator.install,v 1.14 2007/12/18 12:59:20 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -120,59 +120,67 @@ msgstr ""
 msgid "The feed %feed has been added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:214
-msgid "A space-separated list of HTML tags allowed in the content of feed items. (Tags in this list are not removed by Drupal.)"
+#: modules/aggregator/aggregator.admin.inc:187
+msgid "Are you sure you want to remove all items from the feed %feed?"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:218
-msgid "Items shown in sources and categories pages"
-msgstr ""
-
-#: modules/aggregator/aggregator.admin.inc:220
-msgid "Number of feed items displayed in feed and category summary pages."
-msgstr ""
-
-#: modules/aggregator/aggregator.admin.inc:224
-msgid "Discard items older than"
-msgstr ""
-
-#: modules/aggregator/aggregator.admin.inc:226
-msgid "The length of time to retain feed items before discarding. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
+#: modules/aggregator/aggregator.admin.inc:190 modules/aggregator/aggregator.module:108
+msgid "Remove items"
 msgstr ""
 
 #: modules/aggregator/aggregator.admin.inc:230
+msgid "A space-separated list of HTML tags allowed in the content of feed items. (Tags in this list are not removed by Drupal.)"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:234
+msgid "Items shown in sources and categories pages"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:236
+msgid "Number of feed items displayed in feed and category summary pages."
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:240
+msgid "Discard items older than"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:242
+msgid "The length of time to retain feed items before discarding. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:246
 msgid "Category selection type"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "checkboxes"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "multiple selector"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:232
+#: modules/aggregator/aggregator.admin.inc:248
 msgid "The type of category selection widget displayed on categorization pages. (For a small number of categories, checkboxes are easier to use, while a multiple selector work well with large numbers of categories.)"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:279
+#: modules/aggregator/aggregator.admin.inc:295
 msgid "A category named %category already exists. Please enter a unique title."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:298
+#: modules/aggregator/aggregator.admin.inc:314
 msgid "The category %category has been updated."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:310
+#: modules/aggregator/aggregator.admin.inc:326
 msgid "The category %category has been deleted."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:323
+#: modules/aggregator/aggregator.admin.inc:339
 msgid "The category %category has been added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:161;174;309;322 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:602;649;656;726;0
+#: modules/aggregator/aggregator.admin.inc:161;174;325;338 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:602;636;643;713;0
 msgid "aggregator"
 msgstr ""
 
@@ -184,15 +192,15 @@ msgstr ""
 msgid "Feed %feed added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:309
+#: modules/aggregator/aggregator.admin.inc:325
 msgid "Category %category deleted."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:322
+#: modules/aggregator/aggregator.admin.inc:338
 msgid "Category %category added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:957
+#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:923
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] ""
@@ -302,27 +310,27 @@ msgstr ""
 msgid "There is no new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:650;649
+#: modules/aggregator/aggregator.module:637;636
 msgid "There is new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:653
+#: modules/aggregator/aggregator.module:640
 msgid "feed not parseable"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:657
+#: modules/aggregator/aggregator.module:644
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:727
+#: modules/aggregator/aggregator.module:714
 msgid "The feed from %site seems to be broken, because of error \"%error\" on line %line."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:925;925
+#: modules/aggregator/aggregator.module:891;891
 msgid "blog it"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:926
+#: modules/aggregator/aggregator.module:892
 msgid "Comment on this news item in your personal blog."
 msgstr ""
 
@@ -330,11 +338,11 @@ msgstr ""
 msgid "Updated URL for feed %title to %url."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:656
+#: modules/aggregator/aggregator.module:643
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:726
+#: modules/aggregator/aggregator.module:713
 msgid "The feed from %site seems to be broken, due to an error \"%error\" on line %line."
 msgstr ""
 
@@ -356,10 +364,6 @@ msgstr ""
 
 #: modules/aggregator/aggregator.module:90
 msgid "Add feed"
-msgstr ""
-
-#: modules/aggregator/aggregator.module:108
-msgid "Remove items"
 msgstr ""
 
 #: modules/aggregator/aggregator.module:116

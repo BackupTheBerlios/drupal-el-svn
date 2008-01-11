@@ -1,16 +1,16 @@
-# $Id: modules-path.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-path.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-path)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  path.admin.inc,v 1.5 2007/11/10 12:08:22 goba
-#  path.module,v 1.136 2007/12/14 18:08:47 goba
+#  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
+#  path.module,v 1.137 2007/12/23 15:32:36 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

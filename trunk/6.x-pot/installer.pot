@@ -1,28 +1,28 @@
-# $Id: installer.pot,v 1.1.4.4 2007/12/20 10:54:58 goba Exp $
+# $Id: installer.pot,v 1.1.4.5 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (installer)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  install.php,v 1.108 2007/12/20 08:26:42 goba
-#  system.install,v 1.216 2007/12/20 08:57:55 goba
-#  database.mysql.inc,v 1.85 2007/12/19 13:03:16 goba
-#  database.mysqli.inc,v 1.51 2007/12/19 13:03:16 goba
-#  database.pgsql.inc,v 1.65 2007/12/19 13:03:16 goba
-#  form.inc,v 1.254 2007/12/19 22:42:07 goba
+#  install.php,v 1.112 2008/01/07 19:43:28 goba
+#  system.install,v 1.229 2008/01/10 22:47:17 goba
+#  database.mysql.inc,v 1.87 2008/01/04 09:31:48 goba
+#  database.mysqli.inc,v 1.53 2008/01/04 09:31:48 goba
+#  database.pgsql.inc,v 1.68 2008/01/04 09:31:48 goba
+#  form.inc,v 1.258 2008/01/02 15:18:15 goba
 #  install.inc,v 1.56 2007/12/19 11:15:18 goba
 #  install.mysql.inc,v 1.8 2007/12/08 14:06:20 goba
 #  install.mysqli.inc,v 1.11 2007/12/19 11:25:47 goba
 #  install.pgsql.inc,v 1.6 2007/10/22 15:22:39 dries
-#  locale.inc,v 1.168 2007/12/18 16:27:44 goba
-#  theme.maintenance.inc,v 1.5 2007/12/08 15:15:25 goba
-#  unicode.inc,v 1.28 2007/12/20 08:46:01 goba
+#  locale.inc,v 1.174 2008/01/09 21:36:13 goba
+#  theme.maintenance.inc,v 1.7 2008/01/07 15:31:50 goba
+#  unicode.inc,v 1.29 2007/12/28 12:02:50 dries
 #  default.profile,v 1.22 2007/12/17 12:43:34 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -111,7 +111,7 @@ msgstr ""
 msgid "If more than one application will be sharing this database, enter a table prefix such as %prefix for your @drupal site here."
 msgstr ""
 
-#: install.php:327;474;1061
+#: install.php:327;474;1079
 msgid "Save and continue"
 msgstr ""
 
@@ -135,7 +135,7 @@ msgstr ""
 msgid "Select an installation profile"
 msgstr ""
 
-#: install.php:508;550;911
+#: install.php:508;550;929
 msgid "Choose language"
 msgstr ""
 
@@ -207,7 +207,15 @@ msgstr ""
 msgid "<ul><li>To start over, you must empty your existing database.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li><li>View your <a href=\"@base-url\">existing site</a>.</li></ul>"
 msgstr ""
 
-#: install.php:697;916
+#: install.php:640
+msgid "Installing @drupal"
+msgstr ""
+
+#: install.php:641
+msgid "The installation has encountered an error."
+msgstr ""
+
+#: install.php:697;934
 msgid "Configure site"
 msgstr ""
 
@@ -247,135 +255,135 @@ msgstr ""
 msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr ""
 
-#: install.php:871
-msgid "Currently using !item !version"
-msgstr ""
-
-#: install.php:899
+#: install.php:887
 msgid "The @drupal installer requires write permissions to %file during the installation process. If you are unsure how to grant file permissions, please consult the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr ""
 
-#: install.php:910
+#: install.php:902;914
+msgid "Currently using !item !version"
+msgstr ""
+
+#: install.php:928
 msgid "Choose profile"
 msgstr ""
 
-#: install.php:912
+#: install.php:930
 msgid "Verify requirements"
 msgstr ""
 
-#: install.php:913
+#: install.php:931
 msgid "Set up database"
 msgstr ""
 
-#: install.php:914
+#: install.php:932
 msgid "Install profile"
 msgstr ""
 
-#: install.php:915
+#: install.php:933
 msgid "Set up translations"
 msgstr ""
 
-#: install.php:927
+#: install.php:945
 msgid "Install site"
 msgstr ""
 
-#: install.php:947
+#: install.php:965
 msgid "Finish translations"
 msgstr ""
 
-#: install.php:952
+#: install.php:970
 msgid "Finished"
 msgstr ""
 
-#: install.php:969
+#: install.php:987
 msgid "To configure your website, please provide the following information."
 msgstr ""
 
-#: install.php:974
+#: install.php:992
 msgid "Site information"
 msgstr ""
 
-#: install.php:979
+#: install.php:997
 msgid "Site name"
 msgstr ""
 
-#: install.php:985
+#: install.php:1003
 msgid "Site e-mail address"
 msgstr ""
 
-#: install.php:987
+#: install.php:1005
 msgid "The <em>From</em> address in automated e-mails sent during registration and new password requests, and other notifications. (Use an address ending in your site's domain to help prevent this e-mail being flagged as spam.)"
 msgstr ""
 
-#: install.php:993
+#: install.php:1011
 msgid "Administrator account"
 msgstr ""
 
-#: install.php:998
+#: install.php:1016
 msgid "The administrator account has complete access to the site; it will automatically be granted all permissions and can perform any administrative activity. This will be the only account that can perform certain activities, so keep its credentials safe."
 msgstr ""
 
-#: install.php:1003
+#: install.php:1021
 msgid "Username"
 msgstr ""
 
-#: install.php:1005
+#: install.php:1023
 msgid "Spaces are allowed; punctuation is not allowed except for periods, hyphens, and underscores."
 msgstr ""
 
-#: install.php:1011
+#: install.php:1029
 msgid "E-mail address"
 msgstr ""
 
-#: install.php:1013
+#: install.php:1031
 msgid "All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail."
 msgstr ""
 
-#: install.php:1026
+#: install.php:1044
 msgid "Server settings"
 msgstr ""
 
-#: install.php:1031
+#: install.php:1049
 msgid "Default time zone"
 msgstr ""
 
-#: install.php:1034
+#: install.php:1052
 msgid "By default, dates in this site will be displayed in the chosen time zone."
 msgstr ""
 
-#: install.php:1040
+#: install.php:1058
 msgid "Clean URLs"
 msgstr ""
 
-#: install.php:1042
+#: install.php:1060
 msgid "Disabled"
 msgstr ""
 
-#: (duplicate) install.php:1042 modules/system/system.install:242 
+#: (duplicate) install.php:1060 modules/system/system.install:282 
 msgid "Enabled"
 msgstr ""
 
-#: install.php:1043
+#: install.php:1061
 msgid "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> in the URL)."
 msgstr ""
 
-#: (duplicate) install.php:1052 modules/system/system.install:253 
+#: (duplicate) install.php:1070 modules/system/system.install:293 
 msgid "Update notifications"
 msgstr ""
 
-#: install.php:1053
+#: install.php:1071
 msgid "Check for updates automatically"
 msgstr ""
 
-#: install.php:1055
+#: install.php:1073
 msgid "With this option enabled, Drupal will notify you when new releases are available. This will significantly enhance your site's security and is <strong>highly recommended</strong>. This requires your site to periodically send anonymous information on its installed components to <a href=\"@drupal\">drupal.org</a>. For more information please see the <a href=\"@update\">update notification information</a>."
 msgstr ""
 
-#: (duplicate) includes/database.mysql.inc:26  includes/database.mysqli.inc:30 
+#: (duplicate) includes/database.mysql.inc:26  includes/database.mysqli.inc:29 
 msgid "MySQL database"
 msgstr ""
 
-#: (duplicate) includes/database.mysql.inc:32  includes/database.mysqli.inc:36 
+#: (duplicate) includes/database.mysql.inc:32  includes/database.mysqli.inc:35 
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
 msgstr ""
 
@@ -403,31 +411,31 @@ msgstr ""
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2111 
+#: (duplicate) includes/form.inc:2120 
 msgid "This field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2116 ;2119 
+#: (duplicate) includes/form.inc:2125 ;2128 
 msgid "!title: !required"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2356 
+#: (duplicate) includes/form.inc:2365 
 msgid "Processing"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2357 
+#: (duplicate) includes/form.inc:2366 
 msgid "Initializing."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2358 
+#: (duplicate) includes/form.inc:2367 
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2359 
+#: (duplicate) includes/form.inc:2368 
 msgid "An error has occurred."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2432 
+#: (duplicate) includes/form.inc:2441 
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 
@@ -515,51 +523,51 @@ msgstr ""
 msgid "Failed to drop a test table from your PostgreSQL database server. We tried dropping a table with the command %query and PostgreSQL reported the following error %error."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1015 
+#: (duplicate) includes/locale.inc:1021 
 msgid "The translation import failed, because the file %filename could not be read."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1044 
+#: (duplicate) includes/locale.inc:1050 
 msgid "The translation file %filename contains an error: \"msgstr\" was expected but not found on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1050 
+#: (duplicate) includes/locale.inc:1056 
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1056 ;1074 ;1086 ;1094 ;1108 ;1117 
+#: (duplicate) includes/locale.inc:1062 ;1080 ;1092 ;1100 ;1114 ;1123 
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1068 
+#: (duplicate) includes/locale.inc:1074 
 msgid "The translation file %filename contains an error: \"msgid\" is unexpected on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1082 
+#: (duplicate) includes/locale.inc:1088 
 msgid "The translation file %filename contains an error: \"msgstr[]\" is unexpected on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1102 
+#: (duplicate) includes/locale.inc:1108 
 msgid "The translation file %filename contains an error: \"msgstr\" is unexpected on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1130 
+#: (duplicate) includes/locale.inc:1136 
 msgid "The translation file %filename contains an error: there is an unexpected string on line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1141 
+#: (duplicate) includes/locale.inc:1147 
 msgid "The translation file %filename ended unexpectedly at line %line."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:2508 
+#: (duplicate) includes/locale.inc:2514 
 msgid "Importing interface translations"
 msgstr ""
 
-#: (duplicate) includes/locale.inc:2509 
+#: (duplicate) includes/locale.inc:2515 
 msgid "Starting import"
 msgstr ""
 
-#: (duplicate) includes/locale.inc:2510 
+#: (duplicate) includes/locale.inc:2516 
 msgid "Error importing interface translations"
 msgstr ""
 
@@ -576,10 +584,18 @@ msgid "Please check the error messages and <a href=\"!url\">try again</a>."
 msgstr ""
 
 #: includes/theme.maintenance.inc:130
-msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
+msgid "The following installation warnings should be carefully reviewed"
 msgstr ""
 
 #: includes/theme.maintenance.inc:130
+msgid "The following installation warning should be carefully reviewed"
+msgstr ""
+
+#: includes/theme.maintenance.inc:137
+msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
+msgstr ""
+
+#: includes/theme.maintenance.inc:137
 msgid "The following installation warning should be carefully reviewed, but in most cases may be safely ignored"
 msgstr ""
 
@@ -647,139 +663,167 @@ msgstr ""
 msgid "Unable to determine your web server type and version. Drupal might not work properly."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:58 
-msgid "PHP"
+#: (duplicate) modules/system/system.install:56 
+msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
 msgstr ""
 
 #: (duplicate) modules/system/system.install:62 
+msgid "PHP"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:66 
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:78 ;214 
+#: (duplicate) modules/system/system.install:73 
+msgid "PHP memory limit"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:80 
+msgid "Consider increasing your PHP memory limit to %memory_minimum_limit to help prevent errors in the installation process."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:84 
+msgid "Depending on your configuration, Drupal can run with a %memory_limit PHP memory limit. However, a %memory_minimum_limit PHP memory limit or above is recommended, especially if your site uses additional custom or contributed modules."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:90 
+msgid "Increase the memory limit by editing the memory_limit parameter in the file %configuration-file and then restart your web server (or contact your system administrator or hosting provider for assistance)."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:93 
+msgid "Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:96 
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:112 ;254 
 msgid "Not protected"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:83 
+#: (duplicate) modules/system/system.install:117 
 msgid "The directory %file is not protected from modifications and poses a security risk. You must change the directory's permissions to be non-writable. "
 msgstr ""
 
-#: (duplicate) modules/system/system.install:86 
+#: (duplicate) modules/system/system.install:120 
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:91 ;221 
+#: (duplicate) modules/system/system.install:125 ;261 
 msgid "Protected"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:94 
+#: (duplicate) modules/system/system.install:128 
 msgid "Configuration file"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:104 
+#: (duplicate) modules/system/system.install:138 
 msgid "For more information, see the online handbook entry for <a href=\"@cron-handbook\">configuring cron jobs</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:128 
+#: (duplicate) modules/system/system.install:162 
 msgid "Cron has not run. Please visit the <a href=\"@status\">status report</a> for more information."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:133 
+#: (duplicate) modules/system/system.install:167 
 msgid "Never run"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:134 
+#: (duplicate) modules/system/system.install:168 
 msgid "Cron has not run."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:137 
+#: (duplicate) modules/system/system.install:171 
 msgid "Last run !time ago"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:140 
+#: (duplicate) modules/system/system.install:174 
 msgid "Cron has not run recently."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:145 
+#: (duplicate) modules/system/system.install:179 
 msgid "Cron maintenance tasks"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:148 
+#: (duplicate) modules/system/system.install:182 
 msgid "You can <a href=\"@cron\">run cron manually</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:158 
+#: (duplicate) modules/system/system.install:198 
 msgid "The directory %directory does not exist."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:161 
+#: (duplicate) modules/system/system.install:201 
 msgid "The directory %directory is not writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:164 
+#: (duplicate) modules/system/system.install:204 
 msgid "Not writable"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:168 
+#: (duplicate) modules/system/system.install:208 
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:173 
-msgid "To proceed with the installation, please ensure that the files directory exists and is writable by the installer. If you are unsure how to create this directory and modify its permissions, please consult the <a href=\"@handbook_url\">on-line handbook</a> or INSTALL.txt."
+#: (duplicate) modules/system/system.install:213 
+msgid "An automated attempt to create this directory failed, possibly due to a permissions problem. To proceed with the installation, either create the directory and modify its permissions manually, or ensure that the installer has the permissions to create it automatically. For more information, please see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:179 
+#: (duplicate) modules/system/system.install:219 
 msgid "Writable (<em>public</em> download method)"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:182 
+#: (duplicate) modules/system/system.install:222 
 msgid "Writable (<em>private</em> download method)"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:185 
+#: (duplicate) modules/system/system.install:225 
 msgid "File system"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:190 
+#: (duplicate) modules/system/system.install:230 
 msgid "Database updates"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:192 
+#: (duplicate) modules/system/system.install:232 
 msgid "Up to date"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:202 
+#: (duplicate) modules/system/system.install:242 
 msgid "Out of date"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:203 
+#: (duplicate) modules/system/system.install:243 
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:216 
+#: (duplicate) modules/system/system.install:256 
 msgid "The update.php script is accessible to everyone without authentication check, which is a security risk. You must change the $update_free_access value in your settings.php back to FALSE."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:224 
+#: (duplicate) modules/system/system.install:264 
 msgid "Access to update.php"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:235 
+#: (duplicate) modules/system/system.install:275 
 msgid "Not enabled"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:237 
+#: (duplicate) modules/system/system.install:277 
 msgid "Update notifications are not enabled. It is <strong>highly recommended</strong> that you enable the update status module from the <a href=\"@module\">module administration page</a> in order to stay up-to-date on new releases. For more information please read the <a href=\"@update\">Update status handbook page</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:246 
+#: (duplicate) modules/system/system.install:286 
 msgid "HTTP request status"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:247 
+#: (duplicate) modules/system/system.install:287 
 msgid "Fails"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:249 
+#: (duplicate) modules/system/system.install:289 
 msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
 msgstr ""
 

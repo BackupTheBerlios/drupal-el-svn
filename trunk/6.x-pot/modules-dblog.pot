@@ -1,17 +1,17 @@
-# $Id: modules-dblog.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-dblog.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-dblog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  dblog.admin.inc,v 1.5 2007/12/19 17:45:42 goba
-#  dblog.module,v 1.19 2007/12/14 18:08:46 goba
+#  dblog.admin.inc,v 1.6 2008/01/08 10:35:41 goba
+#  dblog.module,v 1.21 2008/01/08 10:35:41 goba
 #  dblog.install,v 1.6 2007/11/04 14:33:06 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

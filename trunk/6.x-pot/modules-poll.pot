@@ -1,4 +1,4 @@
-# $Id: modules-poll.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-poll.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-poll)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -7,14 +7,14 @@
 #  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
 #  poll-results-block.tpl.php,v 1.2 2007/08/02 20:08:53 dries
 #  poll-results.tpl.php,v 1.2 2007/08/07 08:39:35 goba
-#  poll.module,v 1.257 2007/12/17 21:58:38 goba
+#  poll.module,v 1.262 2008/01/09 09:51:34 goba
 #  poll.install,v 1.13 2007/12/18 12:59:21 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -45,7 +45,7 @@ msgstr ""
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr ""
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:569
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
 msgid "Vote"
 msgstr ""
 
@@ -73,92 +73,100 @@ msgstr ""
 msgid "Question"
 msgstr ""
 
-#: modules/poll/poll.module:236
+#: modules/poll/poll.module:237
 msgid "More choices"
 msgstr ""
 
-#: modules/poll/poll.module:237
+#: modules/poll/poll.module:238
 msgid "If the amount of boxes above isn't enough, click here to add more choices."
 msgstr ""
 
-#: modules/poll/poll.module:250
+#: modules/poll/poll.module:251
 msgid "Closed"
 msgstr ""
 
-#: modules/poll/poll.module:256
+#: modules/poll/poll.module:257
 msgid "Poll settings"
 msgstr ""
 
-#: modules/poll/poll.module:262
+#: modules/poll/poll.module:263
 msgid "Poll status"
 msgstr ""
 
-#: modules/poll/poll.module:265
+#: modules/poll/poll.module:266
 msgid "When a poll is closed, visitors can no longer vote for it."
 msgstr ""
 
-#: modules/poll/poll.module:270
+#: modules/poll/poll.module:271
 msgid "Poll duration"
 msgstr ""
 
-#: modules/poll/poll.module:273
+#: modules/poll/poll.module:274
 msgid "After this period, the poll will be closed automatically."
 msgstr ""
 
-#: modules/poll/poll.module:305
+#: modules/poll/poll.module:306
 msgid "Choice @n"
 msgstr ""
 
-#: modules/poll/poll.module:313
+#: modules/poll/poll.module:314
 msgid "Votes for choice @n"
 msgstr ""
 
-#: modules/poll/poll.module:383
+#: modules/poll/poll.module:385
 msgid "Negative values are not allowed."
 msgstr ""
 
-#: modules/poll/poll.module:388
+#: modules/poll/poll.module:390
 msgid "You must fill in at least two choices."
 msgstr ""
 
-#: modules/poll/poll.module:509
+#: modules/poll/poll.module:511
 msgid "Older polls"
 msgstr ""
 
-#: modules/poll/poll.module:509
+#: modules/poll/poll.module:511
 msgid "View the list of polls on this site."
 msgstr ""
 
-#: modules/poll/poll.module:511;98
+#: modules/poll/poll.module:513;98
 msgid "Results"
 msgstr ""
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "View the current poll results."
 msgstr ""
 
-#: modules/poll/poll.module:605
+#: modules/poll/poll.module:607
 msgid "Your vote was recorded."
 msgstr ""
 
-#: modules/poll/poll.module:658
+#: modules/poll/poll.module:663
 msgid "Add another choice"
 msgstr ""
 
-#: modules/poll/poll.module:662
+#: modules/poll/poll.module:667
 msgid "Choice"
 msgstr ""
 
-#: modules/poll/poll.module:663
+#: modules/poll/poll.module:668
 msgid "Vote count"
 msgstr ""
 
-#: modules/poll/poll.module:745
+#: modules/poll/poll.module:750
 msgid "Cancel your vote"
 msgstr ""
 
 #: modules/poll/poll.module:57
 msgid "create poll content"
+msgstr ""
+
+#: modules/poll/poll.module:57
+msgid "delete own poll content"
+msgstr ""
+
+#: modules/poll/poll.module:57
+msgid "delete any poll content"
 msgstr ""
 
 #: modules/poll/poll.module:57

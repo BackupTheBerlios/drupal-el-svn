@@ -1,16 +1,16 @@
-# $Id: modules-blog.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-blog.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-blog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  blog.pages.inc,v 1.4 2007/12/14 10:40:51 goba
-#  blog.module,v 1.295 2007/12/19 19:13:28 goba
+#  blog.pages.inc,v 1.5 2008/01/09 09:51:34 goba
+#  blog.module,v 1.297 2008/01/09 09:51:34 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:111
+#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:108
 msgid "@name's blog"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgstr ""
 msgid "View recent blog entries"
 msgstr ""
 
-#: modules/blog/blog.module:52;127
+#: modules/blog/blog.module:52;124
 msgid "Read @username's latest blog entries."
 msgstr ""
 
@@ -75,27 +75,43 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."
 msgstr ""
 
-#: modules/blog/blog.module:111;140;155;163
+#: modules/blog/blog.module:108;137;152;160
 msgid "Blogs"
 msgstr ""
 
-#: modules/blog/blog.module:125
+#: modules/blog/blog.module:122
 msgid "@username's blog"
 msgstr ""
 
-#: modules/blog/blog.module:181;190
+#: modules/blog/blog.module:178;187
 msgid "Recent blog posts"
 msgstr ""
 
-#: modules/blog/blog.module:189
+#: modules/blog/blog.module:186
 msgid "Read the latest blog entries."
 msgstr ""
 
 #: modules/blog/blog.module:26
-msgid "edit own blog"
+msgid "create blog entries"
 msgstr ""
 
-#: modules/blog/blog.module:147
+#: modules/blog/blog.module:26
+msgid "delete own blog entries"
+msgstr ""
+
+#: modules/blog/blog.module:26
+msgid "delete any blog entry"
+msgstr ""
+
+#: modules/blog/blog.module:26
+msgid "edit own blog entries"
+msgstr ""
+
+#: modules/blog/blog.module:26
+msgid "edit any blog entry"
+msgstr ""
+
+#: modules/blog/blog.module:144
 msgid "My blog"
 msgstr ""
 

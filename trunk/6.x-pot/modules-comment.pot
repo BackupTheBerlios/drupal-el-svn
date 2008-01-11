@@ -1,19 +1,19 @@
-# $Id: modules-comment.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-comment.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-comment)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  comment-folded.tpl.php,v 1.2 2007/08/07 08:39:35 goba
-#  comment.admin.inc,v 1.3 2007/12/18 22:16:55 dries
-#  comment.module,v 1.610 2007/12/19 21:40:05 goba
+#  comment.admin.inc,v 1.4 2008/01/08 10:35:41 goba
+#  comment.module,v 1.616 2008/01/10 15:03:53 goba
 #  comment.pages.inc,v 1.2 2007/12/16 21:01:44 goba
-#  comment.install,v 1.17 2007/12/19 10:34:51 goba
+#  comment.install,v 1.18 2008/01/05 22:45:40 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "Comment: deleted %subject."
 msgstr ""
 
-#: modules/comment/comment.pages.inc:60 modules/comment/comment.module:557;1429
+#: modules/comment/comment.pages.inc:60 modules/comment/comment.module:557;1425
 msgid "Preview comment"
 msgstr ""
 
@@ -278,127 +278,123 @@ msgstr ""
 msgid "reply"
 msgstr ""
 
-#: modules/comment/comment.module:1052
+#: modules/comment/comment.module:1048
 msgid "Post new comment"
 msgstr ""
 
-#: modules/comment/comment.module:1073;1085
+#: modules/comment/comment.module:1069;1081
 msgid "Publish the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1074;1080;1087
+#: modules/comment/comment.module:1070;1076;1083
 msgid "Delete the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1079;1086
+#: modules/comment/comment.module:1075;1082
 msgid "Unpublish the selected comments"
 msgstr ""
 
-#: modules/comment/comment.module:1196
+#: modules/comment/comment.module:1192
 msgid "You have to specify a valid author."
 msgstr ""
 
-#: modules/comment/comment.module:1207
+#: modules/comment/comment.module:1203
 msgid "The name you used belongs to a registered user."
 msgstr ""
 
-#: modules/comment/comment.module:1212
+#: modules/comment/comment.module:1208
 msgid "You have to leave your name."
 msgstr ""
 
-#: modules/comment/comment.module:1217
+#: modules/comment/comment.module:1213
 msgid "The e-mail address you specified is not valid."
 msgstr ""
 
-#: modules/comment/comment.module:1221
+#: modules/comment/comment.module:1217
 msgid "You have to leave an e-mail address."
 msgstr ""
 
-#: modules/comment/comment.module:1226
+#: modules/comment/comment.module:1222
 msgid "The URL of your homepage is not valid. Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
 msgstr ""
 
-#: modules/comment/comment.module:1282
+#: modules/comment/comment.module:1278
 msgid "Administration"
 msgstr ""
 
-#: modules/comment/comment.module:1325;1350;1357
+#: modules/comment/comment.module:1321;1346;1353
 msgid "Homepage"
 msgstr ""
 
-#: modules/comment/comment.module:1531
+#: modules/comment/comment.module:1527
 msgid "(No subject)"
 msgstr ""
 
-#: modules/comment/comment.module:1617
+#: modules/comment/comment.module:1613
 msgid "!a comments per page"
 msgstr ""
 
-#: modules/comment/comment.module:1644
+#: modules/comment/comment.module:1640
 msgid "Select your preferred way to display the comments and click \"Save settings\" to activate your changes."
 msgstr ""
 
-#: modules/comment/comment.module:1645
+#: modules/comment/comment.module:1641
 msgid "Comment viewing options"
 msgstr ""
 
-#: modules/comment/comment.module:1765
-msgid "you can't post comments"
-msgstr ""
-
-#: modules/comment/comment.module:1777
+#: modules/comment/comment.module:1794
 msgid "<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post comments"
 msgstr ""
 
-#: modules/comment/comment.module:1780
+#: modules/comment/comment.module:1798
 msgid "<a href=\"@login\">Login</a> to post comments"
 msgstr ""
 
-#: modules/comment/comment.module:1807
+#: modules/comment/comment.module:1826
 msgid "Submitted by !username on @datetime."
 msgstr ""
 
-#: modules/comment/comment.module:1822
+#: modules/comment/comment.module:1841
 msgid "Flat list - collapsed"
 msgstr ""
 
-#: modules/comment/comment.module:1823
+#: modules/comment/comment.module:1842
 msgid "Flat list - expanded"
 msgstr ""
 
-#: modules/comment/comment.module:1824
+#: modules/comment/comment.module:1843
 msgid "Threaded list - collapsed"
 msgstr ""
 
-#: modules/comment/comment.module:1825
+#: modules/comment/comment.module:1844
 msgid "Threaded list - expanded"
 msgstr ""
 
-#: modules/comment/comment.module:1981
+#: modules/comment/comment.module:2000
 msgid "After saving a new comment"
 msgstr ""
 
-#: modules/comment/comment.module:1984
+#: modules/comment/comment.module:2003
 msgid "After saving an updated comment"
 msgstr ""
 
-#: modules/comment/comment.module:1987
+#: modules/comment/comment.module:2006
 msgid "After deleting a comment"
 msgstr ""
 
-#: modules/comment/comment.module:1990
+#: modules/comment/comment.module:2009
 msgid "When a comment is being viewed by an authenticated user"
 msgstr ""
 
-#: modules/comment/comment.module:2003
+#: modules/comment/comment.module:2022
 msgid "Unpublish comment"
 msgstr ""
 
-#: modules/comment/comment.module:2011
+#: modules/comment/comment.module:2030
 msgid "Unpublish comment containing keyword(s)"
 msgstr ""
 
-#: modules/comment/comment.module:2051
+#: modules/comment/comment.module:2070
 msgid "The comment will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
 msgstr ""
 
@@ -406,7 +402,7 @@ msgstr ""
 msgid "Comment: added %subject."
 msgstr ""
 
-#: modules/comment/comment.module:2039;2079
+#: modules/comment/comment.module:2058;2098
 msgid "Unpublished comment %subject."
 msgstr ""
 
@@ -460,87 +456,87 @@ msgstr ""
 msgid "comment"
 msgstr ""
 
-#: modules/comment/comment.install:66
+#: modules/comment/comment.install:75
 msgid "Stores comments and associated data."
 msgstr ""
 
-#: modules/comment/comment.install:71
+#: modules/comment/comment.install:80
 msgid "Primary Key: Unique comment ID."
 msgstr ""
 
-#: modules/comment/comment.install:77
+#: modules/comment/comment.install:86
 msgid "The {comments}.cid to which this comment is a reply. If set to 0, this comment is not a reply to an existing comment."
 msgstr ""
 
-#: modules/comment/comment.install:83
+#: modules/comment/comment.install:92
 msgid "The {node}.nid to which this comment is a reply."
 msgstr ""
 
-#: modules/comment/comment.install:89
+#: modules/comment/comment.install:98
 msgid "The {users}.uid who authored the comment. If set to 0, this comment was created by an anonymous user."
 msgstr ""
 
-#: modules/comment/comment.install:96
+#: modules/comment/comment.install:105
 msgid "The comment title."
 msgstr ""
 
-#: modules/comment/comment.install:102
+#: modules/comment/comment.install:111
 msgid "The comment body."
 msgstr ""
 
-#: modules/comment/comment.install:109
+#: modules/comment/comment.install:118
 msgid "The author's host name."
 msgstr ""
 
-#: modules/comment/comment.install:115
+#: modules/comment/comment.install:124
 msgid "The time that the comment was created, or last edited by its author, as a Unix timestamp."
 msgstr ""
 
-#: modules/comment/comment.install:123
+#: modules/comment/comment.install:132
 msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
 msgstr ""
 
-#: modules/comment/comment.install:130
+#: modules/comment/comment.install:139
 msgid "The {filter_formats}.format of the comment body."
 msgstr ""
 
-#: modules/comment/comment.install:136
+#: modules/comment/comment.install:145
 msgid "The vancode representation of the comment's place in a thread."
 msgstr ""
 
-#: modules/comment/comment.install:142
+#: modules/comment/comment.install:151
 msgid "The comment author's name. Uses {users}.name if the user is logged in, otherwise uses the value typed into the comment form."
 msgstr ""
 
-#: modules/comment/comment.install:148
+#: modules/comment/comment.install:157
 msgid "The comment author's e-mail address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
 msgstr ""
 
-#: modules/comment/comment.install:154
+#: modules/comment/comment.install:163
 msgid "The comment author's home page address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
 msgstr ""
 
-#: modules/comment/comment.install:165
+#: modules/comment/comment.install:175
 msgid "Maintains statistics of node and comments posts to show \"new\" and \"updated\" flags."
 msgstr ""
 
-#: modules/comment/comment.install:172
+#: modules/comment/comment.install:182
 msgid "The {node}.nid for which the statistics are compiled."
 msgstr ""
 
-#: modules/comment/comment.install:178
+#: modules/comment/comment.install:188
 msgid "The Unix timestamp of the last comment that was posted within this node, from {comments}.timestamp."
 msgstr ""
 
-#: modules/comment/comment.install:184
+#: modules/comment/comment.install:194
 msgid "The name of the latest author to post a comment on this node, from {comments}.name."
 msgstr ""
 
-#: modules/comment/comment.install:190
+#: modules/comment/comment.install:200
 msgid "The user ID of the latest author to post a comment on this node, from {comments}.uid."
 msgstr ""
 
-#: modules/comment/comment.install:197
+#: modules/comment/comment.install:207
 msgid "The total number of comments on this node."
 msgstr ""
 

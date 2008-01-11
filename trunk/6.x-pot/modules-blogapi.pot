@@ -1,14 +1,14 @@
-# $Id: modules-blogapi.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-blogapi.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-blogapi)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: blogapi.module,v 1.112 2007/12/14 18:08:44 goba
+# Generated from file: blogapi.module,v 1.114 2008/01/09 09:51:34 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -33,123 +33,127 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@blogapi\">Blog API module</a>."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:32
+#: modules/blogapi/blogapi.module:39
 msgid "Returns a list of blogs to which an author has posting privileges."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:37
+#: modules/blogapi/blogapi.module:44
 msgid "Returns information about an author in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:42;67
+#: modules/blogapi/blogapi.module:49;74
 msgid "Creates a new post, and optionally publishes it."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:47
+#: modules/blogapi/blogapi.module:54
 msgid "Updates the information about an existing post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:52;77
+#: modules/blogapi/blogapi.module:59;84
 msgid "Returns information about a specific post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:57
+#: modules/blogapi/blogapi.module:64
 msgid "Deletes a post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:62;92
+#: modules/blogapi/blogapi.module:69;99
 msgid "Returns a list of the most recent posts in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:72
+#: modules/blogapi/blogapi.module:79
 msgid "Updates information about an existing post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:82
+#: modules/blogapi/blogapi.module:89
 msgid "Uploads a file to your webserver."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:87;107
+#: modules/blogapi/blogapi.module:94;114
 msgid "Returns a list of all categories to which the post is assigned."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:97
+#: modules/blogapi/blogapi.module:104
 msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:102
+#: modules/blogapi/blogapi.module:109
 msgid "Returns a list of all categories defined in the blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:112
+#: modules/blogapi/blogapi.module:119
 msgid "Sets the categories for a post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:117
+#: modules/blogapi/blogapi.module:124
 msgid "Retrieve information about the XML-RPC methods supported by the server."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:122
+#: modules/blogapi/blogapi.module:129
 msgid "Retrieve information about the text formatting plugins supported by the server."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:127
+#: modules/blogapi/blogapi.module:134
 msgid "Publish (rebuild) all of the static files related to an entry from your blog. Equivalent to saving an entry in the system (but without the ping)."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:204
+#: modules/blogapi/blogapi.module:211
 msgid "You do not have permission to create this type of post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:226;281
+#: modules/blogapi/blogapi.module:233;288
 msgid "Error storing post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:248;482
+#: modules/blogapi/blogapi.module:255;487
 msgid "You do not have permission to update this post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:362
+#: modules/blogapi/blogapi.module:369
 msgid "No file sent."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:366
+#: modules/blogapi/blogapi.module:373
 msgid "Error storing file."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:477
+#: modules/blogapi/blogapi.module:482
 msgid "Invalid post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:517
+#: modules/blogapi/blogapi.module:522
 msgid "You do not have permission to edit this blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:521
+#: modules/blogapi/blogapi.module:526
 msgid "Wrong username or password."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:544
+#: modules/blogapi/blogapi.module:549
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:548
+#: modules/blogapi/blogapi.module:553
 msgid "Select the content types available to external blogging clients via Blog API. If supported, each enabled content type will be displayed as a separate \"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:577;556
+#: modules/blogapi/blogapi.module:582;561
 msgid "RSD"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:221
+#: modules/blogapi/blogapi.module:228
 msgid "@type: added %title using blog API."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:277
+#: modules/blogapi/blogapi.module:284
 msgid "@type: updated %title using Blog API."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:563
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr ""
+
+#: modules/blogapi/blogapi.module:568
 msgid "Configure the content types available to external blogging clients."
 msgstr ""
 

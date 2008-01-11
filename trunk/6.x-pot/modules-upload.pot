@@ -1,17 +1,17 @@
-# $Id: modules-upload.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-upload.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-upload)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  upload.admin.inc,v 1.4 2007/11/12 19:06:33 goba
-#  upload.module,v 1.195 2007/12/14 18:08:49 goba
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  upload.module,v 1.197 2007/12/31 08:46:44 dries
 #  upload.install,v 1.6 2007/12/18 12:59:22 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -24,12 +24,12 @@ msgstr ""
 msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
 msgstr ""
 
-#: modules/upload/upload.admin.inc:17
-msgid "Your PHP settings limit the maximum file size per upload to %size MB."
+#: modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
 msgstr ""
 
 #: modules/upload/upload.admin.inc:18
-msgid "Depending on your sever environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
+msgid "Depending on your server environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
 msgstr ""
 
 #: modules/upload/upload.admin.inc:21;24;39;42
@@ -92,10 +92,6 @@ msgstr ""
 msgid "The default maximum size of all files a user can have on the site."
 msgstr ""
 
-#: modules/upload/upload.admin.inc:110
-msgid "Your PHP settings limit the maximum file size per upload to %size."
-msgstr ""
-
 #: modules/upload/upload.admin.inc:118
 msgid "Settings for @role"
 msgstr ""
@@ -144,59 +140,59 @@ msgstr ""
 msgid "Read full article to view attachments."
 msgstr ""
 
-#: modules/upload/upload.module:206
+#: modules/upload/upload.module:220
 msgid "Attachments"
 msgstr ""
 
-#: modules/upload/upload.module:219
+#: modules/upload/upload.module:233
 msgid "File attachments"
 msgstr ""
 
-#: modules/upload/upload.module:222
+#: modules/upload/upload.module:236
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
 msgstr ""
 
-#: modules/upload/upload.module:240
+#: modules/upload/upload.module:254
 msgid "File attachments are disabled. The file directories have not been properly configured."
 msgstr ""
 
-#: modules/upload/upload.module:242
+#: modules/upload/upload.module:256
 msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
 msgstr ""
 
-#: modules/upload/upload.module:245
+#: modules/upload/upload.module:259
 msgid "Please contact the site administrator."
 msgstr ""
 
-#: modules/upload/upload.module:347
+#: modules/upload/upload.module:361
 msgid "Attachment"
 msgstr ""
 
-#: modules/upload/upload.module:347;526
+#: modules/upload/upload.module:361;544
 msgid "Size"
 msgstr ""
 
-#: modules/upload/upload.module:498
+#: modules/upload/upload.module:516
 msgid "Attach new file"
 msgstr ""
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:518
 msgid "Images are larger than %resolution will be resized. "
 msgstr ""
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:518
 msgid "The maximum upload size is %filesize. Only files with the following extensions may be uploaded: %extensions. "
 msgstr ""
 
-#: modules/upload/upload.module:504
+#: modules/upload/upload.module:522
 msgid "Attach"
 msgstr ""
 
-#: modules/upload/upload.module:509
+#: modules/upload/upload.module:527
 msgid "Please wait..."
 msgstr ""
 
-#: modules/upload/upload.module:65;312
+#: modules/upload/upload.module:65;326
 msgid "1 attachment"
 msgid_plural "@count attachments"
 msgstr[0] ""

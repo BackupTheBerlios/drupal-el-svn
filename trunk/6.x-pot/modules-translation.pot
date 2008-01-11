@@ -1,16 +1,16 @@
-# $Id: modules-translation.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: modules-translation.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-translation)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  translation.pages.inc,v 1.1 2007/10/16 09:15:19 goba
-#  translation.module,v 1.20 2007/12/18 16:27:44 goba
+#  translation.pages.inc,v 1.2 2008/01/07 13:18:40 goba
+#  translation.module,v 1.22 2008/01/09 11:51:54 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -76,7 +76,7 @@ msgid "The <a href=\"@content-node\">Content management administration page</a> 
 msgstr ""
 
 #: modules/translation/translation.module:44
-msgid "Use the <href=\"@blocks\">language switcher block</a> provided by locale module to allow users to select a language. If available, both the site interface and site content are presented in the language selected."
+msgid "Use the <a href=\"@blocks\">language switcher block</a> provided by locale module to allow users to select a language. If available, both the site interface and site content are presented in the language selected."
 msgstr ""
 
 #: modules/translation/translation.module:45

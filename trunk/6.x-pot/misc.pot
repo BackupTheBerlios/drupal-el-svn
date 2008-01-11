@@ -1,21 +1,18 @@
-# $Id: misc.pot,v 1.1.2.3 2007/12/20 10:54:58 goba Exp $
+# $Id: misc.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
 #
 # LANGUAGE translation of Drupal (misc)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  ahah.js,v 1.6 2007/11/19 10:05:48 goba
-#  autocomplete.js,v 1.22 2007/10/21 18:59:01 goba
-#  progress.js,v 1.19 2007/10/21 18:59:01 goba
-#  drupal.js,v 1.40 2007/10/05 09:35:08 goba
+#  drupal.js,v 1.41 2008/01/04 11:53:21 goba
 #  tabledrag.js,v 1.13 2007/12/19 10:58:35 goba
 #  tableselect.js,v 1.8 2007/11/19 12:15:16 goba
-#  teaser.js,v 1.10 2007/11/13 14:04:08 dries
+#  teaser.js,v 1.12 2008/01/09 12:10:04 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -24,16 +21,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: misc/ahah.js:0
-msgid "An error occurred:\\n\\n@error"
-msgstr ""
-
-#: misc/autocomplete.js:0 misc/progress.js:0
-msgid "An HTTP error @status occurred. \n@uri"
+#: misc/drupal.js:0
+msgid "Unspecified error"
 msgstr ""
 
 #: misc/drupal.js:0
-msgid "Unspecified error"
+msgid "An error occurred. \n@uri\n@text"
+msgstr ""
+
+#: misc/drupal.js:0
+msgid "An error occurred. \n@uri\n(no information available)."
+msgstr ""
+
+#: misc/drupal.js:0
+msgid "An HTTP error @status occurred. \n@uri"
 msgstr ""
 
 #: misc/tabledrag.js:0
