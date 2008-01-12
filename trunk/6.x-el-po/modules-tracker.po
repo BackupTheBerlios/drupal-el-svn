@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -31,12 +31,6 @@ msgstr "Καταχώριση"
 #: modules/tracker/tracker.pages.inc:65
 msgid "Last updated"
 msgstr "Τελευταία ενημέρωση"
-
-#: modules/tracker/tracker.pages.inc:48
-msgid "1 new"
-msgid_plural "@count new"
-msgstr[0] "1 νέο"
-msgstr[1] "@count νέα"
 
 #: modules/tracker/tracker.module:15
 #, fuzzy

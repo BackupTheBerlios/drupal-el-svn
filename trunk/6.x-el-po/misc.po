@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -20,18 +20,28 @@ msgstr ""
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: misc/ahah.js:0
-msgid "An error occurred:\\n\\n@error"
-msgstr ""
-
-#: misc/autocomplete.js:0 misc/progress.js:0
-msgid ""
-"An HTTP error @status occurred. \n"
-"@uri"
+#: misc/drupal.js:0
+msgid "Unspecified error"
 msgstr ""
 
 #: misc/drupal.js:0
-msgid "Unspecified error"
+msgid ""
+"An error occurred. \n"
+"@uri\n"
+"@text"
+msgstr ""
+
+#: misc/drupal.js:0
+msgid ""
+"An error occurred. \n"
+"@uri\n"
+"(no information available)."
+msgstr ""
+
+#: misc/drupal.js:0
+msgid ""
+"An HTTP error @status occurred. \n"
+"@uri"
 msgstr ""
 
 #: misc/tabledrag.js:0

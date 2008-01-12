@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -120,64 +120,74 @@ msgstr "Η ροή %feed διαγράφηκε."
 msgid "The feed %feed has been added."
 msgstr "Η ροή %feed προστέθηκε."
 
-#: modules/aggregator/aggregator.admin.inc:214
+#: modules/aggregator/aggregator.admin.inc:187
+#, fuzzy
+msgid "Are you sure you want to remove all items from the feed %feed?"
+msgstr "Θέλετε σίγουρα να διαγράψετε το πεδίο %field;"
+
+#: modules/aggregator/aggregator.admin.inc:190
+#: modules/aggregator/aggregator.module:108
+msgid "Remove items"
+msgstr "Αφαίρεση αντικειμένων"
+
+#: modules/aggregator/aggregator.admin.inc:230
 msgid "A space-separated list of HTML tags allowed in the content of feed items. (Tags in this list are not removed by Drupal.)"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:218
+#: modules/aggregator/aggregator.admin.inc:234
 msgid "Items shown in sources and categories pages"
 msgstr "Αντικείμενα που θα εμφανίζονται στις σελίδες των πηγών και των κατηγοριών"
 
-#: modules/aggregator/aggregator.admin.inc:220
+#: modules/aggregator/aggregator.admin.inc:236
 #, fuzzy
 msgid "Number of feed items displayed in feed and category summary pages."
 msgstr "Ο αριθμός των αντικειμένων που θα εμφανίζονται για κάθε ροή ή κατηγορία στις σελίδες περιλήψεων των ροών και των κατηγοριών."
 
-#: modules/aggregator/aggregator.admin.inc:224
+#: modules/aggregator/aggregator.admin.inc:240
 #, fuzzy
 msgid "Discard items older than"
 msgstr "Να διαγράφονται οι ειδήσεις που είναι παλιότερες από"
 
-#: modules/aggregator/aggregator.admin.inc:226
+#: modules/aggregator/aggregator.admin.inc:242
 msgid "The length of time to retain feed items before discarding. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:230
+#: modules/aggregator/aggregator.admin.inc:246
 msgid "Category selection type"
 msgstr "Τύπος επιλογής κατηγοριών"
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "checkboxes"
 msgstr "πλαίσια επιλογής"
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "multiple selector"
 msgstr "πολλαπλός επιλογέας"
 
-#: modules/aggregator/aggregator.admin.inc:232
+#: modules/aggregator/aggregator.admin.inc:248
 #, fuzzy
 msgid "The type of category selection widget displayed on categorization pages. (For a small number of categories, checkboxes are easier to use, while a multiple selector work well with large numbers of categories.)"
 msgstr "Ο τύπος του γραφικού συστατικού επιλογής κατηγοριών που θα εμφανίζεται στις σελίδες κατάταξης σε κατηγορίες. Τα πλαίσια επιλογής είναι πιο εύχρηστα· ενώ ένας πολλαπλός επιλογέας είναι καλός όταν δουλεύετε με ένα μεγάλο αριθμό κατηγοριών."
 
-#: modules/aggregator/aggregator.admin.inc:279
+#: modules/aggregator/aggregator.admin.inc:295
 msgid "A category named %category already exists. Please enter a unique title."
 msgstr "Υπάρχει ήδη κατηγορία με το όνομα %category. Εισάγετε ένα μοναδικό τίτλο."
 
-#: modules/aggregator/aggregator.admin.inc:298
+#: modules/aggregator/aggregator.admin.inc:314
 msgid "The category %category has been updated."
 msgstr "Η κατηγορία %category ενημερώθηκε."
 
-#: modules/aggregator/aggregator.admin.inc:310
+#: modules/aggregator/aggregator.admin.inc:326
 msgid "The category %category has been deleted."
 msgstr "Η κατηγορία %category διαγράφηκε."
 
-#: modules/aggregator/aggregator.admin.inc:323
+#: modules/aggregator/aggregator.admin.inc:339
 msgid "The category %category has been added."
 msgstr "Η κατηγορία %category προστέθηκε."
 
-#: modules/aggregator/aggregator.admin.inc:161;174;309;322
+#: modules/aggregator/aggregator.admin.inc:161;174;325;338
 #: modules/aggregator/aggregator.pages.inc:16
-#: modules/aggregator/aggregator.module:602;649;656;726;0
+#: modules/aggregator/aggregator.module:602;636;643;713;0
 msgid "aggregator"
 msgstr "συλλέκτης"
 
@@ -189,16 +199,16 @@ msgstr "Η ροή %feed διαγράφηκε."
 msgid "Feed %feed added."
 msgstr "Η ροή %feed προστέθηκε."
 
-#: modules/aggregator/aggregator.admin.inc:309
+#: modules/aggregator/aggregator.admin.inc:325
 msgid "Category %category deleted."
 msgstr "Η κατηγορία %category διαγράφηκε."
 
-#: modules/aggregator/aggregator.admin.inc:322
+#: modules/aggregator/aggregator.admin.inc:338
 msgid "Category %category added."
 msgstr "Η κατηγορία %category προστέθηκε."
 
 #: modules/aggregator/aggregator.admin.inc:30;41
-#: modules/aggregator/aggregator.module:957
+#: modules/aggregator/aggregator.module:923
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] "1 αντικείμενο"
@@ -314,27 +324,27 @@ msgstr "Τα αντικείμενα ειδήσεων από το %site αφαι�
 msgid "There is no new syndicated content from %site."
 msgstr "Δεν υπάρχει νέα ανεξάρτητη ύλη από το %site."
 
-#: modules/aggregator/aggregator.module:650;649
+#: modules/aggregator/aggregator.module:637;636
 msgid "There is new syndicated content from %site."
 msgstr "Υπάρχει νέα ανεξάρτητη ύλη από το %site."
 
-#: modules/aggregator/aggregator.module:653
+#: modules/aggregator/aggregator.module:640
 msgid "feed not parseable"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:657
+#: modules/aggregator/aggregator.module:644
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr "Η ροή RSS από το %site φαίνεται να μη λειτουργεί, λόγω του σφάλματος \"%error\"."
 
-#: modules/aggregator/aggregator.module:727
+#: modules/aggregator/aggregator.module:714
 msgid "The feed from %site seems to be broken, because of error \"%error\" on line %line."
 msgstr "Η ροή RSS από το %site φαίνεται να μη λειτουργεί, λόγω του σφάλματος \"%error\" στη γραμμή %line."
 
-#: modules/aggregator/aggregator.module:925;925
+#: modules/aggregator/aggregator.module:891;891
 msgid "blog it"
 msgstr "ιστολογήστε το"
 
-#: modules/aggregator/aggregator.module:926
+#: modules/aggregator/aggregator.module:892
 msgid "Comment on this news item in your personal blog."
 msgstr "Σχολιάστε αυτή την είδηση στο προσωπικό σας ιστολόγιο."
 
@@ -342,11 +352,11 @@ msgstr "Σχολιάστε αυτή την είδηση στο προσωπικ�
 msgid "Updated URL for feed %title to %url."
 msgstr "Ενημερώθηκε στο %url η διεύθυνση URL για τη ροή %title."
 
-#: modules/aggregator/aggregator.module:656
+#: modules/aggregator/aggregator.module:643
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr "Η ροή RSS από το %site φαίνεται να μη λειτουργεί, εξαιτίας του σφάλματος \"%error\"."
 
-#: modules/aggregator/aggregator.module:726
+#: modules/aggregator/aggregator.module:713
 msgid "The feed from %site seems to be broken, due to an error \"%error\" on line %line."
 msgstr "Η ροή RSS από το %site φαίνεται να μη λειτουργεί, εξαιτίας ενός σφάλματος \"%error\" στη γραμμή %line."
 
@@ -370,10 +380,6 @@ msgstr "Ρύθμιση του περιεχομένου που θα συλλέγ�
 #: modules/aggregator/aggregator.module:90
 msgid "Add feed"
 msgstr "Προσθήκη ροής"
-
-#: modules/aggregator/aggregator.module:108
-msgid "Remove items"
-msgstr "Αφαίρεση αντικειμένων"
 
 #: modules/aggregator/aggregator.module:116
 msgid "Update items"

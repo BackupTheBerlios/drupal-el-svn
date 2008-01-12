@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -26,65 +26,65 @@ msgstr ""
 msgid "actions"
 msgstr "Λειτουργίες"
 
-#: includes/common.inc:336 modules/system/system.admin.inc:1650
+#: includes/common.inc:335 modules/system/system.admin.inc:1662
 msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
 msgstr "Το @site είναι αυτή τη στιγμή κλειστό για συντήρηση. Θα επανέλθουμε σύντομα. Ευχαριστούμε για την κατανόησή σας."
 
-#: includes/common.inc:1087 modules/upload/upload.admin.inc:98;107;136;145
+#: includes/common.inc:1086 modules/upload/upload.admin.inc:98;107;136;145
 msgid "MB"
 msgstr "MB"
 
-#: includes/common.inc:3447 modules/dblog/dblog.admin.inc:36;36
-#: modules/system/system.module:1633;1667
+#: includes/common.inc:3464 modules/dblog/dblog.admin.inc:36;36
+#: modules/system/system.module:1655;1689
 msgid "error"
 msgstr "σφάλμα"
 
-#: includes/common.inc:3448 modules/dblog/dblog.admin.inc:35;35
+#: includes/common.inc:3465 modules/dblog/dblog.admin.inc:35;35
 msgid "warning"
 msgstr "προειδοποίηση"
 
-#: includes/common.inc:610 includes/image.inc:120 includes/unicode.inc:151;184
+#: includes/common.inc:609 includes/image.inc:120 includes/unicode.inc:151;184
 #: modules/php/php.module:0
 msgid "php"
 msgstr "php"
 
-#: includes/file.inc:109 modules/system/system.install:158
+#: includes/file.inc:109 modules/system/system.install:198
 msgid "The directory %directory does not exist."
 msgstr "Ο κατάλογος αρχείων %directory δεν υπάρχει."
 
-#: includes/file.inc:136 modules/user/user.pages.inc:262;331
-#: modules/user/user.module:1666;2174
+#: includes/file.inc:136 modules/user/user.pages.inc:261;330
+#: modules/user/user.module:1724;2230
 msgid "security"
 msgstr "ασφάλεια"
 
-#: includes/form.inc:1525 modules/user/user.module:631;1205
+#: includes/form.inc:1534 modules/user/user.module:653;1240
 msgid "Password"
 msgstr "Συνθηματικό"
 
-#: includes/form.inc:668;674 modules/filter/filter.module:517
+#: includes/form.inc:668;674 modules/filter/filter.module:526
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
 
-#: includes/form.inc:2356 modules/node/node.admin.inc:371
+#: includes/form.inc:2365 modules/node/node.admin.inc:371
 msgid "Processing"
 msgstr ""
 
-#: includes/form.inc:669;675 modules/filter/filter.module:518
+#: includes/form.inc:669;675 modules/filter/filter.module:527
 msgid "form"
 msgstr "φόρμα"
 
-#: includes/form.inc:675 modules/filter/filter.module:518
+#: includes/form.inc:675 modules/filter/filter.module:527
 msgid "Illegal choice %choice in %name element."
 msgstr "Μη επιτρεπτή επιλογή %choice στο στοιχείο %name."
 
-#: includes/locale.inc:58 modules/filter/filter.admin.inc:158;346
+#: includes/locale.inc:58 modules/filter/filter.admin.inc:155;351
 #: modules/menu/menu.admin.inc:50 modules/profile/profile.admin.inc:44
-#: modules/system/system.admin.inc:241;264;749
-#: modules/system/system.module:997
+#: modules/system/system.admin.inc:249;272;756
+#: modules/system/system.module:1019
 msgid "Save configuration"
 msgstr "Αποθήκευση ρυθμίσεων"
 
-#: includes/locale.inc:86;1978 modules/aggregator/aggregator.admin.inc:30;41
+#: includes/locale.inc:86;1984 modules/aggregator/aggregator.admin.inc:30;41
 #: modules/book/book.admin.inc:215 modules/comment/comment.admin.inc:71
 #: modules/comment/comment.module:827;838 modules/contact/contact.admin.inc:16
 #: modules/menu/menu.admin.inc:96 modules/node/content_types.inc:28
@@ -92,59 +92,59 @@ msgstr "Αποθήκευση ρυθμίσεων"
 #: modules/profile/profile.admin.inc:30
 #: modules/taxonomy/taxonomy.admin.inc:203;207;401;769;773
 #: modules/translation/translation.pages.inc:38
-#: modules/user/user.admin.inc:185;898 modules/user/user.module:1342;2189
+#: modules/user/user.admin.inc:190;896 modules/user/user.module:1383;2251
 msgid "edit"
 msgstr "επεξεργασία"
 
-#: includes/locale.inc:86;1979 modules/block/block.admin.inc:79
+#: includes/locale.inc:86;1985 modules/block/block.admin.inc:79
 #: modules/book/book.admin.inc:216 modules/comment/comment.module:823
 #: modules/contact/contact.admin.inc:16 modules/filter/filter.admin.inc:35
 #: modules/menu/menu.admin.inc:99 modules/node/content_types.inc:32
-#: modules/node/node.pages.inc:544 modules/path/path.admin.inc:44
-#: modules/profile/profile.admin.inc:31 modules/system/system.module:1302
-#: modules/user/user.admin.inc:898
+#: modules/node/node.pages.inc:556 modules/path/path.admin.inc:44
+#: modules/profile/profile.admin.inc:31 modules/system/system.module:1324
+#: modules/user/user.admin.inc:896
 msgid "delete"
 msgstr "διαγραφή"
 
 #: includes/locale.inc:90 modules/comment/comment.module:552
-#: modules/locale/locale.module:264 modules/menu/menu.admin.inc:176;293
-#: modules/statistics/statistics.admin.inc:184
-#: modules/system/system.admin.inc:1286;1318;1326;1514;1668;2023;2212
-#: modules/system/system.install:242 modules/upload/upload.module:208
-#: modules/user/user.admin.inc:412;430
+#: modules/locale/locale.module:266 modules/menu/menu.admin.inc:175;293
+#: modules/statistics/statistics.admin.inc:185
+#: modules/system/system.admin.inc:1298;1330;1338;1526;1680;2037;2226
+#: modules/system/system.install:282 modules/upload/upload.module:222
+#: modules/user/user.admin.inc:417;435
 msgid "Enabled"
 msgstr "Ενεργοποιημένο"
 
 #: includes/locale.inc:90 modules/filter/filter.admin.inc:69
-#: modules/system/system.admin.inc:2212
+#: modules/system/system.admin.inc:2226
 msgid "Default"
 msgstr "Προεπιλεγμένο"
 
 #: includes/locale.inc:90 modules/block/block-admin-display-form.tpl.php:43
-#: modules/book/book.admin.inc:196 modules/book/book.module:388
-#: modules/contact/contact.admin.inc:58 modules/filter/filter.admin.inc:357
+#: modules/book/book.admin.inc:196 modules/book/book.module:387
+#: modules/contact/contact.admin.inc:58 modules/filter/filter.admin.inc:362
 #: modules/forum/forum.admin.inc:52;134 modules/menu/menu.admin.inc:177;320
-#: modules/menu/menu.module:409 modules/node/node.module:1264
+#: modules/menu/menu.module:408 modules/node/node.module:1312
 #: modules/profile/profile.admin.inc:150;265
 #: modules/taxonomy/taxonomy.admin.inc:90;171;705
-#: modules/upload/upload.module:526
+#: modules/upload/upload.module:544
 msgid "Weight"
 msgstr "Βάρος"
 
-#: includes/locale.inc:90;1964 modules/aggregator/aggregator.admin.inc:27;38
+#: includes/locale.inc:90;1970 modules/aggregator/aggregator.admin.inc:27;38
 #: modules/block/block-admin-display-form.tpl.php:47
 #: modules/book/book.admin.inc:17;196 modules/comment/comment.admin.inc:58
 #: modules/contact/contact.admin.inc:18 modules/dblog/dblog.admin.inc:52;160
 #: modules/filter/filter.admin.inc:69 modules/menu/menu.admin.inc:178
 #: modules/node/content_types.inc:15 modules/node/node.admin.inc:523
-#: modules/node/node.pages.inc:514 modules/openid/openid.pages.inc:41
+#: modules/node/node.pages.inc:526 modules/openid/openid.pages.inc:41
 #: modules/path/path.admin.inc:32 modules/profile/profile.admin.inc:152
-#: modules/statistics/statistics.admin.inc:17;81
+#: modules/statistics/statistics.admin.inc:17;82
 #: modules/statistics/statistics.pages.inc:16;48
-#: modules/system/system.admin.inc:2212 modules/system/system.module:1293
+#: modules/system/system.admin.inc:2226 modules/system/system.module:1315
 #: modules/taxonomy/taxonomy.admin.inc:93;612
 #: modules/translation/translation.pages.inc:27
-#: modules/user/user.admin.inc:139;893;920;957
+#: modules/user/user.admin.inc:144;891;918;955
 msgid "Operations"
 msgstr "Λειτουργίες"
 
@@ -153,75 +153,75 @@ msgid "Add language"
 msgstr "Προσθήκη γλώσσας"
 
 #: includes/locale.inc:403
-#: modules/aggregator/aggregator.admin.inc:102;142;259;290
+#: modules/aggregator/aggregator.admin.inc:102;142;275;306
 #: modules/block/block.admin.inc:329 modules/comment/comment.admin.inc:248
-#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:255
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
 #: modules/forum/forum.admin.inc:10;60;148;168
-#: modules/menu/menu.admin.inc:265;392;459 modules/node/content_types.inc:391
-#: modules/node/node.admin.inc:109 modules/node/node.pages.inc:248;491;578
-#: modules/node/node.module:1441;1469 modules/openid/openid.pages.inc:46
-#: modules/profile/profile.admin.inc:374 modules/system/system.module:1493
+#: modules/menu/menu.admin.inc:265;392;459 modules/node/content_types.inc:392
+#: modules/node/node.admin.inc:109 modules/node/node.pages.inc:246;503;590
+#: modules/node/node.module:1490;1519 modules/openid/openid.pages.inc:46
+#: modules/profile/profile.admin.inc:374 modules/system/system.module:1515
 #: modules/taxonomy/taxonomy.admin.inc:187;220;720;749;842;877
-#: modules/upload/upload.module:526 modules/user/user.admin.inc:877
-#: modules/user/user.pages.inc:245;312 modules/user/user.module:1041
+#: modules/upload/upload.module:544 modules/user/user.admin.inc:875
+#: modules/user/user.pages.inc:244;311 modules/user/user.module:1066
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: includes/locale.inc:403 modules/block/block.admin.inc:329
-#: modules/comment/comment.admin.inc:190;249
-#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:255
+#: includes/locale.inc:403 modules/aggregator/aggregator.admin.inc:191
+#: modules/block/block.admin.inc:329 modules/comment/comment.admin.inc:190;249
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
 #: modules/forum/forum.admin.inc:168 modules/node/node.admin.inc:61;570
-#: modules/node/node.pages.inc:492;558;578
+#: modules/node/node.pages.inc:504;570;590
 #: modules/profile/profile.admin.inc:374 modules/search/search.admin.inc:14
-#: modules/system/system.admin.inc:826;1063
-#: modules/system/system.module:1116;1493
+#: modules/system/system.admin.inc:833;1070
+#: modules/system/system.module:1138;1515
 #: modules/taxonomy/taxonomy.admin.inc:843;878;913
-#: modules/trigger/trigger.admin.inc:77 modules/user/user.admin.inc:878
-#: modules/user/user.pages.inc:312 modules/user/user.module:1747
+#: modules/trigger/trigger.admin.inc:77 modules/user/user.admin.inc:876
+#: modules/user/user.pages.inc:311 modules/user/user.module:1805
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: includes/locale.inc:458 modules/comment/comment.module:1626
+#: includes/locale.inc:458 modules/comment/comment.module:1622
 msgid "Save settings"
 msgstr "Αποθήκευση ρυθμίσεων"
 
-#: includes/locale.inc:489;554;1964 modules/locale/locale.module:230;249;276
+#: includes/locale.inc:489;557;1970 modules/locale/locale.module:232;251;278
 #: modules/node/node.admin.inc:521 modules/path/path.admin.inc:36
 #: modules/translation/translation.pages.inc:27
 msgid "Language"
 msgstr "Γλώσσα"
 
-#: includes/locale.inc:503 modules/blogapi/blogapi.module:242
-#: modules/filter/filter.module:446 modules/forum/forum-submitted.tpl.php:27
+#: includes/locale.inc:503 modules/blogapi/blogapi.module:249
+#: modules/filter/filter.module:455 modules/forum/forum-submitted.tpl.php:27
 #: modules/translation/translation.pages.inc:48
 msgid "n/a"
 msgstr "δ/υ"
 
-#: includes/locale.inc:546;570 modules/locale/locale.module:139
-#: modules/search/search.module:159;1038;1058;169 modules/search/search.info:0
-#: modules/user/user.admin.inc:15
+#: includes/locale.inc:546;573 modules/locale/locale.module:139
+#: modules/search/search.module:159;1043;1063;169 modules/search/search.info:0
+#: modules/user/user.admin.inc:14
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: includes/locale.inc:556 modules/locale/locale.module:250
+#: includes/locale.inc:559 modules/locale/locale.module:252
 msgid "All languages"
 msgstr "Όλες οι γλώσσες"
 
-#: includes/locale.inc:630 modules/locale/locale.module:146
+#: includes/locale.inc:636 modules/locale/locale.module:146
 msgid "Import"
 msgstr "Εισαγωγή"
 
-#: includes/locale.inc:713;732 modules/locale/locale.module:153
+#: includes/locale.inc:719;738 modules/locale/locale.module:153
 msgid "Export"
 msgstr "Εξαγωγή"
 
-#: includes/locale.inc:1964 modules/locale/locale.module:575;87
+#: includes/locale.inc:1970 modules/locale/locale.module:584;87
 #, fuzzy
 msgid "Languages"
 msgstr "Γλώσσα"
 
-#: includes/locale.inc:423;656;936;993;1810;1814;2155;2158;2161;2164
-#: modules/locale/locale.module:501;0
+#: includes/locale.inc:423;662;942;999;1816;1820;2161;2164;2167;2170
+#: modules/locale/locale.module:510;0
 msgid "locale"
 msgstr "γλωσσική προσαρμογή"
 
@@ -230,9 +230,9 @@ msgstr "γλωσσική προσαρμογή"
 msgid "mail"
 msgstr "mail"
 
-#: includes/menu.inc:1400 modules/blog/blog.module:111
-#: modules/book/book.module:626 modules/comment/comment.pages.inc:53
-#: modules/forum/forum.module:185;646 modules/node/node.pages.inc:404
+#: includes/menu.inc:1422 modules/blog/blog.module:108
+#: modules/book/book.module:625 modules/comment/comment.pages.inc:53
+#: modules/forum/forum.module:192;649
 #: modules/system/maintenance-page.tpl.php:34;35;42
 #: modules/system/page.tpl.php:94;95;102
 #: modules/taxonomy/taxonomy.pages.inc:40
@@ -250,26 +250,26 @@ msgstr "Προηγούμενη σελίδα"
 msgid "Go to next page"
 msgstr "Επόμενη σελίδα"
 
-#: includes/theme.inc:1349 modules/comment/comment.module:1681;1699
+#: includes/theme.inc:1363 modules/comment/comment.module:1683;1708
 msgid "new"
 msgstr "νέο"
 
-#: includes/theme.inc:1521 modules/user/user.module:793
+#: includes/theme.inc:1535 modules/user/user.module:815
 msgid "View user profile."
 msgstr "Προβολή προσωπικού προφίλ."
 
-#: includes/theme.inc:1542 modules/comment/comment.module:1344;1353;1455
-#: modules/node/node.pages.inc:185 modules/system/system.admin.inc:1143
-#: modules/system/system.module:1735 modules/user/user.module:790
+#: includes/theme.inc:1556 modules/comment/comment.module:1340;1349;1451
+#: modules/node/node.pages.inc:183 modules/system/system.admin.inc:1150
+#: modules/system/system.module:1757 modules/user/user.module:812
 msgid "Anonymous"
 msgstr "Ανώνυμος"
 
-#: modules/aggregator/aggregator.admin.inc:27;38;63;247
-#: modules/book/book.admin.inc:196 modules/filter/filter.module:207
+#: modules/aggregator/aggregator.admin.inc:27;38;63;263
+#: modules/book/book.admin.inc:196 modules/filter/filter.module:216
 #: modules/menu/menu.admin.inc:412 modules/node/content_types.inc:58
-#: modules/node/node.admin.inc:519 modules/node/node.module:536
+#: modules/node/node.admin.inc:519 modules/node/node.module:584
 #: modules/profile/profile.admin.inc:147;221
-#: modules/statistics/statistics.admin.inc:149
+#: modules/statistics/statistics.admin.inc:150
 #: modules/translation/translation.pages.inc:27
 msgid "Title"
 msgstr "Τίτλος"
@@ -277,66 +277,75 @@ msgstr "Τίτλος"
 #: modules/aggregator/aggregator.admin.inc:30
 #: modules/aggregator/aggregator.pages.inc:483
 #: modules/comment/comment.module:395
-#: modules/statistics/statistics.admin.inc:124 modules/user/user.admin.inc:184
+#: modules/statistics/statistics.admin.inc:125 modules/user/user.admin.inc:189
 msgid "@time ago"
 msgstr "πριν από @time"
 
 #: modules/aggregator/aggregator.admin.inc:30;30
-#: modules/aggregator/aggregator.pages.inc:486 modules/user/user.admin.inc:184
+#: modules/aggregator/aggregator.pages.inc:486 modules/user/user.admin.inc:189
 msgid "never"
 msgstr "ποτέ"
 
 #: modules/aggregator/aggregator.admin.inc:70
-#: modules/profile/profile.module:42;543
-#: modules/statistics/statistics.admin.inc:143
-#: modules/system/system.module:1791
+#: modules/profile/profile.module:42;546
+#: modules/statistics/statistics.admin.inc:144
+#: modules/system/system.module:1813
 msgid "URL"
 msgstr "URL"
 
-#: modules/aggregator/aggregator.admin.inc:99;113;256;270
-#: modules/comment/comment.module:1391;1392
+#: modules/aggregator/aggregator.admin.inc:99;113;272;286
+#: modules/comment/comment.module:1387;1388
 #: modules/contact/contact.admin.inc:72 modules/forum/forum.admin.inc:58;145
-#: modules/menu/menu.admin.inc:324;423 modules/node/node.pages.inc:235
-#: modules/system/system.module:1442
+#: modules/menu/menu.admin.inc:324;423 modules/node/node.pages.inc:233
+#: modules/system/system.module:1464
 #: modules/taxonomy/taxonomy.admin.inc:37;185;414;715;760
-#: modules/user/user.pages.inc:241
+#: modules/user/user.pages.inc:240
 #, fuzzy
 msgid "Save"
 msgstr "Αποθήκευση κανόνα"
 
-#: modules/aggregator/aggregator.admin.inc:174;322
-#: modules/blogapi/blogapi.module:221;277 modules/book/book.admin.inc:118;214
+#: modules/aggregator/aggregator.admin.inc:174;338
+#: modules/blogapi/blogapi.module:228;284 modules/book/book.admin.inc:118;214
 #: modules/comment/comment.admin.inc:111
 #: modules/comment/comment.module:707;768
 #: modules/contact/contact.admin.inc:115;121
-#: modules/node/content_types.inc:333 modules/node/node.pages.inc:441
+#: modules/node/content_types.inc:334 modules/node/node.pages.inc:453
 #: modules/profile/profile.admin.inc:345;387
 msgid "view"
 msgstr "προβολή"
 
-#: modules/aggregator/aggregator.admin.inc:208
-#: modules/block/block.admin.inc:39 modules/book/book.module:413
-#: modules/system/system.admin.inc:1274
+#: modules/aggregator/aggregator.admin.inc:189
+#: modules/comment/comment.admin.inc:189 modules/contact/contact.admin.inc:138
+#: modules/menu/menu.admin.inc:458 modules/node/content_types.inc:390
+#: modules/node/node.admin.inc:569 modules/node/node.pages.inc:502;590
+#: modules/system/system.module:1129 modules/user/user.admin.inc:874
+#: modules/user/user.module:1804
+msgid "This action cannot be undone."
+msgstr "Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
+
+#: modules/aggregator/aggregator.admin.inc:224
+#: modules/block/block.admin.inc:39 modules/book/book.module:412
+#: modules/system/system.admin.inc:1286
 #: modules/taxonomy/taxonomy.admin.inc:696
 msgid "none"
 msgstr "κανένα"
 
-#: modules/aggregator/aggregator.admin.inc:212
-#: modules/filter/filter.module:658
+#: modules/aggregator/aggregator.admin.inc:228
+#: modules/filter/filter.module:667
 msgid "Allowed HTML tags"
 msgstr "Επιτρεπτές ετικέτες HTML"
 
-#: modules/aggregator/aggregator.admin.inc:253
+#: modules/aggregator/aggregator.admin.inc:269
 #: modules/forum/forum.admin.inc:45;126 modules/menu/menu.admin.inc:286;418
 #: modules/node/content_types.inc:15;103
-#: modules/system/system.admin.inc:1754;2029;2113
-#: modules/system/system.module:1292;1413
+#: modules/system/system.admin.inc:1766;2043;2127
+#: modules/system/system.module:1314;1435
 #: modules/taxonomy/taxonomy.admin.inc:129;670
-#: modules/upload/upload.module:526
+#: modules/upload/upload.module:544
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: modules/aggregator/aggregator.pages.inc:364 modules/node/node.module:1620
+#: modules/aggregator/aggregator.pages.inc:364 modules/node/node.module:1678
 msgid "read more"
 msgstr "διαβάστε περισσότερα"
 
@@ -347,32 +356,32 @@ msgstr "Προσθήκη κατηγορίας"
 #: modules/aggregator/aggregator.module:124 modules/block/block.module:128
 #: modules/book/book.module:86 modules/contact/contact.module:53
 #: modules/filter/filter.module:79 modules/forum/forum.module:101
-#: modules/locale/locale.module:94 modules/node/node.module:1361;1392
-#: modules/path/path.module:60 modules/system/system.module:278;314;318
-#: modules/taxonomy/taxonomy.module:122;177 modules/update/update.module:117
-#: modules/upload/upload.module:526 modules/user/user.module:926;975
+#: modules/locale/locale.module:94 modules/node/node.module:1409;1440
+#: modules/path/path.module:60 modules/system/system.module:282;319;323
+#: modules/taxonomy/taxonomy.module:122;177 modules/update/update.module:128
+#: modules/upload/upload.module:544 modules/user/user.module:948;998
 msgid "List"
 msgstr "Λίστα"
 
 #: modules/aggregator/aggregator.module:129 modules/book/book.module:90
 #: modules/contact/contact.module:81 modules/forum/forum.module:122
 #: modules/menu/menu.module:70 modules/taxonomy/taxonomy.admin.inc:152
-#: modules/update/update.module:124
+#: modules/update/update.module:135
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: modules/aggregator/aggregator.module:157 modules/node/node.module:1417
+#: modules/aggregator/aggregator.module:157 modules/node/node.module:1465
 msgid "RSS feed"
 msgstr "Ροή RSS"
 
-#: modules/aggregator/aggregator.module:180;208
-#: modules/node/node.module:1448;1455 modules/user/user.module:1035
+#: modules/aggregator/aggregator.module:180;208 modules/node/node.module:1505
+#: modules/user/user.module:1060
 msgid "View"
 msgstr "Προβολή"
 
 #: modules/aggregator/aggregator.module:193;221
-#: modules/filter/filter.module:118 modules/locale/locale.module:106
-#: modules/system/system.module:284
+#: modules/filter/filter.module:120 modules/locale/locale.module:106
+#: modules/system/system.module:288
 msgid "Configure"
 msgstr "Ρύθμιση"
 
@@ -407,22 +416,22 @@ msgid "Block"
 msgstr "Μπλοκ"
 
 #: modules/block/block-admin-display-form.tpl.php:45
-#: modules/system/system.admin.inc:2025 modules/throttle/throttle.module:11
+#: modules/system/system.admin.inc:2039 modules/throttle/throttle.module:11
 #: modules/throttle/throttle.info:0
 msgid "Throttle"
 msgstr "Απόπνιξη"
 
 #: modules/block/block.admin.inc:77 modules/filter/filter.admin.inc:34
-#: modules/system/system.admin.inc:212 modules/system/system.module:1301
+#: modules/system/system.admin.inc:215 modules/system/system.module:1323
 msgid "configure"
 msgstr "ρύθμιση"
 
 #: modules/block/block.admin.inc:358
-#: modules/comment/comment.module:500;552;584 modules/locale/locale.module:264
-#: modules/statistics/statistics.admin.inc:184
-#: modules/statistics/statistics.module:252
-#: modules/system/system.admin.inc:1269;1286;1300;1318;1326;1514;1668
-#: modules/upload/upload.module:208 modules/user/user.admin.inc:412;430
+#: modules/comment/comment.module:500;552;584 modules/locale/locale.module:266
+#: modules/statistics/statistics.admin.inc:185
+#: modules/statistics/statistics.module:255
+#: modules/system/system.admin.inc:1281;1298;1312;1330;1338;1526;1680
+#: modules/upload/upload.module:222 modules/user/user.admin.inc:417;435
 msgid "Disabled"
 msgstr "Απενεργοποιημένο"
 
@@ -444,15 +453,15 @@ msgstr "Ιστολόγιο"
 msgid "Enables keeping easily and regularly updated user web pages or blogs."
 msgstr "Επιτρέπει την εύκολη και τακτική ενημέρωση των ιστοσελίδων ή των ιστολογίων των χρηστών."
 
-#: modules/blogapi/blogapi.module:221;277 modules/book/book.admin.inc:118
+#: modules/blogapi/blogapi.module:228;284 modules/book/book.admin.inc:118
 #: modules/comment/comment.admin.inc:111;280;286
 #: modules/comment/comment.module:707;768;790
 #: modules/forum/forum.admin.inc:177
-#: modules/node/node.pages.inc:446;450;571;585 modules/node/node.module:932
+#: modules/node/node.pages.inc:458;462;583;597 modules/node/node.module:980
 msgid "content"
 msgstr "ύλη"
 
-#: modules/blogapi/blogapi.module:562 modules/blogapi/blogapi.info:0
+#: modules/blogapi/blogapi.module:567 modules/blogapi/blogapi.info:0
 msgid "Blog API"
 msgstr "Blog API"
 
@@ -460,7 +469,7 @@ msgstr "Blog API"
 msgid "Allows users to post content using applications that support XML-RPC blog APIs."
 msgstr "Επιτρέπει στους χρήστες να υποβάλλουν ύλη χρησιμοποιώντας εφαρμογές που υποστηρίζουν API ιστολογίων XML-RPC."
 
-#: modules/book/book.admin.inc:17 modules/book/book.module:419
+#: modules/book/book.admin.inc:17 modules/book/book.module:418
 #: modules/book/book.info:0
 msgid "Book"
 msgstr "Βιβλίο"
@@ -469,8 +478,8 @@ msgstr "Βιβλίο"
 msgid "Parent"
 msgstr "Γονέας"
 
-#: modules/book/book.module:350 modules/menu/menu.admin.inc:312
-#: modules/menu/menu.module:399
+#: modules/book/book.module:349 modules/menu/menu.admin.inc:312
+#: modules/menu/menu.module:398
 msgid "Parent item"
 msgstr "Γονικό στοιχείο"
 
@@ -479,15 +488,15 @@ msgid "Allows users to structure site pages in a hierarchy or outline."
 msgstr ""
 
 #: modules/color/color.module:230
-#: modules/comment/comment.module:1391;1395;1398
-#: modules/node/node.pages.inc:241;403
+#: modules/comment/comment.module:1387;1391;1394
+#: modules/node/node.pages.inc:239;401
 msgid "Preview"
 msgstr "Δοκιμή εμφάνισης"
 
 #: modules/color/color.module:286
-#: modules/node/content_types.inc:208;278;303;323
-#: modules/system/system.admin.inc:245;538
-#: modules/system/system.module:998;1021;1031
+#: modules/node/content_types.inc:208;278;305;324
+#: modules/system/system.admin.inc:253;543
+#: modules/system/system.module:1020;1043;1053
 #: modules/update/update.settings.inc:94
 msgid "Reset to defaults"
 msgstr "Επαναφορά στις εξ' ορισμού ρυθμίσεις"
@@ -501,19 +510,19 @@ msgid "Allows the user to change the color scheme of certain themes."
 msgstr "Επιτρέπει στον χρήστη να αλλάξει το χρωματικό σχήμα από συγκεκριμένα θέματα εμφάνισης."
 
 #: modules/comment/comment.admin.inc:40 modules/node/node.admin.inc:473
-#: modules/user/user.admin.inc:149
+#: modules/user/user.admin.inc:154
 msgid "Update options"
 msgstr "Επιλογές ενημέρωσης"
 
 #: modules/comment/comment.admin.inc:48 modules/node/node.admin.inc:484
-#: modules/user/user.admin.inc:114;164
+#: modules/user/user.admin.inc:119;169
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: modules/comment/comment.admin.inc:54 modules/comment/comment.module:1361
-#: modules/contact/contact.pages.inc:55;184 modules/forum/forum.module:292
-#: modules/system/system.module:1563
-#: modules/user/user.admin.inc:257;277;297;317;342;367;392
+#: modules/comment/comment.admin.inc:54 modules/comment/comment.module:1357
+#: modules/contact/contact.pages.inc:55;184 modules/forum/forum.module:299
+#: modules/system/system.module:1585
+#: modules/user/user.admin.inc:262;282;302;322;347;372;397
 msgid "Subject"
 msgstr "Θέμα"
 
@@ -528,17 +537,9 @@ msgid "Time"
 msgstr "Ώρα"
 
 #: modules/comment/comment.admin.inc:115 modules/node/node.admin.inc:386;438
-#: modules/user/user.admin.inc:214
+#: modules/user/user.admin.inc:219
 msgid "The update has been performed."
 msgstr "Η ενημέρωση έγινε."
-
-#: modules/comment/comment.admin.inc:189 modules/contact/contact.admin.inc:138
-#: modules/menu/menu.admin.inc:458 modules/node/content_types.inc:389
-#: modules/node/node.admin.inc:569 modules/node/node.pages.inc:490;578
-#: modules/system/system.module:1107 modules/user/user.admin.inc:876
-#: modules/user/user.module:1746
-msgid "This action cannot be undone."
-msgstr "Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
 
 #: modules/comment/comment.module:559 modules/node/node.admin.inc:39
 msgid "Optional"
@@ -549,73 +550,79 @@ msgstr "Προαιρετικό"
 msgid "Required"
 msgstr "Υποχρεωτικό"
 
-#: modules/comment/comment.module:1192 modules/node/node.module:755
+#: modules/comment/comment.module:1188 modules/node/node.module:803
 msgid "You have to specify a valid date."
 msgstr "Πρέπει να δώσετε έγκυρη ημερομηνία."
 
-#: modules/comment/comment.module:1292;1308 modules/node/node.pages.inc:180
+#: modules/comment/comment.module:1288;1304 modules/node/node.pages.inc:178
 msgid "Authored by"
 msgstr "Συντάχθηκε από"
 
-#: modules/comment/comment.module:1316;1347;1355
-#: modules/user/user.admin.inc:770;809
+#: modules/comment/comment.module:1312;1343;1351
+#: modules/user/user.admin.inc:768;807
 msgid "E-mail"
 msgstr "E-mail"
 
-#: modules/comment/comment.module:1320;1347;1355
-#: modules/profile/profile.module:334
+#: modules/comment/comment.module:1316;1343;1351
+#: modules/profile/profile.module:337
 msgid "The content of this field is kept private and will not be shown publicly."
 msgstr "Το περιεχόμενο αυτού του πεδίου παραμένει ιδιωτικό και δε θα εμφανίζεται δημόσια."
 
-#: modules/comment/comment.module:1332 modules/node/node.pages.inc:189
+#: modules/comment/comment.module:1328 modules/node/node.pages.inc:187
 msgid "Authored on"
 msgstr "Γράφτηκε την"
 
-#: modules/comment/comment.module:1334 modules/node/node.admin.inc:519
+#: modules/comment/comment.module:1330 modules/node/node.admin.inc:519
 #: modules/translation/translation.pages.inc:27
-#: modules/user/user.admin.inc:135;916 modules/user/user.module:1395
+#: modules/user/user.admin.inc:140;914 modules/user/user.module:1436
 msgid "Status"
 msgstr "Κατάσταση"
 
-#: modules/comment/comment.module:1334 modules/node/content_types.inc:157
-#: modules/node/node.pages.inc:209
+#: modules/comment/comment.module:1330 modules/node/content_types.inc:157
+#: modules/node/node.pages.inc:207
 #: modules/translation/translation.pages.inc:40
 msgid "Published"
 msgstr "Δημοσιευμένο"
 
-#: modules/comment/comment.module:1334
+#: modules/comment/comment.module:1330
 #: modules/translation/translation.pages.inc:40
 msgid "Not published"
 msgstr "Μη δημοσιευμένο"
 
-#: modules/comment/comment.module:1338;1344;1353
+#: modules/comment/comment.module:1334;1340;1349
 #: modules/contact/contact.pages.inc:43
 msgid "Your name"
 msgstr "Το όνομά σας"
 
-#: modules/comment/comment.module:1373 modules/comment/comment.info:0
+#: modules/comment/comment.module:1369 modules/comment/comment.info:0
 msgid "Comment"
 msgstr "Σχόλιο"
 
-#: modules/comment/comment.module:1837 modules/forum/forum.admin.inc:204
+#: modules/comment/comment.module:1658 modules/openid/openid.module:398
+#: modules/user/user.module:1379;2245
+#, fuzzy
+msgid "Error saving user account."
+msgstr "Δημιουργήστε ένα νέο λογαριασμό χρήστη."
+
+#: modules/comment/comment.module:1856 modules/forum/forum.admin.inc:204
 msgid "Date - newest first"
 msgstr "Ημερομηνία - πρώτα τα νεώτερα"
 
-#: modules/comment/comment.module:1838 modules/forum/forum.admin.inc:204
+#: modules/comment/comment.module:1857 modules/forum/forum.admin.inc:204
 msgid "Date - oldest first"
 msgstr "Ημερομηνία - πρώτα τα παλιότερα"
 
-#: modules/comment/comment.module:2049 modules/node/node.module:2638
+#: modules/comment/comment.module:2068 modules/node/node.module:2695
 msgid "Keywords"
 msgstr ""
 
-#: modules/comment/comment.module:2039;2079
-#: modules/node/node.module:2519;2528;2537;2546;2555;2564;2573;2583;2663
-#: modules/system/system.module:1664 modules/user/user.module:2133;2143
+#: modules/comment/comment.module:2058;2098
+#: modules/node/node.module:2576;2585;2594;2603;2612;2621;2630;2640;2720
+#: modules/system/system.module:1686 modules/user/user.module:2189;2199
 msgid "action"
 msgstr ""
 
-#: modules/comment/comment.module:418;624 modules/node/node.module:135
+#: modules/comment/comment.module:418;624 modules/node/node.module:138
 msgid "1 comment"
 msgid_plural "@count comments"
 msgstr[0] "1 σχόλιο"
@@ -631,12 +638,12 @@ msgid "Allows users to comment on and discuss published content."
 msgstr "Επιτρέπει στους χρήστες να σχολιάζουν και να συζητούν για τη δημοσιευμένη ύλη."
 
 #: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
-#: modules/user/user.module:2055
+#: modules/user/user.module:2113
 msgid "Yes"
 msgstr "Ναι"
 
 #: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
-#: modules/user/user.module:2056
+#: modules/user/user.module:2114
 msgid "No"
 msgstr "Όχι"
 
@@ -647,7 +654,7 @@ msgid "Category"
 msgstr "Κατηγορία"
 
 #: modules/contact/contact.admin.inc:18;63
-#: modules/system/system.admin.inc:2154
+#: modules/system/system.admin.inc:2168
 msgid "Selected"
 msgstr "Επιλεγμένο"
 
@@ -655,18 +662,18 @@ msgstr "Επιλεγμένο"
 msgid "You must enter a category."
 msgstr "Πρέπει να ορίσετε κατηγορία."
 
-#: modules/contact/contact.pages.inc:63 modules/forum/forum.module:378
+#: modules/contact/contact.pages.inc:63 modules/forum/forum.module:381
 #: modules/taxonomy/taxonomy.module:418
 msgid "- Please choose -"
 msgstr ""
 
 #: modules/contact/contact.pages.inc:81;189
 #: modules/dblog/dblog.admin.inc:50;98;148
-#: modules/system/system.module:1570;1715
+#: modules/system/system.module:1592;1737
 msgid "Message"
 msgstr "Μήνυμα"
 
-#: modules/contact/contact.pages.inc:92;197 modules/system/system.module:1245
+#: modules/contact/contact.pages.inc:92;197 modules/system/system.module:1267
 msgid "Send e-mail"
 msgstr "Αποστολή e-mail"
 
@@ -686,36 +693,36 @@ msgid "Type"
 msgstr "Τύπος"
 
 #: modules/dblog/dblog.admin.inc:49;132
-#: modules/statistics/statistics.admin.inc:157
+#: modules/statistics/statistics.admin.inc:158
 msgid "Date"
 msgstr "Ημερομηνία"
 
 #: modules/dblog/dblog.admin.inc:51;136
-#: modules/statistics/statistics.admin.inc:16;161
+#: modules/statistics/statistics.admin.inc:16;162
 #: modules/statistics/statistics.pages.inc:15 modules/user/user.info:0
 msgid "User"
 msgstr "Χρήστης"
 
 #: modules/dblog/dblog.admin.inc:144
-#: modules/statistics/statistics.admin.inc:153
+#: modules/statistics/statistics.admin.inc:154
 #: modules/statistics/statistics.pages.inc:14
 msgid "Referrer"
 msgstr "Παραπέμπτης"
 
 #: modules/dblog/dblog.admin.inc:156
-#: modules/statistics/statistics.admin.inc:165 modules/user/user.admin.inc:820
+#: modules/statistics/statistics.admin.inc:166 modules/user/user.admin.inc:818
 msgid "Hostname"
 msgstr "Όνομα υπολογιστή"
 
 #: modules/dblog/dblog.admin.inc:280;296;308 modules/filter/filter.info:0
 #: modules/node/node.admin.inc:226;291 modules/path/path.admin.inc:206
-#: modules/user/user.admin.inc:75;98
+#: modules/user/user.admin.inc:78;103
 msgid "Filter"
 msgstr "Φίλτρο"
 
 #: modules/dblog/dblog.admin.inc:285;315 modules/menu/menu.admin.inc:583
 #: modules/node/node.admin.inc:229;307 modules/path/path.admin.inc:212
-#: modules/user/user.admin.inc:82;111
+#: modules/user/user.admin.inc:87;116
 msgid "Reset"
 msgstr "Επαναφορά"
 
@@ -732,21 +739,26 @@ msgstr "Λεπτομέρειες"
 msgid "Logs and records system events to the database."
 msgstr "Καταγράφει και αποθηκεύει συμβάντα του συστήματος."
 
-#: modules/filter/filter.admin.inc:69;357 modules/node/content_types.inc:15;72
+#: modules/filter/filter.admin.inc:69;362 modules/node/content_types.inc:15;72
 #: modules/profile/profile.admin.inc:147
-#: modules/system/system.admin.inc:1110;2027;2112;2154;2212
+#: modules/system/system.admin.inc:1117;2041;2126;2168;2226
 #: modules/taxonomy/taxonomy.admin.inc:88;612
-#: modules/trigger/trigger.admin.inc:236 modules/user/user.admin.inc:957
+#: modules/trigger/trigger.admin.inc:238 modules/user/user.admin.inc:955
 msgid "Name"
 msgstr "Όνομα"
 
-#: modules/filter/filter.admin.inc:69;113 modules/user/user.admin.inc:136;917
-#: modules/user/user.module:1402;954
+#: modules/filter/filter.admin.inc:69;110 modules/user/user.admin.inc:141;915
+#: modules/user/user.module:1443;977
 msgid "Roles"
 msgstr "Ρόλοι"
 
-#: modules/filter/filter.module:112 modules/node/node.module:1459
-#: modules/user/user.module:1051
+#: modules/filter/filter.module:216;217;218;219;220;221
+#: modules/system/system.module:0
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: modules/filter/filter.module:114 modules/node/node.module:1509
+#: modules/user/user.module:1076
 msgid "Edit"
 msgstr "Επεξεργασία"
 
@@ -762,11 +774,17 @@ msgstr "Φόρουμ"
 msgid "root"
 msgstr "ρίζα"
 
-#: modules/forum/forum.module:559 modules/tracker/tracker.pages.inc:65
+#: modules/forum/forum.module:562 modules/tracker/tracker.pages.inc:65
 msgid "Replies"
 msgstr "Απαντήσεις"
 
-#: modules/forum/forum.install:75 modules/taxonomy/taxonomy.install:91
+#: modules/forum/forum.module:763;825 modules/tracker/tracker.pages.inc:48
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "1 νέο"
+msgstr[1] "@count νέα"
+
+#: modules/forum/forum.install:83 modules/taxonomy/taxonomy.install:91
 msgid "Primary Key: The {node}.vid of the node."
 msgstr ""
 
@@ -782,40 +800,40 @@ msgstr "Βοήθεια"
 msgid "Manages the display of online help."
 msgstr "Διαχειρίζεται την εμφάνιση βοήθειας."
 
-#: modules/locale/locale.module:278 modules/node/node.admin.inc:139;203;499
+#: modules/locale/locale.module:280 modules/node/node.admin.inc:139;203;499
 #, fuzzy
 msgid "Language neutral"
 msgstr "Όνομα γλώσσας"
 
-#: modules/locale/locale.module:119 modules/system/system.module:1128
+#: modules/locale/locale.module:119 modules/system/system.module:1150
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
-#: modules/locale/locale.module:0;0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0;0 modules/system/system.admin.inc:1534
 msgid "Thursday"
 msgstr "Πέμπτη"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Friday"
 msgstr "Παρασκευή"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Saturday"
 msgstr "Σάββατο"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Sunday"
 msgstr "Κυριακή"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Monday"
 msgstr "Δευτέρα"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Tuesday"
 msgstr "Τρίτη"
 
-#: modules/locale/locale.module:0 modules/system/system.admin.inc:1522
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1534
 msgid "Wednesday"
 msgstr "Τετάρτη"
 
@@ -832,12 +850,16 @@ msgstr "Επιτρέπει τη μετάφραση της διεπαφής χρ�
 msgid "Path"
 msgstr "Διαδρομή"
 
+#: modules/menu/menu.admin.inc:337 modules/system/system.admin.inc:1180
+msgid "The menu system stores system paths only, but will use the URL alias for display. %link_path has been stored as %normal_path"
+msgstr ""
+
 #: modules/menu/menu.admin.inc:353 modules/path/path.admin.inc:143
 msgid "The path '@link_path' is either invalid or you do not have access to it."
 msgstr ""
 
 #: modules/menu/menu.admin.inc:492;574 modules/menu/menu.module:0
-#: modules/node/content_types.inc:402
+#: modules/node/content_types.inc:403
 msgid "menu"
 msgstr "μενού"
 
@@ -849,8 +871,8 @@ msgstr "Μενού"
 msgid "Allows administrators to customize the site navigation menu."
 msgstr "Επιτρέπει στους διαχειριστές να προσαρμόζουν το μενού πλοήγησης του ιστοτόπου."
 
-#: modules/node/content_types.inc:59 modules/node/node.module:543
-#: modules/user/user.admin.inc:263;283;303;323;348;373;398
+#: modules/node/content_types.inc:59 modules/node/node.module:591
+#: modules/user/user.admin.inc:268;288;308;328;353;378;403
 msgid "Body"
 msgstr "Σώμα"
 
@@ -859,31 +881,31 @@ msgstr "Σώμα"
 msgid "Identification"
 msgstr "Προσδιορισμός"
 
-#: modules/node/node.admin.inc:31 modules/poll/poll.module:249
+#: modules/node/node.admin.inc:31 modules/poll/poll.module:250
 msgid "Unlimited"
 msgstr "Απεριόριστο"
 
-#: modules/node/node.admin.inc:121 modules/user/user.module:1852
+#: modules/node/node.admin.inc:121 modules/user/user.module:1910
 msgid "status"
 msgstr "κατάσταση"
 
-#: modules/node/node.admin.inc:226;292 modules/user/user.admin.inc:75;98
+#: modules/node/node.admin.inc:226;292 modules/user/user.admin.inc:78;103
 msgid "Refine"
 msgstr "Εξειδίκευση"
 
-#: modules/node/node.admin.inc:228;304 modules/user/user.admin.inc:79;108
+#: modules/node/node.admin.inc:228;304 modules/user/user.admin.inc:83;113
 msgid "Undo"
 msgstr "Αναίρεση"
 
-#: modules/node/node.admin.inc:265 modules/user/user.admin.inc:1001
+#: modules/node/node.admin.inc:265 modules/user/user.admin.inc:999
 msgid "and"
 msgstr "και"
 
-#: modules/node/node.admin.inc:265 modules/user/user.admin.inc:1001
+#: modules/node/node.admin.inc:265 modules/user/user.admin.inc:999
 msgid "where"
 msgstr "όπου"
 
-#: modules/node/node.admin.inc:271 modules/user/user.admin.inc:1007
+#: modules/node/node.admin.inc:271 modules/user/user.admin.inc:1005
 msgid "is"
 msgstr "είναι"
 
@@ -891,21 +913,22 @@ msgstr "είναι"
 msgid "No posts available."
 msgstr "Δεν υπάρχει καμία καταχώριση."
 
-#: modules/node/node.admin.inc:570 modules/user/user.module:1747
+#: modules/node/node.admin.inc:570 modules/user/user.module:1805
 msgid "Delete all"
 msgstr "Διαγραφή όλων"
 
-#: modules/node/node.module:1097;1352;1404 modules/trigger/trigger.module:49
+#: modules/node/node.module:1145;1400;1452 modules/system/system.module:0
+#: modules/trigger/trigger.module:49
 msgid "Content"
 msgstr "Περιεχόμενο"
 
-#: modules/node/node.module:2603;2612
-#: modules/user/user.admin.inc:134;770;798;915
-#: modules/user/user.module:625;1196;1366
+#: modules/node/node.module:2660;2669
+#: modules/user/user.admin.inc:139;768;796;913
+#: modules/user/user.module:647;1231;1407
 msgid "Username"
 msgstr "Όνομα χρήστη"
 
-#: modules/node/node.module:1385 modules/taxonomy/taxonomy.admin.inc:141;145
+#: modules/node/node.module:1433 modules/taxonomy/taxonomy.admin.inc:141;145
 msgid "Content types"
 msgstr "Τύποι ύλης"
 
@@ -921,7 +944,7 @@ msgstr "Επιτρέπει να υποβάλλεται ύλη στον ιστο�
 msgid "OpenID"
 msgstr ""
 
-#: modules/openid/openid.module:401 modules/user/user.admin.inc:234
+#: modules/openid/openid.module:406 modules/user/user.admin.inc:239
 msgid "Only site administrators can create new user accounts."
 msgstr "Μόνο οι διαχειριστές του ιστοτόπου μπορούν να δημιουργούν νέους λογαριασμούς χρηστών."
 
@@ -954,7 +977,7 @@ msgstr "Ping"
 msgid "Alerts other sites when your site has been updated."
 msgstr "Ειδοποιεί άλλους ιστοτόπους όταν ενημερώνεται ο δικός σας."
 
-#: modules/poll/poll.pages.inc:34 modules/statistics/statistics.admin.inc:79
+#: modules/poll/poll.pages.inc:34 modules/statistics/statistics.admin.inc:80
 msgid "Visitor"
 msgstr "Επισκέπτης"
 
@@ -962,7 +985,7 @@ msgstr "Επισκέπτης"
 msgid "Poll"
 msgstr "Ψηφοφορία"
 
-#: modules/poll/poll.module:250 modules/user/user.module:1395
+#: modules/poll/poll.module:251 modules/user/user.module:1436
 msgid "Active"
 msgstr "Ενεργός"
 
@@ -981,12 +1004,6 @@ msgstr "Υποστηρίζει προσαρμοζόμενα προφίλ χρη�
 #: modules/search/search.info:0
 msgid "Enables site-wide keyword searching."
 msgstr "Επιτρέπει την αναζήτηση σε όλο τον ιστοτόπο με λέξεις-κλειδιά."
-
-#: modules/statistics/statistics.admin.inc:15;50
-#: modules/statistics/statistics.pages.inc:47
-#: modules/system/system.install:1319
-msgid "Page"
-msgstr "Σελίδα"
 
 #: modules/statistics/statistics.module:155 modules/tracker/tracker.module:46
 msgid "Track"
@@ -1009,28 +1026,40 @@ msgstr ""
 msgid "Logs and records system events to syslog."
 msgstr "Καταγράφει και αποθηκεύει συμβάντα του συστήματος."
 
-#: modules/system/system.admin.inc:1117 modules/user/user.module:1374
+#: modules/system/system.admin.inc:1124 modules/user/user.module:1415
 msgid "E-mail address"
 msgstr "Διεύθυνση e-mail"
 
-#: modules/system/system.module:575 modules/user/user.module:2047
+#: modules/system/system.module:597 modules/user/user.module:2105
 msgid "Medium"
 msgstr ""
 
-#: modules/system/system.module:1507 modules/user/user.pages.inc:66;98;134
-#: modules/user/user.module:1271;1308;1342;1495;2189;0
+#: modules/system/system.module:1529 modules/user/user.pages.inc:66;98;134
+#: modules/user/user.module:1306;1343;1383;1536;2251;0
 msgid "user"
 msgstr "χρήστης"
 
-#: modules/system/system.module:271 modules/update/update.report.inc:190
+#: modules/system/system.module:274 modules/update/update.report.inc:198
 msgid "Themes"
 msgstr "Θεματικές παραλλαγές"
 
-#: modules/system/system.module:307 modules/update/update.report.inc:189
+#: modules/system/system.module:311 modules/update/update.report.inc:197
 msgid "Modules"
 msgstr "Μονάδες"
 
-#: modules/system/system.install:1978 modules/user/user.module:937
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+#, fuzzy
+msgid "Left sidebar"
+msgstr "αριστερή πλευρική ζώνη"
+
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+#, fuzzy
+msgid "Right sidebar"
+msgstr "δεξιά πλευρική ζώνη"
+
+#: modules/system/system.install:1488 modules/user/user.module:959
 msgid "User settings"
 msgstr "Ρυθμίσεις χρήστη"
 
@@ -1038,12 +1067,12 @@ msgstr "Ρυθμίσεις χρήστη"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: modules/system/system.install:192 modules/update/update.report.inc:68
-#: modules/update/update.module:203;212
+#: modules/system/system.install:232 modules/update/update.report.inc:82
+#: modules/update/update.module:274
 msgid "Up to date"
 msgstr "Ενημερωμένο"
 
-#: modules/system/system.install:202 modules/update/update.module:229
+#: modules/system/system.install:242 modules/update/update.module:265
 msgid "Out of date"
 msgstr "Μη ενημερωμένο"
 
@@ -1060,7 +1089,7 @@ msgstr "Ταξινομία"
 msgid "Enables the categorization of content."
 msgstr "Επιτρέπει την κατηγοριοποίηση της ύλης."
 
-#: modules/throttle/throttle.module:104 modules/user/user.module:750;753
+#: modules/throttle/throttle.module:104 modules/user/user.module:772;775
 msgid "1 user"
 msgid_plural "@count users"
 msgstr[0] "1 χρήστης"
@@ -1088,7 +1117,7 @@ msgstr "Εισαγωγή μετάφρασης"
 msgid "Allows content to be translated into different languages."
 msgstr "Επιτρέπει να υποβάλλεται ύλη στον ιστοτόπο και να εμφανίζεται στις σελίδες."
 
-#: modules/trigger/trigger.module:57 modules/user/user.module:540;918
+#: modules/trigger/trigger.module:57 modules/user/user.module:562;940
 msgid "Users"
 msgstr "Χρήστες"
 

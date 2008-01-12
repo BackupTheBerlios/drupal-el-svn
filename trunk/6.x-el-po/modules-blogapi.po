@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -38,129 +38,134 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@blogapi\">Blog API module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blogapi\">σελίδα BlogApi</a>."
 
-#: modules/blogapi/blogapi.module:32
+#: modules/blogapi/blogapi.module:39
 #, fuzzy
 msgid "Returns a list of blogs to which an author has posting privileges."
 msgstr "Επιστρέφει μία λίστα των ιστολογίων στα οποία ένας συντάκτης έχει δικαίωμα να υποβάλλει ύλη."
 
-#: modules/blogapi/blogapi.module:37
+#: modules/blogapi/blogapi.module:44
 msgid "Returns information about an author in the system."
 msgstr "Επιστρέφει πληροφορίες για ένα συντάκτη του συστήματος."
 
-#: modules/blogapi/blogapi.module:42;67
+#: modules/blogapi/blogapi.module:49;74
 msgid "Creates a new post, and optionally publishes it."
 msgstr "Δημιουργεί μια νέα καταχώριση και προαιρετικά τη δημοσιεύει."
 
-#: modules/blogapi/blogapi.module:47
+#: modules/blogapi/blogapi.module:54
 msgid "Updates the information about an existing post."
 msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
 
-#: modules/blogapi/blogapi.module:52;77
+#: modules/blogapi/blogapi.module:59;84
 msgid "Returns information about a specific post."
 msgstr "Επιστρέφει πληροφορίες για μια συγκεκριμένη καταχώριση."
 
-#: modules/blogapi/blogapi.module:57
+#: modules/blogapi/blogapi.module:64
 msgid "Deletes a post."
 msgstr "Διαγράφει μια καταχώριση."
 
-#: modules/blogapi/blogapi.module:62;92
+#: modules/blogapi/blogapi.module:69;99
 msgid "Returns a list of the most recent posts in the system."
 msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος."
 
-#: modules/blogapi/blogapi.module:72
+#: modules/blogapi/blogapi.module:79
 msgid "Updates information about an existing post."
 msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
 
-#: modules/blogapi/blogapi.module:82
+#: modules/blogapi/blogapi.module:89
 msgid "Uploads a file to your webserver."
 msgstr "Αποστέλλει ένα αρχείο στο διακομιστή ιστοσελίδων σας."
 
-#: modules/blogapi/blogapi.module:87;107
+#: modules/blogapi/blogapi.module:94;114
 msgid "Returns a list of all categories to which the post is assigned."
 msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει ταξινομηθεί η καταχώριση."
 
-#: modules/blogapi/blogapi.module:97
+#: modules/blogapi/blogapi.module:104
 msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
 msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων καταχωρίσεων του συστήματος, σε μορφή οικονομική ως προς τη χρήση εύρους ζώνης του δικτύου."
 
-#: modules/blogapi/blogapi.module:102
+#: modules/blogapi/blogapi.module:109
 #, fuzzy
 msgid "Returns a list of all categories defined in the blog."
 msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών που ορίζονται στο ιστολόγιο."
 
-#: modules/blogapi/blogapi.module:112
+#: modules/blogapi/blogapi.module:119
 msgid "Sets the categories for a post."
 msgstr "Καθορίζει τις κατηγορίες μιας καταχώρισης."
 
-#: modules/blogapi/blogapi.module:117
+#: modules/blogapi/blogapi.module:124
 msgid "Retrieve information about the XML-RPC methods supported by the server."
 msgstr "Ανάκτηση πληροφοριών για τις μεθόδους XML-RPC που υποστηρίζονται από το διακομιστή."
 
-#: modules/blogapi/blogapi.module:122
+#: modules/blogapi/blogapi.module:129
 msgid "Retrieve information about the text formatting plugins supported by the server."
 msgstr "Ανάκτηση πληροφοριών για τα πρόσθετα μορφοποίησης κειμένου που υποστηρίζονται από το διακομιστή."
 
-#: modules/blogapi/blogapi.module:127
+#: modules/blogapi/blogapi.module:134
 #, fuzzy
 msgid "Publish (rebuild) all of the static files related to an entry from your blog. Equivalent to saving an entry in the system (but without the ping)."
 msgstr "Δημοσίευση (ανακατασκευή) όλων των στατικών αρχείων που σχετίζονται με μια καταχώριση από το ιστολόγιό σας. Ισοδυναμεί με την αποθήκευση μιας καταχώρισης του συστήματος (αλλά χωρίς το ping)."
 
-#: modules/blogapi/blogapi.module:204
+#: modules/blogapi/blogapi.module:211
 #, fuzzy
 msgid "You do not have permission to create this type of post."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:226;281
+#: modules/blogapi/blogapi.module:233;288
 msgid "Error storing post."
 msgstr "Σφάλμα στην αποθήκευση της καταχώρισης."
 
-#: modules/blogapi/blogapi.module:248;482
+#: modules/blogapi/blogapi.module:255;487
 msgid "You do not have permission to update this post."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:362
+#: modules/blogapi/blogapi.module:369
 msgid "No file sent."
 msgstr "Δεν στάλθηκε κανένα αρχείο."
 
-#: modules/blogapi/blogapi.module:366
+#: modules/blogapi/blogapi.module:373
 msgid "Error storing file."
 msgstr "Σφάλμα στην αποθήκευση αρχείου."
 
-#: modules/blogapi/blogapi.module:477
+#: modules/blogapi/blogapi.module:482
 msgid "Invalid post."
 msgstr "Μη έγκυρη καταχώριση."
 
-#: modules/blogapi/blogapi.module:517
+#: modules/blogapi/blogapi.module:522
 #, fuzzy
 msgid "You do not have permission to edit this blog."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:521
+#: modules/blogapi/blogapi.module:526
 msgid "Wrong username or password."
 msgstr "Λάθος όνομα χρήστη ή συνθηματικό."
 
-#: modules/blogapi/blogapi.module:544
+#: modules/blogapi/blogapi.module:549
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:548
+#: modules/blogapi/blogapi.module:553
 msgid "Select the content types available to external blogging clients via Blog API. If supported, each enabled content type will be displayed as a separate \"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:577;556
+#: modules/blogapi/blogapi.module:582;561
 msgid "RSD"
 msgstr "RSD"
 
-#: modules/blogapi/blogapi.module:221
+#: modules/blogapi/blogapi.module:228
 msgid "@type: added %title using blog API."
 msgstr "@type: προστέθηκε το %title με χρήση του API ιστολογίων."
 
-#: modules/blogapi/blogapi.module:277
+#: modules/blogapi/blogapi.module:284
 #, fuzzy
 msgid "@type: updated %title using Blog API."
 msgstr "@type: ενημερώθηκε το %title με χρήση του API ιστολογίων."
 
-#: modules/blogapi/blogapi.module:563
+#: modules/blogapi/blogapi.module:27
+#, fuzzy
+msgid "administer content with blog api"
+msgstr "διαχείριση τύπων ύλης"
+
+#: modules/blogapi/blogapi.module:568
 #, fuzzy
 msgid "Configure the content types available to external blogging clients."
 msgstr "Ρύθμιση των τύπων περιεχομένου και των μηχανισμών που μπορούν να χρησιμοποιούν εξωτερικοί πελάτες ιστολογίων."

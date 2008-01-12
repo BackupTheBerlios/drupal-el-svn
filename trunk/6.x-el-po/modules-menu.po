@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "There are no menu items yet."
 msgstr "Το όνομα του στοιχείου μενού."
 
-#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:236
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
 msgid "disabled"
 msgstr "ανενεργό"
 
@@ -37,11 +37,11 @@ msgstr "επαναφορά"
 msgid "Menu item"
 msgstr "Στοιχείο μενού"
 
-#: modules/menu/menu.admin.inc:175;299
+#: modules/menu/menu.admin.inc:176;299
 msgid "Expanded"
 msgstr "Σε ανάπτυξη"
 
-#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:359
+#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:358
 msgid "Menu settings"
 msgstr "Ρυθμίσεις μενού"
 
@@ -49,7 +49,7 @@ msgstr "Ρυθμίσεις μενού"
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
 msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική διεύθυνση URL, όπως η %drupal. Εισάγετε %front για παραπομπή στην αρχική σελίδα του ιστοτόπου."
 
-#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:386
+#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:385
 #, fuzzy
 msgid "Menu link title"
 msgstr "Τίτλος μπλοκ"
@@ -70,19 +70,15 @@ msgstr ""
 msgid "If selected and this menu item has children, the menu will always appear expanded."
 msgstr "Αν το επιλέξετε και αυτό το στοιχείο μενού έχει θυγατρικά, το μενού θα εμφανίζεται πάντα σε ανάπτυξη."
 
-#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:402
+#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:401
 msgid "The maximum depth for an item and all its children is fixed at !maxdepth. Some menu items may not be available as parents if selecting them would exceed this limit."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:322 modules/menu/menu.module:411
+#: modules/menu/menu.admin.inc:322 modules/menu/menu.module:410
 msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
 msgstr "Προαιρετικό. Στο μενού, τα βαρύτερα στοιχεία θα βουλιάζουν και τα ελαφρύτερα θα τοποθετούνται πιο κοντά στην κορυφή."
 
-#: modules/menu/menu.admin.inc:337
-msgid "The menu system stores system paths only, but will use the URL alias for display. %link_path has been stored as %normal_path"
-msgstr ""
-
-#: modules/menu/menu.admin.inc:378 modules/menu/menu.module:303
+#: modules/menu/menu.admin.inc:378 modules/menu/menu.module:302
 #, fuzzy
 msgid "There was an error saving the menu link."
 msgstr "Το όνομα που θα εμφανίζεται γι' αυτόν τον σύνδεσμο μενού."
@@ -211,12 +207,12 @@ msgstr ""
 msgid "Enter the title and path for your new menu item."
 msgstr "Ορίστε τον τίτλο, τη διαδρομή, τη θέση και το βάρος του νέου σας στοιχείου μενού."
 
-#: modules/menu/menu.module:373
+#: modules/menu/menu.module:372
 #, fuzzy
 msgid "Delete this menu item."
 msgstr "Διαγραφή στοιχείου μενού"
 
-#: modules/menu/menu.module:388
+#: modules/menu/menu.module:387
 msgid "The link text corresponding to this item that should appear in the menu. Leave blank if you do not wish to add this post to the menu."
 msgstr ""
 

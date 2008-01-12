@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -24,12 +24,13 @@ msgstr ""
 msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
 msgstr "Το ανώτατο επιτρεπτό μέγεθος αρχείου εκφρασμένο σε ΠΛΑΤΟΣxΥΨΟΣ (π.χ. 640x480). Επιλογή του 0 για να μην υπάρχει περιορισμός."
 
-#: modules/upload/upload.admin.inc:17
-msgid "Your PHP settings limit the maximum file size per upload to %size MB."
-msgstr "Οι ρυθμίσεις της PHP ορίζουν ως μέγιστο μέγεθος αρχείου προς αποστολή τα %size MB."
+#: modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr "Οι ρυθμίσεις της PHP περιορίζουν το μέγιστο μέγεθος αρχείου προς αποστολή στα %size."
 
 #: modules/upload/upload.admin.inc:18
-msgid "Depending on your sever environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
+#, fuzzy
+msgid "Depending on your server environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
 msgstr "Ανάλογα με τον διακομιστή σας αυτές οι ρυθμίσεις μπορούν να αλλάξουν στο php.ini του συστήματος, σε ένα php.ini στον ριζικό φάκελο του Drupal, στο settings.php του ιστοτόπου σας ή στο αρχείο .htaccess του ριζικού φάκελου του Drupal."
 
 #: modules/upload/upload.admin.inc:21;24;39;42
@@ -92,10 +93,6 @@ msgstr "Το προεπιλεγμένο συνολικό μέγεθος αρχε
 msgid "The default maximum size of all files a user can have on the site."
 msgstr "Το προεπιλεγμένο ανώτατο μέγεθος όλων των αρχείων που μπορεί ένας χρήστης να έχει αποστείλει στον ιστοτόπο."
 
-#: modules/upload/upload.admin.inc:110
-msgid "Your PHP settings limit the maximum file size per upload to %size."
-msgstr "Οι ρυθμίσεις της PHP περιορίζουν το μέγιστο μέγεθος αρχείου προς αποστολή στα %size."
-
 #: modules/upload/upload.admin.inc:118
 msgid "Settings for @role"
 msgstr "Ρυθμίσεις για το @role"
@@ -148,59 +145,59 @@ msgstr "Οι χρήστες με την <a href=\"@permissions\">άδεια απ
 msgid "Read full article to view attachments."
 msgstr "Ανάγνωση ολόκληρου του άρθρου για την προβολή των συνημμένων."
 
-#: modules/upload/upload.module:206
+#: modules/upload/upload.module:220
 msgid "Attachments"
 msgstr "Συνημμένα"
 
-#: modules/upload/upload.module:219
+#: modules/upload/upload.module:233
 msgid "File attachments"
 msgstr "Συνημμένα αρχεία"
 
-#: modules/upload/upload.module:222
+#: modules/upload/upload.module:236
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
 msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι την αποθήκευση της καταχώρισης. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στις ροές RSS."
 
-#: modules/upload/upload.module:240
+#: modules/upload/upload.module:254
 msgid "File attachments are disabled. The file directories have not been properly configured."
 msgstr "Η επισύναψη αρχείων είναι ανενεργή. Οι φάκελοι αρχείων δεν είναι σωστά ρυθμισμένοι."
 
-#: modules/upload/upload.module:242
+#: modules/upload/upload.module:256
 msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
 msgstr "Επισκεφτείτε την σελίδα <a href=\"@admin-file-system\">ρυθμίσεις αρχείων συστήματος</a>."
 
-#: modules/upload/upload.module:245
+#: modules/upload/upload.module:259
 msgid "Please contact the site administrator."
 msgstr "Απευθυνθείτε στο διαχειριστή του ιστοτόπου."
 
-#: modules/upload/upload.module:347
+#: modules/upload/upload.module:361
 msgid "Attachment"
 msgstr "Συνημμένο"
 
-#: modules/upload/upload.module:347;526
+#: modules/upload/upload.module:361;544
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: modules/upload/upload.module:498
+#: modules/upload/upload.module:516
 msgid "Attach new file"
 msgstr "Επισύναψη νέου αρχείου"
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:518
 msgid "Images are larger than %resolution will be resized. "
 msgstr ""
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:518
 msgid "The maximum upload size is %filesize. Only files with the following extensions may be uploaded: %extensions. "
 msgstr ""
 
-#: modules/upload/upload.module:504
+#: modules/upload/upload.module:522
 msgid "Attach"
 msgstr "Επισύναψη"
 
-#: modules/upload/upload.module:509
+#: modules/upload/upload.module:527
 msgid "Please wait..."
 msgstr ""
 
-#: modules/upload/upload.module:65;312
+#: modules/upload/upload.module:65;326
 msgid "1 attachment"
 msgid_plural "@count attachments"
 msgstr[0] "1 συνημμένο"

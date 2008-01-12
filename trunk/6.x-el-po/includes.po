@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -60,92 +60,92 @@ msgstr "Το πεδίο είναι απαραίτητο."
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: includes/common.inc:334
+#: includes/common.inc:333
 msgid "Site off-line"
 msgstr "Ιστοτόπος εκτός λειτουργίας"
 
-#: includes/common.inc:361
+#: includes/common.inc:360
 msgid "Page not found"
 msgstr "Δε βρέθηκε η σελίδα"
 
-#: includes/common.inc:362
+#: includes/common.inc:361
 #, fuzzy
 msgid "The requested page could not be found."
 msgstr "Δεν ήταν δυνατή η αντιγραφή του επιλεγμένου αρχείου %file."
 
-#: includes/common.inc:390
+#: includes/common.inc:389
 msgid "Access denied"
 msgstr "Δεν επιτρέπεται η πρόσβαση"
 
-#: includes/common.inc:391
+#: includes/common.inc:390
 msgid "You are not authorized to access this page."
 msgstr "Δεν είστε εξουσιοδοτημένος για να προσπελάσετε αυτή τη σελίδα."
 
-#: includes/common.inc:431
+#: includes/common.inc:430
 msgid "The server can't issue HTTP requests"
 msgstr ""
 
-#: includes/common.inc:1084
+#: includes/common.inc:1083
 msgid "KB"
 msgstr "KB"
 
-#: includes/common.inc:1089
+#: includes/common.inc:1088
 msgid "@size @suffix"
 msgstr "@size @suffix"
 
-#: includes/common.inc:1121
+#: includes/common.inc:1120
 msgid "0 sec"
 msgstr "0 δευτ."
 
-#: includes/common.inc:3444
+#: includes/common.inc:3461
 msgid "emergency"
 msgstr ""
 
-#: includes/common.inc:3445
+#: includes/common.inc:3462
 msgid "alert"
 msgstr ""
 
-#: includes/common.inc:3446
+#: includes/common.inc:3463
 msgid "critical"
 msgstr ""
 
-#: includes/common.inc:3449
+#: includes/common.inc:3466
 msgid "notice"
 msgstr "ειδοποίηση"
 
-#: includes/common.inc:3450
+#: includes/common.inc:3467
 msgid "info"
 msgstr ""
 
-#: includes/common.inc:3451
+#: includes/common.inc:3468
 msgid "debug"
 msgstr ""
 
-#: includes/common.inc:610
+#: includes/common.inc:609
 msgid "%message in %file on line %line."
 msgstr "%message στο αρχείο %file στη γραμμή %line."
 
-#: includes/common.inc:2506;2513;2528;2544
+#: includes/common.inc:2517;2524;2539;2555
 msgid "cron"
 msgstr "cron"
 
-#: includes/common.inc:2506
+#: includes/common.inc:2517
 msgid "Cron has been running for more than an hour and is most likely stuck."
 msgstr "Το cron ήδη εκτελείται για παραπάνω από μία ώρα και είναι πολύ πιθανό να έχει κολλήσει."
 
-#: includes/common.inc:2513
+#: includes/common.inc:2524
 msgid "Attempting to re-run cron while it is already running."
 msgstr "Γίνεται προσπάθεια για επανεκτέλεση του cron καθώς ήδη εκτελείται."
 
-#: includes/common.inc:2528
+#: includes/common.inc:2539
 msgid "Cron run completed."
 msgstr "Η εκτέλεση του cron ολοκληρώθηκε."
 
-#: includes/common.inc:2544
+#: includes/common.inc:2555
 msgid "Cron run exceeded the time limit and was aborted."
 msgstr "Η εκτέλεση του cron ξεπέρασε το χρονικό όριο και ακυρώθηκε."
 
-#: includes/common.inc:1080
+#: includes/common.inc:1079
 msgid "1 byte"
 msgid_plural "@count bytes"
 msgstr[0] "1 byte"
@@ -187,11 +187,11 @@ msgid_plural "@count sec"
 msgstr[0] "1 δευτερόλεπτο"
 msgstr[1] "@count δευτερόλεπτα"
 
-#: includes/database.mysql.inc:26 includes/database.mysqli.inc:30
+#: includes/database.mysql.inc:26 includes/database.mysqli.inc:29
 msgid "MySQL database"
 msgstr "Βάση δεδομένων MySQL"
 
-#: includes/database.mysql.inc:32 includes/database.mysqli.inc:36
+#: includes/database.mysql.inc:32 includes/database.mysqli.inc:35
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
 msgstr "Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον MySQL %version."
 
@@ -335,19 +335,19 @@ msgstr "Σφάλμα στην αποστολή του αρχείου. Δεν ή�
 msgid "Validation error, please try again. If this error persists, please contact the site administrator."
 msgstr "Σφάλμα επαλήθευσης, δοκιμάστε πάλι. Αν το σφάλμα εξακολουθήσει, απευθυνθείτε στο διαχειριστή του ιστοτόπου."
 
-#: includes/form.inc:1532
+#: includes/form.inc:1541
 msgid "Confirm password"
 msgstr "Επιβεβαίωση συνθηματικού"
 
-#: includes/form.inc:1555
+#: includes/form.inc:1564
 msgid "The specified passwords do not match."
 msgstr "Τα συνθηματικά που δόθηκαν δεν είναι ίδια."
 
-#: includes/form.inc:1559
+#: includes/form.inc:1568
 msgid "Password field is required."
 msgstr "Το πεδίο του συνθηματικού είναι υποχρεωτικό."
 
-#: includes/form.inc:1640
+#: includes/form.inc:1649
 msgid "The specified date is invalid."
 msgstr "Η δοθείσα ημερομηνία δεν είναι έγκυρη."
 
@@ -359,27 +359,27 @@ msgstr "Το πεδίο !name είναι απαραίτητο."
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr "Το !name δεν μπορεί να είναι μεγαλύτερο από %max χαρακτήρες και ήδη είναι %length χαρακτήρες."
 
-#: includes/form.inc:2111
+#: includes/form.inc:2120
 msgid "This field is required."
 msgstr "Το πεδίο είναι απαραίτητο."
 
-#: includes/form.inc:2116;2119
+#: includes/form.inc:2125;2128
 msgid "!title: !required"
 msgstr "!title: !required"
 
-#: includes/form.inc:2357
+#: includes/form.inc:2366
 msgid "Initializing."
 msgstr ""
 
-#: includes/form.inc:2358
+#: includes/form.inc:2367
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: includes/form.inc:2359
+#: includes/form.inc:2368
 msgid "An error has occurred."
 msgstr ""
 
-#: includes/form.inc:2432
+#: includes/form.inc:2441
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 
@@ -421,6 +421,15 @@ msgstr "Η επιλεγμένη εργαλειοθήκη χειρισμού ει
 msgid "Currently using !item !version"
 msgstr "Χρησιμοποίηση του !item !version"
 
+#: includes/locale.inc:48;279
+#, fuzzy
+msgid "Right to left"
+msgstr "Επαναφορά στις εξ' ορισμού ρυθμίσεις"
+
+#: includes/locale.inc:48;279
+msgid "Left to right"
+msgstr ""
+
 #: includes/locale.inc:90
 msgid "Code"
 msgstr "Κωδικός"
@@ -448,7 +457,7 @@ msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
 msgid "Predefined language"
 msgstr "Προσθήκη γλώσσας"
 
-#: includes/locale.inc:161;704
+#: includes/locale.inc:161;710
 msgid "Language name"
 msgstr "Όνομα γλώσσας"
 
@@ -515,15 +524,6 @@ msgstr ""
 #: includes/locale.inc:277
 msgid "Direction that text in this language is presented."
 msgstr ""
-
-#: includes/locale.inc:279
-msgid "Left to right"
-msgstr ""
-
-#: includes/locale.inc:279
-#, fuzzy
-msgid "Right to left"
-msgstr "Επαναφορά στις εξ' ορισμού ρυθμίσεις"
 
 #: includes/locale.inc:291
 msgid "The language %language (%code) already exists."
@@ -621,971 +621,971 @@ msgstr "Επεξεργασία φακέλου"
 msgid "Leave blank to show all strings. The search is case sensitive."
 msgstr "Αφήστε το κενό για να εμφανιστούν όλες οι φράσεις. Η αναζήτηση κάνει διάκριση κεφαλαίων-πεζών."
 
-#: includes/locale.inc:556
+#: includes/locale.inc:559
 msgid "English (provided by Drupal)"
 msgstr "Αγγλική (παρέχεται από το Drupal)"
 
-#: includes/locale.inc:559
+#: includes/locale.inc:562
 msgid "Search in"
 msgstr "Αναζήτηση σε"
 
-#: includes/locale.inc:561
+#: includes/locale.inc:564
 #, fuzzy
 msgid "Both translated and untranslated strings"
 msgstr "Μόνο αμετάφραστες φράσεις"
 
-#: includes/locale.inc:561
+#: includes/locale.inc:564
 msgid "Only translated strings"
 msgstr "Μόνο μεταφρασμένες φράσεις"
 
-#: includes/locale.inc:561
+#: includes/locale.inc:564
 msgid "Only untranslated strings"
 msgstr "Μόνο αμετάφραστες φράσεις"
 
-#: includes/locale.inc:565
+#: includes/locale.inc:568
 #, fuzzy
 msgid "Limit search to"
 msgstr "διαχείριση αναζήτησης"
 
-#: includes/locale.inc:567
+#: includes/locale.inc:570
 msgid "All text groups"
 msgstr ""
 
-#: includes/locale.inc:598
+#: includes/locale.inc:601
 msgid "Already added languages"
 msgstr "Γλώσσες που προστέθηκαν ήδη"
 
-#: includes/locale.inc:599
+#: includes/locale.inc:602
 msgid "Languages not yet added"
 msgstr "Γλώσσες που δεν προστέθηκαν ακόμη"
 
-#: includes/locale.inc:606
+#: includes/locale.inc:609
 msgid "Import translation"
 msgstr "Εισαγωγή μετάφρασης"
 
-#: includes/locale.inc:609
+#: includes/locale.inc:612
 msgid "Language file"
 msgstr "Αρχείο μετάφρασης"
 
-#: includes/locale.inc:611
+#: includes/locale.inc:614
 #, fuzzy
 msgid "A Gettext Portable Object (<em>.po</em>) file."
 msgstr "Ένα αρχείο Portable Object (.po) του gettext."
 
-#: includes/locale.inc:614
+#: includes/locale.inc:617
 msgid "Import into"
 msgstr "Εισαγωγή σε"
 
-#: includes/locale.inc:617
+#: includes/locale.inc:620
 #, fuzzy
 msgid "Choose the language you want to add strings into. If you choose a language which is not yet set up, it will be added."
 msgstr "Επιλέξτε τη γλώσσα στην οποία θέλετε να προσθέσετε φράσεις. Αν διαλέξετε μια γλώσσα που δεν έχει ακόμα εγκατασταθεί, τότε θα προστεθεί."
 
-#: includes/locale.inc:620;709;728;1964
+#: includes/locale.inc:623;715;734;1970
 #, fuzzy
 msgid "Text group"
 msgstr "Χρώμα κειμένου"
 
-#: includes/locale.inc:623
+#: includes/locale.inc:626
 msgid "Imported translations will be added to this text group."
 msgstr ""
 
-#: includes/locale.inc:626
+#: includes/locale.inc:629
 msgid "Mode"
 msgstr "Τρόπος"
 
-#: includes/locale.inc:628
+#: includes/locale.inc:632
 msgid "Strings in the uploaded file replace existing ones, new ones are added"
 msgstr "Οι φράσεις του αρχείου που αποστέλλετε αντικαθιστούν τις υπάρχουσες, οι νέες προστίθενται"
 
-#: includes/locale.inc:628
+#: includes/locale.inc:633
 msgid "Existing strings are kept, only new strings are added"
 msgstr "Οι υπάρχουσες φράσεις διατηρούνται, μόνο οι νέες προστίθενται"
 
-#: includes/locale.inc:649
+#: includes/locale.inc:655
 #, fuzzy
 msgid "The language %language has been created."
 msgstr "Η γλώσσα %locale δημιουργήθηκε."
 
-#: includes/locale.inc:655;656
+#: includes/locale.inc:661;662
 msgid "The translation import of %filename failed."
 msgstr "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
 
-#: includes/locale.inc:660
+#: includes/locale.inc:666
 #, fuzzy
 msgid "File to import not found."
 msgstr "Η κατηγορία δεν βρέθηκε."
 
-#: includes/locale.inc:700
+#: includes/locale.inc:706
 msgid "Export translation"
 msgstr "Εξαγωγή μετάφρασης"
 
-#: includes/locale.inc:706
+#: includes/locale.inc:712
 #, fuzzy
 msgid "Select the language to export in Gettext Portable Object (<em>.po</em>) format."
 msgstr "Επιλέξτε τη γλώσσα που θα θέλατε να εξαγάγετε σε μορφή Portable Object (.po) του gettext."
 
-#: includes/locale.inc:723
+#: includes/locale.inc:729
 msgid "Export template"
 msgstr "Εξαγωγή προτύπου"
 
-#: includes/locale.inc:725
+#: includes/locale.inc:731
 #, fuzzy
 msgid "Generate a Gettext Portable Object Template (<em>.pot</em>) file with all strings from the Drupal locale database."
 msgstr "Δημιουργία ενός αρχείου Portable Object Template (.pot) του gettext με όλες τις φράσεις της διεπαφής χρήστη από τη βάση δεδομένων γλωσσικών μονάδων του Drupal."
 
-#: includes/locale.inc:767
+#: includes/locale.inc:773
 msgid "String not found."
 msgstr "Δεν βρέθηκαν φράσεις."
 
-#: includes/locale.inc:775
+#: includes/locale.inc:781
 msgid "Original text"
 msgstr "Πρωτότυπο κείμενο"
 
-#: includes/locale.inc:817
+#: includes/locale.inc:823
 msgid "Save translations"
 msgstr "Αποθήκευση μεταφράσεων"
 
-#: includes/locale.inc:847
+#: includes/locale.inc:853
 msgid "The string has been saved."
 msgstr "Η φράση αποθηκεύτηκε."
 
-#: includes/locale.inc:873
+#: includes/locale.inc:879
 msgid "The string has been removed."
 msgstr "Η φράση αφαιρέθηκε."
 
-#: includes/locale.inc:967
+#: includes/locale.inc:973
 msgid "The language selected for import is not supported."
 msgstr "Η γλώσσα που επιλέξατε για εισαγωγή δεν υποστηρίζεται."
 
-#: includes/locale.inc:982
+#: includes/locale.inc:988
 msgid "The translation file %filename appears to have a missing or malformed header."
 msgstr "Το αρχείο μετάφρασης %filename φαίνεται να έχει μια κεφαλίδα που λείπει ή είναι λανθασμένη."
 
-#: includes/locale.inc:992
+#: includes/locale.inc:998
 #, fuzzy
 msgid "The translation was successfully imported. There are %number newly created translated strings, %update strings were updated and %delete strings were removed."
 msgstr "Η εισαγωγή της μετάφρασης έγινε με επιτυχία. Δημιουργήθηκαν %number νέες μεταφρασμένες φράσεις και ενημερώθηκαν %update φράσεις."
 
-#: includes/locale.inc:1368
+#: includes/locale.inc:1374
 msgid "The translation file %filename contains an error: the plural formula could not be parsed."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: δεν έγινε δυνατή η συντακτική ανάλυση του τύπου του πληθυντικού."
 
-#: includes/locale.inc:1964
+#: includes/locale.inc:1970
 msgid "String"
 msgstr "Φράση"
 
-#: includes/locale.inc:1990
+#: includes/locale.inc:1996
 msgid "No strings found for your search."
 msgstr ""
 
-#: includes/locale.inc:1015
+#: includes/locale.inc:1021
 msgid "The translation import failed, because the file %filename could not be read."
 msgstr "Η εισαγωγή της μετάφρασης απέτυχε επειδή δεν ήταν δυνατό να αναγνωστεί το αρχείο %filename."
 
-#: includes/locale.inc:1044
+#: includes/locale.inc:1050
 msgid "The translation file %filename contains an error: \"msgstr\" was expected but not found on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: Το \"msgstr\" αναμενόταν αλλά δεν βρέθηκε στη γραμμή %line."
 
-#: includes/locale.inc:1050
+#: includes/locale.inc:1056
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: Το \"msgid_plural\" αναμενόταν αλλά δεν βρέθηκε στη γραμμή %line."
 
-#: includes/locale.inc:1056;1074;1086;1094;1108;1117
+#: includes/locale.inc:1062;1080;1092;1100;1114;1123
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει συντακτικό σφάλμα στη γραμμή %line."
 
-#: includes/locale.inc:1068
+#: includes/locale.inc:1074
 msgid "The translation file %filename contains an error: \"msgid\" is unexpected on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: απροσδόκητο \"msgid\" στη γραμμή %line."
 
-#: includes/locale.inc:1082
+#: includes/locale.inc:1088
 msgid "The translation file %filename contains an error: \"msgstr[]\" is unexpected on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: απροσδόκητο \"msgstr[]\" στη γραμμή %line."
 
-#: includes/locale.inc:1102
+#: includes/locale.inc:1108
 msgid "The translation file %filename contains an error: \"msgstr\" is unexpected on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: απροσδόκητο \"msgstr\" στη γραμμή %line."
 
-#: includes/locale.inc:1130
+#: includes/locale.inc:1136
 msgid "The translation file %filename contains an error: there is an unexpected string on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: απροσδόκητη ακολουθία χαρακτήρων στη γραμμή %line."
 
-#: includes/locale.inc:1141
+#: includes/locale.inc:1147
 msgid "The translation file %filename ended unexpectedly at line %line."
 msgstr "Το αρχείο μετάφρασης %filename τελείωσε απροσδόκητα στη γραμμή %line."
 
-#: includes/locale.inc:2508
+#: includes/locale.inc:2514
 #, fuzzy
 msgid "Importing interface translations"
 msgstr "Εισαγωγή μετάφρασης"
 
-#: includes/locale.inc:2509
+#: includes/locale.inc:2515
 msgid "Starting import"
 msgstr ""
 
-#: includes/locale.inc:2510
+#: includes/locale.inc:2516
 #, fuzzy
 msgid "Error importing interface translations"
 msgstr "Ρύθμιση της γλωσσικής προσαρμογής του ιστοτόπου και της γλώσσας διεπαφής των χρηστών."
 
-#: includes/locale.inc:936
+#: includes/locale.inc:942
 #, fuzzy
 msgid "The %language language (%code) has been created."
 msgstr "Η γλώσσα %language (%locale) δημιουργήθηκε."
 
-#: includes/locale.inc:993
+#: includes/locale.inc:999
 #, fuzzy
 msgid "Imported %file into %locale: %number new strings added, %update updated and %delete removed."
 msgstr "Έγινε εισαγωγή του %file στην %locale: %number νέες φράσεις προστέθηκαν και %update ενημερώθηκαν."
 
-#: includes/locale.inc:1810
+#: includes/locale.inc:1816
 msgid "Exported %locale translation file: %filename."
 msgstr "Έγινε εξαγωγή αρχείου μετάφρασης για την %locale: %filename."
 
-#: includes/locale.inc:1814
+#: includes/locale.inc:1820
 msgid "Exported translation file: %filename."
 msgstr "Έγινε εξαγωγή αρχείου μετάφρασης: %filename."
 
-#: includes/locale.inc:2155
+#: includes/locale.inc:2161
 msgid "Updated JavaScript translation file for the language %language."
 msgstr ""
 
-#: includes/locale.inc:2158
+#: includes/locale.inc:2164
 msgid "Created JavaScript translation file for the language %language."
 msgstr ""
 
-#: includes/locale.inc:2161
+#: includes/locale.inc:2167
 msgid "Removed JavaScript translation file for the language %language, because no translations currently exist for that language."
 msgstr ""
 
-#: includes/locale.inc:2164
+#: includes/locale.inc:2170
 msgid "An error occurred during creation of the JavaScript translation file for the language %language."
 msgstr ""
 
-#: includes/locale.inc:2548
+#: includes/locale.inc:2554
 #, fuzzy
 msgid "One translation file imported for the newly installed modules."
 msgid_plural "@count translation files imported for the newly installed modules."
 msgstr[0] "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
 msgstr[1] "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
 
-#: includes/locale.inc:2558
+#: includes/locale.inc:2564
 #, fuzzy
 msgid "One translation file imported for the enabled modules."
 msgid_plural "@count translation files imported for the enabled modules."
 msgstr[0] "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
 msgstr[1] "Η εισαγωγή του αρχείου μετάφρασης %filename απέτυχε."
 
-#: includes/locale.inc:2230
+#: includes/locale.inc:2236
 msgid "Afar"
 msgstr "Afar"
 
-#: includes/locale.inc:2231
+#: includes/locale.inc:2237
 msgid "Abkhazian"
 msgstr "Abkhazian"
 
-#: includes/locale.inc:2232
+#: includes/locale.inc:2238
 msgid "Avestan"
 msgstr "Avestan"
 
-#: includes/locale.inc:2233
+#: includes/locale.inc:2239
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: includes/locale.inc:2234
+#: includes/locale.inc:2240
 msgid "Akan"
 msgstr "Akan"
 
-#: includes/locale.inc:2235
+#: includes/locale.inc:2241
 msgid "Amharic"
 msgstr "Amharic"
 
-#: includes/locale.inc:2236
+#: includes/locale.inc:2242
 msgid "Arabic"
 msgstr "Arabic"
 
-#: includes/locale.inc:2237
+#: includes/locale.inc:2243
 msgid "Assamese"
 msgstr "Assamese"
 
-#: includes/locale.inc:2238
+#: includes/locale.inc:2244
 msgid "Avar"
 msgstr "Avar"
 
-#: includes/locale.inc:2239
+#: includes/locale.inc:2245
 msgid "Aymara"
 msgstr "Aymara"
 
-#: includes/locale.inc:2240
+#: includes/locale.inc:2246
 msgid "Azerbaijani"
 msgstr "Azerbaijani"
 
-#: includes/locale.inc:2241
+#: includes/locale.inc:2247
 msgid "Bashkir"
 msgstr "Bashkir"
 
-#: includes/locale.inc:2242
+#: includes/locale.inc:2248
 msgid "Belarusian"
 msgstr "Belarusian"
 
-#: includes/locale.inc:2243
+#: includes/locale.inc:2249
 msgid "Bulgarian"
 msgstr "Bulgarian"
 
-#: includes/locale.inc:2244
+#: includes/locale.inc:2250
 msgid "Bihari"
 msgstr "Bihari"
 
-#: includes/locale.inc:2245
+#: includes/locale.inc:2251
 msgid "Bislama"
 msgstr "Bislama"
 
-#: includes/locale.inc:2246
+#: includes/locale.inc:2252
 msgid "Bambara"
 msgstr "Bambara"
 
-#: includes/locale.inc:2247
+#: includes/locale.inc:2253
 msgid "Bengali"
 msgstr "Bengali"
 
-#: includes/locale.inc:2248
+#: includes/locale.inc:2254
 msgid "Tibetan"
 msgstr "Tibetan"
 
-#: includes/locale.inc:2249
+#: includes/locale.inc:2255
 msgid "Breton"
 msgstr "Breton"
 
-#: includes/locale.inc:2250
+#: includes/locale.inc:2256
 msgid "Bosnian"
 msgstr "Bosnian"
 
-#: includes/locale.inc:2251
+#: includes/locale.inc:2257
 msgid "Catalan"
 msgstr "Catalan"
 
-#: includes/locale.inc:2252
+#: includes/locale.inc:2258
 msgid "Chechen"
 msgstr "Chechen"
 
-#: includes/locale.inc:2253
+#: includes/locale.inc:2259
 msgid "Chamorro"
 msgstr "Chamorro"
 
-#: includes/locale.inc:2254
+#: includes/locale.inc:2260
 msgid "Corsican"
 msgstr "Corsican"
 
-#: includes/locale.inc:2255
+#: includes/locale.inc:2261
 msgid "Cree"
 msgstr "Cree"
 
-#: includes/locale.inc:2256
+#: includes/locale.inc:2262
 msgid "Czech"
 msgstr "Czech"
 
-#: includes/locale.inc:2257
+#: includes/locale.inc:2263
 msgid "Old Slavonic"
 msgstr "Old Slavonic"
 
-#: includes/locale.inc:2258
+#: includes/locale.inc:2264
 msgid "Chuvash"
 msgstr "Chuvash"
 
-#: includes/locale.inc:2259
+#: includes/locale.inc:2265
 msgid "Welsh"
 msgstr "Welsh"
 
-#: includes/locale.inc:2260
+#: includes/locale.inc:2266
 msgid "Danish"
 msgstr "Danish"
 
-#: includes/locale.inc:2261
+#: includes/locale.inc:2267
 msgid "German"
 msgstr "German"
 
-#: includes/locale.inc:2262
+#: includes/locale.inc:2268
 msgid "Maldivian"
 msgstr "Maldivian"
 
-#: includes/locale.inc:2263
+#: includes/locale.inc:2269
 msgid "Bhutani"
 msgstr "Bhutani"
 
-#: includes/locale.inc:2264
+#: includes/locale.inc:2270
 msgid "Ewe"
 msgstr "Ewe"
 
-#: includes/locale.inc:2265
+#: includes/locale.inc:2271
 msgid "Greek"
 msgstr "Greek"
 
-#: includes/locale.inc:2266
+#: includes/locale.inc:2272
 msgid "English"
 msgstr "English"
 
-#: includes/locale.inc:2267
+#: includes/locale.inc:2273
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: includes/locale.inc:2268
+#: includes/locale.inc:2274
 msgid "Spanish"
 msgstr "Spanish"
 
-#: includes/locale.inc:2269
+#: includes/locale.inc:2275
 msgid "Estonian"
 msgstr "Estonian"
 
-#: includes/locale.inc:2270
+#: includes/locale.inc:2276
 msgid "Basque"
 msgstr "Basque"
 
-#: includes/locale.inc:2271
+#: includes/locale.inc:2277
 msgid "Persian"
 msgstr "Persian"
 
-#: includes/locale.inc:2272
+#: includes/locale.inc:2278
 msgid "Fulah"
 msgstr "Fulah"
 
-#: includes/locale.inc:2273
+#: includes/locale.inc:2279
 msgid "Finnish"
 msgstr "Finnish"
 
-#: includes/locale.inc:2274
+#: includes/locale.inc:2280
 msgid "Fiji"
 msgstr "Fiji"
 
-#: includes/locale.inc:2275
+#: includes/locale.inc:2281
 msgid "Faeroese"
 msgstr "Faeroese"
 
-#: includes/locale.inc:2276
+#: includes/locale.inc:2282
 msgid "French"
 msgstr "French"
 
-#: includes/locale.inc:2277
+#: includes/locale.inc:2283
 msgid "Frisian"
 msgstr "Frisian"
 
-#: includes/locale.inc:2278
+#: includes/locale.inc:2284
 msgid "Irish"
 msgstr "Irish"
 
-#: includes/locale.inc:2279
+#: includes/locale.inc:2285
 msgid "Scots Gaelic"
 msgstr "Scots Gaelic"
 
-#: includes/locale.inc:2280
+#: includes/locale.inc:2286
 msgid "Galician"
 msgstr "Galician"
 
-#: includes/locale.inc:2281
+#: includes/locale.inc:2287
 msgid "Guarani"
 msgstr "Guarani"
 
-#: includes/locale.inc:2282
+#: includes/locale.inc:2288
 msgid "Gujarati"
 msgstr "Gujarati"
 
-#: includes/locale.inc:2283
+#: includes/locale.inc:2289
 msgid "Manx"
 msgstr "Manx"
 
-#: includes/locale.inc:2284
+#: includes/locale.inc:2290
 msgid "Hausa"
 msgstr "Hausa"
 
-#: includes/locale.inc:2285
+#: includes/locale.inc:2291
 msgid "Hebrew"
 msgstr "Hebrew"
 
-#: includes/locale.inc:2286
+#: includes/locale.inc:2292
 msgid "Hindi"
 msgstr "Hindi"
 
-#: includes/locale.inc:2287
+#: includes/locale.inc:2293
 msgid "Hiri Motu"
 msgstr "Hiri Motu"
 
-#: includes/locale.inc:2288
+#: includes/locale.inc:2294
 msgid "Croatian"
 msgstr "Croatian"
 
-#: includes/locale.inc:2289
+#: includes/locale.inc:2295
 msgid "Hungarian"
 msgstr "Hungarian"
 
-#: includes/locale.inc:2290
+#: includes/locale.inc:2296
 msgid "Armenian"
 msgstr "Armenian"
 
-#: includes/locale.inc:2291
+#: includes/locale.inc:2297
 msgid "Herero"
 msgstr "Herero"
 
-#: includes/locale.inc:2292
+#: includes/locale.inc:2298
 msgid "Interlingua"
 msgstr "Interlingua"
 
-#: includes/locale.inc:2293
+#: includes/locale.inc:2299
 msgid "Indonesian"
 msgstr "Indonesian"
 
-#: includes/locale.inc:2294
+#: includes/locale.inc:2300
 msgid "Interlingue"
 msgstr "Interlingue"
 
-#: includes/locale.inc:2295
+#: includes/locale.inc:2301
 msgid "Igbo"
 msgstr "Igbo"
 
-#: includes/locale.inc:2296
+#: includes/locale.inc:2302
 msgid "Inupiak"
 msgstr "Inupiak"
 
-#: includes/locale.inc:2297
+#: includes/locale.inc:2303
 msgid "Icelandic"
 msgstr "Icelandic"
 
-#: includes/locale.inc:2298
+#: includes/locale.inc:2304
 msgid "Italian"
 msgstr "Italian"
 
-#: includes/locale.inc:2299
+#: includes/locale.inc:2305
 msgid "Inuktitut"
 msgstr "Inuktitut"
 
-#: includes/locale.inc:2300
+#: includes/locale.inc:2306
 msgid "Japanese"
 msgstr "Japanese"
 
-#: includes/locale.inc:2301
+#: includes/locale.inc:2307
 msgid "Javanese"
 msgstr "Javanese"
 
-#: includes/locale.inc:2302
+#: includes/locale.inc:2308
 msgid "Georgian"
 msgstr "Georgian"
 
-#: includes/locale.inc:2303
+#: includes/locale.inc:2309
 msgid "Kongo"
 msgstr "Kongo"
 
-#: includes/locale.inc:2304
+#: includes/locale.inc:2310
 msgid "Kikuyu"
 msgstr "Kikuyu"
 
-#: includes/locale.inc:2305
+#: includes/locale.inc:2311
 msgid "Kwanyama"
 msgstr "Kwanyama"
 
-#: includes/locale.inc:2306
+#: includes/locale.inc:2312
 msgid "Kazakh"
 msgstr "Kazakh"
 
-#: includes/locale.inc:2307
+#: includes/locale.inc:2313
 msgid "Greenlandic"
 msgstr "Greenlandic"
 
-#: includes/locale.inc:2308
+#: includes/locale.inc:2314
 msgid "Cambodian"
 msgstr "Cambodian"
 
-#: includes/locale.inc:2309
+#: includes/locale.inc:2315
 msgid "Kannada"
 msgstr "Kannada"
 
-#: includes/locale.inc:2310
+#: includes/locale.inc:2316
 msgid "Korean"
 msgstr "Korean"
 
-#: includes/locale.inc:2311
+#: includes/locale.inc:2317
 msgid "Kanuri"
 msgstr "Kanuri"
 
-#: includes/locale.inc:2312
+#: includes/locale.inc:2318
 msgid "Kashmiri"
 msgstr "Kashmiri"
 
-#: includes/locale.inc:2313
+#: includes/locale.inc:2319
 msgid "Kurdish"
 msgstr "Kurdish"
 
-#: includes/locale.inc:2314
+#: includes/locale.inc:2320
 msgid "Komi"
 msgstr "Komi"
 
-#: includes/locale.inc:2315
+#: includes/locale.inc:2321
 msgid "Cornish"
 msgstr "Cornish"
 
-#: includes/locale.inc:2316
+#: includes/locale.inc:2322
 msgid "Kirghiz"
 msgstr "Kirghiz"
 
-#: includes/locale.inc:2317
+#: includes/locale.inc:2323
 msgid "Latin"
 msgstr "Latin"
 
-#: includes/locale.inc:2318
+#: includes/locale.inc:2324
 msgid "Luxembourgish"
 msgstr "Luxembourgish"
 
-#: includes/locale.inc:2319
+#: includes/locale.inc:2325
 msgid "Luganda"
 msgstr "Luganda"
 
-#: includes/locale.inc:2320
+#: includes/locale.inc:2326
 msgid "Lingala"
 msgstr "Lingala"
 
-#: includes/locale.inc:2321
+#: includes/locale.inc:2327
 msgid "Laothian"
 msgstr "Laothian"
 
-#: includes/locale.inc:2322
+#: includes/locale.inc:2328
 msgid "Lithuanian"
 msgstr "Lithuanian"
 
-#: includes/locale.inc:2323
+#: includes/locale.inc:2329
 msgid "Latvian"
 msgstr "Latvian"
 
-#: includes/locale.inc:2324
+#: includes/locale.inc:2330
 msgid "Malagasy"
 msgstr "Malagasy"
 
-#: includes/locale.inc:2325
+#: includes/locale.inc:2331
 msgid "Marshallese"
 msgstr "Marshallese"
 
-#: includes/locale.inc:2326
+#: includes/locale.inc:2332
 msgid "Maori"
 msgstr "Maori"
 
-#: includes/locale.inc:2327
+#: includes/locale.inc:2333
 msgid "Macedonian"
 msgstr "F.Y.R.O.M."
 
-#: includes/locale.inc:2328
+#: includes/locale.inc:2334
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: includes/locale.inc:2329
+#: includes/locale.inc:2335
 msgid "Mongolian"
 msgstr "Mongolian"
 
-#: includes/locale.inc:2330
+#: includes/locale.inc:2336
 msgid "Moldavian"
 msgstr "Moldavian"
 
-#: includes/locale.inc:2331
+#: includes/locale.inc:2337
 msgid "Marathi"
 msgstr "Marathi"
 
-#: includes/locale.inc:2332
+#: includes/locale.inc:2338
 msgid "Malay"
 msgstr "Malay"
 
-#: includes/locale.inc:2333
+#: includes/locale.inc:2339
 msgid "Maltese"
 msgstr "Maltese"
 
-#: includes/locale.inc:2334
+#: includes/locale.inc:2340
 msgid "Burmese"
 msgstr "Burmese"
 
-#: includes/locale.inc:2335
+#: includes/locale.inc:2341
 msgid "Nauru"
 msgstr "Nauru"
 
-#: includes/locale.inc:2336
+#: includes/locale.inc:2342
 msgid "North Ndebele"
 msgstr "North Ndebele"
 
-#: includes/locale.inc:2337
+#: includes/locale.inc:2343
 msgid "Nepali"
 msgstr "Nepali"
 
-#: includes/locale.inc:2338
+#: includes/locale.inc:2344
 msgid "Ndonga"
 msgstr "Ndonga"
 
-#: includes/locale.inc:2339
+#: includes/locale.inc:2345
 msgid "Dutch"
 msgstr "Dutch"
 
-#: includes/locale.inc:2340
+#: includes/locale.inc:2346
 msgid "Norwegian Bokmål"
 msgstr "Norwegian Bokmål"
 
-#: includes/locale.inc:2341
+#: includes/locale.inc:2347
 msgid "Norwegian Nynorsk"
 msgstr "Norwegian Nynorsk"
 
-#: includes/locale.inc:2342
+#: includes/locale.inc:2348
 msgid "South Ndebele"
 msgstr "South Ndebele"
 
-#: includes/locale.inc:2343
+#: includes/locale.inc:2349
 msgid "Navajo"
 msgstr "Navajo"
 
-#: includes/locale.inc:2344
+#: includes/locale.inc:2350
 msgid "Chichewa"
 msgstr "Chichewa"
 
-#: includes/locale.inc:2345
+#: includes/locale.inc:2351
 msgid "Occitan"
 msgstr "Occitan"
 
-#: includes/locale.inc:2346
+#: includes/locale.inc:2352
 msgid "Oromo"
 msgstr "Oromo"
 
-#: includes/locale.inc:2347
+#: includes/locale.inc:2353
 msgid "Oriya"
 msgstr "Oriya"
 
-#: includes/locale.inc:2348
+#: includes/locale.inc:2354
 msgid "Ossetian"
 msgstr "Ossetian"
 
-#: includes/locale.inc:2349
+#: includes/locale.inc:2355
 msgid "Punjabi"
 msgstr "Punjabi"
 
-#: includes/locale.inc:2350
+#: includes/locale.inc:2356
 msgid "Pali"
 msgstr "Pali"
 
-#: includes/locale.inc:2351
+#: includes/locale.inc:2357
 msgid "Polish"
 msgstr "Polish"
 
-#: includes/locale.inc:2352
+#: includes/locale.inc:2358
 msgid "Pashto"
 msgstr "Pashto"
 
-#: includes/locale.inc:2353
+#: includes/locale.inc:2359
 msgid "Portuguese, Portugal"
 msgstr "Portuguese, Portugal"
 
-#: includes/locale.inc:2354
+#: includes/locale.inc:2360
 msgid "Portuguese, Brazil"
 msgstr "Portuguese, Brazil"
 
-#: includes/locale.inc:2355
+#: includes/locale.inc:2361
 msgid "Quechua"
 msgstr "Quechua"
 
-#: includes/locale.inc:2356
+#: includes/locale.inc:2362
 msgid "Rhaeto-Romance"
 msgstr "Rhaeto-Romance"
 
-#: includes/locale.inc:2357
+#: includes/locale.inc:2363
 msgid "Kirundi"
 msgstr "Kirundi"
 
-#: includes/locale.inc:2358
+#: includes/locale.inc:2364
 msgid "Romanian"
 msgstr "Romanian"
 
-#: includes/locale.inc:2359
+#: includes/locale.inc:2365
 msgid "Russian"
 msgstr "Russian"
 
-#: includes/locale.inc:2360
+#: includes/locale.inc:2366
 msgid "Kinyarwanda"
 msgstr "Kinyarwanda"
 
-#: includes/locale.inc:2361
+#: includes/locale.inc:2367
 msgid "Sanskrit"
 msgstr "Sanskrit"
 
-#: includes/locale.inc:2362
+#: includes/locale.inc:2368
 msgid "Sardinian"
 msgstr "Sardinian"
 
-#: includes/locale.inc:2363
+#: includes/locale.inc:2369
 msgid "Sindhi"
 msgstr "Sindhi"
 
-#: includes/locale.inc:2364
+#: includes/locale.inc:2370
 msgid "Northern Sami"
 msgstr "Northern Sami"
 
-#: includes/locale.inc:2365
+#: includes/locale.inc:2371
 msgid "Sango"
 msgstr "Sango"
 
-#: includes/locale.inc:2366
+#: includes/locale.inc:2372
 msgid "Serbo-Croatian"
 msgstr "Serbo-Croatian"
 
-#: includes/locale.inc:2367
+#: includes/locale.inc:2373
 msgid "Singhalese"
 msgstr "Singhalese"
 
-#: includes/locale.inc:2368
+#: includes/locale.inc:2374
 msgid "Slovak"
 msgstr "Slovak"
 
-#: includes/locale.inc:2369
+#: includes/locale.inc:2375
 msgid "Slovenian"
 msgstr "Slovenian"
 
-#: includes/locale.inc:2370
+#: includes/locale.inc:2376
 msgid "Samoan"
 msgstr "Samoan"
 
-#: includes/locale.inc:2371
+#: includes/locale.inc:2377
 msgid "Shona"
 msgstr "Shona"
 
-#: includes/locale.inc:2372
+#: includes/locale.inc:2378
 msgid "Somali"
 msgstr "Somali"
 
-#: includes/locale.inc:2373
+#: includes/locale.inc:2379
 msgid "Albanian"
 msgstr "Albanian"
 
-#: includes/locale.inc:2374
+#: includes/locale.inc:2380
 msgid "Serbian"
 msgstr "Serbian"
 
-#: includes/locale.inc:2375
+#: includes/locale.inc:2381
 msgid "Siswati"
 msgstr "Siswati"
 
-#: includes/locale.inc:2376
+#: includes/locale.inc:2382
 msgid "Sesotho"
 msgstr "Sesotho"
 
-#: includes/locale.inc:2377
+#: includes/locale.inc:2383
 msgid "Sudanese"
 msgstr "Sudanese"
 
-#: includes/locale.inc:2378
+#: includes/locale.inc:2384
 msgid "Swedish"
 msgstr "Swedish"
 
-#: includes/locale.inc:2379
+#: includes/locale.inc:2385
 msgid "Swahili"
 msgstr "Swahili"
 
-#: includes/locale.inc:2380
+#: includes/locale.inc:2386
 msgid "Tamil"
 msgstr "Tamil"
 
-#: includes/locale.inc:2381
+#: includes/locale.inc:2387
 msgid "Telugu"
 msgstr "Telugu"
 
-#: includes/locale.inc:2382
+#: includes/locale.inc:2388
 msgid "Tajik"
 msgstr "Tajik"
 
-#: includes/locale.inc:2383
+#: includes/locale.inc:2389
 msgid "Thai"
 msgstr "Thai"
 
-#: includes/locale.inc:2384
+#: includes/locale.inc:2390
 msgid "Tigrinya"
 msgstr "Tigrinya"
 
-#: includes/locale.inc:2385
+#: includes/locale.inc:2391
 msgid "Turkmen"
 msgstr "Turkmen"
 
-#: includes/locale.inc:2386
+#: includes/locale.inc:2392
 msgid "Tagalog"
 msgstr "Tagalog"
 
-#: includes/locale.inc:2387
+#: includes/locale.inc:2393
 msgid "Setswana"
 msgstr "Setswana"
 
-#: includes/locale.inc:2388
+#: includes/locale.inc:2394
 msgid "Tonga"
 msgstr "Tonga"
 
-#: includes/locale.inc:2389
+#: includes/locale.inc:2395
 msgid "Turkish"
 msgstr "Turkish"
 
-#: includes/locale.inc:2390
+#: includes/locale.inc:2396
 msgid "Tsonga"
 msgstr "Tsonga"
 
-#: includes/locale.inc:2391
+#: includes/locale.inc:2397
 msgid "Tatar"
 msgstr "Tatar"
 
-#: includes/locale.inc:2392
+#: includes/locale.inc:2398
 msgid "Twi"
 msgstr "Twi"
 
-#: includes/locale.inc:2393
+#: includes/locale.inc:2399
 msgid "Tahitian"
 msgstr "Tahitian"
 
-#: includes/locale.inc:2394
+#: includes/locale.inc:2400
 msgid "Uighur"
 msgstr "Uighur"
 
-#: includes/locale.inc:2395
+#: includes/locale.inc:2401
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
-#: includes/locale.inc:2396
+#: includes/locale.inc:2402
 msgid "Urdu"
 msgstr "Urdu"
 
-#: includes/locale.inc:2397
+#: includes/locale.inc:2403
 msgid "Uzbek"
 msgstr "Uzbek"
 
-#: includes/locale.inc:2398
+#: includes/locale.inc:2404
 msgid "Venda"
 msgstr "Venda"
 
-#: includes/locale.inc:2399
+#: includes/locale.inc:2405
 msgid "Vietnamese"
 msgstr "Vietnamese"
 
-#: includes/locale.inc:2400
+#: includes/locale.inc:2406
 msgid "Wolof"
 msgstr "Wolof"
 
-#: includes/locale.inc:2401
+#: includes/locale.inc:2407
 msgid "Xhosa"
 msgstr "Xhosa"
 
-#: includes/locale.inc:2402
+#: includes/locale.inc:2408
 msgid "Yiddish"
 msgstr "Yiddish"
 
-#: includes/locale.inc:2403
+#: includes/locale.inc:2409
 msgid "Yoruba"
 msgstr "Yoruba"
 
-#: includes/locale.inc:2404
+#: includes/locale.inc:2410
 msgid "Zhuang"
 msgstr "Zhuang"
 
-#: includes/locale.inc:2405
+#: includes/locale.inc:2411
 msgid "Chinese, Simplified"
 msgstr "Chinese, Simplified"
 
-#: includes/locale.inc:2406
+#: includes/locale.inc:2412
 msgid "Chinese, Traditional"
 msgstr "Chinese, Traditional"
 
-#: includes/locale.inc:2407
+#: includes/locale.inc:2413
 msgid "Zulu"
 msgstr "Zulu"
 
@@ -1598,7 +1598,7 @@ msgstr "Δεν υπήρξε δυνατή η αποστολή e-mail. Απευθ�
 msgid "Error sending e-mail (from %from to %to)."
 msgstr ""
 
-#: includes/menu.inc:2244
+#: includes/menu.inc:2284
 msgid "Operating in off-line mode."
 msgstr "Λειτουργία χωρίς σύνδεση."
 
@@ -1634,44 +1634,44 @@ msgstr "Στην τελευταία σελίδα"
 msgid "Go to page @number"
 msgstr "Στη σελίδα @number"
 
-#: includes/tablesort.inc:66
+#: includes/tablesort.inc:71
 msgid "sort by @s"
 msgstr "ταξινόμηση κατά @s"
 
-#: includes/theme.inc:1311;1314
+#: includes/theme.inc:1325;1328
 msgid "sort icon"
 msgstr "εικονίδιο ταξινόμησης"
 
-#: includes/theme.inc:1311
+#: includes/theme.inc:1325
 msgid "sort ascending"
 msgstr "αύξουσα ταξινόμηση"
 
-#: includes/theme.inc:1314
+#: includes/theme.inc:1328
 msgid "sort descending"
 msgstr "φθίνουσα ταξινόμηση"
 
-#: includes/theme.inc:1352
+#: includes/theme.inc:1366
 msgid "updated"
 msgstr "ενημερώθηκε"
 
-#: includes/theme.inc:1424
+#: includes/theme.inc:1438
 msgid "[<a href=\"@link\">more help...</a>]"
 msgstr "[<a href=\"@link\">περισσότερες οδηγίες...</a>]"
 
-#: includes/theme.inc:1431;1431
+#: includes/theme.inc:1445;1445
 msgid "XML feed"
 msgstr "ροή XML"
 
-#: includes/theme.inc:1445
+#: includes/theme.inc:1459
 msgid "Syndicate content"
 msgstr "Συλλογή ανεξάρτητου περιεχόμενου"
 
-#: includes/theme.inc:1459
+#: includes/theme.inc:1473
 #, fuzzy
 msgid "<a href=\"@link\" title=\"@title\">more</a>"
 msgstr "[<a href=\"@link\">περισσότερες οδηγίες...</a>]"
 
-#: includes/theme.inc:1539
+#: includes/theme.inc:1553
 msgid "not verified"
 msgstr "χωρίς επαλήθευση"
 
@@ -1719,7 +1719,7 @@ msgstr "Δεν ήταν δυνατή η μετατροπή της κωδικοπ
 msgid "Unsupported encoding %s. Please install iconv, GNU recode or mbstring for PHP."
 msgstr "Η κωδικοποίηση %s δεν υποστηρίζεται. Εγκαταστήστε το iconv, το GNU recode ή το mbstring για την PHP."
 
-#: includes/xmlrpc.inc:452
+#: includes/xmlrpc.inc:451
 msgid "Parse error. Not well formed"
 msgstr "Σφάλμα συντακτικής ανάλυσης. Δεν υπάρχει συμμόρφωση"
 
@@ -1731,7 +1731,7 @@ msgstr "Σφάλμα συντακτικής ανάλυσης. Η αίτηση δ
 msgid "Server error. Invalid XML-RPC. Request must be a methodCall."
 msgstr "Σφάλμα διακομιστή. Μη έγκυρο XML-RPC. Η αίτηση πρέπει να είναι ένα methodCall."
 
-#: includes/xmlrpcs.inc:152;296
+#: includes/xmlrpcs.inc:152;291
 msgid "Server error. Requested method %methodname not specified."
 msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος %methodname δεν έχει οριστεί."
 
@@ -1743,18 +1743,18 @@ msgstr "Σφάλμα διακομιστή. Εσφαλμένος αριθμός �
 msgid "Server error. Invalid method parameters."
 msgstr "Σφάλμα διακομιστή. Μη έγκυρες παράμετροι μεθόδου."
 
-#: includes/xmlrpcs.inc:211
+#: includes/xmlrpcs.inc:206
 msgid "Server error. Requested function %method does not exist."
 msgstr "Σφάλμα διακομιστή. Η ζητούμενη μέθοδος %method δεν υπάρχει."
 
-#: includes/xmlrpcs.inc:224
+#: includes/xmlrpcs.inc:219
 msgid "Invalid syntax for system.multicall."
 msgstr "Μη έγκυρη σύνταξη για system.multicall."
 
-#: includes/xmlrpcs.inc:230
+#: includes/xmlrpcs.inc:225
 msgid "Recursive calls to system.multicall are forbidden."
 msgstr "Αναδρομικές κλήσεις της system.multicall δεν επιτρέπονται."
 
-#: includes/xmlrpcs.inc:299
+#: includes/xmlrpcs.inc:294
 msgid "Server error. Requested method %methodname signature not specified."
 msgstr "Σφάλμα διακομιστή. Η υπογραφή της ζητούμενης μεθόδου %methodname δεν έχει οριστεί."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -153,106 +153,106 @@ msgstr "Εκτυπώσιμη μορφή"
 msgid "Show a printer-friendly version of this book page and its sub-pages."
 msgstr "Προβολή αυτής της σελίδας και των θυγατρικών της σε μορφή κατάλληλη για εκτύπωση."
 
-#: modules/book/book.module:180;190
+#: modules/book/book.module:180;189
 msgid "Book navigation"
 msgstr "Πλοήγηση βιβλίου"
 
-#: modules/book/book.module:224
+#: modules/book/book.module:223
 #, fuzzy
 msgid "Show block on all pages"
 msgstr "Να εμφανίζεται το μπλοκ σε συγκεκριμένες σελίδες"
 
-#: modules/book/book.module:225
+#: modules/book/book.module:224
 #, fuzzy
 msgid "Show block only on book pages"
 msgstr "Να εμφανίζεται το μπλοκ σε συγκεκριμένες σελίδες"
 
-#: modules/book/book.module:229
+#: modules/book/book.module:228
 #, fuzzy
 msgid "Book navigation block display"
 msgstr "Πλοήγηση βιβλίου"
 
-#: modules/book/book.module:232
+#: modules/book/book.module:231
 msgid "If <em>Show block on all pages</em> is selected, the block will contain the automatically generated menus for all of the site's books. If <em>Show block only on book pages</em> is selected, the block will contain only the one menu corresponding to the current page's book. In this case, if the current page is not in a book, no block will be displayed. The <em>Page specific visibility settings</em> or other visibility settings can be used in addition to selectively display this block."
 msgstr ""
 
-#: modules/book/book.module:303
+#: modules/book/book.module:302
 msgid "Change book (update list of parents)"
 msgstr ""
 
-#: modules/book/book.module:338
+#: modules/book/book.module:337
 #, fuzzy
 msgid "This is the top-level page in this book."
 msgstr "Η μητρική σελίδα στο βιβλίο."
 
-#: modules/book/book.module:341
+#: modules/book/book.module:340
 #, fuzzy
 msgid "This will be the top-level page in this book."
 msgstr "Η μητρική σελίδα στο βιβλίο."
 
-#: modules/book/book.module:345
+#: modules/book/book.module:344
 #, fuzzy
 msgid "No book selected."
 msgstr "Καμία μονάδα δεν επιλέχθηκε."
 
-#: modules/book/book.module:352
+#: modules/book/book.module:351
 msgid "The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit."
 msgstr ""
 
-#: modules/book/book.module:370
+#: modules/book/book.module:369
 #, fuzzy
 msgid "Book outline"
 msgstr "διάρθρωση"
 
-#: modules/book/book.module:392
+#: modules/book/book.module:391
 msgid "Pages at a given level are ordered first by weight and then by title."
 msgstr "Οι σελίδες ενός δεδομένου επιπέδου ταξινομούνται πρώτα κατά βάρος και έπειτα κατά τίτλο."
 
-#: modules/book/book.module:409
+#: modules/book/book.module:408
 #, fuzzy
 msgid "create a new book"
 msgstr "δημιουργία νέων βιβλίων"
 
-#: modules/book/book.module:423
+#: modules/book/book.module:422
 msgid "Your page will be a part of the selected book."
 msgstr ""
 
-#: modules/book/book.module:760
+#: modules/book/book.module:759
 msgid "%title is part of a book outline, and has associated child pages. If you proceed with deletion, the child pages will be relocated automatically."
 msgstr ""
 
-#: modules/book/book.module:1003
+#: modules/book/book.module:1002
 #, fuzzy
 msgid "The book module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book, placing them into the existing document by adding them to a table of contents menu."
 msgstr "Η μονάδα <em>book</em> είναι κατάλληλη για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου όπως οι τουριστικοί οδηγοί, τα εγχειρίδια και οι \"συχνές ερωτήσεις\" (FAQs). Επιτρέπει να έχει ένα έγγραφο κεφάλαια, ενότητες, υποενότητες κ.λπ. Οι συντάκτες με τις κατάλληλες άδειες μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
 
-#: modules/book/book.module:1004
+#: modules/book/book.module:1003
 #, fuzzy
 msgid "Pages in the book hierarchy have navigation elements at the bottom of the page for moving through the text. These links lead to the previous and next pages in the book, and to the level above the current page in the book's structure. More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">blocks administration page</a>."
 msgstr "Τα βιβλία έχουν στοιχεία πλοήγησης στο κάτω μέρος κάθε σελίδας, για τη μετακίνηση μέσα στο κείμενο. Αυτά οδηγούν στις προηγούμενες και επόμενες σελίδες του βιβλίου, όπως επίσης και ο σύνδεσμος <em>επάνω</em> που οδηγεί στο παραπάνω επίπεδο στη δομή. Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
 
-#: modules/book/book.module:1005
+#: modules/book/book.module:1004
 msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "
 msgstr "Οι χρήστες μπορούν να επιλέγουν την παραπομπή <em>εκτυπώσιμη μορφή</em> που εμφανίζεται στο κάτω μέρος μιας σελίδας βιβλίου, για την προβολή μιας κατάλληλης για εκτύπωση μορφής της σελίδας και όλων των υποενοτήτων της."
 
-#: modules/book/book.module:1006
+#: modules/book/book.module:1005
 msgid "Users with the <em>administer book outlines</em> permission can add a post of any content type to a book, by selecting the appropriate book while editing the post or by using the interface available on the post's <em>outline</em> tab."
 msgstr ""
 
-#: modules/book/book.module:1007
+#: modules/book/book.module:1006
 msgid "Administrators can view a list of all books on the <a href=\"@admin-node-book\">book administration page</a>. The <em>Outline</em> page for each book allows section titles to be edited or rearranged."
 msgstr ""
 
-#: modules/book/book.module:1008
+#: modules/book/book.module:1007
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@book\">Book module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@book\">σελίδα Book</a>."
 
-#: modules/book/book.module:1011
+#: modules/book/book.module:1010
 msgid "The book module offers a means to organize a collection of related posts, collectively known as a book. When viewed, these posts automatically display links to adjacent book pages, providing a simple navigation system for creating and reviewing structured content."
 msgstr ""
 
-#: modules/book/book.module:1013
+#: modules/book/book.module:1012
 #, fuzzy
 msgid "The outline feature allows you to include posts in the <a href=\"@book\">book hierarchy</a>, as well as move them within the hierarchy or to <a href=\"@book-admin\">reorder an entire book</a>."
 msgstr "Η δυνατότητα της διάρθρωσης σάς επιτρέπει να συμπεριλαμβάνετε καταχωρίσεις στην <a href=\"@book\">ιεραρχία βιβλίων</a>."
@@ -314,8 +314,4 @@ msgstr ""
 
 #: modules/book/book.install:275
 msgid "The book ID is the {book}.nid of the top-level page."
-msgstr ""
-
-#: modules/book/book.js:0
-msgid "Updating parents..."
 msgstr ""

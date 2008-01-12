@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:111
+#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:108
 msgid "@name's blog"
 msgstr "Το ιστολόγιο του/της @name"
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "View recent blog entries"
 msgstr "Προβολή πρόσφατων ιστολογημάτων"
 
-#: modules/blog/blog.module:52;127
+#: modules/blog/blog.module:52;124
 msgid "Read @username's latest blog entries."
 msgstr "Ανάγνωση των τελευταίων ιστολογημάτων του χρήστη @username."
 
@@ -77,27 +77,48 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">σελίδα Blog</a>."
 
-#: modules/blog/blog.module:111;140;155;163
+#: modules/blog/blog.module:108;137;152;160
 msgid "Blogs"
 msgstr "Ιστολόγια"
 
-#: modules/blog/blog.module:125
+#: modules/blog/blog.module:122
 msgid "@username's blog"
 msgstr "Ιστολόγιο του χρήστη @username"
 
-#: modules/blog/blog.module:181;190
+#: modules/blog/blog.module:178;187
 msgid "Recent blog posts"
 msgstr "Πρόσφατα ιστολογήματα"
 
-#: modules/blog/blog.module:189
+#: modules/blog/blog.module:186
 msgid "Read the latest blog entries."
 msgstr "Διαβάστε τα τελευταία ιστολογήματα."
 
 #: modules/blog/blog.module:26
-msgid "edit own blog"
+#, fuzzy
+msgid "create blog entries"
+msgstr "Πρόσφατες καταχωρίσεις ημερολογίου"
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "delete own blog entries"
+msgstr "Πρόσφατες καταχωρίσεις ημερολογίου"
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "delete any blog entry"
+msgstr "Yποβάλετε νέο ιστολόγημα."
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "edit own blog entries"
 msgstr "τροποποίηση δικού τους ιστολογίου"
 
-#: modules/blog/blog.module:147
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "edit any blog entry"
+msgstr "Yποβάλετε νέο ιστολόγημα."
+
+#: modules/blog/blog.module:144
 msgid "My blog"
 msgstr "Το ιστολόγιό μου"
 

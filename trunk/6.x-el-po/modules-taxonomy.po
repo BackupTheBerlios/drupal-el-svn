@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -246,76 +246,76 @@ msgstr "Όνομα λεξιλογίου"
 msgid "The %name vocabulary can not be modified in this way."
 msgstr "Το λεξιλόγιο %name δεν μπορεί να τροποποιηθεί με αυτόν τον τρόπο."
 
-#: modules/taxonomy/taxonomy.module:1128
+#: modules/taxonomy/taxonomy.module:1133
 msgid "There are currently no posts in this category."
 msgstr "Δεν υπάρχουν προς το παρόν καταχωρίσεις σε αυτή την κατηγορία."
 
-#: modules/taxonomy/taxonomy.module:1231
+#: modules/taxonomy/taxonomy.module:1236
 msgid "The taxonomy module allows you to categorize content using various systems of classification. Free-tagging vocabularies are created by users on the fly when they submit posts (as commonly found in blogs and social bookmarking applications). Controlled vocabularies allow for administrator-defined short lists of terms as well as complex hierarchies with multiple relationships between different terms. These methods can be applied to different content types and combined together to create a powerful and flexible method of classifying and presenting your content."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1232
+#: modules/taxonomy/taxonomy.module:1237
 msgid "For example, when creating a recipe site, you might want to classify posts by both the type of meal and preparation time. A vocabulary for each allows you to categorize using each criteria independently instead of creating a tag for every possible combination."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1233
+#: modules/taxonomy/taxonomy.module:1238
 msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1234
+#: modules/taxonomy/taxonomy.module:1239
 msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1235
+#: modules/taxonomy/taxonomy.module:1240
 msgid "Each taxonomy term (often called a 'category' or 'tag' in other systems) automatically provides lists of posts and a corresponding RSS feed. These taxonomy/term URLs can be manipulated to generate AND and OR lists of posts classified with terms. In our recipe site example, it then becomes easy to create pages displaying 'Main courses', '30 minute recipes', or '30 minute main courses and appetizers' by using terms on their own or in combination with others. There are a significant number of contributed modules which you to alter and extend the behavior of the core module for both display and organization of terms."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1236
+#: modules/taxonomy/taxonomy.module:1241
 msgid "Terms can also be organized in parent/child relationships from the admin interface. An example would be a vocabulary grouping countries under their parent geo-political regions. The taxonomy module also enables advanced implementations of hierarchy, for example placing Turkey in both the 'Middle East' and 'Europe'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1237
+#: modules/taxonomy/taxonomy.module:1242
 msgid "The taxonomy module supports the use of both synonyms and related terms, but does not directly use this functionality. However, optional contributed or custom modules may make full use of these advanced features."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1238
+#: modules/taxonomy/taxonomy.module:1243
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@taxonomy\">Taxonomy module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο διευθέτησης και προσαρμογής, <a href=\"@taxonomy\">σελίδα Taxonomy</a>."
 
-#: modules/taxonomy/taxonomy.module:1241
+#: modules/taxonomy/taxonomy.module:1246
 msgid "The taxonomy module allows you to categorize your content using both tags and administrator defined terms. It is a flexible tool for classifying content with many advanced features. To begin, create a 'Vocabulary' to hold one set of terms or tags. You can create one free-tagging vocabulary for everything, or separate controlled vocabularies to define the various properties of your content, for example 'Countries' or 'Colors'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1245
+#: modules/taxonomy/taxonomy.module:1250
 msgid "%capital_name is a free-tagging vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1249
+#: modules/taxonomy/taxonomy.module:1254
 msgid "%capital_name is a flat vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1251
+#: modules/taxonomy/taxonomy.module:1256
 msgid "%capital_name is a single hierarchy vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1253
+#: modules/taxonomy/taxonomy.module:1258
 msgid "%capital_name is a multiple hierarchy vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term. Drag and drop of multiple hierarchies is not supported, but you can re-enable drag and drop support by editing each term to include only a single parent."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1256
+#: modules/taxonomy/taxonomy.module:1261
 msgid "Define how your vocabulary will be presented to administrators and users, and which content types to categorize with it. Tags allows users to create terms when submitting posts by typing a comma separated list. Otherwise terms are chosen from a select list and can only be created by users with the \"administer taxonomy\" permission."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1295
+#: modules/taxonomy/taxonomy.module:1300
 msgid "After saving a new term to the database."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1298
+#: modules/taxonomy/taxonomy.module:1303
 msgid "After saving an updated term to the database."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1301
+#: modules/taxonomy/taxonomy.module:1306
 msgid "After deleting a term."
 msgstr ""
 
@@ -441,66 +441,66 @@ msgstr "Το όνομα αυτού του όρου."
 msgid "The name of the synonym."
 msgstr "Το όνομα του μενού."
 
-#: modules/taxonomy/taxonomy.install:173
+#: modules/taxonomy/taxonomy.install:171
 msgid "Stores vocabulary information."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:179
+#: modules/taxonomy/taxonomy.install:177
 #, fuzzy
 msgid "Primary Key: Unique vocabulary ID."
 msgstr "Το νέο λεξιλόγιο %name δημιουργήθηκε."
 
-#: modules/taxonomy/taxonomy.install:186
+#: modules/taxonomy/taxonomy.install:184
 #, fuzzy
 msgid "Name of the vocabulary."
 msgstr "τροποποίηση λεξιλογίου"
 
-#: modules/taxonomy/taxonomy.install:192
+#: modules/taxonomy/taxonomy.install:190
 #, fuzzy
 msgid "Description of the vocabulary."
 msgstr "Περιγραφή του λεξιλογίου· μπορεί να χρησιμοποιείται από τις μονάδες."
 
-#: modules/taxonomy/taxonomy.install:199
+#: modules/taxonomy/taxonomy.install:197
 #, fuzzy
 msgid "Help text to display for the vocabulary."
 msgstr "Το όνομα που θα εμφανίζεται γι' αυτόν τον σύνδεσμο μενού."
 
-#: modules/taxonomy/taxonomy.install:207
+#: modules/taxonomy/taxonomy.install:205
 msgid "Whether or not related terms are enabled within the vocabulary. (0 = disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:215
+#: modules/taxonomy/taxonomy.install:213
 msgid "The type of hierarchy allowed within the vocabulary. (0 = disabled, 1 = single, 2 = multiple)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:223
+#: modules/taxonomy/taxonomy.install:221
 msgid "Whether or not multiple terms from this vocabulary may be assigned to a node. (0 = disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:231
+#: modules/taxonomy/taxonomy.install:229
 msgid "Whether or not terms are required for nodes using this vocabulary. (0 = disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:239
+#: modules/taxonomy/taxonomy.install:237
 msgid "Whether or not free tagging is enabled for the vocabulary. (0 = disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:246
+#: modules/taxonomy/taxonomy.install:244
 msgid "The module which created the vocabulary."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:253
+#: modules/taxonomy/taxonomy.install:251
 msgid "The weight of the vocabulary in relation to other vocabularies."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:263
+#: modules/taxonomy/taxonomy.install:261
 msgid "Stores which node types vocabularies may be used with."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:270
+#: modules/taxonomy/taxonomy.install:268
 msgid "Primary Key: the {vocabulary}.vid of the vocabulary."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:277
+#: modules/taxonomy/taxonomy.install:275
 msgid "The {node}.type of the node type for which the vocabulary may be used."
 msgstr ""

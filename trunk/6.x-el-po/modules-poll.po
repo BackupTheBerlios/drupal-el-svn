@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -45,7 +45,7 @@ msgstr "έχει κλείσει"
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr "Αυτή η λίστα καταγράφει όλες τις ψήφους για αυτή την ψηφοφορία. Αν ένας ανώνυμος χρήστης επιτρέπεται να ψηφίσει, θα αναγνωρίζεται από την IP του υπολογιστή που χρησιμοποίησε για να ψηφίσει."
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:569
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
 msgid "Vote"
 msgstr "Ψήφος"
 
@@ -75,92 +75,92 @@ msgstr ""
 msgid "Question"
 msgstr "Ερώτηση"
 
-#: modules/poll/poll.module:236
+#: modules/poll/poll.module:237
 #, fuzzy
 msgid "More choices"
 msgstr "Χρειάζονται περισσότερες επιλογές"
 
-#: modules/poll/poll.module:237
+#: modules/poll/poll.module:238
 #, fuzzy
 msgid "If the amount of boxes above isn't enough, click here to add more choices."
 msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε αυτό το κουτάκι και πατήστε στο κουμπί Δοκιμή εμφάνισης παρακάτω για να προσθέσετε μερικά ακόμα."
 
-#: modules/poll/poll.module:250
+#: modules/poll/poll.module:251
 msgid "Closed"
 msgstr "Έχει κλείσει"
 
-#: modules/poll/poll.module:256
+#: modules/poll/poll.module:257
 #, fuzzy
 msgid "Poll settings"
 msgstr "Γενικές ρυθμίσεις"
 
-#: modules/poll/poll.module:262
+#: modules/poll/poll.module:263
 msgid "Poll status"
 msgstr "Κατάσταση ψηφοφορίας"
 
-#: modules/poll/poll.module:265
+#: modules/poll/poll.module:266
 msgid "When a poll is closed, visitors can no longer vote for it."
 msgstr "Όταν μια ψηφοφορία έχει κλείσει, οι επισκέπτες δεν μπορούν πια να ψηφίζουν."
 
-#: modules/poll/poll.module:270
+#: modules/poll/poll.module:271
 msgid "Poll duration"
 msgstr "Διάρκεια ψηφοφορίας"
 
-#: modules/poll/poll.module:273
+#: modules/poll/poll.module:274
 msgid "After this period, the poll will be closed automatically."
 msgstr "Μετά από αυτή την περίοδο, η ψηφοφορία θα κλείσει αυτόματα."
 
-#: modules/poll/poll.module:305
+#: modules/poll/poll.module:306
 msgid "Choice @n"
 msgstr "Επιλογή @n"
 
-#: modules/poll/poll.module:313
+#: modules/poll/poll.module:314
 msgid "Votes for choice @n"
 msgstr "Ψήφοι υπέρ της επιλογής @n"
 
-#: modules/poll/poll.module:383
+#: modules/poll/poll.module:385
 msgid "Negative values are not allowed."
 msgstr "Δεν επιτρέπονται αρνητικές τιμές."
 
-#: modules/poll/poll.module:388
+#: modules/poll/poll.module:390
 msgid "You must fill in at least two choices."
 msgstr "Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές."
 
-#: modules/poll/poll.module:509
+#: modules/poll/poll.module:511
 msgid "Older polls"
 msgstr "Παλιότερες ψηφοφορίες"
 
-#: modules/poll/poll.module:509
+#: modules/poll/poll.module:511
 msgid "View the list of polls on this site."
 msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
 
-#: modules/poll/poll.module:511;98
+#: modules/poll/poll.module:513;98
 msgid "Results"
 msgstr "Αποτελέσματα"
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "View the current poll results."
 msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
 
-#: modules/poll/poll.module:605
+#: modules/poll/poll.module:607
 msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
-#: modules/poll/poll.module:658
+#: modules/poll/poll.module:663
 #, fuzzy
 msgid "Add another choice"
 msgstr "Χρειάζονται περισσότερες επιλογές"
 
-#: modules/poll/poll.module:662
+#: modules/poll/poll.module:667
 #, fuzzy
 msgid "Choice"
 msgstr "Επιλογές"
 
-#: modules/poll/poll.module:663
+#: modules/poll/poll.module:668
 msgid "Vote count"
 msgstr ""
 
-#: modules/poll/poll.module:745
+#: modules/poll/poll.module:750
 msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
@@ -168,6 +168,16 @@ msgstr "Ακύρωση της ψήφου σας"
 #, fuzzy
 msgid "create poll content"
 msgstr "δημιουργία ύλης σελίδας"
+
+#: modules/poll/poll.module:57
+#, fuzzy
+msgid "delete own poll content"
+msgstr "τροποποίηση δικών τους σελίδων"
+
+#: modules/poll/poll.module:57
+#, fuzzy
+msgid "delete any poll content"
+msgstr "Διαγραφή τύπου ύλης"
 
 #: modules/poll/poll.module:57
 #, fuzzy

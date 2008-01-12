@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -148,23 +148,23 @@ msgstr ""
 msgid "Search form"
 msgstr "Φόρμα αναζήτησης"
 
-#: modules/search/search.module:907
+#: modules/search/search.module:912
 msgid "You must include at least one positive keyword with @count characters or more."
 msgstr "Πρέπει να εισάγετε τουλάχιστον μία θετική λέξη-κλειδί με @count χαρακτήρες ή περισσότερους."
 
-#: modules/search/search.module:911
+#: modules/search/search.module:916
 msgid "Search for either of the two terms with uppercase <strong>OR</strong>. For example, <strong>cats OR dogs</strong>."
 msgstr ""
 
-#: modules/search/search.module:1018
+#: modules/search/search.module:1023
 msgid "Enter your keywords"
 msgstr "Εισάγετε τις λέξεις-κλειδιά"
 
-#: modules/search/search.module:1052
+#: modules/search/search.module:1057
 msgid "Search this site"
 msgstr ""
 
-#: modules/search/search.module:1056
+#: modules/search/search.module:1061
 msgid "Enter the terms you wish to search for."
 msgstr "Πληκτρολογήστε τους όρους που θέλετε να αναζητήσετε."
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "The {search_total}.word that is associated with the search item."
 msgstr ""
 
-#: modules/search/search.install:76;123;130
+#: modules/search/search.install:76
 msgid "The {search_dataset}.sid of the searchable item to which the word belongs."
 msgstr ""
 
@@ -252,11 +252,23 @@ msgstr ""
 msgid "The count of the word in the index using Zipf's law to equalize the probability distribution."
 msgstr ""
 
-#: modules/search/search.install:137
+#: modules/search/search.install:117
+msgid "Stores items (like nodes) that link to other nodes, used to improve search scores for nodes that are frequently linked to."
+msgstr ""
+
+#: modules/search/search.install:124
+msgid "The {search_dataset}.sid of the searchable item containing the link to the node."
+msgstr ""
+
+#: modules/search/search.install:131
+msgid "The {search_dataset}.type of the searchable item containing the link to the node."
+msgstr ""
+
+#: modules/search/search.install:138
 #, fuzzy
 msgid "The {node}.nid that this item links to."
 msgstr "Η μητρική σελίδα στην οποία ανήκει αυτή η σελίδα."
 
-#: modules/search/search.install:143
+#: modules/search/search.install:144
 msgid "The text used to link to the {node}.nid."
 msgstr ""

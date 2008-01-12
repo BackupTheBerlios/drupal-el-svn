@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -25,92 +25,97 @@ msgstr ""
 msgid "Timestamp"
 msgstr "Ημερομηνία"
 
+#: modules/statistics/statistics.admin.inc:15;51
+#: modules/statistics/statistics.pages.inc:47
+msgid "Page"
+msgstr "Σελίδα"
+
 #: modules/statistics/statistics.admin.inc:29
 #: modules/statistics/statistics.pages.inc:25;56
 msgid "details"
 msgstr "λεπτομέρειες"
 
-#: modules/statistics/statistics.admin.inc:33;63;96;128
+#: modules/statistics/statistics.admin.inc:33;64;97;129
 #: modules/statistics/statistics.pages.inc:29;60
 #, fuzzy
 msgid "No statistics available."
 msgstr "Δεν υπάρχει καμία καταχώριση."
 
-#: modules/statistics/statistics.admin.inc:49;78;114
+#: modules/statistics/statistics.admin.inc:50;79;115
 msgid "Hits"
 msgstr "Εμφανίσεις"
 
-#: modules/statistics/statistics.admin.inc:51
+#: modules/statistics/statistics.admin.inc:52
 msgid "Average page generation time"
 msgstr "Μέσος χρόνος δημιουργίας ιστοσελίδας"
 
-#: modules/statistics/statistics.admin.inc:52;80
+#: modules/statistics/statistics.admin.inc:53;81
 msgid "Total page generation time"
 msgstr "Συνολικός χρόνος δημιουργίας ιστοσελίδας"
 
-#: modules/statistics/statistics.admin.inc:59
+#: modules/statistics/statistics.admin.inc:60
 msgid "%time ms"
 msgstr "%time ms"
 
-#: modules/statistics/statistics.admin.inc:66
+#: modules/statistics/statistics.admin.inc:67
 msgid "Top pages in the past %interval"
 msgstr "Δημοφιλέστερες σελίδες τις τελευταίες %interval"
 
-#: modules/statistics/statistics.admin.inc:91
+#: modules/statistics/statistics.admin.inc:92
 msgid "unban"
 msgstr "άρση απαγόρευσης"
 
-#: modules/statistics/statistics.admin.inc:91
+#: modules/statistics/statistics.admin.inc:92
 msgid "ban"
 msgstr "απαγόρευση"
 
-#: modules/statistics/statistics.admin.inc:99
+#: modules/statistics/statistics.admin.inc:100
 msgid "Top visitors in the past %interval"
 msgstr "Δημοφιλέστεροι επισκέπτες τις τελευταίες %interval"
 
-#: modules/statistics/statistics.admin.inc:111
+#: modules/statistics/statistics.admin.inc:112
 msgid "Top referrers in the past %interval"
 msgstr "Δημοφιλέστερες αναφορές τις τελευταίες %interval"
 
-#: modules/statistics/statistics.admin.inc:115
+#: modules/statistics/statistics.admin.inc:116
 msgid "Url"
 msgstr "Διεύθυνση (URL)"
 
-#: modules/statistics/statistics.admin.inc:116
+#: modules/statistics/statistics.admin.inc:117
 msgid "Last visit"
 msgstr "Τελευταία επίσκεψη"
 
-#: modules/statistics/statistics.admin.inc:187
+#: modules/statistics/statistics.admin.inc:188
 #: modules/statistics/statistics.module:136
 msgid "Access log settings"
 msgstr "Ρύθμιση του ημερολογίου πρόσβασης"
 
-#: modules/statistics/statistics.admin.inc:190
+#: modules/statistics/statistics.admin.inc:191
 msgid "Enable access log"
 msgstr "Ενεργοποίηση ημερολογίου επισκέψεων"
 
-#: modules/statistics/statistics.admin.inc:193
+#: modules/statistics/statistics.admin.inc:194
 msgid "Log each page access. Required for referrer statistics."
 msgstr "Να καταγράφεται κάθε επίσκεψη σε σελίδα. Απαραίτητο για τα στατιστικά των παραπεμπτών."
 
-#: modules/statistics/statistics.admin.inc:197
+#: modules/statistics/statistics.admin.inc:198
 msgid "Discard access logs older than"
 msgstr "Διαγραφή συμβάντων ημερολογίου παλιότερων από"
 
-#: modules/statistics/statistics.admin.inc:200
+#: modules/statistics/statistics.admin.inc:201
 #, fuzzy
 msgid "Older access log entries (including referrer statistics) will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
 msgstr "Οι παλιότερες εγγραφές του ημερολογίου επισκέψεων (μαζί με τα στατιστικά στοιχεία των παραπομπών) θα διαγράφονται αυτόματα. Απαιτεί το crontab."
 
-#: modules/statistics/statistics.admin.inc:205
+#: modules/statistics/statistics.admin.inc:206
 msgid "Content viewing counter settings"
 msgstr "Ρυθμίσεις του μετρητή επισκέψεων ύλης"
 
-#: modules/statistics/statistics.admin.inc:208
+#: modules/statistics/statistics.admin.inc:209
 msgid "Count content views"
 msgstr "Καταμέτρηση αναγνώσεων της ύλης"
 
-#: modules/statistics/statistics.admin.inc:211
+#: modules/statistics/statistics.admin.inc:212
 msgid "Increment a counter each time content is viewed."
 msgstr "Να αυξάνεται ένας μετρητής κάθε φορά που διαβάζεται ύλη."
 
@@ -187,43 +192,43 @@ msgstr "Αυτή η σελίδα προβάλλει όλους τους εξωτ
 msgid "When you ban a visitor, you prevent the visitor's IP address from accessing your site. Unlike blocking a user, banning a visitor works even for anonymous users. This is most commonly used to block resource-intensive bots or web crawlers."
 msgstr "Όταν απαγορεύετε έναν επισκέπτη, απαγορεύετε στη διεύθυνση IP του την πρόσβαση στον ιστοτόπο σας. Αντίθετα με τον αποκλεισμό ενός λογαριασμού χρήστη, η απαγόρευση ενός επισκέπτη λειτουργεί ακόμα και για τους ανώνυμους. Η πιο συνηθισμένη χρήση αυτής της δυνατότητας είναι η απαγόρευση των bot ή των προγραμμάτων συλλογής ιστού που καταναλώνουν πάρα πολλούς πόρους."
 
-#: modules/statistics/statistics.module:243;285
+#: modules/statistics/statistics.module:246;288
 msgid "Popular content"
 msgstr "Δημοφιλές περιεχόμενο"
 
-#: modules/statistics/statistics.module:253
+#: modules/statistics/statistics.module:256
 msgid "Number of day's top views to display"
 msgstr "Μέγιστος αριθμός εμφανίσεων ανά ημέρα για προβολή"
 
-#: modules/statistics/statistics.module:253
+#: modules/statistics/statistics.module:256
 msgid "How many content items to display in \"day\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στην λίστα \"διαβάστηκαν σήμερα\"."
 
-#: modules/statistics/statistics.module:254
+#: modules/statistics/statistics.module:257
 msgid "Number of all time views to display"
 msgstr "Μέγιστος αριθμός όλων των εμφανίσεων για προβολή"
 
-#: modules/statistics/statistics.module:254
+#: modules/statistics/statistics.module:257
 msgid "How many content items to display in \"all time\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στη λίστα \"πάντα δημοφιλή\"."
 
-#: modules/statistics/statistics.module:255
+#: modules/statistics/statistics.module:258
 msgid "Number of most recent views to display"
 msgstr "Μέγιστος αριθμός των τελευταίων εμφανίσεων για προβολή"
 
-#: modules/statistics/statistics.module:255
+#: modules/statistics/statistics.module:258
 msgid "How many content items to display in \"recently viewed\" list."
 msgstr "Πόσα στοιχεία ύλης θα εμφανίζονται στη λίστα \"διαβάστηκαν πρόσφατα\"."
 
-#: modules/statistics/statistics.module:269
+#: modules/statistics/statistics.module:272
 msgid "Today's:"
 msgstr "Σημερινά:"
 
-#: modules/statistics/statistics.module:274
+#: modules/statistics/statistics.module:277
 msgid "All time:"
 msgstr "Όλες οι εμφανίσεις:"
 
-#: modules/statistics/statistics.module:279
+#: modules/statistics/statistics.module:282
 msgid "Last viewed:"
 msgstr "Τελευταίες επισκέψεις:"
 

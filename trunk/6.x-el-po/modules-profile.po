@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -213,27 +213,27 @@ msgstr "Η μονάδα profile σάς επιτρέπει να ορίζετε π
 msgid "The following types of fields can be added to a user profile:"
 msgstr ""
 
-#: modules/profile/profile.module:37;538
+#: modules/profile/profile.module:37;541
 msgid "single-line textfield"
 msgstr "πεδίο κειμένου μιας γραμμής"
 
-#: modules/profile/profile.module:38;539
+#: modules/profile/profile.module:38;542
 msgid "multi-line textfield"
 msgstr "πεδίο κειμένου πολλών γραμμών"
 
-#: modules/profile/profile.module:39;540
+#: modules/profile/profile.module:39;543
 msgid "checkbox"
 msgstr "κουτάκι επιλογής"
 
-#: modules/profile/profile.module:40;541
+#: modules/profile/profile.module:40;544
 msgid "list selection"
 msgstr "λίστα επιλογής"
 
-#: modules/profile/profile.module:41;542
+#: modules/profile/profile.module:41;545
 msgid "freeform list"
 msgstr "λίστα ελεύθερης μορφής"
 
-#: modules/profile/profile.module:43;544
+#: modules/profile/profile.module:43;547
 msgid "date"
 msgstr "ημερομηνία"
 
@@ -246,39 +246,39 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 msgid "This page displays a list of the existing custom profile fields to be displayed on a user's <em>My Account</em> page. To provide structure, similar or related fields may be placed inside a category. To add a new category (or edit an existing one), edit a profile field and provide a new category name. To change the category of a field or the order of fields within a category, grab a drag-and-drop handle under the Title column and drag the field to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
 msgstr ""
 
-#: modules/profile/profile.module:136
+#: modules/profile/profile.module:137
 msgid "Author information"
 msgstr "Πληροφορίες για το συντάκτη"
 
-#: modules/profile/profile.module:147
+#: modules/profile/profile.module:148
 msgid "Link to full user profile"
 msgstr "Παραπομπή προς το πλήρες προσωπικό προφίλ του χρήστη"
 
-#: modules/profile/profile.module:149
+#: modules/profile/profile.module:150
 msgid "Profile fields to display"
 msgstr "Πεδία του προφίλ για εμφάνιση"
 
-#: modules/profile/profile.module:152
+#: modules/profile/profile.module:153
 msgid "Select which profile fields you wish to display in the block. Only fields designated as public in the <a href=\"@profile-admin\">profile field configuration</a> are available."
 msgstr "Επιλέξτε ποια πεδία του προφίλ θέλετε να εμφανίζονται στο μπλοκ. Μόνο τα πεδία που έχουν χαρακτηριστεί δημόσια στη <a href=\"@profile-admin\">ρύθμιση πεδίων του προφίλ</a> είναι διαθέσιμα."
 
-#: modules/profile/profile.module:184
+#: modules/profile/profile.module:185
 msgid "View full user profile"
 msgstr "Προβολή πλήρους προφίλ του χρήστη"
 
-#: modules/profile/profile.module:189
+#: modules/profile/profile.module:190
 msgid "About %name"
 msgstr "Περί του/της %name"
 
-#: modules/profile/profile.module:330
+#: modules/profile/profile.module:333
 msgid "Put each item on a separate line or separate them by commas. No HTML allowed."
 msgstr "Τοποθετήστε το κάθε στοιχείο σε ξεχωριστή γραμμή ή διαχωρίστε τα με κόμματα. Δεν επιτρέπεται η χρήση HTML."
 
-#: modules/profile/profile.module:432
+#: modules/profile/profile.module:435
 msgid "The value provided for %field is not a valid URL."
 msgstr "Η τιμή για το %field δεν είναι έγκυρη διεύθυνση URL."
 
-#: modules/profile/profile.module:437
+#: modules/profile/profile.module:440
 msgid "The field %field is required."
 msgstr "Το πεδίο %field είναι υποχρεωτικό."
 
@@ -290,23 +290,23 @@ msgstr "Προφίλ χρηστών"
 msgid "Create customizable fields for your users."
 msgstr "Δημιουργία προσαρμοσμένων πεδίων για τους χρήστες."
 
-#: modules/profile/profile.module:94
+#: modules/profile/profile.module:95
 msgid "Add field"
 msgstr "Προσθήκη πεδίου"
 
-#: modules/profile/profile.module:101
+#: modules/profile/profile.module:102
 msgid "Profile category autocomplete"
 msgstr "Αυτόματη συμπλήρωση κατηγορίας προφίλ"
 
-#: modules/profile/profile.module:107
+#: modules/profile/profile.module:108
 msgid "Edit field"
 msgstr "Επεξεργασία πεδίου"
 
-#: modules/profile/profile.module:114
+#: modules/profile/profile.module:115
 msgid "Delete field"
 msgstr "Διαγραφή πεδίου"
 
-#: modules/profile/profile.module:121
+#: modules/profile/profile.module:122
 msgid "Profile autocomplete"
 msgstr "Αυτόματη συμπλήρωση προφίλ"
 

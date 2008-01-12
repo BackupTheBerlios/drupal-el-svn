@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-01-11 00:39+0100\n"
 "PO-Revision-Date: 2007-08-03 00:39+0300\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
@@ -38,35 +38,35 @@ msgstr ""
 msgid "Action %action has been unassigned."
 msgstr "Η κατηγορία %category ενημερώθηκε."
 
-#: modules/trigger/trigger.admin.inc:143
+#: modules/trigger/trigger.admin.inc:144
 msgid "Trigger: "
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:153
+#: modules/trigger/trigger.admin.inc:154
 msgid "unassign"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:163 modules/trigger/trigger.module:409
+#: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:411
 msgid "Choose an action"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:170
+#: modules/trigger/trigger.admin.inc:171
 msgid "Assign"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:175
+#: modules/trigger/trigger.admin.inc:176
 msgid "No available actions for this trigger."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:190
-msgid "The action you choose is already assigned to that trigger."
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:216
+#: modules/trigger/trigger.admin.inc:218
 msgid "You have added an action that changes a the property of a post. A Save post action has been added so that the property change will be saved."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:236
+#: modules/trigger/trigger.admin.inc:238
 #, fuzzy
 msgid "Operation"
 msgstr "Λειτουργίες"
