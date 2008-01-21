@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-21 20:57+0200\n"
+"PO-Revision-Date: 2008-01-21 21:18+0200\n"
 "Last-Translator: George Tsamis <gtsamis@yahoo.com>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,27 +25,24 @@ msgid "Requirements problem"
 msgstr ""
 
 #: install.php:201
-#, fuzzy
 msgid "Database configuration"
-msgstr "Αποθήκευση ρυθμίσεων"
+msgstr "Ρυθμίσεις βάσης δεδομένων"
 
 #: install.php:223
 msgid "Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that <a href=\"@drupal-databases\">Drupal supports</a>."
 msgstr ""
 
 #: install.php:229
-#, fuzzy
 msgid "Basic options"
-msgstr "Επιλογές ενημέρωσης"
+msgstr "Βασικές επιλογές"
 
 #: install.php:230
 msgid "To set up your @drupal database, enter the following information."
 msgstr ""
 
 #: install.php:236
-#, fuzzy
 msgid "Database type"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Τύπος βάσης δεδομένων"
 
 #: install.php:240
 msgid "The type of database your @drupal data will be stored in."
@@ -60,24 +57,20 @@ msgid "The name of the %db_type database your @drupal data will be stored in. It
 msgstr ""
 
 #: install.php:258
-#, fuzzy
 msgid "Database name"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Ονομα βάσης δεδομένων"
 
 #: install.php:269
-#, fuzzy
 msgid "Database username"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Ονομα χρήστη βάσης δεδομένων"
 
 #: install.php:279
-#, fuzzy
 msgid "Database password"
-msgstr "Ανανέωση συνθηματικού εισόδου"
+msgstr "Κωδικός πρόσβασης βάσης δεδομένων"
 
 #: install.php:287
-#, fuzzy
 msgid "Advanced options"
-msgstr "Επιλογές ενημέρωσης"
+msgstr "Ρυθμίσεις για προχωρημένους"
 
 #: install.php:290
 msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
@@ -90,12 +83,11 @@ msgstr "Σχήμα βάσης δεδομένων"
 
 #: install.php:301
 msgid "If your database is located on a different server, change this."
-msgstr ""
+msgstr "Εάν η βάση δεδομένων σας βρίσκεται σε διαφορετικό εξυπηρετητή, τροποποιήστε αυτό."
 
 #: install.php:307
-#, fuzzy
 msgid "Database port"
-msgstr "Σχήμα βάσης δεδομένων"
+msgstr "Θύρα βάσης δεδομένων"
 
 #: install.php:311
 msgid "If your database server is listening to a non-standard port, enter its number."
@@ -135,9 +127,8 @@ msgid "Select an installation profile"
 msgstr ""
 
 #: install.php:508;550;929
-#, fuzzy
 msgid "Choose language"
-msgstr "Προσαρμοσμένη γλώσσα"
+msgstr "Επιλέξτε γλώσσα"
 
 #: install.php:510
 msgid "With the addition of an appropriate translation package, this installer is capable of proceeding in another language of your choice. To install and use Drupal in a language other than English:"
@@ -161,7 +152,7 @@ msgstr ""
 
 #: install.php:515
 msgid "How should the installation continue?"
-msgstr ""
+msgstr "Πως θα θέλατε να συνεχιστεί η εγκατάσταση;"
 
 #: install.php:516
 #, fuzzy
@@ -173,13 +164,12 @@ msgid "Return to choose a language"
 msgstr ""
 
 #: install.php:519
-#, fuzzy
 msgid "Install Drupal in English"
-msgstr "Το όνομα της γλώσσας στην Αγγλική"
+msgstr "Εγκατάσταση του Drupal στη Αγγλική γλώσσα"
 
 #: install.php:519
 msgid "Learn how to install Drupal in other languages"
-msgstr ""
+msgstr "Μάθετε πως να εγκαταστήσετε το Drupal σε άλλες γλώσσες"
 
 #: install.php:566
 #, fuzzy
@@ -191,9 +181,8 @@ msgid "(built-in)"
 msgstr ""
 
 #: install.php:578
-#, fuzzy
 msgid "Select language"
-msgstr "Όλες οι γλώσσες"
+msgstr "Επιλογή γλώσσας"
 
 #: install.php:588
 #, fuzzy
@@ -206,7 +195,7 @@ msgstr ""
 
 #: install.php:600
 msgid "Drupal already installed"
-msgstr ""
+msgstr "Το Drupal είναι ήδη εγκατεστημένο"
 
 #: install.php:601
 msgid "<ul><li>To start over, you must empty your existing database.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li><li>View your <a href=\"@base-url\">existing site</a>.</li></ul>"
@@ -214,11 +203,11 @@ msgstr ""
 
 #: install.php:640
 msgid "Installing @drupal"
-msgstr ""
+msgstr "Εγκατάσταση του @drupal"
 
 #: install.php:641
 msgid "The installation has encountered an error."
-msgstr ""
+msgstr "Η εγκατάσταση αντιμετώπισε ένα σφάλμα."
 
 #: install.php:697;934
 #, fuzzy
@@ -247,11 +236,11 @@ msgstr ""
 
 #: install.php:779
 msgid "@drupal installation complete"
-msgstr ""
+msgstr "Η εγκατάσταση του @drupal ολοκληρώθηκε"
 
 #: install.php:781
 msgid "Congratulations, @drupal has been successfully installed."
-msgstr ""
+msgstr "Συγχαρητήρια, το @drupal εγκαταστάθηκε με επιτυχία."
 
 #: install.php:782
 msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
@@ -259,7 +248,7 @@ msgstr ""
 
 #: install.php:782
 msgid "You may now visit <a href=\"@url\">your new site</a>."
-msgstr ""
+msgstr "Μπορείτε τώρα να επισκεφθείτε το <a href=\"@url\">νέο σας ιστότοπο</a>."
 
 #: install.php:887
 msgid "The @drupal installer requires write permissions to %file during the installation process. If you are unsure how to grant file permissions, please consult the <a href=\"@handbook_url\">on-line handbook</a>."
@@ -294,7 +283,7 @@ msgstr "Αποθήκευση μεταφράσεων"
 
 #: install.php:945
 msgid "Install site"
-msgstr ""
+msgstr "Εγκατάσταση ιστότοπου"
 
 #: install.php:965
 #, fuzzy
@@ -303,11 +292,11 @@ msgstr "Αποθήκευση μεταφράσεων"
 
 #: install.php:970
 msgid "Finished"
-msgstr ""
+msgstr "Ολοκληρώθηκε"
 
 #: install.php:987
 msgid "To configure your website, please provide the following information."
-msgstr ""
+msgstr "Για να ρυθμίσετε τον ιστότοπό σας, παρακαλώ παρέχετε τις παρακάτω πληροφορίες."
 
 #: install.php:992
 msgid "Site information"
@@ -332,7 +321,7 @@ msgstr "Λογαριασμός διαχειριστή"
 
 #: install.php:1016
 msgid "The administrator account has complete access to the site; it will automatically be granted all permissions and can perform any administrative activity. This will be the only account that can perform certain activities, so keep its credentials safe."
-msgstr ""
+msgstr "Ο λογαριασμός διαχειριστή έχει πλήρη πρόσβαση στον ιστότοπο, θα έχει αυτόματα πλήρη δικαιώματα και θα μπορεί να πραγματοποιήσει οποιαδήποτε ενέργεια διαχείρισης. Αυτός θα είναι ο μοναδικός λογαριασμός που θα μπορεί να πραγματοποιεί συγκεκριμένες ενέργειες διαχείρισης, για αυτό διατηρήστε τα στοιχεία σύνδεσης σε ασφαλή μέρος."
 
 #: install.php:1021
 msgid "Username"
@@ -392,7 +381,7 @@ msgstr "Προσδιορισμός"
 
 #: install.php:1071
 msgid "Check for updates automatically"
-msgstr ""
+msgstr "Αυτόματος έλεγχος για ενημερώσεις"
 
 #: install.php:1073
 msgid "With this option enabled, Drupal will notify you when new releases are available. This will significantly enhance your site's security and is <strong>highly recommended</strong>. This requires your site to periodically send anonymous information on its installed components to <a href=\"@drupal\">drupal.org</a>. For more information please see the <a href=\"@update\">update notification information</a>."
@@ -452,11 +441,11 @@ msgstr ""
 
 #: (duplicate) includes/form.inc:2367
 msgid "Remaining @remaining of @total."
-msgstr ""
+msgstr "Απομένουν @remaining από @total."
 
 #: (duplicate) includes/form.inc:2368
 msgid "An error has occurred."
-msgstr ""
+msgstr "Παρουσιάστηκε κάποιο σφάλμα."
 
 #: (duplicate) includes/form.inc:2441
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
@@ -476,7 +465,7 @@ msgstr ""
 
 #: includes/install.mysql.inc:24
 msgid "PHP MySQL support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη για PHP MySQL δεν έχει ενεργοποιηθεί."
 
 #: includes/install.mysql.inc:44
 #: includes/install.mysqli.inc:39
@@ -515,11 +504,11 @@ msgstr ""
 
 #: includes/install.mysqli.inc:24
 msgid "PHP MySQLi support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη για PHP MySQLi δεν έχει ενεργοποιηθεί."
 
 #: includes/install.pgsql.inc:24
 msgid "PHP PostgreSQL support not enabled."
-msgstr ""
+msgstr "Η υποστήριξη για PHP PostgreSQL δεν έχει ενεργοποιηθεί."
 
 #: includes/install.pgsql.inc:51
 msgid "Failed to connect to your PostgreSQL database server. PostgreSQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li><li>Are you sure you typed the correct database name?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
@@ -606,11 +595,11 @@ msgstr "Ρύθμιση της γλωσσικής προσαρμογής του �
 
 #: includes/theme.maintenance.inc:122
 msgid "The following errors must be resolved before you can continue the installation process"
-msgstr ""
+msgstr "Τα παρακάτω σφάλματα πρέπει να επιλυθούν πριν να συνεχίσετε τη διαδικασία εγκατάστασης"
 
 #: includes/theme.maintenance.inc:122
 msgid "The following error must be resolved before you can continue the installation process"
-msgstr ""
+msgstr "Το παρακάτω σφάλμα πρέπει να επιλυθεί πριν να συνεχίσετε τη διαδικασία εγκατάστασης"
 
 #: includes/theme.maintenance.inc:125
 msgid "Please check the error messages and <a href=\"!url\">try again</a>."
@@ -618,19 +607,19 @@ msgstr ""
 
 #: includes/theme.maintenance.inc:130
 msgid "The following installation warnings should be carefully reviewed"
-msgstr ""
+msgstr "Τα παρακάτω μηνύματα προειδοποίησης πρέπει να εξεταστούν προσεκτικά"
 
 #: includes/theme.maintenance.inc:130
 msgid "The following installation warning should be carefully reviewed"
-msgstr ""
+msgstr "Το παρακάτω μήνυμα προειδοποίησης πρέπει να εξεταστεί προσεκτικά"
 
 #: includes/theme.maintenance.inc:137
 msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
-msgstr ""
+msgstr "Τα παρακάτω μηνύματα προειδοποίησης πρέπει να εξεταστούν προσεκτικά, αλλά στις περισσότερες περιπτώσεις μπορούν να αγνοηθούν με ασφάλεια"
 
 #: includes/theme.maintenance.inc:137
 msgid "The following installation warning should be carefully reviewed, but in most cases may be safely ignored"
-msgstr ""
+msgstr "Το παρακάτω μηνύμα προειδοποίησης πρέπει να εξεταστεί προσεκτικά, αλλά στις περισσότερες περιπτώσεις μπορούν να αγνοηθεί με ασφάλεια"
 
 #: (duplicate) includes/unicode.inc:48
 msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for more information."
