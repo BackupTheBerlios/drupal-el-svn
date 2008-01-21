@@ -7,13 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"PO-Revision-Date: 2008-01-21 20:57+0200\n"
+"Last-Translator: George Tsamis <gtsamis@yahoo.com>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -270,9 +270,8 @@ msgid "Currently using !item !version"
 msgstr "Χρησιμοποίηση του !item !version"
 
 #: install.php:928
-#, fuzzy
 msgid "Choose profile"
-msgstr "προφίλ"
+msgstr "Επιλογή προφίλ"
 
 #: install.php:930
 msgid "Verify requirements"
@@ -328,9 +327,8 @@ msgid "The <em>From</em> address in automated e-mails sent during registration a
 msgstr ""
 
 #: install.php:1011
-#, fuzzy
 msgid "Administrator account"
-msgstr "Μπλοκ ορισμένα από το διαχειριστή"
+msgstr "Λογαριασμός διαχειριστή"
 
 #: install.php:1016
 msgid "The administrator account has complete access to the site; it will automatically be granted all permissions and can perform any administrative activity. This will be the only account that can perform certain activities, so keep its credentials safe."
@@ -376,7 +374,8 @@ msgstr "Καθαρές διευθύνσεις URLs"
 msgid "Disabled"
 msgstr "Απενεργοποιημένο"
 
-#: (duplicate) install.php:1060 modules/system/system.install:282
+#: (duplicate) install.php:1060
+#: modules/system/system.install:282
 msgid "Enabled"
 msgstr "Ενεργοποιημένο"
 
@@ -385,7 +384,8 @@ msgstr "Ενεργοποιημένο"
 msgid "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> in the URL)."
 msgstr "Η επιλογή αυτή κάνει το Drupal να παράγει \"καθαρές\" διευθύνσεις URL (δηλ. χωρίς το <code>?q=</code> στη διεύθυνση URL.)"
 
-#: (duplicate) install.php:1070 modules/system/system.install:293
+#: (duplicate) install.php:1070
+#: modules/system/system.install:293
 #, fuzzy
 msgid "Update notifications"
 msgstr "Προσδιορισμός"
@@ -398,11 +398,13 @@ msgstr ""
 msgid "With this option enabled, Drupal will notify you when new releases are available. This will significantly enhance your site's security and is <strong>highly recommended</strong>. This requires your site to periodically send anonymous information on its installed components to <a href=\"@drupal\">drupal.org</a>. For more information please see the <a href=\"@update\">update notification information</a>."
 msgstr ""
 
-#: (duplicate) includes/database.mysql.inc:26 includes/database.mysqli.inc:29
+#: (duplicate) includes/database.mysql.inc:26
+#: includes/database.mysqli.inc:29
 msgid "MySQL database"
 msgstr "Βάση δεδομένων MySQL"
 
-#: (duplicate) includes/database.mysql.inc:32 includes/database.mysqli.inc:35
+#: (duplicate) includes/database.mysql.inc:32
+#: includes/database.mysqli.inc:35
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
 msgstr "Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον MySQL %version."
 
@@ -426,7 +428,8 @@ msgstr "Το πεδίο !name είναι απαραίτητο."
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr "Το !name δεν μπορεί να είναι μεγαλύτερο από %max χαρακτήρες και ήδη είναι %length χαρακτήρες."
 
-#: (duplicate) includes/form.inc:668 ;674
+#: (duplicate) includes/form.inc:668
+#: ;674
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
 
@@ -434,7 +437,8 @@ msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικ�
 msgid "This field is required."
 msgstr "Το πεδίο είναι απαραίτητο."
 
-#: (duplicate) includes/form.inc:2125 ;2128
+#: (duplicate) includes/form.inc:2125
+#: ;2128
 msgid "!title: !required"
 msgstr "!title: !required"
 
@@ -474,31 +478,38 @@ msgstr ""
 msgid "PHP MySQL support not enabled."
 msgstr ""
 
-#: includes/install.mysql.inc:44 includes/install.mysqli.inc:39
+#: includes/install.mysql.inc:44
+#: includes/install.mysqli.inc:39
 msgid "Failed to connect to your MySQL database server. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr ""
 
-#: includes/install.mysql.inc:50 includes/install.mysqli.inc:45
+#: includes/install.mysql.inc:50
+#: includes/install.mysqli.inc:45
 msgid "Failed to select your database on your MySQL database server, which means the connection username and password are valid, but there is a problem accessing your data. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct database name?</li><li>Are you sure the database exists?</li><li>Are you sure the username has permission to access the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr ""
 
-#: includes/install.mysql.inc:60 includes/install.mysqli.inc:55
+#: includes/install.mysql.inc:60
+#: includes/install.mysqli.inc:55
 msgid "Failed to create a test table on your MySQL database server with the command %query. MySQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary MySQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr ""
 
-#: includes/install.mysql.inc:71 includes/install.mysqli.inc:66
+#: includes/install.mysql.inc:71
+#: includes/install.mysqli.inc:66
 msgid "Failed to insert a value into a test table on your MySQL database server. We tried inserting a value with the command %query and MySQL reported the following error: %error."
 msgstr ""
 
-#: includes/install.mysql.inc:82 includes/install.mysqli.inc:77
+#: includes/install.mysql.inc:82
+#: includes/install.mysqli.inc:77
 msgid "Failed to update a value in a test table on your MySQL database server. We tried updating a value with the command %query and MySQL reported the following error: %error."
 msgstr ""
 
-#: includes/install.mysql.inc:93 includes/install.mysqli.inc:88
+#: includes/install.mysql.inc:93
+#: includes/install.mysqli.inc:88
 msgid "Failed to delete a value from a test table on your MySQL database server. We tried deleting a value with the command %query and MySQL reported the following error: %error."
 msgstr ""
 
-#: includes/install.mysql.inc:104 includes/install.mysqli.inc:99
+#: includes/install.mysql.inc:104
+#: includes/install.mysqli.inc:99
 msgid "Failed to drop a test table from your MySQL database server. We tried dropping a table with the command %query and MySQL reported the following error %error."
 msgstr ""
 
@@ -554,7 +565,8 @@ msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: 
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: Το \"msgid_plural\" αναμενόταν αλλά δεν βρέθηκε στη γραμμή %line."
 
-#: (duplicate) includes/locale.inc:1062 ;1080 ;1092 ;1100 ;1114 ;1123
+#: (duplicate) includes/locale.inc:1062
+#: ;1080 ;1092 ;1100 ;1114 ;1123
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει συντακτικό σφάλμα στη γραμμή %line."
 
@@ -720,7 +732,8 @@ msgstr ""
 msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:112 ;254
+#: (duplicate) modules/system/system.install:112
+#: ;254
 msgid "Not protected"
 msgstr "Μη προστατευμένο"
 
@@ -733,7 +746,8 @@ msgstr "Το αρχείο %file δεν είναι προστατευμένο α�
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
 msgstr "Το αρχείο %file δεν είναι προστατευμένο από εγγραφή και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
 
-#: (duplicate) modules/system/system.install:125 ;261
+#: (duplicate) modules/system/system.install:125
+#: ;261
 msgid "Protected"
 msgstr "Προστατευμένο"
 
@@ -869,3 +883,4 @@ msgstr "Ιστόρημα"
 #: profiles/default/default.profile:113
 msgid "A <em>story</em>, similar in form to a <em>page</em>, is ideal for creating and displaying content that informs or engages website visitors. Press releases, site announcements, and informal blog-like entries may all be created with a <em>story</em> entry. By default, a <em>story</em> entry is automatically featured on the site's initial home page, and provides the ability to post comments."
 msgstr ""
+
