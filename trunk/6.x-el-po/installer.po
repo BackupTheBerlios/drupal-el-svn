@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-22 15:01+0200\n"
+"PO-Revision-Date: 2008-01-25 10:52+0200\n"
 "Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgstr "Όνομα χρήστη βάσης δεδομένων"
 
 #: install.php:279
 msgid "Database password"
-msgstr "Συνθηματικού βάσης δεδομένων"
+msgstr "Συνθηματικό βάσης δεδομένων"
 
 #: install.php:287
 msgid "Advanced options"
@@ -274,7 +274,7 @@ msgstr "Ρυθμίστε τις μεταφράσεις"
 
 #: install.php:945
 msgid "Install site"
-msgstr "Εγκατάσταση ιστότοπου"
+msgstr "Εγκατάσταση ιστοτόπου"
 
 #: install.php:965
 msgid "Finish translations"
@@ -298,7 +298,7 @@ msgstr "Όνομα ιστοτόπου"
 
 #: install.php:1003
 msgid "Site e-mail address"
-msgstr "Η διεύθυνση e-mail του ιστότοπου"
+msgstr "Η διεύθυνση e-mail του ιστοτόπου"
 
 #: install.php:1005
 msgid "The <em>From</em> address in automated e-mails sent during registration and new password requests, and other notifications. (Use an address ending in your site's domain to help prevent this e-mail being flagged as spam.)"
@@ -338,7 +338,7 @@ msgstr "Προεπιλεγμένη ζώνη ώρας"
 
 #: install.php:1052
 msgid "By default, dates in this site will be displayed in the chosen time zone."
-msgstr "Εξ ορισμού οι ημερομηνίες και οι ώρες σε ολόκληρο τον ιστοτόπο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
+msgstr "Εξ ορισμού οι ημερομηνίες και οι ώρες σε ολόκληρο τον ιστότοπο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
 
 #: install.php:1058
 msgid "Clean URLs"
