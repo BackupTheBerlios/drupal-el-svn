@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-25 10:52+0200\n"
-"Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
+"PO-Revision-Date: 2008-01-27 18:56+0200\n"
+"Last-Translator: George Tsamis <gtsamis@yahoo.com>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,7 +186,7 @@ msgstr "Δεν υπάρχει καμία καταχώριση προφίλ."
 
 #: install.php:589
 msgid "We were unable to find any installer profiles. Installer profiles tell us what modules to enable and what schema to install in the database. A profile is necessary to continue with the installation process."
-msgstr "Δεν ήταν δυνατή η εύρεση οποιωνδήποτε προφίλ εγκατάστασης. Τα προφίλ εγκατάστασης μας πληροφορούν για το ποιες μονάδες πρέπει να ενεργοποιηθούν και ποιο σχήμα βάσης να εγκατασταθεί στη βάση δεδομένων. Απαιτείται ένα προφίλ για τη συνέχεια της διαδικασίας της εγκατάστασης."
+msgstr "Δεν ήταν δυνατή η εύρεση οποιουδήποτε προφίλ εγκατάστασης. Τα προφίλ εγκατάστασης μας πληροφορούν για το ποιες μονάδες πρέπει να ενεργοποιηθούν και ποιο σχήμα βάσης να εγκατασταθεί στη βάση δεδομένων. Απαιτείται ένα προφίλ για τη συνέχεια της διαδικασίας της εγκατάστασης."
 
 #: install.php:600
 msgid "Drupal already installed"
@@ -206,7 +206,7 @@ msgstr "Σφάλμα εγκατάστασης."
 
 #: install.php:697;934
 msgid "Configure site"
-msgstr "Ρύθμιστε τον ιστότοπο"
+msgstr "Ρυθμίστε τον ιστότοπο"
 
 #: install.php:703
 msgid "All necessary changes to %dir and %file have been made, so you should remove write permissions to them now in order to avoid security risks. If you are unsure how to do so, please consult the <a href=\"@handbook_url\">on-line handbook</a>."
@@ -258,7 +258,7 @@ msgstr "Επιλέξτε προφίλ"
 
 #: install.php:930
 msgid "Verify requirements"
-msgstr "Επαληθέυτε τις απαιτήσεις"
+msgstr "Επαληθεύστε τις απαιτήσεις"
 
 #: install.php:931
 msgid "Set up database"
@@ -302,7 +302,7 @@ msgstr "Η διεύθυνση e-mail του ιστοτόπου"
 
 #: install.php:1005
 msgid "The <em>From</em> address in automated e-mails sent during registration and new password requests, and other notifications. (Use an address ending in your site's domain to help prevent this e-mail being flagged as spam.)"
-msgstr "Η διεύθυνση <em>Αποστολέα</em> σε αυτόματα e-mail που στέλνονται κατά τη διάρκεια εγγραφής, αίτησης νέου κωδικού, και άλλων ειδοποιήσεων. (Χρησιμοποιήστε μια διεύθυνση που καταλήγει στο domain του ιστότοπού σας προς αποφυγή σήμανσης του e-mail ως spam.)"
+msgstr "Η διεύθυνση <em>Αποστολέα</em> σε αυτόματα e-mail που στέλνονται κατά τη διάρκεια εγγραφής, αίτησης νέου κωδικού και άλλων ειδοποιήσεων. (Χρησιμοποιήστε μια διεύθυνση που καταλήγει στο domain του ιστότοπού σας προς αποφυγή σήμανσης του e-mail ως spam.)"
 
 #: install.php:1011
 msgid "Administrator account"
@@ -310,7 +310,7 @@ msgstr "Λογαριασμός διαχειριστή"
 
 #: install.php:1016
 msgid "The administrator account has complete access to the site; it will automatically be granted all permissions and can perform any administrative activity. This will be the only account that can perform certain activities, so keep its credentials safe."
-msgstr "Ο λογαριασμός διαχειριστή έχει πλήρη πρόσβαση στον ιστότοπο. Του παραχωρούνται αυτόματα όλες οι άδειες και μπορεί να εκτελέσει κάθε διοικητική ενέργεια. Διατηρήστε τον ασφαλή καθώς αυτός είναι ο μόνος λογαριασμός που μπορεί να εκτελέσει κάποιες ενέργειες."
+msgstr "Ο λογαριασμός διαχειριστή έχει πλήρη πρόσβαση στον ιστότοπο. Του παραχωρούνται αυτόματα όλες οι άδειες και μπορεί να εκτελέσει κάθε ενέργεια διαχείρισης. Διατηρήστε τον ασφαλή καθώς αυτός είναι ο μόνος λογαριασμός που μπορεί να εκτελέσει κάποιες ενέργειες."
 
 #: install.php:1021
 msgid "Username"
@@ -318,7 +318,7 @@ msgstr "Όνομα χρήστη"
 
 #: install.php:1023
 msgid "Spaces are allowed; punctuation is not allowed except for periods, hyphens, and underscores."
-msgstr "Επιτρέπονται τα διαστήματα; δεν επιτρέπονται ειδικοί χαρακτήρες εκτός από τελείες, παύλες, και χαρακτήρες υπογράμμισης."
+msgstr "Επιτρέπονται τα διαστήματα, δεν επιτρέπονται ειδικοί χαρακτήρες εκτός από τελείες, παύλες, και χαρακτήρες υπογράμμισης."
 
 #: install.php:1029
 msgid "E-mail address"
@@ -360,7 +360,7 @@ msgstr "Η επιλογή αυτή κάνει το Drupal να παράγει \"
 #: (duplicate) install.php:1070
 #: modules/system/system.install:293
 msgid "Update notifications"
-msgstr "Ενημέρωση ειδοποιήσεων"
+msgstr "Ειδοποιήσεις ενημερώσεων"
 
 #: install.php:1071
 msgid "Check for updates automatically"
@@ -368,7 +368,7 @@ msgstr "Αυτόματος έλεγχος ενημερώσεων"
 
 #: install.php:1073
 msgid "With this option enabled, Drupal will notify you when new releases are available. This will significantly enhance your site's security and is <strong>highly recommended</strong>. This requires your site to periodically send anonymous information on its installed components to <a href=\"@drupal\">drupal.org</a>. For more information please see the <a href=\"@update\">update notification information</a>."
-msgstr "Αν αυτή η επιλογή είναι ενεργοποιημένη το Drupal θα σας ενημερώνει για τη διάθεση κάθε νέας έκδοσης. Αυτό θα αυξήσει σημαντικά την ασφάλεια του ιστότοπού σας και είναι <strong>έντονα προτεινόμενο</strong>. Για να γίνει αυτό απαιτείται από τον ιστότοπό σας να στέλνει περιοδικά ανόνυμες πληροφορίες σχετικά με τα εγκατεστημένα μέρη του στο <a href=\"@drupal\">drupal.org</a>. Για περισσότερες πληροφορίες παρακαλώ δείτε τις <a href=\"@update\">πληροφορίες ειδοποίησης ενημερώσεων</a>."
+msgstr "Αν αυτή η επιλογή είναι ενεργοποιημένη το Drupal θα σας ενημερώνει για τη διάθεση κάθε νέας έκδοσης. Αυτό θα αυξήσει σημαντικά την ασφάλεια του ιστότοπού σας και είναι <strong>έντονα προτεινόμενο</strong>. Για να γίνει αυτό απαιτείται από τον ιστότοπό σας να στέλνει περιοδικά ανώνυμες πληροφορίες σχετικά με τα εγκατεστημένα μέρη του στο <a href=\"@drupal\">drupal.org</a>. Για περισσότερες πληροφορίες παρακαλώ δείτε τις <a href=\"@update\">πληροφορίες ειδοποίησης ενημερώσεων</a>."
 
 #: (duplicate) includes/database.mysql.inc:26
 #: includes/database.mysqli.inc:29
@@ -420,7 +420,7 @@ msgstr "Γίνεται επεξεργασία"
 
 #: (duplicate) includes/form.inc:2366
 msgid "Initializing."
-msgstr "Γίνεται ρύθμιση έναρξης"
+msgstr "Αρχικοποίηση."
 
 #: (duplicate) includes/form.inc:2367
 msgid "Remaining @remaining of @total."
@@ -428,7 +428,7 @@ msgstr "Απομένουν @remaining από @total."
 
 #: (duplicate) includes/form.inc:2368
 msgid "An error has occurred."
-msgstr "Συνέβη σφάλμα."
+msgstr "Παρουσιάστηκε κάποιο σφάλμα."
 
 #: (duplicate) includes/form.inc:2441
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
@@ -668,7 +668,7 @@ msgstr "Δεν ήταν δυνατός ο προσδιορισμός της έκ
 
 #: (duplicate) modules/system/system.install:56
 msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
-msgstr "Το <em>register_globals</em> είναι ενεργοποιημένο. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
+msgstr "Το <em>register_globals</em> είναι ενεργοποιημένο. το Drupal απαιτεί η συγκεκριμένη μεταβλητή να είναι απενεργοποιημένη. Ο ιστότοπός σας μπορεί να μην είναι ασφαλής όταν η <em>register_globals</em> είναι ενεργοποιημένη. Το εγχειρίδιο της γλώσσας PHP παρέχει οδηγίες για <a href=\"http://php.net/configuration.changes\">το πως θα τροποποιήσετε τις συγκεκριμένες ρυθμίσεις</a>."
 
 #: (duplicate) modules/system/system.install:62
 msgid "PHP"
@@ -742,7 +742,7 @@ msgstr "To cron δεν έχει εκτελεστεί."
 
 #: (duplicate) modules/system/system.install:171
 msgid "Last run !time ago"
-msgstr "Τελευταία εκτέλεση πριν !time"
+msgstr "Τελευταία εκτέλεση πριν από !time"
 
 #: (duplicate) modules/system/system.install:174
 msgid "Cron has not run recently."

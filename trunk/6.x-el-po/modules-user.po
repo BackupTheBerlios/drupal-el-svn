@@ -7,20 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"PO-Revision-Date: 2008-01-27 19:06+0200\n"
+"Last-Translator: George Tsamis <gtsamis@yahoo.com>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: modules/user/user.admin.inc:18 modules/user/user.module:663;2375;904
+#: modules/user/user.admin.inc:18
+#: modules/user/user.module:663;2375;904
 msgid "Create new account"
 msgstr "Δημιουργία νέου λογαριασμού"
 
@@ -36,7 +37,8 @@ msgstr "<em>και</em> όπου <strong>%property</strong> είναι <strong>%
 msgid "<strong>%property</strong> is <strong>%value</strong>"
 msgstr "<strong>%property</strong> είναι <strong>%value</strong>"
 
-#: modules/user/user.admin.inc:142;916 modules/user/user.module:617
+#: modules/user/user.admin.inc:142;916
+#: modules/user/user.module:617
 msgid "Member for"
 msgstr "Μέλος για"
 
@@ -44,11 +46,13 @@ msgstr "Μέλος για"
 msgid "Last access"
 msgstr "Τελευταία προσπέλαση"
 
-#: modules/user/user.admin.inc:174 modules/user/user.module:1913
+#: modules/user/user.admin.inc:174
+#: modules/user/user.module:1913
 msgid "blocked"
 msgstr "αποκλεισμένος"
 
-#: modules/user/user.admin.inc:174 modules/user/user.module:1913
+#: modules/user/user.admin.inc:174
+#: modules/user/user.module:1913
 msgid "active"
 msgstr "ενεργός"
 
@@ -243,11 +247,13 @@ msgstr "Το κείμενο αυτό εμφανίζεται στη φόρμα α
 msgid "Save permissions"
 msgstr "Αποθήκευση αδειών"
 
-#: modules/user/user.admin.inc:568 modules/user/user.pages.inc:280;346
+#: modules/user/user.admin.inc:568
+#: modules/user/user.pages.inc:280;346
 msgid "The changes have been saved."
 msgstr "Οι αλλαγές αποθηκεύτηκαν."
 
-#: modules/user/user.admin.inc:587 modules/user/user.module:1897
+#: modules/user/user.admin.inc:587
+#: modules/user/user.module:1897
 msgid "@module module"
 msgstr "μονάδα @module"
 
@@ -303,7 +309,8 @@ msgstr "Πρέπει να ορίσετε μάσκα."
 msgid "The access rule has been added."
 msgstr "Ο κανόνας πρόσβασης προστέθηκε."
 
-#: modules/user/user.admin.inc:733 modules/user/user.module:1003
+#: modules/user/user.admin.inc:733
+#: modules/user/user.module:1003
 msgid "Add rule"
 msgstr "Προσθήκη ρόλου"
 
@@ -485,7 +492,8 @@ msgstr "<p>Αυτή είναι μια παραπομπή εισόδου μίας
 msgid "This login can be used only once."
 msgstr "Αυτή η παραπομπή εισόδου μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
-#: modules/user/user.pages.inc:110 modules/user/user.module:659;1246;898
+#: modules/user/user.pages.inc:110
+#: modules/user/user.module:659;1246;898
 msgid "Log in"
 msgstr "Είσοδος"
 
@@ -952,17 +960,18 @@ msgid ""
 msgstr ""
 
 #: modules/user/user.module:1611
-#, fuzzy
 msgid "Account details for !username at !site (deleted)"
-msgstr "Λεπτομέρειες του λογαριασμού !username στον ιστοτόπο !site"
+msgstr "Λεπτομέρειες του λογαριασμού !username στον ιστοτόπο !site (διαγράφηκε)"
 
 #: modules/user/user.module:1613
-#, fuzzy
 msgid ""
 "!username,\n"
 "\n"
 "Your account on !site has been deleted."
-msgstr "Το μενού %title διαγράφηκε."
+msgstr ""
+"!username,\n"
+"\n"
+"Ο λογαριασμός σας στο !site διαγράφηκε."
 
 #: modules/user/user.module:1671
 msgid "Unblock the selected users"
@@ -1061,37 +1070,36 @@ msgid "Password strength:"
 msgstr "Συνθηματικό"
 
 #: modules/user/user.module:2104
-#, fuzzy
 msgid "Low"
-msgstr "Ημερολόγιο"
+msgstr "Χαμηλό"
 
 #: modules/user/user.module:2106
 msgid "High"
-msgstr ""
+msgstr "Υψηλό"
 
 #: modules/user/user.module:2107
 msgid "It is recommended to choose a password that contains at least six characters. It should include numbers, punctuation, and both upper and lowercase letters."
-msgstr ""
+msgstr "Προτείνεται να επιλέξετε κωδικό πρόσβασης με τουλάχιστον έξι χαρακτήρες. Θα πρέπει να περιλαμβάνει αριθμούς, σημεία στίξης καθώς και κεφαλαία μαζί με πεζά γράμματα."
 
 #: modules/user/user.module:2108
 msgid "The password does not include enough variation to be secure. Try:"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης δεν είναι αρκετά παραλλαγμένος ώστε να είναι ασφαλής. Δοκιμάστε:"
 
 #: modules/user/user.module:2109
 msgid "Adding both upper and lowercase letters."
-msgstr ""
+msgstr "Προσθήκη "
 
 #: modules/user/user.module:2110
 msgid "Adding numbers."
-msgstr ""
+msgstr "Προσθήκη αριθμών."
 
 #: modules/user/user.module:2111
 msgid "Adding punctuation."
-msgstr ""
+msgstr "Προσθήκη σημείων στίξης."
 
 #: modules/user/user.module:2112
 msgid "It is recommended to choose a password different from the username."
-msgstr ""
+msgstr "Προτείνεται να επιλέξετε κωδικό πρόσβασης διαφορετικό από το όνομα χρήστη."
 
 #: modules/user/user.module:2115
 #, fuzzy
@@ -1115,11 +1123,11 @@ msgstr "Οι χρήστες διαγράφηκαν."
 
 #: modules/user/user.module:2139
 msgid "After a user has logged in"
-msgstr ""
+msgstr "Μετά τη σύνδεση του χρήστη"
 
 #: modules/user/user.module:2142
 msgid "After a user has logged out"
-msgstr ""
+msgstr "Μετά την αποσύνδεση του χρήστη"
 
 #: modules/user/user.module:2145
 msgid "When a user's profile is being viewed"
@@ -1149,7 +1157,7 @@ msgstr "Δημιουργήθηκε νέος λογαριασμός χρήστη.
 
 #: modules/user/user.module:2275
 msgid "Registration successful. You are now logged in."
-msgstr ""
+msgstr "Η εγγραφή ολοκληρώθηκε με επιτυχία. Μπορείτε τώρα να συνδεθείτε."
 
 #: modules/user/user.module:2285
 #, fuzzy
@@ -1193,7 +1201,7 @@ msgstr "Διαγράφηκε ο χρήστης: %name %email."
 
 #: modules/user/user.module:2199
 msgid "Banned IP address %ip"
-msgstr ""
+msgstr "Μπλόκαρισμένη διεύθυνση IP %ip"
 
 #: modules/user/user.module:2251
 #, fuzzy
@@ -1303,7 +1311,7 @@ msgstr "Όνομα λογαριασμού ή διεύθυνση e-mail"
 
 #: modules/user/user.module:1040
 msgid "Log out"
-msgstr "Έξοδος"
+msgstr "Αποσύνδεση"
 
 #: modules/user/user.module:1087
 #, fuzzy
@@ -1395,7 +1403,7 @@ msgstr "Όνομα ρόλου"
 
 #: modules/user/user.install:130
 msgid "Stores user data."
-msgstr ""
+msgstr "Αποθηκεύει τα δεδομένα των χρηστών."
 
 #: modules/user/user.install:136
 msgid "Primary Key: Unique user ID."
@@ -1459,9 +1467,8 @@ msgid "User's timezone."
 msgstr "Προεπιλεγμένη ζώνη ώρας"
 
 #: modules/user/user.install:230
-#, fuzzy
 msgid "User's default language."
-msgstr "Να χρησιμοποιηθεί το προεπιλεγμένο λογότυπο"
+msgstr "Προεπιλεγμένη γλώσσα χρήστη."
 
 #: modules/user/user.install:237
 msgid "Path to the user's uploaded picture."
@@ -1487,3 +1494,4 @@ msgstr ""
 #: modules/user/user.install:279
 msgid "Primary Key: {role}.rid for role."
 msgstr ""
+
