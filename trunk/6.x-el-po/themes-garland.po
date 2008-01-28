@@ -1,13 +1,14 @@
+# translation of themes-garland.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: themes-garland\n"
 "POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
+"PO-Revision-Date: 2008-01-28 21:43+0200\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +22,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: themes/garland/template.php:75;83
-#, fuzzy
 msgid "!datetime — !username"
-msgstr "!date — !username"
+msgstr "!datetime — !username"
+
