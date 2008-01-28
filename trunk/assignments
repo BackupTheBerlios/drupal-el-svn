@@ -6,13 +6,13 @@
  - modules-block.po : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-blogapi.po : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-blog.po : 
- - modules-book.po : 
+ - modules-book.po : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-color.po : 
  - modules-comment.po : 
  - modules-contact.po : 
  - modules-dblog.po : 
  - modules-filter.po : 
- - modules-forum.po : 
+ - modules-forum.po : Θανάσης Βέλιος - a.velios@gmail.com 
  - modules-help.po : 
  - modules-locale.po : 
  - modules-menu.po : 
@@ -27,7 +27,7 @@
  - modules-statistics.po : 
  - modules-syslog.po : 
  - modules-system.po : 
- - modules-taxonomy.po : 
+ - modules-taxonomy.po : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-throttle.po : 
  - modules-tracker.po : 
  - modules-translation.po : 
