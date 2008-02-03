@@ -1,4 +1,4 @@
-# $Id: modules-aggregator.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
+# $Id: modules-aggregator.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-aggregator)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -6,7 +6,7 @@
 #  aggregator-feed-source.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator-item.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator.pages.inc,v 1.12 2008/01/08 10:35:40 goba
-#  aggregator.module,v 1.373 2008/01/10 22:47:17 goba
+#  aggregator.module,v 1.374 2008/01/15 08:06:32 dries
 #  aggregator-summary-items.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator.admin.inc,v 1.7 2008/01/10 22:47:17 goba
 #  aggregator.install,v 1.14 2007/12/18 12:59:20 dries
@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

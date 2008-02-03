@@ -1,12 +1,12 @@
-# $Id: modules-update.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
+# $Id: modules-update.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-update)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  update.compare.inc,v 1.2 2008/01/10 14:14:54 goba
-#  update.fetch.inc,v 1.5 2007/12/20 08:57:55 goba
-#  update.module,v 1.10 2008/01/10 14:14:54 goba
-#  update.report.inc,v 1.8 2008/01/10 14:14:54 goba
+#  update.compare.inc,v 1.7 2008/01/27 17:50:10 goba
+#  update.fetch.inc,v 1.7 2008/01/30 10:14:42 goba
+#  update.module,v 1.17 2008/01/30 10:14:42 goba
+#  update.report.inc,v 1.9 2008/01/30 10:14:42 goba
 #  update.settings.inc,v 1.3 2007/10/20 21:57:50 goba
 #  update.install,v 1.3 2007/10/10 11:39:34 goba
 #
@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -23,67 +23,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: modules/update/update.compare.inc:238
+#: modules/update/update.compare.inc:155
+msgid "Unknown"
+msgstr ""
+
+#: modules/update/update.compare.inc:258
 msgid "Project not secure"
 msgstr ""
 
-#: modules/update/update.compare.inc:239
+#: modules/update/update.compare.inc:259
 msgid "This project has been labeled insecure by the Drupal security team, and is no longer available for download. Immediately disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:250
+#: modules/update/update.compare.inc:270
 msgid "Project revoked"
 msgstr ""
 
-#: modules/update/update.compare.inc:251
+#: modules/update/update.compare.inc:271
 msgid "This project has been revoked, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:261
+#: modules/update/update.compare.inc:281
 msgid "Project not supported"
 msgstr ""
 
-#: modules/update/update.compare.inc:262
+#: modules/update/update.compare.inc:282
 msgid "This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:328;476;525
+#: modules/update/update.compare.inc:348;496;545
 msgid "No available releases found"
 msgstr ""
 
-#: modules/update/update.compare.inc:345
+#: modules/update/update.compare.inc:365
 msgid "Release revoked"
 msgstr ""
 
-#: modules/update/update.compare.inc:346
+#: modules/update/update.compare.inc:366
 msgid "Your currently installed release has been revoked, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:357
+#: modules/update/update.compare.inc:377
 msgid "Release not supported"
 msgstr ""
 
-#: modules/update/update.compare.inc:358
+#: modules/update/update.compare.inc:378
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:508
+#: modules/update/update.compare.inc:528
 msgid "Unknown release date"
 msgstr ""
 
-#: modules/update/update.compare.inc:520
+#: modules/update/update.compare.inc:540
 msgid "Invalid info"
 msgstr ""
 
-#: modules/update/update.fetch.inc:14;50
+#: modules/update/update.fetch.inc:14;57
 msgid "Fetched information about all available new releases and updates."
 msgstr ""
 
-#: modules/update/update.fetch.inc:17;54
+#: modules/update/update.fetch.inc:17;61
 msgid "Unable to fetch any information about available new releases and updates."
 msgstr ""
 
-#: modules/update/update.fetch.inc:50;54 modules/update/update.module:0
+#: modules/update/update.fetch.inc:57;61 modules/update/update.module:0
 msgid "update"
 msgstr ""
 
@@ -263,59 +267,59 @@ msgstr ""
 msgid "(version @version available)"
 msgstr ""
 
-#: modules/update/update.module:313
+#: modules/update/update.module:314
 msgid "No information is available about potential new releases for currently installed modules and themes. To check for updates, you may need to <a href=\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check manually</a>. Please note that checking for available updates can take a long time, so please be patient."
 msgstr ""
 
-#: modules/update/update.module:376
+#: modules/update/update.module:415
 msgid "New release(s) available for !site_name"
 msgstr ""
 
-#: modules/update/update.module:380
+#: modules/update/update.module:419
 msgid "See the available updates page for more information:"
 msgstr ""
 
-#: modules/update/update.module:409
+#: modules/update/update.module:448
 msgid "There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately!"
 msgstr ""
 
-#: modules/update/update.module:412
+#: modules/update/update.module:451
 msgid "There are security updates available for one or more of your modules or themes. To ensure the security of your server, you should update immediately!"
 msgstr ""
 
-#: modules/update/update.module:418
+#: modules/update/update.module:457
 msgid "Your version of Drupal has been revoked and is no longer available for download. Upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.module:421
+#: modules/update/update.module:460
 msgid "The installed version of at least one of your modules or themes has been revoked and is no longer available for download. Upgrading or disabling is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.module:427
+#: modules/update/update.module:466
 msgid "Your version of Drupal is no longer supported. Upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.module:430
+#: modules/update/update.module:469
 msgid "The installed version of at least one of your modules or themes is no longer supported. Upgrading or disabling is strongly recommended! Please see the project homepage for more details."
 msgstr ""
 
-#: modules/update/update.module:436
+#: modules/update/update.module:475
 msgid "There are updates available for your version of Drupal. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr ""
 
-#: modules/update/update.module:439
+#: modules/update/update.module:478
 msgid "There are updates available for one or more of your modules or themes. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr ""
 
-#: modules/update/update.module:446
+#: modules/update/update.module:485
 msgid "There was a problem determining the status of available updates for your version of Drupal."
 msgstr ""
 
-#: modules/update/update.module:449
+#: modules/update/update.module:488
 msgid "There was a problem determining the status of available updates for one or more of your modules or themes."
 msgstr ""
 
-#: modules/update/update.module:455
+#: modules/update/update.module:494
 msgid "See the <a href=\"@available_updates\">available updates</a> page for more information."
 msgstr ""
 

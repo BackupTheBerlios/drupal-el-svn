@@ -1,23 +1,25 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-27 18:56+0200\n"
-"Last-Translator: George Tsamis <gtsamis@yahoo.com>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: d:\\work\\www\\root\\drupal-6.0-rc2\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: install.php:111
@@ -344,12 +346,11 @@ msgstr "Εξ ορισμού οι ημερομηνίες και οι ώρες σ�
 msgid "Clean URLs"
 msgstr "Καθαρές διευθύνσεις URLs"
 
-#: install.php:1060
+#: (duplicate) install.php:1060 modules/system/system.install:60
 msgid "Disabled"
 msgstr "Απενεργοποιημένο"
 
-#: (duplicate) install.php:1060
-#: modules/system/system.install:282
+#: (duplicate) install.php:1060 modules/system/system.install:282
 msgid "Enabled"
 msgstr "Ενεργοποιημένο"
 
@@ -357,8 +358,7 @@ msgstr "Ενεργοποιημένο"
 msgid "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> in the URL)."
 msgstr "Η επιλογή αυτή κάνει το Drupal να παράγει \"καθαρές\" διευθύνσεις URL (δηλ. χωρίς το <code>?q=</code> στη διεύθυνση URL.)"
 
-#: (duplicate) install.php:1070
-#: modules/system/system.install:293
+#: (duplicate) install.php:1070 modules/system/system.install:293
 msgid "Update notifications"
 msgstr "Ειδοποιήσεις ενημερώσεων"
 
@@ -370,13 +370,11 @@ msgstr "Αυτόματος έλεγχος ενημερώσεων"
 msgid "With this option enabled, Drupal will notify you when new releases are available. This will significantly enhance your site's security and is <strong>highly recommended</strong>. This requires your site to periodically send anonymous information on its installed components to <a href=\"@drupal\">drupal.org</a>. For more information please see the <a href=\"@update\">update notification information</a>."
 msgstr "Αν αυτή η επιλογή είναι ενεργοποιημένη το Drupal θα σας ενημερώνει για τη διάθεση κάθε νέας έκδοσης. Αυτό θα αυξήσει σημαντικά την ασφάλεια του ιστότοπού σας και είναι <strong>έντονα προτεινόμενο</strong>. Για να γίνει αυτό απαιτείται από τον ιστότοπό σας να στέλνει περιοδικά ανώνυμες πληροφορίες σχετικά με τα εγκατεστημένα μέρη του στο <a href=\"@drupal\">drupal.org</a>. Για περισσότερες πληροφορίες παρακαλώ δείτε τις <a href=\"@update\">πληροφορίες ειδοποίησης ενημερώσεων</a>."
 
-#: (duplicate) includes/database.mysql.inc:26
-#: includes/database.mysqli.inc:29
+#: (duplicate) includes/database.mysql.inc:26 includes/database.mysqli.inc:29
 msgid "MySQL database"
 msgstr "Βάση δεδομένων MySQL"
 
-#: (duplicate) includes/database.mysql.inc:32
-#: includes/database.mysqli.inc:35
+#: (duplicate) includes/database.mysql.inc:32 includes/database.mysqli.inc:35
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
 msgstr "Ο διακομιστής σας MySQL είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον MySQL %version."
 
@@ -392,47 +390,45 @@ msgstr "Ο διακομιστής σας PostgreSQL είναι πολύ παλι
 msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
 msgstr "Η βάση δεδομένων PostgreSQL που χρησιμοποιείτε έχει λανθασμένη ρύθμιση για την κωδικοποίηση χαρακτήρων (%encoding). Είναι πιθανό να μη λειτουργήσει με τον αναμενόμενο τρόπο. Προτείνεται να την ξαναδημιουργήσετε με κωδικοποίηση UTF-8/Unicode. Περισσότερες πληροφορίες μπορείτε να βρείτε στην <a href=\"@url\">τεκμηρίωση της PostgreSQL</a>."
 
-#: (duplicate) includes/form.inc:649
+#: (duplicate) includes/form.inc:670
 msgid "!name field is required."
 msgstr "Το πεδίο !name είναι απαραίτητο."
 
-#: (duplicate) includes/form.inc:654
+#: (duplicate) includes/form.inc:675
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr "Το !name δεν μπορεί να είναι μεγαλύτερο από %max χαρακτήρες και ήδη είναι %length χαρακτήρες."
 
-#: (duplicate) includes/form.inc:668
-#: ;674
+#: (duplicate) includes/form.inc:689 ;695
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
 
-#: (duplicate) includes/form.inc:2120
+#: (duplicate) includes/form.inc:2151
 msgid "This field is required."
 msgstr "Το πεδίο είναι απαραίτητο."
 
-#: (duplicate) includes/form.inc:2125
-#: ;2128
+#: (duplicate) includes/form.inc:2156 ;2159
 msgid "!title: !required"
 msgstr "!title: !required"
 
-#: (duplicate) includes/form.inc:2365
+#: (duplicate) includes/form.inc:2396
 msgid "Processing"
-msgstr "Γίνεται επεξεργασία"
+msgstr "Επεξεργασία"
 
-#: (duplicate) includes/form.inc:2366
+#: (duplicate) includes/form.inc:2397
 msgid "Initializing."
 msgstr "Αρχικοποίηση."
 
-#: (duplicate) includes/form.inc:2367
+#: (duplicate) includes/form.inc:2398
 msgid "Remaining @remaining of @total."
-msgstr "Απομένουν @remaining από @total."
+msgstr "Απομένει @remaining από @total."
 
-#: (duplicate) includes/form.inc:2368
+#: (duplicate) includes/form.inc:2399
 msgid "An error has occurred."
-msgstr "Παρουσιάστηκε κάποιο σφάλμα."
+msgstr "Παρουσιάστηκε σφάλμα."
 
-#: (duplicate) includes/form.inc:2441
+#: (duplicate) includes/form.inc:2472
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
-msgstr "Παρακαλώ μεταβείτε στη <a href=\"@error_url\">σελίδα σφαλμάτων</a>"
+msgstr "Παρακαλώ συνεχίστε στο <a href=\"@error_url\">the error page</a>"
 
 #: includes/install.inc:237
 msgid "Failed to modify %settings, please verify the file permissions."
@@ -450,38 +446,31 @@ msgstr "Η μονάδα %module είναι απαραίτητη αλλά δε β
 msgid "PHP MySQL support not enabled."
 msgstr "Η υποστήριξη της PHP για MySQL δεν είναι ενεργοποιημένη."
 
-#: includes/install.mysql.inc:44
-#: includes/install.mysqli.inc:39
+#: includes/install.mysql.inc:44 includes/install.mysqli.inc:39
 msgid "Failed to connect to your MySQL database server. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr "Δεν ήταν δυνατή η επικοινωνία με το διακομιστή βάσης δεδομένων MySQL. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα έχετε το σωστό όνομα χρήστη και συνθηματικό;</li><li>Έχετε εισάγει το σωστό όνομα του διακομιστή της βάσης δεδομένων;</li><li>Γνωρίζετε αν σίγουρα εκτελείται ο διακομιστής της βάσης δεδομένων;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
-#: includes/install.mysql.inc:50
-#: includes/install.mysqli.inc:45
+#: includes/install.mysql.inc:50 includes/install.mysqli.inc:45
 msgid "Failed to select your database on your MySQL database server, which means the connection username and password are valid, but there is a problem accessing your data. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct database name?</li><li>Are you sure the database exists?</li><li>Are you sure the username has permission to access the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr "Δεν ήταν δυνατή η επιλογή για χρήση της βάσης δεδομένων στον διακομιστή βάσης δεδομένων σας, που σημαίνει ότι το όνομα χρήστη και το συνθηματικό είναι σωστά αλλά υπάρχει πρόβλημα στην πρόσβαση των δεδομένων σας. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα έχετε εισάγει το σωστό όνομα βάσης δεδομένων;</li><li>Είναι σωστό το όνομα της βάσης;</li><li>Σίγουρα το όνομα χρήστη έχει άδεια για την προσπέλαση της βάσης δεδομένων;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
-#: includes/install.mysql.inc:60
-#: includes/install.mysqli.inc:55
+#: includes/install.mysql.inc:60 includes/install.mysqli.inc:55
 msgid "Failed to create a test table on your MySQL database server with the command %query. MySQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary MySQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
 msgstr "Δεν ήταν δυνατή η δημιουργία ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL με την εντολή %query. Η MySQL αναφέρει το παρακάτω μήνυμα: %error.<ul><li>Σίγουρα το καθορισμένο όνομα χρήστη έχει τις απαραίτητες άδειες της MySQL για τη δημιουργία πινάκων στη βάση;</li></ul>Για περισσότερη βοήθεια, ανατρέξτε στο <a href=\"http://drupal.org/node/258\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δε γνωρίζετε τι σημαίνουν οι όροι αυτοί, θα πρέπει να επικοινωνήσετε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
-#: includes/install.mysql.inc:71
-#: includes/install.mysqli.inc:66
+#: includes/install.mysql.inc:71 includes/install.mysqli.inc:66
 msgid "Failed to insert a value into a test table on your MySQL database server. We tried inserting a value with the command %query and MySQL reported the following error: %error."
 msgstr "Δεν ήταν δυνατή η εισαγωγή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια εισαγωγής μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
-#: includes/install.mysql.inc:82
-#: includes/install.mysqli.inc:77
+#: includes/install.mysql.inc:82 includes/install.mysqli.inc:77
 msgid "Failed to update a value in a test table on your MySQL database server. We tried updating a value with the command %query and MySQL reported the following error: %error."
 msgstr "Δεν ήταν δυνατή η ενημέρωση μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια ενημέρωσης μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
-#: includes/install.mysql.inc:93
-#: includes/install.mysqli.inc:88
+#: includes/install.mysql.inc:93 includes/install.mysqli.inc:88
 msgid "Failed to delete a value from a test table on your MySQL database server. We tried deleting a value with the command %query and MySQL reported the following error: %error."
 msgstr "Δεν ήταν δυνατή η διαγραφή μιας τιμής σε ένα δοκιμαστικό πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια διαγραφής μιας τιμής με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
-#: includes/install.mysql.inc:104
-#: includes/install.mysqli.inc:99
+#: includes/install.mysql.inc:104 includes/install.mysqli.inc:99
 msgid "Failed to drop a test table from your MySQL database server. We tried dropping a table with the command %query and MySQL reported the following error %error."
 msgstr "Δεν ήταν δυνατή η διαγραφή ενός δοκιμαστικού πίνακα στο διακομιστή βάσης δεδομένων MySQL. Έγινε προσπάθεια διαγραφής ενός πίνακα με την εντολή %query και η MySQL ανέφερε το παρακάτω μήνυμα: %error."
 
@@ -537,8 +526,7 @@ msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: 
 msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει σφάλμα: Το \"msgid_plural\" αναμενόταν αλλά δεν βρέθηκε στη γραμμή %line."
 
-#: (duplicate) includes/locale.inc:1062
-#: ;1080 ;1092 ;1100 ;1114 ;1123
+#: (duplicate) includes/locale.inc:1062 ;1080 ;1092 ;1100 ;1114 ;1123
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr "Το αρχείο μετάφρασης %filename έχει συντακτικό σφάλμα στη γραμμή %line."
 
@@ -572,7 +560,7 @@ msgstr "Έναρξη εισαγωγής"
 
 #: (duplicate) includes/locale.inc:2516
 msgid "Error importing interface translations"
-msgstr "Σφάλμα εισαγωγής μεταφράσεων διεπιφάνειας"
+msgstr "Σφάλμα κατά την εισαγωγή διεπαφών μεταφράσεων"
 
 #: includes/theme.maintenance.inc:122
 msgid "The following errors must be resolved before you can continue the installation process"
@@ -604,11 +592,11 @@ msgstr "Πρέπει να γίνει προσεκτική επισκόπηση �
 
 #: (duplicate) includes/unicode.inc:48
 msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for more information."
-msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης PHP σας  είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεώτερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP PCRE</a>."
+msgstr "Η βιβλιοθήκη PCRE της εγκατάστασης της PHP είναι παλιά έκδοση. Αυτό θα προκαλέσει προβλήματα στο χειρισμό κειμένου Unicode. Αν χρησιμοποιείτε PHP 4.3.3 ή νεώτερη, βεβαιωθείτε ότι χρησιμοποιείτε τη βιβλιοθήκη PCRE που παρέχει η PHP. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"@url\">τεκμηρίωση της PHP PCRE</a>."
 
 #: (duplicate) includes/unicode.inc:53
 msgid "Operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"@url\">PHP mbstring extension</a> for improved Unicode support."
-msgstr "Οι πράξεις σε ακολουθίες χαρακτήρων Unicode γίνονται με προσομοίωση όσο καλύτερα επιτρέπουν οι συνθήκες. Για βελτιωμένη υποστήριξη Unicode εγκαταστήστε την επέκταση <a href=\"@url\">PHP mbstring</a>."
+msgstr "Οι πράξεις σε ακολουθίες χαρακτήρων Unicode γίνονται με προσομοίωση όσο καλύτερα επιτρέπουν οι συνθήκες. Για βελτιωμένη υποστήριξη Unicode εγκαταστήστε την επέκταση <a href=\"@url\">PHP mbstring extension</a>."
 
 #: (duplicate) includes/unicode.inc:58
 msgid "Multibyte string function overloading in PHP is active and must be disabled. Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
@@ -628,7 +616,7 @@ msgstr "Η μετατροπή δεδομένων εξόδου για τις ακ
 
 #: (duplicate) includes/unicode.inc:84
 msgid "Standard PHP"
-msgstr "Πρότυπη PHP"
+msgstr "Πρότυπο PHP"
 
 #: (duplicate) includes/unicode.inc:85
 msgid "PHP Mbstring Extension"
@@ -642,6 +630,32 @@ msgstr "Σφάλμα"
 msgid "Unicode library"
 msgstr "Βιβλιοθήκη Unicode"
 
+#: (duplicate) modules/menu/menu.install:12
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: (duplicate) modules/menu/menu.install:12
+msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13
+#, fuzzy
+msgid "Primary links"
+msgstr "Δεν υπάρχουν πρωταρχικοί σύνδεσμοι"
+
+#: (duplicate) modules/menu/menu.install:13
+msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14
+#, fuzzy
+msgid "Secondary links"
+msgstr "Δεν υπάρχουν δευτερεύοντες σύνδεσμοι"
+
+#: (duplicate) modules/menu/menu.install:14
+msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
+msgstr ""
+
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
 msgstr "Drupal"
@@ -650,143 +664,138 @@ msgstr "Drupal"
 msgid "Web server"
 msgstr "Διακομιστής ιστοσελίδων"
 
-#: (duplicate) modules/system/system.install:39
-msgid "Your Apache server is too old. Drupal requires at least Apache %version."
-msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον Apache %version."
-
-#: (duplicate) modules/system/system.install:45
-msgid "The web server you're using has not been tested with Drupal and might not work properly."
-msgstr "Ο διακομιστής ιστοσελίδων που χρησιμοποιείτε δεν έχει δοκιμαστεί με το Drupal και ίσως να μη λειτουργεί σωστά."
-
-#: (duplicate) modules/system/system.install:51
-msgid "Unknown"
-msgstr "Άγνωστο"
-
-#: (duplicate) modules/system/system.install:52
-msgid "Unable to determine your web server type and version. Drupal might not work properly."
-msgstr "Δεν ήταν δυνατός ο προσδιορισμός της έκδοσης του διακομιστή ιστοσελίδων. Το Drupal ίσως να μη λειτουργεί σωστά."
-
-#: (duplicate) modules/system/system.install:56
-msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
-msgstr "Το <em>register_globals</em> είναι ενεργοποιημένο. το Drupal απαιτεί η συγκεκριμένη μεταβλητή να είναι απενεργοποιημένη. Ο ιστότοπός σας μπορεί να μην είναι ασφαλής όταν η <em>register_globals</em> είναι ενεργοποιημένη. Το εγχειρίδιο της γλώσσας PHP παρέχει οδηγίες για <a href=\"http://php.net/configuration.changes\">το πως θα τροποποιήσετε τις συγκεκριμένες ρυθμίσεις</a>."
-
-#: (duplicate) modules/system/system.install:62
+#: (duplicate) modules/system/system.install:36
 msgid "PHP"
 msgstr "PHP"
 
-#: (duplicate) modules/system/system.install:66
+#: (duplicate) modules/system/system.install:40
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
 msgstr "Η εγκατεστημένη έκδοση PHP είναι πολύ παλιά. Το Drupal απαιτεί τουλάχιστον PHP %version."
 
-#: (duplicate) modules/system/system.install:73
+#: (duplicate) modules/system/system.install:46
+msgid "PHP register globals"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:55
+msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
+msgstr "Το <em>register_globals</em> είναι ενεργοποιημένο. το Drupal απαιτεί η συγκεκριμένη μεταβλητή να είναι απενεργοποιημένη. Ο ιστότοπός σας μπορεί να μην είναι ασφαλής όταν η <em>register_globals</em> είναι ενεργοποιημένη. Το εγχειρίδιο της γλώσσας PHP παρέχει οδηγίες για <a href=\"http://php.net/configuration.changes\">το πως θα τροποποιήσετε τις συγκεκριμένες ρυθμίσεις</a>."
+
+#: (duplicate) modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:66
 msgid "PHP memory limit"
 msgstr "Όριο μνήμης PHP"
 
-#: (duplicate) modules/system/system.install:80
+#: (duplicate) modules/system/system.install:73
 msgid "Consider increasing your PHP memory limit to %memory_minimum_limit to help prevent errors in the installation process."
 msgstr "Εξετάστε το ενδεχόμενο αύξησης του ορίου μνήμης της PHP σας σε %memory_minimum_limit για να αποφύγετε πιθανά σφάλματα κατά τη διάρκεια της διαδικασίας εγκατάστασης."
 
-#: (duplicate) modules/system/system.install:84
+#: (duplicate) modules/system/system.install:76
+#, fuzzy
+msgid "Consider increasing your PHP memory limit to %memory_minimum_limit to help prevent errors in the update process."
+msgstr "Εξετάστε το ενδεχόμενο αύξησης του ορίου μνήμης της PHP σας σε %memory_minimum_limit για να αποφύγετε πιθανά σφάλματα κατά τη διάρκεια της διαδικασίας εγκατάστασης."
+
+#: (duplicate) modules/system/system.install:79
 msgid "Depending on your configuration, Drupal can run with a %memory_limit PHP memory limit. However, a %memory_minimum_limit PHP memory limit or above is recommended, especially if your site uses additional custom or contributed modules."
 msgstr "Ανάλογα με την δομή του ιστότοπού σας, το Drupal μπορεί να λειτουργήσει με όριο μνήμης PHP %memory_limit. Ωστόσο συνίσταται ελάχιστο όριο μνήμης PHP %memory_minimum_limit, ιδίως αν ο ιστότοπός σας χρησιμοποιεί επιπρόσθετες μονάδες ειδικής κατασκευής ή συνεισφοράς."
 
-#: (duplicate) modules/system/system.install:90
+#: (duplicate) modules/system/system.install:84
 msgid "Increase the memory limit by editing the memory_limit parameter in the file %configuration-file and then restart your web server (or contact your system administrator or hosting provider for assistance)."
 msgstr "Αυξήστε το όριο μνήμης μέσω επεξεργασίας της παραμέτρου memory_limit στο αρχείο %configuration-file και μετά επανεκκινήστε τον διακομιστή ιστοσελίδων σας (ή επικοινωνήστε με το διαχειριστή συστήματος ή παροχέα φιλοξενίας ιστοσελίδων σας για βοήθεια)."
 
-#: (duplicate) modules/system/system.install:93
+#: (duplicate) modules/system/system.install:87
 msgid "Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit."
 msgstr "Επικοινωνήστε με τον διαχειριστή συστήματος ή παροχέα φιλοξενίας ιστοσελίδων σας για βοήθεια περί αύξησης του ορίου μνήμης PHP."
 
-#: (duplicate) modules/system/system.install:96
+#: (duplicate) modules/system/system.install:90
 msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
 msgstr "Συμβουλευτείτε τις <a href=\"@url\">απαιτήσεις Drupal</a> για περισσότερες πληροφορίες."
 
-#: (duplicate) modules/system/system.install:112
-#: ;254
+#: (duplicate) modules/system/system.install:107 ;254
 msgid "Not protected"
 msgstr "Μη προστατευμένο"
 
-#: (duplicate) modules/system/system.install:117
+#: (duplicate) modules/system/system.install:112
 msgid "The directory %file is not protected from modifications and poses a security risk. You must change the directory's permissions to be non-writable. "
 msgstr "Ο κατάλογος %file δεν είναι προστατευμένος από εγγραφή και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του καταλόγου σε μη εγγράψιμο."
 
-#: (duplicate) modules/system/system.install:120
+#: (duplicate) modules/system/system.install:115
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
 msgstr "Το αρχείο %file δεν είναι προστατευμένο από εγγραφή και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
 
-#: (duplicate) modules/system/system.install:125
-#: ;261
+#: (duplicate) modules/system/system.install:120 ;261
 msgid "Protected"
 msgstr "Προστατευμένο"
 
-#: (duplicate) modules/system/system.install:128
+#: (duplicate) modules/system/system.install:123
 msgid "Configuration file"
 msgstr "Αρχείο ρυθμίσεων"
 
-#: (duplicate) modules/system/system.install:138
+#: (duplicate) modules/system/system.install:133
 msgid "For more information, see the online handbook entry for <a href=\"@cron-handbook\">configuring cron jobs</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου για τη <a href=\"@cron-handbook\">ρύθμιση εργασιών cron</a>."
 
-#: (duplicate) modules/system/system.install:162
+#: (duplicate) modules/system/system.install:157
 msgid "Cron has not run. Please visit the <a href=\"@status\">status report</a> for more information."
 msgstr "To cron δεν έχει τρέξει. Ελέγξτε την <a href=\"@status\">αναφορά κατάστασης</a> για περισσότερες πληροφορίες."
 
-#: (duplicate) modules/system/system.install:167
+#: (duplicate) modules/system/system.install:162
 msgid "Never run"
 msgstr "Δεν εκτελέστηκε ποτέ"
 
-#: (duplicate) modules/system/system.install:168
+#: (duplicate) modules/system/system.install:163
 msgid "Cron has not run."
 msgstr "To cron δεν έχει εκτελεστεί."
 
-#: (duplicate) modules/system/system.install:171
+#: (duplicate) modules/system/system.install:166
 msgid "Last run !time ago"
 msgstr "Τελευταία εκτέλεση πριν από !time"
 
-#: (duplicate) modules/system/system.install:174
+#: (duplicate) modules/system/system.install:169
 msgid "Cron has not run recently."
 msgstr "Το cron δεν έχει εκτελεστεί πρόσφατα."
 
-#: (duplicate) modules/system/system.install:179
+#: (duplicate) modules/system/system.install:174
 msgid "Cron maintenance tasks"
 msgstr "Λειτουργίες συντήρησης του cron"
 
-#: (duplicate) modules/system/system.install:182
+#: (duplicate) modules/system/system.install:177
 msgid "You can <a href=\"@cron\">run cron manually</a>."
 msgstr "Μπορείτε να <a href=\"@cron\">εκτελέσετε το cron χειροκίνητα</a>."
 
+#: (duplicate) modules/system/system.install:184
+msgid "File system"
+msgstr "Σύστημα αρχείων"
+
+#: (duplicate) modules/system/system.install:196
+msgid "Not writable"
+msgstr "Μη εγγράψιμο"
+
 #: (duplicate) modules/system/system.install:198
 msgid "The directory %directory does not exist."
-msgstr "Ο κατάλογος %directory δεν υπάρχει."
+msgstr "Ο φάκελος %directory δεν υπάρχει."
 
 #: (duplicate) modules/system/system.install:201
 msgid "The directory %directory is not writable."
 msgstr "Ο κατάλογος %directory δεν είναι εγγράψιμος."
 
-#: (duplicate) modules/system/system.install:204
-msgid "Not writable"
-msgstr "Μη εγγράψιμο"
-
-#: (duplicate) modules/system/system.install:208
+#: (duplicate) modules/system/system.install:205
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
 msgstr "Ίσως χρειαστεί να ορίσετε το σωστό κατάλογο στη <a href=\"@admin-file-system\">σελίδα ρύθμισης των αρχείων συστήματος</a> ή να αλλάξετε τα δικαιώματα ώστε ο κατάλογος να είναι εγγράψιμος."
 
-#: (duplicate) modules/system/system.install:213
+#: (duplicate) modules/system/system.install:210
 msgid "An automated attempt to create this directory failed, possibly due to a permissions problem. To proceed with the installation, either create the directory and modify its permissions manually, or ensure that the installer has the permissions to create it automatically. For more information, please see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr "Η αυτοματοποιημένη προσπάθεια δημιουργίας του καταλόγου απέτυχε, πιθανώς λόγω κάποιου προβλήματος αδειών. Για να συνεχίσετε την εγκατάσταση είτε δημιουργήστε τον κατάλογο και τροποποιήστε τις άδειές του χειροκίνητα, είτε βεβαιωθείτε ότι ο εγκαταστάτης έχει τις άδειες να το δημιουργήσει αυτόματα. Για περισσότερες πληροφορίες συμβουλευτείτε το INSTALL.txt ή το <a href=\"@handbook_url\">εγχειρίδιο εγκατάστασης και αναβάθμισης</a>."
 
-#: (duplicate) modules/system/system.install:219
+#: (duplicate) modules/system/system.install:220
 msgid "Writable (<em>public</em> download method)"
 msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος λήψης)"
 
-#: (duplicate) modules/system/system.install:222
+#: (duplicate) modules/system/system.install:223
 msgid "Writable (<em>private</em> download method)"
 msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος λήψης)"
-
-#: (duplicate) modules/system/system.install:225
-msgid "File system"
-msgstr "Σύστημα αρχείων"
 
 #: (duplicate) modules/system/system.install:230
 msgid "Database updates"
@@ -847,4 +856,3 @@ msgstr "Ιστόρημα"
 #: profiles/default/default.profile:113
 msgid "A <em>story</em>, similar in form to a <em>page</em>, is ideal for creating and displaying content that informs or engages website visitors. Press releases, site announcements, and informal blog-like entries may all be created with a <em>story</em> entry. By default, a <em>story</em> entry is automatically featured on the site's initial home page, and provides the ability to post comments."
 msgstr "Ένα <em>ιστόρημα</em>, παρόμοιας μορφής με μια <em>σελίδα</em>, είναι ιδανικό για δημιουργία και προβολή περιεχομένου που ενημερώνει και προσελκύει επισκέπτες του ιστοχώρου. Ανακοινωθέντα τύπου, ανακοινώσεις του ιστοχώρου, και απλές καταχωρίσεις μορφής ιστολογήματος μπορούν να δημιουργηθούν με μια καταχώριση <em>ιστορήματος</em>. Εξ ορισμού, μια καταχώριση <em>ιστορήματος</em> εμφανίζεται στην αρχική σελίδα του ιστοχώρου και παρέχει τη δυνατότητα αναρτήσεως σχολίων."
-

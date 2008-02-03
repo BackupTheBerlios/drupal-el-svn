@@ -1,19 +1,21 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-18 00:00+0100\n"
-"Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -48,13 +50,11 @@ msgstr "Επιτρεπόμενοι τύποι ύλης για προσθήκη �
 msgid "Select content types which users with the %add-perm permission will be allowed to add to the book hierarchy. Users with the %outline-perm permission can add all content types."
 msgstr "Επιλέξτε τους τύπους ύλης τους οποίους οι χρήστες με δικαιώματα για %add-perm θα μπορούν να προσθέσουν στην ιεραρχία του βιβλίου. Οι χρήστες με δικαιώματα για %outline-perm μπορούν να προσθέτουν όλους τους τύπους ύλης."
 
-#: modules/book/book.admin.inc:36
-#: modules/book/book.module:43
+#: modules/book/book.admin.inc:36 modules/book/book.module:43
 msgid "add content to books"
 msgstr "προσθήκη τύπου ύλης στα βιβλία"
 
-#: modules/book/book.admin.inc:36
-#: modules/book/book.module:43
+#: modules/book/book.admin.inc:36 modules/book/book.module:43
 msgid "administer book outlines"
 msgstr "διαχείριση διάρθρωσης βιβλίου"
 
@@ -66,8 +66,7 @@ msgstr "Προεπιλεγμένος τύπος ύλης θυγατρική σε
 msgid "The content type for the %add-child link must be one of those selected as an allowed book outline type."
 msgstr "Ο τύπος ύλης που θα συνδεθεί με το %add-child πρέπει να ανήκει στους επιτρεπόμενους τύπους ύλης της διάρθρωσης του βιβλίου."
 
-#: modules/book/book.admin.inc:44;60
-#: modules/book/book.module:57
+#: modules/book/book.admin.inc:44;60 modules/book/book.module:57
 msgid "Add child page"
 msgstr "Προσθήκη θυγατρικής σελίδας"
 
@@ -295,4 +294,3 @@ msgstr "Το {node}.nid της σελίδας βιβλίου."
 #: modules/book/book.install:275
 msgid "The book ID is the {book}.nid of the top-level page."
 msgstr "Το ID είναι το {book}.nid της αρχικής σελίδας (μητρικής όλων)."
-

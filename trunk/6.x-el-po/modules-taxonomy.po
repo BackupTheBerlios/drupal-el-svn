@@ -1,15 +1,17 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -287,37 +289,44 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 msgid "The taxonomy module allows you to categorize your content using both tags and administrator defined terms. It is a flexible tool for classifying content with many advanced features. To begin, create a 'Vocabulary' to hold one set of terms or tags. You can create one free-tagging vocabulary for everything, or separate controlled vocabularies to define the various properties of your content, for example 'Countries' or 'Colors'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1250
+#: modules/taxonomy/taxonomy.module:1247
+#, fuzzy
+msgid "Use the list below to configure and review the vocabularies defined on your site, or to list and manage the terms (tags) they contain. A vocabulary may (optionally) be tied to specific content types as shown in the <em>Type</em> column and, if so, will be displayed when creating or editing posts of that type. Multiple vocabularies tied to the same content type will be displayed in the order shown below. To change the order of a vocabulary, grab a drag-and-drop handle under the <em>Name</em> column and drag it to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save</em> button at the bottom of the page."
+msgstr "Αυτή η σελίδα παρουσιάσει μια λίστα από υπάρχοντα φόρουμ και φακέλους. Οι φάκελοι (που είναι προαιρετικοί) μπορούν να περιέχουν φόρουμ και τα φόρουμ μπορούν να περιέχουν θέματα συζήτησης (για κάθε ένα θέμα συζήτησης απαιτείται μια αρχική καταχώριση). Οι φάκελοι και τα φόρουμ μπορούν να τοποθετηθούν μέσα σε άλλους φακέλους και φόρουμ δίνοντας τη δυνατότητα δομημένων φόρουμ. Για να αλλάξετε τη σειρά των φόρουμ και των φακέλων χρησιμοποιείστε το ποντίκι: πατήστε το αριστερό κουμπί και κρατήστε πατημένο (drag-and-drop) κάτω από τη στήλη <em>Όνομα</em>, έπειτα τραβήξτε το ποντίκι σας στο φόρουμ ή τον φάκελο στον οποίο θέλετε να το μεταφέρετε. Να θυμάστε ότι οι αλλαγές σας δεν θα αποθηκευθούν αν δεν πατήσετε το κουμπί <em>Αποθήκευση</em> στο κάτω μέρος της σελίδας."
+
+#: modules/taxonomy/taxonomy.module:1252
 msgid "%capital_name is a free-tagging vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1254
+#: modules/taxonomy/taxonomy.module:1256
 msgid "%capital_name is a flat vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1256
+#: modules/taxonomy/taxonomy.module:1258
 msgid "%capital_name is a single hierarchy vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1258
+#: modules/taxonomy/taxonomy.module:1260
 msgid "%capital_name is a multiple hierarchy vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term. Drag and drop of multiple hierarchies is not supported, but you can re-enable drag and drop support by editing each term to include only a single parent."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1261
+#: modules/taxonomy/taxonomy.module:1263
 msgid "Define how your vocabulary will be presented to administrators and users, and which content types to categorize with it. Tags allows users to create terms when submitting posts by typing a comma separated list. Otherwise terms are chosen from a select list and can only be created by users with the \"administer taxonomy\" permission."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1300
-msgid "After saving a new term to the database."
+#: modules/taxonomy/taxonomy.module:1302
+#, fuzzy
+msgid "After saving a new term to the database"
+msgstr "Προσθήκη νέου σχολίου"
+
+#: modules/taxonomy/taxonomy.module:1305
+msgid "After saving an updated term to the database"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1303
-msgid "After saving an updated term to the database."
-msgstr ""
-
-#: modules/taxonomy/taxonomy.module:1306
-msgid "After deleting a term."
-msgstr ""
+#: modules/taxonomy/taxonomy.module:1308
+#, fuzzy
+msgid "After deleting a term"
+msgstr "Διαγράφει μια καταχώριση."
 
 #: modules/taxonomy/taxonomy.module:13
 msgid "administer taxonomy"

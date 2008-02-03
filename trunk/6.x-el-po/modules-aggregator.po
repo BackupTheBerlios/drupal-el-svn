@@ -1,4 +1,4 @@
-# translation of modules-aggregator.po to Greek
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -7,9 +7,9 @@
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-aggregator\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-16 00:43+0200\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -534,4 +534,3 @@ msgstr "Ημερομηνία καταχώρησης του αντικειμέν�
 #: modules/aggregator/aggregator.install:233
 msgid "Unique identifier for the feed item."
 msgstr "Μοναδικό προσδιοριστικό για το αντικείμενο ροής."
-

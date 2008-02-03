@@ -1,19 +1,19 @@
-# $Id: modules-comment.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
+# $Id: modules-comment.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-comment)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  comment-folded.tpl.php,v 1.2 2007/08/07 08:39:35 goba
 #  comment.admin.inc,v 1.4 2008/01/08 10:35:41 goba
-#  comment.module,v 1.616 2008/01/10 15:03:53 goba
+#  comment.module,v 1.617 2008/01/25 16:19:12 goba
 #  comment.pages.inc,v 1.2 2007/12/16 21:01:44 goba
-#  comment.install,v 1.18 2008/01/05 22:45:40 dries
+#  comment.install,v 1.19 2008/01/16 21:45:30 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -456,87 +456,87 @@ msgstr ""
 msgid "comment"
 msgstr ""
 
-#: modules/comment/comment.install:75
+#: modules/comment/comment.install:76
 msgid "Stores comments and associated data."
 msgstr ""
 
-#: modules/comment/comment.install:80
+#: modules/comment/comment.install:81
 msgid "Primary Key: Unique comment ID."
 msgstr ""
 
-#: modules/comment/comment.install:86
+#: modules/comment/comment.install:87
 msgid "The {comments}.cid to which this comment is a reply. If set to 0, this comment is not a reply to an existing comment."
 msgstr ""
 
-#: modules/comment/comment.install:92
+#: modules/comment/comment.install:93
 msgid "The {node}.nid to which this comment is a reply."
 msgstr ""
 
-#: modules/comment/comment.install:98
+#: modules/comment/comment.install:99
 msgid "The {users}.uid who authored the comment. If set to 0, this comment was created by an anonymous user."
 msgstr ""
 
-#: modules/comment/comment.install:105
+#: modules/comment/comment.install:106
 msgid "The comment title."
 msgstr ""
 
-#: modules/comment/comment.install:111
+#: modules/comment/comment.install:112
 msgid "The comment body."
 msgstr ""
 
-#: modules/comment/comment.install:118
+#: modules/comment/comment.install:119
 msgid "The author's host name."
 msgstr ""
 
-#: modules/comment/comment.install:124
+#: modules/comment/comment.install:125
 msgid "The time that the comment was created, or last edited by its author, as a Unix timestamp."
 msgstr ""
 
-#: modules/comment/comment.install:132
+#: modules/comment/comment.install:133
 msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
 msgstr ""
 
-#: modules/comment/comment.install:139
+#: modules/comment/comment.install:140
 msgid "The {filter_formats}.format of the comment body."
 msgstr ""
 
-#: modules/comment/comment.install:145
+#: modules/comment/comment.install:146
 msgid "The vancode representation of the comment's place in a thread."
 msgstr ""
 
-#: modules/comment/comment.install:151
+#: modules/comment/comment.install:152
 msgid "The comment author's name. Uses {users}.name if the user is logged in, otherwise uses the value typed into the comment form."
 msgstr ""
 
-#: modules/comment/comment.install:157
+#: modules/comment/comment.install:158
 msgid "The comment author's e-mail address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
 msgstr ""
 
-#: modules/comment/comment.install:163
+#: modules/comment/comment.install:164
 msgid "The comment author's home page address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
 msgstr ""
 
-#: modules/comment/comment.install:175
+#: modules/comment/comment.install:176
 msgid "Maintains statistics of node and comments posts to show \"new\" and \"updated\" flags."
 msgstr ""
 
-#: modules/comment/comment.install:182
+#: modules/comment/comment.install:183
 msgid "The {node}.nid for which the statistics are compiled."
 msgstr ""
 
-#: modules/comment/comment.install:188
+#: modules/comment/comment.install:189
 msgid "The Unix timestamp of the last comment that was posted within this node, from {comments}.timestamp."
 msgstr ""
 
-#: modules/comment/comment.install:194
+#: modules/comment/comment.install:195
 msgid "The name of the latest author to post a comment on this node, from {comments}.name."
 msgstr ""
 
-#: modules/comment/comment.install:200
+#: modules/comment/comment.install:201
 msgid "The user ID of the latest author to post a comment on this node, from {comments}.uid."
 msgstr ""
 
-#: modules/comment/comment.install:207
+#: modules/comment/comment.install:208
 msgid "The total number of comments on this node."
 msgstr ""
 

@@ -1,16 +1,16 @@
-# $Id: modules-locale.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
+# $Id: modules-locale.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-locale)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  locale.module,v 1.211 2008/01/09 11:51:54 goba
+#  locale.module,v 1.212 2008/01/28 17:16:34 goba
 #  locale.install,v 1.27 2008/01/10 14:35:24 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -176,7 +176,7 @@ msgid "Translate interface"
 msgstr ""
 
 #: modules/locale/locale.module:128
-msgid "Translate the built in interface as well as menu items and taxonomies."
+msgid "Translate the built in interface and optionally other text."
 msgstr ""
 
 #: modules/locale/locale.module:134

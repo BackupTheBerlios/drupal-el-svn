@@ -1,15 +1,17 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,51 +122,51 @@ msgstr "Δεν επιτρέπεται να στέλνετε περισσότερ
 msgid "Your e-mail address"
 msgstr "Η διεύθυνση e-mail σας"
 
-#: modules/contact/contact.pages.inc:88;194
+#: modules/contact/contact.pages.inc:88;197
 msgid "Send yourself a copy."
 msgstr "Να μου σταλεί αντίγραφο."
 
-#: modules/contact/contact.pages.inc:96
+#: modules/contact/contact.pages.inc:99
 msgid "The contact form has not been configured. <a href=\"@add\">Add one or more categories</a> to the form."
 msgstr ""
 
-#: modules/contact/contact.pages.inc:106
+#: modules/contact/contact.pages.inc:109
 msgid "You must select a valid category."
 msgstr "Πρέπει να επιλέξετε μια έγκυρη κατηγορία."
 
-#: modules/contact/contact.pages.inc:109
+#: modules/contact/contact.pages.inc:112
 msgid "You must enter a valid e-mail address."
 msgstr "Πρέπει να δώσετε μια έγκυρη διεύθυνση e-mail."
 
-#: modules/contact/contact.pages.inc:144
+#: modules/contact/contact.pages.inc:147
 msgid "Your message has been sent."
 msgstr "Το μήνυμά σας στάλθηκε."
 
-#: modules/contact/contact.pages.inc:158
+#: modules/contact/contact.pages.inc:161
 msgid "You need to provide a valid e-mail address to contact other users. Please update your <a href=\"@url\">user information</a> and try again."
 msgstr "Πρέπει να δώσετε μια έγκυρη διεύθυνση e-mail για να επικοινωνήσετε με άλλους χρήστες. Ενημερώστε τα στοιχεία σας στις <a href=\"@url\">πληροφορίες χρήστη</a> και ξαναδοκιμάστε."
 
-#: modules/contact/contact.pages.inc:161
+#: modules/contact/contact.pages.inc:164
 msgid "You cannot contact more than %number users per hour. Please try again later."
 msgstr "Δεν επιτρέπεται η επικοινωνία με περισσότερους από %number χρήστες μέσα σε μια ώρα. Ξαναδοκιμάστε αργότερα."
 
-#: modules/contact/contact.pages.inc:176
+#: modules/contact/contact.pages.inc:179
 msgid "From"
 msgstr "Από"
 
-#: modules/contact/contact.pages.inc:180
+#: modules/contact/contact.pages.inc:183
 msgid "To"
 msgstr "Προς"
 
-#: modules/contact/contact.pages.inc:229
+#: modules/contact/contact.pages.inc:232
 msgid "The message has been sent."
 msgstr "Το μήνυμα στάλθηκε."
 
-#: modules/contact/contact.pages.inc:143
+#: modules/contact/contact.pages.inc:146
 msgid "%name-from sent an e-mail regarding %category."
 msgstr "Ο/Η %name-from έστειλε e-mail σχετικά με %category."
 
-#: modules/contact/contact.pages.inc:228
+#: modules/contact/contact.pages.inc:231
 msgid "%name-from sent %name-to an e-mail."
 msgstr "Ο/Η %name-from έστειλε e-mail στον/στην %name-to."
 

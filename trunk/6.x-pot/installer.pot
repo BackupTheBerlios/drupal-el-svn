@@ -1,28 +1,29 @@
-# $Id: installer.pot,v 1.1.4.5 2008/01/10 23:48:44 goba Exp $
+# $Id: installer.pot,v 1.1.4.7 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (installer)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  install.php,v 1.112 2008/01/07 19:43:28 goba
-#  system.install,v 1.229 2008/01/10 22:47:17 goba
-#  database.mysql.inc,v 1.87 2008/01/04 09:31:48 goba
-#  database.mysqli.inc,v 1.53 2008/01/04 09:31:48 goba
+#  install.php,v 1.113 2008/01/25 12:36:37 goba
+#  system.install,v 1.238 2008/01/30 20:30:35 goba
+#  database.mysql.inc,v 1.89 2008/01/24 10:46:54 goba
+#  database.mysqli.inc,v 1.54 2008/01/23 09:59:29 goba
 #  database.pgsql.inc,v 1.68 2008/01/04 09:31:48 goba
-#  form.inc,v 1.258 2008/01/02 15:18:15 goba
+#  form.inc,v 1.263 2008/01/30 21:42:17 goba
 #  install.inc,v 1.56 2007/12/19 11:15:18 goba
-#  install.mysql.inc,v 1.8 2007/12/08 14:06:20 goba
-#  install.mysqli.inc,v 1.11 2007/12/19 11:25:47 goba
+#  install.mysql.inc,v 1.9 2008/01/23 09:59:29 goba
+#  install.mysqli.inc,v 1.12 2008/01/23 09:59:29 goba
 #  install.pgsql.inc,v 1.6 2007/10/22 15:22:39 dries
 #  locale.inc,v 1.174 2008/01/09 21:36:13 goba
-#  theme.maintenance.inc,v 1.7 2008/01/07 15:31:50 goba
+#  theme.maintenance.inc,v 1.10 2008/01/24 09:42:50 goba
 #  unicode.inc,v 1.29 2007/12/28 12:02:50 dries
+#  menu.install,v 1.9 2008/01/30 20:27:28 goba
 #  default.profile,v 1.22 2007/12/17 12:43:34 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -355,7 +356,7 @@ msgstr ""
 msgid "Clean URLs"
 msgstr ""
 
-#: install.php:1060
+#: (duplicate) install.php:1060 modules/system/system.install:60 
 msgid "Disabled"
 msgstr ""
 
@@ -399,43 +400,43 @@ msgstr ""
 msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
 msgstr ""
 
-#: (duplicate) includes/form.inc:649 
+#: (duplicate) includes/form.inc:670 
 msgid "!name field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:654 
+#: (duplicate) includes/form.inc:675 
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr ""
 
-#: (duplicate) includes/form.inc:668 ;674 
+#: (duplicate) includes/form.inc:689 ;695 
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2120 
+#: (duplicate) includes/form.inc:2151 
 msgid "This field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2125 ;2128 
+#: (duplicate) includes/form.inc:2156 ;2159 
 msgid "!title: !required"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2365 
+#: (duplicate) includes/form.inc:2396 
 msgid "Processing"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2366 
+#: (duplicate) includes/form.inc:2397 
 msgid "Initializing."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2367 
+#: (duplicate) includes/form.inc:2398 
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2368 
+#: (duplicate) includes/form.inc:2399 
 msgid "An error has occurred."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2441 
+#: (duplicate) includes/form.inc:2472 
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 
@@ -639,6 +640,30 @@ msgstr ""
 msgid "Unicode library"
 msgstr ""
 
+#: (duplicate) modules/menu/menu.install:12 
+msgid "Navigation"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:12 
+msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13 
+msgid "Primary links"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13 
+msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14 
+msgid "Secondary links"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14 
+msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
+msgstr ""
+
 #: (duplicate) modules/system/system.install:20 
 msgid "Drupal"
 msgstr ""
@@ -647,108 +672,112 @@ msgstr ""
 msgid "Web server"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:39 
-msgid "Your Apache server is too old. Drupal requires at least Apache %version."
-msgstr ""
-
-#: (duplicate) modules/system/system.install:45 
-msgid "The web server you're using has not been tested with Drupal and might not work properly."
-msgstr ""
-
-#: (duplicate) modules/system/system.install:51 
-msgid "Unknown"
-msgstr ""
-
-#: (duplicate) modules/system/system.install:52 
-msgid "Unable to determine your web server type and version. Drupal might not work properly."
-msgstr ""
-
-#: (duplicate) modules/system/system.install:56 
-msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
-msgstr ""
-
-#: (duplicate) modules/system/system.install:62 
+#: (duplicate) modules/system/system.install:36 
 msgid "PHP"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:66 
+#: (duplicate) modules/system/system.install:40 
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:73 
+#: (duplicate) modules/system/system.install:46 
+msgid "PHP register globals"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:55 
+msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:57 
+msgid "Enabled ('@value')"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:66 
 msgid "PHP memory limit"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:80 
+#: (duplicate) modules/system/system.install:73 
 msgid "Consider increasing your PHP memory limit to %memory_minimum_limit to help prevent errors in the installation process."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:84 
+#: (duplicate) modules/system/system.install:76 
+msgid "Consider increasing your PHP memory limit to %memory_minimum_limit to help prevent errors in the update process."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:79 
 msgid "Depending on your configuration, Drupal can run with a %memory_limit PHP memory limit. However, a %memory_minimum_limit PHP memory limit or above is recommended, especially if your site uses additional custom or contributed modules."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:90 
+#: (duplicate) modules/system/system.install:84 
 msgid "Increase the memory limit by editing the memory_limit parameter in the file %configuration-file and then restart your web server (or contact your system administrator or hosting provider for assistance)."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:93 
+#: (duplicate) modules/system/system.install:87 
 msgid "Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:96 
+#: (duplicate) modules/system/system.install:90 
 msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:112 ;254 
+#: (duplicate) modules/system/system.install:107 ;254 
 msgid "Not protected"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:117 
+#: (duplicate) modules/system/system.install:112 
 msgid "The directory %file is not protected from modifications and poses a security risk. You must change the directory's permissions to be non-writable. "
 msgstr ""
 
-#: (duplicate) modules/system/system.install:120 
+#: (duplicate) modules/system/system.install:115 
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:125 ;261 
+#: (duplicate) modules/system/system.install:120 ;261 
 msgid "Protected"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:128 
+#: (duplicate) modules/system/system.install:123 
 msgid "Configuration file"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:138 
+#: (duplicate) modules/system/system.install:133 
 msgid "For more information, see the online handbook entry for <a href=\"@cron-handbook\">configuring cron jobs</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:162 
+#: (duplicate) modules/system/system.install:157 
 msgid "Cron has not run. Please visit the <a href=\"@status\">status report</a> for more information."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:167 
+#: (duplicate) modules/system/system.install:162 
 msgid "Never run"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:168 
+#: (duplicate) modules/system/system.install:163 
 msgid "Cron has not run."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:171 
+#: (duplicate) modules/system/system.install:166 
 msgid "Last run !time ago"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:174 
+#: (duplicate) modules/system/system.install:169 
 msgid "Cron has not run recently."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:179 
+#: (duplicate) modules/system/system.install:174 
 msgid "Cron maintenance tasks"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:182 
+#: (duplicate) modules/system/system.install:177 
 msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:184 
+msgid "File system"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:196 
+msgid "Not writable"
 msgstr ""
 
 #: (duplicate) modules/system/system.install:198 
@@ -759,28 +788,20 @@ msgstr ""
 msgid "The directory %directory is not writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:204 
-msgid "Not writable"
-msgstr ""
-
-#: (duplicate) modules/system/system.install:208 
+#: (duplicate) modules/system/system.install:205 
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:213 
+#: (duplicate) modules/system/system.install:210 
 msgid "An automated attempt to create this directory failed, possibly due to a permissions problem. To proceed with the installation, either create the directory and modify its permissions manually, or ensure that the installer has the permissions to create it automatically. For more information, please see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:219 
+#: (duplicate) modules/system/system.install:220 
 msgid "Writable (<em>public</em> download method)"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:222 
+#: (duplicate) modules/system/system.install:223 
 msgid "Writable (<em>private</em> download method)"
-msgstr ""
-
-#: (duplicate) modules/system/system.install:225 
-msgid "File system"
 msgstr ""
 
 #: (duplicate) modules/system/system.install:230 

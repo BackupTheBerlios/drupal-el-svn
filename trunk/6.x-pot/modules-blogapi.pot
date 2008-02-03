@@ -1,14 +1,14 @@
-# $Id: modules-blogapi.pot,v 1.1.2.4 2008/01/10 23:48:44 goba Exp $
+# $Id: modules-blogapi.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-blogapi)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: blogapi.module,v 1.114 2008/01/09 09:51:34 goba
+# Generated from file: blogapi.module,v 1.115 2008/01/18 19:03:15 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Error storing post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:255;487
+#: modules/blogapi/blogapi.module:255;489
 msgid "You do not have permission to update this post."
 msgstr ""
 
@@ -117,27 +117,27 @@ msgstr ""
 msgid "Error storing file."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:482
+#: modules/blogapi/blogapi.module:484
 msgid "Invalid post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:522
+#: modules/blogapi/blogapi.module:524
 msgid "You do not have permission to edit this blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:526
+#: modules/blogapi/blogapi.module:528
 msgid "Wrong username or password."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:549
+#: modules/blogapi/blogapi.module:551
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:553
+#: modules/blogapi/blogapi.module:555
 msgid "Select the content types available to external blogging clients via Blog API. If supported, each enabled content type will be displayed as a separate \"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:582;561
+#: modules/blogapi/blogapi.module:584;563
 msgid "RSD"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "administer content with blog api"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:568
+#: modules/blogapi/blogapi.module:570
 msgid "Configure the content types available to external blogging clients."
 msgstr ""
 

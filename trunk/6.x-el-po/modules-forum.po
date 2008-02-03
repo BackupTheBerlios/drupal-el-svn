@@ -1,19 +1,21 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2008-01-28 10:09+0100\n"
-"Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -64,8 +66,7 @@ msgstr "Τα φόρουμ παρουσιάζονται σε αύξουσα σε�
 msgid "forum container"
 msgstr "φάκελος φόρουμ"
 
-#: modules/forum/forum.admin.inc:79
-#: modules/forum/forum.module:0
+#: modules/forum/forum.admin.inc:79 modules/forum/forum.module:0
 msgid "forum"
 msgstr "φόρουμ"
 
@@ -311,8 +312,7 @@ msgstr "τροποποίηση δικών τους θεμάτων συζήτησ
 msgid "administer forums"
 msgstr "διαχείριση φόρουμ"
 
-#: modules/forum/forum.module:86;93
-#: modules/forum/forum.install:27;116
+#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;116
 msgid "Forums"
 msgstr "Φόρουμ"
 
@@ -347,4 +347,3 @@ msgstr "Το {node}.nid της καταχώρισης."
 #: modules/forum/forum.install:90
 msgid "The {term_data}.tid of the forum term assigned to the node."
 msgstr "Ο όρος {term_data}.tid συσχετίστηκε με τη καταχώριση."
-

@@ -1,15 +1,17 @@
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-11 00:39+0100\n"
-"PO-Revision-Date: 2007-08-03 00:39+0300\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,25 +144,29 @@ msgstr "Αποτελέσματα"
 msgid "View the current poll results."
 msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
 
-#: modules/poll/poll.module:607
+#: modules/poll/poll.module:593
+msgid "Your vote could not be recorded because you did not select any of the choices."
+msgstr ""
+
+#: modules/poll/poll.module:616
 msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
-#: modules/poll/poll.module:663
+#: modules/poll/poll.module:672
 #, fuzzy
 msgid "Add another choice"
 msgstr "Χρειάζονται περισσότερες επιλογές"
 
-#: modules/poll/poll.module:667
+#: modules/poll/poll.module:676
 #, fuzzy
 msgid "Choice"
 msgstr "Επιλογές"
 
-#: modules/poll/poll.module:668
+#: modules/poll/poll.module:677
 msgid "Vote count"
 msgstr ""
 
-#: modules/poll/poll.module:750
+#: modules/poll/poll.module:759
 msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
