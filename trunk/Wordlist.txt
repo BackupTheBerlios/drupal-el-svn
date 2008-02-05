@@ -22,6 +22,7 @@ custom = προσαρμοσμένος
 default = προεπιλεγμένο
 directory = κατάλογος
 download = λήψη, λαμβάνω
+drag and drop = σύρε και άσε
 	--= E =--
 edit = τροποποίηση
 e-mail = ηλεκτρονικό ταχυδρομείο, e-mail
@@ -50,6 +51,7 @@ news = ειδήσεις, νέα
 	--= O =--
 overload = υπερφόρτωση, υπέρβαση
 overview = επισκόπηση, περίληψη
+order - ordering = κατάταξη
 	--= P =--
 password = συνθηματικό
 permission = άδεια
@@ -61,6 +63,7 @@ profile = προφίλ
 	--= R =--
 region = περιοχή
 revision = αναθεώρηση
+RSS feed = ροή RSS
 	--= S =--
 server = διακομιστής
 settings = ρυθμίσεις
@@ -78,6 +81,7 @@ topic = θέμα
 	--= U =--
 underscore = χαρακτήρας υπογράμμισης
 upload = αποστολή, αποστέλλω
+undo = αντιστρέφω
 	--= V =--
 view = προβολή
 vocabulary = λεξιλόγιο
