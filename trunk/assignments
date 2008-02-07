@@ -1,10 +1,10 @@
- - general.po : Θανάσης Βέλιος - a.velios@gmail.com
- - includes.po :
+ - general.po* : Θανάσης Βέλιος - a.velios@gmail.com
+ - includes.po* :
  - installer.po : Φάνης Χατζηδάκης - berlios@hatzidakis.org
- - misc.po :
- - modules-aggregator.po :
- - modules-block.po : Σταύρος Τεμερτζίδης - bullgr@gmail.com
- - modules-blogapi.po : Σταύρος Τεμερτζίδης - bullgr@gmail.com
+ - misc.po* :
+ - modules-aggregator.po* :
+ - modules-block.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
+ - modules-blogapi.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-blog.po : 
  - modules-book.po : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-color.po : Φάνης Χατζηδάκης - berlios@hatzidakis.org
