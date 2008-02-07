@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"PO-Revision-Date: 2008-02-07 10:58+0100\n"
+"Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -27,7 +27,8 @@ msgstr ""
 msgid "There are no menu items yet."
 msgstr "Το όνομα του στοιχείου μενού."
 
-#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
+#: modules/menu/menu.admin.inc:72
+#: modules/menu/menu.module:235
 msgid "disabled"
 msgstr "ανενεργό"
 
@@ -43,7 +44,8 @@ msgstr "Στοιχείο μενού"
 msgid "Expanded"
 msgstr "Σε ανάπτυξη"
 
-#: modules/menu/menu.admin.inc:229 modules/menu/menu.module:358
+#: modules/menu/menu.admin.inc:229
+#: modules/menu/menu.module:358
 msgid "Menu settings"
 msgstr "Ρυθμίσεις μενού"
 
@@ -51,14 +53,15 @@ msgstr "Ρυθμίσεις μενού"
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
 msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική διεύθυνση URL, όπως η %drupal. Εισάγετε %front για παραπομπή στην αρχική σελίδα του ιστοτόπου."
 
-#: modules/menu/menu.admin.inc:278 modules/menu/menu.module:385
+#: modules/menu/menu.admin.inc:278
+#: modules/menu/menu.module:385
 #, fuzzy
 msgid "Menu link title"
 msgstr "Τίτλος μπλοκ"
 
 #: modules/menu/menu.admin.inc:280
 msgid "The link text corresponding to this item that should appear in the menu."
-msgstr ""
+msgstr "Το κείμενο της παραπομπής που αντιστοιχεί σε αυτή τη δημοσίευση, όπως θέλετε να εμφανίζεται στο μενού."
 
 #: modules/menu/menu.admin.inc:288
 msgid "The description displayed when hovering over a menu item."
@@ -66,21 +69,24 @@ msgstr "Η περιγραφή που θα εμφανίζεται όταν αιω
 
 #: modules/menu/menu.admin.inc:294
 msgid "Menu items that are not enabled will not be listed in any menu."
-msgstr ""
+msgstr "Οι παραπομπές του μενού που δεν είναι ενεργοποιημένες δεν θα εμφανίζονται σε κανένα μενού."
 
 #: modules/menu/menu.admin.inc:300
 msgid "If selected and this menu item has children, the menu will always appear expanded."
 msgstr "Αν το επιλέξετε και αυτό το στοιχείο μενού έχει θυγατρικά, το μενού θα εμφανίζεται πάντα σε ανάπτυξη."
 
-#: modules/menu/menu.admin.inc:314 modules/menu/menu.module:401
+#: modules/menu/menu.admin.inc:314
+#: modules/menu/menu.module:401
 msgid "The maximum depth for an item and all its children is fixed at !maxdepth. Some menu items may not be available as parents if selecting them would exceed this limit."
-msgstr ""
+msgstr "Ο μέγιστος αριθμός θυγατρικών στοιχείων του μενού είναι ορισμένος σε !maxdepth. Μερικές μητρικές παραπομπές του μενού μπορεί να μην εμφανίζονται αν η επιλογή του ξεπερνάει αυτό το όριο."
 
-#: modules/menu/menu.admin.inc:321 modules/menu/menu.module:410
+#: modules/menu/menu.admin.inc:321
+#: modules/menu/menu.module:410
 msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
 msgstr "Προαιρετικό. Στο μενού, τα βαρύτερα στοιχεία θα βουλιάζουν και τα ελαφρύτερα θα τοποθετούνται πιο κοντά στην κορυφή."
 
-#: modules/menu/menu.admin.inc:377 modules/menu/menu.module:302
+#: modules/menu/menu.admin.inc:377
+#: modules/menu/menu.module:302
 #, fuzzy
 msgid "There was an error saving the menu link."
 msgstr "Το όνομα που θα εμφανίζεται γι' αυτόν τον σύνδεσμο μενού."
@@ -142,11 +148,11 @@ msgstr "Η μονάδα menu επιτρέπει τη δημιουργία επι
 
 #: modules/menu/menu.admin.inc:606
 msgid "Default menu for content"
-msgstr ""
+msgstr "Προεπιλεγμένο μενού ύλης"
 
 #: modules/menu/menu.admin.inc:609
 msgid "Choose the menu to be the default in the menu options in the content authoring form."
-msgstr ""
+msgstr "Επιλέξτε το μενού που θα είναι προεπιλεγμένο στις επιλογές μενού της φόρμας δημοσίευσης ύλης."
 
 #: modules/menu/menu.admin.inc:615
 #, fuzzy
@@ -155,11 +161,11 @@ msgstr "Δεν υπάρχουν δευτερεύοντες σύνδεσμοι"
 
 #: modules/menu/menu.admin.inc:619
 msgid "Select what should be displayed as the secondary links. If %primary is chosen, the children of the active primary menu link (if any) will be shown instead of the links in the %secondary menu."
-msgstr ""
+msgstr "Επιλέξτε τι από τη λίστα θα παρουσιάζεται σαν δευτερεύοντες σύνδεσμοι. Αν επιλεχθεί το %primary, τα θυγατρικά στοιχεία των πρωτευόντων συνδέσμων (αν υπάρχουν) θα παρουσιάζονται αντί για ξεχωριστούς δευτερεύοντες συνδέσμους."
 
 #: modules/menu/menu.admin.inc:491
 msgid "Deleted custom menu %title and all its menu items."
-msgstr ""
+msgstr "Το μενού %title και όλα τα υπομενού του έχουν διαγραφεί."
 
 #: modules/menu/menu.admin.inc:573
 msgid "Deleted menu item %title."
@@ -168,8 +174,8 @@ msgstr "Διαγράφηκε το στοιχείο μενού %title."
 #: modules/menu/menu.admin.inc:455
 msgid "<strong>Warning:</strong> There is currently 1 menu item in %title. It will be deleted (system-defined items will be reset)."
 msgid_plural "<strong>Warning:</strong> There are currently @count menu items in %title. They will be deleted (system-defined items will be reset)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>Προειδοποίηση:</strong> Υπάρχει 1 μενού στο %title. Θα διαγραφεί (τα μενού συστήματος θα επανέλθουν στις αρχικές ρυθμίσεις)."
+msgstr[1] "<strong>Προειδοποίηση:</strong> Υπάρχουν @count μενού στο %title. Θα διαγραφούν (τα μενού συστήματος θα επανέλθουν στις αρχικές ρυθμίσεις)."
 
 #: modules/menu/menu.admin.inc:503
 #, fuzzy
@@ -300,3 +306,4 @@ msgstr ""
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
 msgstr ""
+
