@@ -29,12 +29,14 @@ e-mail = ηλεκτρονικό ταχυδρομείο, e-mail
 error = σφάλμα
 expanded = ξεδιπλωμένο
 	--= F =--
+footer = τέλος σελίδας
 format = μορφότυπος
 form = φόρμα
 forum = φόρουμ
 	--= G =--
 	--= H =--
 handbook = εγχειρίδιο
+header = αρχή σελίδας
 hierarchy = ιεραρχία
 human-readable = ανθρωπίνως αναγνώσιμο
 	--= I =--

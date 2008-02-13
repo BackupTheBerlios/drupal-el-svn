@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-02-07 10:42+0100\n"
+"PO-Revision-Date: 2008-02-13 18:02+0100\n"
 "Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: includes/actions.inc:46;275;297;329;337
 #: modules/trigger/trigger.admin.inc:87
 msgid "actions"
-msgstr "Ενέργειες"
+msgstr "ενέργειες"
 
 #: includes/common.inc:335
 #: modules/system/system.admin.inc:1645
@@ -298,13 +298,13 @@ msgstr "Γλώσσες"
 #: includes/locale.inc:423;662;942;999;1816;1820;2161;2164;2167;2170
 #: modules/locale/locale.module:510;0
 msgid "locale"
-msgstr "γλωσσική προσαρμογή"
+msgstr "προσαρμογή κατά τόπο"
 
 #: includes/mail.inc:134
 #: modules/contact/contact.admin.inc:115;121;148
 #: modules/contact/contact.pages.inc:146;231
 msgid "mail"
-msgstr "mail"
+msgstr "ταχυδρομείο"
 
 #: includes/menu.inc:1445
 #: modules/blog/blog.module:108
@@ -628,7 +628,7 @@ msgstr "Μητρικό στοιχείο"
 
 #: modules/book/book.info:0
 msgid "Allows users to structure site pages in a hierarchy or outline."
-msgstr "Επιτρέπει τους χρήστες να δομούν τις ιστοσελίδες σε ιεραρχίες ή περιληπτικά."
+msgstr "Επιτρέπει τους χρήστες να δομούν τις ιστοσελίδες ιεραρχικά ή περιληπτικά."
 
 #: modules/color/color.module:230
 #: modules/comment/comment.module:1387;1391;1394
@@ -1219,7 +1219,7 @@ msgstr "Ψηφοφορία"
 #: modules/poll/poll.module:251
 #: modules/user/user.module:1438
 msgid "Active"
-msgstr "Ενεργός"
+msgstr "Ενεργό"
 
 #: modules/poll/poll.info:0
 msgid "Allows your site to capture votes on different topics in the form of multiple choice questions."
