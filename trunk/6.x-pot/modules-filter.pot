@@ -1,9 +1,9 @@
-# $Id: modules-filter.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-filter.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-filter)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  filter.admin.inc,v 1.8 2008/01/08 10:35:41 goba
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
 #  filter.module,v 1.204 2008/01/21 15:08:24 goba
 #  filter.pages.inc,v 1.2 2007/11/10 17:41:18 dries
 #  filter.install,v 1.5 2007/12/18 12:59:21 dries
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

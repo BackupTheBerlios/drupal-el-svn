@@ -1,10 +1,10 @@
-# $Id: modules-user.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-user.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-user)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  user.admin.inc,v 1.18 2008/01/16 22:54:41 goba
-#  user.module,v 1.891 2008/01/29 18:56:56 goba
+#  user.module,v 1.892 2008/02/03 19:23:01 goba
 #  user.pages.inc,v 1.11 2008/01/08 10:35:43 goba
 #  user.install,v 1.5 2008/01/08 07:46:41 goba
 #
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: modules/user/user.admin.inc:13 modules/user/user.module:663;2397;904
+#: modules/user/user.admin.inc:13 modules/user/user.module:667;2425;908
 msgid "Create new account"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr ""
 msgid "<strong>%property</strong> is <strong>%value</strong>"
 msgstr ""
 
-#: modules/user/user.admin.inc:137;911 modules/user/user.module:617
+#: modules/user/user.admin.inc:137;911 modules/user/user.module:621
 msgid "Member for"
 msgstr ""
 
@@ -45,11 +45,11 @@ msgstr ""
 msgid "Last access"
 msgstr ""
 
-#: modules/user/user.admin.inc:169 modules/user/user.module:1935
+#: modules/user/user.admin.inc:169 modules/user/user.module:1957
 msgid "blocked"
 msgstr ""
 
-#: modules/user/user.admin.inc:169 modules/user/user.module:1935
+#: modules/user/user.admin.inc:169 modules/user/user.module:1957
 msgid "active"
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 msgid "The changes have been saved."
 msgstr ""
 
-#: modules/user/user.admin.inc:582 modules/user/user.module:1919
+#: modules/user/user.admin.inc:582 modules/user/user.module:1941
 msgid "@module module"
 msgstr ""
 
@@ -289,7 +289,7 @@ msgstr ""
 msgid "The access rule has been added."
 msgstr ""
 
-#: modules/user/user.admin.inc:728 modules/user/user.module:1003
+#: modules/user/user.admin.inc:728 modules/user/user.module:1007
 msgid "Add rule"
 msgstr ""
 
@@ -469,7 +469,7 @@ msgstr ""
 msgid "This login can be used only once."
 msgstr ""
 
-#: modules/user/user.pages.inc:110 modules/user/user.module:659;1235;898
+#: modules/user/user.pages.inc:110 modules/user/user.module:663;1255;902
 msgid "Log in"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgstr ""
 msgid "You have tried to use a one-time login link which has either been used or is no longer valid. Please request a new one using the form below."
 msgstr ""
 
-#: modules/user/user.pages.inc:263;332;261;330 modules/user/user.module:1746;2252
+#: modules/user/user.pages.inc:263;332;261;330 modules/user/user.module:1768;2277
 msgid "Detected malicious attempt to alter protected user fields."
 msgstr ""
 
@@ -505,577 +505,577 @@ msgstr ""
 msgid "Session closed for %name."
 msgstr ""
 
-#: modules/user/user.module:375
+#: modules/user/user.module:379
 msgid "You must enter a username."
 msgstr ""
 
-#: modules/user/user.module:376
+#: modules/user/user.module:380
 msgid "The username cannot begin with a space."
 msgstr ""
 
-#: modules/user/user.module:377
+#: modules/user/user.module:381
 msgid "The username cannot end with a space."
 msgstr ""
 
-#: modules/user/user.module:378
+#: modules/user/user.module:382
 msgid "The username cannot contain multiple spaces in a row."
 msgstr ""
 
-#: modules/user/user.module:379;390
+#: modules/user/user.module:383;394
 msgid "The username contains an illegal character."
 msgstr ""
 
-#: modules/user/user.module:392
+#: modules/user/user.module:396
 msgid "The username is not a valid authentication ID."
 msgstr ""
 
-#: modules/user/user.module:393
+#: modules/user/user.module:397
 msgid "The username %name is too long: it must be %max characters or less."
 msgstr ""
 
-#: modules/user/user.module:397
+#: modules/user/user.module:401
 msgid "You must enter an e-mail address."
 msgstr ""
 
-#: modules/user/user.module:399
+#: modules/user/user.module:403
 msgid "The e-mail address %mail is not valid."
 msgstr ""
 
-#: modules/user/user.module:425
+#: modules/user/user.module:429
 msgid "Failed to upload the picture image; the %directory directory doesn't exist or is not writable."
 msgstr ""
 
-#: modules/user/user.module:613
+#: modules/user/user.module:617
 msgid "History"
 msgstr ""
 
-#: modules/user/user.module:635
+#: modules/user/user.module:639
 msgid "Account settings"
 msgstr ""
 
-#: modules/user/user.module:663
+#: modules/user/user.module:667
 msgid "Create a new user account."
 msgstr ""
 
-#: modules/user/user.module:665;913
+#: modules/user/user.module:669;917
 msgid "Request new password"
 msgstr ""
 
-#: modules/user/user.module:665
+#: modules/user/user.module:669
 msgid "Request new password via e-mail."
 msgstr ""
 
-#: modules/user/user.module:677;724
+#: modules/user/user.module:681;728
 msgid "User login"
 msgstr ""
 
-#: modules/user/user.module:686;745
+#: modules/user/user.module:690;749
 msgid "Who's new"
 msgstr ""
 
-#: modules/user/user.module:689;784
+#: modules/user/user.module:693;788
 msgid "Who's online"
 msgstr ""
 
-#: modules/user/user.module:696
+#: modules/user/user.module:700
 msgid "Number of users to display"
 msgstr ""
 
-#: modules/user/user.module:704
+#: modules/user/user.module:708
 msgid "User activity"
 msgstr ""
 
-#: modules/user/user.module:704
+#: modules/user/user.module:708
 msgid "A user is considered online for this long after they have last viewed a page."
 msgstr ""
 
-#: modules/user/user.module:705
+#: modules/user/user.module:709
 msgid "User list length"
 msgstr ""
 
-#: modules/user/user.module:705
+#: modules/user/user.module:709
 msgid "Maximum number of currently online users to display."
 msgstr ""
 
-#: modules/user/user.module:772
+#: modules/user/user.module:776
 msgid "There is currently %members and %visitors online."
 msgstr ""
 
-#: modules/user/user.module:775
+#: modules/user/user.module:779
 msgid "There are currently %members and %visitors online."
 msgstr ""
 
-#: modules/user/user.module:781
+#: modules/user/user.module:785
 msgid "Online users"
 msgstr ""
 
-#: modules/user/user.module:812
+#: modules/user/user.module:816
 msgid "@user's picture"
 msgstr ""
 
-#: modules/user/user.module:1167;1037
+#: modules/user/user.module:1171;1041
 msgid "My account"
 msgstr ""
 
-#: modules/user/user.module:1227
+#: modules/user/user.module:1247
 msgid "Enter your @s username."
 msgstr ""
 
-#: modules/user/user.module:1230
+#: modules/user/user.module:1250
 msgid "Enter the password that accompanies your username."
 msgstr ""
 
-#: modules/user/user.module:1270
+#: modules/user/user.module:1289
 msgid "The username %name has not been activated or is blocked."
 msgstr ""
 
-#: modules/user/user.module:1274
+#: modules/user/user.module:1293
 msgid "The name %name is a reserved username."
 msgstr ""
 
-#: modules/user/user.module:1294
+#: modules/user/user.module:1313
 msgid "Sorry, unrecognized username or password. <a href=\"@password\">Have you forgotten your password?</a>"
 msgstr ""
 
-#: modules/user/user.module:1400
+#: modules/user/user.module:1419
 msgid "Account information"
 msgstr ""
 
-#: modules/user/user.module:1408
+#: modules/user/user.module:1427
 msgid "Spaces are allowed; punctuation is not allowed except for periods, hyphens, and underscores."
 msgstr ""
 
-#: modules/user/user.module:1416
+#: modules/user/user.module:1435
 msgid "A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail."
 msgstr ""
 
-#: modules/user/user.module:1421
+#: modules/user/user.module:1440
 msgid "To change the current user password, enter the new password in both fields."
 msgstr ""
 
-#: modules/user/user.module:1428
+#: modules/user/user.module:1447
 msgid "Provide a password for the new account in both fields."
 msgstr ""
 
-#: modules/user/user.module:1438
+#: modules/user/user.module:1457
 msgid "Blocked"
 msgstr ""
 
-#: modules/user/user.module:1473
+#: modules/user/user.module:1492
 msgid "Signature settings"
 msgstr ""
 
-#: modules/user/user.module:1478
+#: modules/user/user.module:1497
 msgid "Signature"
 msgstr ""
 
-#: modules/user/user.module:1480
+#: modules/user/user.module:1499
 msgid "Your signature will be publicly displayed at the end of your comments."
 msgstr ""
 
-#: modules/user/user.module:1486
+#: modules/user/user.module:1505
 msgid "Picture"
 msgstr ""
 
-#: modules/user/user.module:1490
+#: modules/user/user.module:1509
 msgid "Delete picture"
 msgstr ""
 
-#: modules/user/user.module:1490
+#: modules/user/user.module:1509
 msgid "Check this box to delete your current picture."
 msgstr ""
 
-#: modules/user/user.module:1495
+#: modules/user/user.module:1514
 msgid "Upload picture"
 msgstr ""
 
-#: modules/user/user.module:1495
+#: modules/user/user.module:1514
 msgid "Your virtual face or picture. Maximum dimensions are %dimensions and the maximum size is %size kB."
 msgstr ""
 
-#: modules/user/user.module:1511
+#: modules/user/user.module:1530
 msgid "The name %name is already taken."
 msgstr ""
 
-#: modules/user/user.module:1514
+#: modules/user/user.module:1533
 msgid "The name %name has been denied access."
 msgstr ""
 
-#: modules/user/user.module:1523
+#: modules/user/user.module:1542
 msgid "The e-mail address %email is already registered. <a href=\"@password\">Have you forgotten your password?</a>"
 msgstr ""
 
-#: modules/user/user.module:1526
+#: modules/user/user.module:1545
 msgid "The e-mail address %email has been denied access."
 msgstr ""
 
-#: modules/user/user.module:1606
+#: modules/user/user.module:1625
 msgid "Account details for !username at !site"
 msgstr ""
 
-#: modules/user/user.module:1608
+#: modules/user/user.module:1627
 msgid "!username,\n\nThank you for registering at !site. You may now log in to !login_uri using the following username and password:\n\nusername: !username\npassword: !password\n\nYou may also log in by clicking on this link or copying and pasting it in your browser:\n\n!login_url\n\nThis is a one-time login, so it can be used only once.\n\nAfter logging in, you will be redirected to !edit_uri so you can change your password.\n\n\n--  !site team"
 msgstr ""
 
-#: modules/user/user.module:1610
+#: modules/user/user.module:1629
 msgid "An administrator created an account for you at !site"
 msgstr ""
 
-#: modules/user/user.module:1612
+#: modules/user/user.module:1631
 msgid "!username,\n\nA site administrator at !site has created an account for you. You may now log in to !login_uri using the following username and password:\n\nusername: !username\npassword: !password\n\nYou may also log in by clicking on this link or copying and pasting it in your browser:\n\n!login_url\n\nThis is a one-time login, so it can be used only once.\n\nAfter logging in, you will be redirected to !edit_uri so you can change your password.\n\n\n--  !site team"
 msgstr ""
 
-#: modules/user/user.module:1615
+#: modules/user/user.module:1634
 msgid "Account details for !username at !site (pending admin approval)"
 msgstr ""
 
-#: modules/user/user.module:1617
+#: modules/user/user.module:1636
 msgid "!username,\n\nThank you for registering at !site. Your application for an account is currently pending approval. Once it has been approved, you will receive another e-mail containing information about how to log in, set your password, and other details.\n\n\n--  !site team"
 msgstr ""
 
-#: modules/user/user.module:1619
+#: modules/user/user.module:1638
 msgid "!username has applied for an account.\n\n!edit_uri"
 msgstr ""
 
-#: modules/user/user.module:1621
+#: modules/user/user.module:1640
 msgid "Replacement login information for !username at !site"
 msgstr ""
 
-#: modules/user/user.module:1623
+#: modules/user/user.module:1642
 msgid "!username,\n\nA request to reset the password for your account has been made at !site.\n\nYou may now log in to !uri_brief by clicking on this link or copying and pasting it in your browser:\n\n!login_url\n\nThis is a one-time login, so it can be used only once. It expires after one day and nothing will happen if it's not used.\n\nAfter logging in, you will be redirected to !edit_uri so you can change your password."
 msgstr ""
 
-#: modules/user/user.module:1625
+#: modules/user/user.module:1644
 msgid "Account details for !username at !site (approved)"
 msgstr ""
 
-#: modules/user/user.module:1627
+#: modules/user/user.module:1646
 msgid "!username,\n\nYour account at !site has been activated.\n\nYou may now log in by clicking on this link or copying and pasting it in your browser:\n\n!login_url\n\nThis is a one-time login, so it can be used only once.\n\nAfter logging in, you will be redirected to !edit_uri so you can change your password.\n\nOnce you have set your own password, you will be able to log in to !login_uri in the future using:\n\nusername: !username\n"
 msgstr ""
 
-#: modules/user/user.module:1629
+#: modules/user/user.module:1648
 msgid "Account details for !username at !site (blocked)"
 msgstr ""
 
-#: modules/user/user.module:1631
+#: modules/user/user.module:1650
 msgid "!username,\n\nYour account on !site has been blocked."
 msgstr ""
 
-#: modules/user/user.module:1633
+#: modules/user/user.module:1652
 msgid "Account details for !username at !site (deleted)"
 msgstr ""
 
-#: modules/user/user.module:1635
+#: modules/user/user.module:1654
 msgid "!username,\n\nYour account on !site has been deleted."
 msgstr ""
 
-#: modules/user/user.module:1693
+#: modules/user/user.module:1714
 msgid "Unblock the selected users"
 msgstr ""
 
-#: modules/user/user.module:1697
+#: modules/user/user.module:1718
 msgid "Block the selected users"
 msgstr ""
 
-#: modules/user/user.module:1701
+#: modules/user/user.module:1722
 msgid "Delete the selected users"
 msgstr ""
 
-#: modules/user/user.module:1721
+#: modules/user/user.module:1742
 msgid "Add a role to the selected users"
 msgstr ""
 
-#: modules/user/user.module:1724
+#: modules/user/user.module:1745
 msgid "Remove a role from the selected users"
 msgstr ""
 
-#: modules/user/user.module:1825
+#: modules/user/user.module:1847
 msgid "Are you sure you want to delete these users?"
 msgstr ""
 
-#: modules/user/user.module:1835
+#: modules/user/user.module:1857
 msgid "The users have been deleted."
 msgstr ""
 
-#: modules/user/user.module:1849
+#: modules/user/user.module:1871
 msgid "The user module allows users to register, login, and log out. Users benefit from being able to sign on because it associates content they create with their account and allows various permissions to be set for their roles. The user module supports user roles which establish fine grained permissions allowing each role to do only what the administrator wants them to. Each user is assigned to one or more roles. By default there are two roles <em>anonymous</em> - a user who has not logged in, and <em>authenticated</em> a user who has signed up and who has been authorized."
 msgstr ""
 
-#: modules/user/user.module:1850
+#: modules/user/user.module:1872
 msgid "Users can use their own name or handle and can specify personal configuration settings through their individual <em>My account</em> page. Users must authenticate by supplying a local username and password or through their OpenID, an optional and secure method for logging into many websites with a single username and password. In some configurations, users may authenticate using a username and password from another Drupal site, or through some other site-specific mechanism."
 msgstr ""
 
-#: modules/user/user.module:1851
+#: modules/user/user.module:1873
 msgid "A visitor accessing your website is assigned a unique ID, or session ID, which is stored in a cookie. The cookie does not contain personal information, but acts as a key to retrieve information from your site. Users should have cookies enabled in their web browser when using your site."
 msgstr ""
 
-#: modules/user/user.module:1852
+#: modules/user/user.module:1874
 msgid "For more information, see the online handbook entry for <a href=\"@user\">User module</a>."
 msgstr ""
 
-#: modules/user/user.module:1855
+#: modules/user/user.module:1877
 msgid "Drupal allows users to register, login, log out, maintain user profiles, etc. Users of the site may not use their own names to post content until they have signed up for a user account."
 msgstr ""
 
-#: modules/user/user.module:1858
+#: modules/user/user.module:1880
 msgid "This web page allows administrators to register new users. Users' e-mail addresses and usernames must be unique."
 msgstr ""
 
-#: modules/user/user.module:1860
+#: modules/user/user.module:1882
 msgid "Set up username and e-mail address access rules for new <em>and</em> existing accounts (currently logged in accounts will not be logged out). If a username or e-mail address for an account matches any deny rule, but not an allow rule, then the account will not be allowed to be created or to log in. A host rule is effective for every page view, not just registrations."
 msgstr ""
 
-#: modules/user/user.module:1862
+#: modules/user/user.module:1884
 msgid "Permissions let you control what users can do on your site. Each user role (defined on the <a href=\"@role\">user roles page</a>) has its own set of permissions. For example, you could give users classified as \"Administrators\" permission to \"administer nodes\" but deny this power to ordinary, \"authenticated\" users. You can use permissions to reveal new features to privileged users (those with subscriptions, for example). Permissions also allow trusted users to share the administrative burden of running a busy site."
 msgstr ""
 
-#: modules/user/user.module:1864
+#: modules/user/user.module:1886
 msgid "<p>Roles allow you to fine tune the security and administration of Drupal. A role defines a group of users that have certain privileges as defined in <a href=\"@permissions\">user permissions</a>. Examples of roles include: anonymous user, authenticated user, moderator, administrator and so on. In this area you will define the <em>role names</em> of the various roles. To delete a role choose \"edit\".</p><p>By default, Drupal comes with two user roles:</p>\n      <ul>\n      <li>Anonymous user: this role is used for users that don't have a user account or that are not authenticated.</li>\n      <li>Authenticated user: this role is automatically granted to all logged in users.</li>\n      </ul>"
 msgstr ""
 
-#: modules/user/user.module:1870
+#: modules/user/user.module:1892
 msgid "Enter a simple pattern (\"*\" may be used as a wildcard match) to search for a username or e-mail address. For example, one may search for \"br\" and Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
 msgstr ""
 
-#: modules/user/user.module:1907
+#: modules/user/user.module:1929
 msgid "role"
 msgstr ""
 
-#: modules/user/user.module:1925
+#: modules/user/user.module:1947
 msgid "permission"
 msgstr ""
 
-#: modules/user/user.module:2125
+#: modules/user/user.module:2149
 msgid "Password strength:"
 msgstr ""
 
-#: modules/user/user.module:2126
+#: modules/user/user.module:2150
 msgid "Low"
 msgstr ""
 
-#: modules/user/user.module:2128
+#: modules/user/user.module:2152
 msgid "High"
 msgstr ""
 
-#: modules/user/user.module:2129
+#: modules/user/user.module:2153
 msgid "It is recommended to choose a password that contains at least six characters. It should include numbers, punctuation, and both upper and lowercase letters."
 msgstr ""
 
-#: modules/user/user.module:2130
+#: modules/user/user.module:2154
 msgid "The password does not include enough variation to be secure. Try:"
 msgstr ""
 
-#: modules/user/user.module:2131
+#: modules/user/user.module:2155
 msgid "Adding both upper and lowercase letters."
 msgstr ""
 
-#: modules/user/user.module:2132
+#: modules/user/user.module:2156
 msgid "Adding numbers."
 msgstr ""
 
-#: modules/user/user.module:2133
+#: modules/user/user.module:2157
 msgid "Adding punctuation."
 msgstr ""
 
-#: modules/user/user.module:2134
+#: modules/user/user.module:2158
 msgid "It is recommended to choose a password different from the username."
 msgstr ""
 
-#: modules/user/user.module:2137
+#: modules/user/user.module:2161
 msgid "Passwords match:"
 msgstr ""
 
-#: modules/user/user.module:2152
+#: modules/user/user.module:2176
 msgid "After a user account has been created"
 msgstr ""
 
-#: modules/user/user.module:2155
+#: modules/user/user.module:2179
 msgid "After a user's profile has been updated"
 msgstr ""
 
-#: modules/user/user.module:2158
+#: modules/user/user.module:2182
 msgid "After a user has been deleted"
 msgstr ""
 
-#: modules/user/user.module:2161
+#: modules/user/user.module:2185
 msgid "After a user has logged in"
 msgstr ""
 
-#: modules/user/user.module:2164
+#: modules/user/user.module:2188
 msgid "After a user has logged out"
 msgstr ""
 
-#: modules/user/user.module:2167
+#: modules/user/user.module:2191
 msgid "When a user's profile is being viewed"
 msgstr ""
 
-#: modules/user/user.module:2180
+#: modules/user/user.module:2204
 msgid "Block current user"
 msgstr ""
 
-#: modules/user/user.module:2186
+#: modules/user/user.module:2210
 msgid "Ban IP address of current user"
 msgstr ""
 
-#: modules/user/user.module:2277
+#: modules/user/user.module:2303
 msgid "Welcome to Drupal. You are now logged in as user #1, which gives you full control over your website."
 msgstr ""
 
-#: modules/user/user.module:2279
+#: modules/user/user.module:2305
 msgid "</p><p> Your password is <strong>%pass</strong>. You may change your password below.</p>"
 msgstr ""
 
-#: modules/user/user.module:2291
+#: modules/user/user.module:2317
 msgid "Created a new user account for <a href=\"@url\">%name</a>. No e-mail has been sent."
 msgstr ""
 
-#: modules/user/user.module:2297
+#: modules/user/user.module:2324
 msgid "Registration successful. You are now logged in."
 msgstr ""
 
-#: modules/user/user.module:2307
+#: modules/user/user.module:2334
 msgid "Password and further instructions have been e-mailed to the new user <a href=\"@url\">%name</a>."
 msgstr ""
 
-#: modules/user/user.module:2310
+#: modules/user/user.module:2337
 msgid "Your password and further instructions have been sent to your e-mail address."
 msgstr ""
 
-#: modules/user/user.module:2318
+#: modules/user/user.module:2345
 msgid "Thank you for applying for an account. Your account is currently pending approval by the site administrator.<br />In the meantime, a welcome message with further instructions has been sent to your e-mail address."
 msgstr ""
 
-#: modules/user/user.module:2355
+#: modules/user/user.module:2382
 msgid "Notify user of new account"
 msgstr ""
 
-#: modules/user/user.module:1295
+#: modules/user/user.module:1314
 msgid "Login attempt failed for %user."
 msgstr ""
 
-#: modules/user/user.module:1332
+#: modules/user/user.module:1351
 msgid "Session opened for %name."
 msgstr ""
 
-#: modules/user/user.module:1381
+#: modules/user/user.module:1400
 msgid "New external user: %name using module %module."
 msgstr ""
 
-#: modules/user/user.module:1558
+#: modules/user/user.module:1577
 msgid "Deleted user: %name %email."
 msgstr ""
 
-#: modules/user/user.module:2211
+#: modules/user/user.module:2235
 msgid "Blocked user %name."
 msgstr ""
 
-#: modules/user/user.module:2221
+#: modules/user/user.module:2245
 msgid "Banned IP address %ip"
 msgstr ""
 
-#: modules/user/user.module:2273
+#: modules/user/user.module:2299
 msgid "New user: %name (%email)."
 msgstr ""
 
-#: modules/user/user.module:772;775
+#: modules/user/user.module:776;779
 msgid "1 guest"
 msgid_plural "@count guests"
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/user/user.module:540
+#: modules/user/user.module:544
 msgid "administer permissions"
 msgstr ""
 
-#: modules/user/user.module:540
+#: modules/user/user.module:544
 msgid "administer users"
 msgstr ""
 
-#: modules/user/user.module:540
+#: modules/user/user.module:544
 msgid "access user profiles"
 msgstr ""
 
-#: modules/user/user.module:540
+#: modules/user/user.module:544
 msgid "change own username"
 msgstr ""
 
-#: modules/user/user.module:880
+#: modules/user/user.module:884
 msgid "User autocomplete"
 msgstr ""
 
-#: modules/user/user.module:890
+#: modules/user/user.module:894
 msgid "User account"
 msgstr ""
 
-#: modules/user/user.module:921
+#: modules/user/user.module:925
 msgid "Reset password"
 msgstr ""
 
-#: modules/user/user.module:931
+#: modules/user/user.module:935
 msgid "User management"
 msgstr ""
 
-#: modules/user/user.module:932
+#: modules/user/user.module:936
 msgid "Manage your site's users, groups and access to site features."
 msgstr ""
 
-#: modules/user/user.module:941
+#: modules/user/user.module:945
 msgid "List, add, and edit users."
 msgstr ""
 
-#: modules/user/user.module:953
+#: modules/user/user.module:957
 msgid "Add user"
 msgstr ""
 
-#: modules/user/user.module:959
+#: modules/user/user.module:963
 msgid "User settings"
 msgstr ""
 
-#: modules/user/user.module:960
+#: modules/user/user.module:964
 msgid "Configure default behavior of users, including registration requirements, e-mails, and user pictures."
 msgstr ""
 
-#: modules/user/user.module:969
+#: modules/user/user.module:973
 msgid "Permissions"
 msgstr ""
 
-#: modules/user/user.module:970
+#: modules/user/user.module:974
 msgid "Determine access to features by selecting permissions for roles."
 msgstr ""
 
-#: modules/user/user.module:978
+#: modules/user/user.module:982
 msgid "List, edit, or add user roles."
 msgstr ""
 
-#: modules/user/user.module:985
+#: modules/user/user.module:989
 msgid "Edit role"
 msgstr ""
 
-#: modules/user/user.module:991
+#: modules/user/user.module:995
 msgid "Access rules"
 msgstr ""
 
-#: modules/user/user.module:992
+#: modules/user/user.module:996
 msgid "List and create rules to disallow usernames, e-mail addresses, and IP addresses."
 msgstr ""
 
-#: modules/user/user.module:1009
+#: modules/user/user.module:1013
 msgid "Check rules"
 msgstr ""
 
-#: modules/user/user.module:1015
+#: modules/user/user.module:1019
 msgid "Edit rule"
 msgstr ""
 
-#: modules/user/user.module:1021
+#: modules/user/user.module:1025
 msgid "Delete rule"
 msgstr ""
 
-#: modules/user/user.module:1029
+#: modules/user/user.module:1033
 msgid "Log out"
 msgstr ""
 
-#: modules/user/user.module:1076
+#: modules/user/user.module:1080
 msgid "Account"
 msgstr ""
 

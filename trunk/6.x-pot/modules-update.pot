@@ -1,20 +1,20 @@
-# $Id: modules-update.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-update.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-update)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  update.compare.inc,v 1.7 2008/01/27 17:50:10 goba
+#  update.compare.inc,v 1.8 2008/02/03 19:34:02 goba
 #  update.fetch.inc,v 1.7 2008/01/30 10:14:42 goba
 #  update.module,v 1.17 2008/01/30 10:14:42 goba
-#  update.report.inc,v 1.9 2008/01/30 10:14:42 goba
+#  update.report.inc,v 1.10.2.1 2008/02/05 09:59:21 goba
 #  update.settings.inc,v 1.3 2007/10/20 21:57:50 goba
-#  update.install,v 1.3 2007/10/10 11:39:34 goba
+#  update.install,v 1.4 2008/02/03 18:38:14 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:348;496;545
+#: modules/update/update.compare.inc:348;497;546
 msgid "No available releases found"
 msgstr ""
 
@@ -71,11 +71,11 @@ msgstr ""
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:528
+#: modules/update/update.compare.inc:529
 msgid "Unknown release date"
 msgstr ""
 
-#: modules/update/update.compare.inc:540
+#: modules/update/update.compare.inc:541
 msgid "Invalid info"
 msgstr ""
 
@@ -101,6 +101,10 @@ msgstr ""
 
 #: modules/update/update.report.inc:31
 msgid "Check manually"
+msgstr ""
+
+#: modules/update/update.report.inc:48;48
+msgid "ok"
 msgstr ""
 
 #: modules/update/update.report.inc:70
@@ -335,7 +339,7 @@ msgstr ""
 msgid "Manual update check"
 msgstr ""
 
-#: modules/update/update.install:37
+#: modules/update/update.install:39
 msgid "Cache table for the Update module to store information about available releases, fetched from central server."
 msgstr ""
 

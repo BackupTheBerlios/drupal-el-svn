@@ -1,17 +1,17 @@
-# $Id: modules-upload.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-upload.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-upload)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
-#  upload.module,v 1.197 2007/12/31 08:46:44 dries
-#  upload.install,v 1.6 2007/12/18 12:59:22 dries
+#  upload.module,v 1.197.2.1 2008/02/11 15:08:09 goba
+#  upload.install,v 1.6.2.1 2008/02/08 18:01:14 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -140,59 +140,59 @@ msgstr ""
 msgid "Read full article to view attachments."
 msgstr ""
 
-#: modules/upload/upload.module:220
+#: modules/upload/upload.module:212
 msgid "Attachments"
 msgstr ""
 
-#: modules/upload/upload.module:233
+#: modules/upload/upload.module:225
 msgid "File attachments"
 msgstr ""
 
-#: modules/upload/upload.module:236
+#: modules/upload/upload.module:228
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
 msgstr ""
 
-#: modules/upload/upload.module:254
+#: modules/upload/upload.module:246
 msgid "File attachments are disabled. The file directories have not been properly configured."
 msgstr ""
 
-#: modules/upload/upload.module:256
+#: modules/upload/upload.module:248
 msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
 msgstr ""
 
-#: modules/upload/upload.module:259
+#: modules/upload/upload.module:251
 msgid "Please contact the site administrator."
 msgstr ""
 
-#: modules/upload/upload.module:361
+#: modules/upload/upload.module:353
 msgid "Attachment"
 msgstr ""
 
-#: modules/upload/upload.module:361;544
+#: modules/upload/upload.module:353;530
 msgid "Size"
 msgstr ""
 
-#: modules/upload/upload.module:516
+#: modules/upload/upload.module:502
 msgid "Attach new file"
 msgstr ""
 
-#: modules/upload/upload.module:518
+#: modules/upload/upload.module:504
 msgid "Images are larger than %resolution will be resized. "
 msgstr ""
 
-#: modules/upload/upload.module:518
+#: modules/upload/upload.module:504
 msgid "The maximum upload size is %filesize. Only files with the following extensions may be uploaded: %extensions. "
 msgstr ""
 
-#: modules/upload/upload.module:522
+#: modules/upload/upload.module:508
 msgid "Attach"
 msgstr ""
 
-#: modules/upload/upload.module:527
+#: modules/upload/upload.module:513
 msgid "Please wait..."
 msgstr ""
 
-#: modules/upload/upload.module:65;326
+#: modules/upload/upload.module:65;318
 msgid "1 attachment"
 msgid_plural "@count attachments"
 msgstr[0] ""
@@ -218,31 +218,31 @@ msgstr ""
 msgid "upload"
 msgstr ""
 
-#: modules/upload/upload.install:25
+#: modules/upload/upload.install:29
 msgid "Stores uploaded file information and table associations."
 msgstr ""
 
-#: modules/upload/upload.install:32
+#: modules/upload/upload.install:36
 msgid "Primary Key: The {files}.fid."
 msgstr ""
 
-#: modules/upload/upload.install:39
+#: modules/upload/upload.install:43
 msgid "The {node}.nid associated with the uploaded file."
 msgstr ""
 
-#: modules/upload/upload.install:46
+#: modules/upload/upload.install:50
 msgid "Primary Key: The {node}.vid associated with the uploaded file."
 msgstr ""
 
-#: modules/upload/upload.install:53
+#: modules/upload/upload.install:57
 msgid "Description of the uploaded file."
 msgstr ""
 
-#: modules/upload/upload.install:61
+#: modules/upload/upload.install:65
 msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
 msgstr ""
 
-#: modules/upload/upload.install:68
+#: modules/upload/upload.install:72
 msgid "Weight of this upload in relation to other uploads in this node."
 msgstr ""
 

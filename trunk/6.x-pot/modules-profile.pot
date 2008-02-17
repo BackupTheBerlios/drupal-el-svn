@@ -1,10 +1,10 @@
-# $Id: modules-profile.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-profile.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-profile)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  profile.admin.inc,v 1.8 2008/01/21 15:20:43 goba
-#  profile.module,v 1.235 2007/12/31 08:54:37 dries
+#  profile.module,v 1.236 2008/02/03 19:36:46 goba
 #  profile.pages.inc,v 1.2 2007/12/08 14:06:22 goba
 #  profile.install,v 1.12 2007/12/18 12:59:22 dries
 #
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

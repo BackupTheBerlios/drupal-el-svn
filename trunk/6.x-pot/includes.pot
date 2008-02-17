@@ -1,4 +1,4 @@
-# $Id: includes.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: includes.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (includes)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -6,18 +6,18 @@
 #  actions.inc,v 1.8 2007/12/31 14:51:04 goba
 #  batch.inc,v 1.14 2007/12/20 11:57:20 goba
 #  unicode.inc,v 1.29 2007/12/28 12:02:50 dries
-#  common.inc,v 1.755 2008/01/30 22:43:55 goba
+#  common.inc,v 1.756.2.5 2008/02/13 15:39:27 goba
 #  database.mysql.inc,v 1.89 2008/01/24 10:46:54 goba
 #  database.mysqli.inc,v 1.54 2008/01/23 09:59:29 goba
-#  database.pgsql.inc,v 1.68 2008/01/04 09:31:48 goba
-#  file.inc,v 1.121 2008/01/28 19:56:27 goba
-#  form.inc,v 1.263 2008/01/30 21:42:17 goba
+#  database.pgsql.inc,v 1.68.2.1 2008/02/07 10:17:26 goba
+#  file.inc,v 1.121.2.1 2008/02/07 18:20:37 goba
+#  form.inc,v 1.265.2.4 2008/02/11 14:45:57 goba
 #  image.gd.inc,v 1.4 2008/01/15 10:17:42 goba
 #  image.inc,v 1.24 2008/01/28 16:05:17 goba
-#  install.inc,v 1.56 2007/12/19 11:15:18 goba
+#  install.inc,v 1.56.2.2 2008/02/11 15:10:26 goba
 #  locale.inc,v 1.174 2008/01/09 21:36:13 goba
 #  mail.inc,v 1.8 2008/01/25 17:04:00 goba
-#  menu.inc,v 1.254 2008/01/30 21:01:20 goba
+#  menu.inc,v 1.255.2.7 2008/02/12 22:33:51 goba
 #  module.inc,v 1.115 2007/12/27 12:31:05 goba
 #  pager.inc,v 1.63 2007/12/06 09:58:30 goba
 #  tablesort.inc,v 1.47 2008/01/04 09:31:48 goba
@@ -29,7 +29,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -334,59 +334,59 @@ msgstr ""
 msgid "Upload error. Could not move uploaded file %file to destination %destination."
 msgstr ""
 
-#: includes/form.inc:566
+#: includes/form.inc:567
 msgid "Validation error, please try again. If this error persists, please contact the site administrator."
 msgstr ""
 
-#: includes/form.inc:1572
+#: includes/form.inc:1575
 msgid "Confirm password"
 msgstr ""
 
-#: includes/form.inc:1595
+#: includes/form.inc:1598
 msgid "The specified passwords do not match."
 msgstr ""
 
-#: includes/form.inc:1599
+#: includes/form.inc:1602
 msgid "Password field is required."
 msgstr ""
 
-#: includes/form.inc:1680
+#: includes/form.inc:1683
 msgid "The specified date is invalid."
 msgstr ""
 
-#: (duplicate) includes/form.inc:670 
+#: (duplicate) includes/form.inc:672 
 msgid "!name field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:675 
+#: (duplicate) includes/form.inc:677 
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2151 
+#: (duplicate) includes/form.inc:2161 
 msgid "This field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2156 ;2159 
+#: (duplicate) includes/form.inc:2166 ;2169 
 msgid "!title: !required"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2397 
+#: (duplicate) includes/form.inc:2407 
 msgid "Initializing."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2398 
+#: (duplicate) includes/form.inc:2408 
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2399 
+#: (duplicate) includes/form.inc:2409 
 msgid "An error has occurred."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2472 
+#: (duplicate) includes/form.inc:2482 
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 
-#: includes/form.inc:690
+#: includes/form.inc:692
 msgid "Illegal choice %choice in !name element."
 msgstr ""
 
@@ -422,7 +422,7 @@ msgstr ""
 msgid "The selected image handling toolkit %toolkit can not correctly process %function."
 msgstr ""
 
-#: includes/install.inc:724
+#: includes/install.inc:727
 msgid "Currently using !item !version"
 msgstr ""
 
@@ -1570,7 +1570,7 @@ msgstr ""
 msgid "Error sending e-mail (from %from to %to)."
 msgstr ""
 
-#: includes/menu.inc:2328
+#: includes/menu.inc:2362
 msgid "Operating in off-line mode."
 msgstr ""
 

@@ -1,19 +1,19 @@
-# $Id: modules-node.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-node.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-node)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  content_types.inc,v 1.50 2008/01/27 18:03:05 goba
-#  node.pages.inc,v 1.27 2008/01/29 11:08:17 goba
-#  node.module,v 1.945 2008/01/29 11:08:17 goba
-#  node.admin.inc,v 1.18 2008/01/29 11:08:17 goba
+#  content_types.inc,v 1.50.2.1 2008/02/13 11:23:28 goba
+#  node.pages.inc,v 1.28 2008/02/03 19:26:10 goba
+#  node.module,v 1.947.2.2 2008/02/13 14:10:22 goba
+#  node.admin.inc,v 1.19 2008/02/03 19:39:52 goba
 #  node.install,v 1.4 2007/12/18 12:59:21 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Node access status"
 msgstr ""
 
-#: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1423
+#: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1425
 msgid "Rebuild permissions"
 msgstr ""
 
@@ -282,11 +282,11 @@ msgstr ""
 msgid "Remove stickiness"
 msgstr ""
 
-#: modules/node/node.admin.inc:143;499
+#: modules/node/node.admin.inc:143;500
 msgid "published"
 msgstr ""
 
-#: modules/node/node.admin.inc:144;499
+#: modules/node/node.admin.inc:144;500
 msgid "not published"
 msgstr ""
 
@@ -346,15 +346,15 @@ msgstr ""
 msgid "An error occurred and processing did not complete."
 msgstr ""
 
-#: modules/node/node.admin.inc:520
+#: modules/node/node.admin.inc:521
 msgid "No items selected."
 msgstr ""
 
-#: modules/node/node.admin.inc:618
+#: modules/node/node.admin.inc:619
 msgid "Are you sure you want to delete these items?"
 msgstr ""
 
-#: modules/node/node.admin.inc:628
+#: modules/node/node.admin.inc:629
 msgid "The items have been deleted."
 msgstr ""
 
@@ -420,55 +420,55 @@ msgstr ""
 msgid "@type %title has been updated."
 msgstr ""
 
-#: modules/node/node.pages.inc:472
+#: modules/node/node.pages.inc:473
 msgid "The post could not be saved."
 msgstr ""
 
-#: modules/node/node.pages.inc:500
+#: modules/node/node.pages.inc:501
 msgid "Are you sure you want to delete %title?"
 msgstr ""
 
-#: modules/node/node.pages.inc:523
+#: modules/node/node.pages.inc:524
 msgid "Revisions for %title"
 msgstr ""
 
-#: modules/node/node.pages.inc:525
+#: modules/node/node.pages.inc:526
 msgid "Revision"
 msgstr ""
 
-#: modules/node/node.pages.inc:543;549
+#: modules/node/node.pages.inc:544;550
 msgid "!date by !username"
 msgstr ""
 
-#: modules/node/node.pages.inc:546
+#: modules/node/node.pages.inc:547
 msgid "current revision"
 msgstr ""
 
-#: modules/node/node.pages.inc:552
+#: modules/node/node.pages.inc:553
 msgid "revert"
 msgstr ""
 
-#: modules/node/node.pages.inc:569
+#: modules/node/node.pages.inc:570
 msgid "Are you sure you want to revert to the revision from %revision-date?"
 msgstr ""
 
-#: modules/node/node.pages.inc:569
+#: modules/node/node.pages.inc:570
 msgid "Revert"
 msgstr ""
 
-#: modules/node/node.pages.inc:575
+#: modules/node/node.pages.inc:576
 msgid "Copy of the revision from %date."
 msgstr ""
 
-#: modules/node/node.pages.inc:583
+#: modules/node/node.pages.inc:584
 msgid "@type %title has been reverted back to the revision from %revision-date."
 msgstr ""
 
-#: modules/node/node.pages.inc:589
+#: modules/node/node.pages.inc:590
 msgid "Are you sure you want to delete the revision from %revision-date?"
 msgstr ""
 
-#: modules/node/node.pages.inc:597
+#: modules/node/node.pages.inc:598
 msgid "Revision from %revision-date of @type %title has been deleted."
 msgstr ""
 
@@ -480,11 +480,11 @@ msgstr ""
 msgid "@type: updated %title."
 msgstr ""
 
-#: modules/node/node.pages.inc:582
+#: modules/node/node.pages.inc:583
 msgid "@type: reverted %title revision %revision."
 msgstr ""
 
-#: modules/node/node.pages.inc:596
+#: modules/node/node.pages.inc:597
 msgid "@type: deleted %title revision %revision."
 msgstr ""
 
@@ -544,287 +544,287 @@ msgstr ""
 msgid "The username %name does not exist."
 msgstr ""
 
-#: modules/node/node.module:979
+#: modules/node/node.module:981
 msgid "@type %title has been deleted."
 msgstr ""
 
-#: modules/node/node.module:1094
+#: modules/node/node.module:1096
 msgid "Revision of %title from %date"
 msgstr ""
 
-#: modules/node/node.module:1114
+#: modules/node/node.module:1116
 msgid "Log"
 msgstr ""
 
-#: modules/node/node.module:1159
+#: modules/node/node.module:1161
 msgid "Content ranking"
 msgstr ""
 
-#: modules/node/node.module:1163
+#: modules/node/node.module:1165
 msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
 msgstr ""
 
-#: modules/node/node.module:1166
+#: modules/node/node.module:1168
 msgid "Keyword relevance"
 msgstr ""
 
-#: modules/node/node.module:1167
+#: modules/node/node.module:1169
 msgid "Recently posted"
 msgstr ""
 
-#: modules/node/node.module:1169
+#: modules/node/node.module:1171
 msgid "Number of comments"
 msgstr ""
 
-#: modules/node/node.module:1172
+#: modules/node/node.module:1174
 msgid "Number of views"
 msgstr ""
 
-#: modules/node/node.module:1312
+#: modules/node/node.module:1314
 msgid "Factor"
 msgstr ""
 
-#: modules/node/node.module:1346
+#: modules/node/node.module:1348
 msgid "Read more"
 msgstr ""
 
-#: modules/node/node.module:1350
+#: modules/node/node.module:1352
 msgid "Read the rest of !title."
 msgstr ""
 
-#: modules/node/node.module:1608;1614;1615
+#: modules/node/node.module:1610;1616;1617
 msgid "Syndicate"
 msgstr ""
 
-#: modules/node/node.module:1729
+#: modules/node/node.module:1731
 msgid "RSS"
 msgstr ""
 
-#: modules/node/node.module:1733
+#: modules/node/node.module:1735
 msgid "<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow these steps to set up and start using your website:</p>"
 msgstr ""
 
-#: modules/node/node.module:1736
+#: modules/node/node.module:1738
 msgid "<strong>Configure your website</strong> Once logged in, visit the <a href=\"@admin\">administration section</a>, where you can <a href=\"@config\">customize and configure</a> all aspects of your website."
 msgstr ""
 
-#: modules/node/node.module:1737
+#: modules/node/node.module:1739
 msgid "<strong>Enable additional functionality</strong> Next, visit the <a href=\"@modules\">module list</a> and enable features which suit your specific needs. You can find additional modules in the <a href=\"@download_modules\">Drupal modules download section</a>."
 msgstr ""
 
-#: modules/node/node.module:1738
+#: modules/node/node.module:1740
 msgid "<strong>Customize your website design</strong> To change the \"look and feel\" of your website, visit the <a href=\"@themes\">themes section</a>. You may choose from one of the included themes or download additional themes from the <a href=\"@download_themes\">Drupal themes download section</a>."
 msgstr ""
 
-#: modules/node/node.module:1739
+#: modules/node/node.module:1741
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
 msgstr ""
 
-#: modules/node/node.module:1741
+#: modules/node/node.module:1743
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
 msgstr ""
 
-#: modules/node/node.module:1813;1865
+#: modules/node/node.module:1815;1867
 msgid "Advanced search"
 msgstr ""
 
-#: modules/node/node.module:1824
+#: modules/node/node.module:1826
 msgid "Containing any of the words"
 msgstr ""
 
-#: modules/node/node.module:1830
+#: modules/node/node.module:1832
 msgid "Containing the phrase"
 msgstr ""
 
-#: modules/node/node.module:1836
+#: modules/node/node.module:1838
 msgid "Containing none of the words"
 msgstr ""
 
-#: modules/node/node.module:1845
+#: modules/node/node.module:1847
 msgid "Only in the category(s)"
 msgstr ""
 
-#: modules/node/node.module:1858
+#: modules/node/node.module:1860
 msgid "Only of the type(s)"
 msgstr ""
 
-#: modules/node/node.module:2280
+#: modules/node/node.module:2282
 msgid "Rebuilding content access permissions"
 msgstr ""
 
-#: modules/node/node.module:2310
+#: modules/node/node.module:2312
 msgid "Content permissions have been rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2356
+#: modules/node/node.module:2358
 msgid "The content access permissions have been rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2360
+#: modules/node/node.module:2362
 msgid "The content access permissions have not been properly rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2448
+#: modules/node/node.module:2450
 msgid "Submitted by !username on @datetime"
 msgstr ""
 
-#: modules/node/node.module:2463
+#: modules/node/node.module:2465
 msgid "When either saving a new post or updating an existing post"
 msgstr ""
 
-#: modules/node/node.module:2466
+#: modules/node/node.module:2468
 msgid "After saving a new post"
 msgstr ""
 
-#: modules/node/node.module:2469
+#: modules/node/node.module:2471
 msgid "After saving an updated post"
 msgstr ""
 
-#: modules/node/node.module:2472
+#: modules/node/node.module:2474
 msgid "After deleting a post"
 msgstr ""
 
-#: modules/node/node.module:2475
+#: modules/node/node.module:2477
 msgid "When content is viewed by an authenticated user"
 msgstr ""
 
-#: modules/node/node.module:2489
+#: modules/node/node.module:2491
 msgid "Publish post"
 msgstr ""
 
-#: modules/node/node.module:2499
+#: modules/node/node.module:2501
 msgid "Unpublish post"
 msgstr ""
 
-#: modules/node/node.module:2509
+#: modules/node/node.module:2511
 msgid "Make post sticky"
 msgstr ""
 
-#: modules/node/node.module:2519
+#: modules/node/node.module:2521
 msgid "Make post unsticky"
 msgstr ""
 
-#: modules/node/node.module:2529
+#: modules/node/node.module:2531
 msgid "Promote post to front page"
 msgstr ""
 
-#: modules/node/node.module:2539
+#: modules/node/node.module:2541
 msgid "Remove post from front page"
 msgstr ""
 
-#: modules/node/node.module:2549
+#: modules/node/node.module:2551
 msgid "Change the author of a post"
 msgstr ""
 
-#: modules/node/node.module:2560
+#: modules/node/node.module:2562
 msgid "Save post"
 msgstr ""
 
-#: modules/node/node.module:2568
+#: modules/node/node.module:2570
 msgid "Unpublish post containing keyword(s)"
 msgstr ""
 
-#: modules/node/node.module:2651
+#: modules/node/node.module:2653
 msgid "The username of the user to which you would like to assign ownership."
 msgstr ""
 
-#: modules/node/node.module:2690
+#: modules/node/node.module:2692
 msgid "Please enter a valid username."
 msgstr ""
 
-#: modules/node/node.module:2704
+#: modules/node/node.module:2706
 msgid "The post will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
 msgstr ""
 
-#: modules/node/node.module:978
+#: modules/node/node.module:980
 msgid "@type: deleted %title."
 msgstr ""
 
-#: modules/node/node.module:2583
+#: modules/node/node.module:2585
 msgid "Set @type %title to published."
 msgstr ""
 
-#: modules/node/node.module:2592;2727
+#: modules/node/node.module:2594;2729
 msgid "Set @type %title to unpublished."
 msgstr ""
 
-#: modules/node/node.module:2601
+#: modules/node/node.module:2603
 msgid "Set @type %title to sticky."
 msgstr ""
 
-#: modules/node/node.module:2610
+#: modules/node/node.module:2612
 msgid "Set @type %title to unsticky."
 msgstr ""
 
-#: modules/node/node.module:2619
+#: modules/node/node.module:2621
 msgid "Promoted @type %title to front page."
 msgstr ""
 
-#: modules/node/node.module:2628
+#: modules/node/node.module:2630
 msgid "Removed @type %title from front page."
 msgstr ""
 
-#: modules/node/node.module:2637
+#: modules/node/node.module:2639
 msgid "Saved @type %title"
 msgstr ""
 
-#: modules/node/node.module:2647
+#: modules/node/node.module:2649
 msgid "Changed owner of @type %title to uid %name."
 msgstr ""
 
-#: modules/node/node.module:1120
+#: modules/node/node.module:1122
 msgid "administer content types"
 msgstr ""
 
-#: modules/node/node.module:1120
+#: modules/node/node.module:1122
 msgid "administer nodes"
 msgstr ""
 
-#: modules/node/node.module:1120
+#: modules/node/node.module:1122
 msgid "access content"
 msgstr ""
 
-#: modules/node/node.module:1120
+#: modules/node/node.module:1122
 msgid "view revisions"
 msgstr ""
 
-#: modules/node/node.module:1120
+#: modules/node/node.module:1122
 msgid "revert revisions"
 msgstr ""
 
-#: modules/node/node.module:1401
+#: modules/node/node.module:1403
 msgid "View, edit, and delete your site's content."
 msgstr ""
 
-#: modules/node/node.module:1415
+#: modules/node/node.module:1417
 msgid "Post settings"
 msgstr ""
 
-#: modules/node/node.module:1416
+#: modules/node/node.module:1418
 msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
 msgstr ""
 
-#: modules/node/node.module:1434
+#: modules/node/node.module:1436
 msgid "Manage posts by content type, including default status, front page promotion, etc."
 msgstr ""
 
-#: modules/node/node.module:1445
+#: modules/node/node.module:1447
 msgid "Add content type"
 msgstr ""
 
-#: modules/node/node.module:1458
+#: modules/node/node.module:1460
 msgid "Create content"
 msgstr ""
 
-#: modules/node/node.module:1532;1542
+#: modules/node/node.module:1534;1544
 msgid "Revisions"
 msgstr ""
 
-#: modules/node/node.module:1549
+#: modules/node/node.module:1551
 msgid "Revert to earlier revision"
 msgstr ""
 
-#: modules/node/node.module:1559
+#: modules/node/node.module:1561
 msgid "Delete earlier revision"
 msgstr ""
 

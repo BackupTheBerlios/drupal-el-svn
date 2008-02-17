@@ -1,16 +1,16 @@
-# $Id: modules-path.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-path.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-path)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
-#  path.module,v 1.137 2007/12/23 15:32:36 goba
+#  path.module,v 1.138 2008/02/03 19:20:35 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -103,23 +103,23 @@ msgstr ""
 msgid "The alias has been deleted."
 msgstr ""
 
-#: modules/path/path.module:139
+#: modules/path/path.module:140
 msgid "The path is already in use."
 msgstr ""
 
-#: modules/path/path.module:181
+#: modules/path/path.module:182
 msgid "URL path settings"
 msgstr ""
 
-#: modules/path/path.module:193
+#: modules/path/path.module:194
 msgid "Optionally specify an alternative URL by which this node can be accessed. For example, type \"about\" when writing an about page. Use a relative path and don't add a trailing slash or the URL alias won't work."
 msgstr ""
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "create url aliases"
 msgstr ""
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "administer url aliases"
 msgstr ""
 

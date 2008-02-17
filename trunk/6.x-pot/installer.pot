@@ -1,15 +1,15 @@
-# $Id: installer.pot,v 1.1.4.7 2008/01/31 00:02:55 goba Exp $
+# $Id: installer.pot,v 1.1.4.10 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (installer)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  install.php,v 1.113 2008/01/25 12:36:37 goba
-#  system.install,v 1.238 2008/01/30 20:30:35 goba
+#  install.php,v 1.113.2.2 2008/02/08 22:00:45 goba
+#  system.install,v 1.238.2.1 2008/02/08 17:07:55 goba
 #  database.mysql.inc,v 1.89 2008/01/24 10:46:54 goba
 #  database.mysqli.inc,v 1.54 2008/01/23 09:59:29 goba
-#  database.pgsql.inc,v 1.68 2008/01/04 09:31:48 goba
-#  form.inc,v 1.263 2008/01/30 21:42:17 goba
-#  install.inc,v 1.56 2007/12/19 11:15:18 goba
+#  database.pgsql.inc,v 1.68.2.1 2008/02/07 10:17:26 goba
+#  form.inc,v 1.265.2.4 2008/02/11 14:45:57 goba
+#  install.inc,v 1.56.2.2 2008/02/11 15:10:26 goba
 #  install.mysql.inc,v 1.9 2008/01/23 09:59:29 goba
 #  install.mysqli.inc,v 1.12 2008/01/23 09:59:29 goba
 #  install.pgsql.inc,v 1.6 2007/10/22 15:22:39 dries
@@ -23,7 +23,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -400,43 +400,43 @@ msgstr ""
 msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
 msgstr ""
 
-#: (duplicate) includes/form.inc:670 
+#: (duplicate) includes/form.inc:672 
 msgid "!name field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:675 
+#: (duplicate) includes/form.inc:677 
 msgid "!name cannot be longer than %max characters but is currently %length characters long."
 msgstr ""
 
-#: (duplicate) includes/form.inc:689 ;695 
+#: (duplicate) includes/form.inc:691 ;697 
 msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2151 
+#: (duplicate) includes/form.inc:2161 
 msgid "This field is required."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2156 ;2159 
+#: (duplicate) includes/form.inc:2166 ;2169 
 msgid "!title: !required"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2396 
+#: (duplicate) includes/form.inc:2406 
 msgid "Processing"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2397 
+#: (duplicate) includes/form.inc:2407 
 msgid "Initializing."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2398 
+#: (duplicate) includes/form.inc:2408 
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2399 
+#: (duplicate) includes/form.inc:2409 
 msgid "An error has occurred."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2472 
+#: (duplicate) includes/form.inc:2482 
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 

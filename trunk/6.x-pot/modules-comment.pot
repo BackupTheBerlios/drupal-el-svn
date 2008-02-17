@@ -1,4 +1,4 @@
-# $Id: modules-comment.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-comment.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-comment)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -6,14 +6,14 @@
 #  comment-folded.tpl.php,v 1.2 2007/08/07 08:39:35 goba
 #  comment.admin.inc,v 1.4 2008/01/08 10:35:41 goba
 #  comment.module,v 1.617 2008/01/25 16:19:12 goba
-#  comment.pages.inc,v 1.2 2007/12/16 21:01:44 goba
+#  comment.pages.inc,v 1.2.2.1 2008/02/07 18:53:38 goba
 #  comment.install,v 1.19 2008/01/16 21:45:30 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -80,10 +80,6 @@ msgstr ""
 
 #: modules/comment/comment.admin.inc:286
 msgid "Comment: deleted %subject."
-msgstr ""
-
-#: modules/comment/comment.pages.inc:60 modules/comment/comment.module:557;1425
-msgid "Preview comment"
 msgstr ""
 
 #: modules/comment/comment.pages.inc:65;105
@@ -244,6 +240,10 @@ msgstr ""
 
 #: modules/comment/comment.module:553
 msgid "Can users provide a unique subject for their comments?"
+msgstr ""
+
+#: modules/comment/comment.module:557;1425
+msgid "Preview comment"
 msgstr ""
 
 #: modules/comment/comment.module:560

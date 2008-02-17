@@ -1,16 +1,16 @@
-# $Id: modules-blog.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-blog.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-blog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  blog.pages.inc,v 1.6 2008/01/21 12:05:36 goba
+#  blog.pages.inc,v 1.6.2.1 2008/02/08 21:15:12 goba
 #  blog.module,v 1.297 2008/01/09 09:51:34 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -31,11 +31,27 @@ msgstr ""
 msgid "You are not allowed to post a new blog entry."
 msgstr ""
 
-#: modules/blog/blog.pages.inc:33
+#: modules/blog/blog.pages.inc:41
+msgid "You have not created any blog entries."
+msgstr ""
+
+#: modules/blog/blog.pages.inc:44
+msgid "!author has not created any blog entries."
+msgstr ""
+
+#: modules/blog/blog.pages.inc:47
 msgid "RSS - !title"
 msgstr ""
 
-#: modules/blog/blog.pages.inc:52
+#: modules/blog/blog.pages.inc:62
+msgid "Create new blog entry."
+msgstr ""
+
+#: modules/blog/blog.pages.inc:79
+msgid "No blog entries have been created."
+msgstr ""
+
+#: modules/blog/blog.pages.inc:81
 msgid "RSS - blogs"
 msgstr ""
 

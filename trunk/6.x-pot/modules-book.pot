@@ -1,11 +1,11 @@
-# $Id: modules-book.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-book.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-book)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
 #  book.admin.inc,v 1.8 2008/01/08 10:35:41 goba
-#  book.module,v 1.454 2008/01/08 10:35:41 goba
+#  book.module,v 1.454.2.2 2008/02/13 11:20:47 goba
 #  book.pages.inc,v 1.5 2007/12/22 23:24:24 goba
 #  book.install,v 1.20 2008/01/10 18:13:42 goba
 #
@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -202,39 +202,39 @@ msgstr ""
 msgid "Your page will be a part of the selected book."
 msgstr ""
 
-#: modules/book/book.module:759
+#: modules/book/book.module:763
 msgid "%title is part of a book outline, and has associated child pages. If you proceed with deletion, the child pages will be relocated automatically."
 msgstr ""
 
-#: modules/book/book.module:1002
+#: modules/book/book.module:1006
 msgid "The book module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book, placing them into the existing document by adding them to a table of contents menu."
 msgstr ""
 
-#: modules/book/book.module:1003
+#: modules/book/book.module:1007
 msgid "Pages in the book hierarchy have navigation elements at the bottom of the page for moving through the text. These links lead to the previous and next pages in the book, and to the level above the current page in the book's structure. More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">blocks administration page</a>."
 msgstr ""
 
-#: modules/book/book.module:1004
+#: modules/book/book.module:1008
 msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "
 msgstr ""
 
-#: modules/book/book.module:1005
+#: modules/book/book.module:1009
 msgid "Users with the <em>administer book outlines</em> permission can add a post of any content type to a book, by selecting the appropriate book while editing the post or by using the interface available on the post's <em>outline</em> tab."
 msgstr ""
 
-#: modules/book/book.module:1006
+#: modules/book/book.module:1010
 msgid "Administrators can view a list of all books on the <a href=\"@admin-node-book\">book administration page</a>. The <em>Outline</em> page for each book allows section titles to be edited or rearranged."
 msgstr ""
 
-#: modules/book/book.module:1007
+#: modules/book/book.module:1011
 msgid "For more information, see the online handbook entry for <a href=\"@book\">Book module</a>."
 msgstr ""
 
-#: modules/book/book.module:1010
+#: modules/book/book.module:1014
 msgid "The book module offers a means to organize a collection of related posts, collectively known as a book. When viewed, these posts automatically display links to adjacent book pages, providing a simple navigation system for creating and reviewing structured content."
 msgstr ""
 
-#: modules/book/book.module:1012
+#: modules/book/book.module:1016
 msgid "The outline feature allows you to include posts in the <a href=\"@book\">book hierarchy</a>, as well as move them within the hierarchy or to <a href=\"@book-admin\">reorder an entire book</a>."
 msgstr ""
 

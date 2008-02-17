@@ -1,18 +1,18 @@
-# $Id: modules-system.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-system.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-system)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  system.admin.inc,v 1.61 2008/01/29 10:56:13 goba
-#  system.module,v 1.583 2008/01/30 22:43:55 goba
-#  system.js,v 1.14 2007/12/17 23:43:43 goba
-#  system.install,v 1.238 2008/01/30 20:30:35 goba
+#  system.admin.inc,v 1.63 2008/02/04 12:35:48 goba
+#  system.module,v 1.585.2.7 2008/02/13 15:39:27 goba
+#  system.js,v 1.14.2.1 2008/02/07 18:23:30 goba
+#  system.install,v 1.238.2.1 2008/02/08 17:07:55 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -233,7 +233,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: modules/system/system.admin.inc:1036;1081;2110 modules/system/system.module:322;327
+#: modules/system/system.admin.inc:1036;1081;2106 modules/system/system.module:322;327
 msgid "Uninstall"
 msgstr ""
 
@@ -721,59 +721,59 @@ msgstr ""
 msgid "The number of times MySQL had to remove queries from the cache because it ran out of memory. Ideally should be zero."
 msgstr ""
 
-#: modules/system/system.admin.inc:1908
+#: modules/system/system.admin.inc:1904
 msgid "Show descriptions"
 msgstr ""
 
-#: modules/system/system.admin.inc:1908
+#: modules/system/system.admin.inc:1904
 msgid "Expand layout to include descriptions."
 msgstr ""
 
-#: modules/system/system.admin.inc:1911
+#: modules/system/system.admin.inc:1907
 msgid "Hide descriptions"
 msgstr ""
 
-#: modules/system/system.admin.inc:1911
+#: modules/system/system.admin.inc:1907
 msgid "Compress layout by hiding descriptions."
 msgstr ""
 
-#: modules/system/system.admin.inc:2027;2211
+#: modules/system/system.admin.inc:2023;2207
 msgid "Version"
 msgstr ""
 
-#: modules/system/system.admin.inc:2034
+#: modules/system/system.admin.inc:2030
 msgid "Other"
 msgstr ""
 
-#: modules/system/system.admin.inc:2049;2054;2179;2184
+#: modules/system/system.admin.inc:2045;2050;2175;2180
 msgid "incompatible"
 msgstr ""
 
-#: modules/system/system.admin.inc:2049;2179
+#: modules/system/system.admin.inc:2045;2175
 msgid "Incompatible with this version of Drupal core"
 msgstr ""
 
-#: modules/system/system.admin.inc:2050;2180
+#: modules/system/system.admin.inc:2046;2176
 msgid "This version is incompatible with the !core_version version of Drupal core."
 msgstr ""
 
-#: modules/system/system.admin.inc:2054;2184
+#: modules/system/system.admin.inc:2050;2180
 msgid "Incompatible with this version of PHP"
 msgstr ""
 
-#: modules/system/system.admin.inc:2059
+#: modules/system/system.admin.inc:2055
 msgid "This module requires PHP version @php_required and is incompatible with PHP version !php_version."
 msgstr ""
 
-#: modules/system/system.admin.inc:2127
+#: modules/system/system.admin.inc:2123
 msgid "No modules are available to uninstall."
 msgstr ""
 
-#: modules/system/system.admin.inc:2153;2211
+#: modules/system/system.admin.inc:2149;2207
 msgid "Screenshot"
 msgstr ""
 
-#: modules/system/system.admin.inc:2189
+#: modules/system/system.admin.inc:2185
 msgid "This theme requires PHP version @php_required and is incompatible with PHP version !php_version."
 msgstr ""
 
@@ -1023,15 +1023,15 @@ msgstr ""
 msgid "Please enter a valid email address or %author."
 msgstr ""
 
-#: modules/system/system.module:1738
+#: modules/system/system.module:1739
 msgid "The message to be displayed to the current user. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
 
-#: modules/system/system.module:1811
+#: modules/system/system.module:1812
 msgid "The URL to which the user should be redirected. This can be an internal URL like node/1234 or an external URL like http://drupal.org."
 msgstr ""
 
-#: modules/system/system.module:1874;1874
+#: modules/system/system.module:1875;1875
 msgid "Powered by Drupal, an open source content management system"
 msgstr ""
 
@@ -1043,15 +1043,15 @@ msgstr ""
 msgid "Deleted action %aid (%action)"
 msgstr ""
 
-#: modules/system/system.module:1652
+#: modules/system/system.module:1653
 msgid "Cannot use %author token in this context."
 msgstr ""
 
-#: modules/system/system.module:1683
+#: modules/system/system.module:1684
 msgid "Sent email to %recipient"
 msgstr ""
 
-#: modules/system/system.module:1686
+#: modules/system/system.module:1687
 msgid "Unable to send email to %recipient"
 msgstr ""
 

@@ -1,10 +1,10 @@
-# $Id: modules-contact.pot,v 1.1.2.6 2008/01/31 00:02:55 goba Exp $
+# $Id: modules-contact.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
 #
 # LANGUAGE translation of Drupal (modules-contact)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  contact.admin.inc,v 1.3 2007/11/09 07:55:13 dries
-#  contact.pages.inc,v 1.6 2008/01/16 22:56:21 goba
+#  contact.pages.inc,v 1.6.2.1 2008/02/12 14:42:50 goba
 #  contact.module,v 1.103 2008/01/16 12:46:52 goba
 #  contact.install,v 1.10 2007/12/18 12:59:21 dries
 #
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
