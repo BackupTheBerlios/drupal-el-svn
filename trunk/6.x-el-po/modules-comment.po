@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"PO-Revision-Date: 2008-02-18 17:13+0200\n"
+"Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -27,9 +27,8 @@ msgid "by"
 msgstr "από"
 
 #: modules/comment/comment.admin.inc:56
-#, fuzzy
 msgid "Posted in"
-msgstr "Ενσωματωμένο απόσπασμα"
+msgstr "Αναρτήθηκε στο"
 
 #: modules/comment/comment.admin.inc:86
 msgid "Please select one or more comments to perform the update on."
@@ -71,14 +70,14 @@ msgstr "Όλες οι απαντήσεις στο σχόλιο θα χαθούν
 msgid "The comment and all its replies have been deleted."
 msgstr "Το σχόλιο και όλες οι απαντήσεις του διαγράφηκαν."
 
-#: modules/comment/comment.admin.inc:111 modules/comment/comment.module:707
+#: modules/comment/comment.admin.inc:111
+#: modules/comment/comment.module:707
 msgid "Comment: updated %subject."
 msgstr "Σχόλιο: ενημερώθηκε το %subject."
 
 #: modules/comment/comment.admin.inc:280
-#, fuzzy
 msgid "Cannot delete non-existent comment."
-msgstr "Δεν μπορείτε να σβήσετε σχόλιο που δεν υπάρχει."
+msgstr "Δε μπορείτε να σβήσετε σχόλιο που δεν υπάρχει."
 
 #: modules/comment/comment.admin.inc:286
 msgid "Comment: deleted %subject."
@@ -87,7 +86,7 @@ msgstr "Σχόλιο: διαγράφηκε %subject."
 #: modules/comment/comment.pages.inc:60
 #: modules/comment/comment.module:557;1425
 msgid "Preview comment"
-msgstr "Δοκιμή εμφάνισης σχολίου"
+msgstr "Προεπισκόπιση σχολίου"
 
 #: modules/comment/comment.pages.inc:65;105
 msgid "You are not authorized to post comments."
@@ -111,19 +110,17 @@ msgstr "Δεν έχετε εξουσιοδότηση να διαβάζετε σ�
 
 #: modules/comment/comment.module:129
 msgid "The comment module allows visitors to comment on your posts, creating ad hoc discussion boards. Any <a href=\"@content-type\">content type</a> may have its <em>Default comment setting</em> set to <em>Read/Write</em> to allow comments, or <em>Disabled</em>, to prevent comments. Comment display settings and other controls may also be customized for each content type (some display settings are customizable by individual users)."
-msgstr ""
+msgstr "Η μονάδα comment επιτρέπει στους επισκέπτες να αφήνουν σχόλια στις δημοσιεύσεις σας, δημιουργώντας εξειδικευμένους πίνακες συζητήσεων.  Κάθε <a href=\"@content-type\">τύπος περιεχομένου</a> μπορεί να έχει τη δική του <em>Προεπιλεγμένη ρύθμιση σχολίων</em> ως <em>Ανάγνωση/Εγγραφή</em> για να επιτρέπει σχόλια ή <em>Απενεργοποιημένο</em> για να τα απαγορεύει. Οι ρυθμίσεις προβολής σχολίων και άλλα στοιχεία ελέγχου μπορούν να προσαρμοστούν για κάθε τύπο περιεχομένου (κάποιες ρυθμίσεις προβολής μπορούν να προσαρμοστούν από κάθε χρήστη)."
 
 #: modules/comment/comment.module:130
 msgid "Comment permissions are assigned to user roles, and are used to determine whether anonymous users (or other roles) are allowed to comment on posts. If anonymous users are allowed to comment, their individual contact information may be retained in cookies stored on their local computer for use in later comment submissions. When a comment has no replies, it may be (optionally) edited by its author. The comment module uses the same input formats and HTML tags available when creating other forms of content."
-msgstr ""
+msgstr "Οι άδειες σχολίων είναιαναθετημένες στους ρόλους χρηστών, και χρησιμοποιούνται στο να προσδιοριστεί εαν επιτρέπεται στους ανώνυμους χρήστες (ή σε άλλοι ρόλους) να σχολιάζουν ιστορήματα. Εαν επιτρέπεται στους ανώνυμους χρήστες να σχολιάσουν, μπορεί να διατηρηθούν σε cookies στον υπολογιστή τους τα προσωπικά τους στοιχεία επικοινωνίας για να χρησιμποιηθούν σε μεταγενέστερα σχόλια. Εαν ένα σχόλιο δεν έχει απαντήσεις μπορεί (προαιρετικά) να επεξεργασθεί από το συντάκτη του. Η μονάδα comment χρησιμοποιεί τους ίδιους τύπους εισαγωγής και HTML tags που είναι διαθέσιμα κατά τη δημιουργία άλλων μορφών περιεχομένου."
 
 #: modules/comment/comment.module:131
-#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@comment\">Comment module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@comment\">σελίδα Comment</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@comment\">μονάδα Comment</a>."
 
 #: modules/comment/comment.module:134
-#, fuzzy
 msgid "Below is a list of the latest comments posted to your site. Click on a subject to see the comment, the author's name to edit the author's user information, 'edit' to modify the text, and 'delete' to remove their submission."
 msgstr "Ακολουθεί παρακάτω μια λίστα των τελευταίων σχολίων που υποβλήθηκαν στον ιστοτόπο σας. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο 'τροποποίηση' για να τροποποιήσετε το κείμενο και στο 'διαγραφή' για να διαγράψετε την καταχώριση."
 
@@ -253,7 +250,7 @@ msgstr "Μπορούν οι χρήστες να δίνουν ένα μοναδι
 
 #: modules/comment/comment.module:560
 msgid "Forces a user to look at their comment by clicking on a 'Preview' button before they can actually add the comment"
-msgstr ""
+msgstr "Αναγκάζει το χρήστη να δει το σχόλιό του πατώντας το κουμπί 'Προεπισκόπιση' προτού τους επιτραπεί να επισυνάψουν το σχόλιο."
 
 #: modules/comment/comment.module:564
 msgid "Location of comment submission form"
@@ -272,7 +269,6 @@ msgid "Your comment has been queued for moderation by site administrators and wi
 msgstr "Το σχόλιό σας είναι στην ουρά για επιμέλεια από τη διαχείριση του ιστοτόπου και θα δημοσιευτεί αφού εγκριθεί."
 
 #: modules/comment/comment.module:791;790
-#, fuzzy
 msgid "Comment: unauthorized comment submitted or comment submitted to a closed post %subject."
 msgstr "Σχόλιο: υποβλήθηκε σχόλιο χωρίς εξουσιοδότηση ή σε κόμβο που έχει κλείσει: %subject."
 
@@ -322,7 +318,7 @@ msgstr "Πρέπει να δώσετε μια διεύθυνση e-mail."
 
 #: modules/comment/comment.module:1222
 msgid "The URL of your homepage is not valid. Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
-msgstr "Η διεύθυνση URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι στην πλήρη μορφή της, για παράδειγμα στη μορφή <code>http://παράδειγμα.com/λεπτομέρειες</code>."
+msgstr "Η διεύθυνση URL της ιστοσελίδας σας δεν είναι έγκυρη. Πρέπει να είναι στην πλήρη μορφή της, για παράδειγμα στη μορφή <code>http://παράδειγμα.com/κατάλογος</code>."
 
 #: modules/comment/comment.module:1278
 msgid "Administration"
@@ -357,9 +353,8 @@ msgid "<a href=\"@login\">Login</a> to post comments"
 msgstr "<a href=\"@login\">Εισέλθετε στο σύστημα</a> για να υποβάλετε σχόλια"
 
 #: modules/comment/comment.module:1826
-#, fuzzy
 msgid "Submitted by !username on @datetime."
-msgstr "Υποβλήθηκε από !a στις @b."
+msgstr "Υποβλήθηκε από !username στις @datetime."
 
 #: modules/comment/comment.module:1841
 msgid "Flat list - collapsed"
@@ -378,44 +373,40 @@ msgid "Threaded list - expanded"
 msgstr "Λίστα νημάτων - ξεδιπλωμένη"
 
 #: modules/comment/comment.module:2000
-#, fuzzy
 msgid "After saving a new comment"
-msgstr "Προσθήκη νέου σχολίου"
+msgstr "Μετά την προσθήκη νέου σχολίου"
 
 #: modules/comment/comment.module:2003
 msgid "After saving an updated comment"
-msgstr ""
+msgstr "Αφού σώσει ένα ενημερωμένο σχόλιο"
 
 #: modules/comment/comment.module:2006
-#, fuzzy
 msgid "After deleting a comment"
-msgstr "Διαγραφή σχολίου"
+msgstr "Μετά τη διαγραφή ενός σχολίου"
 
 #: modules/comment/comment.module:2009
 msgid "When a comment is being viewed by an authenticated user"
-msgstr ""
+msgstr "Καθώς ένα σχόλιο διαβάζεται από έναν πιστοποιημένο χρήστη"
 
 #: modules/comment/comment.module:2022
-#, fuzzy
 msgid "Unpublish comment"
-msgstr "Δημοσιευμένα σχόλια"
+msgstr "Αποδημοσίευση σχολίου"
 
 #: modules/comment/comment.module:2030
 msgid "Unpublish comment containing keyword(s)"
-msgstr ""
+msgstr "Αποδημοσίευση σχολίου που περιέχει τις λέξεις κλειδί"
 
 #: modules/comment/comment.module:2070
 msgid "The comment will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
-msgstr ""
+msgstr "Το σχόλιο θα αποδημοσιευτεί εαν περιέχει κάποια από τις παραπάνω ακολουθίες χαρακτήρων. Χρησιμοποιήστε μια λίστα ακολουθιών χαρακτήρων διαχωρισμένη με κόμματα. Για παράδειγμα: αστείο, άλμα με σκοινί, \"Εταιρία Α.Ε.\". Οι ακολουθίες χαρακτήρων είναι ευαίσθητες στα κεφαλαία-μικρά της γραμματοσειράς."
 
 #: modules/comment/comment.module:768
 msgid "Comment: added %subject."
 msgstr "Σχόλιο: προστέθηκε το %subject."
 
 #: modules/comment/comment.module:2058;2098
-#, fuzzy
 msgid "Unpublished comment %subject."
-msgstr "Δημοσιευμένα σχόλια"
+msgstr "Αποδημοσιεύτηκε το σχόλιο %subject"
 
 #: modules/comment/comment.module:428
 msgid "1 new comment"
@@ -469,87 +460,85 @@ msgstr "σχόλιο"
 
 #: modules/comment/comment.install:76
 msgid "Stores comments and associated data."
-msgstr ""
+msgstr "Αποθηκεύει τα σχόλια και τα συνναφή δεδομένα."
 
 #: modules/comment/comment.install:81
 msgid "Primary Key: Unique comment ID."
-msgstr ""
+msgstr "Πρωτεύον Κλειδί: Μοναδιαίο ID σχολίου."
 
 #: modules/comment/comment.install:87
 msgid "The {comments}.cid to which this comment is a reply. If set to 0, this comment is not a reply to an existing comment."
-msgstr ""
+msgstr "Το {comments}.cid του οποίου απάντηση είναι αυτό το σχόλιο. Αν είναι 0, το σχόλιο αυτό δεν είναι απάντηση κανενός υπάρχοντος σχολίου."
 
 #: modules/comment/comment.install:93
 msgid "The {node}.nid to which this comment is a reply."
-msgstr ""
+msgstr "Το {node}.nid του οποίου απάντηση είναι αυτό το σχόλιο."
 
 #: modules/comment/comment.install:99
 msgid "The {users}.uid who authored the comment. If set to 0, this comment was created by an anonymous user."
-msgstr ""
+msgstr "Ο {users}.uid που συνέταξε το σχόλιο. Αν είναι 0, το σχόλιο αυτό δημιουργήθηκε από ανώνυμο χρήστη."
 
 #: modules/comment/comment.install:106
-#, fuzzy
 msgid "The comment title."
-msgstr "Το σχόλιο δεν υπάρχει πλέον."
+msgstr "Ο τίτλος του σχολίου."
 
 #: modules/comment/comment.install:112
-#, fuzzy
 msgid "The comment body."
-msgstr "Τα σχόλια διαγράφηκαν."
+msgstr "Το σώμα του σχολίου."
 
 #: modules/comment/comment.install:119
-#, fuzzy
 msgid "The author's host name."
-msgstr "Το όνομα υπολογιστή βάσης %host επιτρέπεται."
+msgstr "Το όνομα κεντρικού υπολογιστή του συντάκτη."
 
 #: modules/comment/comment.install:125
 msgid "The time that the comment was created, or last edited by its author, as a Unix timestamp."
-msgstr ""
+msgstr "Η ώρα στην οποία δημιουργήθηκε το σχόλιο, ή όταν έγινε η τελευταία ενημέρωση του από το συντάκτη του, ώς χρονόσημο UNIX."
 
 #: modules/comment/comment.install:133
 msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
-msgstr ""
+msgstr "Η κατάσταση δημοσίευσης ενός σχολίου. (0 = Δημοσιευμένο, 1 = Αδημοσίευτο)"
 
 #: modules/comment/comment.install:140
 msgid "The {filter_formats}.format of the comment body."
-msgstr ""
+msgstr "Το {filter_formats}.format του σώματος του σχολίου."
 
 #: modules/comment/comment.install:146
 msgid "The vancode representation of the comment's place in a thread."
-msgstr ""
+msgstr "Η vancode απεικόνιση της θέσης ενός σχολίου σε ένα νήμα συζήτησης."
 
 #: modules/comment/comment.install:152
 msgid "The comment author's name. Uses {users}.name if the user is logged in, otherwise uses the value typed into the comment form."
-msgstr ""
+msgstr "Το όνομα του συντάκτη του σχολίου. Χρησιμοποιέι το {users}.name εάν ο χρήστης είναι πιστοποιημένος, αλλιώς χρησιμοποιεί την τιμή που εισάχθηκε στη φόρμα σχολίου."
 
 #: modules/comment/comment.install:158
 msgid "The comment author's e-mail address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
-msgstr ""
+msgstr "Το email του συντάκτη του σχολίου από τη φόρμα σχολίου, εαν ο χρήστης είναι ανώνυμος και η ρύθμιση 'Οι ανώνυμοι χρήστες μπορούν/πρέπει να αφήνουν τα στοιχεία επικοινωνίας τους' είναι ενεργοποιημένη."
 
 #: modules/comment/comment.install:164
 msgid "The comment author's home page address from the comment form, if user is anonymous, and the 'Anonymous users may/must leave their contact information' setting is turned on."
-msgstr ""
+msgstr "Η ιστοσελίδα του συντάκτη του σχολίου από τη φόρμα σχολίου, εαν ο χρήστης είναι ανώνυμος και η ρύθμιση 'Οι ανώνυμοι χρήστες μπορούν/πρέπει να αφήνουν τα στοιχεία επικοινωνίας τους' είναι ενεργοποιημένη."
 
 #: modules/comment/comment.install:176
 msgid "Maintains statistics of node and comments posts to show \"new\" and \"updated\" flags."
-msgstr ""
+msgstr "Διατηρεί στατιστικά ενός κόμβου και των αναρτηθέντων σχολίων για να προβάλει τη σήμανση \"νέο\" και \"ενημερωμένο\"."
 
 #: modules/comment/comment.install:183
 msgid "The {node}.nid for which the statistics are compiled."
-msgstr ""
+msgstr "Το {node}.nid για το οποίο διατηρούνται τα στατιστικά."
 
 #: modules/comment/comment.install:189
 msgid "The Unix timestamp of the last comment that was posted within this node, from {comments}.timestamp."
-msgstr ""
+msgstr "Το χρονόσημο UNIX του τελευταίου σχολίου που αναρτήθηκε σε αυτόν τον κόμβο, από το {comments}.timestamp"
 
 #: modules/comment/comment.install:195
 msgid "The name of the latest author to post a comment on this node, from {comments}.name."
-msgstr ""
+msgstr "Το όνομα του συντάκτη του πιο πρόσφατου σχολίου σε αυτόν τον κόμβο, από το {comments}.name"
 
 #: modules/comment/comment.install:201
 msgid "The user ID of the latest author to post a comment on this node, from {comments}.uid."
-msgstr ""
+msgstr "Το ID χρήστη του συντάκτη του πιο πρόσφατου σχολίου σε αυτόν τον κόμβο, από το {comments}.uid."
 
 #: modules/comment/comment.install:208
 msgid "The total number of comments on this node."
-msgstr ""
+msgstr "Το σύνολο των σχολίων σε αυτόν τον κόμβο."
+

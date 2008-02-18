@@ -4,6 +4,7 @@ administer = διαχείριση
 administrator = διαχειριστής
 aggregate = συλλογή, συνάθροιση
 approved = εγκεκριμένο
+author = συντάκτης
 	--= B =--
 block = μπλοκ
 blog entry = ιστολόγημα
@@ -50,6 +51,7 @@ machine-readable=μηχανικώς αναγνώσιμος
 module = μονάδα
 	--= N =--
 news = ειδήσεις, νέα
+node = κόμβος
 	--= O =--
 overload = υπερφόρτωση, υπέρβαση
 overview = επισκόπηση, περίληψη
