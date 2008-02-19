@@ -5,17 +5,18 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-02-14 23:57+0200\n"
-"Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -78,8 +79,7 @@ msgstr "Η κατηγορία %category διαγράφηκε."
 msgid "Additional information"
 msgstr "Πρόσθετες πληροφορίες"
 
-#: modules/contact/contact.admin.inc:157
-#: modules/contact/contact.pages.inc:41
+#: modules/contact/contact.admin.inc:157 modules/contact/contact.pages.inc:41
 msgid "You can leave a message using the contact form below."
 msgstr "Μπορείτε να αφήσετε ένα μήνυμα χρησιμοποιώντας την παρακάτω φόρμα επικοινωνίας."
 
@@ -195,11 +195,9 @@ msgstr "Προσαρμόστε τη <a href=\"@contact\">σελίδα επικο
 msgid "For more information, see the online handbook entry for <a href=\"@contact\">Contact module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα Contact</a>."
 
-# webmaster = διαχειριστής; Δεν το βρίσκω αλλού
 #: modules/contact/contact.module:23
-#, fuzzy
 msgid "This page lets you set up <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
-msgstr "Από τη σελίδα αυτή μπορείτε να διαμορφώσετε την <a href=\"@form\">κεντρική φόρμα επικοινωνίας</a> του ιστότοπου σας. Γι' αυτό το σκοπό, προσθέστε μία ή περισσότερες κατηγορίες. Μπορείτε να εισάγετε διαφορετικούς παραλήπτες σε κάθε κατηγορία, ώστε να δρομολογούνται τα e-mail σε διαφορετικά άτομα. Για παράδειγμα, μπορείτε να δρομολογήσετε παρατηρήσεις για τον ιστότοπο στον διαχειριστή και τα αιτήματα για πληροφορίες προϊόντων στο τμήμα πωλήσεων. Από τη <a href=\"@settings\">σελίδα ρυθμίσεων</a>, μπορείτε να προσαρμόσετε τις πληροφορίες που εμφανίζονται πάνω από τη φόρμα επικοινωνίας. Αυτό μπορεί να είναι χρήσιμο για να παρέχετε πρόσθετες πληροφορίες επικοινωνίας, όπως την ταχυδρομική σας διεύθυνση και τον αριθμό τηλεφώνου σας."
+msgstr ""
 
 #: modules/contact/contact.module:25
 msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
@@ -289,13 +287,10 @@ msgstr "Λίστα διευθύνσεων email των παραληπτών χω
 msgid "Text of the auto-reply message."
 msgstr "Το κείμενο του μηνύματος αυτόματης απάντησης."
 
-# Βαρύτητα ή βάρος το weight;
 #: modules/contact/contact.install:61
-#, fuzzy
 msgid "The category's weight."
-msgstr "Η βαρύτητα της κατηγορίας"
+msgstr ""
 
 #: modules/contact/contact.install:68
 msgid "Flag to indicate whether or not category is selected by default. (1 = Yes, 0 = No)"
 msgstr "Μια σημαία που επιδεικνύει αν η κατηγορία είναι προεπιλεγμένη. (1 = Ναι, 0 = Όχι)"
-

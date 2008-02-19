@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -49,7 +50,7 @@ msgstr ""
 #: modules/locale/locale.module:41
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@locale\">Locale module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@locale\">σελίδα Locale</a>."
+msgstr "Για περισσότερες πληροφορίες, διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@upload\">μονάδα Upload</a>."
 
 #: modules/locale/locale.module:44
 msgid "This page provides an overview of your site's enabled languages. If multiple languages are available and enabled, the text on your site interface may be translated, registered users may select their preferred language on the <em>My account</em> page, and site authors may indicate a specific language when creating posts. The site's default language is used for anonymous visitors and for users who have not selected a preferred language."
@@ -156,7 +157,7 @@ msgstr "Επιτρέπεται"
 #: modules/locale/locale.module:558
 #, fuzzy
 msgid "Language switcher"
-msgstr "Λίστα γλωσσών"
+msgstr "Γλωσσικός κώδικας"
 
 #: modules/locale/locale.module:510
 msgid "Parsed JavaScript file %file."
@@ -165,16 +166,15 @@ msgstr ""
 #: modules/locale/locale.module:189
 #, fuzzy
 msgid "administer languages"
-msgstr "διαχείριση γλωσσικών μονάδων"
+msgstr "διαχείριση κόμβων"
 
 #: modules/locale/locale.module:189
 msgid "translate interface"
 msgstr ""
 
 #: modules/locale/locale.module:88
-#, fuzzy
 msgid "Configure languages for content and the user interface."
-msgstr "Ρύθμιση της γλωσσικής προσαρμογής του ιστοτόπου και της γλώσσας διεπαφής των χρηστών."
+msgstr ""
 
 #: modules/locale/locale.module:113
 #, fuzzy
@@ -182,9 +182,8 @@ msgid "Edit language"
 msgstr "Προσθήκη γλώσσας"
 
 #: modules/locale/locale.module:127
-#, fuzzy
 msgid "Translate interface"
-msgstr "Μεταφρασμένο"
+msgstr ""
 
 #: modules/locale/locale.module:128
 msgid "Translate the built in interface and optionally other text."
@@ -359,7 +358,7 @@ msgstr "Το όνομα της γλώσσας στην Αγγλική"
 #: modules/locale/locale.install:250
 #, fuzzy
 msgid "Native language name."
-msgstr "Όνομα γλώσσας"
+msgstr "Εγγενής όνομα γλώσσας"
 
 #: modules/locale/locale.install:256
 msgid "Direction of language (Left-to-Right = 0, Right-to-Left = 1)."
@@ -401,7 +400,7 @@ msgstr ""
 #: modules/locale/locale.install:317
 #, fuzzy
 msgid "Unique identifier of this string."
-msgstr "Διαβάστε την υπόλοιπη καταχώριση."
+msgstr "Μοναδικό προσδιοριστικό για το αντικείμενο ροής."
 
 #: modules/locale/locale.install:324
 msgid "Drupal path in case of online discovered translations or file path in case of imported strings."
@@ -422,16 +421,15 @@ msgstr ""
 #: modules/locale/locale.install:354
 #, fuzzy
 msgid "Stores translated versions of strings."
-msgstr "Μόνο μεταφρασμένες φράσεις"
+msgstr "Αποθηκεύει τις συσχετίσεις μεταξύ όρων και δημοσιεύσεων."
 
 #: modules/locale/locale.install:360
 msgid "Source string ID. References {locales_source}.lid."
 msgstr ""
 
 #: modules/locale/locale.install:366
-#, fuzzy
 msgid "Translation string value in this language."
-msgstr "Όλες τις φράσεις σε αυτή τη γλώσσα"
+msgstr ""
 
 #: modules/locale/locale.install:373
 msgid "Language code. References {languages}.language."

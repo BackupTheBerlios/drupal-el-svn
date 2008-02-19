@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -40,23 +41,17 @@ msgid "@module administration pages"
 msgstr "σελίδες διαχείρισης του @module"
 
 #: modules/help/help.module:40
-#, fuzzy
 msgid "This guide provides context sensitive help on the use and configuration of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online handbook may contain more up-to-date information, is annotated with helpful user-contributed comments, and serves as the definitive reference point for all Drupal documentation."
 msgstr ""
-"<p>Ο οδηγός αυτός εξηγεί τη λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και τη ρύθμισή τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
-"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειρίδιο του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
 
 #: modules/help/help.module:43
-#, fuzzy
 msgid "The help module provides context sensitive help on the use and configuration of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online handbook may contain more up-to-date information, is annotated with helpful user-contributed comments, and serves as the definitive reference point for all Drupal documentation."
 msgstr ""
-"<p>Ο οδηγός αυτός εξηγεί τη λειτουργία των διαφόρων μονάδων του <a href=\"@Drupal\">Drupal</a> και τη ρύθμισή τους. Επιπλέον, θα βρείτε ένα γλωσσάρι της βασικής ορολογίας του Drupal για να σας βοηθήσει να ξεκινήσετε.</p>\n"
-"<p>Δεν αντικαθιστά σε καμία περίπτωση το <a href=\"@handbook\">εγχειρίδιο του Drupal</a> που είναι διαθέσιμο online και καλό είναι να χρησιμοποιούνται μαζί. Το online εγχειρίδιο αναφοράς ίσως να είναι πιο ενημερωμένο και να περιέχει χρήσιμα σχόλια από άλλους χρήστες. Είναι το οριστικό σημείο αναφοράς για όλη την τεκμηρίωση του Drupal.</p>\n"
 
 #: modules/help/help.module:44
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@help\">Help module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@help\">σελίδα Help</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
 #: modules/help/help.module:0
 msgid "help"

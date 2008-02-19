@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -55,9 +56,8 @@ msgstr ""
 "@uri"
 
 #: misc/tabledrag.js:0
-#, fuzzy
 msgid "Drag to re-order"
-msgstr "Σύρε για αναδιάταξη"
+msgstr ""
 
 #: misc/tabledrag.js:0
 msgid "Changes made in this table will not be saved until the form is submitted."
@@ -72,9 +72,8 @@ msgid "Deselect all rows in this table"
 msgstr "Αποεπιλογή όλων των γραμμών σε αυτό τον πίνακα"
 
 #: misc/teaser.js:0;0
-#, fuzzy
 msgid "Split summary at cursor"
-msgstr "Διάσπαση περίληψης στον κέρσορα"
+msgstr ""
 
 #: misc/teaser.js:0;0
 msgid "Join summary"

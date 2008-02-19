@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -109,7 +110,7 @@ msgstr "Διαγράφηκε ο μορφότυπος εισόδου %format."
 #: modules/filter/filter.admin.inc:289
 #, fuzzy
 msgid "Configure %format"
-msgstr "Ρύθμιση"
+msgstr "Ρυθμίστε τον ιστότοπο"
 
 #: modules/filter/filter.admin.inc:312
 msgid "No settings are available."
@@ -137,48 +138,38 @@ msgid "Each input format uses filters to manipulate text, and most input formats
 msgstr ""
 
 #: modules/filter/filter.module:25
-#, fuzzy
 msgid "Users can choose between the available input formats when creating or editing content. Administrators can configure which input formats are available to which user roles, as well as choose a default input format."
-msgstr "Οι χρήστες μπορούν να επιλέγουν μεταξύ των διαθέσιμων μορφότυπων εισόδου όταν υποβάλλουν ή τροποποιούν ύλη. Οι διαχειριστές μπορούν να διευθετήσουν ποιοι μορφότυποι εισόδου θα είναι διαθέσιμοι σε ποιους ρόλους χρηστών, καθώς και να καθορίσουν έναν προεπιλεγμένο μορφότυπο εισόδου. Οι διαχειριστές μπορούν επίσης να δημιουργούν νέους μορφότυπους εισόδου. Κάθε μορφότυπος εισόδου μπορεί να διευθετηθεί ώστε να χρησιμοποιεί μια επιλογή φίλτρων."
+msgstr ""
 
 #: modules/filter/filter.module:26
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@filter\">Filter module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@filter\">σελίδα Filter</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο της <a href=\"@forum\">μονάδας Φόρουμ</a>."
 
 #: modules/filter/filter.module:29
 msgid "<em>Input formats</em> define a way of processing user-supplied text in Drupal. Each input format uses filters to manipulate text, and most input formats apply several different filters to text, in a specific order. Each filter is designed to accomplish a specific purpose, and generally either removes elements from or adds elements to text before it is displayed. Users can choose between the available input formats when submitting content."
 msgstr ""
 
 #: modules/filter/filter.module:30
-#, fuzzy
 msgid "Use the list below to configure which input formats are available to which roles, as well as choose a default input format (used for imported content, for example). The default format is always available to users. All input formats are available to users in a role with the \"administer filters\" permission."
-msgstr "Οι χρήστες μπορούν να επιλέγουν μεταξύ των διαθέσιμων μορφότυπων εισόδου όταν υποβάλλουν ή τροποποιούν ύλη. Οι διαχειριστές μπορούν να διευθετήσουν ποιοι μορφότυποι εισόδου θα είναι διαθέσιμοι σε ποιους ρόλους χρηστών, καθώς και να καθορίσουν έναν προεπιλεγμένο μορφότυπο εισόδου. Οι διαχειριστές μπορούν επίσης να δημιουργούν νέους μορφότυπους εισόδου. Κάθε μορφότυπος εισόδου μπορεί να διευθετηθεί ώστε να χρησιμοποιεί μια επιλογή φίλτρων."
+msgstr ""
 
 #: modules/filter/filter.module:33
-#, fuzzy
 msgid "Every <em>filter</em> performs one particular change on the user input, for example stripping out malicious HTML or making URLs clickable. Choose which filters you want to apply to text in this input format. If you notice some filters are causing conflicts in the output, you can <a href=\"@rearrange\">rearrange them</a>."
 msgstr ""
-"\n"
-"<p>Κάθε <em>φίλτρο</em> κάνει μία συγκεκριμένη αλλαγή στα δεδομένα εισόδου του χρήστη, για παράδειγμα, αφαιρεί επικίνδυνο κώδικα HTML ή μετατρέπεις τις διευθύνσεις URL σε ενεργές παραπομπές. Επιλέξτε ποια φίλτρα θέλετε να επενεργούν στο κείμενο σε αυτόν το συγκεκριμένο μορφότυπο εισόδου.</p>\n"
-"<p>Αν παρατηρήσετε στα δεδομένα εξόδου ότι κάποια φίλτρα έρχονται σε σύγκρουση μεταξύ τους, μπορείτε να τα <a href=\"@rearrange\">αναδιατάξετε</a>.</p>"
 
 #: modules/filter/filter.module:35
 msgid "If you cannot find the settings for a certain filter, make sure you have enabled it on the <a href=\"@url\">view tab</a> first."
 msgstr "Αν δεν μπορείτε να βρείτε τις ρυθμίσεις για ένα συγκεκριμένο φίλτρο, βεβαιωθείτε πρώτα ότι το έχετε ενεργοποιήσει στην <a href=\"@url\">καρτέλα εμφάνισης</a>."
 
 #: modules/filter/filter.module:37
-#, fuzzy
 msgid "Because of the flexible filtering system, you might encounter a situation where one filter prevents another from doing its job. For example: a word in an URL gets converted into a glossary term, before the URL can be converted to a clickable link. When this happens, rearrange the order of the filters."
 msgstr ""
-"\n"
-"<p>Με το ευέλικτο σύστημα φίλτρων, μπορεί να αντιμετωπίσετε μια κατάσταση όπου ένα φίλτρο εμποδίζει ένα άλλο να κάνει τη δουλειά του. Για παράδειγμα, μια λέξη από μια διεύθυνση URL μετατρέπεται σε όρο για το γλωσσάρι προτού η URL να μετατραπεί σε ενεργή παραπομπή. Όταν συμβεί αυτό, θα πρέπει να αναδιατάξετε τη σειρά με την οποία επενεργούν τα φίλτρα.</p>\n"
-"<p>Τα φίλτρα επενεργούν από επάνω προς τα κάτω. Μπορείτε να χρησιμοποιήσετε τη στήλη του βάρους για να τα αναδιατάξετε: τα βαρύτερα φίλτρα \"βουλιάζουν\" προς τα κάτω.</p>"
 
 #: modules/filter/filter.module:38
 #, fuzzy
 msgid "Filters are executed from top-to-bottom. To change the order of the filters, modify the values in the <em>Weight</em> column or grab a drag-and-drop handle under the <em>Name</em> column and drag filters to new locations in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
-msgstr "Αυτή η σελίδα παρουσιάσει μια λίστα από υπάρχοντα φόρουμ και φακέλους. Οι φάκελοι (που είναι προαιρετικοί) μπορούν να περιέχουν φόρουμ και τα φόρουμ μπορούν να περιέχουν θέματα συζήτησης (για κάθε ένα θέμα συζήτησης απαιτείται μια αρχική καταχώριση). Οι φάκελοι και τα φόρουμ μπορούν να τοποθετηθούν μέσα σε άλλους φακέλους και φόρουμ δίνοντας τη δυνατότητα δομημένων φόρουμ. Για να αλλάξετε τη σειρά των φόρουμ και των φακέλων χρησιμοποιείστε το ποντίκι: πατήστε το αριστερό κουμπί και κρατήστε πατημένο (drag-and-drop) κάτω από τη στήλη <em>Όνομα</em>, έπειτα τραβήξτε το ποντίκι σας στο φόρουμ ή τον φάκελο στον οποίο θέλετε να το μεταφέρετε. Να θυμάστε ότι οι αλλαγές σας δεν θα αποθηκευθούν αν δεν πατήσετε το κουμπί <em>Αποθήκευση</em> στο κάτω μέρος της σελίδας."
+msgstr "Για να ανακατατάξετε τα στοιχεία του μενού, χρησιμοποιήστε τις λαβές 'σύρε και άσε' κάτω από τη στήλη <em>Μενού</em> και μεταφέρετε τα μενού (μια ομάδα μενού) στην καινούργια τους θέση στη λίστα (τραβήξτε τις λαβές πατώντας και κρατώντας πατημένο όταν βρισκόσαστε με το ποντίκι πάνω από το εικονίδιο της λαβής). Σημειώστε ότι οι αλλαγές δεν θα αποθηκευθούν αν δεν πατήσετε πάνω στο κουμπί <em>Αποθήκευση αλλαγών</em> στο τέλος της σελίδας."
 
 #: modules/filter/filter.module:176;178
 msgid "Allowed HTML tags: @tags"
@@ -521,9 +512,8 @@ msgid "Input formats"
 msgstr "Μορφότυποι εισόδου"
 
 #: modules/filter/filter.module:72
-#, fuzzy
 msgid "Configure how content input by users is filtered, including allowed HTML tags. Also allows enabling of module-provided filters."
-msgstr "Προσδιορισμός του πώς θα φιλτράρεται η εισαγωγή περιεχομένου από τους χρήστες, συμπεριλαμβανομένων των ετικετών HTML και του κώδικα PHP. Επίσης επιτρέπει την ενεργοποίηση των φίλτρων που παρέχουν οι μονάδες."
+msgstr ""
 
 #: modules/filter/filter.module:90
 msgid "Delete input format"

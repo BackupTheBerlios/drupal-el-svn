@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -137,7 +138,7 @@ msgstr "Προεπιλεγμένη σειρά"
 #: modules/forum/forum.admin.inc:209
 #, fuzzy
 msgid "Default display order for topics."
-msgstr "Η προεπιλεγμένη σειρά παρουσίασης των θεμάτων."
+msgstr "Προεπιλεγμένη σειρά παρουσίασης"
 
 #: modules/forum/forum.admin.inc:230
 msgid "edit container"
@@ -152,14 +153,12 @@ msgid "There are no existing containers or forums. Containers and forums may be 
 msgstr "Δεν υπάρχει κανένας φάκελος ή φόρουμ. Φάκελοι ή φόρουμ μπορούν να προστεθούν από τις σελίδες <a href=\"@container\">νέος φάκελος</a> ή <a href=\"@forum\">νέο φόρουμ</a>."
 
 #: modules/forum/forum.admin.inc:286
-#, fuzzy
 msgid "Containers are usually placed at the top (root) level, but may also be placed inside another container or forum."
-msgstr "Οι φάκελοι τοποθετούνται συνήθως στο κορυφαίο επίπεδο (τη ρίζα) των φόρουμ σας, μπορείτε όμως να τοποθετήσετε ένα φάκελο και μέσα σε ένα μητρικό φάκελο ή φόρουμ."
+msgstr ""
 
 #: modules/forum/forum.admin.inc:289
-#, fuzzy
 msgid "Forums may be placed at the top (root) level, or inside another container or forum."
-msgstr "Οι φάκελοι τοποθετούνται συνήθως στο κορυφαίο επίπεδο (τη ρίζα) των φόρουμ σας, μπορείτε όμως να τοποθετήσετε ένα φάκελο και μέσα σε ένα μητρικό φάκελο ή φόρουμ."
+msgstr ""
 
 #: modules/forum/forum.admin.inc:177
 msgid "forum: deleted %term and all its sub-forums and associated posts."
@@ -202,14 +201,12 @@ msgid "This page displays a list of existing forums and containers. Containers (
 msgstr "Αυτή η σελίδα παρουσιάσει μια λίστα από υπάρχοντα φόρουμ και φακέλους. Οι φάκελοι (που είναι προαιρετικοί) μπορούν να περιέχουν φόρουμ και τα φόρουμ μπορούν να περιέχουν θέματα συζήτησης (για κάθε ένα θέμα συζήτησης απαιτείται μια αρχική καταχώριση). Οι φάκελοι και τα φόρουμ μπορούν να τοποθετηθούν μέσα σε άλλους φακέλους και φόρουμ δίνοντας τη δυνατότητα δομημένων φόρουμ. Για να αλλάξετε τη σειρά των φόρουμ και των φακέλων χρησιμοποιείστε το ποντίκι: πατήστε το αριστερό κουμπί και κρατήστε πατημένο (drag-and-drop) κάτω από τη στήλη <em>Όνομα</em>, έπειτα τραβήξτε το ποντίκι σας στο φόρουμ ή τον φάκελο στον οποίο θέλετε να το μεταφέρετε. Να θυμάστε ότι οι αλλαγές σας δεν θα αποθηκευθούν αν δεν πατήσετε το κουμπί <em>Αποθήκευση</em> στο κάτω μέρος της σελίδας."
 
 #: modules/forum/forum.module:27
-#, fuzzy
 msgid "By grouping related or similar forums, containers help organize forums. For example, a container named \"Food\" may hold two forums named \"Fruit\" and \"Vegetables\", respectively."
-msgstr "Οι φάκελοι σάς βοηθούν να οργανώνετε τα φόρουμ σας. Η δουλειά ενός φακέλου είναι να περιέχει διάφορα φόρουμ που σχετίζονται μεταξύ τους. Για παράδειγμα, ένας φάκελος που ονομάζεται \"Τροφές\" θα μπορούσε να περιέχει δύο φόρουμ, τα \"Φρούτα\" και \"Λαχανικά\"."
+msgstr ""
 
 #: modules/forum/forum.module:29
-#, fuzzy
 msgid "A forum holds related or similar forum topics (a forum topic is the initial post to a threaded discussion). For example, a forum named \"Fruit\" may contain forum topics titled \"Apples\" and \"Bananas\", respectively."
-msgstr "Ένα φόρουμ περιέχει θέματα συζήτησης που σχετίζονται μεταξύ τους. Για παράδειγμα, ένα φόρουμ που ονομάζεται \"Φρούτα\" θα μπορούσε να περιέχει θέματα με τίτλο \"Μήλα\" και \"Μπανάνες\"."
+msgstr ""
 
 #: modules/forum/forum.module:31
 msgid "These settings allow you to adjust the display of your forum topics. The content types available for use within a forum may be selected by editing the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum vocabulary page</a>."

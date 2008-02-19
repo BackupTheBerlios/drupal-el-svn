@@ -5,17 +5,18 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-02-07 21:10+0100\n"
-"Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,148 +27,162 @@ msgstr ""
 msgid "There are no menu items yet."
 msgstr "Δεν υπάρχει κανένα μενού."
 
-#: modules/menu/menu.admin.inc:72
-#: modules/menu/menu.module:235
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
 msgid "disabled"
 msgstr "απενεργοποιημένο"
 
-#: modules/menu/menu.admin.inc:103
+#: modules/menu/menu.admin.inc:104
 msgid "reset"
 msgstr "επαναφορά"
 
-#: modules/menu/menu.admin.inc:174
+#: modules/menu/menu.admin.inc:175
 msgid "Menu item"
 msgstr "Στοιχείο μενού"
 
-#: modules/menu/menu.admin.inc:176;298
+#: modules/menu/menu.admin.inc:177;299
 msgid "Expanded"
 msgstr "Σε ανάπτυξη"
 
-#: modules/menu/menu.admin.inc:229
-#: modules/menu/menu.module:358
+#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:358
 msgid "Menu settings"
 msgstr "Ρυθμίσεις μενού"
 
-#: modules/menu/menu.admin.inc:259
+#: modules/menu/menu.admin.inc:260
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
 msgstr "Η διαδρομή στην οποία παραπέμπει αυτό το στοιχείο μενού. Αυτή μπορεί να είναι μια εσωτερική διαδρομή του Drupal, όπως η %add-node, ή μια εξωτερική διεύθυνση URL, όπως η %drupal. Εισάγετε %front για παραπομπή στην αρχική σελίδα του ιστοτόπου."
 
-#: modules/menu/menu.admin.inc:278
-#: modules/menu/menu.module:385
+#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:385
 msgid "Menu link title"
 msgstr "Τίτλος παραπομπής μενού"
 
-#: modules/menu/menu.admin.inc:280
+#: modules/menu/menu.admin.inc:281
 msgid "The link text corresponding to this item that should appear in the menu."
 msgstr "Το κείμενο της παραπομπής που αντιστοιχεί σε αυτή τη δημοσίευση όπως θέλετε να εμφανίζεται στο μενού."
 
-#: modules/menu/menu.admin.inc:288
+#: modules/menu/menu.admin.inc:289
 msgid "The description displayed when hovering over a menu item."
 msgstr "Η περιγραφή που θα εμφανίζεται όταν το ποντίκι βρίσκεται πάνω από το μενού."
 
-#: modules/menu/menu.admin.inc:294
+#: modules/menu/menu.admin.inc:295
 msgid "Menu items that are not enabled will not be listed in any menu."
 msgstr "Οι παραπομπές του μενού που δεν είναι ενεργοποιημένες δεν θα εμφανίζονται σε κανένα μενού."
 
-#: modules/menu/menu.admin.inc:300
+#: modules/menu/menu.admin.inc:301
 msgid "If selected and this menu item has children, the menu will always appear expanded."
 msgstr "Αν το επιλέξετε και αυτό το στοιχείο μενού έχει θυγατρικά, το μενού θα εμφανίζεται πάντα σε ανάπτυξη."
 
-#: modules/menu/menu.admin.inc:314
-#: modules/menu/menu.module:401
+#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:401
 msgid "The maximum depth for an item and all its children is fixed at !maxdepth. Some menu items may not be available as parents if selecting them would exceed this limit."
 msgstr "Ο μέγιστος αριθμός θυγατρικών στοιχείων του μενού είναι ορισμένος σε !maxdepth. Μερικές παραπομπές των μητρικών μενού μπορεί να μην εμφανίζονται αν η επιλογή του ξεπερνάει αυτό το όριο."
 
-#: modules/menu/menu.admin.inc:321
-#: modules/menu/menu.module:410
+#: modules/menu/menu.admin.inc:323 modules/menu/menu.module:411
 msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
 msgstr "Προαιρετικό. Στο μενού, τα βαρύτερα στοιχεία θα βουλιάζουν και τα ελαφρύτερα θα τοποθετούνται πιο κοντά στην κορυφή."
 
-#: modules/menu/menu.admin.inc:377
-#: modules/menu/menu.module:302
+#: modules/menu/menu.admin.inc:379 modules/menu/menu.module:302
 msgid "There was an error saving the menu link."
 msgstr "Υπήρξε πρόβλημα κατά την αποθήκευση του μενού."
 
-#: modules/menu/menu.admin.inc:401
+#: modules/menu/menu.admin.inc:403
 msgid "Menu name"
 msgstr "Όνομα μενού"
 
-#: modules/menu/menu.admin.inc:403
+#: modules/menu/menu.admin.inc:405
 msgid "The machine-readable name of this menu. This text will be used for constructing the URL of the <em>menu overview</em> page for this menu. This name must contain only lowercase letters, numbers, and hyphens, and must be unique."
 msgstr "Το μηχανικώς αναγνώσιμο όνομα του μενού. Αυτό το κείμενο θα χρησιμοποιηθεί για την κατασκευή του URL της σελίδας <em>επισκόπηση μενού</em> για αυτό το μενού. Το όνομα πρέπει να αποτελείται μόνο από μικρά γράμματα, αριθμούς και χαρακτήρες υπογράμμισης. Το όνομα πρέπει να είναι μοναδικό για αυτόν το μενού."
 
-#: modules/menu/menu.admin.inc:458
+#: modules/menu/menu.admin.inc:460
 msgid "Are you sure you want to delete the custom menu %title?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το μενού με τίτλο %title;"
 
-#: modules/menu/menu.admin.inc:490
+#: modules/menu/menu.admin.inc:492
 #, fuzzy
 msgid "The custom menu %title has been deleted."
-msgstr "Το μενού %title διαγράφηκε."
+msgstr "Το στοιχείο μενού %title διαγράφηκε."
 
-#: modules/menu/menu.admin.inc:500
+#: modules/menu/menu.admin.inc:502
 msgid "The menu name may only consist of lowercase letters, numbers, and hyphens."
 msgstr "Το όνομα του μενού μπορεί να αποτελείται μόνο από μικρά γράμματα, τον χαρακτήρα υπογράμμισης και αριθμούς."
 
-#: modules/menu/menu.admin.inc:510
+#: modules/menu/menu.admin.inc:512
 msgid "The menu already exists."
 msgstr "Το μενού υπάρχει ήδη."
 
-#: modules/menu/menu.admin.inc:562
+#: modules/menu/menu.admin.inc:564
 msgid "Are you sure you want to delete the custom menu item %item?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το προσαρμοσμένο στοιχείο μενού %item;"
 
-#: modules/menu/menu.admin.inc:572
+#: modules/menu/menu.admin.inc:574
 msgid "The menu item %title has been deleted."
 msgstr "Το στοιχείο μενού %title διαγράφηκε."
 
-#: modules/menu/menu.admin.inc:582
+#: modules/menu/menu.admin.inc:584
 msgid "Are you sure you want to reset the item %item to its default values?"
 msgstr "Θέλετε σίγουρα να επαναφέρετε το στοιχείο %item στις αρχικές του τιμές;"
 
-#: modules/menu/menu.admin.inc:582
+#: modules/menu/menu.admin.inc:584
 msgid "Any customizations will be lost. This action cannot be undone."
 msgstr "Οποιεσδήποτε προσαρμογές θα χαθούν. Η ενέργεια αυτή είναι μη αντιστρέψιμη."
 
-#: modules/menu/menu.admin.inc:591
+#: modules/menu/menu.admin.inc:593
 msgid "The menu item was reset to its default settings."
 msgstr "Το στοιχείο μενού επανήλθε στις αρχικές του ρυθμίσεις."
 
-#: modules/menu/menu.admin.inc:601
+#: modules/menu/menu.admin.inc:603
 msgid "The menu module allows on-the-fly creation of menu links in the content authoring forms. The following option sets the default menu in which a new link will be added."
 msgstr "Η μονάδα menu επιτρέπει τη δημιουργία επιτόπου συνδέσμων μενού στις φόρμες υποβολής ύλης. Η παρακάτω επιλογή περιορίζει τα μενού στα οποία μπορεί να προστεθεί ένας νέος σύνδεσμος."
 
-#: modules/menu/menu.admin.inc:606
+#: modules/menu/menu.admin.inc:609
 msgid "Default menu for content"
 msgstr "Προεπιλεγμένο μενού ύλης"
 
-#: modules/menu/menu.admin.inc:609
+#: modules/menu/menu.admin.inc:612
 msgid "Choose the menu to be the default in the menu options in the content authoring form."
 msgstr "Επιλέξτε το μενού που θα είναι προεπιλεγμένο στις επιλογές μενού της φόρμας δημοσίευσης ύλης."
 
-#: modules/menu/menu.admin.inc:615
+#: modules/menu/menu.admin.inc:616
+#, fuzzy
+msgid "No primary links"
+msgstr "Δευτερεύοντες σύνδεσμοι"
+
+#: modules/menu/menu.admin.inc:619
+#, fuzzy
+msgid "Source for the primary links"
+msgstr "Πηγή δευτερευόντων συνδέσμων"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:626
+#, fuzzy
+msgid "No secondary links"
+msgstr "Δευτερεύοντες σύνδεσμοι"
+
+#: modules/menu/menu.admin.inc:629
 msgid "Source for the secondary links"
 msgstr "Πηγή δευτερευόντων συνδέσμων"
 
-#: modules/menu/menu.admin.inc:619
-msgid "Select what should be displayed as the secondary links. If %primary is chosen, the children of the active primary menu link (if any) will be shown instead of the links in the %secondary menu."
+#: modules/menu/menu.admin.inc:633
+#, fuzzy
+msgid "Select what should be displayed as the secondary links. You can choose the same menu for secondary links as for primary links (currently %primary). If you do this, the children of the active primary menu link will be displayed as secondary links."
 msgstr "Επιλέξτε τι από τη λίστα θα παρουσιάζεται σαν δευτερεύοντες σύνδεσμοι. Αν επιλεχθεί το %primary, τα θυγατρικά στοιχεία των πρωτευόντων συνδέσμων (αν υπάρχουν) θα παρουσιάζονται αντί για ξεχωριστούς δευτερεύοντες συνδέσμους."
 
-#: modules/menu/menu.admin.inc:491
+#: modules/menu/menu.admin.inc:493
 msgid "Deleted custom menu %title and all its menu items."
 msgstr "Το μενού %title και όλα τα υπομενού του έχουν διαγραφεί."
 
-#: modules/menu/menu.admin.inc:573
+#: modules/menu/menu.admin.inc:575
 msgid "Deleted menu item %title."
 msgstr "Διαγράφηκε το μενού %title."
 
-#: modules/menu/menu.admin.inc:455
+#: modules/menu/menu.admin.inc:457
 msgid "<strong>Warning:</strong> There is currently 1 menu item in %title. It will be deleted (system-defined items will be reset)."
 msgid_plural "<strong>Warning:</strong> There are currently @count menu items in %title. They will be deleted (system-defined items will be reset)."
 msgstr[0] "<strong>Προειδοποίηση:</strong> Υπάρχει 1 μενού στο %title. Θα διαγραφεί (τα μενού συστήματος θα επανέλθουν στις αρχικές ρυθμίσεις)."
 msgstr[1] "<strong>Προειδοποίηση:</strong> Υπάρχουν @count μενού στο %title. Θα διαγραφούν (τα μενού συστήματος θα επανέλθουν στις αρχικές ρυθμίσεις)."
 
-#: modules/menu/menu.admin.inc:503
+#: modules/menu/menu.admin.inc:505
 msgid "The menu name can't be longer than 1 character."
 msgid_plural "The menu name can't be longer than @count characters."
 msgstr[0] "Το όνομα του μενού δεν μπορεί να είναι μακρύτερο από 1 χαρακτήρα."
@@ -186,9 +201,8 @@ msgid "For more information, see the online handbook entry for <a href=\"@menu\"
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο στη σελίδα για τη <a href=\"@menu\">μονάδα Μενού</a>."
 
 #: modules/menu/menu.module:26
-#, fuzzy
 msgid "Menus are a collection of links (menu items) used to navigate a website. The menus currently available on your site are displayed below. Select a menu from this list to manage its menu items."
-msgstr "Τα μενού είναι συλλογές συνδέσμων (στοιχείων μενού) που χρησιμοποιούνται για την πλοήγηση σε έναν ιστοτόπο. Η παρακάτω λίστα(ες) παρουσιάζει τα τρέχοντα διαθέσιμα μενού καθώς και τα στοιχεία τους. Επιλέξτε μια ενέργεια από τη λίστα για να διαχειριστείτε κάθε μενού ή στοιχείο μενού."
+msgstr ""
 
 #: modules/menu/menu.module:28
 msgid "Enter the name for your new menu. Remember to enable the newly created block in the <a href=\"@blocks\">blocks administration page</a>."
@@ -280,13 +294,12 @@ msgstr "Περιγραφή μενού."
 
 #: (duplicate) modules/menu/menu.install:12
 msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
-msgstr "Το μενού πλοήγησης παρέχεται από το Drupal και είναι το βασικό διαδραστικό μενού για κάθε ιστοτόπο. Είναι συνήθως το μοναδικό μενού που περιέχει προσωπικές παραπομπές στους επώνυμους χρήστες και συνήθως δεν εμφανίζεται καν στους ανώνυμους χρήστες."
+msgstr ""
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
-msgstr "Οι πρωτεύοντες σύνδεσμοι συνήθως χρησιμοποιούνται στις θεματικές παραλλαγές για να δείξουν τις βασικές ενότητες του ιστοτόπου. Ένα χαρακτηριστικό παράδειγμα παρουσίασης πρωτευόντων συνδέσμων είναι σε μορφή καρτελών στην κορυφή και κατά πλάτος της σελίδας."
+msgstr ""
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
 msgstr "Οι δευτερεύοντες σύνδεσμοι συνήθως χρησιμοποιούνται για σελίδες όπως οι όροι χρήσης, οι πληροφορίες επικοινωνίας και άλλες δευτερεύουσας σημασίας σελίδες που είναι λιγότερο σημαντικές από τους πρωτεύοντες συνδέσμους"
-

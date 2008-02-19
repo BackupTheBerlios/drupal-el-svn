@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -197,7 +198,7 @@ msgstr ""
 #: modules/block/block.module:81
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@block\">Block module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@block\">σελίδα Block</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
 #: modules/block/block.module:85
 msgid "This page provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions. To change the region or order of a block, grab a drag-and-drop handle under the <em>Block</em> column and drag the block to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Since not all themes implement the same regions, or display regions in the same way, blocks are positioned on a per-theme basis. Remember that your changes will not be saved until you click the <em>Save blocks</em> button at the bottom of the page."
@@ -236,7 +237,7 @@ msgstr "Σώμα του μπλοκ"
 msgid "The content of the block as shown to the user."
 msgstr "Το περιεχόμενο του μπλοκ όπως εμφανίζεται στο χρήστη."
 
-#: modules/block/block.module:358
+#: modules/block/block.module:357
 msgid "Block configuration"
 msgstr "Ρύθμιση μπλοκ"
 

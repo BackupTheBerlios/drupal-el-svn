@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -85,18 +86,16 @@ msgid "Update interval"
 msgstr "Διάστημα ενημέρωσης"
 
 #: modules/aggregator/aggregator.admin.inc:80
-#, fuzzy
 msgid "The length of time between feed updates. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
-msgstr "Το χρονικό διάστημα μεταξύ των ενημερώσεων της ροής. (Απαιτεί μια σωστά ρυθμισμένη <a href=\"@cron\">εργασία cron</a>.)"
+msgstr ""
 
 #: modules/aggregator/aggregator.admin.inc:93
 msgid "Categorize news items"
 msgstr "Κατάταξη αντικειμένων ειδήσεων"
 
 #: modules/aggregator/aggregator.admin.inc:96
-#, fuzzy
 msgid "New feed items are automatically filed in the checked categories."
-msgstr "Τα νέα αντικείμενα αυτής της ροής θα κατατάσσονται αυτόματα καθώς παραλαμβάνονται στις επιλεγμένες κατηγορίες."
+msgstr ""
 
 #: modules/aggregator/aggregator.admin.inc:116
 msgid "The URL %url is invalid. Please enter a fully-qualified URL, such as http://www.example.com/feed.xml."
@@ -142,16 +141,15 @@ msgstr "Αντικείμενα που θα εμφανίζονται στις σ�
 #: modules/aggregator/aggregator.admin.inc:236
 #, fuzzy
 msgid "Number of feed items displayed in feed and category summary pages."
-msgstr "Ο αριθμός των αντικειμένων που θα εμφανίζονται για κάθε ροή ή κατηγορία στις σελίδες περιλήψεων των ροών και των κατηγοριών."
+msgstr "Αριθμός των αντικειμένων που θα εμφανίζονται στο μπλοκ της ροής."
 
 #: modules/aggregator/aggregator.admin.inc:240
 msgid "Discard items older than"
 msgstr "Να διαγράφονται αντικείμενα που είναι παλιότερες από"
 
 #: modules/aggregator/aggregator.admin.inc:242
-#, fuzzy
 msgid "The length of time to retain feed items before discarding. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
-msgstr "Το χρονικό διάστημα που θα διατηρήσει τα στοιχεία ροής προτού απορριφθούν.  (Απαιτεί μια σωστά ρυθμισμένη <a href=\"@cron\">εργασία cron</a>.)"
+msgstr ""
 
 #: modules/aggregator/aggregator.admin.inc:246
 msgid "Category selection type"
@@ -265,23 +263,20 @@ msgid "!title feed"
 msgstr "!title ροή"
 
 #: modules/aggregator/aggregator.module:15
-#, fuzzy
 msgid "The aggregator is a powerful on-site syndicator and news reader that gathers fresh content from RSS-, RDF-, and Atom-based feeds made available across the web. Thousands of sites (particularly news sites and blogs) publish their latest headlines and posts in feeds, using a number of standardized XML-based formats. Formats supported by the aggregator include <a href=\"@rss\">RSS</a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
-msgstr "Ο συλλέκτης είναι ένας ισχυρό ανεξάρτητος ανάγνωσης ειδήσεων που συλλέγει νέο περιεχόμενο από RDF-, και ροές βασισμένες στο Atom που είναι διαθέσιμες ανά τον ιστοχώρο. Χιλιάδες ιστοσελίδες (ιδιαίτερα ιστοσελίσες ειδήσεων και blogs) δημοσιεύουν τους πιό πρόσφατους τίτλους και καταχωρήσεις τους στις ροές, χρησιμοποιώντας διάφορους τυποποιημένους μορφότυπους XML. Οι μορφότυποι που υποστηρίζονται από τον συλλέκτη περιλαμβάνουν <a href=\"@rss\">RSS</a>, <a href=\"@rdf\">RDF</a>, και <a href=\"@atom\">Atom</a>."
+msgstr ""
 
 #: modules/aggregator/aggregator.module:16
-#, fuzzy
 msgid "Feeds contain feed items, or individual posts published by the site providing the feed. Feeds may be grouped in categories, generally by topic. Users view feed items in the <a href=\"@aggregator\">main aggregator display</a> or by <a href=\"@aggregator-sources\">their source</a>. Administrators can <a href=\"@feededit\">add, edit and delete feeds</a> and choose how often to check each feed for newly updated items. The most recent items in either a feed or category can be displayed as a block through the <a href=\"@admin-block\">blocks administration page</a>. A <a href=\"@aggregator-opml\">machine-readable OPML file</a> of all feeds is available. A correctly configured <a href=\"@cron\">cron maintenance task</a> is required to update feeds automatically."
-msgstr "Οι ροές περιέχουν τα αντικείμενα των ροών, ή τις μεμονωμένες καταχωρήσεις που δημοσιεύονται από την ιστοσελίδα που παρέχει την ροή. Οι ροές μπορούν να ομαδοποιηθούν σε κατηγορίες, γενικότερα ανά θέμα. Οι χρήστες βλέπουν τα αντικείμενα ροής στη <a href=\"@aggregator\">κύρια εμφάνιση συλλέκτη</a> ή από <a href=\"@aggregator-sources\">τις πηγές τους</a>. Οι διαχειριστές μπορούν να <a href=\"@feededit\">προσθέσουν, επεξεργαστούν και να διαγράψουν ροές</a> και να επιλέξουν πόσο συχνά να γίνεται έλεγχος κάθε ροής για νέα ενημερωμένα αντικείμενα. Τα πιό πρόσφατα αντικείμενα είτε ροής ή κατηγορίας μπορούν να εμφανίζονται ως μπλοκ μέσω της <a href=\"@admin-block\">σελίδας διαχείρησης μπλοκ</a>. Ένα <a href=\"@aggregator-opml\">αναγνώσιμο από μηχανή αρχείο OPML</a> όλων των ροών είναι διαθέσιμο. Μια σωστά ρυθμισμένη <a href=\"@cron\">εργασία cron</a> είναι απαραίτητη για την αυτόματη αναβάθμιση των ροών."
+msgstr ""
 
 #: modules/aggregator/aggregator.module:17
 msgid "For more information, see the online handbook entry for <a href=\"@aggregator\">Aggregator module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@aggregator\">σελίδα Συλλέκτη</a>."
 
 #: modules/aggregator/aggregator.module:20
-#, fuzzy
 msgid "Thousands of sites (particularly news sites and blogs) publish their latest headlines and posts in feeds, using a number of standardized XML-based formats. Formats supported by the aggregator include <a href=\"@rss\">RSS</a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
-msgstr "Χιλιάδες ιστοσελίδες (ιδιαίτερα ιστοσελίσες ειδήσεων και blogs) δημοσιεύουν τους πιό πρόσφατους τίτλους και καταχωρήσεις τους στις ροές, χρησιμοποιώντας διάφορους τυποποιημένους μορφότυπους XML. Οι μορφότυποι που υποστηρίζονται από τον συλλέκτη περιλαμβάνουν <a href=\"@rss\">RSS</a>, <a href=\"@rdf\">RDF</a>, και <a href=\"@atom\">Atom</a>."
+msgstr ""
 
 #: modules/aggregator/aggregator.module:21
 msgid "Current feeds are listed below, and <a href=\"@addfeed\">new feeds may be added</a>. For each feed or feed category, the <em>latest items</em> block may be enabled at the <a href=\"@block\">blocks administration page</a>."
@@ -328,9 +323,8 @@ msgid "There is new syndicated content from %site."
 msgstr "Υπάρχει νέα ανεξάρτητη ύλη από το %site."
 
 #: modules/aggregator/aggregator.module:640
-#, fuzzy
 msgid "feed not parseable"
-msgstr "ροή μη προσβάσιμη"
+msgstr ""
 
 #: modules/aggregator/aggregator.module:644
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
@@ -397,14 +391,13 @@ msgid "Edit category"
 msgstr "Τροποποίηση κατηγορίας"
 
 #: modules/aggregator/aggregator.install:30
-#, fuzzy
 msgid "Stores categories for aggregator feeds and feed items."
-msgstr "Αποθηκεύει κατηγορίες για τις ροές και τα αντικείμενα ροών του συλλέκτη"
+msgstr ""
 
 #: modules/aggregator/aggregator.install:35
 #, fuzzy
 msgid "Primary Key: Unique aggregator category ID."
-msgstr "Πρωτεύον Κλειδί: Μοναδική ταυτότητα κατηγορίας συλλέκτη."
+msgstr "Πρωτέυον Κλειδί: Μοναδιαίο ID κατηγορίας"
 
 #: modules/aggregator/aggregator.install:42
 msgid "Title of the category."
@@ -429,7 +422,7 @@ msgstr "Οι ροές {aggregator_feed}.fid."
 #: modules/aggregator/aggregator.install:75
 #, fuzzy
 msgid "The {aggregator_category}.cid to which the feed is being assigned."
-msgstr "Η {aggregator_category}.cid στην οποία η ροή έχει οριστεί."
+msgstr "To {vocabulary}.vid του λεξιλογίου στο οποίο βρίσκεται ο όρος."
 
 #: modules/aggregator/aggregator.install:83
 msgid "Bridge table; maps feed items to categories."
@@ -442,7 +435,7 @@ msgstr "Τα αντικείμενα ροής {aggregator_item}.iid."
 #: modules/aggregator/aggregator.install:95
 #, fuzzy
 msgid "The {aggregator_category}.cid to which the feed item is being assigned."
-msgstr "Η {aggregator_category}.cid στην οποία η ροή έχει οριστεί."
+msgstr "To {vocabulary}.vid του λεξιλογίου στο οποίο βρίσκεται ο όρος."
 
 #: modules/aggregator/aggregator.install:103
 msgid "Stores feeds to be parsed by the aggregator."
@@ -467,17 +460,16 @@ msgstr "Πόσο συχνά να γίνεται έλεγχος για νέα α�
 #: modules/aggregator/aggregator.install:134
 #, fuzzy
 msgid "Last time feed was checked for new items, as Unix timestamp."
-msgstr "Την τελευταία φορά που η ροή ελέχθηκε για νέα αντικείμενα, ως Unix timestamp."
+msgstr "Η ώρα στην οποία δημιουργήθηκε το σχόλιο, ή όταν έγινε η τελευταία ενημέρωση του από το συντάκτη του, ώς χρονόσημο UNIX."
 
 #: modules/aggregator/aggregator.install:141
 #, fuzzy
 msgid "The parent website of the feed; comes from the <link> element in the feed."
-msgstr "Η γονική ιστοσελίδα της ροής, προέρχεται από το <link> στοιχείο στην ροή."
+msgstr "Το όνομα της ροής· (ή το όνομα του ιστοτόπου από τον οποίο παρέχεται η ροή)."
 
 #: modules/aggregator/aggregator.install:147
-#, fuzzy
 msgid "The parent website's description; comes from the <description> element in the feed."
-msgstr "Η περιγραφή της γονικής ιστοσελίδας, προέρχεται από το <description> στοιχείο στην ροή."
+msgstr ""
 
 #: modules/aggregator/aggregator.install:153
 msgid "An image representing the feed."
@@ -490,7 +482,7 @@ msgstr ""
 #: modules/aggregator/aggregator.install:166
 #, fuzzy
 msgid "When the feed was last modified, as a Unix timestamp."
-msgstr "Όταν η ροή τροποποιήθηκε την τελευταία φορά, ως Unix timestamp."
+msgstr "Η ώρα στην οποία δημιουργήθηκε το σχόλιο, ή όταν έγινε η τελευταία ενημέρωση του από το συντάκτη του, ώς χρονόσημο UNIX."
 
 #: modules/aggregator/aggregator.install:173
 msgid "Number of items to display in the feed's block."
@@ -503,12 +495,12 @@ msgstr "Αποθηκεύει τα μεμονωμένα αντικείμενα π
 #: modules/aggregator/aggregator.install:189
 #, fuzzy
 msgid "Primary Key: Unique ID for feed item."
-msgstr "Πρωτεύον Κλειδί: Μοναδική ταυτότητα αντικειμένου ροής."
+msgstr "Πρωτεύον Κλειδί: Μοναδική ταυτότητα ροής."
 
 #: modules/aggregator/aggregator.install:195
 #, fuzzy
 msgid "The {aggregator_feed}.fid to which this item belongs."
-msgstr "Η ροή {aggregator_feed}.fid στην οποία ανήκει το αντικείμενο."
+msgstr "Το {node}.nid του οποίου απάντηση είναι αυτό το σχόλιο."
 
 #: modules/aggregator/aggregator.install:202
 msgid "Title of the feed item."
@@ -527,9 +519,8 @@ msgid "Body of the feed item."
 msgstr "Σώμα του αντικειμένου ροής."
 
 #: modules/aggregator/aggregator.install:227
-#, fuzzy
 msgid "Post date of feed item, as a Unix timestamp."
-msgstr "Ημερομηνία καταχώρησης του αντικειμένου ροής, ως Unix timestamp."
+msgstr ""
 
 #: modules/aggregator/aggregator.install:233
 msgid "Unique identifier for the feed item."

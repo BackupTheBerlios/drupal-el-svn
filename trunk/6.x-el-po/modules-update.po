@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -51,7 +52,7 @@ msgstr "Υποστήριξη εικόνων"
 msgid "This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:348;496;545
+#: modules/update/update.compare.inc:348;497;546
 msgid "No available releases found"
 msgstr ""
 
@@ -71,11 +72,11 @@ msgstr ""
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:528
+#: modules/update/update.compare.inc:529
 msgid "Unknown release date"
 msgstr ""
 
-#: modules/update/update.compare.inc:540
+#: modules/update/update.compare.inc:541
 #, fuzzy
 msgid "Invalid info"
 msgstr "Μη έγκυρη καταχώριση."
@@ -96,7 +97,7 @@ msgstr "ενημερώθηκε"
 #: modules/update/update.report.inc:30
 #, fuzzy
 msgid "Last checked: @time ago"
-msgstr "Τελευταία εκτέλεση πριν !time"
+msgstr "Τελευταία εκτέλεση πριν από !time"
 
 #: modules/update/update.report.inc:30
 msgid "Last checked: never"
@@ -106,6 +107,11 @@ msgstr ""
 #, fuzzy
 msgid "Check manually"
 msgstr "Έλεγχος e-mail"
+
+#: modules/update/update.report.inc:48;48
+#, fuzzy
+msgid "ok"
+msgstr "Βιβλίο"
 
 #: modules/update/update.report.inc:70
 msgid "Security update required!"
@@ -147,7 +153,7 @@ msgstr "Δοκιμή εμφάνισης της περικομμένης μορφ
 #: modules/update/update.report.inc:161
 #, fuzzy
 msgid "Also available:"
-msgstr "Δεν υπάρχει καμία καταχώριση."
+msgstr "Δεν υπάρχει καμία καταχώριση προφίλ."
 
 #: modules/update/update.report.inc:181
 msgid "Includes: %includes"
@@ -187,7 +193,7 @@ msgstr ""
 #: modules/update/update.settings.inc:26
 #, fuzzy
 msgid "Check for updates"
-msgstr "Ο προεπιλεγμένος μορφότυπος εισόδου ενημερώθηκε."
+msgstr "Αυτόματος έλεγχος ενημερώσεων"
 
 #: modules/update/update.settings.inc:29
 msgid "Daily"
@@ -204,7 +210,7 @@ msgstr ""
 #: modules/update/update.settings.inc:37
 #, fuzzy
 msgid "Notification threshold"
-msgstr "Κατώφλι καυτού θέματος"
+msgstr "Όριο χαρακτηρισμού ενός θέματος σαν \"καυτό\""
 
 #: modules/update/update.settings.inc:40
 msgid "All newer versions"
@@ -255,7 +261,7 @@ msgstr ""
 #: modules/update/update.module:90
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@update\">Update status module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα contact</a>."
+msgstr "Για περισσότερες πληροφορίες, διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@upload\">μονάδα Upload</a>."
 
 #: modules/update/update.module:211;243
 msgid "Drupal core update status"
@@ -346,17 +352,17 @@ msgstr ""
 #: modules/update/update.module:120
 #, fuzzy
 msgid "Available updates"
-msgstr "Οι διαθέσιμες μεταβλητές είναι:"
+msgstr "Ενημέρωση βάσης δεδομένων"
 
 #: modules/update/update.module:121
 #, fuzzy
 msgid "Get a status report about available updates for your installed modules and themes."
-msgstr "Αναφορά κατάστασης λειτουργίας του ιστοτόπου και αναφορά σφαλμάτων."
+msgstr "Ελέγχει την κατάσταση λειτουργίας για διαθέσιμες αναβαθμίσεις του Drupal και των εγκατεστημένων μονάδων και θεματικών παραλλαγών."
 
 #: modules/update/update.module:143
 msgid "Manual update check"
 msgstr ""
 
-#: modules/update/update.install:37
+#: modules/update/update.install:39
 msgid "Cache table for the Update module to store information about available releases, fetched from central server."
 msgstr ""

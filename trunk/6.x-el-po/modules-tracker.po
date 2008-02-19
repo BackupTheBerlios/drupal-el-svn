@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -35,19 +36,17 @@ msgid "Last updated"
 msgstr "Τελευταία ενημέρωση"
 
 #: modules/tracker/tracker.module:15
-#, fuzzy
 msgid "The tracker module displays the most recently added or updated content on your site, and provides user-level tracking to follow the contributions of particular authors."
-msgstr "Η μονάδα tracker παρουσιάζει την ύλη που προστέθηκε ή ενημερώθηκε πιο πρόσφατα στον ιστότοπο, επιτρέποντας στους χρήστες να βλέπουν τις πιο πρόσφατες καταχωρίσεις. Η μονάδα tracker παρέχει παρακολούθηση ύλης σε επίπεδο χρήστη, για όσους θέλουν να παρακολουθούν τις καταχωρίσεις συγκεκριμένων συντακτών."
+msgstr ""
 
 #: modules/tracker/tracker.module:16
-#, fuzzy
 msgid "The <em>Recent posts</em> page is available via a link in the navigation menu block and displays new and recently-updated content (including the content type, the title, the author's name, number of comments, and time of last update) in reverse chronological order. Posts are marked updated when changes occur in the text, or when new comments are added. To use the tracker module to follow a specific user's contributions, select the <em>Track</em> tab from the user's profile page."
-msgstr "Η σελίδα &quot;πρόσφατες καταχωρίσεις&quot; είναι διαθέσιμη μέσω μιας παραπομπής του μπλοκ του μενού πλοήγησης και περιέχει μια αντίστροφη χρονολογική λίστα της νέας ή πρόσφατα ενημερωμένης ύλης. Ο πίνακας εμφανίζει τον τύπο ύλης, τον τίτλο, το όνομα του συντάκτη, πόσα σχόλια υποβλήθηκαν στη συγκεκριμένη καταχώριση και πότε ενημερώθηκε τελευταία. Ενημερώσεις θεωρούνται οποιεσδήποτε μεταβολές στο κείμενο, είτε από τον αρχικό συντάκτη είτε από κάποιον άλλο, καθώς και οποιαδήποτε σχόλια προστέθηκαν στην καταχώριση. Για να χρησιμοποιήσετε τη μονάδα tracker για να <em>παρακολουθείτε</em> την ενημερωμένη ύλη ενός χρήστη, μπορείτε να πηγαίνετε στο προσωπικό προφίλ του και να πατάτε στην καρτέλα <em>παρακολούθηση</em>."
+msgstr ""
 
 #: modules/tracker/tracker.module:17
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@tracker\">Tracker module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@tracker\">σελίδα Tracker</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα Contact</a>."
 
 #: modules/tracker/tracker.module:27
 msgid "Recent posts"

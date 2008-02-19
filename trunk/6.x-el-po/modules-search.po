@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -53,7 +54,7 @@ msgstr "Απόπνιξη ευρετηρίασης"
 #: modules/search/search.admin.inc:58
 #, fuzzy
 msgid "Number of items to index per cron run"
-msgstr "Στοιχεία που θα ευρετηριάζονται σε κάθε εκτέλεση του cron"
+msgstr "Αριθμός των αντικειμένων που θα εμφανίζονται στο μπλοκ της ροής."
 
 #: modules/search/search.admin.inc:58
 msgid "The maximum number of items indexed in each pass of a <a href=\"@cron\">cron maintenance task</a>. If necessary, reduce the number of items to prevent timeouts and memory errors while indexing."
@@ -66,7 +67,7 @@ msgstr "Ρυθμίσεις ευρετηρίασης"
 #: modules/search/search.admin.inc:61
 #, fuzzy
 msgid "<p><em>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</em></p><p><em>The default settings should be appropriate for the majority of sites.</em></p>"
-msgstr "<p>Η αλλαγή των παρακάτω ρυθμίσεων θα προκαλέσει την επαναδημιουργία του ευρετηρίου του ιστοτόπου. Το ευρετήριο της αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δε θα ευρετηριάζεται, μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα.</p><p>Οι προεπιλεγμένες ρυθμίσεις είναι οι πλέον κατάλληλες για τους περισσότερους ιστοτόπους.</p>"
+msgstr "Το ευρετήριο αναζήτησης δεν εκκαθαρίζεται αλλά ενημερώνεται συστηματικά ώστε να αντανακλά τις νέες ρυθμίσεις. Η αναζήτηση θα συνεχίσει να λειτουργεί αλλά η νέα ύλη δε θα ευρετηριάζεται μέχρι να ευρετηριαστεί ξανά όλη η υπάρχουσα. Η ενέργεια αυτή είναι μη αναστρέψιμη."
 
 #: modules/search/search.admin.inc:62
 msgid "Minimum word length to index"
@@ -115,9 +116,8 @@ msgid "%keys (@type)."
 msgstr "%keys (@type)."
 
 #: modules/search/search.module:99
-#, fuzzy
 msgid "The search module adds the ability to search for content by keywords. Search is often the only practical way to find content on a large site, and is useful for finding both users and posts."
-msgstr "Η μονάδα search προσθέτει τη δυνατότητα αναζήτησης ύλης με λέξεις-κλειδιά. Η αναζήτηση είναι συχνά ο μόνος πρακτικός τρόπος για να βρίσκει κανείς ύλη σε ένα μεγάλο ιστοτόπο. Η αναζήτηση χρησιμεύει στην εύρεση χρηστών και δημοσιευμάτων με αναζήτηση με λέξεις-κλειδιά."
+msgstr ""
 
 #: modules/search/search.module:100
 msgid "To provide keyword searching, the search engine maintains an index of words found in your site's content. To build and maintain this index, a correctly configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing behavior can be adjusted using the <a href=\"@searchsettings\">search settings page</a>; for example, the <em>Number of items to index per cron run</em> sets the maximum number of items indexed in each pass of a <a href=\"@cron\">cron maintenance task</a>. If necessary, reduce this number to prevent timeouts and memory errors when indexing."
@@ -126,7 +126,7 @@ msgstr ""
 #: modules/search/search.module:101
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@search\">Search module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@search\">σελίδα Search</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο στη σελίδα για τη <a href=\"@menu\">μονάδα Μενού</a>."
 
 #: modules/search/search.module:104
 msgid "The search engine maintains an index of words found in your site's content. To build and maintain this index, a correctly configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing behavior can be adjusted using the settings below."
@@ -150,23 +150,23 @@ msgstr ""
 msgid "Search form"
 msgstr "Φόρμα αναζήτησης"
 
-#: modules/search/search.module:912
+#: modules/search/search.module:917
 msgid "You must include at least one positive keyword with @count characters or more."
 msgstr "Πρέπει να εισάγετε τουλάχιστον μία θετική λέξη-κλειδί με @count χαρακτήρες ή περισσότερους."
 
-#: modules/search/search.module:916
+#: modules/search/search.module:921
 msgid "Search for either of the two terms with uppercase <strong>OR</strong>. For example, <strong>cats OR dogs</strong>."
 msgstr ""
 
-#: modules/search/search.module:1023
+#: modules/search/search.module:1028
 msgid "Enter your keywords"
 msgstr "Εισάγετε τις λέξεις-κλειδιά"
 
-#: modules/search/search.module:1057
+#: modules/search/search.module:1062
 msgid "Search this site"
 msgstr ""
 
-#: modules/search/search.module:1061
+#: modules/search/search.module:1066
 msgid "Enter the terms you wish to search for."
 msgstr "Πληκτρολογήστε τους όρους που θέλετε να αναζητήσετε."
 
@@ -269,7 +269,7 @@ msgstr ""
 #: modules/search/search.install:138
 #, fuzzy
 msgid "The {node}.nid that this item links to."
-msgstr "Η μητρική σελίδα στην οποία ανήκει αυτή η σελίδα."
+msgstr "Το {node}.nid της καταχώρισης."
 
 #: modules/search/search.install:144
 msgid "The text used to link to the {node}.nid."

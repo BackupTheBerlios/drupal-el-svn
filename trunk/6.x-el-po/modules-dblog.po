@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -23,14 +24,12 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: modules/dblog/dblog.admin.inc:18
-#, fuzzy
 msgid "Discard log entries above the following row limit"
-msgstr "Να εκκαθαρίζονται οι καταχωρίσεις ημερολογίου συστήματος παλιότερες από"
+msgstr ""
 
 #: modules/dblog/dblog.admin.inc:21
-#, fuzzy
 msgid "The maximum number of rows to keep in the database log. Older entries will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
-msgstr "Για πόσο χρόνο θα διατηρούνται οι καταχωρίσεις στο ημερολόγιο συστήματος. Οι παλιότερες θα εκκαθαρίζονται αυτόματα. Απαιτεί το crontab."
+msgstr ""
 
 #: modules/dblog/dblog.admin.inc:81;109
 msgid "No log messages available."
@@ -51,7 +50,7 @@ msgstr "Σοβαρότητα"
 #: modules/dblog/dblog.admin.inc:260
 #, fuzzy
 msgid "Filter log messages"
-msgstr "Διαλογή κατά τύπο μηνύματος"
+msgstr "Μήνυμα στο υποσέλιδο"
 
 #: modules/dblog/dblog.admin.inc:297
 #, fuzzy
@@ -59,24 +58,21 @@ msgid "You must select something to filter by."
 msgstr "Πρέπει να επιλέξετε μια έγκυρη κατηγορία."
 
 #: modules/dblog/dblog.module:21
-#, fuzzy
 msgid "The dblog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
-msgstr "Η μονάδα watchdog παρακολουθεί το σύστημά σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο. Αυτό είναι χρήσιμο για τους διαχειριστές που θέλουν να κάνουν μια γρήγορη επισκόπηση των δραστηριοτήτων στον ιστοτόπο τους. Στο ημερολόγιο συστήματος καταγράφεται επίσης η ακολουθία των συμβάντων, γι' αυτό μπορεί να φανεί χρήσιμο στην αντιμετώπιση σφαλμάτων του ιστοτόπου."
+msgstr ""
 
 #: modules/dblog/dblog.module:22
-#, fuzzy
 msgid "The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the dblog report on a regular basis to ensure their site is working properly."
-msgstr "Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές θα πρέπει να ελέγχουν τακτικά την αναφορά του watchdog για να βεβαιώνονται ότι ο ιστοτόπος λειτουργεί κανονικά."
+msgstr ""
 
 #: modules/dblog/dblog.module:23
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@dblog\">Dblog module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">σελίδα Blog</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
 #: modules/dblog/dblog.module:26
-#, fuzzy
 msgid "The dblog module monitors your website, capturing system events in a log to be reviewed by an authorized individual at a later time. The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the dblog report on a regular basis as it is often the only way to tell what is going on."
-msgstr "Η μονάδα watchdog παρακολουθεί τον ιστοτόπο σας, συλλαμβάνοντας συμβάντα του συστήματος σε ένα ημερολόγιο το οποίο μπορεί να διαβάσει αργότερα ένα εξουσιοδοτημένο άτομο. Το ημερολόγιο του watchdog είναι απλώς μια λίστα καταγραμμένων συμβάντων που περιέχει δεδομένα για τη χρήση, δεδομένα για την απόδοση, σφάλματα, προειδοποιήσεις και λειτουργικές πληροφορίες. Είναι ζωτικός ο τακτικός έλεγχος της αναφοράς του watchdog, αφού συχνά είναι ο μόνος τρόπος για να διαπιστωθεί τι συμβαίνει."
+msgstr ""
 
 #: modules/dblog/dblog.module:47
 msgid "Settings for logging to the Drupal database logs. This is the most common method for small to medium sites on shared hosting. The logs are viewable from the admin pages."

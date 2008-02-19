@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -23,9 +24,8 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: modules/ping/ping.module:15
-#, fuzzy
 msgid "The ping module is useful for notifying interested sites that your site has changed. It automatically sends notifications, or \"pings\", to the <a href=\"@external-http-pingomatic-com\">pingomatic</a> service about new or updated content. In turn, <a href=\"@external-http-pingomatic-com\">pingomatic</a> notifies other popular services, including weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, and Moreover."
-msgstr "Η μονάδα ping χρησιμεύει για να ειδοποιούνται οι ενδιαφερόμενοι ιστοτόποι ότι ο ιστοτόπος σας έχει αλλάξει. Στέλνει αυτόματα ειδοποιήσεις (που ονομάζονται \"pings\") στην υπηρεσία <a href=\"@external-http-pingomatic-com\">pingomatic</a> για να δηλώσει ότι ο ιστοτόπος σας έχει αλλάξει. Το pingomatic, με τη σειρά του, στέλνει ping σε άλλες υπηρεσίες όπως τα weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover κλπ."
+msgstr ""
 
 #: modules/ping/ping.module:16
 msgid "The ping module requires a correctly configured <a href=\"@cron\">cron maintenance task</a>."
@@ -34,7 +34,7 @@ msgstr ""
 #: modules/ping/ping.module:17
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@ping\">Ping module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@ping\">σελίδα Ping</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
 #: modules/ping/ping.module:55
 msgid "directory ping"

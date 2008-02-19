@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -30,9 +31,8 @@ msgstr[1] "@count ψήφοι"
 
 #: modules/poll/poll-results-block.tpl.php:26
 #: modules/poll/poll-results.tpl.php:24
-#, fuzzy
 msgid "Total votes: @votes"
-msgstr "Σύνολο ψήφων: %votes"
+msgstr ""
 
 #: modules/poll/poll.pages.inc:20
 msgid "open"
@@ -43,18 +43,16 @@ msgid "closed"
 msgstr "έχει κλείσει"
 
 #: modules/poll/poll.pages.inc:32
-#, fuzzy
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
-msgstr "Αυτή η λίστα καταγράφει όλες τις ψήφους για αυτή την ψηφοφορία. Αν ένας ανώνυμος χρήστης επιτρέπεται να ψηφίσει, θα αναγνωρίζεται από την IP του υπολογιστή που χρησιμοποίησε για να ψηφίσει."
+msgstr ""
 
 #: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
 msgid "Vote"
 msgstr "Ψήφος"
 
 #: modules/poll/poll.module:16
-#, fuzzy
 msgid "The poll module can be used to create simple polls for site users. A poll is a simple, multiple choice questionnaire which displays the cumulative results of the answers to the poll. Having polls on the site is a good way to receive feedback from community members."
-msgstr "Η μονάδα poll μπορεί να χρησιμοποιηθεί για τη δημιουργία απλών ψηφοφοριών για τους χρήστες του ιστοτόπου. Ψηφοφορία είναι ένα απλό ερωτηματολόγιο πολλαπλής επιλογής το οποίο εμφανίζει τα αθροιστικά αποτελέσματα των απαντήσεων. Οι ψηφοφορίες σε έναν ιστοτόπο είναι ένας καλός τρόπος για να παίρνετε άμεσα τη γνώμη των μελών της κοινότητας."
+msgstr ""
 
 #: modules/poll/poll.module:17
 msgid "When creating a poll, enter the question being posed, as well as the potential choices (and beginning vote counts for each choice). The status and duration (length of time the poll remains active for new votes) can also be specified. Use the <a href=\"@poll\">poll</a> menu item to view all current polls. To vote in or view the results of a specific poll, click on the poll itself."
@@ -63,7 +61,7 @@ msgstr ""
 #: modules/poll/poll.module:18
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@poll\">Poll module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@poll\">σελίδα Poll</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@color\">μονάδα color</a>."
 
 #: modules/poll/poll.module:133
 msgid "Most recent poll"
@@ -78,14 +76,12 @@ msgid "Question"
 msgstr "Ερώτηση"
 
 #: modules/poll/poll.module:237
-#, fuzzy
 msgid "More choices"
-msgstr "Χρειάζονται περισσότερες επιλογές"
+msgstr ""
 
 #: modules/poll/poll.module:238
-#, fuzzy
 msgid "If the amount of boxes above isn't enough, click here to add more choices."
-msgstr "Αν ο αριθμός των παραπάνω πλαισίων δεν αρκεί, επιλέξτε αυτό το κουτάκι και πατήστε στο κουμπί Δοκιμή εμφάνισης παρακάτω για να προσθέσετε μερικά ακόμα."
+msgstr ""
 
 #: modules/poll/poll.module:251
 msgid "Closed"
@@ -94,7 +90,7 @@ msgstr "Έχει κλείσει"
 #: modules/poll/poll.module:257
 #, fuzzy
 msgid "Poll settings"
-msgstr "Γενικές ρυθμίσεις"
+msgstr "Επιλογές δημοσιεύσεων"
 
 #: modules/poll/poll.module:263
 msgid "Poll status"
@@ -153,14 +149,13 @@ msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
 #: modules/poll/poll.module:672
-#, fuzzy
 msgid "Add another choice"
-msgstr "Χρειάζονται περισσότερες επιλογές"
+msgstr ""
 
 #: modules/poll/poll.module:676
 #, fuzzy
 msgid "Choice"
-msgstr "Επιλογές"
+msgstr "Επιλογή @n"
 
 #: modules/poll/poll.module:677
 msgid "Vote count"
@@ -173,27 +168,27 @@ msgstr "Ακύρωση της ψήφου σας"
 #: modules/poll/poll.module:57
 #, fuzzy
 msgid "create poll content"
-msgstr "δημιουργία ύλης σελίδας"
+msgstr "Υποβολή ύλης"
 
 #: modules/poll/poll.module:57
 #, fuzzy
 msgid "delete own poll content"
-msgstr "τροποποίηση δικών τους σελίδων"
+msgstr "διαγραφή ιδίων καταχωρίσεων ιστολογίου"
 
 #: modules/poll/poll.module:57
 #, fuzzy
 msgid "delete any poll content"
-msgstr "Διαγραφή τύπου ύλης"
+msgstr "διαγραφή οποιασδήποτε καταχώρισης ιστολογίου"
 
 #: modules/poll/poll.module:57
 #, fuzzy
 msgid "edit any poll content"
-msgstr "τροποποίηση δικών τους σελίδων"
+msgstr "τροποποίηση οποιονδήποτε καταχωρίσεων ιστολογίου"
 
 #: modules/poll/poll.module:57
 #, fuzzy
 msgid "edit own poll content"
-msgstr "τροποποίηση δικών τους σελίδων"
+msgstr "τροποποίηση ιδίων καταχωρίσεων ιστολογίου"
 
 #: modules/poll/poll.module:57
 msgid "vote on polls"
@@ -247,12 +242,12 @@ msgstr "Επιστρέφει πληροφορίες για μια συγκεκρ
 #: modules/poll/poll.install:58
 #, fuzzy
 msgid "Unique identifier for a poll choice."
-msgstr "Δεν δώσατε έγκυρη επιλογή για την ψηφοφορία."
+msgstr "Μοναδικό προσδιοριστικό για το αντικείμενο ροής."
 
 #: modules/poll/poll.install:65
 #, fuzzy
 msgid "The {node}.nid this choice belongs to."
-msgstr "Η μητρική σελίδα στην οποία ανήκει αυτή η σελίδα."
+msgstr "Το {node}.nid της καταχώρισης."
 
 #: modules/poll/poll.install:72
 msgid "The text for this choice."

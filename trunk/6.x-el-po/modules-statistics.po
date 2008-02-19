@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -105,9 +106,8 @@ msgid "Discard access logs older than"
 msgstr "Διαγραφή συμβάντων ημερολογίου παλιότερων από"
 
 #: modules/statistics/statistics.admin.inc:201
-#, fuzzy
 msgid "Older access log entries (including referrer statistics) will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
-msgstr "Οι παλιότερες εγγραφές του ημερολογίου επισκέψεων (μαζί με τα στατιστικά στοιχεία των παραπομπών) θα διαγράφονται αυτόματα. Απαιτεί το crontab."
+msgstr ""
 
 #: modules/statistics/statistics.admin.inc:206
 msgid "Content viewing counter settings"
@@ -122,9 +122,8 @@ msgid "Increment a counter each time content is viewed."
 msgstr "Να αυξάνεται ένας μετρητής κάθε φορά που διαβάζεται ύλη."
 
 #: modules/statistics/statistics.module:15
-#, fuzzy
 msgid "The statistics module keeps track of numerous site usage statistics, including the number of times, and from where, each of your posts is viewed. These statistics are useful in determining how users are interacting with each other and with your site, and are required for the display of some Drupal blocks."
-msgstr "Η μονάδα statistics παρακολουθεί διάφορα στατιστικά στοιχεία της χρήσης του ιστοτόπου. Καταμετρά πόσες φορές και από πού διαβάζεται κάθε καταχώρισή σας. Μπορείτε να χρησιμοποιήσετε τη μονάδα statistics για να μάθετε πολλά χρήσιμα στοιχεία για το πώς οι χρήστες αλληλεπιδρούν μεταξύ τους και με τον ιστοτόπο σας."
+msgstr ""
 
 #: modules/statistics/statistics.module:16
 msgid "The statistics module provides:"
@@ -173,26 +172,23 @@ msgstr ""
 #: modules/statistics/statistics.module:27
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@statistics\">Statistics module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@statistics\">σελίδα Statistics</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα Contact</a>."
 
 #: modules/statistics/statistics.module:30
 msgid "Settings for the statistical information that Drupal will keep about the site. See <a href=\"@statistics\">site statistics</a> for the actual information."
 msgstr "Ρυθμίσεις για τα στατιστικά στοιχεία που θα τηρεί το Drupal για τον ιστοτόπο σας. Ανατρέξτε στη σελίδα <a href=\"@statistics\">των στατιστικών στοιχείων</a> για τα ίδια τα στοιχεία."
 
 #: modules/statistics/statistics.module:32
-#, fuzzy
 msgid "This page displays the site's most recent hits."
-msgstr "Αυτή η σελίδα προβάλλει τις πιο πρόσφατες εμφανίσεις ιστοσελίδων του δικτυακού τόπου."
+msgstr ""
 
 #: modules/statistics/statistics.module:34
-#, fuzzy
 msgid "This page displays all external referrers, or external references to your website."
-msgstr "Αυτή η σελίδα προβάλλει όλους τους εξωτερικούς παραπέμπτες. Έιναι σύνδεσμοι από ιστοσελίδες στο διαδίκτυο που \"δείχνουν\" στον ιστοτόπο σας."
+msgstr ""
 
 #: modules/statistics/statistics.module:36
-#, fuzzy
 msgid "When you ban a visitor, you prevent the visitor's IP address from accessing your site. Unlike blocking a user, banning a visitor works even for anonymous users. This is most commonly used to block resource-intensive bots or web crawlers."
-msgstr "Όταν απαγορεύετε έναν επισκέπτη, απαγορεύετε στη διεύθυνση IP του την πρόσβαση στον ιστοτόπο σας. Αντίθετα με τον αποκλεισμό ενός λογαριασμού χρήστη, η απαγόρευση ενός επισκέπτη λειτουργεί ακόμα και για τους ανώνυμους. Η πιο συνηθισμένη χρήση αυτής της δυνατότητας είναι η απαγόρευση των bot ή των προγραμμάτων συλλογής ιστού που καταναλώνουν πάρα πολλούς πόρους."
+msgstr ""
 
 #: modules/statistics/statistics.module:246;288
 msgid "Popular content"
@@ -299,7 +295,7 @@ msgstr "στατιστικά"
 #: modules/statistics/statistics.install:52
 #, fuzzy
 msgid "Stores site access information for statistics."
-msgstr "Να καταγράφεται κάθε επίσκεψη σε σελίδα. Απαραίτητο για τα στατιστικά των παραπεμπτών."
+msgstr "Αποθηκεύει πληροφορίες σχετικά με τον όρο."
 
 #: modules/statistics/statistics.install:57
 msgid "Primary Key: Unique accesslog ID."
@@ -312,7 +308,7 @@ msgstr ""
 #: modules/statistics/statistics.install:70
 #, fuzzy
 msgid "Title of page visited."
-msgstr "Παρακολούθηση επισκέψεων σελίδων"
+msgstr "Το όνομα της ροής."
 
 #: modules/statistics/statistics.install:76
 msgid "Internal path to page visited (relative to Drupal root.)"
@@ -321,7 +317,7 @@ msgstr ""
 #: modules/statistics/statistics.install:82
 #, fuzzy
 msgid "Referrer URI."
-msgstr "Παραπέμπτης"
+msgstr "Παραπέμφθηκε από"
 
 #: modules/statistics/statistics.install:88
 msgid "Hostname of user that visited the page."

@@ -1,17 +1,18 @@
-# translation of modules-upload.po to Greek
+# translation of general.po to Greek
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 #
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-upload\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
-"PO-Revision-Date: 2008-02-08 00:35+0200\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,59 +143,59 @@ msgstr "Οι χρήστες με την <a href=\"@permissions\">άδεια απ
 msgid "Read full article to view attachments."
 msgstr "Ανάγνωση ολόκληρου του άρθρου για την προβολή των συνημμένων."
 
-#: modules/upload/upload.module:220
+#: modules/upload/upload.module:212
 msgid "Attachments"
 msgstr "Συνημμένα"
 
-#: modules/upload/upload.module:233
+#: modules/upload/upload.module:225
 msgid "File attachments"
 msgstr "Συνημμένα αρχεία"
 
-#: modules/upload/upload.module:236
+#: modules/upload/upload.module:228
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
 msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι την αποθήκευση της δημοσίευσης. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στις ροές RSS."
 
-#: modules/upload/upload.module:254
+#: modules/upload/upload.module:246
 msgid "File attachments are disabled. The file directories have not been properly configured."
 msgstr "Η επισύναψη αρχείων είναι ανενεργή. Οι φάκελοι αρχείων δεν έχουν ρυθμιστεί σωστά."
 
-#: modules/upload/upload.module:256
+#: modules/upload/upload.module:248
 msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
 msgstr "Επισκεφτείτε την σελίδα <a href=\"@admin-file-system\">ρυθμίσεις αρχείων συστήματος</a>."
 
-#: modules/upload/upload.module:259
+#: modules/upload/upload.module:251
 msgid "Please contact the site administrator."
 msgstr "Απευθυνθείτε στο διαχειριστή του ιστοτόπου."
 
-#: modules/upload/upload.module:361
+#: modules/upload/upload.module:353
 msgid "Attachment"
 msgstr "Συνημμένο"
 
-#: modules/upload/upload.module:361;544
+#: modules/upload/upload.module:353;530
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: modules/upload/upload.module:516
+#: modules/upload/upload.module:502
 msgid "Attach new file"
 msgstr "Επισύναψη νέου αρχείου"
 
-#: modules/upload/upload.module:518
+#: modules/upload/upload.module:504
 msgid "Images are larger than %resolution will be resized. "
 msgstr "Εικόνες μεγαλύτερες σε διάσταση από %resolution θα μειωθεί η διάστασή τους."
 
-#: modules/upload/upload.module:518
+#: modules/upload/upload.module:504
 msgid "The maximum upload size is %filesize. Only files with the following extensions may be uploaded: %extensions. "
 msgstr "Το μέγιστο μέγεθος αρχείου αποστολής είναι %filesize. Μόνο αρχεία με τις ακόλουθες επεκτάσεις μπορούν να αποσταλλούν: %extensions."
 
-#: modules/upload/upload.module:522
+#: modules/upload/upload.module:508
 msgid "Attach"
 msgstr "Επισύναψη"
 
-#: modules/upload/upload.module:527
+#: modules/upload/upload.module:513
 msgid "Please wait..."
 msgstr "Παρακαλώ περιμένετε..."
 
-#: modules/upload/upload.module:65;326
+#: modules/upload/upload.module:65;318
 msgid "1 attachment"
 msgid_plural "@count attachments"
 msgstr[0] "1 συνημμένο"
@@ -220,31 +221,30 @@ msgstr "Έλεγχος του πώς θα επισυνάπτονται τα αρ
 msgid "upload"
 msgstr "αποστολή"
 
-#: modules/upload/upload.install:25
+#: modules/upload/upload.install:29
 msgid "Stores uploaded file information and table associations."
 msgstr "Αποθηκεύει τις πληροφορίες για τα απεσταλθέντα αρχεία και τις συσχετίσεις πινάκων."
 
-#: modules/upload/upload.install:32
+#: modules/upload/upload.install:36
 msgid "Primary Key: The {files}.fid."
 msgstr "Πρωτεύον Κλειδί: Το {files}.fid."
 
-#: modules/upload/upload.install:39
+#: modules/upload/upload.install:43
 msgid "The {node}.nid associated with the uploaded file."
 msgstr "Το {node}.nid που είναι συσχετισμένο με το απεσταλθέν αρχείο."
 
-#: modules/upload/upload.install:46
+#: modules/upload/upload.install:50
 msgid "Primary Key: The {node}.vid associated with the uploaded file."
 msgstr "Πρωτεύον Κλειδί: Το {node}.vid που είναι συσχετισμένο με το απεσταλθέν αρχείο."
 
-#: modules/upload/upload.install:53
+#: modules/upload/upload.install:57
 msgid "Description of the uploaded file."
 msgstr "Περιγραφή του απεσταλθέντος αρχείου."
 
-#: modules/upload/upload.install:61
+#: modules/upload/upload.install:65
 msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
 msgstr "Αν το αρχείο πρέπει να εμφανίζεται σε λίστα στον κόμβο: ναι (1) ή όχι (0)."
 
-#: modules/upload/upload.install:68
+#: modules/upload/upload.install:72
 msgid "Weight of this upload in relation to other uploads in this node."
 msgstr "Το βάρος του συνημμένου σε σχέση με τα άλλα συνημμένα αυτού του κόμβου."
-

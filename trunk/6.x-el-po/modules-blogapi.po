@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -27,9 +28,8 @@ msgid "The Blog API module allows your site's users to access and post to their 
 msgstr ""
 
 #: modules/blogapi/blogapi.module:16
-#, fuzzy
 msgid "<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS X and Microsoft Windows, can be used with Blog API. Blog API also supports <a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr\">Flickr's</a> \"post to blog\") that support these APIs may also be compatible."
-msgstr "Όταν αυτή η μοναδα ενεργοποιηθεί και ρυθμιστεί, μπορείτε να χρησιμοποιείτε προγράμματα όπως το <a href=\"@external-http-ecto-kung-foo-tv\">Ecto</a> για να γράφετε και να δημοσιεύετε από την επιφάνεια εργασίας σας. Η μονάδα blogapi υποστηρίζει πολλά API ιστολογίων βασισμένα σε XML-RPC, όπως το <a href=\"@-\">Blogger API</a>, το <a href=\"@external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a> και το μεγαλύτερο μέρος του <a href=\"@external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Οποιαδήποτε εργαλεία ιστολογίων ή άλλες υπηρεσίες (π.χ. το \"post to blog\" του <a href=\"@external-http-www-flickr-com\">Flickr</a>) που υποστηρίζουν αυτά τα API πιθανόν να λειτουργούν και στον ιστοτόπο σας."
+msgstr ""
 
 #: modules/blogapi/blogapi.module:17
 msgid "Select the content types available to external clients on the <a href=\"@blogapi-settings\">Blog API settings page</a>. If supported and available, each content type will be displayed as a separate \"blog\" by the external client."
@@ -38,12 +38,12 @@ msgstr ""
 #: modules/blogapi/blogapi.module:18
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@blogapi\">Blog API module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blogapi\">σελίδα BlogApi</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
 #: modules/blogapi/blogapi.module:39
 #, fuzzy
 msgid "Returns a list of blogs to which an author has posting privileges."
-msgstr "Επιστρέφει μία λίστα των ιστολογίων στα οποία ένας συντάκτης έχει δικαίωμα να υποβάλλει ύλη."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει ταξινομηθεί η καταχώριση."
 
 #: modules/blogapi/blogapi.module:44
 msgid "Returns information about an author in the system."
@@ -88,7 +88,7 @@ msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων 
 #: modules/blogapi/blogapi.module:109
 #, fuzzy
 msgid "Returns a list of all categories defined in the blog."
-msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών που ορίζονται στο ιστολόγιο."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες έχει ταξινομηθεί η καταχώριση."
 
 #: modules/blogapi/blogapi.module:119
 msgid "Sets the categories for a post."
@@ -103,74 +103,76 @@ msgid "Retrieve information about the text formatting plugins supported by the s
 msgstr "Ανάκτηση πληροφοριών για τα πρόσθετα μορφοποίησης κειμένου που υποστηρίζονται από το διακομιστή."
 
 #: modules/blogapi/blogapi.module:134
-#, fuzzy
 msgid "Publish (rebuild) all of the static files related to an entry from your blog. Equivalent to saving an entry in the system (but without the ping)."
-msgstr "Δημοσίευση (ανακατασκευή) όλων των στατικών αρχείων που σχετίζονται με μια καταχώριση από το ιστολόγιό σας. Ισοδυναμεί με την αποθήκευση μιας καταχώρισης του συστήματος (αλλά χωρίς το ping)."
+msgstr ""
 
-#: modules/blogapi/blogapi.module:211
+#: modules/blogapi/blogapi.module:216
 #, fuzzy
 msgid "You do not have permission to create this type of post."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:233;288
+#: modules/blogapi/blogapi.module:238;293
 msgid "Error storing post."
 msgstr "Σφάλμα στην αποθήκευση της καταχώρισης."
 
-#: modules/blogapi/blogapi.module:255;489
+#: modules/blogapi/blogapi.module:260;502
 msgid "You do not have permission to update this post."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:369
+#: modules/blogapi/blogapi.module:378
 msgid "No file sent."
 msgstr "Δεν στάλθηκε κανένα αρχείο."
 
-#: modules/blogapi/blogapi.module:373
+#: modules/blogapi/blogapi.module:382
 msgid "Error storing file."
 msgstr "Σφάλμα στην αποθήκευση αρχείου."
 
-#: modules/blogapi/blogapi.module:484
+#: modules/blogapi/blogapi.module:497
 msgid "Invalid post."
 msgstr "Μη έγκυρη καταχώριση."
 
-#: modules/blogapi/blogapi.module:524
+#: modules/blogapi/blogapi.module:537
 #, fuzzy
 msgid "You do not have permission to edit this blog."
 msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
 
-#: modules/blogapi/blogapi.module:528
+#: modules/blogapi/blogapi.module:541
 msgid "Wrong username or password."
 msgstr "Λάθος όνομα χρήστη ή συνθηματικό."
 
-#: modules/blogapi/blogapi.module:551
+#: modules/blogapi/blogapi.module:564
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:555
+#: modules/blogapi/blogapi.module:568
 msgid "Select the content types available to external blogging clients via Blog API. If supported, each enabled content type will be displayed as a separate \"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:584;563
+#: modules/blogapi/blogapi.module:597;576
 msgid "RSD"
 msgstr "RSD"
 
-#: modules/blogapi/blogapi.module:228
+#: modules/blogapi/blogapi.module:715
+msgid "Blog API module is not configured to support the %type content type, or you don't have sufficient permissions to post this type of content."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:233
 msgid "@type: added %title using blog API."
 msgstr "@type: προστέθηκε το %title με χρήση του API ιστολογίων."
 
-#: modules/blogapi/blogapi.module:284
+#: modules/blogapi/blogapi.module:289
 #, fuzzy
 msgid "@type: updated %title using Blog API."
-msgstr "@type: ενημερώθηκε το %title με χρήση του API ιστολογίων."
+msgstr "@type: προστέθηκε το %title με χρήση του API ιστολογίων."
 
 #: modules/blogapi/blogapi.module:27
 #, fuzzy
 msgid "administer content with blog api"
 msgstr "διαχείριση τύπων ύλης"
 
-#: modules/blogapi/blogapi.module:570
-#, fuzzy
+#: modules/blogapi/blogapi.module:583
 msgid "Configure the content types available to external blogging clients."
-msgstr "Ρύθμιση των τύπων περιεχομένου και των μηχανισμών που μπορούν να χρησιμοποιούν εξωτερικοί πελάτες ιστολογίων."
+msgstr ""
 
 #: modules/blogapi/blogapi.module:0
 msgid "blogapi"

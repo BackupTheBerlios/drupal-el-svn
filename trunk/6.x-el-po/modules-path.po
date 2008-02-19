@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -63,7 +64,7 @@ msgstr "Δημιουργία νέου ψευδωνύμου"
 #: modules/path/path.admin.inc:139
 #, fuzzy
 msgid "The alias %alias is already in use in this language."
-msgstr "Το ψευδώνυμο %alias χρησιμοποιείται ήδη."
+msgstr "To domain (%domain) είναι ήδη δεσμευμένο σε μια γλώσσα (%language)."
 
 #: modules/path/path.admin.inc:154
 msgid "The alias has been saved."
@@ -101,24 +102,21 @@ msgstr ""
 "</ul>\n"
 
 #: modules/path/path.module:24
-#, fuzzy
 msgid "The path module enables appropriately permissioned users to specify an optional alias in all node input and editing forms, and provides an interface to view and edit all URL aliases. The two permissions related to URL aliasing are <em>administer url aliases</em> and <em>create url aliases</em>. "
-msgstr "Η μονάδα path κάνει διαθέσιμο ένα πρόσθετο πεδίο για ψευδώνυμα σε όλες τις φόρμες υποβολής και τροποποίησης ύλης (όταν οι χρήστες έχουν τις κατάλληλες άδειες). Παρέχει επίσης μια διεπαφή χρήστη για να βλέπετε και να τροποποιείτε όλα τα ψευδώνυμα των διευθύνσεων URL. Οι δύο άδειες που σχετίζονται με τα ψευδώνυμα των διευθύνσεων URL είναι η διαχείριση της λίστας ψευδωνύμων URL και η δημιουργία ψευδωνύμων URL."
+msgstr ""
 
 #: modules/path/path.module:25
-#, fuzzy
 msgid "This module also provides user-defined mass URL aliasing capabilities, which is useful if you wish to uniformly use URLs different from the default. For example, you may want to have your URLs presented in a different language. Access to the Drupal source code on the web server is required to set up mass URL aliasing. "
-msgstr "Η μονάδα path παρέχει επίσης τη δυνατότητα για οριζόμενη από το χρήστη μαζική δημιουργία ψευδωνύμων URL, που είναι χρήσιμη αν θέλετε να χρησιμοποιείτε ομοιόμορφα URL διαφορετικές από τις αρχικές. Για παράδειγμα, μπορεί να θέλετε να κάνετε τις διευθύνσεις URL σας να παρουσιάζονται σε διαφορετική γλώσσα. Για να διευθετήσετε τέτοιου είδους ψευδώνυμα, πρέπει να έχετε πρόσβαση στον πηγαίο κώδικα του Drupal στο διακομιστή ιστοσελίδων."
+msgstr ""
 
 #: modules/path/path.module:26
 #, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@path\">Path module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα contact</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@contact\">μονάδα Contact</a>."
 
 #: modules/path/path.module:29
-#, fuzzy
 msgid "Drupal provides complete control over URLs through aliasing, which is often used to make URLs more readable or easy to remember. For example, the alias 'about' may be mapped onto the post at the system path 'node/1', creating a more meaningful URL. Each system path can have multiple aliases."
-msgstr "Το Drupal παρέχει στους χρήστες πλήρη έλεγχο των διευθύνσεων URL με τη χρήση ψευδωνύμων. Η δυνατότητα αυτή χρησιμοποιείται συνήθως για να γίνουν οι διευθύνσεις URL ανθρωπίνως αναγνώσιμες ή να απομνημονεύονται εύκολα. Για παράδειγμα, θα μπορούσε κανείς να αντιστοιχίσει τη σχετική διεύθυνση URL 'node/1' στην 'about'. Κάθε διαδρομή του συστήματος μπορεί να έχει πολλά ψευδώνυμα."
+msgstr ""
 
 #: modules/path/path.module:31
 msgid "Enter the path you wish to create the alias for, followed by the name of the new alias."
@@ -128,23 +126,23 @@ msgstr "Εισάγετε τη διαδρομή για την οποία θέλε
 msgid "The alias has been deleted."
 msgstr "Το ψευδώνυμο διαγράφηκε."
 
-#: modules/path/path.module:139
+#: modules/path/path.module:140
 msgid "The path is already in use."
 msgstr "Η διαδρομή χρησιμοποιείται ήδη."
 
-#: modules/path/path.module:181
+#: modules/path/path.module:182
 msgid "URL path settings"
 msgstr "Ρυθμίσεις διαδρομής URL"
 
-#: modules/path/path.module:193
+#: modules/path/path.module:194
 msgid "Optionally specify an alternative URL by which this node can be accessed. For example, type \"about\" when writing an about page. Use a relative path and don't add a trailing slash or the URL alias won't work."
 msgstr "Προαιρετικά, ορίστε μια εναλλακτική διεύθυνση URL με την οποία θα μπορεί να προσπελάζεται αυτός ο κόμβος. Για παράδειγμα, πληκτρολογήστε \"about\" αν γράφετε μια σελίδα τύπου about. Χρησιμοποιήστε σχετική διαδρομή και μην προσθέσετε διαχωριστική κάθετη στο τέλος, αλλιώς το ψευδώνυμο της διαδρομής URL δε θα λειτουργεί."
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "create url aliases"
 msgstr "δημιουργία ψευδωνύμων url"
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "administer url aliases"
 msgstr "διαχείριση ψευδωνύμων url"
 

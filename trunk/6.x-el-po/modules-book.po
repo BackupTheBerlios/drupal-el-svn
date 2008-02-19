@@ -5,10 +5,11 @@
 #
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
@@ -202,39 +203,39 @@ msgstr "δημιουργία νέου βιβλίου"
 msgid "Your page will be a part of the selected book."
 msgstr "Η δημοσίευση σας αυτή θα γίνει μέρος του επιλεγμένου βιβλίου."
 
-#: modules/book/book.module:759
+#: modules/book/book.module:763
 msgid "%title is part of a book outline, and has associated child pages. If you proceed with deletion, the child pages will be relocated automatically."
 msgstr "Η δημοσίευση με τίτλο %title είναι μέρος της διάρθρωσης ενός βιβλίου και έχει θυγατρικές σελίδες. Αν επιβεβαιώσετε την διαγραφή οι θυγατρικές σελίδες θα μεταφερθούν αυτόματα."
 
-#: modules/book/book.module:1002
+#: modules/book/book.module:1006
 msgid "The book module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book, placing them into the existing document by adding them to a table of contents menu."
 msgstr "Η μονάδα βιβλίου είναι κατάλληλη για τη δημιουργία δομημένου πολυσέλιδου υπερκειμένου οι οδηγοί περιεχομένων ενός ιστοχώρου, τα εγχειρίδια και οι \"συχνές ερωτήσεις\" (FAQs). Επιτρέπει σε ένα έγγραφο να διαιρείται σε κεφάλαια, ενότητες, υποενότητες κ.λπ. Οι συντάκτες με τις κατάλληλα δικαιώματα μπορούν να προσθέτουν σελίδες σε ένα συνεργατικό βιβλίο, τοποθετώντας τις στο υπάρχον έγγραφο με την προσθήκη τους σε ένα μενού πίνακα περιεχομένων."
 
-#: modules/book/book.module:1003
+#: modules/book/book.module:1007
 msgid "Pages in the book hierarchy have navigation elements at the bottom of the page for moving through the text. These links lead to the previous and next pages in the book, and to the level above the current page in the book's structure. More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">blocks administration page</a>."
 msgstr "Τα βιβλία έχουν εργαλεία πλοήγησης στο κάτω μέρος κάθε σελίδας για τη πλοήγηση μέσα στο κείμενο. Αυτά οδηγούν στις προηγούμενες και επόμενες σελίδες του βιβλίου, όπως επίσης και στις μητρικές σελίδες μέσω του συνδέσμου <em>επάνω</em>. Πρόσθετες δυνατότητες πλοήγησης μπορεί να γίνουν διαθέσιμες αν ενεργοποιήσετε το <em>μπλοκ πλοήγησης βιβλίων</em> από τη <a href=\"@admin-block\">σελίδα διαχείρισης των μπλοκ</a>."
 
-#: modules/book/book.module:1004
+#: modules/book/book.module:1008
 msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "
 msgstr "Οι χρήστες μπορούν να επιλέγουν την παραπομπή <em>εκτυπώσιμη μορφή</em> που εμφανίζεται στο κάτω μέρος μιας σελίδας βιβλίου, για την προβολή μιας κατάλληλης για εκτύπωση μορφής της σελίδας και όλων των υποενοτήτων της."
 
-#: modules/book/book.module:1005
+#: modules/book/book.module:1009
 msgid "Users with the <em>administer book outlines</em> permission can add a post of any content type to a book, by selecting the appropriate book while editing the post or by using the interface available on the post's <em>outline</em> tab."
 msgstr "Οι χρήστες με δικαιώματα <em>διαχείρισης διάθρωσης βιβλίων</em> μπορούν να προσθέτουν δημοσιεύσεις οποιουδήποτε τύπου ύλης στο βιβλίο, επιλέγοντας το κατάλληλο βιβλίο όταν επεξεργάζονται μια δημοσίευση ή χρησιμοποιώντας τα εργαλεία στην <em>καρτέλα</em> διάρθρωσης της δημοσίευσης."
 
-#: modules/book/book.module:1006
+#: modules/book/book.module:1010
 msgid "Administrators can view a list of all books on the <a href=\"@admin-node-book\">book administration page</a>. The <em>Outline</em> page for each book allows section titles to be edited or rearranged."
 msgstr "Οι διαχειριστές μπορούν να δουν τη λίστα με όλα τα βιβλία στη <a href=\"@admin-node-book\">σελίδα διαχείρισης βιβλίων</a>. Η <em>Διάρθρωση</em> της σελίδας για κάθε βιβλίο επιτρέπει την επεξεργασία τίτλων των διάφορων ενοτήτων και την αναδιάταξή τους μέσα στη δομή του βιβλίου."
 
-#: modules/book/book.module:1007
+#: modules/book/book.module:1011
 msgid "For more information, see the online handbook entry for <a href=\"@book\">Book module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@book\">μονάδα Βιβλίου</a>."
 
-#: modules/book/book.module:1010
+#: modules/book/book.module:1014
 msgid "The book module offers a means to organize a collection of related posts, collectively known as a book. When viewed, these posts automatically display links to adjacent book pages, providing a simple navigation system for creating and reviewing structured content."
 msgstr "Η μονάδα βιβλίου προσφέρει τη δυνατότητα οργάνωσης μιας ομάδας δημοσιεύσεων, που θεωρούνται μέρη ενός βιβλίου. Η άποψη των δημοσιεύσεων αυτόματα προσθέτει παραπομπές για κοντινές στη συγκεκριμένη δημοσίευση σελίδες του βιβλίου, προσφέροντας ένα απλό σύστημα πλοήγησης για τη δημιουργία και επεξεργασία δομημένου περιεχομένου."
 
-#: modules/book/book.module:1012
+#: modules/book/book.module:1016
 msgid "The outline feature allows you to include posts in the <a href=\"@book\">book hierarchy</a>, as well as move them within the hierarchy or to <a href=\"@book-admin\">reorder an entire book</a>."
 msgstr "Η λειτουργία της διάρθρωσης επιτρέπει την επισύναψη δημοσιεύσεων στην <a href=\"@book\">ιεραρχία βιβλίων</a>, τη μεταφορά τους από το ένα σημείο στο άλλο μέσα στην ιεραρχία αλλά και την <a href=\"@book-admin\">ανακατάταξη ολόκληρης της ιεραρχίας</a>."
 
