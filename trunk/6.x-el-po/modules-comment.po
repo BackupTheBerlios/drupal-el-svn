@@ -12,6 +12,9 @@ msgstr ""
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2008-01-13 23:46+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"POT-Creation-Date: 2008-01-31 01:00+0100\n"
+"PO-Revision-Date: 2008-02-19 10:39+0200\n"
+"Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -389,15 +392,15 @@ msgstr "Καθώς ένα σχόλιο διαβάζεται από έναν πι
 
 #: modules/comment/comment.module:2022
 msgid "Unpublish comment"
-msgstr "Αποδημοσίευση σχολίου"
+msgstr "Άρση δημοσίευσης σχολίου"
 
 #: modules/comment/comment.module:2030
 msgid "Unpublish comment containing keyword(s)"
-msgstr "Αποδημοσίευση σχολίου που περιέχει τις λέξεις κλειδί"
+msgstr "Άρση δημοσίευσης σχολίου που περιέχει τις λέξεις κλειδί"
 
 #: modules/comment/comment.module:2070
 msgid "The comment will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
-msgstr "Το σχόλιο θα αποδημοσιευτεί εαν περιέχει κάποια από τις παραπάνω ακολουθίες χαρακτήρων. Χρησιμοποιήστε μια λίστα ακολουθιών χαρακτήρων διαχωρισμένη με κόμματα. Για παράδειγμα: αστείο, άλμα με σκοινί, \"Εταιρία Α.Ε.\". Οι ακολουθίες χαρακτήρων είναι ευαίσθητες στα κεφαλαία-μικρά της γραμματοσειράς."
+msgstr "Θα γίνει άρση δημοσίευσης του σχολίου εαν περιέχει κάποια από τις παραπάνω ακολουθίες χαρακτήρων. Χρησιμοποιήστε μια λίστα ακολουθιών χαρακτήρων διαχωρισμένη με κόμματα. Για παράδειγμα: αστείο, άλμα με σκοινί, \"Εταιρία Α.Ε.\". Οι ακολουθίες χαρακτήρων είναι ευαίσθητες στα κεφαλαία-μικρά της γραμματοσειράς."
 
 #: modules/comment/comment.module:768
 msgid "Comment: added %subject."
@@ -405,7 +408,7 @@ msgstr "Σχόλιο: προστέθηκε το %subject."
 
 #: modules/comment/comment.module:2058;2098
 msgid "Unpublished comment %subject."
-msgstr "Αποδημοσιεύτηκε το σχόλιο %subject"
+msgstr "Έγινε άρση δημοσίευσης του σχολίου %subject"
 
 #: modules/comment/comment.module:428
 msgid "1 new comment"
