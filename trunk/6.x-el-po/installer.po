@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
+"X-Poedit-Basepath: D:\\work\\www\\root\\drupal-6.0-rc3\\modules\\\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: install.php:111
@@ -402,7 +402,7 @@ msgstr "Το !name δεν μπορεί να είναι μεγαλύτερο απ
 #: (duplicate) includes/form.inc:691 ;697
 #, fuzzy
 msgid "An illegal choice has been detected. Please contact the site administrator."
-msgstr "Απευθυνθείτε στο διαχειριστή του ιστοτόπου."
+msgstr "Ανιχνεύτηκε μη επιτρεπτή επιλογή. Επικοινωνήστε με το διαχειριστή του ιστοτόπου."
 
 #: (duplicate) includes/form.inc:2161
 msgid "This field is required."
@@ -430,7 +430,7 @@ msgstr "Παρουσιάστηκε σφάλμα."
 
 #: (duplicate) includes/form.inc:2482
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
-msgstr ""
+msgstr "Παρακαλώ μεταβείτε στη <a href=\"@error_url\">σελίδα σφαλμάτων</a>"
 
 #: includes/install.inc:237
 msgid "Failed to modify %settings, please verify the file permissions."
@@ -638,16 +638,16 @@ msgstr "Πλοήγηση"
 
 #: (duplicate) modules/menu/menu.install:12
 msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
-msgstr ""
+msgstr "Το μενού πλοήγησης παρέχεται από το Drupal και είναι το κύριο διαδραστικό μενού για κάθε ιστότοπο. Συνήθως είναι το μόνο μενού που περιλαμβάνει εξατομικευμένους συνδέσμους για τους πιστοποιημένους χρήστες, και συχνά δεν είναι καν ορατό στους ανώνυμους χρήστες."
 
 #: (duplicate) modules/menu/menu.install:13
 #, fuzzy
 msgid "Primary links"
-msgstr "Δευτερεύοντες σύνδεσμοι"
+msgstr "Πρωταρχικοί σύνδεσμοι"
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
-msgstr ""
+msgstr "Οι πρωταρχικοί σύνδεσμοι χρησιμοποιούνται συχνά στο επίπεδο της θεματικής παραλλαγής για να εμφανίσουν τις κύριες ενότητες ενός ιστοτόπου. Μια τυπική απεικόνηση για πρωταρχικούς συνδέσμους είναι ως καρτέλες στην κορυφή της σελίδας."
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links"
@@ -655,7 +655,7 @@ msgstr "Δευτερεύοντες σύνδεσμοι"
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
-msgstr "Οι δευτερεύοντες σύνδεσμοι συνήθως χρησιμοποιούνται για σελίδες όπως οι όροι χρήσης, οι πληροφορίες επικοινωνίας και άλλες δευτερεύουσας σημασίας σελίδες που είναι λιγότερο σημαντικές από τους πρωτεύοντες συνδέσμους"
+msgstr "Δευτερεύοντες σύνδεσμοι χρησιμοποιούνται συχνά για σελίδες όπως νομικές σημειώσεις, λεπτομέρειες επικοινωνίας, και άλλα δευτερεύοντα στοιχεία πλοήγησης που έχουν λιγότερο σημαντικό ρόλο απ'ότι οι πρωταρχικοί σύνδεσμοι"
 
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
@@ -857,3 +857,4 @@ msgstr "Ιστόρημα"
 #: profiles/default/default.profile:113
 msgid "A <em>story</em>, similar in form to a <em>page</em>, is ideal for creating and displaying content that informs or engages website visitors. Press releases, site announcements, and informal blog-like entries may all be created with a <em>story</em> entry. By default, a <em>story</em> entry is automatically featured on the site's initial home page, and provides the ability to post comments."
 msgstr "Ένα <em>ιστόρημα</em>, παρόμοιας μορφής με μια <em>σελίδα</em>, είναι ιδανικό για δημιουργία και προβολή περιεχομένου που ενημερώνει και προσελκύει επισκέπτες του ιστοχώρου. Ανακοινωθέντα τύπου, ανακοινώσεις του ιστοχώρου, και απλές καταχωρίσεις μορφής ιστολογήματος μπορούν να δημιουργηθούν με μια καταχώριση <em>ιστορήματος</em>. Εξ ορισμού, μια καταχώριση <em>ιστορήματος</em> εμφανίζεται στην αρχική σελίδα του ιστοχώρου και παρέχει τη δυνατότητα αναρτήσεως σχολίων."
+
