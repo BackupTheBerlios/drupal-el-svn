@@ -16,7 +16,7 @@
  - modules-help.po : 
  - modules-locale.po : Θανάσης Βέλιος - a.velios@gmail.com 
  - modules-menu.po : Θανάσης Βέλιος - a.velios@gmail.com
- - modules-node.po : 
+ - modules-node.po : Λούρδας Βασίλης - lourdas_v@yahoo.gr 
  - modules-openid.po : 
  - modules-path.po : 
  - modules-php.po : 
@@ -33,8 +33,8 @@
  - modules-translation.po : 
  - modules-trigger.po : 
  - modules-update.po : 
- - modules-upload.po* : Λούρδας Βασίλης lourdas_v@yahoo.gr
- - modules-user.po : Λούρδας Βασίλης lourdas_v@yahoo.gr
+ - modules-upload.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
+ - modules-user.po : Λούρδας Βασίλης - lourdas_v@yahoo.gr
  - themes-chameleon.po : 
  - themes-garland.po : 
  - themes-pushbutton.po : 
