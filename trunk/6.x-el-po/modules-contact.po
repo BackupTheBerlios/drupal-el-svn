@@ -197,7 +197,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/contact/contact.module:23
 msgid "This page lets you set up <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
-msgstr ""
+msgstr "Από τη σελίδα αυτή μπορείτε να διαμορφώσετε την <a href=\"@form\">κεντρική φόρμα επικοινωνίας</a> του ιστότοπου σας. Γι' αυτό το σκοπό, προσθέστε μία ή περισσότερες κατηγορίες. Μπορείτε να εισάγετε διαφορετικούς παραλήπτες σε κάθε κατηγορία, ώστε να δρομολογούνται τα e-mail σε διαφορετικά άτομα. Για παράδειγμα, μπορείτε να δρομολογήσετε παρατηρήσεις για τον ιστότοπο στον διαχειριστή και τα αιτήματα για πληροφορίες προϊόντων στο τμήμα πωλήσεων. Από τη <a href=\"@settings\">σελίδα ρυθμίσεων</a>, μπορείτε να προσαρμόσετε τις πληροφορίες που εμφανίζονται πάνω από τη φόρμα επικοινωνίας. Αυτό μπορεί να είναι χρήσιμο για να παρέχετε πρόσθετες πληροφορίες επικοινωνίας, όπως την ταχυδρομική σας διεύθυνση και τον αριθμό τηλεφώνου σας."
 
 #: modules/contact/contact.module:25
 msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
@@ -287,9 +287,11 @@ msgstr "Λίστα διευθύνσεων email των παραληπτών χω
 msgid "Text of the auto-reply message."
 msgstr "Το κείμενο του μηνύματος αυτόματης απάντησης."
 
+# Βαρύτητα ή βάρος το weight;
 #: modules/contact/contact.install:61
+#, fuzzy
 msgid "The category's weight."
-msgstr ""
+msgstr "Η βαρύτητα της κατηγορίας"
 
 #: modules/contact/contact.install:68
 msgid "Flag to indicate whether or not category is selected by default. (1 = Yes, 0 = No)"
