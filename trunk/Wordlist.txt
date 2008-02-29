@@ -39,7 +39,7 @@ forum = φόρουμ
 handbook = εγχειρίδιο
 header = αρχή σελίδας
 hierarchy = ιεραρχία
-human-readable = ανθρωπίνως αναγνώσιμο
+human-readable = για τον άνθρωπο
 	--= I =--
 item = αντικείμενο, στοιχείο
 	--= J =--
@@ -47,7 +47,7 @@ item = αντικείμενο, στοιχείο
 	--= L =--
 link = σύνδεσμος, παραπομπή
 	--= M =--
-machine-readable=μηχανικώς αναγνώσιμος
+machine-readable = για τη μηχανή
 module = μονάδα
 	--= N =--
 news = ειδήσεις, νέα
@@ -67,6 +67,7 @@ primary = πρωτεύων
 	--= Q =--
 	--= R =--
 region = περιοχή
+review = ανασκόπηση
 revision = αναθεώρηση
 RSS feed = ροή RSS
 	--= S =--
