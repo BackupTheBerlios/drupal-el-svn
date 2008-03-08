@@ -1,18 +1,16 @@
-# translation of general.po to Greek
+# translation of modules-trigger.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-trigger\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-03-08 03:19+0200\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,129 +22,126 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: modules/trigger/trigger.admin.inc:74
-#, fuzzy
 msgid "Are you sure you want to unassign the action %title?"
-msgstr "Θέλετε σίγουρα να διαγράψετε το σχόλιο %title;"
+msgstr "Θέλετε σίγουρα να αναιρέσετε τον προσδιορισμό της ενέργειας με τίτλο %title;"
 
 #: modules/trigger/trigger.admin.inc:76
 msgid "You can assign it again later if you wish."
-msgstr ""
+msgstr "Μπορείτε να την προσδιορίσετε και πάλι αργότερα αν επιθυμείτε."
 
 #: modules/trigger/trigger.admin.inc:77 modules/trigger/trigger.module:111
 msgid "Unassign"
-msgstr ""
+msgstr "Αναίρεση προσδιορισμού"
 
 #: modules/trigger/trigger.admin.inc:88;87
-#, fuzzy
 msgid "Action %action has been unassigned."
-msgstr "Η ενέργεια %action αποθηκεύτηκε."
+msgstr "Έγινε αναίρεση του προσδιορισμού της ενέργειας %action."
 
 #: modules/trigger/trigger.admin.inc:144
 msgid "Trigger: "
-msgstr ""
+msgstr "Σκανδάλη: "
 
 #: modules/trigger/trigger.admin.inc:154
 msgid "unassign"
-msgstr ""
+msgstr "αναίρεση προσδιορισμού"
 
 #: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:411
 msgid "Choose an action"
-msgstr ""
+msgstr "Επιλογή ενέργειας"
 
 #: modules/trigger/trigger.admin.inc:171
 msgid "Assign"
-msgstr ""
+msgstr "Προσδιορισμός"
 
 #: modules/trigger/trigger.admin.inc:176
 msgid "No available actions for this trigger."
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμες ενέργειες για αυτή τη σκανδάλη."
 
 #: modules/trigger/trigger.admin.inc:192
 msgid "The action you chose is already assigned to that trigger."
-msgstr ""
+msgstr "Η ενέργεια που επιλέχθηκε έχει ήδη ανατεθεί σε αυτή τη σκανδάλη."
 
 #: modules/trigger/trigger.admin.inc:218
 msgid "You have added an action that changes a the property of a post. A Save post action has been added so that the property change will be saved."
-msgstr ""
+msgstr "Προσθέσατε μια ενέργεια που αλλάζει μια ιδιότητα μιας καταχώρησης. Προστέθηκε μια ενέργεια Αποθήκευση καταχώρησης ώστε η αλλαγή της ιδιότητας να αποθηκεύεται."
 
 #: modules/trigger/trigger.admin.inc:238
-#, fuzzy
 msgid "Operation"
-msgstr "Λειτουργίες"
+msgstr "Λειτουργία"
 
 #: modules/trigger/trigger.module:14
 msgid "Triggers are system events, such as when new content is added or when a user logs in. Trigger module combines these triggers with actions (functional tasks), such as unpublishing content or e-mailing an administrator. The <a href=\"@url\">Actions settings page</a> contains a list of existing actions and provides the ability to create and configure additional actions."
-msgstr ""
+msgstr "Οι σκανδάλες είναι γεγονότα συστήματος, όπως η προσθήκη νέας ύλης ή η σύνδεση ενός χρήστη στο σύστημα. Η μονάδα Trigger συνδυάζει τις σκανδάλες με ενέργειες (λειτουργικές διεργασίες), όπως η άρση δημοσίευσης περιεχομένου ή η αποστολή e-mail σε ένα διαχειριστή. Η <a href=\"@url\">σελίδα ρυθμίσεων των Ενεργειών</a> περιέχει μια λίστα από υπάρχουσες ενέργειες και δίνει τη δυνατότητα για τη δημιουργία και ρύθμιση πρόσθετων ενεργειών."
 
 #: modules/trigger/trigger.module:17
 msgid "Below you can assign actions to run when certain comment-related triggers happen. For example, you could promote a post to the front page when a comment is added."
-msgstr ""
+msgstr "Παρακάτω μπορείτε να ορίσετε προσδιορίσετε ενέργειες που θα εκτελούνται όταν ενεργοποιούνται σκανδάλες σχετιζόμενες με τα σχόλια. Για παράδειγμα, θα μπορούσατε να προωθείτε μια καταχώρηση στην κεντρική σελίδα όταν προστίθεται σχόλιο."
 
 #: modules/trigger/trigger.module:19
 msgid "Below you can assign actions to run when certain content-related triggers happen. For example, you could send an e-mail to an administrator when a post is created or updated."
-msgstr ""
+msgstr "Παρακάτω μπορείτε να ορίσετε προσδιορίσετε ενέργειες που θα εκτελούνται όταν ενεργοποιούνται σκανδάλες σχετιζόμενες με το περιεχόμενο. Για παράδειγμα, θα μπορούσατε να αποστέλλετε ένα e-mail σε ένα διαχειριστή όταν δημιουργείται ή ενημερώνεται μια καταχώρηση."
 
 #: modules/trigger/trigger.module:21
 msgid "Below you can assign actions to run during each pass of a <a href=\"@cron\">cron maintenance task</a>."
-msgstr ""
+msgstr "Παρακάτω μπορείτε να προσδιορίσετε ενέργειες που θα εκτελούνται σε κάθε εκτέλεση μιας <a href=\"@cron\">εργασίας συντήρησης του cron</a>."
 
 #: modules/trigger/trigger.module:23
 msgid "Below you can assign actions to run when certain taxonomy-related triggers happen. For example, you could send an e-mail to an administrator when a term is deleted."
-msgstr ""
+msgstr "Παρακάτω μπορείτε να ορίσετε προσδιορίσετε ενέργειες που θα εκτελούνται όταν ενεργοποιούνται σκανδάλες σχετιζόμενες με την ταξινόμηση. Για παράδειγμα, θα μπορούσατε να αποστέλλετε ένα e-mail σε ένα διαχειριστή όταν διαγράφεται ένας όρος."
 
 #: modules/trigger/trigger.module:25
 msgid "Below you can assign actions to run when certain user-related triggers happen. For example, you could send an e-mail to an administrator when a user account is deleted."
-msgstr ""
+msgstr "Παρακάτω μπορείτε να ορίσετε προσδιορίσετε ενέργειες που θα εκτελούνται όταν ενεργοποιούνται σκανδάλες σχετιζόμενες με τους χρήστες. Για παράδειγμα, θα μπορούσατε να αποστέλλετε ένα e-mail σε ένα διαχειριστή όταν διαγράφεται ένας λογαριασμός χρήστη."
 
 #: modules/trigger/trigger.module:27
 msgid "The Trigger module provides the ability to trigger <a href=\"@actions\">actions</a> upon system events, such as when new content is added or when a user logs in."
-msgstr ""
+msgstr "Η μονάδα Trigger παρέχει τη δυνατότητα να ενεργοποιεί <a href=\"@actions\">ενέργειες</a> σε γεγονότα του συστήματος, όπως όταν προστίθεται νέο περιεχόμενο ή όταν συνδέεται ένας χρήστης με το σύστημα."
 
 #: modules/trigger/trigger.module:28
 msgid "The combination of actions and triggers can perform many useful tasks, such as e-mailing an administrator if a user account is deleted, or automatically unpublishing comments that contain certain words. By default, there are five \"contexts\" of events (Comments, Content, Cron, Taxonomy, and Users), but more may be added by additional modules."
-msgstr ""
+msgstr "Ο συνδυασμός των ενεργειών και των σκανδαλών μπορεί να εκτελέσει αρκετές χρήσιμες εργασίες, όπως η αποστολή e-mail σε ένα διαχειριστή κατά τη διαγραφή ενός λογαριασμού χρήστη, ή η αυτόματη άρση δημοσίευσης σχολίων που περιέχουν ορισμένες λέξεις. Εξ' ορισμού, υπάρχουν πέντε γενικότερα πλαίσια γεγονότων (Σχόλια, Περιεχόμενο, Cron, Ταξινόμηση και Χρήστες), αλλά μπορούν να προστεθούν νέα από πρόσθετες μονάδες."
 
 #: modules/trigger/trigger.module:29
-#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@trigger\">Trigger module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@aggregator\">σελίδα Συλλέκτη</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@trigger\">μονάδα Trigger</a>."
 
 #: modules/trigger/trigger.module:39
 msgid "Triggers"
-msgstr ""
+msgstr "Σκανδάλες"
 
 #: modules/trigger/trigger.module:40
 msgid "Tell Drupal when to execute actions."
-msgstr ""
+msgstr "Πείτε στο Drupal πότε να εκτελεί τις ενέργειες."
 
 #: modules/trigger/trigger.module:83
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 #: modules/trigger/trigger.module:112
 msgid "Unassign an action from a trigger."
-msgstr ""
+msgstr "Αναίρεση προσδιορισμού ενέργειας από σκανδάλη."
 
 #: modules/trigger/trigger.module:0
 msgid "trigger"
-msgstr ""
+msgstr "σκανδάλη"
 
 #: modules/trigger/trigger.install:28
 msgid "Maps trigger to hook and operation assignments from trigger.module."
-msgstr ""
+msgstr "Αντιστοιχίζει σκανδάλες σε hook και προσδιορισμούς λειτουργιών από το trigger.module."
 
 #: modules/trigger/trigger.install:35
 msgid "Primary Key: The name of the internal Drupal hook upon which an action is firing; for example, nodeapi."
-msgstr ""
+msgstr "Πρωτεύον κλειδί: Το όνομα του εσωτερικού hook του Drupal στο οποίο η ενέργεια εκτελείται: για παράδειγμα, nodeapi."
 
 #: modules/trigger/trigger.install:42
 msgid "Primary Key: The specific operation of the hook upon which an action is firing: for example, presave."
-msgstr ""
+msgstr "Πρωτεύον κλειδί: Η συγκεκριμένη λειτουργία του hook στο οποίο η ενέργεια εκτελείται: για παράδειγμα, presave."
 
 #: modules/trigger/trigger.install:49
 msgid "Primary Key: Action's {actions}.aid."
-msgstr ""
+msgstr "Πρωτεύον κλειδί: το {actions}.aid της ενέργειας."
 
 #: modules/trigger/trigger.install:55
 msgid "The weight of the trigger assignment in relation to other triggers."
-msgstr ""
+msgstr "Το βάρος του προσδιορισμού της σκανδάλης σε σχέση με άλλες σκανδάλες."
+
