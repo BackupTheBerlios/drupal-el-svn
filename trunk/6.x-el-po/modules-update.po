@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-update\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-08 00:14+0200\n"
+"PO-Revision-Date: 2008-03-15 14:34+0200\n"
 "Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -218,7 +218,7 @@ msgstr "Εδώ θα βρείτε πληροφορίες σχετικά με δι
 
 #: modules/update/update.module:62
 msgid "To extend the functionality or to change the look of your site, a number of contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</a> are available."
-msgstr "Για την επέκταση της λειτουργικότητας ή την αλλαγή της εμφάνισης του ιστοτόπου σας, ένας αριθμός από <a href=\"@modules\">μονάδες</a> και <a href=\"@themes\">θεματικές παραλλαγές</a> που συνεισφέρει η κοινότητα είναι διαθέσιμες."
+msgstr "Για την επέκταση της λειτουργικότητας ή την αλλαγή της εμφάνισης του ιστοτόπου σας, είναι διαθέσιμος ένας αριθμός από <a href=\"@modules\">μονάδες</a> και <a href=\"@themes\">θεματικές παραλλαγές</a> που συνεισφέρει η κοινότητα."
 
 #: modules/update/update.module:79
 msgid "See the <a href=\"@available_updates\">available updates</a> page for information on installed modules and themes with new versions released."
