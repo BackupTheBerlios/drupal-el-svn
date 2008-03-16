@@ -1,16 +1,14 @@
-# translation of general.po to Greek
+# translation of modules-book.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-book\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"PO-Revision-Date: 2008-03-16 17:20+0200\n"
 "Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -264,7 +262,6 @@ msgid "Outline"
 msgstr "Διάρθρωση"
 
 #: modules/book/book.module:132
-#, fuzzy
 msgid "Remove from outline"
 msgstr "Αφαίρεση από τη διάρθρωση βιβλίου"
 
@@ -295,3 +292,4 @@ msgstr "Το {node}.nid της σελίδας βιβλίου."
 #: modules/book/book.install:275
 msgid "The book ID is the {book}.nid of the top-level page."
 msgstr "Το ID είναι το {book}.nid της αρχικής σελίδας (μητρικής όλων)."
+

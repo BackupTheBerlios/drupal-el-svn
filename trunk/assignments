@@ -1,4 +1,4 @@
- - general.po : Θανάσης Βέλιος - a.velios@gmail.com
+ - general.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - includes.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - installer.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
  - misc.po* : Θανάσης Βέλιος - a.velios@gmail.com
@@ -6,19 +6,19 @@
  - modules-block.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-blogapi.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-blog.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
- - modules-book.po : Θανάσης Βέλιος - a.velios@gmail.com
+ - modules-book.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-color.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
  - modules-comment.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
  - modules-contact.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
  - modules-dblog.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
- - modules-filter.po : Φάνης Χατζηδάκης - berlios@hatzidakis.org
- - modules-forum.po : Θανάσης Βέλιος - a.velios@gmail.com 
- - modules-help.po : 
- - modules-locale.po : Θανάσης Βέλιος - a.velios@gmail.com 
- - modules-menu.po : Θανάσης Βέλιος - a.velios@gmail.com
+ - modules-filter.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
+ - modules-forum.po* : Θανάσης Βέλιος - a.velios@gmail.com 
+ - modules-help.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
+ - modules-locale.po* : Θανάσης Βέλιος - a.velios@gmail.com 
+ - modules-menu.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-node.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr 
  - modules-openid.po : 
- - modules-path.po : 
+ - modules-path.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-php.po : 
  - modules-ping.po : 
  - modules-poll.po : 
@@ -26,11 +26,11 @@
  - modules-search.po : 
  - modules-statistics.po : 
  - modules-syslog.po : 
- - modules-system.po : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-taxonomy.po : Θανάσης Βέλιος - a.velios@gmail.com
+ - modules-system.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
+ - modules-taxonomy.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-throttle.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
  - modules-tracker.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-translation.po : Θανάσης Βέλιος - a.velios@gmail.com
+ - modules-translation.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-trigger.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
  - modules-update.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
  - modules-upload.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
