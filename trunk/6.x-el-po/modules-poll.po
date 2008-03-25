@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-16 21:32+0100\n"
+"PO-Revision-Date: 2008-03-25 14:12+0100\n"
 "Last-Translator: Athanasios Velios <a.velios@gmail.com>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr[1] "@count ψήφοι"
 #: modules/poll/poll-results-block.tpl.php:26
 #: modules/poll/poll-results.tpl.php:24
 msgid "Total votes: @votes"
-msgstr ""
+msgstr "Σύνολο ψήφων: @votes"
 
 #: modules/poll/poll.pages.inc:20
 msgid "open"
@@ -60,9 +60,8 @@ msgid "When creating a poll, enter the question being posed, as well as the pote
 msgstr ""
 
 #: modules/poll/poll.module:18
-#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@poll\">Poll module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου διευθέτησης και προσαρμογής για τη <a href=\"@color\">μονάδα color</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου <a href=\"@poll\">Μονάδα ψηφοφορίας</a>."
 
 #: modules/poll/poll.module:133
 msgid "Most recent poll"
@@ -89,9 +88,8 @@ msgid "Closed"
 msgstr "Έχει κλείσει"
 
 #: modules/poll/poll.module:257
-#, fuzzy
 msgid "Poll settings"
-msgstr "Επιλογές δημοσιεύσεων"
+msgstr "Επιλογές ψηφοφορίας"
 
 #: modules/poll/poll.module:263
 msgid "Poll status"
@@ -154,9 +152,8 @@ msgid "Add another choice"
 msgstr ""
 
 #: modules/poll/poll.module:676
-#, fuzzy
 msgid "Choice"
-msgstr "Επιλογή @n"
+msgstr "Επιλογή"
 
 #: modules/poll/poll.module:677
 msgid "Vote count"
@@ -167,29 +164,24 @@ msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "create poll content"
-msgstr "Υποβολή ύλης"
+msgstr "υποβολή ψηφοφορίας"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "delete own poll content"
-msgstr "διαγραφή ιδίων καταχωρίσεων ιστολογίου"
+msgstr "διαγραφή ιδίων ψηφοφοριών"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "delete any poll content"
-msgstr "διαγραφή οποιασδήποτε καταχώρισης ιστολογίου"
+msgstr "διαγραφή οποιασδήποτε ψηφοφορίας"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "edit any poll content"
-msgstr "τροποποίηση οποιονδήποτε καταχωρίσεων ιστολογίου"
+msgstr "τροποποίηση οποιασδήποτε ψηφοφορίας"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "edit own poll content"
-msgstr "τροποποίηση ιδίων καταχωρίσεων ιστολογίου"
+msgstr "τροποποίηση ιδίων ψηφοφοριών"
 
 #: modules/poll/poll.module:57
 msgid "vote on polls"
@@ -236,19 +228,16 @@ msgid "Boolean indicating whether or not the poll is open."
 msgstr ""
 
 #: modules/poll/poll.install:52
-#, fuzzy
 msgid "Stores information about all choices for all {poll}s."
-msgstr "Επιστρέφει πληροφορίες για μια συγκεκριμένη καταχώριση."
+msgstr "Αποθηκεύει πληροφορίες για τις επιλογές όλων των ψηφοφοριών."
 
 #: modules/poll/poll.install:58
-#, fuzzy
 msgid "Unique identifier for a poll choice."
-msgstr "Μοναδικό προσδιοριστικό για το αντικείμενο ροής."
+msgstr "Μοναδικό προσδιοριστικό για την επιλογή ψηφοφορίας."
 
 #: modules/poll/poll.install:65
-#, fuzzy
 msgid "The {node}.nid this choice belongs to."
-msgstr "Το {node}.nid της καταχώρισης."
+msgstr "Το {node}.nid της επιλογής."
 
 #: modules/poll/poll.install:72
 msgid "The text for this choice."
@@ -276,9 +265,9 @@ msgstr ""
 
 #: modules/poll/poll.install:113
 msgid "The {users}'s vote for this poll."
-msgstr ""
+msgstr "Η ψήφος του χρήστη {users} για αυτήν τη ψηφοφορία."
 
 #: modules/poll/poll.install:120
 msgid "The IP address this vote is from unless the voter was logged in."
-msgstr ""
+msgstr "Η διεύθυνση IP του ψήφου αν ο ψηφοφόρος δεν είχε μπει στο σύστημα."
 
