@@ -1,18 +1,17 @@
-# translation of general.po to Greek
+# translation of modules-contact.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-contact\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-03-26 23:06+0200\n"
+"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -289,10 +288,10 @@ msgstr "Το κείμενο του μηνύματος αυτόματης απά�
 
 # Βαρύτητα ή βάρος το weight;
 #: modules/contact/contact.install:61
-#, fuzzy
 msgid "The category's weight."
-msgstr "Η βαρύτητα της κατηγορίας"
+msgstr "Η βαρύτητα της κατηγορίας."
 
 #: modules/contact/contact.install:68
 msgid "Flag to indicate whether or not category is selected by default. (1 = Yes, 0 = No)"
 msgstr "Μια σημαία που επιδεικνύει αν η κατηγορία είναι προεπιλεγμένη. (1 = Ναι, 0 = Όχι)"
+

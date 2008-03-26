@@ -1,18 +1,17 @@
-# translation of general.po to Greek
+# translation of modules-taxonomy.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-taxonomy\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-03-26 23:33+0200\n"
+"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +43,6 @@ msgid "Vocabulary name"
 msgstr "Όνομα λεξιλογίου"
 
 #: modules/taxonomy/taxonomy.admin.inc:125
-#, fuzzy
 msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
 msgstr "Το όνομα αυτού του λεξιλογίου. Παράδειγμα: <em>\"Ετικέτες\"</em>."
 
@@ -57,9 +55,8 @@ msgid "Help text"
 msgstr "Κείμενο βοήθειας"
 
 #: modules/taxonomy/taxonomy.admin.inc:137
-#, fuzzy
 msgid "Instructions to present to the user when selecting terms, e.g., <em>\"Enter a comma separated list of words\"</em>."
-msgstr "Οδηγίες που θα παρουσιάζονται στο χρήστη όταν διαλέγει έναν όρο, π.χ. <em>\"Πληκτρολογήστε όρους χωρισμένους με κόμματα\".</em>"
+msgstr "Οδηγίες που θα παρουσιάζονται στο χρήστη όταν διαλέγει έναν όρο, π.χ. <em>\"Πληκτρολογήστε όρους χωρισμένους με κόμματα\"</em>."
 
 #: modules/taxonomy/taxonomy.admin.inc:148
 msgid "Select content types to categorize using this vocabulary."
@@ -223,9 +220,8 @@ msgid "taxonomy"
 msgstr "ταξινόμηση"
 
 #: modules/taxonomy/taxonomy.module:418
-#, fuzzy
 msgid "- None selected -"
-msgstr "Δεν επιλέχθηκε κανένα στοιχείο."
+msgstr "- Δεν επιλέχθηκε κανένα στοιχείο -"
 
 #: modules/taxonomy/taxonomy.module:421
 msgid "- None -"
@@ -324,9 +320,8 @@ msgid "administer taxonomy"
 msgstr "διαχείριση ταξινόμισης"
 
 #: modules/taxonomy/taxonomy.module:114
-#, fuzzy
 msgid "Manage tagging, categorization, and classification of your content."
-msgstr "Επιτρέπει την κατηγοριοποίηση της ύλης."
+msgstr "Διαχείριση της διαδικασίας ορισμού ετικετών, κατηγοριοποίησης και ταξινόμησης του περιεχομένου σας."
 
 #: modules/taxonomy/taxonomy.module:128
 msgid "Add vocabulary"
@@ -495,3 +490,4 @@ msgstr "Πρωτεύον Κλειδί: το {vocabulary}.vid του λεξιλο
 #: modules/taxonomy/taxonomy.install:275
 msgid "The {node}.type of the node type for which the vocabulary may be used."
 msgstr "Ο τύπος ύλης {node}.type για τον οποίο μπορεί να ισχύει το λεξιλόγιο."
+

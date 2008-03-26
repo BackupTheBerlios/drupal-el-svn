@@ -1,6 +1,7 @@
 # translation of modules-user.po to Greek
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -8,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-user\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-07 21:32+0200\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"PO-Revision-Date: 2008-03-26 23:05+0200\n"
+"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1393,7 +1394,7 @@ msgstr "Διεύθυνση e-mail που χρησιμοποιήθηκε αρχι
 
 #: modules/user/user.install:250
 msgid "A serialized array of name value pairs that are related to the user. Any form values posted during user edit are stored and are loaded into the $user object during user_load(). Use of this field is discouraged and it will likely disappear in a future version of Drupal."
-msgstr "Ένας πίνακας από ζεύγη τιμών που σχετίζονται με το χρήστη. Οποιαδήποτε τιμής της φόρμας αποστολής κατά τη διάρκεια της επεξεργασίας του χρήστη αποθηκεύεται και φορτώνεται στο αντικείμενο $user κατά την εκτέλεση του user_load(). Η χρήση του πεδίου αυτού δε συνίσταται και πιθανόν να διαγραφεί σε μελλοντική έκδοση του Drupal."
+msgstr "Ένας πίνακας από ζεύγη τιμών που σχετίζονται με το χρήστη. Οποιαδήποτε τιμής της φόρμας αποστολής κατά τη διάρκεια της επεξεργασίας του χρήστη αποθηκεύεται και φορτώνεται στο αντικείμενο $user κατά την εκτέλεση του user_load(). Η χρήση του πεδίου αυτού δε συνιστάται και πιθανόν να διαγραφεί σε μελλοντική έκδοση του Drupal."
 
 #: modules/user/user.install:265
 msgid "Maps users to roles."
