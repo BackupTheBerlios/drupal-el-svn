@@ -1,18 +1,17 @@
-# translation of general.po to Greek
+# translation of modules-menu.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-menu\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-03-28 00:25+0200\n"
+"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -96,9 +95,8 @@ msgid "Are you sure you want to delete the custom menu %title?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το μενού με τίτλο %title;"
 
 #: modules/menu/menu.admin.inc:492
-#, fuzzy
 msgid "The custom menu %title has been deleted."
-msgstr "Το στοιχείο μενού %title διαγράφηκε."
+msgstr "Το προσαρμοσμένο μενού %title διαγράφηκε."
 
 #: modules/menu/menu.admin.inc:502
 msgid "The menu name may only consist of lowercase letters, numbers, and hyphens."
@@ -141,32 +139,28 @@ msgid "Choose the menu to be the default in the menu options in the content auth
 msgstr "Επιλέξτε το μενού που θα είναι προεπιλεγμένο στις επιλογές μενού της φόρμας δημοσίευσης ύλης."
 
 #: modules/menu/menu.admin.inc:616
-#, fuzzy
 msgid "No primary links"
-msgstr "Δευτερεύοντες σύνδεσμοι"
+msgstr "Όχι πρωτεύοντες σύνδεσμοι"
 
 #: modules/menu/menu.admin.inc:619
-#, fuzzy
 msgid "Source for the primary links"
-msgstr "Πηγή δευτερευόντων συνδέσμων"
+msgstr "Πηγή για τους πρωτεύοντες σύνδεσμους"
 
 #: modules/menu/menu.admin.inc:623
 msgid "Select what should be displayed as the primary links."
-msgstr ""
+msgstr "Επιλέξτε τι θα πρέπει να εμφανίζεται ως πρωτεύοντες σύνδεσμοι."
 
 #: modules/menu/menu.admin.inc:626
-#, fuzzy
 msgid "No secondary links"
-msgstr "Δευτερεύοντες σύνδεσμοι"
+msgstr "Όχι δευτερεύοντες σύνδεσμοι"
 
 #: modules/menu/menu.admin.inc:629
 msgid "Source for the secondary links"
-msgstr "Πηγή δευτερευόντων συνδέσμων"
+msgstr "Πηγή για τους δευτερεύοντες σύνδεσμους"
 
 #: modules/menu/menu.admin.inc:633
-#, fuzzy
 msgid "Select what should be displayed as the secondary links. You can choose the same menu for secondary links as for primary links (currently %primary). If you do this, the children of the active primary menu link will be displayed as secondary links."
-msgstr "Επιλέξτε τι από τη λίστα θα παρουσιάζεται σαν δευτερεύοντες σύνδεσμοι. Αν επιλεχθεί το %primary, τα θυγατρικά στοιχεία των πρωτευόντων συνδέσμων (αν υπάρχουν) θα παρουσιάζονται αντί για ξεχωριστούς δευτερεύοντες συνδέσμους."
+msgstr "Επιλέξτε τι από τη λίστα θα παρουσιάζεται ως δευτερεύοντες σύνδεσμοι. Μπορείτε να επιλέξετε το ίδιο μενού για τους δευτερεύοντες συνδέσμους όπως και για τους πρωτεύοντες (αυτή τη στιγμή το %primary). Αν το κάνετε αυτό, τα θυγατρικά στοιχεία του ενεργού πρωτεύοντος συνδέσμου του μενού θα εμφανίζονται ως δευτερεύοντες σύνδεσμοι."
 
 #: modules/menu/menu.admin.inc:493
 msgid "Deleted custom menu %title and all its menu items."
@@ -202,7 +196,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/menu/menu.module:26
 msgid "Menus are a collection of links (menu items) used to navigate a website. The menus currently available on your site are displayed below. Select a menu from this list to manage its menu items."
-msgstr ""
+msgstr "Τα μενού είναι μια συλλογή από συνδέσμους (αντικείμενα μενού) που χρησιμοποιούνται για την πλοήγηση στον ιστοτόπο. Παρακάτω εμφανίζονται τα διαθέσιμα αυτή τη στιγμή μενού στον ιστοτόπο σας. Επιλέξτε ένα μενού από τη λίστα για να διαχειριστείτε τα αντικείμενά του."
 
 #: modules/menu/menu.module:28
 msgid "Enter the name for your new menu. Remember to enable the newly created block in the <a href=\"@blocks\">blocks administration page</a>."
@@ -294,12 +288,13 @@ msgstr "Περιγραφή μενού."
 
 #: (duplicate) modules/menu/menu.install:12
 msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
-msgstr ""
+msgstr "Το Drupal παρέχει το μενού πλοήγησης και είναι το κύριο μενού αλληλεπίδρασης για οποιοδήποτε ιστοτόπο. Συνήθως, είναι το μόνο μενού που περιέχει προσωπικοποιημένους συνδέσμους για τους πιστοποιημένους χρήστες και συχνά δεν είναι ορατό στους ανώνυμους χρήστες."
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
-msgstr ""
+msgstr "Οι πρωτεύοντες σύνδεσμοι συχνά χρησιμοποιούνται σε επίπεδο θεματικής παραλλαγής για να δείχνουν στα σημαντικά τμήματα ενός ιστοτόπου. Μια τυπική αναπαράσταση των πρωτεύοντων συνδέσμων είναι οι καρτέλες στην κορυφή."
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
 msgstr "Οι δευτερεύοντες σύνδεσμοι συνήθως χρησιμοποιούνται για σελίδες όπως οι όροι χρήσης, οι πληροφορίες επικοινωνίας και άλλες δευτερεύουσας σημασίας σελίδες που είναι λιγότερο σημαντικές από τους πρωτεύοντες συνδέσμους"
+
