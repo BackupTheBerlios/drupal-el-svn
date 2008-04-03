@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-ping\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-26 23:39+0200\n"
+"PO-Revision-Date: 2008-04-01 00:25+0300\n"
 "Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Η μονάδα ping είναι χρήσιμη στο να ειδοπο�
 
 #: modules/ping/ping.module:16
 msgid "The ping module requires a correctly configured <a href=\"@cron\">cron maintenance task</a>."
-msgstr "Η μονάδα ping απαιτεί μια σωστά διευθετημένη <a href=\"@cron\">εργασία συντήρησης cron</a>."
+msgstr "Η μονάδα ping απαιτεί μία σωστά ρυθμισμένη <a href=\"@cron\">εργασία συντήρησης cron</a>."
 
 #: modules/ping/ping.module:17
 msgid "For more information, see the online handbook entry for <a href=\"@ping\">Ping module</a>."

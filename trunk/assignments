@@ -16,26 +16,25 @@
  - modules-help.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-locale.po :
  - modules-menu.po* : Θανάσης Βέλιος - a.velios@gmail.com
- - modules-node.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr 
+ - modules-node.po* : Λούρδας Βασίλης - drupal@lourdas.name 
  - modules-openid.po : 
  - modules-path.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-php.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
- - modules-ping.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
+ - modules-ping.po* : Λούρδας Βασίλης - drupal@lourdas.name
  - modules-poll.po : Χρήστος Καλίτσης - kalitsis@gmail.com
  - modules-profile.po : Χρήστος Καλίτσης - kalitsis@gmail.com
  - modules-search.po* : Θανάσης Βέλιος - a.velios@gmail.com
- - modules-statistics.po : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-syslog.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-system.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
+ - modules-statistics.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-syslog.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-system.po* : Λούρδας Βασίλης - drupal@lourdas.name
  - modules-taxonomy.po* : Θανάσης Βέλιος - a.velios@gmail.com
- - modules-throttle.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-tracker.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
+ - modules-throttle.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-tracker.po* : Λούρδας Βασίλης - drupal@lourdas.name
  - modules-translation.po* : Θανάσης Βέλιος - a.velios@gmail.com
- - modules-trigger.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-update.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-upload.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - modules-user.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - themes-chameleon.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - themes-garland.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
- - themes-pushbutton.po* : Λούρδας Βασίλης - lourdas_v@yahoo.gr
-
+ - modules-trigger.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-update.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-upload.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-user.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - themes-chameleon.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - themes-garland.po* : Λούρδας Βασίλης - drupal@lourdas.name
+ - themes-pushbutton.po* : Λούρδας Βασίλης - drupal@lourdas.name
