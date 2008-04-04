@@ -21,8 +21,8 @@
  - modules-path.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-php.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
  - modules-ping.po* : Λούρδας Βασίλης - drupal@lourdas.name
- - modules-poll.po : Χρήστος Καλίτσης - kalitsis@gmail.com
- - modules-profile.po : Χρήστος Καλίτσης - kalitsis@gmail.com
+ - modules-poll.po* : Χρήστος Καλίτσης - kalitsis@gmail.com
+ - modules-profile.po* : Χρήστος Καλίτσης - kalitsis@gmail.com
  - modules-search.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-statistics.po* : Λούρδας Βασίλης - drupal@lourdas.name
  - modules-syslog.po* : Λούρδας Βασίλης - drupal@lourdas.name
