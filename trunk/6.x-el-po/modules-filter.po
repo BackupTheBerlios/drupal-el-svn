@@ -1,18 +1,17 @@
-# translation of general.po to Greek
+# translation of modules-filter.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-filter\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-04-05 15:03+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -108,18 +107,16 @@ msgid "Deleted input format %format."
 msgstr "Διαγράφηκε ο μορφότυπος εισόδου %format."
 
 #: modules/filter/filter.admin.inc:289
-#, fuzzy
 msgid "Configure %format"
-msgstr "Ρυθμίστε τον ιστότοπο"
+msgstr "Διευθέτηση του %format"
 
 #: modules/filter/filter.admin.inc:312
 msgid "No settings are available."
 msgstr "Δεν υπάρχουν διαθέσιμες ρυθμίσεις."
 
 #: modules/filter/filter.admin.inc:330
-#, fuzzy
 msgid "Rearrange %format"
-msgstr "Αναδιάταξη"
+msgstr "Αναδιάταξη του %format"
 
 #: modules/filter/filter.admin.inc:391
 msgid "The filter ordering has been saved."
@@ -131,32 +128,31 @@ msgstr "μορφότυποι εισόδου"
 
 #: modules/filter/filter.module:23
 msgid "The filter module allows administrators to configure text input formats for use on your site. An input format defines the HTML tags, codes, and other input allowed in both content and comments, and is a key feature in guarding against potentially damaging input from malicious users. Two input formats included by default are <em>Filtered HTML</em> (which allows only an administrator-approved subset of HTML tags) and <em>Full HTML</em> (which allows the full set of HTML tags). Additional input formats may be created by an administrator."
-msgstr ""
+msgstr "Η μονάδα filter παρέχει στους διαχειριστές τη δυνατότητα διευθέτησης των μορφότυπων εισόδου κειμένου για χρήση στον ιστοτόπο σας. Ένας μορφότυπος εισόδου ορίζει τις σημάνσεις HTML, τον κώδικα και άλλους τύπους εισόδου που επιτρέπεται τόσο στο περιεχόμενο όσο και στα σχόλια και είναι ένα κύριο χαρακτηριστικό για την προστασία απέναντι σε είσοδο που εισάγουν κακόβουλοι χρήστες για να προκαλέσουν πρόβλημα. Δύο μορφότυποι εισόδου περιλαμβάνονται εξ' ορισμού και είναι η <em>Φιλτραρισμένη HTML</em> (που επιτρέπει μόνο ένα οριζόμενο από το διαχειριστή υποσύνολο της HTML) και η <em>Πλήρης HTML</em> (που επιτρέπει το πλήρες σύνολο σημάνσεων της HTML). Ο διαχειριστής μπορεί να δημιουργήσει πρόσθετους μορφότυπους εισόδου."
 
 #: modules/filter/filter.module:24
 msgid "Each input format uses filters to manipulate text, and most input formats apply several different filters to text in a specific order. Each filter is designed for a specific purpose, and generally either adds, removes or transforms elements within user-entered text before it is displayed. A filter does not change the actual content of a post, but instead, modifies it temporarily before it is displayed. A filter may remove unapproved HTML tags, for instance, while another automatically adds HTML to make links referenced in text clickable."
-msgstr ""
+msgstr "Κάθε μορφότυπος εισόδου χρησιμοποιεί φίλτρα για το χειρισμό του περιεχομένου και οι περισσότεροι μορφότυποι εισόδου εφαρμόζουν διάφορα φίλτρα στο κείμενο σε μια συγκεκριμένη σειρά. Κάθε φίλτρο είναι σχεδιασμένο για ένα συγκεκριμένο σκοπό και γενικά είτε προσθέτει είτε αφαιρεί ή αλλάζει στοιχεία μέσα στο εισαγόμενο από το χρήστη κείμενο προτού εκείνο εμφανιστεί. Το φίλτρο δεν αλλάζει το πραγματικό περιεχόμενο μιας καταχώρησης, αλλά αντίθετα, το τροποποιεί προσωρινά πριν την εμφάνισή του. Ένα φίλτρο μπορεί να αφαιρέσει ακατάλληλες σημάνσεις HTML, για παράδειγμα, ενώ ένα άλλο μπορεί να προσθέτει αυτόματα HTML για να δημιουργεί τους συνδέσμους που αναφέρονται στο κείμενο έτσι ώστε να μπορεί να κάνει κλικ πάνω τους ο χρήστης."
 
 #: modules/filter/filter.module:25
 msgid "Users can choose between the available input formats when creating or editing content. Administrators can configure which input formats are available to which user roles, as well as choose a default input format."
-msgstr ""
+msgstr "Οι χρήστες μπορούν να επιλέξουν μεταξύ των διαθέσιμων μορφότυπων εισόδου κατά τη δημιουργία ή επεξεργασία του περιεχομένου. Οι διαχειριστές μπορούν να καθορίσουν ποιοι μορφότυποι εισόδου είναι διαθέσιμοι σε ποιους ρόλους χρηστών, όπως επίσης και τον προεπιλεγμένο μορφότυπο εισόδου."
 
 #: modules/filter/filter.module:26
-#, fuzzy
 msgid "For more information, see the online handbook entry for <a href=\"@filter\">Filter module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο της <a href=\"@forum\">μονάδας Φόρουμ</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο της <a href=\"@filter\">μονάδας Filter</a>."
 
 #: modules/filter/filter.module:29
 msgid "<em>Input formats</em> define a way of processing user-supplied text in Drupal. Each input format uses filters to manipulate text, and most input formats apply several different filters to text, in a specific order. Each filter is designed to accomplish a specific purpose, and generally either removes elements from or adds elements to text before it is displayed. Users can choose between the available input formats when submitting content."
-msgstr ""
+msgstr "Οι <em>μορφότυποι εισόδου</em> ορίζουν ένα τρόπο επεξεργασίας του κειμένου που εισάγει ο χρήστης από το Drupal. Κάθε μορφότυπος εισόδου χρησιμοποιεί φίλτρα για το χειρισμό του κειμένου και οι περισσότεροι μορφότυποι εισόδου εφαρμόζουν μια σειρά από διαφορετικά φίλτρα στο κείμενο, με συγκεκριμένη σειρά. Κάθε φίλτρο είναι σχεδιασμένο να επιτυγχάνει ένα συγκεκριμένο σκοπό και γενικά είτε αφαιρεί στοιχεία είτε προσθέτει στο κείμενο προτού εκείνο εμφανιστεί. Οι χρήστες μπορούν να επιλέξουν μεταξύ των διαθέσιμων μορφότυπων εισόδου κατά την υποβολή του περιεχομένου."
 
 #: modules/filter/filter.module:30
 msgid "Use the list below to configure which input formats are available to which roles, as well as choose a default input format (used for imported content, for example). The default format is always available to users. All input formats are available to users in a role with the \"administer filters\" permission."
-msgstr ""
+msgstr "Χρησιμοποιήστε τη λίστα παρακάτω για να διευθετήσετε ποιοι μορφότυποι εισόδου είναι διαθέσιμοι σε ποιους ρόλους, όπως επίσης και τον προεπιλεγμένο μορφότυπο εισόδου (που χρησιμοποιείται για παράδειγμα στην εισαγωγή περιεχομένου). Ο προεπιλεγμένος μορφότυπος εισόδου είναι πάντα διαθέσιμο στους χρήστες. Στους χρήστες με την άδεια \"διαχείριση φίλτρων\" είναι διαθέσιμοι όλοι οι μορφότυποι εισόδου."
 
 #: modules/filter/filter.module:33
 msgid "Every <em>filter</em> performs one particular change on the user input, for example stripping out malicious HTML or making URLs clickable. Choose which filters you want to apply to text in this input format. If you notice some filters are causing conflicts in the output, you can <a href=\"@rearrange\">rearrange them</a>."
-msgstr ""
+msgstr "Κάθε <em>φίλτρο</em> εκτελεί μια συγκεκριμένη αλλαγή στην είσοδο του χρήστη, για παράδειγμα αφαιρεί κακόβουλο κώδικα HTML ή μετατρέπει τις διευθύνσεις URL ώστε να μπορεί ο χρήστης να κάνει κλικ. Επιλέξτε ποια φίλτρα θέλετε να εφαρμόσετε στο κείμενο σε αυτό το μορφότυπο εισόδου. Αν παρατηρήσετε ορισμένα φίλτρα να προκαλούν πρόβλημα στην έξοδο, μπορείτε να τα <a href=\"@rearrange\">αλλάξετε σειρά</a>."
 
 #: modules/filter/filter.module:35
 msgid "If you cannot find the settings for a certain filter, make sure you have enabled it on the <a href=\"@url\">view tab</a> first."
@@ -164,12 +160,11 @@ msgstr "Αν δεν μπορείτε να βρείτε τις ρυθμίσεις
 
 #: modules/filter/filter.module:37
 msgid "Because of the flexible filtering system, you might encounter a situation where one filter prevents another from doing its job. For example: a word in an URL gets converted into a glossary term, before the URL can be converted to a clickable link. When this happens, rearrange the order of the filters."
-msgstr ""
+msgstr "Λόγω του ευέλικτου συστήματος φίλτρων, μπορεί να βρεθείτε στην κατάσταση όπου ένα φίλτρο αποτρέπει ένα άλλο από το να κάνει τη δουλειά του. Για παράδειγμα: Μια λέξη σε μια διεύθυνση URL μετατρέπεται σε όρο γλωσσαρίου, προτού η διεύθυνση URL μετατραπεί σε σύνδεσμο που μπορεί να κάνει κλικ ο χρήστης. Όταν αυτό συμβαίνει, αλλάξτε τη σειρά εφαρμογής των φίλτρων."
 
 #: modules/filter/filter.module:38
-#, fuzzy
 msgid "Filters are executed from top-to-bottom. To change the order of the filters, modify the values in the <em>Weight</em> column or grab a drag-and-drop handle under the <em>Name</em> column and drag filters to new locations in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
-msgstr "Για να ανακατατάξετε τα στοιχεία του μενού, χρησιμοποιήστε τις λαβές 'σύρε και άσε' κάτω από τη στήλη <em>Μενού</em> και μεταφέρετε τα μενού (μια ομάδα μενού) στην καινούργια τους θέση στη λίστα (τραβήξτε τις λαβές πατώντας και κρατώντας πατημένο όταν βρισκόσαστε με το ποντίκι πάνω από το εικονίδιο της λαβής). Σημειώστε ότι οι αλλαγές δεν θα αποθηκευθούν αν δεν πατήσετε πάνω στο κουμπί <em>Αποθήκευση αλλαγών</em> στο τέλος της σελίδας."
+msgstr "Τα φίλτρα εκτελούνται από πάνω προς τα κάτω. Για να τη σειρά των φίλτρων, αλλάξτε τις τιμές στη στήλη <em>Βαρύτητα</em> ή χρησιμοποιήστε μια λαβή 'σύρε και άσε' κάτω από τη στήλη <em>Μενού</em> και σύρετε τα φίλτρα στις νέες θέσεις τους στη λίστα (τραβήξτε τις λαβές πατώντας και κρατώντας πατημένο όταν βρισκόσαστε με το ποντίκι πάνω από το εικονίδιο της λαβής). Πρέπει να σημειωθεί ότι οι αλλαγές δε θα αποθηκευθούν αν δεν πατήσετε πάνω στο κουμπί <em>Αποθήκευση αλλαγών</em> στο τέλος της σελίδας."
 
 #: modules/filter/filter.module:176;178
 msgid "Allowed HTML tags: @tags"
@@ -441,11 +436,11 @@ msgstr "Φίλτρο URL "
 
 #: modules/filter/filter.module:604
 msgid "HTML corrector"
-msgstr ""
+msgstr "Διορθωτής HTML"
 
 #: modules/filter/filter.module:609
 msgid "Allows you to restrict whether users can post HTML and which tags to filter out. It will also remove harmful content such as JavaScript events, JavaScript URLs and CSS styles from those tags that are not removed."
-msgstr ""
+msgstr "Σας επιτρέπει να περιορίσετε τους χρήστες στη χρήση HTML στις καταχωρήσεις και τις σημάνσεις που θα φιλτράρονται. Αυτό θα αφαιρέσει επίσης επιβλαβές περιεχόμενο όπως συμβάντα JavaScript, διευθύνσεις URL JavaScript και στυλ CSS από τις σημάνσεις που δεν αφαιρούνται."
 
 #: modules/filter/filter.module:611
 msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
@@ -457,7 +452,7 @@ msgstr "Μετατρέπει τις διευθύνσεις ιστού και e-m
 
 #: modules/filter/filter.module:615
 msgid "Corrects faulty and chopped off HTML in postings."
-msgstr ""
+msgstr "Διορθώνει λανθασμένη και αποκομμένη HTML στις καταχωρήσεις."
 
 #: modules/filter/filter.module:660
 msgid "Filter HTML tags"
@@ -513,7 +508,7 @@ msgstr "Μορφότυποι εισόδου"
 
 #: modules/filter/filter.module:72
 msgid "Configure how content input by users is filtered, including allowed HTML tags. Also allows enabling of module-provided filters."
-msgstr ""
+msgstr "Διευθέτηση του πως θα φιλτράρεται το περιεχόμενο που εισάγουν οι χρήστες, συμπεριλαμβανομένων των επιτρεπόμενων σημάνσεων HTML. Επιτρέπει επίσης την ενεργοποίηση φίλτρων που παρέχουν μονάδες."
 
 #: modules/filter/filter.module:90
 msgid "Delete input format"
@@ -533,48 +528,49 @@ msgstr "φίλτρο"
 
 #: modules/filter/filter.install:9
 msgid "Table that maps filters (HTML corrector) to input formats (Filtered HTML)."
-msgstr ""
+msgstr "Πίνακας που αντιστοιχεί φίλτρα (διορθωτής HTML) σε μορφότυπους εισόδου (Φιλτραρισμένη HTML)."
 
 #: modules/filter/filter.install:14
 msgid "Primary Key: Auto-incrementing filter ID."
-msgstr ""
+msgstr "Πρωτεύον Κλειδί: Αυτόματα προστιθέμενο αναγνωριστικό φίλτρου."
 
 #: modules/filter/filter.install:20
 msgid "Foreign key: The {filter_formats}.format to which this filter is assigned."
-msgstr ""
+msgstr "Ξένο κλειδί: Το {filter_formats}.format στο οποίο έχει οριστεί αυτό το φίλτρο."
 
 #: modules/filter/filter.install:27
 msgid "The origin module of the filter."
-msgstr ""
+msgstr "Η μονάδα προέλευσης του φίλτρου."
 
 #: modules/filter/filter.install:34
 msgid "ID to identify which filter within module is being referenced."
-msgstr ""
+msgstr "Αναγνωριστικό για την αναγνώριση σε ποιο φίλτρο αναφέρεται μια μονάδα."
 
 #: modules/filter/filter.install:41
 msgid "Weight of filter within format."
-msgstr ""
+msgstr "Βαρύτητα φίλτρου μέσα στο μορφότυπο."
 
 #: modules/filter/filter.install:53
 msgid "Stores input formats: custom groupings of filters, such as Filtered HTML."
-msgstr ""
+msgstr "Αποθηκεύει τους μορφότυπους εισόδου: προσαρμοσμένη ομαδοποίηση των φίλτρων, όπως η φιλτραρισμένη HTMl."
 
 #: modules/filter/filter.install:58
 msgid "Primary Key: Unique ID for format."
-msgstr ""
+msgstr "Πρωτεύον Κλειδί: Το αναγνωριστικό του μορφότυπου."
 
 #: modules/filter/filter.install:65
 msgid "Name of the input format (Filtered HTML)."
-msgstr ""
+msgstr "Όνομα του μορφότυπου εισόδου (φιλτραρισμένη HTML)."
 
 #: modules/filter/filter.install:72
 msgid "A comma-separated string of roles; references {role}.rid."
-msgstr ""
+msgstr "Μια φράση αποτελούμενη από λίστα ρόλων χωρισμένων με το κόμμα· έχει αναφορά στο {role}.rid."
 
 #: modules/filter/filter.install:79
 msgid "Flag to indicate whether format is cachable. (1 = cachable, 0 = not cachable)"
-msgstr ""
+msgstr "Σήμανση που δείχνει αν ο μορφότυπος μπορεί να αποθηκευθεί σε λανθάνουσα μνήμη. (1 = μπορεί, 0 = δεν μπορεί)"
 
 #: modules/filter/filter.install:87
 msgid "Cache table for the Filter module to store already filtered pieces of text, identified by input format and md5 hash of the text."
-msgstr ""
+msgstr "Πίνακας λανθάνουσας μνήμης για τη μονάδα Filter για να αποθηκεύει ήδη φιλτραρισμένα τμήματα κειμένου, που αναγνωρίζονται από το μορφότυπο εισόδου και το αποτέλεσμα κατακερματισμού md5 του κειμένου."
+
