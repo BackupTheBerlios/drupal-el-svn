@@ -1,6 +1,7 @@
 # translation of modules-tracker.po to Greek
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -8,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-tracker\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-08 11:37+0200\n"
-"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"PO-Revision-Date: 2008-04-06 01:30+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +28,7 @@ msgstr "Πριν από !time"
 
 #: modules/tracker/tracker.pages.inc:65
 msgid "Post"
-msgstr "Καταχώριση"
+msgstr "Καταχώρηση"
 
 #: modules/tracker/tracker.pages.inc:65
 msgid "Last updated"

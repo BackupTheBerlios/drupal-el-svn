@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-php\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-05 12:36+0300\n"
+"PO-Revision-Date: 2008-04-06 01:30+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Χρήση προσαρμοσμένου κώδικα PHP"
 
 #: modules/php/php.module:35
 msgid "Custom PHP code may be embedded in some types of site content, including posts and blocks. While embedding PHP code inside a post or block is a powerful and flexible feature when used by a trusted user with PHP experience, it is a significant and dangerous security risk when used improperly. Even a small mistake when posting PHP code may accidentally compromise your site."
-msgstr "Μπορεί να συμπεριληφθεί προσαρμοσμένος κώδικας PHP σε μερικούς τύπους περιεχομένου του ιστοτόπου, συμπεριλαμβανομένου των καταχωρήσεων και των μπλοκ. Παρόλο η ενσωμάτωση κώδικα PHP μέσα σε μια καταχώριση ή μπλοκ είναι ένα ισχυρό και ευέλικτο χαρακτηριστικό στα χέρια ενός έμπειρου χρήστη με εμπειρία σε PHP, μπορεί να αποδειχθεί ένας σημαντικός και επικίνδυνος παράγοντας κενού ασφαλείας αν χρησιμοποιηθεί λανθασμένα. Ακόμη κι ένα μικρό λάθος κατά την υποβολή κώδικα PHP μπορεί να εκθέσει σε κίνδυνο τον ιστοτόπο σας."
+msgstr "Μπορεί να συμπεριληφθεί προσαρμοσμένος κώδικας PHP σε μερικούς τύπους περιεχομένου του ιστοτόπου, συμπεριλαμβανομένου των καταχωρήσεων και των μπλοκ. Παρόλο η ενσωμάτωση κώδικα PHP μέσα σε μια καταχώρηση ή μπλοκ είναι ένα ισχυρό και ευέλικτο χαρακτηριστικό στα χέρια ενός έμπειρου χρήστη με εμπειρία σε PHP, μπορεί να αποδειχθεί ένας σημαντικός και επικίνδυνος παράγοντας κενού ασφαλείας αν χρησιμοποιηθεί λανθασμένα. Ακόμη κι ένα μικρό λάθος κατά την υποβολή κώδικα PHP μπορεί να εκθέσει σε κίνδυνο τον ιστοτόπο σας."
 
 #: modules/php/php.module:36
 msgid "If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code within posts. Experimenting with PHP may corrupt your database, render your site inoperable, or significantly compromise security."

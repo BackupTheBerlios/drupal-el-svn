@@ -14,7 +14,7 @@
  - modules-filter.po* : Φάνης Χατζηδάκης - berlios@hatzidakis.org
  - modules-forum.po* : Θανάσης Βέλιος - a.velios@gmail.com 
  - modules-help.po* : Σταύρος Τεμερτζίδης - bullgr@gmail.com
- - modules-locale.po : Λούρδας Βασίλης - drupal@lourdas.name
+ - modules-locale.po* : Λούρδας Βασίλης - drupal@lourdas.name
  - modules-menu.po* : Θανάσης Βέλιος - a.velios@gmail.com
  - modules-node.po* : Λούρδας Βασίλης - drupal@lourdas.name 
  - modules-openid.po* : Λούρδας Βασίλης - drupal@lourdas.name

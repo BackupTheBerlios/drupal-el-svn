@@ -1,21 +1,20 @@
-# translation of general.po to Greek
+# translation of modules-comment.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-comment\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: 2008-02-19 10:39+0200\n"
 "Last-Translator: Fanis Hatzidakis <berlios@hatzidakis.org>\n"
-"Language-Team: Greek\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,11 +119,11 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/comment/comment.module:134
 msgid "Below is a list of the latest comments posted to your site. Click on a subject to see the comment, the author's name to edit the author's user information, 'edit' to modify the text, and 'delete' to remove their submission."
-msgstr "Ακολουθεί παρακάτω μια λίστα των τελευταίων σχολίων που υποβλήθηκαν στον ιστοτόπο σας. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο 'τροποποίηση' για να τροποποιήσετε το κείμενο και στο 'διαγραφή' για να διαγράψετε την καταχώριση."
+msgstr "Ακολουθεί παρακάτω μια λίστα των τελευταίων σχολίων που υποβλήθηκαν στον ιστοτόπο σας. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο 'τροποποίηση' για να τροποποιήσετε το κείμενο και στο 'διαγραφή' για να διαγράψετε την καταχώρηση."
 
 #: modules/comment/comment.module:136
 msgid "Below is a list of the comments posted to your site that need approval. To approve a comment, click on 'edit' and then change its 'moderation status' to Approved. Click on a subject to see the comment, the author's name to edit the author's user information, 'edit' to modify the text, and 'delete' to remove their submission."
-msgstr "Ακολουθεί παρακάτω μια λίστα των σχολίων που υποβλήθηκαν στον ιστοτόπο σας τα οποία χρειάζονται έγκριση. Για να εγκρίνετε ένα σχόλιο, πατήστε στο 'επεξεργασία' και μετά αλλάξτε την 'κατάσταση επιμέλειας' σε Εγκεκριμένο. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο 'τροποποίηση' για να τροποποιήσετε το κείμενο και στο 'διαγραφή' για να διαγράψετε την καταχώριση."
+msgstr "Ακολουθεί παρακάτω μια λίστα των σχολίων που υποβλήθηκαν στον ιστοτόπο σας τα οποία χρειάζονται έγκριση. Για να εγκρίνετε ένα σχόλιο, πατήστε στο 'επεξεργασία' και μετά αλλάξτε την 'κατάσταση επιμέλειας' σε Εγκεκριμένο. Πατήστε σε ένα θέμα για να δείτε το σχόλιο, στο όνομα του συντάκτη για να τροποποιήσετε τα στοιχεία του, στο 'τροποποίηση' για να τροποποιήσετε το κείμενο και στο 'διαγραφή' για να διαγράψετε την καταχώρηση."
 
 #: modules/comment/comment.module:284;288
 msgid "Recent comments"
@@ -132,11 +131,11 @@ msgstr "Πρόσφατα σχόλια"
 
 #: modules/comment/comment.module:420
 msgid "Jump to the first comment of this posting."
-msgstr "Μεταβείτε στο πρώτο σχόλιο αυτής της καταχώρισης."
+msgstr "Μεταβείτε στο πρώτο σχόλιο αυτής της καταχώρησης."
 
 #: modules/comment/comment.module:431
 msgid "Jump to the first new comment of this posting."
-msgstr "Μεταβείτε στο πρώτο νέο σχόλιο αυτής της καταχώρισης."
+msgstr "Μεταβείτε στο πρώτο νέο σχόλιο αυτής της καταχώρησης."
 
 #: modules/comment/comment.module:440;461
 msgid "Add new comment"
@@ -264,7 +263,7 @@ msgstr "Να εμφανίζεται σε ξεχωριστή σελίδα"
 
 #: modules/comment/comment.module:566
 msgid "Display below post or comments"
-msgstr "Να εμφανίζεται κάτω από την καταχώριση ή τα σχόλια"
+msgstr "Να εμφανίζεται κάτω από την καταχώρηση ή τα σχόλια"
 
 #: modules/comment/comment.module:778
 msgid "Your comment has been queued for moderation by site administrators and will be published after approval."
@@ -543,3 +542,4 @@ msgstr "Το ID χρήστη του συντάκτη του πιο πρόσφα�
 #: modules/comment/comment.install:208
 msgid "The total number of comments on this node."
 msgstr "Το σύνολο των σχολίων σε αυτόν τον κόμβο."
+

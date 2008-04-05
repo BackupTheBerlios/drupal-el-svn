@@ -6,12 +6,13 @@
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Vasileios Lourdas <vasilis@lourdas.name>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-dblog\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-01 00:24+0300\n"
-"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +66,7 @@ msgstr "Το ημερλόγιο dblog είναι απλά μια λίστα κα
 
 #: modules/dblog/dblog.module:23
 msgid "For more information, see the online handbook entry for <a href=\"@dblog\">Dblog module</a>."
-msgstr "Για περισσότερες πληροφορίες διαβάστε την καταχώριση στο εγχειρίδιο ρύθμισης και προσαρμογής για τη <a href=\"@blog\">μονάδα Dblog</a>."
+msgstr "Για περισσότερες πληροφορίες διαβάστε την καταχώρηση στο εγχειρίδιο ρύθμισης και προσαρμογής για τη <a href=\"@blog\">μονάδα Dblog</a>."
 
 #: modules/dblog/dblog.module:26
 msgid "The dblog module monitors your website, capturing system events in a log to be reviewed by an authorized individual at a later time. The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the dblog report on a regular basis as it is often the only way to tell what is going on."

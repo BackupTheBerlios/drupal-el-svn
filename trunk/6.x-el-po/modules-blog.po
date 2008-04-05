@@ -2,6 +2,7 @@
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Vasileios Lourdas <vasilis@lourdas.name>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -9,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-blog\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-26 23:32+0200\n"
-"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +83,7 @@ msgstr "Η μονάδα blog επιτρέπει σε εγγεγραμένους 
 
 #: modules/blog/blog.module:65
 msgid "There is an (optional) <em>Blogs</em> menu item added to the Navigation menu, which displays all blogs available on your site, and a <em>My blog</em> item displaying the current user's blog entries. The <em>Blog entry</em> menu item under <em>Create content</em> allows new blog entries to be created."
-msgstr "Υπάρχει ένα (προαιρετικό) <em>Ιστολόγια</em> στοιχείο μενού στο μενού Πλοήγησης, το οποίο εμφανίζει όλα τα διαθέσιμα ιστολόγια στον ιστότοπο, και ένα <em>Το ιστολόγιό μου</em> στοιχείο που εμφανίζει τα ιστολογήματα του παρόντος χρήστη. Το στοιχείο μενού <em>Καταχώριση Ιστολογίου</em> κάτω από το <em>Δημιουργία Περιεχομένου</em> επιτρέπει τη δημιουργία νέων ιστολογημάτων."
+msgstr "Υπάρχει ένα (προαιρετικό) <em>Ιστολόγια</em> στοιχείο μενού στο μενού Πλοήγησης, το οποίο εμφανίζει όλα τα διαθέσιμα ιστολόγια στον ιστότοπο, και ένα <em>Το ιστολόγιό μου</em> στοιχείο που εμφανίζει τα ιστολογήματα του παρόντος χρήστη. Το στοιχείο μενού <em>Καταχώρηση Ιστολογίου</em> κάτω από το <em>Δημιουργία Περιεχομένου</em> επιτρέπει τη δημιουργία νέων ιστολογημάτων."
 
 #: modules/blog/blog.module:66
 msgid "Each blog entry is displayed with an automatic link to other blogs created by the same user. By default, blog entries have comments enabled and are automatically promoted to the site front page. The blog module also creates a <em>Recent blog posts</em> block that may be enabled at the <a href=\"@blocks\">blocks administration page</a>."
@@ -123,7 +124,7 @@ msgstr "διαγραφή ιδίων καταχωρίσεων ιστολογίο�
 
 #: modules/blog/blog.module:26
 msgid "delete any blog entry"
-msgstr "διαγραφή οποιασδήποτε καταχώρισης ιστολογίου"
+msgstr "διαγραφή οποιασδήποτε καταχώρησης ιστολογίου"
 
 #: modules/blog/blog.module:26
 msgid "edit own blog entries"

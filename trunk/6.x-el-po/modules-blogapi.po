@@ -1,6 +1,7 @@
 # translation of modules-blogapi.po to Greek
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -8,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-blogapi\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-18 01:26+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -47,19 +48,19 @@ msgstr "Επιστρέφει πληροφορίες για ένα συντάκτ
 
 #: modules/blogapi/blogapi.module:49;74
 msgid "Creates a new post, and optionally publishes it."
-msgstr "Δημιουργεί μια νέα καταχώριση και προαιρετικά τη δημοσιεύει."
+msgstr "Δημιουργεί μια νέα καταχώρηση και προαιρετικά τη δημοσιεύει."
 
 #: modules/blogapi/blogapi.module:54
 msgid "Updates the information about an existing post."
-msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
+msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώρηση."
 
 #: modules/blogapi/blogapi.module:59;84
 msgid "Returns information about a specific post."
-msgstr "Επιστρέφει πληροφορίες για μια συγκεκριμένη καταχώριση."
+msgstr "Επιστρέφει πληροφορίες για μια συγκεκριμένη καταχώρηση."
 
 #: modules/blogapi/blogapi.module:64
 msgid "Deletes a post."
-msgstr "Διαγράφει μια καταχώριση."
+msgstr "Διαγράφει μια καταχώρηση."
 
 #: modules/blogapi/blogapi.module:69;99
 msgid "Returns a list of the most recent posts in the system."
@@ -67,7 +68,7 @@ msgstr "Επιστρέφει μια λίστα των πιο πρόσφατων 
 
 #: modules/blogapi/blogapi.module:79
 msgid "Updates information about an existing post."
-msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώριση."
+msgstr "Ενημερώνει τις πληροφορίες για μια υπάρχουσα καταχώρηση."
 
 #: modules/blogapi/blogapi.module:89
 msgid "Uploads a file to your webserver."
@@ -75,7 +76,7 @@ msgstr "Αποστέλλει ένα αρχείο στο διακομιστή ι�
 
 #: modules/blogapi/blogapi.module:94;114
 msgid "Returns a list of all categories to which the post is assigned."
-msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες η καταχώριση έχει οριστεί."
+msgstr "Επιστρέφει μια λίστα όλων των κατηγοριών στις οποίες η καταχώρηση έχει οριστεί."
 
 #: modules/blogapi/blogapi.module:104
 msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
@@ -87,7 +88,7 @@ msgstr "Επιστρέφει μια λίστα όλων των κατηγορι�
 
 #: modules/blogapi/blogapi.module:119
 msgid "Sets the categories for a post."
-msgstr "Καθορίζει τις κατηγορίες μιας καταχώρισης."
+msgstr "Καθορίζει τις κατηγορίες μιας καταχώρησης."
 
 #: modules/blogapi/blogapi.module:124
 msgid "Retrieve information about the XML-RPC methods supported by the server."
@@ -99,19 +100,19 @@ msgstr "Ανάκτηση πληροφοριών για τα πρόσθετα μ�
 
 #: modules/blogapi/blogapi.module:134
 msgid "Publish (rebuild) all of the static files related to an entry from your blog. Equivalent to saving an entry in the system (but without the ping)."
-msgstr "Δημοσίευση (επαναδημιουργία) όλων των στατικών αρχείων που σχετίζονται σε μια καταχώριση από το ιστολόγιό σας. Αντίστοιχο με την αποθήκευση μιας καταχώρισης στο σύστημα (αλλά χωρίς το ping)."
+msgstr "Δημοσίευση (επαναδημιουργία) όλων των στατικών αρχείων που σχετίζονται σε μια καταχώρηση από το ιστολόγιό σας. Αντίστοιχο με την αποθήκευση μιας καταχώρησης στο σύστημα (αλλά χωρίς το ping)."
 
 #: modules/blogapi/blogapi.module:216
 msgid "You do not have permission to create this type of post."
-msgstr "Δεν έχετε άδεια να δημιουργήσετε αυτόν τον τύπο καταχώρισης."
+msgstr "Δεν έχετε άδεια να δημιουργήσετε αυτόν τον τύπο καταχώρησης."
 
 #: modules/blogapi/blogapi.module:238;293
 msgid "Error storing post."
-msgstr "Σφάλμα στην αποθήκευση της καταχώρισης."
+msgstr "Σφάλμα στην αποθήκευση της καταχώρησης."
 
 #: modules/blogapi/blogapi.module:260;502
 msgid "You do not have permission to update this post."
-msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώριση."
+msgstr "Δεν έχετε άδεια να ενημερώσετε αυτή την καταχώρηση."
 
 #: modules/blogapi/blogapi.module:378
 msgid "No file sent."
@@ -123,7 +124,7 @@ msgstr "Σφάλμα στην αποθήκευση αρχείου."
 
 #: modules/blogapi/blogapi.module:497
 msgid "Invalid post."
-msgstr "Μη έγκυρη καταχώριση."
+msgstr "Μη έγκυρη καταχώρηση."
 
 #: modules/blogapi/blogapi.module:537
 msgid "You do not have permission to edit this blog."
