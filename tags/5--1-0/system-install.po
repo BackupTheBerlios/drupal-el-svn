@@ -1,0 +1,125 @@
+# Greek Drupal translation of system-install.po to Greek
+# Greek translation of Drupal 5.1 (system-install)
+# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-install\n"
+"POT-Creation-Date: 2007-10-25 20:22+0300\n"
+"PO-Revision-Date: 2007-07-16 11:31+0300\n"
+"Last-Translator: Vasileios Lourdas <lourdas_v@yahoo.gr>\n"
+"Language-Team: Greek <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/system/system.install:81
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr "Μπορείτε να <a href=\"@cron\">εκτελέσετε το cron χειροκίνητα</a>."
+
+#: modules/system/system.install:3225
+msgid "If you want to add a static page, like a contact page or an about page, use a page."
+msgstr "Αν θέλετε να δημοσιεύσετε στατικές πληροφορίες, όπως οι πληροφορίες επικοινωνίας ή μια ιστοσελίδα 'Περί..', χρησιμοποιήστε στατική σελίδα."
+
+#: modules/system/system.install:3232
+msgid "Story"
+msgstr "Ιστόρημα"
+
+#: modules/system/system.install:3234
+msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
+msgstr "Τα ιστορήματα είναι άρθρα στην απλούστερη μορφή: έχουν τίτλο, περίληψη και σώμα κειμένου και μπορούν να επεκταθούν από άλλες μονάδες. Η περίληψη είναι τμήμα του σώματος. Τα ιστορήματα μπορούν να χρησιμοποιηθούν ως προσωπικό ιστολόγημα ή ως κλασικά άρθρα."
+
+#: modules/system/system.install:3334
+msgid "URL Filter module was disabled; this functionality has now been added to core."
+msgstr "Το φίλτρο URL είναι απενεργοποιημένο, αυτή η λειτουργία είναι προσαρμοσμένη στον πυρήνα πλέον."
+
+#: modules/system/system.install:29
+msgid "Web server"
+msgstr "Διακομιστής ιστοσελίδων"
+
+#: modules/system/system.install:39
+msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr "Η εγκατεστημένη έκδοση PHP είναι πολύ παλιά. Το Drupal απαιτεί τουλάχιστον PHP %version."
+
+#: modules/system/system.install:53
+msgid "Not protected"
+msgstr "Μη προστατευμένο"
+
+#: modules/system/system.install:55
+msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
+msgstr "Το αρχείο %file δεν είναι προστατευμένο από εγγραφή και αποτελεί κενό ασφάλειας. Πρέπει να αλλάξετε τα δικαιώματα του αρχείου σε μη εγγράψιμο."
+
+#: modules/system/system.install:60
+msgid "Protected"
+msgstr "Προστατευμένο"
+
+#: modules/system/system.install:63
+msgid "Configuration file"
+msgstr "Αρχείο ρυθμίσεων"
+
+#: modules/system/system.install:71
+msgid "Last run !time ago"
+msgstr "Τελευταία εκτέλεση πριν !time"
+
+#: modules/system/system.install:75
+msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
+msgstr "Το cron δεν εκτελέστηκε. Φαίνεται ότι οι εργασίες cron δεν ρυθμιστεί για το σύστημά σας. Ελέγξτε τις σελίδες βοήθειας στη <a href=\"@url\">ρύθμιση εργασιών cron</a>."
+
+#: modules/system/system.install:77
+msgid "Never run"
+msgstr "Δεν εκτελέστηκε ποτέ"
+
+#: modules/system/system.install:83
+msgid "Cron maintenance tasks"
+msgstr "Λειτουργίες συντήρησης του cron"
+
+#: modules/system/system.install:96
+msgid "The directory %directory is not writable."
+msgstr "Ο κατάλογος %directory δεν είναι εγγράψιμος."
+
+#: modules/system/system.install:99
+msgid "Not writable"
+msgstr "Μη εγγράψιμο"
+
+#: modules/system/system.install:101
+msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
+msgstr "Ίσως χρειαστεί να ορίσετε το σωστό κατάλογο στη <a href=\"@admin-file-system\">σελίδα ρύθμισης των αρχείων συστήματος</a> ή να αλλάξετε τα δικαιώματα ώστε ο κατάλογος να είναι εγγράψιμος."
+
+#: modules/system/system.install:107
+msgid "Writable (<em>public</em> download method)"
+msgstr "Εγγράψιμο (<em>δημόσια</em> μέθοδος λήψης)"
+
+#: modules/system/system.install:112
+msgid "Writable (<em>private</em> download method)"
+msgstr "Εγγράψιμο (<em>ιδιωτική</em> μέθοδος λήψης)"
+
+#: modules/system/system.install:122
+msgid "Database schema"
+msgstr "Σχήμα βάσης δεδομένων"
+
+#: modules/system/system.install:124
+msgid "Up to date"
+msgstr "Ενημερωμένο"
+
+#: modules/system/system.install:134
+msgid "Out of date"
+msgstr "Μη ενημερωμένο"
+
+#: modules/system/system.install:135
+msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
+msgstr "Μερικές μονάδες έχουν να εγκαταστήσουν ενημερώσεις στη βάση δεδομένων. Θα πρέπει να εκτελέσετε αμέσως την <a href=\"@update\">ενημέρωση βάσης δεδομένων</a>."
+
+#~ msgid "Your Apache server is too old. Drupal requires at least Apache %version."
+#~ msgstr "Ο διακομιστής Apache είναι πολύ παλιός. Το Drupal απαιτεί τουλάχιστον Apache %version."
+
+#~ msgid "The web server you're using has not been tested with Drupal and might not work properly."
+#~ msgstr "Ο διακομιστής ιστοσελίδων που χρησιμοποιείτε δεν έχει δοκιμαστεί με το Drupal και ίσως να μη λειτουργεί σωστά."
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
+
+#~ msgid "Unable to determine your web server type and version. Drupal might not work properly."
+#~ msgstr "Δεν ήταν δυνατός ο προσδιορισμός της έκδοσης του διακομιστή ιστοσελίδων. Το Drupal ίσως να μη λειτουργεί σωστά."
