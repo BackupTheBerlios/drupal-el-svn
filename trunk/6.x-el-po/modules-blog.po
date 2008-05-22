@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-blog\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:41+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "Η μονάδα blog επιτρέπει σε εγγεγραμένους 
 
 #: modules/blog/blog.module:65
 msgid "There is an (optional) <em>Blogs</em> menu item added to the Navigation menu, which displays all blogs available on your site, and a <em>My blog</em> item displaying the current user's blog entries. The <em>Blog entry</em> menu item under <em>Create content</em> allows new blog entries to be created."
-msgstr "Υπάρχει ένα (προαιρετικό) <em>Ιστολόγια</em> στοιχείο μενού στο μενού Πλοήγησης, το οποίο εμφανίζει όλα τα διαθέσιμα ιστολόγια στον ιστότοπο, και ένα <em>Το ιστολόγιό μου</em> στοιχείο που εμφανίζει τα ιστολογήματα του παρόντος χρήστη. Το στοιχείο μενού <em>Καταχώρηση Ιστολογίου</em> κάτω από το <em>Δημιουργία Περιεχομένου</em> επιτρέπει τη δημιουργία νέων ιστολογημάτων."
+msgstr "Υπάρχει ένα (προαιρετικό) <em>Ιστολόγια</em> στοιχείο μενού στο μενού Πλοήγησης, το οποίο εμφανίζει όλα τα διαθέσιμα ιστολόγια στον ιστότοπο και ένα <em>Το ιστολόγιό μου</em> στοιχείο που εμφανίζει τα ιστολογήματα του παρόντος χρήστη. Το στοιχείο μενού <em>Καταχώρηση Ιστολογίου</em> κάτω από το <em>Δημιουργία Περιεχομένου</em> επιτρέπει τη δημιουργία νέων ιστολογημάτων."
 
 #: modules/blog/blog.module:66
 msgid "Each blog entry is displayed with an automatic link to other blogs created by the same user. By default, blog entries have comments enabled and are automatically promoted to the site front page. The blog module also creates a <em>Recent blog posts</em> block that may be enabled at the <a href=\"@blocks\">blocks administration page</a>."
@@ -92,7 +92,7 @@ msgstr "Κάθε ιστολόγημα εμφανίζεται με ένα αυτ�
 # populate = συμπληρώνω, εποικίζω;
 #: modules/blog/blog.module:67
 msgid "When using the aggregator module an automatic <em>blog it</em> icon is displayed next to the items in a feed's <em>latest items</em> block. Clicking this icon populates a <em>blog entry</em> with a title (the title of the feed item) and body (a link to the source item on its original site and illustrative content suitable for use in a block quote). Blog authors can use this feature to easily comment on items of interest that appear in aggregator feeds from other sites. To use this feature, be sure to <a href=\"@modules\">enable</a> the aggregator module, <a href=\"@feeds\">add and configure</a> a feed from another site, and <a href=\"@blocks\">position</a> the feed's <em>latest items</em> block."
-msgstr "Όταν η μονάδα συλλέκτη είναι εν χρήση εμφανίζεται αυτόματα ένα <em>ιστολόγισέ το</em> εικονίδιο δίπλα στα στοιχεία στο <em>πρόσφατα στοιχεία</em> μπλοκ της ροής. Πατώντας σε αυτό το εικονίδιο συμπληρώνει ένα <em>ιστολόγημα</em> με τίτλο (τον τίτλο του στοιχείου ροής) και σώμα (ένα σύνδεσμο στο πηγαίο στοιχείο στον πρωτότυπο ιστότοπο και ενδεικτικό περιεχόμενο κατάλληλο για χρήση σε μια παράθεση μπλοκ). Οι συντάκτες ενός ιστολογίου μπορούν να χρησιμοποιήσουν αυτό το χαρακτηριστικό για να σχολιάσουν εύκολα πάνω σε στοιχεία ενδιαφέροντος που εμφανίζονται στις ροές συλλέκτη από άλλους ιστότοπους. Για να χρησιμοποιήσετε αυτό το χαρακτηριστικό, <a href=\"@modules\">ενεργοποιήστε</a> τη μονάδα aggregator, <a href=\"@feeds\">προσθέστε και ρυθμίστε</a> μια ροή από ένα άλλο ιστότοπο, και <a href=\"@blocks\">τοποθετήστε</a> το <em>τελευταία στοιχεία</em> μπλοκ της ροής."
+msgstr "Όταν η μονάδα συλλέκτη είναι εν χρήση εμφανίζεται αυτόματα ένα <em>ιστολόγισέ το</em> εικονίδιο δίπλα στα στοιχεία στο <em>πρόσφατα στοιχεία</em> μπλοκ της ροής. Πατώντας σε αυτό το εικονίδιο συμπληρώνει ένα <em>ιστολόγημα</em> με τίτλο (τον τίτλο του στοιχείου ροής) και σώμα (ένα σύνδεσμο στο πηγαίο στοιχείο στον πρωτότυπο ιστότοπο και ενδεικτικό περιεχόμενο κατάλληλο για χρήση σε μια παράθεση μπλοκ). Οι συντάκτες ενός ιστολογίου μπορούν να χρησιμοποιήσουν αυτό το χαρακτηριστικό για να σχολιάσουν εύκολα πάνω σε στοιχεία ενδιαφέροντος που εμφανίζονται στις ροές συλλέκτη από άλλους ιστοτόπους. Για να χρησιμοποιήσετε αυτό το χαρακτηριστικό, <a href=\"@modules\">ενεργοποιήστε</a> τη μονάδα aggregator, <a href=\"@feeds\">προσθέστε και ρυθμίστε</a> μια ροή από ένα άλλο ιστότοπο και <a href=\"@blocks\">τοποθετήστε</a> το <em>τελευταία στοιχεία</em> μπλοκ της ροής."
 
 #: modules/blog/blog.module:68
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:27+0300\n"
+"PO-Revision-Date: 2008-05-06 01:00+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -622,13 +622,13 @@ msgstr "Βιβλίο"
 #: modules/book/book.admin.inc:196
 #: modules/forum/forum.admin.inc:50;131
 msgid "Parent"
-msgstr "Μητρικό"
+msgstr "Γονικό"
 
 #: modules/book/book.module:349
 #: modules/menu/menu.admin.inc:312
 #: modules/menu/menu.module:398
 msgid "Parent item"
-msgstr "Μητρικό στοιχείο"
+msgstr "Γονικό στοιχείο"
 
 #: modules/book/book.info:0
 msgid "Allows users to structure site pages in a hierarchy or outline."
@@ -639,7 +639,7 @@ msgstr "Επιτρέπει τους χρήστες να δομούν τις ισ
 #: modules/comment/comment.module:1387;1391;1394
 #: modules/node/node.pages.inc:239;401
 msgid "Preview"
-msgstr "Προεπισκόπηση"
+msgstr "Δοκιμή εμφάνισης"
 
 #: modules/color/color.module:286
 #: modules/node/content_types.inc:208;279;306;325
@@ -714,7 +714,7 @@ msgstr "Πρέπει να δώσετε έγκυρη ημερομηνία."
 #: modules/comment/comment.module:1288;1304
 #: modules/node/node.pages.inc:178
 msgid "Authored by"
-msgstr "Συντάχθηκε από τον/την:"
+msgstr "Συντάχθηκε από τον/την"
 
 #: modules/comment/comment.module:1312;1343;1351
 #: modules/user/user.admin.inc:763;802
@@ -729,7 +729,7 @@ msgstr "Το περιεχόμενο αυτού του πεδίου παραμέ�
 #: modules/comment/comment.module:1328
 #: modules/node/node.pages.inc:187
 msgid "Authored on"
-msgstr "Γράφτηκε στις"
+msgstr "Συντάχθηκε στις"
 
 #: modules/comment/comment.module:1330
 #: modules/node/node.admin.inc:565

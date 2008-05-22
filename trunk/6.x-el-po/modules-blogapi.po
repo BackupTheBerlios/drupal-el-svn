@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-blogapi\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:41+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: modules/blogapi/blogapi.module:15
 msgid "The Blog API module allows your site's users to access and post to their blogs from external blogging clients. External blogging clients are available for a wide range of desktop operating systems, and generally provide a feature-rich graphical environment for creating and editing posts."
-msgstr "Η μονάδα API Ιστολογίων επιτρέπει τους χρήστες της ιστοσελίδας σας να έχουν τη δυνατότητα πρόσβασης και δημοσίευσης στα ιστολόγια τους από εξωτερικά πελάτες-ιστολόγια. Τα εξωτερικά πελάτες-ιστολόγια είναι διαθέσιμα από μια ευρεία γκάμα λειτουργικών συστημάτων υπολογιστών γραφείου, και παρέχουν γενικά ένα πλούσιο σε χαρακτηριστικά γραφικό περιβάλλον για τη δημιουργία και επεξεργασία δημοσιευμάτων."
+msgstr "Η μονάδα API Ιστολογίων επιτρέπει τους χρήστες της ιστοσελίδας σας να έχουν τη δυνατότητα πρόσβασης και δημοσίευσης στα ιστολόγια τους από εξωτερικά πελάτες-ιστολόγια. Τα εξωτερικά πελάτες-ιστολόγια είναι διαθέσιμα από μια ευρεία γκάμα λειτουργικών συστημάτων υπολογιστών γραφείου και παρέχουν γενικά ένα πλούσιο σε χαρακτηριστικά γραφικό περιβάλλον για τη δημιουργία και επεξεργασία δημοσιευμάτων."
 
 #: modules/blogapi/blogapi.module:16
 msgid "<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS X and Microsoft Windows, can be used with Blog API. Blog API also supports <a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr\">Flickr's</a> \"post to blog\") that support these APIs may also be compatible."
-msgstr "Το <a href=\"@ecto-link\">Ecto</a>, ένα πελάτης-ιστολόγιο διαθέσιμο για Mac OS X και Microsoft Windows, μπορεί να χρησιμοποιηθεί με το API Ιστολογίων. Το API Ιστολογίων υποστηρίζει επίσης το <a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api\">MetaWeblog API</a>, και τα περισσότερα από τα <a href=\"@movabletype-api\">Movable Type API</a>. Πελάτες-ιστολόγια και άλλες υπηρεσίες (π.χ. <a href=\"@flickr\">του Flickr</a> \"δημοσίευση στο ιστολόγιο\") που υποστηρίζουν αυτά τα API μπορούν να είναι επίσης συμβατά."
+msgstr "Το <a href=\"@ecto-link\">Ecto</a>, ένα πελάτης-ιστολόγιο διαθέσιμο για Mac OS X και Microsoft Windows, μπορεί να χρησιμοποιηθεί με το API Ιστολογίων. Το API Ιστολογίων υποστηρίζει επίσης το <a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api\">MetaWeblog API</a> και τα περισσότερα από τα <a href=\"@movabletype-api\">Movable Type API</a>. Πελάτες-ιστολόγια και άλλες υπηρεσίες (π.χ. <a href=\"@flickr\">του Flickr</a> \"δημοσίευση στο ιστολόγιο\") που υποστηρίζουν αυτά τα API μπορούν να είναι επίσης συμβατά."
 
 #: modules/blogapi/blogapi.module:17
 msgid "Select the content types available to external clients on the <a href=\"@blogapi-settings\">Blog API settings page</a>. If supported and available, each content type will be displayed as a separate \"blog\" by the external client."

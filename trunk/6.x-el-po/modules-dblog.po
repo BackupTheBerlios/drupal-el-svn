@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-dblog\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:42+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "Η μονάδα dblog επιτηρεί το σύστημά σας, κα�
 
 #: modules/dblog/dblog.module:22
 msgid "The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the dblog report on a regular basis to ensure their site is working properly."
-msgstr "Το ημερλόγιο dblog είναι απλά μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα χρήσης, δεδομένα απόδοσης, σφάλματα, παρατηρήσεις, και λειτουργικές πληροφορίες. Οι διαχειριστές είναι καλό να ελέγχουν την αναφορά του ημερολογίου dblog τακτικά για να διασφαλίζουν τη σωστή λειτουργία του ιστοτόπου τους."
+msgstr "Το ημερλόγιο dblog είναι απλά μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα χρήσης, δεδομένα απόδοσης, σφάλματα, παρατηρήσεις και λειτουργικές πληροφορίες. Οι διαχειριστές είναι καλό να ελέγχουν την αναφορά του ημερολογίου dblog τακτικά για να διασφαλίζουν τη σωστή λειτουργία του ιστοτόπου τους."
 
 #: modules/dblog/dblog.module:23
 msgid "For more information, see the online handbook entry for <a href=\"@dblog\">Dblog module</a>."
@@ -70,11 +70,11 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/dblog/dblog.module:26
 msgid "The dblog module monitors your website, capturing system events in a log to be reviewed by an authorized individual at a later time. The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the dblog report on a regular basis as it is often the only way to tell what is going on."
-msgstr "Η μονάδα dblog επιτηρεί το σύστημά σας, καταγράφοντας συμβάντα συστήματος σε ένα ημερολόγιο για να επιθεωρηθούν αργότερα από κάποιο εξουσιοδοτημένο πρόσωπο. Το ημερολόγιο dblog είναι απλά μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα χρήσης, δεδομένα απόδοσης, σφάλματα, παρατηρήσεις, και λειτουργικές πληροφορίες. Ο τακτικός έλεγχος της αναφοράς του ημερολογίου dblog είναι ζωτικής σημασίας καθώς συχνά είναι ο μόνος τρόπος για να ξέρετε τι γίνεται."
+msgstr "Η μονάδα dblog επιτηρεί το σύστημά σας, καταγράφοντας συμβάντα συστήματος σε ένα ημερολόγιο για να επιθεωρηθούν αργότερα από κάποιο εξουσιοδοτημένο πρόσωπο. Το ημερολόγιο dblog είναι απλά μια λίστα καταγεγραμμένων συμβάντων που περιέχει δεδομένα χρήσης, δεδομένα απόδοσης, σφάλματα, παρατηρήσεις και λειτουργικές πληροφορίες. Ο τακτικός έλεγχος της αναφοράς του ημερολογίου dblog είναι ζωτικής σημασίας καθώς συχνά είναι ο μόνος τρόπος για να ξέρετε τι γίνεται."
 
 #: modules/dblog/dblog.module:47
 msgid "Settings for logging to the Drupal database logs. This is the most common method for small to medium sites on shared hosting. The logs are viewable from the admin pages."
-msgstr "Ρυθμίσεις καταγραφής στο ημερολόγιο της βάσης δεδομένων του Drupal. Αυτή είναι η πιο κοινή μέθοδος για ιστότοπους μικρου εως μεσαίου μεγέθους σε μοιραζόμενη φιλοξενία. Τα ημερολόγια είναι διαθέσιμα από τις σελίδες διαχείρισης."
+msgstr "Ρυθμίσεις καταγραφής στο ημερολόγιο της βάσης δεδομένων του Drupal. Αυτή είναι η πιο κοινή μέθοδος για ιστοτόπους μικρού εως μεσαίου μεγέθους σε μοιραζόμενη φιλοξενία. Τα ημερολόγια είναι διαθέσιμα από τις σελίδες διαχείρισης."
 
 #: modules/dblog/dblog.module:54
 msgid "Recent log entries"

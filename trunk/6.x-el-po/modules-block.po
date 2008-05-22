@@ -1,6 +1,7 @@
 # translation of modules-block.po to Greek
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -8,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-block\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-17 20:59+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-05-06 00:40+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,11 +152,11 @@ msgstr "Το μπλοκ %name διαγράφηκε."
 
 #: modules/block/block.module:70
 msgid "Blocks are boxes of content rendered into an area, or region, of a web page. The default theme Garland, for example, implements the regions \"left sidebar\", \"right sidebar\", \"content\", \"header\", and \"footer\", and a block may appear in any one of these areas. The <a href=\"@blocks\">blocks administration page</a> provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions."
-msgstr "Τα μπλοκ είναι πλαίσια περιεχομένων τοποθετημένα σε μια περιοχή, ή τμήμα μιας ιστοσελίδας. Το προεπιλεγμένο θέμα Garland, για παράδειγμα, εφαρμόζει τις περιοχές \"αριστερή πλευρική μπάρα\", \"δεξιά πλευρική μπάρα\", \"περιεχόμενο\", \"αρχή σελίδας\", και \"τέλος σελίδας\", και ένα μπλοκ μπορεί να εμφανιστεί σε οποιαδήποτε από τις προαναφερόμενες περιοχές. Η <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a> παρέχει μια διεπαφή σύρε και άσε για την ανάθεση ενός μπλοκ σε μια περιοχή, και για τον έλεγχο της κατάταξης των μπλοκ μέσα στις περιοχές."
+msgstr "Τα μπλοκ είναι πλαίσια περιεχομένων τοποθετημένα σε μια περιοχή, ή τμήμα μιας ιστοσελίδας. Το προεπιλεγμένο θέμα Garland, για παράδειγμα, εφαρμόζει τις περιοχές \"αριστερή πλευρική μπάρα\", \"δεξιά πλευρική μπάρα\", \"περιεχόμενο\", \"αρχή σελίδας\" και \"τέλος σελίδας\" και ένα μπλοκ μπορεί να εμφανιστεί σε οποιαδήποτε από τις προαναφερόμενες περιοχές. Η <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a> παρέχει μια διεπαφή σύρε και άσε για την ανάθεση ενός μπλοκ σε μια περιοχή και για τον έλεγχο της κατάταξης των μπλοκ μέσα στις περιοχές."
 
 #: modules/block/block.module:71
 msgid "Although blocks are usually generated automatically by modules (like the <em>User login</em> block, for example), administrators can also define custom blocks. Custom blocks have a title, description, and body. The body of the block can be as long as necessary, and can contain content supported by any available <a href=\"@input-format\">input format</a>."
-msgstr "Μολονότι τα μπλοκ παράγονται συνήθως αυτόματα από τις μονάδες (όπως το μπλοκ <em>Είσοδος Χρήστη</em> για παράδειγμα), οι διαχειριστές μπορούν επίσης να καθορίσουν προσαρμοσμένα μπλοκ. Τα προσαρμοσμένα μπλοκ έχουν τίτλο, περιγραφή, και σώμα. Το σώμα του μπλοκ μπορεί να έχει πλάτος όσο χρειάζεται, και μπορεί να περιέχει περιεχόμενο που υποστηρίζεται από οποιοδήποτε διαθέσιμο <a href=\"@input-format\">μορφότυπο εισόδου</a>."
+msgstr "Μολονότι τα μπλοκ παράγονται συνήθως αυτόματα από τις μονάδες (όπως το μπλοκ <em>Είσοδος Χρήστη</em> για παράδειγμα), οι διαχειριστές μπορούν επίσης να καθορίσουν προσαρμοσμένα μπλοκ. Τα προσαρμοσμένα μπλοκ έχουν τίτλο, περιγραφή και σώμα. Το σώμα του μπλοκ μπορεί να έχει πλάτος όσο χρειάζεται και μπορεί να περιέχει περιεχόμενο που υποστηρίζεται από οποιοδήποτε διαθέσιμο <a href=\"@input-format\">μορφότυπο εισόδου</a>."
 
 #: modules/block/block.module:72
 msgid "When working with blocks, remember that:"
@@ -199,7 +200,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/block/block.module:85
 msgid "This page provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions. To change the region or order of a block, grab a drag-and-drop handle under the <em>Block</em> column and drag the block to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Since not all themes implement the same regions, or display regions in the same way, blocks are positioned on a per-theme basis. Remember that your changes will not be saved until you click the <em>Save blocks</em> button at the bottom of the page."
-msgstr "Αυτή η σελίδα παρέχει μια διεπαφή σύρε και άσε για την ανάθεση ενός μπλοκ σε μια περιοχή, και για τον έλεγχο της κατάταξης των μπλοκ μέσα στις περιοχές. Για να αλλάξετε την περιοχή ή την κατάταξη ενός μπλοκ, πιάστε μια λαβή σύρε και άσε κάτω από τη στήλη <em>Μπλοκ</em> και σύρετε και αφήστε σε μια νέα τοποθεσία μέσα στη λίστα. (Πιάστε μια λαβή κάνοντας κλικ και κρατώντας το ποντίκι όσο θα μετακινείστε πάνω από ένα εικονίδιο λαβής.) Δεδομένου του ότι δεν εφαρμόζουν όλα τα θέματα τις ίδιες περιοχές, ή εμφανίζουν τις περιοχές με τον ίδιο τρόπο, τα μπλοκ είναι τοποθετημένα σε μια βάση ανα-θέμα. Θυμηθείτε ότι οι αλλαγές δεν θα αποθηκευτούν έως ότου κάνετε κλικ στο κουμπί <em>Αποθήκευση μπλοκ</em> στο κάτω μέρος της σελίδας."
+msgstr "Αυτή η σελίδα παρέχει μια διεπαφή σύρε και άσε για την ανάθεση ενός μπλοκ σε μια περιοχή και για τον έλεγχο της κατάταξης των μπλοκ μέσα στις περιοχές. Για να αλλάξετε την περιοχή ή την κατάταξη ενός μπλοκ, πιάστε μια λαβή σύρε και άσε κάτω από τη στήλη <em>Μπλοκ</em> και σύρετε και αφήστε σε μια νέα τοποθεσία μέσα στη λίστα. (Πιάστε μια λαβή κάνοντας κλικ και κρατώντας το ποντίκι όσο θα μετακινείστε πάνω από ένα εικονίδιο λαβής.) Δεδομένου του ότι δεν εφαρμόζουν όλα τα θέματα τις ίδιες περιοχές, ή εμφανίζουν τις περιοχές με τον ίδιο τρόπο, τα μπλοκ είναι τοποθετημένα σε μια βάση ανα-θέμα. Θυμηθείτε ότι οι αλλαγές δεν θα αποθηκευτούν έως ότου κάνετε κλικ στο κουμπί <em>Αποθήκευση μπλοκ</em> στο κάτω μέρος της σελίδας."
 
 #: modules/block/block.module:87
 msgid "To reduce CPU usage, database traffic or bandwidth, blocks may be automatically disabled during high server loads by selecting their <em>Throttle</em> checkbox. Adjust throttle thresholds on the <a href=\"@throttleconfig\">throttle configuration page</a>."
@@ -211,7 +212,7 @@ msgstr "Κάντε κλικ στο σύνδεσμο <em>ρύθμιση</em> πο
 
 #: modules/block/block.module:92
 msgid "Use this page to create a new custom block. New blocks are disabled by default, and must be moved to a region on the <a href=\"@blocks\">blocks administration page</a> to be visible."
-msgstr "Χρησιμοποιείστε αυτή τη σελίδα για να δημιουργήσετε ένα προσαρμοσμένο μπλοκ. Τα νέα μπλοκ προεπιλεγμένα είναι απενεργοποιημένα, και πρέπει να μετακινηθούν σε μια περιοχή από τη <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a> για να γίνουν ορατά."
+msgstr "Χρησιμοποιείστε αυτή τη σελίδα για να δημιουργήσετε ένα προσαρμοσμένο μπλοκ. Τα νέα μπλοκ προεπιλεγμένα είναι απενεργοποιημένα και πρέπει να μετακινηθούν σε μια περιοχή από τη <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a> για να γίνουν ορατά."
 
 #: modules/block/block.module:272
 msgid "The block %info was assigned to the invalid region %region and has been disabled."
@@ -283,7 +284,7 @@ msgstr "Πρωτεύον Κλειδί: Κοινή ταυτότητα μπλοκ.
 
 #: modules/block/block.install:21
 msgid "The module from which the block originates; for example, 'user' for the Who's Online block, and 'block' for any custom blocks."
-msgstr "Η μονάδα από την οποία προέρχεται το μπλοκ. Για παράδειγμα, 'χρήστης' για το μπλοκ Ποιος είναι Συνδεμένος, και 'μπλοκ' για οποιοδήποτε προσαρμοσμένο μπλοκ."
+msgstr "Η μονάδα από την οποία προέρχεται το μπλοκ. Για παράδειγμα, 'χρήστης' για το μπλοκ Ποιος είναι Συνδεμένος και 'μπλοκ' για οποιοδήποτε προσαρμοσμένο μπλοκ."
 
 #: modules/block/block.install:28
 msgid "Unique ID for block within a module."
@@ -367,7 +368,7 @@ msgstr "Σώμα μπλοκ {filter_formats}.format; για παράδειγμα
 
 #: modules/block/block.install:175
 msgid "Cache table for the Block module to store already built blocks, identified by module, delta, and various contexts which may change the block, such as theme, locale, and caching mode defined for the block."
-msgstr "Λανθάνουσα μνήμη πίνακα για τη μονάδα Μπλοκ για αποθήκευση ήδη δημιουργημένων μπλοκ, προσδιορισμένα από τη μονάδα, δέλτα, και τα διάφορα πλαίσια που μπορούν να αλλάξουν το μπλοκ, όπως το θέμα, τη τοπική προσαρμογή, και ο τρόπος λανθάνουσας μνήμης που καθορίζεται για το μπλοκ."
+msgstr "Λανθάνουσα μνήμη πίνακα για τη μονάδα Μπλοκ για αποθήκευση ήδη δημιουργημένων μπλοκ, προσδιορισμένα από τη μονάδα, δέλτα και τα διάφορα πλαίσια που μπορούν να αλλάξουν το μπλοκ, όπως το θέμα, τη τοπική προσαρμογή και ο τρόπος λανθάνουσας μνήμης που καθορίζεται για το μπλοκ."
 
 #: modules/block/block.js:0
 msgid "The changes to these blocks will not be saved until the <em>Save blocks</em> button is clicked."

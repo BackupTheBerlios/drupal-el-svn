@@ -6,12 +6,13 @@
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Vasileios Lourdas <vasilis@lourdas.name>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-aggregator\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-01 00:25+0300\n"
-"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"PO-Revision-Date: 2008-05-06 00:45+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -459,11 +460,11 @@ msgstr "Η τελευταία φορά που η ροή έλεγξε για νέ
 
 #: modules/aggregator/aggregator.install:141
 msgid "The parent website of the feed; comes from the <link> element in the feed."
-msgstr "Ο μητρικός ιστοτόπος της ροής που δίνεται από το στοιχείο <link> της ροής."
+msgstr "Ο γονικός ιστοτόπος της ροής που δίνεται από το στοιχείο <link> της ροής."
 
 #: modules/aggregator/aggregator.install:147
 msgid "The parent website's description; comes from the <description> element in the feed."
-msgstr "Η περιγραφή του μητρικού ιστοτόπου που προέρχεται από το στοιχείο <description> (περιγραφή) της ροής."
+msgstr "Η περιγραφή του γονικού ιστοτόπου που προέρχεται από το στοιχείο <description> (περιγραφή) της ροής."
 
 #: modules/aggregator/aggregator.install:153
 msgid "An image representing the feed."

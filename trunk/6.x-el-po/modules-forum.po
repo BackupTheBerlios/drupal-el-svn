@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-forum\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:35+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -221,7 +221,7 @@ msgstr "Θέμα φόρουμ"
 
 #: modules/forum/forum.module:298
 msgid "A <em>forum topic</em> is the initial post to a new discussion thread within a forum."
-msgstr "Το <em>θέμα του φόρουμ</em> είναι η αρχική καταχώρηση αυτής της συζήτησης στο φόρουμ."
+msgstr "Ένα <em>θέμα του φόρουμ</em> είναι η αρχική καταχώρηση μιας νέας συζήτησης σε ένα φόρουμ."
 
 #: modules/forum/forum.module:361
 msgid "This is the designated forum vocabulary. Some of the normal vocabulary options have been removed."

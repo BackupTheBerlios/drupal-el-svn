@@ -1,18 +1,17 @@
-# translation of general.po to Greek
+# translation of modules-upload.po to Greek
+# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
+# Stavros Temertzidis <bullgr@gmail.com>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: modules-upload\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2008-05-06 00:51+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -153,7 +152,7 @@ msgstr "Συνημμένα αρχεία"
 
 #: modules/upload/upload.module:228
 msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
-msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι την αποθήκευση της δημοσίευσης. Το πρώτο αρχείο της \"λίστας \" θα συμπεριληφθεί στις ροές RSS."
+msgstr "Οι αλλαγές που γίνονται στα συνημμένα δεν είναι μόνιμες μέχρι την αποθήκευση της δημοσίευσης. Το πρώτο αρχείο της \"λίστας\" θα συμπεριληφθεί στις ροές RSS."
 
 #: modules/upload/upload.module:246
 msgid "File attachments are disabled. The file directories have not been properly configured."
@@ -248,3 +247,4 @@ msgstr "Αν το αρχείο πρέπει να εμφανίζεται σε λ�
 #: modules/upload/upload.install:72
 msgid "Weight of this upload in relation to other uploads in this node."
 msgstr "Το βάρος του συνημμένου σε σχέση με τα άλλα συνημμένα αυτού του κόμβου."
+

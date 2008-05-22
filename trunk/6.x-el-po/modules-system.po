@@ -2,6 +2,7 @@
 # Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
 # Stavros Temertzidis <bullgr@gmail.com>, 2008.
 # Vasileios Lourdas <vasilis@lourdas.name>, 2008.
+# Vasileios Lourdas <drupal@lourdas.name>, 2008.
 # Greek Drupal translation of general.po to Greek
 # Greek translation of Drupal 5.1
 # Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
@@ -9,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-system\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-26 23:31+0200\n"
-"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
+"PO-Revision-Date: 2008-05-06 00:42+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1911,7 +1912,7 @@ msgstr "Αποτυχαίνει"
 
 #: (duplicate) modules/system/system.install:289
 msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
-msgstr "Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας ιστοσελίδων ή της PHP, και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
+msgstr "Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας ιστοσελίδων ή της PHP και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
 
 #: (duplicate) modules/system/system.install:293
 msgid "Update notifications"

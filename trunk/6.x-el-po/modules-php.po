@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-php\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:30+0300\n"
+"PO-Revision-Date: 2008-05-06 00:57+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Για περισσότερες πληροφορίες διαβάστε 
 
 #: modules/php/php.module:32
 msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
-msgstr "Μπορείτε να υποβάλετε κώδικα PHP. Θα πρέπει να συμπεριλάβετε τις ετικέτες &lt;?php ?&gt; tags."
+msgstr "Μπορείτε να υποβάλετε κώδικα PHP. Θα πρέπει να συμπεριλάβετε τις ετικέτες &lt;?php ?&gt;."
 
 #: modules/php/php.module:34
 msgid "Using custom PHP code"

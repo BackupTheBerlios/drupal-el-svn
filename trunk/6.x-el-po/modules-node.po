@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-node\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:30+0300\n"
+"PO-Revision-Date: 2008-05-06 00:59+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -386,7 +386,7 @@ msgstr "Πληροφορίες σύνταξης"
 
 #: modules/node/node.pages.inc:183
 msgid "Leave blank for %anonymous."
-msgstr "Αφήστε το κενό για να μείνει %anonymous."
+msgstr "Αφήστε το κενό για να μείνει το %anonymous."
 
 #: modules/node/node.pages.inc:189
 msgid "Format: %time. Leave blank to use the time of form submission."
@@ -402,7 +402,7 @@ msgstr "Εμφάνιση περίληψης σε πλήρη ανάπτυξη"
 
 #: modules/node/node.pages.inc:433
 msgid "The trimmed version of your post shows what your post looks like when promoted to the main page or when exported for syndication.<span class=\"no-js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the quotes) to fine-tune where your post gets split.</span>"
-msgstr "Η περικομμένη έκδοση της δημοσίευσής σας δείχνει πως εμφανίζεται όταν προβιβάζεται στην κεντρική σελίδα ή εξάγεται για syndication. <span class=\"no-js\"> Μπορείτε να εισάγετε το διαχωριστή \"&lt;!--break--&gt;\" (χωρίς τα εισαγωγικά) για να ορίσετε με ακρίβεια σε ποιο σημείο η δημοσίευσή σας θα χωριστεί.</span>"
+msgstr "Η περικομμένη έκδοση της δημοσίευσής σας δείχνει πως εμφανίζεται όταν προβιβάζεται στην κεντρική σελίδα ή εξάγεται για συλλογή. <span class=\"no-js\"> Μπορείτε να εισάγετε το διαχωριστή \"&lt;!--break--&gt;\" (χωρίς τα εισαγωγικά) για να ορίσετε με ακρίβεια σε ποιο σημείο η δημοσίευσή σας θα χωριστεί.</span>"
 
 #: modules/node/node.pages.inc:434
 msgid "Preview trimmed version"
@@ -618,11 +618,11 @@ msgstr "<strong>Προσαρμόστε την όψη του ιστοτόπου �
 
 #: modules/node/node.module:1741
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
-msgstr "<strong>Αρχίστε να υποβάλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώρηση."
+msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώρηση."
 
 #: modules/node/node.module:1743
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
-msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης να υποβάλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
+msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης να υποβάλλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
 
 #: modules/node/node.module:1815;1867
 msgid "Advanced search"

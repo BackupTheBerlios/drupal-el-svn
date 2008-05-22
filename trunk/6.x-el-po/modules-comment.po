@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-comment\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:41+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "POT-Creation-Date: 2008-01-31 01:00+0100\n"
 "PO-Revision-Date: 2008-02-19 10:39+0200\n"
@@ -111,7 +111,7 @@ msgstr "Η μονάδα comment επιτρέπει στους επισκέπτε
 
 #: modules/comment/comment.module:130
 msgid "Comment permissions are assigned to user roles, and are used to determine whether anonymous users (or other roles) are allowed to comment on posts. If anonymous users are allowed to comment, their individual contact information may be retained in cookies stored on their local computer for use in later comment submissions. When a comment has no replies, it may be (optionally) edited by its author. The comment module uses the same input formats and HTML tags available when creating other forms of content."
-msgstr "Οι άδειες σχολίων είναιαναθετημένες στους ρόλους χρηστών, και χρησιμοποιούνται στο να προσδιοριστεί εαν επιτρέπεται στους ανώνυμους χρήστες (ή σε άλλοι ρόλους) να σχολιάζουν ιστορήματα. Εαν επιτρέπεται στους ανώνυμους χρήστες να σχολιάσουν, μπορεί να διατηρηθούν σε cookies στον υπολογιστή τους τα προσωπικά τους στοιχεία επικοινωνίας για να χρησιμποιηθούν σε μεταγενέστερα σχόλια. Εαν ένα σχόλιο δεν έχει απαντήσεις μπορεί (προαιρετικά) να επεξεργασθεί από το συντάκτη του. Η μονάδα comment χρησιμοποιεί τους ίδιους τύπους εισαγωγής και HTML tags που είναι διαθέσιμα κατά τη δημιουργία άλλων μορφών περιεχομένου."
+msgstr "Οι άδειες σχολίων είναιαναθετημένες στους ρόλους χρηστών και χρησιμοποιούνται στο να προσδιοριστεί εαν επιτρέπεται στους ανώνυμους χρήστες (ή σε άλλοι ρόλους) να σχολιάζουν ιστορήματα. Εαν επιτρέπεται στους ανώνυμους χρήστες να σχολιάσουν, μπορεί να διατηρηθούν σε cookies στον υπολογιστή τους τα προσωπικά τους στοιχεία επικοινωνίας για να χρησιμποιηθούν σε μεταγενέστερα σχόλια. Εαν ένα σχόλιο δεν έχει απαντήσεις μπορεί (προαιρετικά) να επεξεργασθεί από το συντάκτη του. Η μονάδα comment χρησιμοποιεί τους ίδιους τύπους εισαγωγής και HTML tags που είναι διαθέσιμα κατά τη δημιουργία άλλων μορφών περιεχομένου."
 
 #: modules/comment/comment.module:131
 msgid "For more information, see the online handbook entry for <a href=\"@comment\">Comment module</a>."

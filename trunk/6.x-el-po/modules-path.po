@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-path\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-05 11:44+0300\n"
+"PO-Revision-Date: 2008-05-06 00:55+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgstr "Ρυθμίσεις διαδρομής URL"
 
 #: modules/path/path.module:194
 msgid "Optionally specify an alternative URL by which this node can be accessed. For example, type \"about\" when writing an about page. Use a relative path and don't add a trailing slash or the URL alias won't work."
-msgstr "Προαιρετικά, ορίστε μια εναλλακτική διεύθυνση URL με την οποία θα μπορεί να προσπελάζεται αυτός ο κόμβος. Για παράδειγμα, πληκτρολογήστε \"about\" αν γράφετε μια σελίδα τύπου about. Χρησιμοποιήστε σχετική διαδρομή και μην προσθέσετε διαχωριστική κάθετη στο τέλος, αλλιώς το ψευδώνυμο της διαδρομής URL δε θα λειτουργεί."
+msgstr "Προαιρετικά, ορίστε μια εναλλακτική διεύθυνση URL με την οποία θα είναι δυνατή η προσπέλαση αυτού του κόμβου. Για παράδειγμα, πληκτρολογήστε \"about\" αν γράφετε μια σελίδα τύπου about. Χρησιμοποιήστε σχετική διαδρομή και μην προσθέτετε διαχωριστική κάθετη στο τέλος, αλλιώς το ψευδώνυμο της διαδρομής URL δε θα λειτουργεί."
 
 #: modules/path/path.module:209
 msgid "create url aliases"

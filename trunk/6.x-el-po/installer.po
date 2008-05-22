@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: installer\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 01:29+0300\n"
+"PO-Revision-Date: 2008-05-06 00:47+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Προχωρημένες επιλογές"
 
 #: install.php:290
 msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
-msgstr "Αυτές οι επιλογές είναι απαραίτητες μόνο για κάποιους ιστότοπους. Αν δεν είστε σίγουροι τι πρέπει να εισάγετε εδώ, αφήστε τις προεπιλεγμένες ρυθμίσεις ή συμβουλευτείτε τον παροχέα φιλοξενίας ιστοσελίδων σας."
+msgstr "Αυτές οι επιλογές είναι απαραίτητες μόνο για κάποιους ιστοτόπους. Αν δεν είστε σίγουροι τι πρέπει να εισάγετε εδώ, αφήστε τις προεπιλεγμένες ρυθμίσεις ή συμβουλευτείτε τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: install.php:296
 msgid "Database host"
@@ -121,7 +121,7 @@ msgstr "Έχετε ρυθμίσει το @drupal να χρησιμοποιεί %
 
 #: install.php:382
 msgid "In order for Drupal to work, and to continue with the installation process, you must resolve all permission issues reported above. We were able to verify that we have permission for the following commands: %commands. For more help with configuring your database server, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what any of this means you should probably contact your hosting provider."
-msgstr "Για να λειτουργήσει το Drupal, και για να συνεχίσετε την διαδικασία εγκατάστασης, πρέπει να επιλύσετε όλα τα ζητήματα που αναφέρθηκαν παραπάνω. Επαληθεύσαμε ότι έχετε άδεια για τις παρακάτω εντολές: %commands. Για περιταίρω βοήθεια για τη ρύθμιση του διακομιστή βάσης δεδομένων σας, δείτε το <a href=\"http://drupal.org/node/258\">Εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δεν είστε σίγουρος για τη σημασία κάποιου απ'αυτά επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
+msgstr "Για να λειτουργήσει το Drupal, και για να συνεχίσετε την διαδικασία εγκατάστασης, πρέπει να επιλύσετε όλα τα ζητήματα που αναφέρθηκαν παραπάνω. Επαληθεύσαμε ότι έχετε άδεια για τις παρακάτω εντολές: %commands. Για περιταίρω βοήθεια για τη ρύθμιση του διακομιστή βάσης δεδομένων σας, δείτε το <a href=\"http://drupal.org/node/258\">Εγχειρίδιο εγκατάστασης και αναβάθμισης</a>. Αν δεν είστε σίγουρος για τη σημασία κάποιου απ' αυτά επικοινωνήστε με τον παροχέα φιλοξενίας ιστοσελίδων σας."
 
 #: install.php:444
 msgid "Select an installation profile"
@@ -133,7 +133,7 @@ msgstr "Επιλέξτε γλώσσα"
 
 #: install.php:510
 msgid "With the addition of an appropriate translation package, this installer is capable of proceeding in another language of your choice. To install and use Drupal in a language other than English:"
-msgstr "Με την προσθήκη του κατάλληλου πακέτου μετάφρασης o εγκαταστάτης δύναται να προχωρήσει σε γλώσσα της επιλογής σας. Για να εγκαταστήσετε και να χρησιμποιήσετε το Drupal σε μια άλλη γλώσσα απ'τα Αγγλικά:"
+msgstr "Με την προσθήκη του κατάλληλου πακέτου μετάφρασης o εγκαταστάτης δύναται να προχωρήσει σε γλώσσα της επιλογής σας. Για να εγκαταστήσετε και να χρησιμποιήσετε το Drupal σε μια άλλη γλώσσα απ' τα Αγγλικά:"
 
 #: install.php:511
 msgid "Determine if <a href=\"@translations\" target=\"_blank\">a translation of this Drupal version</a> is available in your language of choice. A translation is provided via a translation package; each translation package enables the display of a specific version of Drupal in a specific language. Not all languages are available for every version of Drupal."
@@ -321,7 +321,7 @@ msgstr "Όνομα χρήστη"
 
 #: install.php:1023
 msgid "Spaces are allowed; punctuation is not allowed except for periods, hyphens, and underscores."
-msgstr "Επιτρέπονται τα διαστήματα, δεν επιτρέπονται ειδικοί χαρακτήρες εκτός από τελείες, παύλες, και χαρακτήρες υπογράμμισης."
+msgstr "Επιτρέπονται τα διαστήματα· δεν επιτρέπονται ειδικοί χαρακτήρες εκτός από τελείες, παύλες και χαρακτήρες υπογράμμισης."
 
 #: install.php:1029
 msgid "E-mail address"
@@ -329,7 +329,7 @@ msgstr "Διεύθυνση e-mail"
 
 #: install.php:1031
 msgid "All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail."
-msgstr "Όλα τα μηνύματα e-mail από το σύστημα θα στέλνονται σε αυτή τη διεύθυνση. Η διεύθυνση e-mail δε δημοσιοποιείται και θα χρησιμοποιηθεί μόνο αν ζητήσετε νέο συνθηματικό εισόδου ή αν θελήσετε να παίρνετε κάποιες ειδήσεις ή ειδοποιήσεις μέσω e-mail."
+msgstr "Όλα τα μηνύματα e-mail από το σύστημα θα στέλνονται σε αυτή τη διεύθυνση. Η διεύθυνση e-mail δε δημοσιοποιείται και θα χρησιμοποιηθεί μόνο αν ζητήσετε νέο συνθηματικό εισόδου ή αν θελήσετε να λαμβάνετε κάποιες ειδήσεις ή ειδοποιήσεις μέσω e-mail."
 
 #: install.php:1044
 msgid "Server settings"
@@ -637,11 +637,11 @@ msgstr "Πλοήγηση"
 
 #: (duplicate) modules/menu/menu.install:12
 msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
-msgstr "Το μενού πλοήγησης παρέχεται από το Drupal και είναι το κύριο διαδραστικό μενού για κάθε ιστότοπο. Συνήθως είναι το μόνο μενού που περιλαμβάνει εξατομικευμένους συνδέσμους για τους πιστοποιημένους χρήστες, και συχνά δεν είναι καν ορατό στους ανώνυμους χρήστες."
+msgstr "Το μενού πλοήγησης παρέχεται από το Drupal και είναι το κύριο διαδραστικό μενού για κάθε ιστότοπο. Συνήθως είναι το μόνο μενού που περιλαμβάνει εξατομικευμένους συνδέσμους για τους πιστοποιημένους χρήστες και συχνά δεν είναι καν ορατό στους ανώνυμους χρήστες."
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links"
-msgstr "Πρωταρχικοί σύνδεσμοι"
+msgstr "Πρωτεύοντες σύνδεσμοι"
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
@@ -653,7 +653,7 @@ msgstr "Δευτερεύοντες σύνδεσμοι"
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
-msgstr "Δευτερεύοντες σύνδεσμοι χρησιμοποιούνται συχνά για σελίδες όπως νομικές σημειώσεις, λεπτομέρειες επικοινωνίας, και άλλα δευτερεύοντα στοιχεία πλοήγησης που έχουν λιγότερο σημαντικό ρόλο απ'ότι οι πρωταρχικοί σύνδεσμοι"
+msgstr "Δευτερεύοντες σύνδεσμοι χρησιμοποιούνται συχνά για σελίδες όπως νομικές σημειώσεις, λεπτομέρειες επικοινωνίας και άλλα δευτερεύοντα στοιχεία πλοήγησης που έχουν λιγότερο σημαντικό ρόλο απ' ότι οι πρωταρχικοί σύνδεσμοι"
 
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
@@ -838,7 +838,7 @@ msgstr "Αποτυχαίνει"
 
 #: (duplicate) modules/system/system.install:289
 msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
-msgstr "Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας ιστοσελίδων ή της PHP, και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
+msgstr "Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας ιστοσελίδων ή της PHP και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
 
 #: profiles/default/default.profile:100
 msgid "Page"
@@ -846,7 +846,7 @@ msgstr "Σελίδα"
 
 #: profiles/default/default.profile:102
 msgid "A <em>page</em>, similar in form to a <em>story</em>, is a simple method for creating and displaying information that rarely changes, such as an \"About us\" section of a website. By default, a <em>page</em> entry does not allow visitor comments and is not featured on the site's initial home page."
-msgstr "Μια <em>σελίδα</em>, παρόμοιας μορφής με ένα <em>ιστόρημα</em>, είναι μια απλή μέθοδος δημιουργίας και προβολής πληροφοριών που τροποποιούνται σπάνια, όπως μια  \"Περί ημών\" περιοχή ενός ιστοχώρου. Εξ ορισμού, μια καταχώρηση <em>σελίδας</em> δεν επιτρέπει σχόλια επισκεπτών και δεν εμφανίζεται στην αρχική σελίδα του ιστοχώρου."
+msgstr "Μια <em>σελίδα</em>, παρόμοιας μορφής με ένα <em>ιστόρημα</em>, είναι μια απλή μέθοδος δημιουργίας και προβολής πληροφοριών που τροποποιούνται σπάνια, όπως μια \"Σχετικά με εμάς\" περιοχή ενός ιστοτόπου. Εξ ορισμού, μια καταχώρηση <em>σελίδας</em> δεν επιτρέπει σχόλια επισκεπτών και δεν εμφανίζεται στην αρχική σελίδα του ιστοτόπου."
 
 #: profiles/default/default.profile:111
 msgid "Story"
@@ -854,5 +854,5 @@ msgstr "Ιστόρημα"
 
 #: profiles/default/default.profile:113
 msgid "A <em>story</em>, similar in form to a <em>page</em>, is ideal for creating and displaying content that informs or engages website visitors. Press releases, site announcements, and informal blog-like entries may all be created with a <em>story</em> entry. By default, a <em>story</em> entry is automatically featured on the site's initial home page, and provides the ability to post comments."
-msgstr "Ένα <em>ιστόρημα</em>, παρόμοιας μορφής με μια <em>σελίδα</em>, είναι ιδανικό για δημιουργία και προβολή περιεχομένου που ενημερώνει και προσελκύει επισκέπτες του ιστοχώρου. Ανακοινωθέντα τύπου, ανακοινώσεις του ιστοχώρου, και απλές καταχωρίσεις μορφής ιστολογήματος μπορούν να δημιουργηθούν με μια καταχώρηση <em>ιστορήματος</em>. Εξ ορισμού, μια καταχώρηση <em>ιστορήματος</em> εμφανίζεται στην αρχική σελίδα του ιστοχώρου και παρέχει τη δυνατότητα αναρτήσεως σχολίων."
+msgstr "Ένα <em>ιστόρημα</em>, παρόμοιας μορφής με μια <em>σελίδα</em>, είναι ιδανικό για δημιουργία και προβολή περιεχομένου που ενημερώνει και προσελκύει επισκέπτες του ιστοτόπου. Ανακοινωθέντα τύπου, ανακοινώσεις του ιστοτόπου και απλές καταχωρίσεις μορφής ιστολογήματος μπορούν να δημιουργηθούν με μια καταχώρηση <em>ιστορήματος</em>. Εξ ορισμού, μια καταχώρηση <em>ιστορήματος</em> εμφανίζεται στην αρχική σελίδα του ιστοτόπου και παρέχει τη δυνατότητα αναρτήσεως σχολίων."
 
