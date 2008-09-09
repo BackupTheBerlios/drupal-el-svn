@@ -1,17 +1,17 @@
-# $Id: modules-taxonomy.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-taxonomy.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-taxonomy)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  taxonomy.admin.inc,v 1.22.2.1 2008/02/07 20:46:57 goba
-#  taxonomy.module,v 1.414 2008/01/27 17:55:15 goba
+#  taxonomy.module,v 1.414.2.4 2008/06/25 08:00:57 goba
 #  taxonomy.install,v 1.7 2008/01/08 07:46:41 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -216,99 +216,99 @@ msgstr ""
 msgid "taxonomy"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:418
+#: modules/taxonomy/taxonomy.module:422
 msgid "- None selected -"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:421
+#: modules/taxonomy/taxonomy.module:425
 msgid "- None -"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:517
+#: modules/taxonomy/taxonomy.module:521
 msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:548
+#: modules/taxonomy/taxonomy.module:552
 msgid "Vocabularies"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:635
+#: modules/taxonomy/taxonomy.module:639
 msgid "The %name vocabulary can not be modified in this way."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1133
+#: modules/taxonomy/taxonomy.module:1138
 msgid "There are currently no posts in this category."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1236
+#: modules/taxonomy/taxonomy.module:1241
 msgid "The taxonomy module allows you to categorize content using various systems of classification. Free-tagging vocabularies are created by users on the fly when they submit posts (as commonly found in blogs and social bookmarking applications). Controlled vocabularies allow for administrator-defined short lists of terms as well as complex hierarchies with multiple relationships between different terms. These methods can be applied to different content types and combined together to create a powerful and flexible method of classifying and presenting your content."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1237
+#: modules/taxonomy/taxonomy.module:1242
 msgid "For example, when creating a recipe site, you might want to classify posts by both the type of meal and preparation time. A vocabulary for each allows you to categorize using each criteria independently instead of creating a tag for every possible combination."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1238
+#: modules/taxonomy/taxonomy.module:1243
 msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1239
+#: modules/taxonomy/taxonomy.module:1244
 msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1240
+#: modules/taxonomy/taxonomy.module:1245
 msgid "Each taxonomy term (often called a 'category' or 'tag' in other systems) automatically provides lists of posts and a corresponding RSS feed. These taxonomy/term URLs can be manipulated to generate AND and OR lists of posts classified with terms. In our recipe site example, it then becomes easy to create pages displaying 'Main courses', '30 minute recipes', or '30 minute main courses and appetizers' by using terms on their own or in combination with others. There are a significant number of contributed modules which you to alter and extend the behavior of the core module for both display and organization of terms."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1241
+#: modules/taxonomy/taxonomy.module:1246
 msgid "Terms can also be organized in parent/child relationships from the admin interface. An example would be a vocabulary grouping countries under their parent geo-political regions. The taxonomy module also enables advanced implementations of hierarchy, for example placing Turkey in both the 'Middle East' and 'Europe'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1242
+#: modules/taxonomy/taxonomy.module:1247
 msgid "The taxonomy module supports the use of both synonyms and related terms, but does not directly use this functionality. However, optional contributed or custom modules may make full use of these advanced features."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1243
+#: modules/taxonomy/taxonomy.module:1248
 msgid "For more information, see the online handbook entry for <a href=\"@taxonomy\">Taxonomy module</a>."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1246
+#: modules/taxonomy/taxonomy.module:1251
 msgid "The taxonomy module allows you to categorize your content using both tags and administrator defined terms. It is a flexible tool for classifying content with many advanced features. To begin, create a 'Vocabulary' to hold one set of terms or tags. You can create one free-tagging vocabulary for everything, or separate controlled vocabularies to define the various properties of your content, for example 'Countries' or 'Colors'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1247
+#: modules/taxonomy/taxonomy.module:1252
 msgid "Use the list below to configure and review the vocabularies defined on your site, or to list and manage the terms (tags) they contain. A vocabulary may (optionally) be tied to specific content types as shown in the <em>Type</em> column and, if so, will be displayed when creating or editing posts of that type. Multiple vocabularies tied to the same content type will be displayed in the order shown below. To change the order of a vocabulary, grab a drag-and-drop handle under the <em>Name</em> column and drag it to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save</em> button at the bottom of the page."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1252
+#: modules/taxonomy/taxonomy.module:1257
 msgid "%capital_name is a free-tagging vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1256
+#: modules/taxonomy/taxonomy.module:1261
 msgid "%capital_name is a flat vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1258
+#: modules/taxonomy/taxonomy.module:1263
 msgid "%capital_name is a single hierarchy vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1260
+#: modules/taxonomy/taxonomy.module:1265
 msgid "%capital_name is a multiple hierarchy vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term. Drag and drop of multiple hierarchies is not supported, but you can re-enable drag and drop support by editing each term to include only a single parent."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1263
+#: modules/taxonomy/taxonomy.module:1268
 msgid "Define how your vocabulary will be presented to administrators and users, and which content types to categorize with it. Tags allows users to create terms when submitting posts by typing a comma separated list. Otherwise terms are chosen from a select list and can only be created by users with the \"administer taxonomy\" permission."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1302
+#: modules/taxonomy/taxonomy.module:1307
 msgid "After saving a new term to the database"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1305
+#: modules/taxonomy/taxonomy.module:1310
 msgid "After saving an updated term to the database"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1308
+#: modules/taxonomy/taxonomy.module:1313
 msgid "After deleting a term"
 msgstr ""
 
@@ -324,27 +324,27 @@ msgstr ""
 msgid "Add vocabulary"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:137
+#: modules/taxonomy/taxonomy.module:138
 msgid "Edit vocabulary"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:145
+#: modules/taxonomy/taxonomy.module:147
 msgid "Edit term"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:152
+#: modules/taxonomy/taxonomy.module:155
 msgid "Taxonomy term"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:161
+#: modules/taxonomy/taxonomy.module:164
 msgid "Autocomplete taxonomy"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:168
+#: modules/taxonomy/taxonomy.module:171
 msgid "List terms"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:183
+#: modules/taxonomy/taxonomy.module:186
 msgid "Add term"
 msgstr ""
 

@@ -1,10 +1,10 @@
-# $Id: modules-profile.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-profile.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-profile)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  profile.admin.inc,v 1.8 2008/01/21 15:20:43 goba
-#  profile.module,v 1.236 2008/02/03 19:36:46 goba
+#  profile.module,v 1.236.2.2 2008/04/28 09:13:46 dries
 #  profile.pages.inc,v 1.2 2007/12/08 14:06:22 goba
 #  profile.install,v 1.12 2007/12/18 12:59:22 dries
 #
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -205,27 +205,27 @@ msgstr ""
 msgid "The following types of fields can be added to a user profile:"
 msgstr ""
 
-#: modules/profile/profile.module:37;541
+#: modules/profile/profile.module:37;545
 msgid "single-line textfield"
 msgstr ""
 
-#: modules/profile/profile.module:38;542
+#: modules/profile/profile.module:38;546
 msgid "multi-line textfield"
 msgstr ""
 
-#: modules/profile/profile.module:39;543
+#: modules/profile/profile.module:39;547
 msgid "checkbox"
 msgstr ""
 
-#: modules/profile/profile.module:40;544
+#: modules/profile/profile.module:40;548
 msgid "list selection"
 msgstr ""
 
-#: modules/profile/profile.module:41;545
+#: modules/profile/profile.module:41;549
 msgid "freeform list"
 msgstr ""
 
-#: modules/profile/profile.module:43;547
+#: modules/profile/profile.module:43;551
 msgid "date"
 msgstr ""
 
@@ -237,39 +237,39 @@ msgstr ""
 msgid "This page displays a list of the existing custom profile fields to be displayed on a user's <em>My Account</em> page. To provide structure, similar or related fields may be placed inside a category. To add a new category (or edit an existing one), edit a profile field and provide a new category name. To change the category of a field or the order of fields within a category, grab a drag-and-drop handle under the Title column and drag the field to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
 msgstr ""
 
-#: modules/profile/profile.module:137
+#: modules/profile/profile.module:141
 msgid "Author information"
 msgstr ""
 
-#: modules/profile/profile.module:148
+#: modules/profile/profile.module:152
 msgid "Link to full user profile"
 msgstr ""
 
-#: modules/profile/profile.module:150
+#: modules/profile/profile.module:154
 msgid "Profile fields to display"
 msgstr ""
 
-#: modules/profile/profile.module:153
+#: modules/profile/profile.module:157
 msgid "Select which profile fields you wish to display in the block. Only fields designated as public in the <a href=\"@profile-admin\">profile field configuration</a> are available."
 msgstr ""
 
-#: modules/profile/profile.module:185
+#: modules/profile/profile.module:189
 msgid "View full user profile"
 msgstr ""
 
-#: modules/profile/profile.module:190
+#: modules/profile/profile.module:194
 msgid "About %name"
 msgstr ""
 
-#: modules/profile/profile.module:333
+#: modules/profile/profile.module:337
 msgid "Put each item on a separate line or separate them by commas. No HTML allowed."
 msgstr ""
 
-#: modules/profile/profile.module:435
+#: modules/profile/profile.module:439
 msgid "The value provided for %field is not a valid URL."
 msgstr ""
 
-#: modules/profile/profile.module:440
+#: modules/profile/profile.module:444
 msgid "The field %field is required."
 msgstr ""
 
@@ -285,19 +285,19 @@ msgstr ""
 msgid "Add field"
 msgstr ""
 
-#: modules/profile/profile.module:102
+#: modules/profile/profile.module:103
 msgid "Profile category autocomplete"
 msgstr ""
 
-#: modules/profile/profile.module:108
+#: modules/profile/profile.module:110
 msgid "Edit field"
 msgstr ""
 
-#: modules/profile/profile.module:115
+#: modules/profile/profile.module:118
 msgid "Delete field"
 msgstr ""
 
-#: modules/profile/profile.module:122
+#: modules/profile/profile.module:126
 msgid "Profile autocomplete"
 msgstr ""
 

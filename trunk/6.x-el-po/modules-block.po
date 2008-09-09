@@ -1,26 +1,13 @@
-# translation of modules-block.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-block\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:40+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/block/block-admin-display-form.tpl.php:42
 msgid "Region"
@@ -38,115 +25,115 @@ msgstr "Αποθήκευση μπλοκ"
 msgid "The block settings have been updated."
 msgstr "Οι ρυθμίσεις των μπλοκ ενημερώθηκαν."
 
-#: modules/block/block.admin.inc:151
+#: modules/block/block.admin.inc:150
 msgid "Block specific settings"
 msgstr "Ρυθμίσεις για το συγκεκριμένο μπλοκ"
 
-#: modules/block/block.admin.inc:156
+#: modules/block/block.admin.inc:155
 msgid "Block title"
 msgstr "Τίτλος μπλοκ"
 
-#: modules/block/block.admin.inc:158
+#: modules/block/block.admin.inc:157
 msgid "The title of the block as shown to the user."
 msgstr "Ο τίτλος του μπλοκ όπως εμφανίζεται στο χρήστη."
 
-#: modules/block/block.admin.inc:158
+#: modules/block/block.admin.inc:157
 msgid "Override the default title for the block. Use <em>&lt;none&gt;</em> to display no title, or leave blank to use the default block title."
 msgstr "Υπερίσχυση του προεπιλεγμένου τίτλου του μπλοκ. Χρησιμοποιήστε το <em>&lt;none&gt;</em> για να μην εμφανίζεται τίτλος ή αφήστε το κενό για να εμφανίζεται ο προεπιλεγμένος τίτλος του μπλοκ."
 
-#: modules/block/block.admin.inc:174
+#: modules/block/block.admin.inc:173
 msgid "'%name' block"
 msgstr "Μπλοκ '%name'"
 
-#: modules/block/block.admin.inc:180
+#: modules/block/block.admin.inc:179
 msgid "User specific visibility settings"
 msgstr "Ρυθμίσεις ορατότητας του χρήστη"
 
-#: modules/block/block.admin.inc:185
+#: modules/block/block.admin.inc:184
 msgid "Custom visibility settings"
 msgstr "Προσαρμοσμένες ρυθμίσεις ορατότητας"
 
-#: modules/block/block.admin.inc:187
+#: modules/block/block.admin.inc:186
 msgid "Users cannot control whether or not they see this block."
 msgstr "Οι χρήστες δεν μπορούν να ελέγχουν αν θα βλέπουν το μπλοκ αυτό ή όχι."
 
-#: modules/block/block.admin.inc:188
+#: modules/block/block.admin.inc:187
 msgid "Show this block by default, but let individual users hide it."
 msgstr "Εμφάνιση αρχικά του μπλοκ, αλλά να μπορούν οι χρήστες να το αποκρύβουν."
 
-#: modules/block/block.admin.inc:189
+#: modules/block/block.admin.inc:188
 msgid "Hide this block by default but let individual users show it."
 msgstr "Απόκρυψη αρχικά του μπλοκ, αλλά να μπορούν οι χρήστες να το εμφανίζουν."
 
-#: modules/block/block.admin.inc:191
+#: modules/block/block.admin.inc:190
 msgid "Allow individual users to customize the visibility of this block in their account settings."
 msgstr "Να μπορούν οι χρήστες να ορίζουν την ορατότητα αυτού του μπλοκ στις ρυθμίσεις του λογαριασμού τους."
 
-#: modules/block/block.admin.inc:208
+#: modules/block/block.admin.inc:207
 msgid "Role specific visibility settings"
 msgstr "Ρυθμίσεις ορατότητας του ρόλου του χρήστη"
 
-#: modules/block/block.admin.inc:213
+#: modules/block/block.admin.inc:212
 msgid "Show block for specific roles"
 msgstr "Εμφάνιση του μπλοκ για συγκεκριμένους ρόλους"
 
-#: modules/block/block.admin.inc:216
+#: modules/block/block.admin.inc:215
 msgid "Show this block only for the selected role(s). If you select no roles, the block will be visible to all users."
 msgstr "Εμφάνιση αυτού του μπλοκ μόνο για τους επιλεγμένους ρόλους. Αν δεν επιλέξετε κανένα ρόλο, το μπλοκ θα είναι ορατό σε όλους τους χρήστες."
 
-#: modules/block/block.admin.inc:221
+#: modules/block/block.admin.inc:220
 msgid "Page specific visibility settings"
 msgstr "Ρυθμίσεις ορατότητας της σελίδας"
 
-#: modules/block/block.admin.inc:232
+#: modules/block/block.admin.inc:231
 msgid "Show on every page except the listed pages."
 msgstr "Να εμφανίζεται σε κάθε σελίδα εκτός από τις παρακάτω."
 
-#: modules/block/block.admin.inc:232
+#: modules/block/block.admin.inc:231
 msgid "Show on only the listed pages."
 msgstr "Να εμφανίζεται μόνο στις παρακάτω σελίδες."
 
-#: modules/block/block.admin.inc:233
+#: modules/block/block.admin.inc:232
 msgid "Enter one page per line as Drupal paths. The '*' character is a wildcard. Example paths are %blog for the blog page and %blog-wildcard for every personal blog. %front is the front page."
 msgstr "Εισάγετε μία σελίδα ανά γραμμή ως μορφή διαδρομών του Drupal. Ο χαρακτήρας '*' είναι μπαλαντέρ. Παραδείγματα διαδρομών: %blog για τη σελίδα των ιστολογίων και %blog-wildcard για κάθε προσωπικό ιστολόγιο. %front είναι η κεντρική σελίδα."
 
-#: modules/block/block.admin.inc:236
+#: modules/block/block.admin.inc:235
 msgid "Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts only)."
 msgstr "Να εμφανίζεται αν ο παρακάτω κώδικας PHP επιστρέφει τιμή <code>TRUE</code> (μόνο σε λειτουργία PHP, για προγραμματιστές PHP μόνο)."
 
-#: modules/block/block.admin.inc:237
+#: modules/block/block.admin.inc:236
 msgid "If the PHP-mode is chosen, enter PHP code between %php. Note that executing incorrect PHP-code can break your Drupal site."
 msgstr "Αν έχει επιλεχτεί η κατάσταση λειτουργίας PHP, εισάγετε τον κώδικα PHP μεταξύ των %php. Πρέπει να σημειωθεί ότι η εκτέλεση λανθασμένου κώδικα PHP μπορεί να θέσει εκτός λειτουργίας τον ιστοτόπο σας."
 
-#: modules/block/block.admin.inc:241
+#: modules/block/block.admin.inc:240
 msgid "Show block on specific pages"
 msgstr "Να εμφανίζεται το μπλοκ σε συγκεκριμένες σελίδες"
 
-#: modules/block/block.admin.inc:247
+#: modules/block/block.admin.inc:246
 msgid "Pages"
 msgstr "Σελίδες"
 
-#: modules/block/block.admin.inc:255
+#: modules/block/block.admin.inc:254
 msgid "Save block"
 msgstr "Αποθήκευση του μπλοκ"
 
-#: modules/block/block.admin.inc:264;293
+#: modules/block/block.admin.inc:263;292
 msgid "Please ensure that each block description is unique."
 msgstr "Βεβαιωθείτε ότι η περιγραφή του κάθε μπλοκ είναι μοναδική."
 
-#: modules/block/block.admin.inc:277
+#: modules/block/block.admin.inc:276
 msgid "The block configuration has been saved."
 msgstr "Οι ρυθμίσεις του μπλοκ αποθηκεύτηκαν."
 
-#: modules/block/block.admin.inc:314
+#: modules/block/block.admin.inc:313
 msgid "The block has been created."
 msgstr "Το μπλοκ δημιουργήθηκε."
 
-#: modules/block/block.admin.inc:329
+#: modules/block/block.admin.inc:328
 msgid "Are you sure you want to delete the block %name?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το μπλοκ %name;"
 
-#: modules/block/block.admin.inc:338
+#: modules/block/block.admin.inc:337
 msgid "The block %name has been removed."
 msgstr "Το μπλοκ %name διαγράφηκε."
 
@@ -214,27 +201,27 @@ msgstr "Κάντε κλικ στο σύνδεσμο <em>ρύθμιση</em> πο
 msgid "Use this page to create a new custom block. New blocks are disabled by default, and must be moved to a region on the <a href=\"@blocks\">blocks administration page</a> to be visible."
 msgstr "Χρησιμοποιείστε αυτή τη σελίδα για να δημιουργήσετε ένα προσαρμοσμένο μπλοκ. Τα νέα μπλοκ προεπιλεγμένα είναι απενεργοποιημένα και πρέπει να μετακινηθούν σε μια περιοχή από τη <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a> για να γίνουν ορατά."
 
-#: modules/block/block.module:272
+#: modules/block/block.module:276
 msgid "The block %info was assigned to the invalid region %region and has been disabled."
 msgstr "Το μπλοκ %info ορίστηκε στη λανθασμένη περιοχή %region και έχει απενεργοποιηθεί."
 
-#: modules/block/block.module:311
+#: modules/block/block.module:315
 msgid "Block description"
 msgstr "Περιγραφή του μπλοκ"
 
-#: modules/block/block.module:314
+#: modules/block/block.module:318
 msgid "A brief description of your block. Used on the <a href=\"@overview\">block overview page</a>."
 msgstr "Σύντομη περιγραφή του μπλοκ σας. Χρησιμοποιείται στη <a href=\"@overview\">σελίδα επισκόπησης των μπλοκ</a>."
 
-#: modules/block/block.module:321
+#: modules/block/block.module:325
 msgid "Block body"
 msgstr "Σώμα του μπλοκ"
 
-#: modules/block/block.module:324
+#: modules/block/block.module:328
 msgid "The content of the block as shown to the user."
 msgstr "Το περιεχόμενο του μπλοκ όπως εμφανίζεται στο χρήστη."
 
-#: modules/block/block.module:357
+#: modules/block/block.module:361
 msgid "Block configuration"
 msgstr "Ρύθμιση μπλοκ"
 
@@ -258,15 +245,15 @@ msgstr "Προσδιορισμός του περιεχομένου των μπλ
 msgid "JavaScript List Form"
 msgstr "Φόρμα λίστας JavaScript"
 
-#: modules/block/block.module:139
+#: modules/block/block.module:140
 msgid "Configure block"
 msgstr "Ρύθμιση μπλοκ"
 
-#: modules/block/block.module:146
+#: modules/block/block.module:148
 msgid "Delete block"
 msgstr "Διαγραφή μπλοκ"
 
-#: modules/block/block.module:153
+#: modules/block/block.module:156
 msgid "Add block"
 msgstr "Προσθήκη μπλοκ"
 
@@ -373,4 +360,3 @@ msgstr "Λανθάνουσα μνήμη πίνακα για τη μονάδα Μ
 #: modules/block/block.js:0
 msgid "The changes to these blocks will not be saved until the <em>Save blocks</em> button is clicked."
 msgstr "Οι αλλαγές σε αυτά τα μπλοκ δεν θα αποθηκευτούν έως ότου κάνετε κλικ στο κουμπί <em>Αποθήκευση μπλοκ</em>."
-

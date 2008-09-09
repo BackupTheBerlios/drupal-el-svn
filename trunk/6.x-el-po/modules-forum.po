@@ -1,27 +1,13 @@
-# translation of modules-forum.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-forum\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:35+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/forum/forum-list.tpl.php:38
 msgid "Topics"
@@ -211,103 +197,103 @@ msgstr "Ένα φόρουμ περιέχει σχετιζόμενα ή παρό�
 msgid "These settings allow you to adjust the display of your forum topics. The content types available for use within a forum may be selected by editing the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum vocabulary page</a>."
 msgstr "Αυτές οι ρυθμίσεις επιτρέπουν την αλλαγή της άποψης των θεμάτων του φόρουμ σας. Οι τύποι ύλης που είναι διαθέσιμοι στο φόρουμ μπορούν να επιλεχθούν στο  <em>Τύποι ύλης</em> της <a href=\"@forum-vocabulary\">σελίδας λεξιλογίου του φόρουμ</a>."
 
-#: modules/forum/forum.module:230
+#: modules/forum/forum.module:236
 msgid "The item %forum is only a container for forums. Please select one of the forums below it."
 msgstr "Η επιλογή %forum είναι μόνο ένας φάκελος για φόρουμ. Επιλέξτε ένα από τα φόρουμ που περιλαμβάνει."
 
-#: modules/forum/forum.module:296
+#: modules/forum/forum.module:302
 msgid "Forum topic"
 msgstr "Θέμα φόρουμ"
 
-#: modules/forum/forum.module:298
+#: modules/forum/forum.module:304
 msgid "A <em>forum topic</em> is the initial post to a new discussion thread within a forum."
 msgstr "Ένα <em>θέμα του φόρουμ</em> είναι η αρχική καταχώρηση μιας νέας συζήτησης σε ένα φόρουμ."
 
-#: modules/forum/forum.module:361
+#: modules/forum/forum.module:367
 msgid "This is the designated forum vocabulary. Some of the normal vocabulary options have been removed."
 msgstr "Αυτό είναι το προκαθορισμένο λεξιλόγιο των φόρουμ. Μερικές από τις κανονικές επιλογές των λεξιλογίων έχουν αφαιρεθεί."
 
-#: modules/forum/forum.module:403;419
+#: modules/forum/forum.module:409;425
 msgid "Active forum topics"
 msgstr "Ενεργά θέματα συζήτησης"
 
-#: modules/forum/forum.module:404;426
+#: modules/forum/forum.module:410;432
 msgid "New forum topics"
 msgstr "Νέα θέματα συζήτησης"
 
-#: modules/forum/forum.module:408
+#: modules/forum/forum.module:414
 msgid "Number of topics"
 msgstr "Αριθμός θεμάτων"
 
-#: modules/forum/forum.module:435
+#: modules/forum/forum.module:441
 msgid "Read the latest forum topics."
 msgstr "Ανάγνωση των τελευταίων θεμάτων συζήτησης."
 
-#: modules/forum/forum.module:454
+#: modules/forum/forum.module:460
 msgid "Leave shadow copy"
 msgstr "Δημιουργία σκιώδους αντιγράφου"
 
-#: modules/forum/forum.module:454
+#: modules/forum/forum.module:460
 msgid "If you move this topic, you can leave a link in the old forum to the new forum."
 msgstr "Αν μετακινήσετε αυτό το θέμα, μπορείτε να αφήσετε στο παλιό φόρουμ μια παραπομπή προς το νέο."
 
-#: modules/forum/forum.module:561
+#: modules/forum/forum.module:567
 msgid "Topic"
 msgstr "Θέμα"
 
-#: modules/forum/forum.module:563
+#: modules/forum/forum.module:569
 msgid "Created"
 msgstr "Δημιουργήθηκε"
 
-#: modules/forum/forum.module:564
+#: modules/forum/forum.module:570
 msgid "Last reply"
 msgstr "Τελευταία απάντηση"
 
-#: modules/forum/forum.module:677
+#: modules/forum/forum.module:683
 msgid "Post new @node_type"
 msgstr "Υποβολή νέου υλικού τύπου: @node_type"
 
-#: modules/forum/forum.module:684
+#: modules/forum/forum.module:690
 msgid "You are not allowed to post new content in forum."
 msgstr "Δεν έχετε το δικαίωμα να δημοσιεύσετε υλικό στο φόρουμ."
 
-#: modules/forum/forum.module:688
+#: modules/forum/forum.module:694
 msgid "<a href=\"@login\">Login</a> to post new content in forum."
 msgstr "Πρέπει να <a href=\"@login\">εισέλθετε στο σύστημα</a> για να δημοσιεύσετε υλικό στο φόρουμ."
 
-#: modules/forum/forum.module:726
+#: modules/forum/forum.module:732
 msgid "No forums defined"
 msgstr "Κανένα φόρουμ δεν έχει οριστεί."
 
-#: modules/forum/forum.module:812
+#: modules/forum/forum.module:818
 msgid "This topic has been moved"
 msgstr "Αυτό το θέμα έχει μετακινηθεί"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "create forum topics"
 msgstr "δημιουργία θεμάτων συζήτησης"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "delete own forum topics"
 msgstr "διαγραφή δικών τους θεμάτων συζήτησης"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "delete any forum topic"
 msgstr "διαγραφή οποιουδήποτε θέματος συζήτησης"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "edit own forum topics"
 msgstr "τροποποίηση δικών τους θεμάτων συζήτησης"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "edit any forum topic"
 msgstr "τροποποίηση οποιονδήποτε θεμάτων συζήτησης"
 
-#: modules/forum/forum.module:322
+#: modules/forum/forum.module:328
 msgid "administer forums"
 msgstr "διαχείριση φόρουμ"
 
-#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;116
+#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;115
 msgid "Forums"
 msgstr "Φόρουμ"
 
@@ -319,27 +305,26 @@ msgstr "Έλεγχος των φόρουμ και της ιεραρχίας το
 msgid "Add container"
 msgstr "Προσθήκη φακέλου"
 
-#: modules/forum/forum.module:114
+#: modules/forum/forum.module:115
 msgid "Add forum"
 msgstr "Προσθήκη φόρουμ"
 
-#: modules/forum/forum.module:136
+#: modules/forum/forum.module:140
 msgid "Edit container"
 msgstr "Επεξεργασία φακέλου"
 
-#: modules/forum/forum.module:143
+#: modules/forum/forum.module:148
 msgid "Edit forum"
 msgstr "Επεξεργασία φόρουμ"
 
-#: modules/forum/forum.install:69
+#: modules/forum/forum.install:68
 msgid "Stores the relationship of nodes to forum terms."
 msgstr "Αποθηκεύει τη σχέση των καταχωρίσεων με την ορολογία του φόρουμ."
 
-#: modules/forum/forum.install:76
+#: modules/forum/forum.install:75
 msgid "The {node}.nid of the node."
 msgstr "Το {node}.nid της καταχώρησης."
 
-#: modules/forum/forum.install:90
+#: modules/forum/forum.install:89
 msgid "The {term_data}.tid of the forum term assigned to the node."
 msgstr "Ο όρος {term_data}.tid συσχετίστηκε με τη καταχώρηση."
-

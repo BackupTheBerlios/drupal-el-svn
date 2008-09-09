@@ -1,26 +1,14 @@
-# translation of modules-ping.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-ping\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-01 00:25+0300\n"
-"Last-Translator: Vasileios Lourdas <vasilis@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/ping/ping.module:15
 msgid "The ping module is useful for notifying interested sites that your site has changed. It automatically sends notifications, or \"pings\", to the <a href=\"@external-http-pingomatic-com\">pingomatic</a> service about new or updated content. In turn, <a href=\"@external-http-pingomatic-com\">pingomatic</a> notifies other popular services, including weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, and Moreover."
@@ -45,4 +33,3 @@ msgstr "Δεν υπήρξε δυνατή η ειδοποίηση του pingomat
 #: modules/ping/ping.module:0
 msgid "ping"
 msgstr "ping"
-

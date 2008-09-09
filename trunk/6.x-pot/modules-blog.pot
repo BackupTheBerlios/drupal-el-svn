@@ -1,16 +1,16 @@
-# $Id: modules-blog.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
+# $Id: modules-blog.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-blog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  blog.pages.inc,v 1.6.2.1 2008/02/08 21:15:12 goba
-#  blog.module,v 1.297 2008/01/09 09:51:34 goba
+#  blog.module,v 1.297.2.3 2008/05/19 07:27:35 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -91,7 +91,7 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."
 msgstr ""
 
-#: modules/blog/blog.module:108;137;152;160
+#: modules/blog/blog.module:108;137;152;161
 msgid "Blogs"
 msgstr ""
 
@@ -99,11 +99,11 @@ msgstr ""
 msgid "@username's blog"
 msgstr ""
 
-#: modules/blog/blog.module:178;187
+#: modules/blog/blog.module:196;205
 msgid "Recent blog posts"
 msgstr ""
 
-#: modules/blog/blog.module:186
+#: modules/blog/blog.module:204
 msgid "Read the latest blog entries."
 msgstr ""
 

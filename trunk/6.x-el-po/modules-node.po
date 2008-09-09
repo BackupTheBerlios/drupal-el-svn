@@ -1,20 +1,14 @@
-# translation of modules-node.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007, 2008.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-node\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:59+0300\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-09-09 23:31+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  modules-node.po (modules-node)  #-#-#-#-#\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
@@ -170,195 +164,195 @@ msgid_plural "<strong>Warning:</strong> there are currently @count %type posts o
 msgstr[0] "<strong>Προειδοποίηση:</strong> Υπάρχει 1 δημοσίευση του τύπου %type στον ιστοτόπο σας. Είναι πιθανό να μην εμφανίζεται ή να είναι σωστά επεξεργάσιμη, αφού διαγράψετε αυτό τον τύπο ύλης."
 msgstr[1] "<strong>Προειδοποίηση:</strong> Υπάρχουν @count δημοσιεύσεις του τύπου %type στον ιστοτόπο σας. Είναι πιθανό να μην εμφανίζονται ή να είναι σωστά επεξεργάσιμες, αφού διαγράψετε αυτό τον τύπο ύλης."
 
-#: modules/node/node.admin.inc:16
+#: modules/node/node.admin.inc:17
 msgid "If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Possible causes for permission problems are disabling modules or configuration changes to permissions. Rebuilding will remove all privileges to posts, and replace them with permissions based on the current modules and settings."
 msgstr "Αν ο ιστοτόπος αντιμετωπίζει προβλήματα με τις άδειες χρήσης των τύπων ύλης, ίσως χρειάζεται να ξαναδημιουργήσετε την λανθάνουσα μνήμη των δικαιωμάτων. Πιθανές αιτίες για προβλήματα δικαιωμάτων είναι η απενεργοποίηση μονάδων ή αλλαγές στην σελίδα δικαιωμάτων. Η επαναδημιουργία θα αφαιρέσει όλα τα δικαιώματα από τις δημοσιεύσεις και θα τα αντικαταστήσει με τα δικαιώματα βάση των υπάρχοντων μονάδων και ρυθμίσεων."
 
-#: modules/node/node.admin.inc:17
+#: modules/node/node.admin.inc:18
 msgid "Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed posts will automatically use the new permissions."
 msgstr "Η επαναδημιουργία ίσως χρειαστεί κάποιο χρόνο αν έχετε αρκετό περιεχόμενο ή πολύπλοκες ρυθμίσεις δικαιωμάτων. Μετά την επαναδημιουργία, οι δημοσιεύσεις θα χρησιμοποιήσουν αυτόματα τα νέα δικαιώματα."
 
-#: modules/node/node.admin.inc:21
+#: modules/node/node.admin.inc:22
 msgid "Node access status"
 msgstr "Κατάσταση πρόσβασης κόμβου"
 
-#: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1425
+#: modules/node/node.admin.inc:27;71;81 modules/node/node.module:1434
 msgid "Rebuild permissions"
 msgstr "Επαναδημιουργία δικαιωμάτων"
 
-#: modules/node/node.admin.inc:31
+#: modules/node/node.admin.inc:32
 msgid "Number of posts on main page"
 msgstr "Αριθμός καταχωρίσεων στην κύρια σελίδα"
 
-#: modules/node/node.admin.inc:33
+#: modules/node/node.admin.inc:34
 msgid "The default maximum number of posts to display per page on overview pages such as the main page."
 msgstr "Ο προεπιλεγμένος μέγιστος αριθμός καταχωρίσεων που θα εμφανίζονται ανά σελίδα στις σελίδες επισκόπησης όπως η κεντρική σελίδα."
 
-#: modules/node/node.admin.inc:36
+#: modules/node/node.admin.inc:37
 msgid "Length of trimmed posts"
 msgstr "Μήκος περικομμένων καταχωρίσεων"
 
-#: modules/node/node.admin.inc:39
+#: modules/node/node.admin.inc:40
 msgid "200 characters"
 msgstr "200 χαρακτήρες"
 
-#: modules/node/node.admin.inc:40
+#: modules/node/node.admin.inc:41
 msgid "400 characters"
 msgstr "400 χαρακτήρες"
 
-#: modules/node/node.admin.inc:41
+#: modules/node/node.admin.inc:42
 msgid "600 characters"
 msgstr "600 χαρακτήρες"
 
-#: modules/node/node.admin.inc:42
+#: modules/node/node.admin.inc:43
 msgid "800 characters"
 msgstr "800 χαρακτήρες"
 
-#: modules/node/node.admin.inc:43
+#: modules/node/node.admin.inc:44
 msgid "1000 characters"
 msgstr "1000 χαρακτήρες"
 
-#: modules/node/node.admin.inc:44
+#: modules/node/node.admin.inc:45
 msgid "1200 characters"
 msgstr "1200 χαρακτήρες"
 
-#: modules/node/node.admin.inc:45
+#: modules/node/node.admin.inc:46
 msgid "1400 characters"
 msgstr "1400 χαρακτήρες"
 
-#: modules/node/node.admin.inc:46
+#: modules/node/node.admin.inc:47
 msgid "1600 characters"
 msgstr "1600 χαρακτήρες"
 
-#: modules/node/node.admin.inc:47
+#: modules/node/node.admin.inc:48
 msgid "1800 characters"
 msgstr "1800 χαρακτήρες"
 
-#: modules/node/node.admin.inc:48
+#: modules/node/node.admin.inc:49
 msgid "2000 characters"
 msgstr "2000 χαρακτήρες"
 
-#: modules/node/node.admin.inc:50
+#: modules/node/node.admin.inc:51
 msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
 msgstr "Ο μέγιστος αριθμός χαρακτήρων που χρησιμοποιούνται στην περικομμένη μορφή μιας καταχώρησης. Το Drupal θα χρησιμοποιεί αυτή τη ρύθμιση για να προσδιορίζει σε ποιο σημείο πρέπει να κόβονται οι μεγάλες καταχωρίσεις. Η περικομμένη μορφή μιας καταχώρησης χρησιμοποιείται συνήθως ως περίληψη όταν εμφανίζεται η καταχώρηση στην κεντρική σελίδα, σε ροή XML, κλπ. Για να απενεργοποιήσετε τις περιλήψεις επιλέξτε 'Απεριόριστο'. Πρέπει να σημειωθεί ότι η ρύθμιση αυτή θα έχει επίδραση μόνο στη νέα ή την ενημερωμένη ύλη και όχι στις υπάρχουσες περιλήψεις."
 
-#: modules/node/node.admin.inc:55
+#: modules/node/node.admin.inc:56
 msgid "Preview post"
 msgstr "Δοκιμή εμφάνισης καταχώρησης"
 
-#: modules/node/node.admin.inc:58
+#: modules/node/node.admin.inc:59
 msgid "Must users preview posts before submitting?"
 msgstr "Πρέπει οι χρήστες να κάνουν δοκιμή εμφάνισης στις καταχωρίσεις πριν τις υποβάλουν;"
 
-#: modules/node/node.admin.inc:79
+#: modules/node/node.admin.inc:80
 msgid "Are you sure you want to rebuild the permissions on site content?"
 msgstr "Θέλετε σίγουρα να επαναδημιουργήσετε τις άδειες στην ύλη του ιστοτόπου;"
 
-#: modules/node/node.admin.inc:80
+#: modules/node/node.admin.inc:81
 msgid "This action rebuilds all permissions on site content, and may be a lengthy process. This action cannot be undone."
 msgstr "Η ενέργεια αυτή επαναδημιουργεί ολες τις άδειες στην ύλη του ιστοτόπου και μπορεί να διαρκέσει αρκετά. Η ενέργεια δεν είναι αναστρέψιμη."
 
-#: modules/node/node.admin.inc:98
+#: modules/node/node.admin.inc:99
 msgid "Publish"
 msgstr "Δημοσίευση"
 
-#: modules/node/node.admin.inc:103
+#: modules/node/node.admin.inc:104
 msgid "Unpublish"
 msgstr "Άρση δημοσίευσης"
 
-#: modules/node/node.admin.inc:108
+#: modules/node/node.admin.inc:109
 msgid "Promote to front page"
 msgstr "Προβιβασμός σε αρχική σελίδα"
 
-#: modules/node/node.admin.inc:113
+#: modules/node/node.admin.inc:114
 msgid "Demote from front page"
 msgstr "Αφαίρεση από αρχική σελίδα"
 
-#: modules/node/node.admin.inc:118
+#: modules/node/node.admin.inc:119
 msgid "Make sticky"
 msgstr "Μετατροπή σε μόνιμο"
 
-#: modules/node/node.admin.inc:123
+#: modules/node/node.admin.inc:124
 msgid "Remove stickiness"
 msgstr "Άρση μονιμότητας"
 
-#: modules/node/node.admin.inc:143;500
+#: modules/node/node.admin.inc:144;501
 msgid "published"
 msgstr "δημοσιευμένο"
 
-#: modules/node/node.admin.inc:144;500
+#: modules/node/node.admin.inc:145;501
 msgid "not published"
 msgstr "μη δημοσιευμένο"
 
-#: modules/node/node.admin.inc:145
+#: modules/node/node.admin.inc:146
 msgid "promoted"
 msgstr "προβιβασμένο"
 
-#: modules/node/node.admin.inc:146
+#: modules/node/node.admin.inc:147
 msgid "not promoted"
 msgstr "μη προβιβασμένο"
 
-#: modules/node/node.admin.inc:147
+#: modules/node/node.admin.inc:148
 msgid "sticky"
 msgstr "μόνιμο"
 
-#: modules/node/node.admin.inc:148
+#: modules/node/node.admin.inc:149
 msgid "not sticky"
 msgstr "μη μόνιμο"
 
-#: modules/node/node.admin.inc:154
+#: modules/node/node.admin.inc:155
 msgid "Up to date translation"
 msgstr "Ενημερωμένη μετάφραση"
 
-#: modules/node/node.admin.inc:155
+#: modules/node/node.admin.inc:156
 msgid "Outdated translation"
 msgstr "Ξεπερασμένη μετάφραση"
 
-#: modules/node/node.admin.inc:159
+#: modules/node/node.admin.inc:160
 msgid "type"
 msgstr "τύπος"
 
-#: modules/node/node.admin.inc:163
+#: modules/node/node.admin.inc:164
 msgid "category"
 msgstr "κατηγορία"
 
-#: modules/node/node.admin.inc:168
+#: modules/node/node.admin.inc:169
 msgid "language"
 msgstr "γλώσσα"
 
-#: modules/node/node.admin.inc:220
+#: modules/node/node.admin.inc:221
 msgid "Show only items where"
 msgstr "Να εμφανιστούν μόνο τα στοιχεία όπου"
 
-#: modules/node/node.admin.inc:238
+#: modules/node/node.admin.inc:239
 msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
 msgstr "<em>και</em> όπου <strong>%a</strong> είναι <strong>%b</strong>"
 
-#: modules/node/node.admin.inc:241
+#: modules/node/node.admin.inc:242
 msgid "<strong>%a</strong> is <strong>%b</strong>"
 msgstr "<strong>%a</strong> είναι <strong>%b</strong>"
 
-#: modules/node/node.admin.inc:369
+#: modules/node/node.admin.inc:370
 msgid "The update has encountered an error."
 msgstr "Η ενημέρωση εντόπισε ένα σφάλμα."
 
-#: modules/node/node.admin.inc:435
+#: modules/node/node.admin.inc:436
 msgid "An error occurred and processing did not complete."
 msgstr "Συνέβη ένα σφάλμα και η διεργασία δεν ολοκληρώθηκε."
 
-#: modules/node/node.admin.inc:521
+#: modules/node/node.admin.inc:522
 msgid "No items selected."
 msgstr "Δεν επιλέχθηκε κανένα στοιχείο."
 
-#: modules/node/node.admin.inc:619
+#: modules/node/node.admin.inc:620
 msgid "Are you sure you want to delete these items?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτά τα στοιχεία;"
 
-#: modules/node/node.admin.inc:629
+#: modules/node/node.admin.inc:630
 msgid "The items have been deleted."
 msgstr "Τα στοιχεία διαγράφηκαν."
 
-#: modules/node/node.admin.inc:436
+#: modules/node/node.admin.inc:437
 msgid "1 item successfully processed:"
 msgid_plural "@count items successfully processed:"
 msgstr[0] "Επιτυχής επεξεργασία 1 αντικειμένου:"
@@ -544,287 +538,287 @@ msgstr "Η ύλη έχει τροποποιηθεί από κάποιον άλλ
 msgid "The username %name does not exist."
 msgstr "Το όνομα λογαριασμού %name δεν υπάρχει."
 
-#: modules/node/node.module:981
+#: modules/node/node.module:980
 msgid "@type %title has been deleted."
 msgstr "Ο τύπος @type με τίτλο %title διαγράφηκε."
 
-#: modules/node/node.module:1096
+#: modules/node/node.module:1095
 msgid "Revision of %title from %date"
 msgstr "Αναθεώρηση του %title της %date"
 
-#: modules/node/node.module:1116
+#: modules/node/node.module:1115
 msgid "Log"
 msgstr "Ημερολόγιο"
 
-#: modules/node/node.module:1161
+#: modules/node/node.module:1160
 msgid "Content ranking"
 msgstr "Βαθμολογία ύλης"
 
-#: modules/node/node.module:1165
+#: modules/node/node.module:1164
 msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
 msgstr "Οι παρακάτω αριθμοί ελέγχουν ποιες ιδιότητες θα ευνοεί η αναζήτηση ύλης όταν ταξινομεί τα αποτελέσματα. Μεγαλύτεροι αριθμοί σημαίνουν μεγαλύτερη επιρροή και το μηδέν σημαίνει ότι η ιδιότητα αγνοείται. Η αλλαγή αυτών των αριθμών δεν απαιτεί την επαναδημιουργία του ευρετηρίου της αναζήτησης. Οι αλλαγές ισχύουν αμέσως."
 
-#: modules/node/node.module:1168
+#: modules/node/node.module:1167
 msgid "Keyword relevance"
 msgstr "Συνάφεια λέξεων-κλειδιών"
 
-#: modules/node/node.module:1169
+#: modules/node/node.module:1168
 msgid "Recently posted"
 msgstr "Πρόσφατη καταχώρηση"
 
-#: modules/node/node.module:1171
+#: modules/node/node.module:1170
 msgid "Number of comments"
 msgstr "Αριθμός σχολίων"
 
-#: modules/node/node.module:1174
+#: modules/node/node.module:1173
 msgid "Number of views"
 msgstr "Αριθμός αναγνώσεων"
 
-#: modules/node/node.module:1314
+#: modules/node/node.module:1323
 msgid "Factor"
 msgstr "Συντελεστής"
 
-#: modules/node/node.module:1348
+#: modules/node/node.module:1357
 msgid "Read more"
 msgstr "Διαβάστε περισσότερα"
 
-#: modules/node/node.module:1352
+#: modules/node/node.module:1361
 msgid "Read the rest of !title."
 msgstr "Διαβάστε το υπόλοιπο τμήμα του !title."
 
-#: modules/node/node.module:1610;1616;1617
+#: modules/node/node.module:1624;1630;1631
 msgid "Syndicate"
 msgstr "Για ανεξάρτητη κυκλοφορία"
 
-#: modules/node/node.module:1731
+#: modules/node/node.module:1745
 msgid "RSS"
 msgstr "RSS"
 
-#: modules/node/node.module:1735
+#: modules/node/node.module:1749
 msgid "<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow these steps to set up and start using your website:</p>"
 msgstr "<h1 class=\"title\">Καλωσήρθατε στο νέο σας ιστοτόπο Drupal!</h1><p>Ακολουθήστε τα παρακάτω βήματα για να στήσετε και να αρχίσετε να χρησιμοποιείτε τον ιστοτόπο σας:</p>"
 
-#: modules/node/node.module:1738
+#: modules/node/node.module:1752
 msgid "<strong>Configure your website</strong> Once logged in, visit the <a href=\"@admin\">administration section</a>, where you can <a href=\"@config\">customize and configure</a> all aspects of your website."
 msgstr "<strong>Διευθετήστε τον ιστοτόπο σας</strong> Αφού εισέλθετε στο σύστημα, πηγαίνετε στο <a href=\"@admin\">τμήμα διαχείρισης</a>, όπου μπορείτε <a href=\"@config\">να προσαρμόσετε και να διευθετήσετε</a> τον ιστοτόπο σας από όλες τις απόψεις."
 
-#: modules/node/node.module:1739
+#: modules/node/node.module:1753
 msgid "<strong>Enable additional functionality</strong> Next, visit the <a href=\"@modules\">module list</a> and enable features which suit your specific needs. You can find additional modules in the <a href=\"@download_modules\">Drupal modules download section</a>."
 msgstr "<strong>Ενεργοποιήστε πρόσθετες λειτουργικές δυνατότητες</strong> Στη συνέχεια, πηγαίνετε στη <a href=\"@modules\">λίστα των μονάδων</a> και ενεργοποιήστε τις λειτουργίες που ανταποκρίνονται στις συγκεκριμένες ανάγκες σας. Μπορείτε να βρείτε και άλλες μονάδες στην <a href=\"@download_modules\">ιστοσελίδα των μονάδων του Drupal</a>."
 
-#: modules/node/node.module:1740
+#: modules/node/node.module:1754
 msgid "<strong>Customize your website design</strong> To change the \"look and feel\" of your website, visit the <a href=\"@themes\">themes section</a>. You may choose from one of the included themes or download additional themes from the <a href=\"@download_themes\">Drupal themes download section</a>."
 msgstr "<strong>Προσαρμόστε την όψη του ιστοτόπου σας</strong> Για να αλλάξετε \"την όψη και την αίσθηση\" του ιστοτόπου σας, πηγαίνετε στη <a href=\"@themes\">σελίδα των θεματικών παραλλαγών</a>. Μπορείτε να διαλέξετε μία από τις θεματικές παραλλαγές που περιλαμβάνονται ή να κατεβάσετε και άλλες από την <a href=\"@download_themes\">ιστοσελίδα των θεματικών παραλλαγών του Drupal</a>."
 
-#: modules/node/node.module:1741
+#: modules/node/node.module:1755
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
 msgstr "<strong>Αρχίστε να υποβάλλετε ύλη</strong> Τέλος, μπορείτε να <a href=\"@content\">υποβάλλετε ύλη</a> στον ιστοτόπο σας. Αυτό το μήνυμα που διαβάζετε θα εξαφανιστεί μόλις δημοσιεύσετε την πρώτη σας καταχώρηση."
 
-#: modules/node/node.module:1743
+#: modules/node/node.module:1757
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
 msgstr "Για περισσότερες πληροφορίες μπορείτε να ανατρέχετε στη <a href=\"@help\">σελίδα οδηγιών</a> ή στα <a href=\"@handbook\">online εγχειρίδια του Drupal</a>. Μπορείτε επίσης να υποβάλλετε μηνύματα στο <a href=\"@forum\">φόρουμ του Drupal</a> ή να χρησιμοποιείτε το ευρύ φάσμα των <a href=\"@support\">άλλων επιλογών υποστήριξης</a> που είναι διαθέσιμες."
 
-#: modules/node/node.module:1815;1867
+#: modules/node/node.module:1829;1881
 msgid "Advanced search"
 msgstr "Σύνθετη αναζήτηση"
 
-#: modules/node/node.module:1826
+#: modules/node/node.module:1840
 msgid "Containing any of the words"
 msgstr "Να περιέχει οποιαδήποτε από τις λέξεις"
 
-#: modules/node/node.module:1832
+#: modules/node/node.module:1846
 msgid "Containing the phrase"
 msgstr "Να περιέχει τη φράση"
 
-#: modules/node/node.module:1838
+#: modules/node/node.module:1852
 msgid "Containing none of the words"
 msgstr "Να μην περιέχει καμία από τις λέξεις"
 
-#: modules/node/node.module:1847
+#: modules/node/node.module:1861
 msgid "Only in the category(s)"
 msgstr "Μόνο στις κατηγορίες"
 
-#: modules/node/node.module:1860
+#: modules/node/node.module:1874
 msgid "Only of the type(s)"
 msgstr "Μόνο των τύπων"
 
-#: modules/node/node.module:2282
+#: modules/node/node.module:2296
 msgid "Rebuilding content access permissions"
 msgstr "Επαναδημιουργία δικαιωμάτων πρόσβασης για την ύλη"
 
-#: modules/node/node.module:2312
+#: modules/node/node.module:2326
 msgid "Content permissions have been rebuilt."
 msgstr "Οι άδειες πρόσβασης για την ύλη επαναδημιουργήθηκαν."
 
-#: modules/node/node.module:2358
+#: modules/node/node.module:2372
 msgid "The content access permissions have been rebuilt."
 msgstr "Οι άδειες πρόσβασης για την ύλη έχουν επαναδημιουργηθεί."
 
-#: modules/node/node.module:2362
+#: modules/node/node.module:2376
 msgid "The content access permissions have not been properly rebuilt."
 msgstr "Οι άδειες πρόσβασης για την ύλη δεν έχουν επαναδημιουργηθεί σωστά."
 
-#: modules/node/node.module:2450
+#: modules/node/node.module:2464
 msgid "Submitted by !username on @datetime"
 msgstr "Υποβλήθηκε από !username την @datetime."
 
-#: modules/node/node.module:2465
+#: modules/node/node.module:2479
 msgid "When either saving a new post or updating an existing post"
 msgstr "Κατά την αποθήκευση μιας νέας δημοσίευσης ή ενημέρωση υπάρχουσας"
 
-#: modules/node/node.module:2468
+#: modules/node/node.module:2482
 msgid "After saving a new post"
 msgstr "Μετά την αποθήκευση μιας νέας δημοσίευσης"
 
-#: modules/node/node.module:2471
+#: modules/node/node.module:2485
 msgid "After saving an updated post"
 msgstr "Μετά την αποθήκευση μιας ενημερωμένης δημοσίευσης"
 
-#: modules/node/node.module:2474
+#: modules/node/node.module:2488
 msgid "After deleting a post"
 msgstr "Μετά τη διαγραφή μιας δημοσίευσης"
 
-#: modules/node/node.module:2477
+#: modules/node/node.module:2491
 msgid "When content is viewed by an authenticated user"
 msgstr "Κατά την ανάγνωση ύλης από ένα πιστοποιημένο χρήστη"
 
-#: modules/node/node.module:2491
+#: modules/node/node.module:2505
 msgid "Publish post"
 msgstr "Δημοσίευση καταχώρησης"
 
-#: modules/node/node.module:2501
+#: modules/node/node.module:2515
 msgid "Unpublish post"
 msgstr "Άρση δημοσίευσης καταχώρησης"
 
-#: modules/node/node.module:2511
+#: modules/node/node.module:2525
 msgid "Make post sticky"
 msgstr "Μετατροπή καταχώρησης σε μόνιμη"
 
-#: modules/node/node.module:2521
+#: modules/node/node.module:2535
 msgid "Make post unsticky"
 msgstr "Άρση κατάστασης καταχώρησης σε μόνιμη"
 
-#: modules/node/node.module:2531
+#: modules/node/node.module:2545
 msgid "Promote post to front page"
 msgstr "Προβιβασμός καταχώρησης στην κεντρική σελίδα"
 
-#: modules/node/node.module:2541
+#: modules/node/node.module:2555
 msgid "Remove post from front page"
 msgstr "Αφαίρεση καταχώρησης από την κεντρική σελίδα"
 
-#: modules/node/node.module:2551
+#: modules/node/node.module:2565
 msgid "Change the author of a post"
 msgstr "Αλλαγή συγγραφέα μιας καταχώρησης"
 
-#: modules/node/node.module:2562
+#: modules/node/node.module:2576
 msgid "Save post"
 msgstr "Αποθήκευση καταχώρησης"
 
-#: modules/node/node.module:2570
+#: modules/node/node.module:2584
 msgid "Unpublish post containing keyword(s)"
 msgstr "Άρση δημοσίευσης καταχώρησης που περιέχει τις λέξεις κλειδιά"
 
-#: modules/node/node.module:2653
+#: modules/node/node.module:2667
 msgid "The username of the user to which you would like to assign ownership."
 msgstr "Το όνομα λογαριασμού του χρήστη στον οποίο θέλετε να μεταβιβάσετε την ιδιοκτησία."
 
-#: modules/node/node.module:2692
+#: modules/node/node.module:2706
 msgid "Please enter a valid username."
 msgstr "Πρέπει να εισάγετε όνομα λογαριασμού χρήστη."
 
-#: modules/node/node.module:2706
+#: modules/node/node.module:2720
 msgid "The post will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
 msgstr "Η καταχώρηση θα βγει εκτός κατάστασης δημοσίευσης αν περιέχει οποιαδήποτε από τις παραπάνω ακολουθίες χαρακτήρων. Χρησιμοποιήστε μια λίστα ακολουθιών χαρακτήρων χωρισμένη με το κόμμα. Παραδείγματα: αστείος, μπάντζι τζάμπινγκ, \"Εταιρία ΑΕ\". Οι ακολουθίες χαρακτήρων κάνουν διάκριση σε κεφαλαία-πεζά."
 
-#: modules/node/node.module:980
+#: modules/node/node.module:979
 msgid "@type: deleted %title."
 msgstr "@type: διαγράφηκε το %title."
 
-#: modules/node/node.module:2585
+#: modules/node/node.module:2599
 msgid "Set @type %title to published."
 msgstr "Ορισμός του τύπου @type με τίτλο %title να δημοσιεύεται."
 
-#: modules/node/node.module:2594;2729
+#: modules/node/node.module:2608;2743
 msgid "Set @type %title to unpublished."
 msgstr "Ορισμός του τύπου @type με τίτλο %title να μη δημοσιεύεται."
 
-#: modules/node/node.module:2603
+#: modules/node/node.module:2617
 msgid "Set @type %title to sticky."
 msgstr "Ορισμός του τύπου @type με τίτλο %title να είναι μόνιμο."
 
-#: modules/node/node.module:2612
+#: modules/node/node.module:2626
 msgid "Set @type %title to unsticky."
 msgstr "Ορισμός του τύπου @type με τίτλο %title να μην είναι μόνιμο."
 
-#: modules/node/node.module:2621
+#: modules/node/node.module:2635
 msgid "Promoted @type %title to front page."
 msgstr "Ο τύπος @type με τίτλο %title προβιβάστηκε στην κεντρική σελίδα."
 
-#: modules/node/node.module:2630
+#: modules/node/node.module:2644
 msgid "Removed @type %title from front page."
 msgstr "Ο τύπος @type με τίτλο %title αφαιρέθηκε από την κεντρική σελίδα."
 
-#: modules/node/node.module:2639
+#: modules/node/node.module:2653
 msgid "Saved @type %title"
 msgstr "Αποθήκευση του τύπου @type με τίτλο %title"
 
-#: modules/node/node.module:2649
+#: modules/node/node.module:2663
 msgid "Changed owner of @type %title to uid %name."
 msgstr "Έγινε αλλαγή του ιδιοκτήτη του τύπου @type με τίτλο %title στο χρήστη %name."
 
-#: modules/node/node.module:1122
+#: modules/node/node.module:1121
 msgid "administer content types"
 msgstr "διαχείριση τύπων ύλης"
 
-#: modules/node/node.module:1122
+#: modules/node/node.module:1121
 msgid "administer nodes"
 msgstr "διαχείριση κόμβων"
 
-#: modules/node/node.module:1122
+#: modules/node/node.module:1121
 msgid "access content"
 msgstr "πρόσβαση σε ύλη"
 
-#: modules/node/node.module:1122
+#: modules/node/node.module:1121
 msgid "view revisions"
 msgstr "ανάγνωση αναθεωρήσεων"
 
-#: modules/node/node.module:1122
+#: modules/node/node.module:1121
 msgid "revert revisions"
 msgstr "επαναφορά αναθεωρήσεων"
 
-#: modules/node/node.module:1403
+#: modules/node/node.module:1412
 msgid "View, edit, and delete your site's content."
 msgstr "Προβολή, επεξεργασία και διαγραφή του περιεχομένου του ιστοτόπου."
 
-#: modules/node/node.module:1417
+#: modules/node/node.module:1426
 msgid "Post settings"
 msgstr "Επιλογές δημοσιεύσεων"
 
-#: modules/node/node.module:1418
+#: modules/node/node.module:1427
 msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
 msgstr "Έλεγχος της συμπεριφοράς δημοσίευσης, όπως το μέγεθος της περίληψης, υποχρεωτική δοκιμή εμφάνισης και του αριθμού των δημοσιεύσεων της αρχικής σελίδας."
 
-#: modules/node/node.module:1436
+#: modules/node/node.module:1445
 msgid "Manage posts by content type, including default status, front page promotion, etc."
 msgstr "Διαχείριση δημοσιευμάτων με βάση τον τύπο, συμπεριλαμβανομένων των προεπιλογών, του προβιβασμού στην αρχική σελίδα κ.τ.λ."
 
-#: modules/node/node.module:1447
+#: modules/node/node.module:1456
 msgid "Add content type"
 msgstr "Προσθήκη τύπου ύλης"
 
-#: modules/node/node.module:1460
+#: modules/node/node.module:1470
 msgid "Create content"
 msgstr "Υποβολή ύλης"
 
-#: modules/node/node.module:1534;1544
+#: modules/node/node.module:1546;1556
 msgid "Revisions"
 msgstr "Αναθεωρήσεις"
 
-#: modules/node/node.module:1551
+#: modules/node/node.module:1565
 msgid "Revert to earlier revision"
 msgstr "Επαναφορά σε προηγούμενη αναθεώρηση"
 
-#: modules/node/node.module:1561
+#: modules/node/node.module:1575
 msgid "Delete earlier revision"
 msgstr "Διαγραφή προηγούμενης αναθεώρησης"
 
@@ -849,7 +843,7 @@ msgid "The {languages}.language of this node."
 msgstr "Η {languages}.language αυτού του κόμβου."
 
 #: modules/node/node.install:35
-msgid "The title of this node, always treated a non-markup plain text."
+msgid "The title of this node, always treated as non-markup plain text."
 msgstr "Ο τίτλος του κόμβου, διαχειριζόμενος πάντα ως απλό, χωρίς ετικέτες, κείμενο."
 
 #: modules/node/node.install:41
@@ -873,7 +867,7 @@ msgid "Whether comments are allowed on this node: 0 = no, 1 = read only, 2 = rea
 msgstr "Αν επιτρέπονται σχόλια σε αυτό τον κόμβο: 0 = όχι, 1 = μόνο για ανάγνωση, 2 = ανάγνωση/εγγραφή."
 
 #: modules/node/node.install:66
-msgid "Boolean indicating whether the node should displayed on the front page."
+msgid "Boolean indicating whether the node should be displayed on the front page."
 msgstr "Μια επιλογή τύπου boolean που δείχνει αν ο κόμβος πρέπει να εμφανίζεται στην κεντρική σελίδα."
 
 #: modules/node/node.install:71

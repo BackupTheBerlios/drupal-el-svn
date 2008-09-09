@@ -1,17 +1,17 @@
-# $Id: modules-trigger.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-trigger.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-trigger)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
-#  trigger.module,v 1.13 2008/01/21 20:08:15 goba
+#  trigger.module,v 1.13.2.1 2008/04/09 21:11:51 goba
 #  trigger.install,v 1.5 2007/12/28 12:02:52 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "You can assign it again later if you wish."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:77 modules/trigger/trigger.module:111
+#: modules/trigger/trigger.admin.inc:77 modules/trigger/trigger.module:114
 msgid "Unassign"
 msgstr ""
 
@@ -44,7 +44,7 @@ msgstr ""
 msgid "unassign"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:411
+#: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:415
 msgid "Choose an action"
 msgstr ""
 
@@ -112,11 +112,11 @@ msgstr ""
 msgid "Tell Drupal when to execute actions."
 msgstr ""
 
-#: modules/trigger/trigger.module:83
+#: modules/trigger/trigger.module:85
 msgid "Cron"
 msgstr ""
 
-#: modules/trigger/trigger.module:112
+#: modules/trigger/trigger.module:115
 msgid "Unassign an action from a trigger."
 msgstr ""
 

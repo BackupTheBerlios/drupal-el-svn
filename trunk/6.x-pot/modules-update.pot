@@ -1,10 +1,10 @@
-# $Id: modules-update.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-update.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-update)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  update.compare.inc,v 1.8 2008/02/03 19:34:02 goba
-#  update.fetch.inc,v 1.7 2008/01/30 10:14:42 goba
+#  update.compare.inc,v 1.8.2.1 2008/08/12 05:10:12 dries
+#  update.fetch.inc,v 1.7.2.1 2008/04/09 18:36:58 goba
 #  update.module,v 1.17 2008/01/30 10:14:42 goba
 #  update.report.inc,v 1.10.2.1 2008/02/05 09:59:21 goba
 #  update.settings.inc,v 1.3 2007/10/20 21:57:50 goba
@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -27,55 +27,55 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: modules/update/update.compare.inc:258
+#: modules/update/update.compare.inc:257
 msgid "Project not secure"
 msgstr ""
 
-#: modules/update/update.compare.inc:259
+#: modules/update/update.compare.inc:258
 msgid "This project has been labeled insecure by the Drupal security team, and is no longer available for download. Immediately disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:270
+#: modules/update/update.compare.inc:269
 msgid "Project revoked"
 msgstr ""
 
-#: modules/update/update.compare.inc:271
+#: modules/update/update.compare.inc:270
 msgid "This project has been revoked, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:281
+#: modules/update/update.compare.inc:280
 msgid "Project not supported"
 msgstr ""
 
-#: modules/update/update.compare.inc:282
+#: modules/update/update.compare.inc:281
 msgid "This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:348;497;546
+#: modules/update/update.compare.inc:347;496;545
 msgid "No available releases found"
 msgstr ""
 
-#: modules/update/update.compare.inc:365
+#: modules/update/update.compare.inc:364
 msgid "Release revoked"
 msgstr ""
 
-#: modules/update/update.compare.inc:366
+#: modules/update/update.compare.inc:365
 msgid "Your currently installed release has been revoked, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:377
+#: modules/update/update.compare.inc:376
 msgid "Release not supported"
 msgstr ""
 
-#: modules/update/update.compare.inc:378
+#: modules/update/update.compare.inc:377
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
 
-#: modules/update/update.compare.inc:529
+#: modules/update/update.compare.inc:528
 msgid "Unknown release date"
 msgstr ""
 
-#: modules/update/update.compare.inc:541
+#: modules/update/update.compare.inc:540
 msgid "Invalid info"
 msgstr ""
 

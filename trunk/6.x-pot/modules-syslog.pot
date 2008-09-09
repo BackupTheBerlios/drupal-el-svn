@@ -1,14 +1,14 @@
-# $Id: modules-syslog.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-syslog.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-syslog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: syslog.module,v 1.14 2007/12/14 18:08:48 goba
+# Generated from file: syslog.module,v 1.14.2.2 2008/07/24 06:52:43 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -29,47 +29,47 @@ msgstr ""
 msgid "For more information, see the online handbook entry for <a href=\"@syslog\">Syslog module</a>."
 msgstr ""
 
-#: modules/syslog/syslog.module:42
+#: modules/syslog/syslog.module:43
 msgid "Send events to this syslog facility"
 msgstr ""
 
-#: modules/syslog/syslog.module:45
+#: modules/syslog/syslog.module:46
 msgid "Select the syslog facility code under which Drupal's messages should be sent. On UNIX/Linux systems, Drupal can flag its messages with the code LOG_LOCAL0 through LOG_LOCAL7; for Microsoft Windows, all messages are flagged with the code LOG_USER. Depending on the system configuration, syslog and other logging tools use this code to identify or filter Drupal messages from within the entire system log. For more information on syslog, see <a href=\"@syslog_help\">Syslog help</a>."
 msgstr ""
 
-#: modules/syslog/syslog.module:55
+#: modules/syslog/syslog.module:54
 msgid "LOG_USER - User level messages. Use this for Windows."
 msgstr ""
 
-#: modules/syslog/syslog.module:59
+#: modules/syslog/syslog.module:58
 msgid "LOG_LOCAL0 - Local 0"
 msgstr ""
 
-#: modules/syslog/syslog.module:60
+#: modules/syslog/syslog.module:59
 msgid "LOG_LOCAL1 - Local 1"
 msgstr ""
 
-#: modules/syslog/syslog.module:61
+#: modules/syslog/syslog.module:60
 msgid "LOG_LOCAL2 - Local 2"
 msgstr ""
 
-#: modules/syslog/syslog.module:62
+#: modules/syslog/syslog.module:61
 msgid "LOG_LOCAL3 - Local 3"
 msgstr ""
 
-#: modules/syslog/syslog.module:63
+#: modules/syslog/syslog.module:62
 msgid "LOG_LOCAL4 - Local 4"
 msgstr ""
 
-#: modules/syslog/syslog.module:64
+#: modules/syslog/syslog.module:63
 msgid "LOG_LOCAL5 - Local 5"
 msgstr ""
 
-#: modules/syslog/syslog.module:65
+#: modules/syslog/syslog.module:64
 msgid "LOG_LOCAL6 - Local 6"
 msgstr ""
 
-#: modules/syslog/syslog.module:66
+#: modules/syslog/syslog.module:65
 msgid "LOG_LOCAL7 - Local 7"
 msgstr ""
 

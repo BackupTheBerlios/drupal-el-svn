@@ -1,10 +1,10 @@
-# $Id: modules-filter.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
+# $Id: modules-filter.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-filter)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
-#  filter.module,v 1.204 2008/01/21 15:08:24 goba
+#  filter.module,v 1.204.2.4 2008/08/13 23:59:13 drumm
 #  filter.pages.inc,v 1.2 2007/11/10 17:41:18 dries
 #  filter.install,v 1.5 2007/12/18 12:59:21 dries
 #
@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Choose the filters that will be used in this filter format."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:583
+#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:587
 msgid "More information about formatting options"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "These are the guidelines that users will see for posting in this input format. They are automatically generated from the filter settings."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:512
+#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:516
 msgid "Formatting guidelines"
 msgstr ""
 
@@ -165,327 +165,327 @@ msgstr ""
 msgid "Filters are executed from top-to-bottom. To change the order of the filters, modify the values in the <em>Weight</em> column or grab a drag-and-drop handle under the <em>Name</em> column and drag filters to new locations in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
 msgstr ""
 
-#: modules/filter/filter.module:176;178
+#: modules/filter/filter.module:180;182
 msgid "Allowed HTML tags: @tags"
 msgstr ""
 
-#: modules/filter/filter.module:183
+#: modules/filter/filter.module:187
 msgid "\n<p>This site allows HTML content. While learning all of HTML may feel intimidating, learning how to use a very small number of the most basic HTML \"tags\" is very easy. This table provides examples for each tag that is enabled on this site.</p>\n<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/\">HTML Specifications</a> or use your favorite search engine to find other sites that explain HTML.</p>"
 msgstr ""
 
-#: modules/filter/filter.module:187
+#: modules/filter/filter.module:191
 msgid "Anchors are used to make links to other pages."
 msgstr ""
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:192
 msgid "By default line break tags are automatically added, so use this tag to add additional ones. Use of this tag is different because it is not used with an open/close pair like all the others. Use the extra \" /\" inside the tag to maintain XHTML 1.0 compatibility"
 msgstr ""
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:192
 msgid "Text with <br />line break"
 msgstr ""
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "By default paragraph tags are automatically added, so use this tag to add additional ones."
 msgstr ""
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "Paragraph one."
 msgstr ""
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "Paragraph two."
 msgstr ""
 
-#: modules/filter/filter.module:190;190
+#: modules/filter/filter.module:194;194
 msgid "Strong"
 msgstr ""
 
-#: modules/filter/filter.module:191;191
+#: modules/filter/filter.module:195;195
 msgid "Emphasized"
 msgstr ""
 
-#: modules/filter/filter.module:192;192
+#: modules/filter/filter.module:196;196
 msgid "Cited"
 msgstr ""
 
-#: modules/filter/filter.module:193
+#: modules/filter/filter.module:197
 msgid "Coded text used to show programming source code"
 msgstr ""
 
-#: modules/filter/filter.module:193
+#: modules/filter/filter.module:197
 msgid "Coded"
 msgstr ""
 
-#: modules/filter/filter.module:194;194
+#: modules/filter/filter.module:198;198
 msgid "Bolded"
 msgstr ""
 
-#: modules/filter/filter.module:195;195
+#: modules/filter/filter.module:199;199
 msgid "Underlined"
 msgstr ""
 
-#: modules/filter/filter.module:196;196
+#: modules/filter/filter.module:200;200
 msgid "Italicized"
 msgstr ""
 
-#: modules/filter/filter.module:197
+#: modules/filter/filter.module:201
 msgid "Superscripted"
 msgstr ""
 
-#: modules/filter/filter.module:197
+#: modules/filter/filter.module:201
 msgid "<sup>Super</sup>scripted"
 msgstr ""
 
-#: modules/filter/filter.module:198
+#: modules/filter/filter.module:202
 msgid "Subscripted"
 msgstr ""
 
-#: modules/filter/filter.module:198
+#: modules/filter/filter.module:202
 msgid "<sub>Sub</sub>scripted"
 msgstr ""
 
-#: modules/filter/filter.module:199;199
+#: modules/filter/filter.module:203;203
 msgid "Preformatted"
 msgstr ""
 
-#: modules/filter/filter.module:200
+#: modules/filter/filter.module:204
 msgid "Abbreviation"
 msgstr ""
 
-#: modules/filter/filter.module:200
+#: modules/filter/filter.module:204
 msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
 msgstr ""
 
-#: modules/filter/filter.module:201
+#: modules/filter/filter.module:205
 msgid "Acronym"
 msgstr ""
 
-#: modules/filter/filter.module:201
+#: modules/filter/filter.module:205
 msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
 msgstr ""
 
-#: modules/filter/filter.module:202;202
+#: modules/filter/filter.module:206;206
 msgid "Block quoted"
 msgstr ""
 
-#: modules/filter/filter.module:203;203
+#: modules/filter/filter.module:207;207
 msgid "Quoted inline"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table header"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table cell"
 msgstr ""
 
-#: modules/filter/filter.module:207;207
+#: modules/filter/filter.module:211;211
 msgid "Deleted"
 msgstr ""
 
-#: modules/filter/filter.module:208;208
+#: modules/filter/filter.module:212;212
 msgid "Inserted"
 msgstr ""
 
-#: modules/filter/filter.module:210
+#: modules/filter/filter.module:214
 msgid "Ordered list - use the &lt;li&gt; to begin each list item"
 msgstr ""
 
-#: modules/filter/filter.module:210;211
+#: modules/filter/filter.module:214;215
 msgid "First item"
 msgstr ""
 
-#: modules/filter/filter.module:210;211
+#: modules/filter/filter.module:214;215
 msgid "Second item"
 msgstr ""
 
-#: modules/filter/filter.module:211
+#: modules/filter/filter.module:215
 msgid "Unordered list - use the &lt;li&gt; to begin each list item"
 msgstr ""
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Definition lists are similar to other HTML lists. &lt;dl&gt; begins the definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins the definition description."
 msgstr ""
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "First term"
 msgstr ""
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "First definition"
 msgstr ""
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Second term"
 msgstr ""
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Second definition"
 msgstr ""
 
-#: modules/filter/filter.module:217
+#: modules/filter/filter.module:221
 msgid "Subtitle"
 msgstr ""
 
-#: modules/filter/filter.module:218
+#: modules/filter/filter.module:222
 msgid "Subtitle three"
 msgstr ""
 
-#: modules/filter/filter.module:219
+#: modules/filter/filter.module:223
 msgid "Subtitle four"
 msgstr ""
 
-#: modules/filter/filter.module:220
+#: modules/filter/filter.module:224
 msgid "Subtitle five"
 msgstr ""
 
-#: modules/filter/filter.module:221
+#: modules/filter/filter.module:225
 msgid "Subtitle six"
 msgstr ""
 
-#: modules/filter/filter.module:223
+#: modules/filter/filter.module:227
 msgid "Tag Description"
 msgstr ""
 
-#: modules/filter/filter.module:223;252
+#: modules/filter/filter.module:227;256
 msgid "You Type"
 msgstr ""
 
-#: modules/filter/filter.module:223;252
+#: modules/filter/filter.module:227;256
 msgid "You Get"
 msgstr ""
 
-#: modules/filter/filter.module:237
+#: modules/filter/filter.module:241
 msgid "No help provided for tag %tag."
 msgstr ""
 
-#: modules/filter/filter.module:243
+#: modules/filter/filter.module:247
 msgid "\n<p>Most unusual characters can be directly entered without any problems.</p>\n<p>If you do encounter problems, try using HTML character entities. A common example looks like &amp;amp; for an ampersand &amp; character. For a full list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">entities</a> page. Some of the available characters include:</p>"
 msgstr ""
 
-#: modules/filter/filter.module:247
+#: modules/filter/filter.module:251
 msgid "Ampersand"
 msgstr ""
 
-#: modules/filter/filter.module:248
+#: modules/filter/filter.module:252
 msgid "Greater than"
 msgstr ""
 
-#: modules/filter/filter.module:249
+#: modules/filter/filter.module:253
 msgid "Less than"
 msgstr ""
 
-#: modules/filter/filter.module:250
+#: modules/filter/filter.module:254
 msgid "Quotation mark"
 msgstr ""
 
-#: modules/filter/filter.module:252
+#: modules/filter/filter.module:256
 msgid "Character Description"
 msgstr ""
 
-#: modules/filter/filter.module:266
+#: modules/filter/filter.module:270
 msgid "No HTML tags allowed"
 msgstr ""
 
-#: modules/filter/filter.module:274
+#: modules/filter/filter.module:278
 msgid "Lines and paragraphs break automatically."
 msgstr ""
 
-#: modules/filter/filter.module:276
+#: modules/filter/filter.module:280
 msgid "Lines and paragraphs are automatically recognized. The &lt;br /&gt; line break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted automatically. If paragraphs are not recognized simply add a couple blank lines."
 msgstr ""
 
-#: modules/filter/filter.module:280
+#: modules/filter/filter.module:284
 msgid "Web page addresses and e-mail addresses turn into links automatically."
 msgstr ""
 
-#: modules/filter/filter.module:484
+#: modules/filter/filter.module:488
 msgid "Input format"
 msgstr ""
 
-#: modules/filter/filter.module:604;655
+#: modules/filter/filter.module:608;659
 msgid "HTML filter"
 msgstr ""
 
-#: modules/filter/filter.module:604
+#: modules/filter/filter.module:608
 msgid "Line break converter"
 msgstr ""
 
-#: modules/filter/filter.module:604;715
+#: modules/filter/filter.module:608;719
 msgid "URL filter"
 msgstr ""
 
-#: modules/filter/filter.module:604
+#: modules/filter/filter.module:608
 msgid "HTML corrector"
 msgstr ""
 
-#: modules/filter/filter.module:609
+#: modules/filter/filter.module:613
 msgid "Allows you to restrict whether users can post HTML and which tags to filter out. It will also remove harmful content such as JavaScript events, JavaScript URLs and CSS styles from those tags that are not removed."
 msgstr ""
 
-#: modules/filter/filter.module:611
+#: modules/filter/filter.module:615
 msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
 msgstr ""
 
-#: modules/filter/filter.module:613
+#: modules/filter/filter.module:617
 msgid "Turns web and e-mail addresses into clickable links."
 msgstr ""
 
-#: modules/filter/filter.module:615
+#: modules/filter/filter.module:619
 msgid "Corrects faulty and chopped off HTML in postings."
 msgstr ""
 
-#: modules/filter/filter.module:660
+#: modules/filter/filter.module:664
 msgid "Filter HTML tags"
 msgstr ""
 
-#: modules/filter/filter.module:662
+#: modules/filter/filter.module:666
 msgid "Strip disallowed tags"
 msgstr ""
 
-#: modules/filter/filter.module:662
+#: modules/filter/filter.module:666
 msgid "Escape all tags"
 msgstr ""
 
-#: modules/filter/filter.module:663
+#: modules/filter/filter.module:667
 msgid "How to deal with HTML tags in user-contributed content. If set to \"Strip disallowed tags\", dangerous tags are removed (see below). If set to \"Escape tags\", all HTML is escaped and presented as it was typed."
 msgstr ""
 
-#: modules/filter/filter.module:671
+#: modules/filter/filter.module:675
 msgid "If \"Strip disallowed tags\" is selected, optionally specify tags which should not be stripped. JavaScript event attributes are always stripped."
 msgstr ""
 
-#: modules/filter/filter.module:675
+#: modules/filter/filter.module:679
 msgid "Display HTML help"
 msgstr ""
 
-#: modules/filter/filter.module:677
+#: modules/filter/filter.module:681
 msgid "If enabled, Drupal will display some basic HTML help in the long filter tips."
 msgstr ""
 
-#: modules/filter/filter.module:681
+#: modules/filter/filter.module:685
 msgid "Spam link deterrent"
 msgstr ""
 
-#: modules/filter/filter.module:683
+#: modules/filter/filter.module:687
 msgid "If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to reduce the effectiveness of spam links. Note: this will also prevent valid links from being followed by search engines, therefore it is likely most effective when enabled for anonymous users."
 msgstr ""
 
-#: modules/filter/filter.module:720
+#: modules/filter/filter.module:724
 msgid "Maximum link text length"
 msgstr ""
 
-#: modules/filter/filter.module:723
+#: modules/filter/filter.module:727
 msgid "URLs longer than this number of characters will be truncated to prevent long strings that break formatting. The link itself will be retained; just the text portion of the link will be truncated."
 msgstr ""
 
-#: modules/filter/filter.module:153
+#: modules/filter/filter.module:157
 msgid "administer filters"
 msgstr ""
 
@@ -497,15 +497,15 @@ msgstr ""
 msgid "Configure how content input by users is filtered, including allowed HTML tags. Also allows enabling of module-provided filters."
 msgstr ""
 
-#: modules/filter/filter.module:90
+#: modules/filter/filter.module:91
 msgid "Delete input format"
 msgstr ""
 
-#: modules/filter/filter.module:97
+#: modules/filter/filter.module:99
 msgid "Compose tips"
 msgstr ""
 
-#: modules/filter/filter.module:128
+#: modules/filter/filter.module:131
 msgid "Rearrange"
 msgstr ""
 

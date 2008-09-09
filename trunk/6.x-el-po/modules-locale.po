@@ -1,20 +1,15 @@
-# translation of modules-locale.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-locale\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-06 02:27+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  modules-locale.po (modules-locale)  #-#-#-#-#\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
@@ -118,51 +113,51 @@ msgstr "Η σελίδα επιτρέπει στον μεταφραστή να α
 msgid "This block is only shown if <a href=\"@languages\">at least two languages are enabled</a> and <a href=\"@configuration\">language negotiation</a> is set to something other than <em>None</em>."
 msgstr "Το μπλοκ εμφανίζεται όταν <a href=\"@languages\">είναι ενεργοποιημένες τουλάχιστον δύο γλώσσες</a> και η <a href=\"@configuration\">διαπραγμάτευση γλώσσας</a> έχει οριστεί σε κάτι άλλο εκτός του <em>Τίποτα</em>."
 
-#: modules/locale/locale.module:198
+#: modules/locale/locale.module:207
 msgid "Built-in interface"
 msgstr "Ενσωματωμένη διεπαφή"
 
-#: modules/locale/locale.module:224
+#: modules/locale/locale.module:233
 msgid "Language settings"
 msgstr "Ρυθμίσεις γλώσσας"
 
-#: modules/locale/locale.module:235
+#: modules/locale/locale.module:244
 msgid "This account's default language for e-mails, and preferred language for site presentation."
 msgstr "Η προεπιλεγμένη γλώσσα του λογαριασμού για τα e-mail και η προτιμώμενη γλώσσα για την παρουσίαση του ιστοτόπου."
 
-#: modules/locale/locale.module:235
+#: modules/locale/locale.module:244
 msgid "This account's default language for e-mails."
 msgstr "Η προεπιλεγμένη γλώσσα του λογαριασμού για τα e-mail."
 
-#: modules/locale/locale.module:255
+#: modules/locale/locale.module:264
 msgid "A path alias set for a specific language will always be used when displaying this page in that language, and takes precedence over path aliases set for <am>All languages</em>."
 msgstr "Ένα ψευδώνυμο διαδρομής ορισμένο για μια συγκεκριμένη γλώσσα θα χρησιμοποιείται πάντα για την εμφάνιση της σελίδας σε αυτή τη γλώσσα και έχει προτεραιότητα απέναντι στα ψευδώνυμα διαδρομών που ορίζονται για <em>Όλες τις γλώσσες</em>."
 
-#: modules/locale/locale.module:264
+#: modules/locale/locale.module:273
 msgid "Multilingual support"
 msgstr "Πολυγλωσσική υποστήριξη"
 
-#: modules/locale/locale.module:267
+#: modules/locale/locale.module:276
 msgid "Enable multilingual support for this content type. If enabled, a language selection field will be added to the editing form, allowing you to select from one of the <a href=\"!languages\">enabled languages</a>. If disabled, new posts are saved with the default language. Existing content will not be affected by changing this option."
 msgstr "Ενεργοποίηση της πολυγλωσσικής υποστήριξης για αυτό τον τύπο περιεχομένου. Αν είναι ενεργοποιημένο, ένα πεδίο επιλογής γλώσσας θα προστεθεί στη φόρμα επεξεργασίας, επιτρέποντας την επιλογή μίας από τις <a href=\"!languages\">ενεργοποιημένες γλώσσες</a>. Αν είναι απενεργοποιημένο, οι νέες καταχωρήσεις αποθηκεύονται στην εξ' ορισμού γλώσσα. Το υπάρχον περιεχόμενο δε θα επηρεαστεί από την αλλαγή της επιλογής αυτής."
 
-#: modules/locale/locale.module:437
+#: modules/locale/locale.module:446
 msgid "All"
 msgstr "Όλες"
 
-#: modules/locale/locale.module:558
+#: modules/locale/locale.module:567
 msgid "Language switcher"
 msgstr "Αλλαγή γλώσσας"
 
-#: modules/locale/locale.module:510
+#: modules/locale/locale.module:519
 msgid "Parsed JavaScript file %file."
 msgstr "Έγινε συντακτική ανάλυση του αρχείου JavaScript %file."
 
-#: modules/locale/locale.module:189
+#: modules/locale/locale.module:198
 msgid "administer languages"
 msgstr "διαχείριση γλωσσών"
 
-#: modules/locale/locale.module:189
+#: modules/locale/locale.module:198
 msgid "translate interface"
 msgstr "μετάφραση διεπαφής"
 
@@ -170,27 +165,27 @@ msgstr "μετάφραση διεπαφής"
 msgid "Configure languages for content and the user interface."
 msgstr "Διευθέτηση γλωσσών για το περιεχόμενο και τη διεπαφή χρήστη."
 
-#: modules/locale/locale.module:113
+#: modules/locale/locale.module:115
 msgid "Edit language"
 msgstr "Επεξεργασία γλώσσας"
 
-#: modules/locale/locale.module:127
+#: modules/locale/locale.module:131
 msgid "Translate interface"
 msgstr "Μετάφραση διεπαφής"
 
-#: modules/locale/locale.module:128
+#: modules/locale/locale.module:132
 msgid "Translate the built in interface and optionally other text."
 msgstr "Μεταφράστε την ενσωματωμένη διεπαφή και προαιρετικά άλλα κείμενα."
 
-#: modules/locale/locale.module:134
+#: modules/locale/locale.module:138
 msgid "Overview"
 msgstr "Επισκόπηση"
 
-#: modules/locale/locale.module:160
+#: modules/locale/locale.module:167
 msgid "Edit string"
 msgstr "Επεξεργασία φράσης"
 
-#: modules/locale/locale.module:166
+#: modules/locale/locale.module:174
 msgid "Delete string"
 msgstr "Διαγραφή φράσης"
 
@@ -429,4 +424,3 @@ msgstr "Το γονικό lid (το lid της προηγούμενης μετά
 #: modules/locale/locale.install:385
 msgid "Plural index number in case of plural strings."
 msgstr "Αριθμός ευρετηρίου πληθυντικού στην περίπτωση των φράσεων πληθυντικού."
-

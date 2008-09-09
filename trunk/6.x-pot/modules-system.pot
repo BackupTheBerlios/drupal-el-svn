@@ -1,18 +1,18 @@
-# $Id: modules-system.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-system.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-system)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  system.admin.inc,v 1.63 2008/02/04 12:35:48 goba
-#  system.module,v 1.585.2.7 2008/02/13 15:39:27 goba
+#  system.admin.inc,v 1.63.2.3 2008/05/19 07:27:35 goba
+#  system.module,v 1.585.2.16 2008/08/13 23:59:13 drumm
 #  system.js,v 1.14.2.1 2008/02/07 18:23:30 goba
-#  system.install,v 1.238.2.1 2008/02/08 17:07:55 goba
+#  system.install,v 1.238.2.3 2008/04/25 21:24:20 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "System default"
 msgstr ""
 
-#: modules/system/system.admin.inc:166 modules/system/system.module:258
+#: modules/system/system.admin.inc:166 modules/system/system.module:264
 msgid "Administration theme"
 msgstr ""
 
@@ -53,11 +53,11 @@ msgstr ""
 msgid "Use the administration theme when editing existing posts or creating new ones."
 msgstr ""
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:704
+#: modules/system/system.admin.inc:209 modules/system/system.module:721
 msgid "Screenshot for %theme theme"
 msgstr ""
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:704
+#: modules/system/system.admin.inc:209 modules/system/system.module:721
 msgid "no screenshot"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Please note that the <a href=\"!admin_theme_page\">administration theme</a> is still set to the %admin_theme theme; consequently, the theme on this page remains unchanged. All non-administrative sections of the site, however, will show the selected %selected_theme theme by default."
 msgstr ""
 
-#: modules/system/system.admin.inc:306;555;933 modules/system/system.module:1054
+#: modules/system/system.admin.inc:306;555;933 modules/system/system.module:1071
 msgid "The configuration options have been saved."
 msgstr ""
 
@@ -197,7 +197,7 @@ msgstr ""
 msgid "These settings only exist for the %theme theme and all the styles based on it."
 msgstr ""
 
-#: modules/system/system.admin.inc:549 modules/system/system.module:1051
+#: modules/system/system.admin.inc:549 modules/system/system.module:1068
 msgid "The configuration options have been reset to their default values."
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: modules/system/system.admin.inc:1036;1081;2106 modules/system/system.module:322;327
+#: modules/system/system.admin.inc:1036;1081;2106 modules/system/system.module:330;336
 msgid "Uninstall"
 msgstr ""
 
@@ -325,7 +325,7 @@ msgstr ""
 msgid "This page is displayed when no other content matches the requested document. If unsure, specify nothing."
 msgstr ""
 
-#: modules/system/system.admin.inc:1227 modules/system/system.module:374
+#: modules/system/system.admin.inc:1227 modules/system/system.module:387
 msgid "Error reporting"
 msgstr ""
 
@@ -437,6 +437,10 @@ msgstr ""
 msgid "Caching data improves performance, but may cause problems while troubleshooting new modules, themes, or translations, if outdated information has been cached. To refresh all cached data on your site, click the button below. <em>Warning: high-traffic sites will experience performance slowdowns while cached data is rebuilt.</em>"
 msgstr ""
 
+#: modules/system/system.admin.inc:1362
+msgid "Caches cleared."
+msgstr ""
+
 #: modules/system/system.admin.inc:1375
 msgid "File system path"
 msgstr ""
@@ -505,7 +509,7 @@ msgstr ""
 msgid "Custom format"
 msgstr ""
 
-#: modules/system/system.admin.inc:1494 modules/system/system.module:550
+#: modules/system/system.admin.inc:1494 modules/system/system.module:567
 msgid "Locale settings"
 msgstr ""
 
@@ -609,7 +613,7 @@ msgstr ""
 msgid "Message to show visitors when the site is in off-line mode."
 msgstr ""
 
-#: modules/system/system.admin.inc:1661 modules/system/system.module:443
+#: modules/system/system.admin.inc:1661 modules/system/system.module:457
 msgid "Clean URLs"
 msgstr ""
 
@@ -887,171 +891,171 @@ msgstr ""
 msgid "Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on drupal.org's support forums and project issue queues."
 msgstr ""
 
-#: modules/system/system.module:544
+#: modules/system/system.module:561
 msgid "Selecting a different theme will change the look and feel of the site."
 msgstr ""
 
-#: modules/system/system.module:556
+#: modules/system/system.module:573
 msgid "Time zone"
 msgstr ""
 
-#: modules/system/system.module:559
+#: modules/system/system.module:576
 msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
 msgstr ""
 
-#: modules/system/system.module:576
+#: modules/system/system.module:593
 msgid "Powered by Drupal"
 msgstr ""
 
-#: modules/system/system.module:586
+#: modules/system/system.module:603
 msgid "Badge color"
 msgstr ""
 
-#: modules/system/system.module:588
+#: modules/system/system.module:605
 msgid "Black"
 msgstr ""
 
-#: modules/system/system.module:588
+#: modules/system/system.module:605
 msgid "Blue"
 msgstr ""
 
-#: modules/system/system.module:588
+#: modules/system/system.module:605
 msgid "Gray"
 msgstr ""
 
-#: modules/system/system.module:592
+#: modules/system/system.module:609
 msgid "Badge size"
 msgstr ""
 
-#: modules/system/system.module:594
+#: modules/system/system.module:611
 msgid "Small"
 msgstr ""
 
-#: modules/system/system.module:594
+#: modules/system/system.module:611
 msgid "Large"
 msgstr ""
 
-#: modules/system/system.module:684
+#: modules/system/system.module:701
 msgid "Theme configuration"
 msgstr ""
 
-#: modules/system/system.module:707
+#: modules/system/system.module:724
 msgid "(site default theme)"
 msgstr ""
 
-#: modules/system/system.module:1020
+#: modules/system/system.module:1037
 msgid "The settings have not been saved because of the errors."
 msgstr ""
 
-#: modules/system/system.module:1191
+#: modules/system/system.module:1208
 msgid "Configure permissions"
 msgstr ""
 
-#: modules/system/system.module:1240
+#: modules/system/system.module:1262
 msgid "When cron runs"
 msgstr ""
 
-#: modules/system/system.module:1254
+#: modules/system/system.module:1276
 msgid "Display a message to the user"
 msgstr ""
 
-#: modules/system/system.module:1275
+#: modules/system/system.module:1297
 msgid "Redirect to URL"
 msgstr ""
 
-#: modules/system/system.module:1295
+#: modules/system/system.module:1317
 msgid "Choose an advanced action"
 msgstr ""
 
-#: modules/system/system.module:1310
+#: modules/system/system.module:1332
 msgid "Action type"
 msgstr ""
 
-#: modules/system/system.module:1330
+#: modules/system/system.module:1352
 msgid "Actions available to Drupal:"
 msgstr ""
 
-#: modules/system/system.module:1356
+#: modules/system/system.module:1378
 msgid "Make a new advanced action available"
 msgstr ""
 
-#: modules/system/system.module:1368
+#: modules/system/system.module:1390
 msgid "Create"
 msgstr ""
 
-#: modules/system/system.module:1435
+#: modules/system/system.module:1457
 msgid "A unique description for this advanced action. This description will be displayed in the interface of modules that integrate with actions, such as Trigger module."
 msgstr ""
 
-#: modules/system/system.module:1491
+#: modules/system/system.module:1513
 msgid "The action has been successfully saved."
 msgstr ""
 
-#: modules/system/system.module:1509
+#: modules/system/system.module:1531
 msgid "Are you sure you want to delete the action %action?"
 msgstr ""
 
-#: modules/system/system.module:1511
+#: modules/system/system.module:1533
 msgid "This cannot be undone."
 msgstr ""
 
-#: modules/system/system.module:1527
+#: modules/system/system.module:1549
 msgid "Action %action was deleted"
 msgstr ""
 
-#: modules/system/system.module:1539
+#: modules/system/system.module:1561
 msgid "Deleted orphaned action (%action)."
 msgstr ""
 
-#: modules/system/system.module:1575
+#: modules/system/system.module:1597
 msgid "Recipient"
 msgstr ""
 
-#: modules/system/system.module:1578
+#: modules/system/system.module:1600
 msgid "The email address to which the message should be sent OR enter %author if you would like to send an e-mail to the author of the original post."
 msgstr ""
 
-#: modules/system/system.module:1585
+#: modules/system/system.module:1607
 msgid "The subject of the message."
 msgstr ""
 
-#: modules/system/system.module:1593
+#: modules/system/system.module:1615
 msgid "The message that should be sent. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
 
-#: modules/system/system.module:1606
+#: modules/system/system.module:1628
 msgid "Please enter a valid email address or %author."
 msgstr ""
 
-#: modules/system/system.module:1739
+#: modules/system/system.module:1761
 msgid "The message to be displayed to the current user. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
 
-#: modules/system/system.module:1812
+#: modules/system/system.module:1834
 msgid "The URL to which the user should be redirected. This can be an internal URL like node/1234 or an external URL like http://drupal.org."
 msgstr ""
 
-#: modules/system/system.module:1875;1875
+#: modules/system/system.module:1897;1897
 msgid "Powered by Drupal, an open source content management system"
 msgstr ""
 
-#: modules/system/system.module:1224
+#: modules/system/system.module:1241
 msgid "Could not delete temporary file \"%path\" during garbage collection"
 msgstr ""
 
-#: modules/system/system.module:1526
+#: modules/system/system.module:1548
 msgid "Deleted action %aid (%action)"
 msgstr ""
 
-#: modules/system/system.module:1653
+#: modules/system/system.module:1675
 msgid "Cannot use %author token in this context."
 msgstr ""
 
-#: modules/system/system.module:1684
+#: modules/system/system.module:1706
 msgid "Sent email to %recipient"
 msgstr ""
 
-#: modules/system/system.module:1687
+#: modules/system/system.module:1709
 msgid "Unable to send email to %recipient"
 msgstr ""
 
@@ -1091,195 +1095,195 @@ msgstr ""
 msgid "Compact mode"
 msgstr ""
 
-#: modules/system/system.module:219
+#: modules/system/system.module:220
 msgid "By task"
 msgstr ""
 
-#: modules/system/system.module:225
+#: modules/system/system.module:227
 msgid "By module"
 msgstr ""
 
-#: modules/system/system.module:232
+#: modules/system/system.module:235
 msgid "Content management"
 msgstr ""
 
-#: modules/system/system.module:233
+#: modules/system/system.module:236
 msgid "Manage your site's content."
 msgstr ""
 
-#: modules/system/system.module:242
+#: modules/system/system.module:246
 msgid "Site configuration"
 msgstr ""
 
-#: modules/system/system.module:243
+#: modules/system/system.module:247
 msgid "Adjust basic site configuration options."
 msgstr ""
 
-#: modules/system/system.module:250
+#: modules/system/system.module:255
 msgid "Site building"
 msgstr ""
 
-#: modules/system/system.module:251
+#: modules/system/system.module:256
 msgid "Control how your site looks and feels."
 msgstr ""
 
-#: modules/system/system.module:259
+#: modules/system/system.module:265
 msgid "Settings for how your administrative pages should look."
 msgstr ""
 
-#: modules/system/system.module:270
+#: modules/system/system.module:276
 msgid "Change which theme your site uses or allows users to set."
 msgstr ""
 
-#: modules/system/system.module:278
+#: modules/system/system.module:284
 msgid "Select the default theme."
 msgstr ""
 
-#: modules/system/system.module:289
+#: modules/system/system.module:296
 msgid "Global settings"
 msgstr ""
 
-#: modules/system/system.module:307
+#: modules/system/system.module:314
 msgid "Enable or disable add-on modules for your site."
 msgstr ""
 
-#: modules/system/system.module:333
+#: modules/system/system.module:343
 msgid "Actions"
 msgstr ""
 
-#: modules/system/system.module:334;340
+#: modules/system/system.module:344;350
 msgid "Manage the actions defined for your site."
 msgstr ""
 
-#: modules/system/system.module:339
+#: modules/system/system.module:349
 msgid "Manage actions"
 msgstr ""
 
-#: modules/system/system.module:346
+#: modules/system/system.module:356
 msgid "Configure an advanced action"
 msgstr ""
 
-#: modules/system/system.module:352
+#: modules/system/system.module:363
 msgid "Delete action"
 msgstr ""
 
-#: modules/system/system.module:353
+#: modules/system/system.module:364
 msgid "Delete an action."
 msgstr ""
 
-#: modules/system/system.module:359
+#: modules/system/system.module:371
 msgid "Remove orphans"
 msgstr ""
 
-#: modules/system/system.module:366
+#: modules/system/system.module:379
 msgid "Site information"
 msgstr ""
 
-#: modules/system/system.module:367
+#: modules/system/system.module:380
 msgid "Change basic site information, such as the site name, slogan, e-mail address, mission, front page and more."
 msgstr ""
 
-#: modules/system/system.module:375
+#: modules/system/system.module:388
 msgid "Control how Drupal deals with errors including 403/404 errors as well as PHP error reporting."
 msgstr ""
 
-#: modules/system/system.module:382
+#: modules/system/system.module:395
 msgid "Logging and alerts"
 msgstr ""
 
-#: modules/system/system.module:383
+#: modules/system/system.module:396
 msgid "Settings for logging and alerts modules. Various modules can route Drupal's system events to different destination, such as syslog, database, email, ...etc."
 msgstr ""
 
-#: modules/system/system.module:389
+#: modules/system/system.module:402
 msgid "Performance"
 msgstr ""
 
-#: modules/system/system.module:390
+#: modules/system/system.module:403
 msgid "Enable or disable page caching for anonymous users and set CSS and JS bandwidth optimization options."
 msgstr ""
 
-#: (duplicate) modules/system/system.module:397 modules/system/system.install:184 
+#: (duplicate) modules/system/system.module:410 modules/system/system.install:184 
 msgid "File system"
 msgstr ""
 
-#: modules/system/system.module:398
+#: modules/system/system.module:411
 msgid "Tell Drupal where to store uploaded files and how they are accessed."
 msgstr ""
 
-#: modules/system/system.module:405
+#: modules/system/system.module:418
 msgid "Image toolkit"
 msgstr ""
 
-#: modules/system/system.module:406
+#: modules/system/system.module:419
 msgid "Choose which image toolkit to use if you have installed optional toolkits."
 msgstr ""
 
-#: modules/system/system.module:413
+#: modules/system/system.module:426
 msgid "RSS publishing"
 msgstr ""
 
-#: modules/system/system.module:414
+#: modules/system/system.module:427
 msgid "Configure the number of items per feed and whether feeds should be titles/teasers/full-text."
 msgstr ""
 
-#: modules/system/system.module:421
+#: modules/system/system.module:434
 msgid "Date and time"
 msgstr ""
 
-#: modules/system/system.module:422
+#: modules/system/system.module:435
 msgid "Settings for how Drupal displays date and time, as well as the system's default timezone."
 msgstr ""
 
-#: modules/system/system.module:429
+#: modules/system/system.module:442
 msgid "Date and time lookup"
 msgstr ""
 
-#: modules/system/system.module:435
+#: modules/system/system.module:449
 msgid "Site maintenance"
 msgstr ""
 
-#: modules/system/system.module:436
+#: modules/system/system.module:450
 msgid "Take the site off-line for maintenance or bring it back online."
 msgstr ""
 
-#: modules/system/system.module:444
+#: modules/system/system.module:458
 msgid "Enable or disable clean URLs for your site."
 msgstr ""
 
-#: modules/system/system.module:451
+#: modules/system/system.module:465
 msgid "Clean URL check"
 msgstr ""
 
-#: modules/system/system.module:460
+#: modules/system/system.module:474
 msgid "Request test"
 msgstr ""
 
-#: modules/system/system.module:469
+#: modules/system/system.module:483
 msgid "Reports"
 msgstr ""
 
-#: modules/system/system.module:470
+#: modules/system/system.module:484
 msgid "View reports from system logs and other status information."
 msgstr ""
 
-#: modules/system/system.module:478
+#: modules/system/system.module:492
 msgid "Status report"
 msgstr ""
 
-#: modules/system/system.module:479
+#: modules/system/system.module:493
 msgid "Get a status report about your site's operation and any detected problems."
 msgstr ""
 
-#: modules/system/system.module:486
+#: modules/system/system.module:500
 msgid "Run cron"
 msgstr ""
 
-#: (duplicate) modules/system/system.module:492 modules/system/system.install:36 
+#: (duplicate) modules/system/system.module:507 modules/system/system.install:36 
 msgid "PHP"
 msgstr ""
 
-#: modules/system/system.module:498
+#: modules/system/system.module:514
 msgid "SQL"
 msgstr ""
 
@@ -1399,24 +1403,12 @@ msgstr ""
 msgid "Primary Key: Unique files ID."
 msgstr ""
 
-#: modules/system/system.install:564
-msgid "The {users}.uid of the user who is associated with the file."
-msgstr ""
-
 #: modules/system/system.install:570
 msgid "Name of the file."
 msgstr ""
 
-#: modules/system/system.install:576
-msgid "Path of the file relative to Drupal root."
-msgstr ""
-
 #: modules/system/system.install:582
 msgid "The file MIME type."
-msgstr ""
-
-#: modules/system/system.install:588
-msgid "The size of the file in bytes."
 msgstr ""
 
 #: modules/system/system.install:594
@@ -1476,7 +1468,7 @@ msgid "A serialized array of function names (like node_load) to be called to loa
 msgstr ""
 
 #: modules/system/system.install:684
-msgid "A serialized array of function names (like user_current_to_arg) to be called to replace a part of the router path with another string."
+msgid "A serialized array of function names (like user_uid_optional_to_arg) to be called to replace a part of the router path with another string."
 msgstr ""
 
 #: modules/system/system.install:690

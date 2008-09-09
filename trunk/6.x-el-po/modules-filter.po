@@ -1,26 +1,13 @@
-# translation of modules-filter.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-filter\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-04-05 15:03+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/filter/filter.admin.inc:33
 msgid "All roles may use default format"
@@ -62,7 +49,7 @@ msgstr "Φίλτρα"
 msgid "Choose the filters that will be used in this filter format."
 msgstr "Επιλέξτε τα φίλτρα που θα χρησιμοποιούνται σε αυτό το μορφότυπο φίλτρων."
 
-#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:583
+#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:587
 msgid "More information about formatting options"
 msgstr "Περισσότερες πληροφορίες για τις επιλογές μορφοποίησης"
 
@@ -74,7 +61,7 @@ msgstr "Δεν υπάρχουν διαθέσιμες οδηγίες."
 msgid "These are the guidelines that users will see for posting in this input format. They are automatically generated from the filter settings."
 msgstr "Αυτές είναι οι οδηγίες που θα βλέπουν οι χρήστες για την υποβολή ύλης με αυτόν το μορφότυπο εισόδου. Παράγονται αυτόματα από τις ρυθμίσεις των φίλτρων."
 
-#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:512
+#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:516
 msgid "Formatting guidelines"
 msgstr "Οδηγίες μορφοποίησης"
 
@@ -166,11 +153,11 @@ msgstr "Λόγω του ευέλικτου συστήματος φίλτρων, 
 msgid "Filters are executed from top-to-bottom. To change the order of the filters, modify the values in the <em>Weight</em> column or grab a drag-and-drop handle under the <em>Name</em> column and drag filters to new locations in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
 msgstr "Τα φίλτρα εκτελούνται από πάνω προς τα κάτω. Για να τη σειρά των φίλτρων, αλλάξτε τις τιμές στη στήλη <em>Βαρύτητα</em> ή χρησιμοποιήστε μια λαβή 'σύρε και άσε' κάτω από τη στήλη <em>Μενού</em> και σύρετε τα φίλτρα στις νέες θέσεις τους στη λίστα (τραβήξτε τις λαβές πατώντας και κρατώντας πατημένο όταν βρισκόσαστε με το ποντίκι πάνω από το εικονίδιο της λαβής). Πρέπει να σημειωθεί ότι οι αλλαγές δε θα αποθηκευθούν αν δεν πατήσετε πάνω στο κουμπί <em>Αποθήκευση αλλαγών</em> στο τέλος της σελίδας."
 
-#: modules/filter/filter.module:176;178
+#: modules/filter/filter.module:180;182
 msgid "Allowed HTML tags: @tags"
 msgstr "Επιτρεπόμενες ετικέτες HTML: @tags"
 
-#: modules/filter/filter.module:183
+#: modules/filter/filter.module:187
 msgid ""
 "\n"
 "<p>This site allows HTML content. While learning all of HTML may feel intimidating, learning how to use a very small number of the most basic HTML \"tags\" is very easy. This table provides examples for each tag that is enabled on this site.</p>\n"
@@ -180,199 +167,199 @@ msgstr ""
 "<p>Ο ιστοτόπος αυτός επιτρέπει να υποβάλετε ύλη σε μορφή κώδικα HTML. Αν και το να μάθετε τα πάντα για την HTML μπορεί να είναι επίπονο, είναι πολύ εύκολο να μάθετε να χρησιμοποιείτε λίγες από τις πιο βασικές \"ετικέτες\" HTML. Αυτός ο πίνακας παρουσιάζει παραδείγματα για κάθε ετικέτα HTML που επιτρέπεται να χρησιμοποιείτε.</p>\n"
 "<p>Για περισσότερες πληροφορίες ανατρέξτε στις <a href=\"http://www.w3.org/TR/html/\">Προδιαγραφές της HTML</a> του οργανισμού W3C ή χρησιμοποιήστε μια μηχανή αναζήτησης για να βρείτε άλλους ιστοτόπους που εξηγούν τη χρήση της HTML.</p>"
 
-#: modules/filter/filter.module:187
+#: modules/filter/filter.module:191
 msgid "Anchors are used to make links to other pages."
 msgstr "Οι άγκυρες χρησιμοποιούνται για τη δημιουργία παραπομπών σε άλλες σελίδες."
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:192
 msgid "By default line break tags are automatically added, so use this tag to add additional ones. Use of this tag is different because it is not used with an open/close pair like all the others. Use the extra \" /\" inside the tag to maintain XHTML 1.0 compatibility"
 msgstr "Κανονικά, ετικέτες αλλαγής γραμμής προστίθενται αυτόματα, γι' αυτό χρησιμοποιείτε αυτή την ετικέτα για να προσθέσετε περισσότερες. Η χρήση αυτής της ετικέτας διαφέρει στο ότι δε χρησιμοποιείται σε ζεύγη ανοίγματος/κλεισίματος όπως όλες οι άλλες. Χρησιμοποιείτε το πρόσθετο \" /\" μέσα στην ετικέτα για να διατηρήσετε τη συμβατότητα με το πρότυπο XHTML 1.0."
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:192
 msgid "Text with <br />line break"
 msgstr "Κείμενο με αλλαγή γραμμής <br />"
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "By default paragraph tags are automatically added, so use this tag to add additional ones."
 msgstr "Κανονικά, ετικέτες παραγράφων προστίθενται αυτόματα, γι' αυτό χρησιμοποιείτε αυτή την ετικέτα για να προσθέσετε περισσότερες."
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "Paragraph one."
 msgstr "Παράγραφος ένα."
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:193
 msgid "Paragraph two."
 msgstr "Παράγραφος δύο."
 
-#: modules/filter/filter.module:190;190
+#: modules/filter/filter.module:194;194
 msgid "Strong"
 msgstr "Ισχυρά"
 
-#: modules/filter/filter.module:191;191
+#: modules/filter/filter.module:195;195
 msgid "Emphasized"
 msgstr "Με έμφαση"
 
-#: modules/filter/filter.module:192;192
+#: modules/filter/filter.module:196;196
 msgid "Cited"
 msgstr "Αναφορά πηγής"
 
-#: modules/filter/filter.module:193
+#: modules/filter/filter.module:197
 msgid "Coded text used to show programming source code"
 msgstr "Κείμενο κώδικα, για την παρουσίαση πηγαίου κώδικα προγραμμάτων"
 
-#: modules/filter/filter.module:193
+#: modules/filter/filter.module:197
 msgid "Coded"
 msgstr "Κώδικας προγράμματος"
 
-#: modules/filter/filter.module:194;194
+#: modules/filter/filter.module:198;198
 msgid "Bolded"
 msgstr "Έντονα"
 
-#: modules/filter/filter.module:195;195
+#: modules/filter/filter.module:199;199
 msgid "Underlined"
 msgstr "Υπογραμμισμένα"
 
-#: modules/filter/filter.module:196;196
+#: modules/filter/filter.module:200;200
 msgid "Italicized"
 msgstr "Πλάγια"
 
-#: modules/filter/filter.module:197
+#: modules/filter/filter.module:201
 msgid "Superscripted"
 msgstr "Σε εκθέτη"
 
-#: modules/filter/filter.module:197
+#: modules/filter/filter.module:201
 msgid "<sup>Super</sup>scripted"
 msgstr "Σε<sup>εκθέτη</sup>"
 
-#: modules/filter/filter.module:198
+#: modules/filter/filter.module:202
 msgid "Subscripted"
 msgstr "Σε δείκτη"
 
-#: modules/filter/filter.module:198
+#: modules/filter/filter.module:202
 msgid "<sub>Sub</sub>scripted"
 msgstr "Σε<sub>δείκτη</sub>"
 
-#: modules/filter/filter.module:199;199
+#: modules/filter/filter.module:203;203
 msgid "Preformatted"
 msgstr "Προ-μορφοποιημένο"
 
-#: modules/filter/filter.module:200
+#: modules/filter/filter.module:204
 msgid "Abbreviation"
 msgstr "Συντομογραφία"
 
-#: modules/filter/filter.module:200
+#: modules/filter/filter.module:204
 msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
 msgstr "<abbr title=\"Συντομογραφία\">Συντμ.</abbr>"
 
-#: modules/filter/filter.module:201
+#: modules/filter/filter.module:205
 msgid "Acronym"
 msgstr "Ακρώνυμο"
 
-#: modules/filter/filter.module:201
+#: modules/filter/filter.module:205
 msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
 msgstr "<acronym title=\"Ακρώνυμο Τριών Γραμμάτων\">ΑΤΓ</acronym>"
 
-#: modules/filter/filter.module:202;202
+#: modules/filter/filter.module:206;206
 msgid "Block quoted"
 msgstr "Απόσπασμα"
 
-#: modules/filter/filter.module:203;203
+#: modules/filter/filter.module:207;207
 msgid "Quoted inline"
 msgstr "Ενσωματωμένο απόσπασμα"
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table"
 msgstr "Πίνακας"
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table header"
 msgstr "Κεφαλίδα πίνακα"
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:209
 msgid "Table cell"
 msgstr "Κελί πίνακα"
 
-#: modules/filter/filter.module:207;207
+#: modules/filter/filter.module:211;211
 msgid "Deleted"
 msgstr "Διαγραμμένο"
 
-#: modules/filter/filter.module:208;208
+#: modules/filter/filter.module:212;212
 msgid "Inserted"
 msgstr "Παρεμβολή"
 
-#: modules/filter/filter.module:210
+#: modules/filter/filter.module:214
 msgid "Ordered list - use the &lt;li&gt; to begin each list item"
 msgstr "Αριθμημένη λίστα - χρησιμοποιείτε το &lt;li&gt; για να αρχίσετε κάθε στοιχείο"
 
-#: modules/filter/filter.module:210;211
+#: modules/filter/filter.module:214;215
 msgid "First item"
 msgstr "Πρώτο στοιχείο"
 
-#: modules/filter/filter.module:210;211
+#: modules/filter/filter.module:214;215
 msgid "Second item"
 msgstr "Δεύτερο στοιχείο"
 
-#: modules/filter/filter.module:211
+#: modules/filter/filter.module:215
 msgid "Unordered list - use the &lt;li&gt; to begin each list item"
 msgstr "Μη αριθμημένη λίστα - χρησιμοποιείτε το &lt;li&gt; για να αρχίσετε κάθε στοιχείο"
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Definition lists are similar to other HTML lists. &lt;dl&gt; begins the definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins the definition description."
 msgstr "Οι λίστες ορισμών είναι παρόμοιες με τις άλλες λίστες της HTML. Το &lt;dl&gt; αρχίζει τη λίστα ορισμών, το &lt;dt&gt; αρχίζει τον όρο ενός ορισμού και το &lt;dd&gt; αρχίζει την περιγραφή του ορισμού."
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "First term"
 msgstr "Πρώτος όρος"
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "First definition"
 msgstr "Πρώτος ορισμός"
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Second term"
 msgstr "Δεύτερος όρος"
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:218
 msgid "Second definition"
 msgstr "Δεύτερος ορισμός"
 
-#: modules/filter/filter.module:217
+#: modules/filter/filter.module:221
 msgid "Subtitle"
 msgstr "Υπότιτλος"
 
-#: modules/filter/filter.module:218
+#: modules/filter/filter.module:222
 msgid "Subtitle three"
 msgstr "Υπότιτλος τρία"
 
-#: modules/filter/filter.module:219
+#: modules/filter/filter.module:223
 msgid "Subtitle four"
 msgstr "Υπότιτλος τέσσερα"
 
-#: modules/filter/filter.module:220
+#: modules/filter/filter.module:224
 msgid "Subtitle five"
 msgstr "Υπότιτλος πέντε"
 
-#: modules/filter/filter.module:221
+#: modules/filter/filter.module:225
 msgid "Subtitle six"
 msgstr "Υπότιτλος έξι"
 
-#: modules/filter/filter.module:223
+#: modules/filter/filter.module:227
 msgid "Tag Description"
 msgstr "Περιγραφή ετικέτας"
 
-#: modules/filter/filter.module:223;252
+#: modules/filter/filter.module:227;256
 msgid "You Type"
 msgstr "Πληκτρολογείτε"
 
-#: modules/filter/filter.module:223;252
+#: modules/filter/filter.module:227;256
 msgid "You Get"
 msgstr "Παίρνετε"
 
-#: modules/filter/filter.module:237
+#: modules/filter/filter.module:241
 msgid "No help provided for tag %tag."
 msgstr "Δεν υπάρχουν οδηγίες για την ετικέτα %tag."
 
-#: modules/filter/filter.module:243
+#: modules/filter/filter.module:247
 msgid ""
 "\n"
 "<p>Most unusual characters can be directly entered without any problems.</p>\n"
@@ -382,123 +369,123 @@ msgstr ""
 "<p>Οι περισσότεροι ασυνήθιστοι χαρακτήρες μπορούν να πληκτρολογούνται απευθείας χωρίς πρόβλημα.</p>\n"
 "<p>Αν συναντήσετε πρόβλημα, δοκιμάστε να χρησιμοποιήσετε οντότητες χαρακτήρων της HTML. Μια κοινή περίπτωση είναι να πληκτρολογείτε &amp;amp; για ένα χαρακτήρα &amp;. Για ένα πλήρη κατάλογο των οντοτήτων της HTML ανατρέξτε στη σελίδα των <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">οντοτήτων</a>. Μερικοί από τους διαθέσιμους χαρακτήρες είναι:</p>"
 
-#: modules/filter/filter.module:247
+#: modules/filter/filter.module:251
 msgid "Ampersand"
 msgstr "Εμπορικό και"
 
-#: modules/filter/filter.module:248
+#: modules/filter/filter.module:252
 msgid "Greater than"
 msgstr "Μεγαλύτερο του"
 
-#: modules/filter/filter.module:249
+#: modules/filter/filter.module:253
 msgid "Less than"
 msgstr "Μικρότερο του"
 
-#: modules/filter/filter.module:250
+#: modules/filter/filter.module:254
 msgid "Quotation mark"
 msgstr "Εισαγωγικό"
 
-#: modules/filter/filter.module:252
+#: modules/filter/filter.module:256
 msgid "Character Description"
 msgstr "Περιγραφή χαρακτήρα"
 
-#: modules/filter/filter.module:266
+#: modules/filter/filter.module:270
 msgid "No HTML tags allowed"
 msgstr "Δεν επιτρέπονται ετικέτες HTML"
 
-#: modules/filter/filter.module:274
+#: modules/filter/filter.module:278
 msgid "Lines and paragraphs break automatically."
 msgstr "Αυτόματες αλλαγές γραμμών και παραγράφων."
 
-#: modules/filter/filter.module:276
+#: modules/filter/filter.module:280
 msgid "Lines and paragraphs are automatically recognized. The &lt;br /&gt; line break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted automatically. If paragraphs are not recognized simply add a couple blank lines."
 msgstr "Οι γραμμές και οι παράγραφοι αναγνωρίζονται αυτόματα. Οι ετικέτες αλλαγής γραμμής &lt;br /&gt;, ανοίγματος παραγράφου &lt;p&gt; και κλεισίματος παραγράφου &lt;/p&gt; εισάγονται αυτόματα. Αν οι παράγραφοι δεν αναγνωρίζονται, απλώς εισάγετε μία-δύο κενές γραμμές."
 
-#: modules/filter/filter.module:280
+#: modules/filter/filter.module:284
 msgid "Web page addresses and e-mail addresses turn into links automatically."
 msgstr "Διευθύνσεις ιστού και e-mail μετατρέπονται αυτόματα σε παραπομπές."
 
-#: modules/filter/filter.module:484
+#: modules/filter/filter.module:488
 msgid "Input format"
 msgstr "Μορφότυπος εισόδου"
 
-#: modules/filter/filter.module:604;655
+#: modules/filter/filter.module:608;659
 msgid "HTML filter"
 msgstr "Φίλτρο HTML"
 
-#: modules/filter/filter.module:604
+#: modules/filter/filter.module:608
 msgid "Line break converter"
 msgstr "Μετατροπέας αλλαγών γραμμών"
 
-#: modules/filter/filter.module:604;715
+#: modules/filter/filter.module:608;719
 msgid "URL filter"
 msgstr "Φίλτρο URL "
 
-#: modules/filter/filter.module:604
+#: modules/filter/filter.module:608
 msgid "HTML corrector"
 msgstr "Διορθωτής HTML"
 
-#: modules/filter/filter.module:609
+#: modules/filter/filter.module:613
 msgid "Allows you to restrict whether users can post HTML and which tags to filter out. It will also remove harmful content such as JavaScript events, JavaScript URLs and CSS styles from those tags that are not removed."
 msgstr "Σας επιτρέπει να περιορίσετε τους χρήστες στη χρήση HTML στις καταχωρήσεις και τις σημάνσεις που θα φιλτράρονται. Αυτό θα αφαιρέσει επίσης επιβλαβές περιεχόμενο όπως συμβάντα JavaScript, διευθύνσεις URL JavaScript και στυλ CSS από τις σημάνσεις που δεν αφαιρούνται."
 
-#: modules/filter/filter.module:611
+#: modules/filter/filter.module:615
 msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
 msgstr "Μετατρέπει τις αλλαγές γραμμών σε HTML (δηλ. σε ετικέτες &lt;br&gt; and &lt;p&gt;)."
 
-#: modules/filter/filter.module:613
+#: modules/filter/filter.module:617
 msgid "Turns web and e-mail addresses into clickable links."
 msgstr "Μετατρέπει τις διευθύνσεις ιστού και e-mail σε παραπομπές."
 
-#: modules/filter/filter.module:615
+#: modules/filter/filter.module:619
 msgid "Corrects faulty and chopped off HTML in postings."
 msgstr "Διορθώνει λανθασμένη και αποκομμένη HTML στις καταχωρήσεις."
 
-#: modules/filter/filter.module:660
+#: modules/filter/filter.module:664
 msgid "Filter HTML tags"
 msgstr "Να φιλτράρονται οι ετικέτες HTML"
 
-#: modules/filter/filter.module:662
+#: modules/filter/filter.module:666
 msgid "Strip disallowed tags"
 msgstr "Να αφαιρούνται οι απαγορευμένες ετικέτες"
 
-#: modules/filter/filter.module:662
+#: modules/filter/filter.module:666
 msgid "Escape all tags"
 msgstr "Να αδρανοποιούνται όλες οι ετικέτες"
 
-#: modules/filter/filter.module:663
+#: modules/filter/filter.module:667
 msgid "How to deal with HTML tags in user-contributed content. If set to \"Strip disallowed tags\", dangerous tags are removed (see below). If set to \"Escape tags\", all HTML is escaped and presented as it was typed."
 msgstr "Πώς θα αντιμετωπίζονται οι ετικέτες HTML στην ύλη που υποβάλλεται από τους χρήστες. Αν επιλέξετε \"Να αφαιρούνται οι απαγορευμένες ετικέτες\", οι επικίνδυνες ετικέτες αφαιρούνται (δείτε παρακάτω). Αν επιλέξετε \"Να αδρανοποιούνται οι ετικέτες\", ο κώδικας HTML αδρανοποιείται και παρουσιάζεται όπως πληκτρολογήθηκε."
 
-#: modules/filter/filter.module:671
+#: modules/filter/filter.module:675
 msgid "If \"Strip disallowed tags\" is selected, optionally specify tags which should not be stripped. JavaScript event attributes are always stripped."
 msgstr "Αν επιλέξετε \"Να αφαιρούνται οι απαγορευμένες ετικέτες\", ορίστε προαιρετικά τις ετικέτες που δεν πρέπει να αφαιρούνται. Οι ιδιότητες συμβάντων της JavaScript αφαιρούνται πάντα."
 
-#: modules/filter/filter.module:675
+#: modules/filter/filter.module:679
 msgid "Display HTML help"
 msgstr "Να εμφανίζονται οδηγίες για την HTML"
 
-#: modules/filter/filter.module:677
+#: modules/filter/filter.module:681
 msgid "If enabled, Drupal will display some basic HTML help in the long filter tips."
 msgstr "Αν το επιλέξετε, το Drupal θα εμφανίζει μερικές βασικές οδηγίες για την HTML στις αναλυτικές συμβουλές για τα φίλτρα."
 
-#: modules/filter/filter.module:681
+#: modules/filter/filter.module:685
 msgid "Spam link deterrent"
 msgstr "Αποτροπή ανεπιθύμητων διαφημιστικών παραπομπών"
 
-#: modules/filter/filter.module:683
+#: modules/filter/filter.module:687
 msgid "If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to reduce the effectiveness of spam links. Note: this will also prevent valid links from being followed by search engines, therefore it is likely most effective when enabled for anonymous users."
 msgstr "Αν το επιλέξετε, το Drupal θα προσθέτει rel=\"nofollow\" σε όλες τις παραπομπές, ώστε να μειωθεί η αποτελεσματικότητα των ανεπιθύμητων διαφημιστικών παραπομπών. Σημείωση: Αυτό θα εμποδίζει επίσης να ακολουθούνται οι έγκυρες παραπομπές από τις μηχανές αναζήτησης, γι' αυτό είναι ίσως πιο αποτελεσματικό να ενεργοποιηθεί μόνο για τους ανώνυμους χρήστες."
 
-#: modules/filter/filter.module:720
+#: modules/filter/filter.module:724
 msgid "Maximum link text length"
 msgstr "Μέγιστο μέγεθος κειμένου συνδέσμου"
 
-#: modules/filter/filter.module:723
+#: modules/filter/filter.module:727
 msgid "URLs longer than this number of characters will be truncated to prevent long strings that break formatting. The link itself will be retained; just the text portion of the link will be truncated."
 msgstr "Διευθύνσεις ULR μεγαλύτερες από αυτό τον αριθμό χαρακτήρων θα αποκόβονται για να αποφευχθούν οι μεγάλες γραμμές που θα χαλάσουν τη μορφοποίηση. Η παραπομπή θα παραμένει αυτούσια, μόνο το κείμενό της θα αποκόβεται."
 
-#: modules/filter/filter.module:153
+#: modules/filter/filter.module:157
 msgid "administer filters"
 msgstr "διαχείριση φίλτρων"
 
@@ -510,15 +497,15 @@ msgstr "Μορφότυποι εισόδου"
 msgid "Configure how content input by users is filtered, including allowed HTML tags. Also allows enabling of module-provided filters."
 msgstr "Διευθέτηση του πως θα φιλτράρεται το περιεχόμενο που εισάγουν οι χρήστες, συμπεριλαμβανομένων των επιτρεπόμενων σημάνσεων HTML. Επιτρέπει επίσης την ενεργοποίηση φίλτρων που παρέχουν μονάδες."
 
-#: modules/filter/filter.module:90
+#: modules/filter/filter.module:91
 msgid "Delete input format"
 msgstr "Διαγραφή μορφότυπου εισόδου"
 
-#: modules/filter/filter.module:97
+#: modules/filter/filter.module:99
 msgid "Compose tips"
 msgstr "Συμβουλές σύνθεσης"
 
-#: modules/filter/filter.module:128
+#: modules/filter/filter.module:131
 msgid "Rearrange"
 msgstr "Αναδιάταξη"
 
@@ -573,4 +560,3 @@ msgstr "Σήμανση που δείχνει αν ο μορφότυπος μπο
 #: modules/filter/filter.install:87
 msgid "Cache table for the Filter module to store already filtered pieces of text, identified by input format and md5 hash of the text."
 msgstr "Πίνακας λανθάνουσας μνήμης για τη μονάδα Filter για να αποθηκεύει ήδη φιλτραρισμένα τμήματα κειμένου, που αναγνωρίζονται από το μορφότυπο εισόδου και το αποτέλεσμα κατακερματισμού md5 του κειμένου."
-

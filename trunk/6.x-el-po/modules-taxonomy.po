@@ -1,27 +1,13 @@
-# translation of modules-taxonomy.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-taxonomy\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:46+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/taxonomy/taxonomy.admin.inc:29
 msgid "edit vocabulary"
@@ -220,99 +206,99 @@ msgstr "Επαναφορά της αλφαβητικής κατάταξης το
 msgid "taxonomy"
 msgstr "ταξινόμηση"
 
-#: modules/taxonomy/taxonomy.module:418
+#: modules/taxonomy/taxonomy.module:422
 msgid "- None selected -"
 msgstr "- Δεν επιλέχθηκε κανένα στοιχείο -"
 
-#: modules/taxonomy/taxonomy.module:421
+#: modules/taxonomy/taxonomy.module:425
 msgid "- None -"
 msgstr "- Κανένα -"
 
-#: modules/taxonomy/taxonomy.module:517
+#: modules/taxonomy/taxonomy.module:521
 msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
 msgstr "Λίστα όρων διαχωρισμένων με κόμματα που περιγράφουν αυτήν την ύλη. Παράδειγμα: αστεία, χειμερινά σπορ, \"Εταιρία, ΕΠΕ\"."
 
-#: modules/taxonomy/taxonomy.module:548
+#: modules/taxonomy/taxonomy.module:552
 msgid "Vocabularies"
 msgstr "Λεξιλόγια"
 
-#: modules/taxonomy/taxonomy.module:635
+#: modules/taxonomy/taxonomy.module:639
 msgid "The %name vocabulary can not be modified in this way."
 msgstr "Το λεξιλόγιο %name δεν μπορεί να τροποποιηθεί με αυτόν τον τρόπο."
 
-#: modules/taxonomy/taxonomy.module:1133
+#: modules/taxonomy/taxonomy.module:1138
 msgid "There are currently no posts in this category."
 msgstr "Δεν υπάρχουν προς το παρόν καταχωρίσεις σε αυτή την κατηγορία."
 
-#: modules/taxonomy/taxonomy.module:1236
+#: modules/taxonomy/taxonomy.module:1241
 msgid "The taxonomy module allows you to categorize content using various systems of classification. Free-tagging vocabularies are created by users on the fly when they submit posts (as commonly found in blogs and social bookmarking applications). Controlled vocabularies allow for administrator-defined short lists of terms as well as complex hierarchies with multiple relationships between different terms. These methods can be applied to different content types and combined together to create a powerful and flexible method of classifying and presenting your content."
 msgstr "Η μονάδα ταξινόμησης επιτρέπει την κατηγοριοποίηση του υλικού χρησιμοποιώντας διάφορα συστήματα οργάνωσης ύλης. Τα λεξιλόγια \"ελεύθερης σήμανσης\" δημιουργούνται από τους χρήστες όταν δημοσιεύουν υλικό (όπως συνήθως γίνεται σε blogs και εφαρμογές διαδικτυακών κοινοτήτων). Τα ελεγχόμενα λεξιλόγια επιτρέπουν στο διαχειριστή να ορίζει από σύντομες λίστες όρων μέχρι και πολύπλοκες ιεραρχικές δομές όρων με πολλαπλούς συσχετισμούς μεταξύ τους. Αυτές οι μέθοδοι μπορούν να εφαρμοστούν πάνω σε διαφορετικούς τύπους ύλης και να χρησιμοποιηθούν συνδυαστικά για να δημιουργήσουν έναν ισχυρό και ευέλικτο τρόπο ταξινόμησης και προβολής του υλικού σας."
 
-#: modules/taxonomy/taxonomy.module:1237
+#: modules/taxonomy/taxonomy.module:1242
 msgid "For example, when creating a recipe site, you might want to classify posts by both the type of meal and preparation time. A vocabulary for each allows you to categorize using each criteria independently instead of creating a tag for every possible combination."
 msgstr "Για παράδειγμα, κατά τη δημιουργία ενός ιστοτόπου με συνταγές μαγειρικής, μπορεί να θέλετε να ταξινομήσετε το υλικό σας με βάση τον τύπο του γεύματος και το χρόνο που απαιτείται για την προετοιμασία του. Δύο ανεξάρτητα λεξιλόγια, ένα για κάθε κριτήριο θα βοηθήσει στην ταξινόμηση του υλικού χωρίς να χρειαστεί να δημιουργήσετε ετικέτες για κάθε συνδυασμό τους."
 
-#: modules/taxonomy/taxonomy.module:1238
+#: modules/taxonomy/taxonomy.module:1243
 msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
 msgstr "Τύπος γεύματος: <em>Ορεκτικό, Κυρίως πιάτο, Γλυκό</em>"
 
-#: modules/taxonomy/taxonomy.module:1239
+#: modules/taxonomy/taxonomy.module:1244
 msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
 msgstr "Χρόνος προετοιμασίας: <em>0-30λεπτά, 30-60λεπτά, 1-2 ώρες, 2ώρες+</em>"
 
-#: modules/taxonomy/taxonomy.module:1240
+#: modules/taxonomy/taxonomy.module:1245
 msgid "Each taxonomy term (often called a 'category' or 'tag' in other systems) automatically provides lists of posts and a corresponding RSS feed. These taxonomy/term URLs can be manipulated to generate AND and OR lists of posts classified with terms. In our recipe site example, it then becomes easy to create pages displaying 'Main courses', '30 minute recipes', or '30 minute main courses and appetizers' by using terms on their own or in combination with others. There are a significant number of contributed modules which you to alter and extend the behavior of the core module for both display and organization of terms."
 msgstr "Κάθε όρος ταξινόμησης (συνήθως ονομάζεται 'κατηγορία' ή 'ετικέτα' σε άλλα συστήματα) προσφέρει αυτόματες λίστες δημοσιεύσεων και τις αντίστοιχες ροές RSS. Αυτές οι διευθύνσεις ταξινόμησης και όρων (URL) μπορούν να αλλαχθούν και να δημιουργήσουν συνδυαστικές λίστες δημοσιεύσεων με βάση την ταξινόμηση των όρων. Στο παράδειγμα με τον ιστοχώρο των συνταγών, μπορείτε εύκολα να δημιουργήσετε αυτόματες σελίδες παρουσιάζοντας 'Κυρίως πιάτα', 'συνταγές 30 λεπτών' ή 'κυρίως πιάτα 30 λεπτών και ορεκτικά' με χρήση των όρων ή συνδυασμό τους με άλλους όρους. Υπάρχουν πολλές μονάδες του drupal που χρησιμοποιούν και επεκτείνουν αυτή τη λειτουργικότητα της βασικής μονάδας ταξινόμησης."
 
-#: modules/taxonomy/taxonomy.module:1241
+#: modules/taxonomy/taxonomy.module:1246
 msgid "Terms can also be organized in parent/child relationships from the admin interface. An example would be a vocabulary grouping countries under their parent geo-political regions. The taxonomy module also enables advanced implementations of hierarchy, for example placing Turkey in both the 'Middle East' and 'Europe'."
 msgstr "Οι όροι μπορούν να οργανωθούν με ιεραρχικές συσχετίσεις (όροι και γονικοί όροι) από τις λειτουργίες διαχείρισης. Ένα παράδειγμα θα ήταν ένα λεξιλόγιο για την ομαδοποίηση χωρών κάτω από τις αντίστοιχες γεωπολιτικές περιοχές. Η μονάδα ταξινόμησης επιτρέπει τη δημιουργία περίπλοκων ιεραρχιών, για παράδειγμα τοποθετώντας την Ελλάδα τόσο στην 'Ευρώπη' όσο και στη 'Μεσόγειο'."
 
-#: modules/taxonomy/taxonomy.module:1242
+#: modules/taxonomy/taxonomy.module:1247
 msgid "The taxonomy module supports the use of both synonyms and related terms, but does not directly use this functionality. However, optional contributed or custom modules may make full use of these advanced features."
 msgstr "Η μονάδα ταξινόμησης υποστηρίζει τη χρήση τόσο συνωνύμων όσο και σχετικών όρων, αλλά δεν επιτρέπει την απευθείας χρήση αυτής της λειτουργικότητας. Ωστόσο, προαιρετικές μονάδες ή άλλες δικές σας μονάδες μπορούν να χρησιμοποιήσουν αυτές τις πιο πολύπλοκες λειτουργίες."
 
-#: modules/taxonomy/taxonomy.module:1243
+#: modules/taxonomy/taxonomy.module:1248
 msgid "For more information, see the online handbook entry for <a href=\"@taxonomy\">Taxonomy module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο, στη σελίδα <a href=\"@taxonomy\">μονάδα Ταξινόμησης</a>."
 
-#: modules/taxonomy/taxonomy.module:1246
+#: modules/taxonomy/taxonomy.module:1251
 msgid "The taxonomy module allows you to categorize your content using both tags and administrator defined terms. It is a flexible tool for classifying content with many advanced features. To begin, create a 'Vocabulary' to hold one set of terms or tags. You can create one free-tagging vocabulary for everything, or separate controlled vocabularies to define the various properties of your content, for example 'Countries' or 'Colors'."
 msgstr "Η μονάδα ταξινόμησης επιτρέπει την κατηγοριοποίηση του υλικού χρησιμοποιώντας τόσο ετικέτες (ελεύθερη σήμανση) όσο και όρους καθορισμένους από τον διαχειριστή. Είναι ένα ευέλικτο εργαλείο για την ταξινόμηση του υλικού με πολλές λειτουργίες. Καταρχήν, δημιουργήστε ένα 'Λεξιλόγιο' για την αποθήκευση μιας ομάδας όρων ή ετικετών. Μπορείτε να δημιουργήσετε ένα λεξιλόγιο ελεύθερης σήμανσης με ετικέτες για όλο το υλικό, ή ξεχωριστά ελεγχόμενα λεξιλόγια που καθορίζουν τα διάφορα χαρακτηριστικά του δημοσιευμένου υλικού, για παράδειγμα 'Χώρες' ή 'Χρώματα'."
 
-#: modules/taxonomy/taxonomy.module:1247
+#: modules/taxonomy/taxonomy.module:1252
 msgid "Use the list below to configure and review the vocabularies defined on your site, or to list and manage the terms (tags) they contain. A vocabulary may (optionally) be tied to specific content types as shown in the <em>Type</em> column and, if so, will be displayed when creating or editing posts of that type. Multiple vocabularies tied to the same content type will be displayed in the order shown below. To change the order of a vocabulary, grab a drag-and-drop handle under the <em>Name</em> column and drag it to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save</em> button at the bottom of the page."
 msgstr "Χρησιμοποιήστε την παρακάτω λίστα για να επεξεργαστείτε τα λεξιλόγια του ιστοτόπου σας, ή για να διαχειριστείτε τους όρους (ετικέτες) που περιέχουν. Ένα λεξιλόγιο μπορεί (προαιρετικά) να συνδεθεί με συγκεκριμένους τύπους ύλης που παρουσιάζονται στη στήλη <em>Τύποι ύλης</em> και στη συνέχεια να παρουσιάζεται κατά τη δημιουργία ή επεξεργασία δημοσιεύσεων αυτού του τύπου. Πολλαπλά λεξιλόγια συνδεδεμένα με τον ίδιο τύπο ύλης θα παρουσιάζονται στην κατάταξη που φαίνεται παρακάτω. Για να αλλάξετε τη σειρά της κατάταξης, χρησιμοποιήστε μια λαβή τύπου 'σύρε και άσε' (drag and drop) που βρίσκεται κάτω από τη στήλη <em>Όνομα</em> και μεταφέρετε το λεξιλόγιο στην επιθυμητή θέση. (Αυτό επιτυγχάνεται με το να πατήσετε και να κρατήσετε πατημένο το κουμπί του ποντικιού σας πάνω από την εικόνα της λαβής και τραβώντας το ποντίκι σας στη νέα θέση). Σημειώστε ότι οι αλλαγές δεν θα αποθηκευθούν αν δεν πατήσετε το κουμπί <em>Αποθήκευση</em> στο τέλος της σελίδας."
 
-#: modules/taxonomy/taxonomy.module:1252
+#: modules/taxonomy/taxonomy.module:1257
 msgid "%capital_name is a free-tagging vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr "Το λεξιλόγιο %capital_name είναι ένα λεξιλόγιο ελεύθερης σήμανσης με ετικέτες. Για να αλλάξετε το όνομα ή την περιγραφή του όρου, πατήστε την παραπομπή <em>επεξεργασία</em> δίπλα στον όρο."
 
-#: modules/taxonomy/taxonomy.module:1256
+#: modules/taxonomy/taxonomy.module:1261
 msgid "%capital_name is a flat vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr "Το λεξιλόγιο %capital_name είναι λεξιλόγιο δίχως ιεραρχία. Μπορείτε να οργανώσετε τους όρους στο λεξιλόγιο %name χρησιμοποιώντας τις λαβές στα αριστερά του πίνακα. Για να αλλάξετε το όνομα ή την περιγραφή του όρου, πατήστε στην παραπομπή <em>επεξεργασία</em> δίπλα στον όρο."
 
-#: modules/taxonomy/taxonomy.module:1258
+#: modules/taxonomy/taxonomy.module:1263
 msgid "%capital_name is a single hierarchy vocabulary. You may organize the terms in the %name vocabulary by using the handles on the left side of the table. To change the name or description of a term, click the <em>edit</em> link next to the term."
 msgstr "Το λεξιλόγιο %capital_name είναι ένα λεξιλόγιο απλής ιεραρχίας (ένας γονικός όρος για κάθε όρο). Μπορείτε να οργανώσετε τους όρους στο λεξιλόγιο %name χρησιμοποιώντας τις λαβές στα αριστερά του πίνακα. Για να αλλάξετε το όνομα ή την περιγραφή του όρου, πατήστε στην παραπομπή <em>επεξεργασία</em> δίπλα στον όρο."
 
-#: modules/taxonomy/taxonomy.module:1260
+#: modules/taxonomy/taxonomy.module:1265
 msgid "%capital_name is a multiple hierarchy vocabulary. To change the name or description of a term, click the <em>edit</em> link next to the term. Drag and drop of multiple hierarchies is not supported, but you can re-enable drag and drop support by editing each term to include only a single parent."
 msgstr "Το λεξιλόγιο %capital_name είναι λεξιλόγιο πολλαπλής ιεραρχίας. Για να αλλάξετε το όνομα ή την περιγραφή του όρου, πατήστε στην παραπομπή <em>επεξεργασία</em> δίπλα στον όρο. Η λειτουργία drag and drop πολλαπλών ιεραρχιών δεν υποστηρίζεται, αλλά μπορείτε να την επαναφέρετε αν επεξεργαστείτε τον κάθε όρο ώστε τελικά να έχει μόνο ένα γονικό όρο."
 
-#: modules/taxonomy/taxonomy.module:1263
+#: modules/taxonomy/taxonomy.module:1268
 msgid "Define how your vocabulary will be presented to administrators and users, and which content types to categorize with it. Tags allows users to create terms when submitting posts by typing a comma separated list. Otherwise terms are chosen from a select list and can only be created by users with the \"administer taxonomy\" permission."
 msgstr "Ορίστε πώς να παρουσιάζεται το λεξιλόγιό σας στους διαχειριστές και στους χρήστες, καθώς και ποιους τύπους ύλης θα ταξινομεί. Οι ετικέτες (ελεύθερη σήμανση) επιτρέπουν στους χρήστες να δημιουργούν όρους πληκτρολογώντας μια λίστα με λέξεις χωρισμένες με κόμματα. Διαφορετικά οι όροι επιλέγονται από μια λίστα επιλογής και μπορούν να δημιουργηθούν μόνο από χρήστες που έχουν άδεια \"διαχείρισης ταξινόμησης\"."
 
-#: modules/taxonomy/taxonomy.module:1302
+#: modules/taxonomy/taxonomy.module:1307
 msgid "After saving a new term to the database"
 msgstr "Μετά την αποθήκευση ενός νέου όρου στη βάση δεδομένων"
 
-#: modules/taxonomy/taxonomy.module:1305
+#: modules/taxonomy/taxonomy.module:1310
 msgid "After saving an updated term to the database"
 msgstr "Αφού αποθηκεύσετε έναν αλλαγμένο όρο στη βάση δεδομένων"
 
-#: modules/taxonomy/taxonomy.module:1308
+#: modules/taxonomy/taxonomy.module:1313
 msgid "After deleting a term"
 msgstr "Μετά τη διαγραφή ενός όρου"
 
@@ -328,27 +314,27 @@ msgstr "Διαχείριση της διαδικασίας ορισμού ετι
 msgid "Add vocabulary"
 msgstr "Προσθήκη λεξιλογίου"
 
-#: modules/taxonomy/taxonomy.module:137
+#: modules/taxonomy/taxonomy.module:138
 msgid "Edit vocabulary"
 msgstr "Τροποποίηση λεξιλογίου"
 
-#: modules/taxonomy/taxonomy.module:145
+#: modules/taxonomy/taxonomy.module:147
 msgid "Edit term"
 msgstr "Τροποποίηση όρου"
 
-#: modules/taxonomy/taxonomy.module:152
+#: modules/taxonomy/taxonomy.module:155
 msgid "Taxonomy term"
 msgstr "Όρος ταξινόμισης"
 
-#: modules/taxonomy/taxonomy.module:161
+#: modules/taxonomy/taxonomy.module:164
 msgid "Autocomplete taxonomy"
 msgstr "Αυτόματη συμπλήρωση όρων ταξινόμησης"
 
-#: modules/taxonomy/taxonomy.module:168
+#: modules/taxonomy/taxonomy.module:171
 msgid "List terms"
 msgstr "Λίστα όρων"
 
-#: modules/taxonomy/taxonomy.module:183
+#: modules/taxonomy/taxonomy.module:186
 msgid "Add term"
 msgstr "Προσθήκη όρου"
 
@@ -491,4 +477,3 @@ msgstr "Πρωτεύον Κλειδί: το {vocabulary}.vid του λεξιλο
 #: modules/taxonomy/taxonomy.install:275
 msgid "The {node}.type of the node type for which the vocabulary may be used."
 msgstr "Ο τύπος ύλης {node}.type για τον οποίο μπορεί να ισχύει το λεξιλόγιο."
-

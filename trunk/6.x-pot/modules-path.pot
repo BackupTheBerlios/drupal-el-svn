@@ -1,16 +1,16 @@
-# $Id: modules-path.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-path.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-path)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
-#  path.module,v 1.138 2008/02/03 19:20:35 goba
+#  path.module,v 1.138.2.2 2008/06/21 18:22:53 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -99,27 +99,27 @@ msgstr ""
 msgid "Enter the path you wish to create the alias for, followed by the name of the new alias."
 msgstr ""
 
-#: modules/path/path.module:80
+#: modules/path/path.module:82
 msgid "The alias has been deleted."
 msgstr ""
 
-#: modules/path/path.module:140
+#: modules/path/path.module:143
 msgid "The path is already in use."
 msgstr ""
 
-#: modules/path/path.module:182
+#: modules/path/path.module:186
 msgid "URL path settings"
 msgstr ""
 
-#: modules/path/path.module:194
+#: modules/path/path.module:198
 msgid "Optionally specify an alternative URL by which this node can be accessed. For example, type \"about\" when writing an about page. Use a relative path and don't add a trailing slash or the URL alias won't work."
 msgstr ""
 
-#: modules/path/path.module:209
+#: modules/path/path.module:213
 msgid "create url aliases"
 msgstr ""
 
-#: modules/path/path.module:209
+#: modules/path/path.module:213
 msgid "administer url aliases"
 msgstr ""
 
@@ -135,11 +135,11 @@ msgstr ""
 msgid "Edit alias"
 msgstr ""
 
-#: modules/path/path.module:53
+#: modules/path/path.module:54
 msgid "Delete alias"
 msgstr ""
 
-#: modules/path/path.module:65
+#: modules/path/path.module:67
 msgid "Add alias"
 msgstr ""
 

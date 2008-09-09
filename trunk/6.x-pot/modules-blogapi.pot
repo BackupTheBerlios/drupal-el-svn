@@ -1,14 +1,16 @@
-# $Id: modules-blogapi.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
+# $Id: modules-blogapi.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-blogapi)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
-# Generated from file: blogapi.module,v 1.115.2.1 2008/02/07 20:11:02 goba
+# Generated from files:
+#  blogapi.module,v 1.115.2.3 2008/08/13 23:59:13 drumm
+#  blogapi.install,v 1.1.2.1 2008/08/13 23:59:12 drumm
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -105,43 +107,71 @@ msgstr ""
 msgid "Error storing post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:260;502
+#: modules/blogapi/blogapi.module:260;549
 msgid "You do not have permission to update this post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:378
+#: modules/blogapi/blogapi.module:388
+msgid "It is not possible to upload the file, because it exceeded the maximum filesize of @maxsize."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:392
+msgid "The file can not be attached to this post, because the disk quota of @quota has been reached."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:408
+msgid "It is not possible to upload the file, because it is only possible to upload files with the following extensions: @extensions"
+msgstr ""
+
+#: modules/blogapi/blogapi.module:418
 msgid "No file sent."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:382
+#: modules/blogapi/blogapi.module:422
 msgid "Error storing file."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:497
+#: modules/blogapi/blogapi.module:544
 msgid "Invalid post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:537
+#: modules/blogapi/blogapi.module:584
 msgid "You do not have permission to edit this blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:541
+#: modules/blogapi/blogapi.module:588
 msgid "Wrong username or password."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:564
+#: modules/blogapi/blogapi.module:611
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:568
+#: modules/blogapi/blogapi.module:615
 msgid "Select the content types available to external blogging clients via Blog API. If supported, each enabled content type will be displayed as a separate \"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:597;576
+#: modules/blogapi/blogapi.module:624
+msgid "File settings"
+msgstr ""
+
+#: modules/blogapi/blogapi.module:642
+msgid "The default maximum file size a user can upload."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:681
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:689
+msgid "The maximum size of all files a user can have on the site (in megabytes)."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:719;698
 msgid "RSD"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:715
+#: modules/blogapi/blogapi.module:837
 msgid "Blog API module is not configured to support the %type content type, or you don't have sufficient permissions to post this type of content."
 msgstr ""
 
@@ -157,11 +187,19 @@ msgstr ""
 msgid "administer content with blog api"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:583
+#: modules/blogapi/blogapi.module:705
 msgid "Configure the content types available to external blogging clients."
 msgstr ""
 
 #: modules/blogapi/blogapi.module:0
 msgid "blogapi"
+msgstr ""
+
+#: modules/blogapi/blogapi.install:27;82
+msgid "Stores information for files uploaded via the blogapi."
+msgstr ""
+
+#: modules/blogapi/blogapi.install:30;85
+msgid "Primary Key: Unique file ID."
 msgstr ""
 

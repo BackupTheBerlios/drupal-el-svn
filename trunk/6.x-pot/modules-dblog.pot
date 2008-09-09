@@ -1,17 +1,17 @@
-# $Id: modules-dblog.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
+# $Id: modules-dblog.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-dblog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  dblog.admin.inc,v 1.6 2008/01/08 10:35:41 goba
-#  dblog.module,v 1.21 2008/01/08 10:35:41 goba
+#  dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
 #  dblog.install,v 1.6 2007/11/04 14:33:06 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -72,27 +72,27 @@ msgstr ""
 msgid "Settings for logging to the Drupal database logs. This is the most common method for small to medium sites on shared hosting. The logs are viewable from the admin pages."
 msgstr ""
 
-#: modules/dblog/dblog.module:54
+#: modules/dblog/dblog.module:55
 msgid "Recent log entries"
 msgstr ""
 
-#: modules/dblog/dblog.module:55
+#: modules/dblog/dblog.module:56
 msgid "View events that have recently been logged."
 msgstr ""
 
-#: modules/dblog/dblog.module:61
+#: modules/dblog/dblog.module:63
 msgid "Top 'page not found' errors"
 msgstr ""
 
-#: modules/dblog/dblog.module:62
+#: modules/dblog/dblog.module:64
 msgid "View 'page not found' errors (404s)."
 msgstr ""
 
-#: modules/dblog/dblog.module:68
+#: modules/dblog/dblog.module:71
 msgid "Top 'access denied' errors"
 msgstr ""
 
-#: modules/dblog/dblog.module:69
+#: modules/dblog/dblog.module:72
 msgid "View 'access denied' errors (403s)."
 msgstr ""
 

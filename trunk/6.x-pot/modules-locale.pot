@@ -1,16 +1,16 @@
-# $Id: modules-locale.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-locale.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-locale)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  locale.module,v 1.212 2008/01/28 17:16:34 goba
+#  locale.module,v 1.212.2.2 2008/07/09 21:48:28 goba
 #  locale.install,v 1.27 2008/01/10 14:35:24 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -115,51 +115,51 @@ msgstr ""
 msgid "This block is only shown if <a href=\"@languages\">at least two languages are enabled</a> and <a href=\"@configuration\">language negotiation</a> is set to something other than <em>None</em>."
 msgstr ""
 
-#: modules/locale/locale.module:198
+#: modules/locale/locale.module:207
 msgid "Built-in interface"
 msgstr ""
 
-#: modules/locale/locale.module:224
+#: modules/locale/locale.module:233
 msgid "Language settings"
 msgstr ""
 
-#: modules/locale/locale.module:235
+#: modules/locale/locale.module:244
 msgid "This account's default language for e-mails, and preferred language for site presentation."
 msgstr ""
 
-#: modules/locale/locale.module:235
+#: modules/locale/locale.module:244
 msgid "This account's default language for e-mails."
 msgstr ""
 
-#: modules/locale/locale.module:255
+#: modules/locale/locale.module:264
 msgid "A path alias set for a specific language will always be used when displaying this page in that language, and takes precedence over path aliases set for <am>All languages</em>."
 msgstr ""
 
-#: modules/locale/locale.module:264
+#: modules/locale/locale.module:273
 msgid "Multilingual support"
 msgstr ""
 
-#: modules/locale/locale.module:267
+#: modules/locale/locale.module:276
 msgid "Enable multilingual support for this content type. If enabled, a language selection field will be added to the editing form, allowing you to select from one of the <a href=\"!languages\">enabled languages</a>. If disabled, new posts are saved with the default language. Existing content will not be affected by changing this option."
 msgstr ""
 
-#: modules/locale/locale.module:437
+#: modules/locale/locale.module:446
 msgid "All"
 msgstr ""
 
-#: modules/locale/locale.module:558
+#: modules/locale/locale.module:567
 msgid "Language switcher"
 msgstr ""
 
-#: modules/locale/locale.module:510
+#: modules/locale/locale.module:519
 msgid "Parsed JavaScript file %file."
 msgstr ""
 
-#: modules/locale/locale.module:189
+#: modules/locale/locale.module:198
 msgid "administer languages"
 msgstr ""
 
-#: modules/locale/locale.module:189
+#: modules/locale/locale.module:198
 msgid "translate interface"
 msgstr ""
 
@@ -167,27 +167,27 @@ msgstr ""
 msgid "Configure languages for content and the user interface."
 msgstr ""
 
-#: modules/locale/locale.module:113
+#: modules/locale/locale.module:115
 msgid "Edit language"
 msgstr ""
 
-#: modules/locale/locale.module:127
+#: modules/locale/locale.module:131
 msgid "Translate interface"
 msgstr ""
 
-#: modules/locale/locale.module:128
+#: modules/locale/locale.module:132
 msgid "Translate the built in interface and optionally other text."
 msgstr ""
 
-#: modules/locale/locale.module:134
+#: modules/locale/locale.module:138
 msgid "Overview"
 msgstr ""
 
-#: modules/locale/locale.module:160
+#: modules/locale/locale.module:167
 msgid "Edit string"
 msgstr ""
 
-#: modules/locale/locale.module:166
+#: modules/locale/locale.module:174
 msgid "Delete string"
 msgstr ""
 

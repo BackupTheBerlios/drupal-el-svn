@@ -1,30 +1,16 @@
-# translation of modules-poll.po to Greek
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
-#
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-poll\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:27+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
-#: modules/poll/poll-bar.tpl.php:25
-#: modules/poll/poll.pages.inc:20
+#: modules/poll/poll-bar.tpl.php:25 modules/poll/poll.pages.inc:20
 msgid "1 vote"
 msgid_plural "@count votes"
 msgstr[0] "1 ψήφος"
@@ -47,8 +33,7 @@ msgstr "έχει κλείσει"
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr "Αυτός ο πίνακας περιέχει όλες τις καταγεγραμένες ψήφους γι' αυτή την ψηφοφορία. Αν επιτρέπεται η ψηφοφορία και από ανώνυμους χρήστες, αυτοί θα ταυτοποιούνται με βάση τη διεύθυνση IP του υπολογιστή που χρησιμοποίησαν για να ψηφίσουν."
 
-#: modules/poll/poll.pages.inc:35
-#: modules/poll/poll.module:571
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:573
 msgid "Vote"
 msgstr "Ψήφος"
 
@@ -116,51 +101,51 @@ msgstr "Επιλογή @n"
 msgid "Votes for choice @n"
 msgstr "Ψήφοι υπέρ της επιλογής @n"
 
-#: modules/poll/poll.module:385
+#: modules/poll/poll.module:387
 msgid "Negative values are not allowed."
 msgstr "Δεν επιτρέπονται αρνητικές τιμές."
 
-#: modules/poll/poll.module:390
+#: modules/poll/poll.module:392
 msgid "You must fill in at least two choices."
 msgstr "Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές."
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "Older polls"
 msgstr "Παλαιότερες ψηφοφορίες"
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "View the list of polls on this site."
 msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
 
-#: modules/poll/poll.module:513;98
+#: modules/poll/poll.module:515;98
 msgid "Results"
 msgstr "Αποτελέσματα"
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:515
 msgid "View the current poll results."
 msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
 
-#: modules/poll/poll.module:593
+#: modules/poll/poll.module:595
 msgid "Your vote could not be recorded because you did not select any of the choices."
 msgstr "Η ψήφος σας δεν καταγράφηκε γιατί δεν κάνατε καμία επιλογή."
 
-#: modules/poll/poll.module:616
+#: modules/poll/poll.module:618
 msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
-#: modules/poll/poll.module:672
+#: modules/poll/poll.module:674
 msgid "Add another choice"
 msgstr "Προσθήκη επιλογής"
 
-#: modules/poll/poll.module:676
+#: modules/poll/poll.module:678
 msgid "Choice"
 msgstr "Επιλογή"
 
-#: modules/poll/poll.module:677
+#: modules/poll/poll.module:679
 msgid "Vote count"
 msgstr "Σύνολο ψήφων"
 
-#: modules/poll/poll.module:759
+#: modules/poll/poll.module:761
 msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
@@ -271,4 +256,3 @@ msgstr "Η ψήφος του χρήστη {users} για αυτήν τη ψηφ�
 #: modules/poll/poll.install:120
 msgid "The IP address this vote is from unless the voter was logged in."
 msgstr "Η διεύθυνση IP από όπου προέρχεται η ψήφος αν ο ψηφοφόρος δεν είχε συνδεθεί στο σύστημα."
-

@@ -1,4 +1,4 @@
-# $Id: modules-poll.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-poll.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-poll)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -7,14 +7,14 @@
 #  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
 #  poll-results-block.tpl.php,v 1.2 2007/08/02 20:08:53 dries
 #  poll-results.tpl.php,v 1.2 2007/08/07 08:39:35 goba
-#  poll.module,v 1.263 2008/01/15 07:57:46 dries
+#  poll.module,v 1.263.2.2 2008/08/13 23:59:13 drumm
 #  poll.install,v 1.13 2007/12/18 12:59:21 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -45,7 +45,7 @@ msgstr ""
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr ""
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:573
 msgid "Vote"
 msgstr ""
 
@@ -113,51 +113,51 @@ msgstr ""
 msgid "Votes for choice @n"
 msgstr ""
 
-#: modules/poll/poll.module:385
+#: modules/poll/poll.module:387
 msgid "Negative values are not allowed."
 msgstr ""
 
-#: modules/poll/poll.module:390
+#: modules/poll/poll.module:392
 msgid "You must fill in at least two choices."
 msgstr ""
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "Older polls"
 msgstr ""
 
-#: modules/poll/poll.module:511
+#: modules/poll/poll.module:513
 msgid "View the list of polls on this site."
 msgstr ""
 
-#: modules/poll/poll.module:513;98
+#: modules/poll/poll.module:515;98
 msgid "Results"
 msgstr ""
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:515
 msgid "View the current poll results."
 msgstr ""
 
-#: modules/poll/poll.module:593
+#: modules/poll/poll.module:595
 msgid "Your vote could not be recorded because you did not select any of the choices."
 msgstr ""
 
-#: modules/poll/poll.module:616
+#: modules/poll/poll.module:618
 msgid "Your vote was recorded."
 msgstr ""
 
-#: modules/poll/poll.module:672
+#: modules/poll/poll.module:674
 msgid "Add another choice"
 msgstr ""
 
-#: modules/poll/poll.module:676
+#: modules/poll/poll.module:678
 msgid "Choice"
 msgstr ""
 
-#: modules/poll/poll.module:677
+#: modules/poll/poll.module:679
 msgid "Vote count"
 msgstr ""
 
-#: modules/poll/poll.module:759
+#: modules/poll/poll.module:761
 msgid "Cancel your vote"
 msgstr ""
 

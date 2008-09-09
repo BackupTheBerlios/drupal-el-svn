@@ -1,27 +1,13 @@
-# translation of modules-contact.po to Greek
-# Vasileios Lourdas <lourdas_v@yahoo.gr>, 2007.
-# Stavros Temertzidis <bullgr@gmail.com>, 2008.
-# Vasileios Lourdas <vasilis@lourdas.name>, 2008.
-# Vasileios Lourdas <drupal@lourdas.name>, 2008.
-# Greek Drupal translation of general.po to Greek
-# Greek translation of Drupal 5.1
-# Copyright (c) 2007 George Litos <gl@cyberpunk.gr>
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-contact\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-05-06 00:41+0300\n"
-"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
-"Language-Team: Greek <en@li.org>\n"
+"Project-Id-Version: general\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"PO-Revision-Date: 2008-01-13 23:46+0200\n"
+"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
+"Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\drupal-el\\modules\\\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: modules/contact/contact.admin.inc:18;47
 msgid "Recipients"
@@ -207,35 +193,35 @@ msgstr "Το στοιχείο του μενού μπορεί να προσαρμ
 msgid "The contact module also adds a <a href=\"@menu-settings\">menu item</a> (disabled by default) to the navigation block."
 msgstr "Η μονάδα contact προσθέτει επίσης ένα <a href=\"@menu-settings\">στοιχείο μενού</a> (αρχικά ανενεργό) στο μπλοκ της πλοήγησης."
 
-#: modules/contact/contact.module:140
+#: modules/contact/contact.module:144
 msgid "Contact settings"
 msgstr "Ρυθμίσεις επικοινωνίας"
 
-#: modules/contact/contact.module:145
+#: modules/contact/contact.module:149
 msgid "Personal contact form"
 msgstr "Προσωπική φόρμα επικοινωνίας"
 
-#: modules/contact/contact.module:147
+#: modules/contact/contact.module:151
 msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
 msgstr "Να μπορούν οι άλλοι χρήστες να επικοινωνούν μαζί σας μέσω e-mail με χρήση της <a href=\"@url\">προσωπική σας φόρμας επικοινωνίας</a>. Πρέπει να σημειωθεί ότι παρόλο που το e-mail σας δε θα είναι ορατό από τα υπόλοιπα μέλη της κοινότητας, χρήστες με προνόμια όπως οι διαχειριστές του ιστοτόπου θα έχουν την δυνατότητα να επικοινωνήσουν μαζί σας ακόμη κι αν έχετε απενεργοποιημένη αυτή την δυνατότητα."
 
-#: modules/contact/contact.module:168;174
+#: modules/contact/contact.module:172;178
 msgid "[!category] !subject"
 msgstr "[!category] !subject"
 
-#: modules/contact/contact.module:169
+#: modules/contact/contact.module:173
 msgid "!name sent a message using the contact form at !form."
 msgstr "Ο/Η !name έστειλε μήνυμα χρησιμοποιώντας τη φόρμα επικοινωνίας στη σελίδα !form."
 
-#: modules/contact/contact.module:183
+#: modules/contact/contact.module:187
 msgid "!name (!name-url) has sent you a message via your contact form (!form-url) at !site."
 msgstr "Ο/Η !name (!name-url) σας έχει στείλει μήνυμα μέσω της φόρμας επικοινωνίας σας (!form-url) στο !site."
 
-#: modules/contact/contact.module:184
+#: modules/contact/contact.module:188
 msgid "If you don't want to receive such e-mails, you can change your settings at !url."
 msgstr "Αν δεν επιθυμείτε να λαμβάνετε τέτοια e-mail, μπορείτε να αλλάξετε τις ρυθμίσεις σας από τη σελίδα !url."
 
-#: modules/contact/contact.module:185
+#: modules/contact/contact.module:189
 msgid "Message:"
 msgstr "Μήνυμα:"
 
@@ -255,11 +241,11 @@ msgstr "Φόρμα επικοινωνίας"
 msgid "Create a system contact form and set up categories for the form to use."
 msgstr "Δημιουργία φόρμας επικοινωνίας συστήματος και ορισμός των κατηγοριών που θα χρησιμοποιεί η φόρμα."
 
-#: modules/contact/contact.module:67
+#: modules/contact/contact.module:68
 msgid "Edit contact category"
 msgstr "Τροποποίηση κατηγορίας επαφών"
 
-#: modules/contact/contact.module:74
+#: modules/contact/contact.module:76
 msgid "Delete contact"
 msgstr "Διαγραφή επαφής"
 
@@ -295,4 +281,3 @@ msgstr "Η βαρύτητα της κατηγορίας."
 #: modules/contact/contact.install:68
 msgid "Flag to indicate whether or not category is selected by default. (1 = Yes, 0 = No)"
 msgstr "Μια σημαία που επιδεικνύει αν η κατηγορία είναι προεπιλεγμένη. (1 = Ναι, 0 = Όχι)"
-

@@ -1,16 +1,16 @@
-# $Id: modules-tracker.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-tracker.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-tracker)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  tracker.pages.inc,v 1.5 2007/11/28 10:29:20 dries
-#  tracker.module,v 1.154 2007/12/14 18:08:49 goba
+#  tracker.module,v 1.154.2.1 2008/04/09 21:11:51 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -51,11 +51,11 @@ msgstr ""
 msgid "All recent posts"
 msgstr ""
 
-#: modules/tracker/tracker.module:39
+#: modules/tracker/tracker.module:38
 msgid "My recent posts"
 msgstr ""
 
-#: modules/tracker/tracker.module:53
+#: modules/tracker/tracker.module:55
 msgid "Track posts"
 msgstr ""
 

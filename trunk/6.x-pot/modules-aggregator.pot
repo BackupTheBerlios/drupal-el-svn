@@ -1,4 +1,4 @@
-# $Id: modules-aggregator.pot,v 1.1.2.9 2008/02/15 12:55:15 goba Exp $
+# $Id: modules-aggregator.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-aggregator)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -6,16 +6,16 @@
 #  aggregator-feed-source.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator-item.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator.pages.inc,v 1.12 2008/01/08 10:35:40 goba
-#  aggregator.module,v 1.374 2008/01/15 08:06:32 dries
+#  aggregator.module,v 1.374.2.3 2008/08/08 20:10:01 dries
 #  aggregator-summary-items.tpl.php,v 1.1 2007/09/13 08:02:38 goba
-#  aggregator.admin.inc,v 1.7 2008/01/10 22:47:17 goba
+#  aggregator.admin.inc,v 1.7.2.1 2008/04/25 21:11:57 goba
 #  aggregator.install,v 1.14 2007/12/18 12:59:20 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -180,7 +180,7 @@ msgstr ""
 msgid "The category %category has been added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:161;174;325;338 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:602;636;643;713;0
+#: modules/aggregator/aggregator.admin.inc:161;174;325;338 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:607;641;648;718;0
 msgid "aggregator"
 msgstr ""
 
@@ -200,7 +200,7 @@ msgstr ""
 msgid "Category %category added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:923
+#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:928
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] ""
@@ -222,7 +222,7 @@ msgstr ""
 msgid "The categories have been saved."
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:228 modules/aggregator/aggregator.module:185;213
+#: modules/aggregator/aggregator.pages.inc:228 modules/aggregator/aggregator.module:185;214
 msgid "Categorize"
 msgstr ""
 
@@ -282,75 +282,75 @@ msgstr ""
 msgid "Categories allow feed items from different feeds to be grouped together. For example, several sport-related feeds may belong to a category named <em>Sports</em>. Feed items may be grouped automatically (by selecting a category when creating or editing a feed) or manually (via the <em>Categorize</em> page available from feed item listings). Each category provides its own feed page and block."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:305
+#: modules/aggregator/aggregator.module:306
 msgid "!title category latest items"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:309
+#: modules/aggregator/aggregator.module:310
 msgid "!title feed latest items"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:320
+#: modules/aggregator/aggregator.module:321
 msgid "Number of news items in block"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:339
+#: modules/aggregator/aggregator.module:340
 msgid "View this feed's recent news."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:347
+#: modules/aggregator/aggregator.module:348
 msgid "View this category's recent news."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:457
+#: modules/aggregator/aggregator.module:462
 msgid "The news items from %site have been removed."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:598
+#: modules/aggregator/aggregator.module:603
 msgid "There is no new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:637;636
+#: modules/aggregator/aggregator.module:642;641
 msgid "There is new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:640
+#: modules/aggregator/aggregator.module:645
 msgid "feed not parseable"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:644
+#: modules/aggregator/aggregator.module:649
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:714
+#: modules/aggregator/aggregator.module:719
 msgid "The feed from %site seems to be broken, because of error \"%error\" on line %line."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:891;891
+#: modules/aggregator/aggregator.module:896;896
 msgid "blog it"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:892
+#: modules/aggregator/aggregator.module:897
 msgid "Comment on this news item in your personal blog."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:602
+#: modules/aggregator/aggregator.module:607
 msgid "Updated URL for feed %title to %url."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:643
+#: modules/aggregator/aggregator.module:648
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:713
+#: modules/aggregator/aggregator.module:718
 msgid "The feed from %site seems to be broken, due to an error \"%error\" on line %line."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:280
+#: modules/aggregator/aggregator.module:281
 msgid "administer news feeds"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:280
+#: modules/aggregator/aggregator.module:281
 msgid "access news feeds"
 msgstr ""
 
@@ -374,11 +374,11 @@ msgstr ""
 msgid "Sources"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:230
+#: modules/aggregator/aggregator.module:231
 msgid "Edit feed"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:238
+#: modules/aggregator/aggregator.module:239
 msgid "Edit category"
 msgstr ""
 

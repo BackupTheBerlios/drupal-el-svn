@@ -1,17 +1,17 @@
-# $Id: modules-menu.pot,v 1.1.2.9 2008/02/15 12:55:16 goba Exp $
+# $Id: modules-menu.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
 #
 # LANGUAGE translation of Drupal (modules-menu)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  menu.admin.inc,v 1.26.2.3 2008/02/11 15:12:53 goba
-#  menu.module,v 1.157.2.1 2008/02/11 15:12:53 goba
+#  menu.module,v 1.157.2.3 2008/05/10 06:53:53 dries
 #  menu.install,v 1.9 2008/01/30 20:27:28 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"POT-Creation-Date: 2008-08-16 14:35+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "There are no menu items yet."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:243
 msgid "disabled"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Expanded"
 msgstr ""
 
-#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:358
+#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:366
 msgid "Menu settings"
 msgstr ""
 
@@ -48,7 +48,7 @@ msgstr ""
 msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:385
+#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:393
 msgid "Menu link title"
 msgstr ""
 
@@ -68,15 +68,15 @@ msgstr ""
 msgid "If selected and this menu item has children, the menu will always appear expanded."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:401
+#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:409
 msgid "The maximum depth for an item and all its children is fixed at !maxdepth. Some menu items may not be available as parents if selecting them would exceed this limit."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:323 modules/menu/menu.module:411
+#: modules/menu/menu.admin.inc:323 modules/menu/menu.module:419
 msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:379 modules/menu/menu.module:302
+#: modules/menu/menu.admin.inc:379 modules/menu/menu.module:310
 msgid "There was an error saving the menu link."
 msgstr ""
 
@@ -208,11 +208,11 @@ msgstr ""
 msgid "Enter the title and path for your new menu item."
 msgstr ""
 
-#: modules/menu/menu.module:372
+#: modules/menu/menu.module:380
 msgid "Delete this menu item."
 msgstr ""
 
-#: modules/menu/menu.module:387
+#: modules/menu/menu.module:395
 msgid "The link text corresponding to this item that should appear in the menu. Leave blank if you do not wish to add this post to the menu."
 msgstr ""
 
@@ -236,35 +236,35 @@ msgstr ""
 msgid "Add menu"
 msgstr ""
 
-#: modules/menu/menu.module:78
+#: modules/menu/menu.module:80
 msgid "Customize menu"
 msgstr ""
 
-#: modules/menu/menu.module:88
+#: modules/menu/menu.module:90
 msgid "List items"
 msgstr ""
 
-#: modules/menu/menu.module:94
+#: modules/menu/menu.module:96
 msgid "Add item"
 msgstr ""
 
-#: modules/menu/menu.module:101
+#: modules/menu/menu.module:104
 msgid "Edit menu"
 msgstr ""
 
-#: modules/menu/menu.module:108
+#: modules/menu/menu.module:112
 msgid "Delete menu"
 msgstr ""
 
-#: modules/menu/menu.module:115
+#: modules/menu/menu.module:120
 msgid "Edit menu item"
 msgstr ""
 
-#: modules/menu/menu.module:122
+#: modules/menu/menu.module:128
 msgid "Reset menu item"
 msgstr ""
 
-#: modules/menu/menu.module:129
+#: modules/menu/menu.module:136
 msgid "Delete menu item"
 msgstr ""
 
