@@ -1,11 +1,12 @@
-#, fuzzy
+# translation of themes-garland.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
+"Project-Id-Version: themes-garland\n"
 "POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2009-07-26 15:15+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,3 +21,4 @@ msgstr ""
 #: themes/garland/template.php:75;83
 msgid "!datetime — !username"
 msgstr "!datetime — !username"
+

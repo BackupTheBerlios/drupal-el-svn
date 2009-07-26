@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-book\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: 2008-09-09 23:37+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -257,10 +257,6 @@ msgstr "Διάρθρωση"
 msgid "Remove from outline"
 msgstr "Αφαίρεση από τη διάρθρωση βιβλίου"
 
-#: modules/book/book.module:0
-msgid "book"
-msgstr "βιβλίο"
-
 #: modules/book/book.install:29
 msgid "Book page"
 msgstr "Σελίδα βιβλίου"
@@ -269,19 +265,17 @@ msgstr "Σελίδα βιβλίου"
 msgid "A <em>book page</em> is a page of content, organized into a collection of related entries collectively known as a <em>book</em>. A <em>book page</em> automatically displays links to adjacent pages, providing a simple navigation system for organizing and reviewing structured content."
 msgstr "Η <em>σελίδα βιβλίου</em> είναι μια σελίδα περιεχομένου, μέσα σε μια συλλογή σχετικών δημοσιεύσεων που στο σύνολό τους θεωρούνται ένα <em>βιβλίο</em>. Μια <em>σελίδα βιβλίου</em> αυτόματα προβάλει παραπομπές σε κοντινές σελίδες, προσφέροντας ένα απλό σύστημα πλοήγησης για την οργάνωση και την αναθεώρηση δομημένου υλικού."
 
-#: modules/book/book.install:254
-msgid "Stores book outline information. Uniquely connects each node in the outline to a link in {menu_links}"
-msgstr "Αποθηκεύει πληροφορίες για τη διάρθρωση των βιβλίων. Συνδέει έναν προς έναν τους κόμβους της διάρθρωσης του βιβλίου με παραπομπές του {menu_links}"
+#~ msgid "book"
+#~ msgstr "βιβλίο"
 
-#: modules/book/book.install:261
-msgid "The book page's {menu_links}.mlid."
-msgstr "Το {menu_links}.mlid της σελίδας βιβλίου."
+#~ msgid "Stores book outline information. Uniquely connects each node in the outline to a link in {menu_links}"
+#~ msgstr "Αποθηκεύει πληροφορίες για τη διάρθρωση των βιβλίων. Συνδέει έναν προς έναν τους κόμβους της διάρθρωσης του βιβλίου με παραπομπές του {menu_links}"
 
-#: modules/book/book.install:268
-msgid "The book page's {node}.nid."
-msgstr "Το {node}.nid της σελίδας βιβλίου."
+#~ msgid "The book page's {menu_links}.mlid."
+#~ msgstr "Το {menu_links}.mlid της σελίδας βιβλίου."
 
-#: modules/book/book.install:275
-msgid "The book ID is the {book}.nid of the top-level page."
-msgstr "Το ID είναι το {book}.nid της αρχικής σελίδας (γονικής όλων)."
+#~ msgid "The book page's {node}.nid."
+#~ msgstr "Το {node}.nid της σελίδας βιβλίου."
 
+#~ msgid "The book ID is the {book}.nid of the top-level page."
+#~ msgstr "Το ID είναι το {book}.nid της αρχικής σελίδας (γονικής όλων)."

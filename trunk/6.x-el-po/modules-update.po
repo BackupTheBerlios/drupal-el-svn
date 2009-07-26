@@ -1,79 +1,87 @@
+# translation of modules-update.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-update\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:46+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/update/update.compare.inc:155
+#: modules/update/update.compare.inc:166
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: modules/update/update.compare.inc:257
+#: modules/update/update.compare.inc:279
 msgid "Project not secure"
 msgstr "Έργο μη ασφαλές!"
 
-#: modules/update/update.compare.inc:258
+#: modules/update/update.compare.inc:280
 msgid "This project has been labeled insecure by the Drupal security team, and is no longer available for download. Immediately disabling everything included by this project is strongly recommended!"
 msgstr "Το έργο έχει χαρακτηριστεί ως μη ασφαλές από την ομάδα ασφαλείας του Drupal και δεν είναι πλέον διαθέσιμο για λήψη. Συνιστάται η άμεση απενεργοποίηση οτιδήποτε περιλαμβάνει το έργο αυτό!"
 
-#: modules/update/update.compare.inc:269
+#: modules/update/update.compare.inc:291
 msgid "Project revoked"
 msgstr "Το έργο έχει ανακληθεί"
 
-#: modules/update/update.compare.inc:270
+#: modules/update/update.compare.inc:292
 msgid "This project has been revoked, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr "Το έργο έχει ανακληθεί και δεν είναι πλέον διαθέσιμο για λήψη. Συνιστάται η άμεση απενεργοποίηση οτιδήποτε περιλαμβάνει το έργο αυτό!"
 
-#: modules/update/update.compare.inc:280
+#: modules/update/update.compare.inc:302
 msgid "Project not supported"
 msgstr "Το έργο δεν υποστηρίζεται"
 
-#: modules/update/update.compare.inc:281
+#: modules/update/update.compare.inc:303
 msgid "This project is no longer supported, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr "Το έργο δεν υποστηρίζεται πλέον και δεν είναι διαθέσιμο για λήψη. Συνιστάται η άμεση απενεργοποίηση οτιδήποτε περιλαμβάνει το έργο αυτό!"
 
-#: modules/update/update.compare.inc:347;496;545
+#: modules/update/update.compare.inc:308
+msgid "Failed to fetch available update data"
+msgstr "Αποτυχία κατά τη λήψη των δεδομένων για ύπαρξη ενημερωμένων εκδόσεων"
+
+#: modules/update/update.compare.inc:374;523;572
 msgid "No available releases found"
 msgstr "Δε βρέθηκαν διαθέσιμες εκδόσεις"
 
-#: modules/update/update.compare.inc:364
+#: modules/update/update.compare.inc:391
 msgid "Release revoked"
 msgstr "Η έκδοση ανακλήθηκε"
 
-#: modules/update/update.compare.inc:365
+#: modules/update/update.compare.inc:392
 msgid "Your currently installed release has been revoked, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr "Η τρέχουσα έκδοση που έχετε εγκατεστημένη έχει ανακληθεί και δεν είναι πλέον διαθέσιμη για λήψη. Συνιστάται η άμεση απενεργοποίηση οτιδήποτε περιλαμβάνει η έκδοση αυτή ή η αναβάθμισή της!"
 
-#: modules/update/update.compare.inc:376
+#: modules/update/update.compare.inc:403
 msgid "Release not supported"
 msgstr "Η έκδοση δεν υποστηρίζεται"
 
-#: modules/update/update.compare.inc:377
+#: modules/update/update.compare.inc:404
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr "Η τρέχουσα έκδοση που έχετε εγκατεστημένη δεν υποστηρίζεται τώρα και δεν είναι πλέον διαθέσιμη για λήψη. Συνιστάται η άμεση απενεργοποίηση οτιδήποτε περιλαμβάνει η έκδοση αυτή ή η αναβάθμισή της!"
 
-#: modules/update/update.compare.inc:528
+#: modules/update/update.compare.inc:555
 msgid "Unknown release date"
 msgstr "Άγνωστη ημερομηνία έκδοσης"
 
-#: modules/update/update.compare.inc:540
+#: modules/update/update.compare.inc:567
 msgid "Invalid info"
 msgstr "Μη έγκυρες πληροφορίες"
 
-#: modules/update/update.fetch.inc:14;57
-msgid "Fetched information about all available new releases and updates."
-msgstr "Λήφθησαν πληροφορίες σχετικά με όλες τις διαθέσιμες νέες εκδόσεις και ενημερώσεις."
+#: modules/update/update.fetch.inc:14;82
+msgid "Attempted to fetch information about all available new releases and updates."
+msgstr "Υπήρξε προσπάθεια λήψης πληροφοριών σχετικά με όλες τις διαθέσιμες νέες εκδόσεις και ενημερώσεις."
 
-#: modules/update/update.fetch.inc:17;61
+#: modules/update/update.fetch.inc:17;85
 msgid "Unable to fetch any information about available new releases and updates."
 msgstr "Δεν ήταν δυνατή η λήψη πληροφοριών σχετικά με διαθέσιμες νέες εκδόσεις και ενημερώσεις."
 
-#: modules/update/update.fetch.inc:57;61 modules/update/update.module:0
+#: modules/update/update.fetch.inc:82;85
 msgid "update"
 msgstr "ενημέρωση"
 
@@ -93,63 +101,63 @@ msgstr "Χειροκίνητος έλεγχος"
 msgid "ok"
 msgstr "ok"
 
-#: modules/update/update.report.inc:70
+#: modules/update/update.report.inc:72
 msgid "Security update required!"
 msgstr "Απαραίτητη η ενημέρωση ασφαλείας!"
 
-#: modules/update/update.report.inc:73 modules/update/update.module:259
+#: modules/update/update.report.inc:75 modules/update/update.module:268
 msgid "Revoked!"
 msgstr "Ανακλήθηκε!"
 
-#: modules/update/update.report.inc:76
+#: modules/update/update.report.inc:78
 msgid "Not supported!"
 msgstr "Δεν υποστηρίζεται!"
 
-#: modules/update/update.report.inc:79
+#: modules/update/update.report.inc:81
 msgid "Update available"
 msgstr "Διαθέσιμη ενημέρωση"
 
-#: modules/update/update.report.inc:137
+#: modules/update/update.report.inc:139
 msgid "Recommended version:"
 msgstr "Προτεινόμενη έκδοση:"
 
-#: modules/update/update.report.inc:143
+#: modules/update/update.report.inc:145
 msgid "Security update:"
 msgstr "Ενημέρωση ασφαλείας:"
 
-#: modules/update/update.report.inc:149
+#: modules/update/update.report.inc:151
 msgid "Latest version:"
 msgstr "Τελευταία έκδοση:"
 
-#: modules/update/update.report.inc:155
+#: modules/update/update.report.inc:157
 msgid "Development version:"
 msgstr "Έκδοση υπό ανάπτυξη:"
 
-#: modules/update/update.report.inc:161
+#: modules/update/update.report.inc:163
 msgid "Also available:"
 msgstr "Επίσης διαθέσιμα:"
 
-#: modules/update/update.report.inc:181
+#: modules/update/update.report.inc:183
 msgid "Includes: %includes"
 msgstr "Περιλαμβάνει: %includes"
 
-#: modules/update/update.report.inc:196
+#: modules/update/update.report.inc:198
 msgid "Drupal core"
 msgstr "Πυρήνας του Drupal"
 
-#: modules/update/update.report.inc:199
+#: modules/update/update.report.inc:201
 msgid "Disabled modules"
 msgstr "Απενεργοποιημένες μονάδες"
 
-#: modules/update/update.report.inc:200
+#: modules/update/update.report.inc:202
 msgid "Disabled themes"
 msgstr "Απενεργοποιημένες θεματικές παραλλαγές"
 
-#: modules/update/update.report.inc:229
+#: modules/update/update.report.inc:231
 msgid "Download"
 msgstr "Λήψη"
 
-#: modules/update/update.report.inc:233
+#: modules/update/update.report.inc:235
 msgid "Release notes"
 msgstr "Σημειώσεις έκδοσης"
 
@@ -178,8 +186,8 @@ msgid "Select how frequently you want to automatically check for new releases of
 msgstr "Επιλέξτε πόσο συχνά θέλετε να γίνεται αυτόματος έλεγχος για νέες εκδόσεις των μονάδων και θεματικών παραλλαγών που έχετε εγκατεστημένες αυτή τη στιγμή."
 
 #: modules/update/update.settings.inc:37
-msgid "Notification threshold"
-msgstr "Κατώφλι ενημέρωσης"
+msgid "E-mail notification threshold"
+msgstr "Κατώφλι ενημέρωσης με e-mail"
 
 #: modules/update/update.settings.inc:40
 msgid "All newer versions"
@@ -190,8 +198,8 @@ msgid "Only security updates"
 msgstr "Μόνο ενημερώσεις ασφαλείας"
 
 #: modules/update/update.settings.inc:43
-msgid "If there are updates available of Drupal core or any of your installed modules and themes, your site will print an error message on the <a href=\"@status_report\">status report</a>, the <a href=\"@modules_page\">modules page</a>, and the <a href=\"@themes_page\">themes page</a>. You can choose to only see these error messages if a security update is available, or to be notified about any newer versions."
-msgstr "Αν υπάρχουν διαθέσιμες ενημερώσεις για τον πυρήνα του Drupal ή για οποιαδήποτε από τις εγκατεστημένες μονάδες και θεματικές παραλλαγές σας, ο ιστοτόπος σας θα εμφανίζει ένα μήνυμα σφάλματος στην <a href=\"@status_report\">αναφορά κατάστασης</a>, στη <a href=\"@modules_page\">σελίδα των μονάδων</a> και στη <a href=\"@themes_page\">σελίδα των θεματικών παραλλαγών</a>. Μπορείτε να επιλέξετε αν θέλετε να εμφανίζονται αυτά τα σφάλματα αν υπάρχει διαθέσιμη μια ενημέρωση ασφαλείας, ή να ειδοποιήστε σχετικά με νεώτερες εκδόσεις."
+msgid "You can choose to send e-mail only if a security update is available, or to be notified about all newer versions. If there are updates available of Drupal core or any of your installed modules and themes, your site will always print a message on the <a href=\"@status_report\">status report</a> page, and will also display an error message on administration pages if there is a security update."
+msgstr "Μπορείτε να επιλέξετε να αποστέλλονται e-mail μόνο αν υπάρχει διαθέσιμη μια ενημέρωση ασφαλείας, ή να ειδοποιήστε για όλες τις νεώτερες εκδόσεις. Αν υπάρχουν διαθέσιμες ενημερώσεις για τον πυρήνα του Drupal ή για οποιεσδήποτε από τις εγκατεστημένες μονάδες ή θεματικές παραλλαγές, ο ιστοτόπος σας πάντα θα εμφανίζει ένα μήνυμα στην σελίδα <a href=\"@status_report\">αναφοράς κατάστασης</a> και παράλληλα θα εμφανίζει μήνυμα σφάλματος στις σελίδες διαχείρισης αν υπάρχει διαθέσιμη ενημέρωση ασφαλείας."
 
 #: modules/update/update.settings.inc:80
 msgid "%email is not a valid e-mail address."
@@ -201,130 +209,127 @@ msgstr "Το %email δεν είναι έγκυρη διεύθυνση e-mail."
 msgid "%emails are not valid e-mail addresses."
 msgstr "Τα %emails δεν είναι έγκυρες διευθύνσεις e-mail."
 
-#: modules/update/update.module:61
+#: modules/update/update.module:70
 msgid "Here you can find information about available updates for your installed modules and themes. Note that each module or theme is part of a \"project\", which may or may not have the same name, and might include multiple modules or themes within it."
 msgstr "Εδώ θα βρείτε πληροφορίες σχετικά με διαθέσιμες ενημερώσεις για τις εγκατεστημένες μονάδες και θεματικές παραλλαγές σας. Πρέπει να σημειωθεί ότι κάθε μονάδα ή θεματική παραλλαγή είναι τμήμα ενός \"έργου\", που μπορεί να έχει το ίδιο ή διαφορετικό όνομα και να περιλαμβάνει πολλαπλές μονάδες ή θεματικές παραλλαγές μέσα του."
 
-#: modules/update/update.module:62
+#: modules/update/update.module:71
 msgid "To extend the functionality or to change the look of your site, a number of contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</a> are available."
 msgstr "Για την επέκταση της λειτουργικότητας ή την αλλαγή της εμφάνισης του ιστοτόπου σας, είναι διαθέσιμος ένας αριθμός από <a href=\"@modules\">μονάδες</a> και <a href=\"@themes\">θεματικές παραλλαγές</a> που συνεισφέρει η κοινότητα."
 
-#: modules/update/update.module:79
+#: modules/update/update.module:88
 msgid "See the <a href=\"@available_updates\">available updates</a> page for information on installed modules and themes with new versions released."
 msgstr "Δείτε τη σελίδα των <a href=\"@available_updates\">διαθέσιμων ενημερώσεων</a> για πληροφορίες σχετικά με τις εγκατεστημένες μονάδες και θεματικές παραλλαγές για τις οποίες υπάρχουν νέες εκδόσεις."
 
-#: modules/update/update.module:87
+#: modules/update/update.module:96
 msgid "The Update status module periodically checks for new versions of your site's software (including contributed modules and themes), and alerts you to available updates."
 msgstr "Η μονάδα Update status ελέγχει περιοδικά για νεώτερες εκδόσεις του λογισμικού του ιστοτόπου σας (συμπεριλαμβανομένου των μονάδων και θεματικών παραλλαγών που συνεισφέρει η κοινότητα) και σας ειδοποιεί για τις διαθέσιμες ενημερώσεις."
 
-#: modules/update/update.module:88
+#: modules/update/update.module:97
 msgid "The <a href=\"@update-report\">report of available updates</a> will alert you when new releases are available for download. You may configure options for update checking frequency and notifications at the <a href=\"@update-settings\">Update status module settings page</a>."
 msgstr "Η <a href=\"@update-report\">αναφορά διαθέσιμων ενημερώσεων</a> θα σας ειδοποιήσει όταν υπάρχουν νεώτερες εκδόσεις διαθέσιμες για λήψη. Μπορείτε να ρυθμίσετε τις επιλογές για τη συχνότητα ελέγχου των ενημερώσεων και τις ειδοποιήσεις στη <a href=\"@update-settings\">σελίδα ρυθμίσεων της μονάδας Update status</a>."
 
-#: modules/update/update.module:89
+#: modules/update/update.module:98
 msgid "Please note that in order to provide this information, anonymous usage statistics are sent to drupal.org. If desired, you may disable the Update status module from the <a href=\"@modules\">module administration page</a>."
 msgstr "Πρέπει να σημειωθεί ότι για να παρέχονται αυτές οι πληροφορίες, ανώνυμα στατιστικά χρήσης αποστέλλονται στο drupal.org. Αν είναι επιθυμητό, μπορείτε να απενεργοποιήσετε τη μονάδα Update status στη <a href=\"@modules\">σελίδα διαχείρισης μονάδων</a>."
 
-#: modules/update/update.module:90
+#: modules/update/update.module:99
 msgid "For more information, see the online handbook entry for <a href=\"@update\">Update status module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε τη σελίδα του εγχειριδίου για τη <a href=\"@update\">μονάδα Update status</a>."
 
-#: modules/update/update.module:211;243
+#: modules/update/update.module:220;252
 msgid "Drupal core update status"
 msgstr "Αναφορά κατάστασης του πυρήνα του Drupal"
 
-#: modules/update/update.module:212
+#: modules/update/update.module:221
 msgid "No update data available"
 msgstr "Δεν υπάρχουν στοιχεία ενημέρωσης"
 
-#: modules/update/update.module:246
+#: modules/update/update.module:255
 msgid "Module and theme update status"
 msgstr "Κατάσταση ενημέρωσης μονάδας και θεματικής παραλλαγής"
 
-#: modules/update/update.module:256
+#: modules/update/update.module:265
 msgid "Not secure!"
 msgstr "Μη ασφαλές!"
 
-#: modules/update/update.module:262
+#: modules/update/update.module:271
 msgid "Unsupported release"
 msgstr "Έκδοση που δεν υποστηρίζεται"
 
-#: modules/update/update.module:270
+#: modules/update/update.module:280
 msgid "Can not determine status"
 msgstr "Δεν είναι δυνατός ο προσδιορισμός της κατάστασης"
 
-#: modules/update/update.module:277
+#: modules/update/update.module:287
 msgid "(version @version available)"
 msgstr "(η έκδοση @version είναι διαθέσιμη)"
 
-#: modules/update/update.module:314
+#: modules/update/update.module:326
 msgid "No information is available about potential new releases for currently installed modules and themes. To check for updates, you may need to <a href=\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check manually</a>. Please note that checking for available updates can take a long time, so please be patient."
 msgstr "Δεν υπάρχουν πληροφορίες σχετικά με πιθανές νέες εκδόσεις για τις τρέχουσες εγκατεστημένες μονάδες και θεματικές παραλλαγές. Για να γίνει έλεγχος για ενημερώσεις, πιθανόν να χρειαστεί να <a href=\"@run_cron\">εκτελέσετε το cron</a> ή <a href=\"@check_manually\">ελέγξετε χειροκίνητα</a>. Πρέπει να σημειωθεί ότι ο έλεγχος για διαθέσιμες ενημερώσεις μπορεί να διαρκέσει αρκετό χρόνο, γι' αυτό χρειάζεται υπομονή."
 
-#: modules/update/update.module:415
+#: modules/update/update.module:408
 msgid "New release(s) available for !site_name"
 msgstr "Υπάρχει νέα(ες) έκδοση(εις) διαθέσιμη(ες) για το !site_name"
 
-#: modules/update/update.module:419
+#: modules/update/update.module:412
 msgid "See the available updates page for more information:"
 msgstr "Δείτε τη σελίδα των διαθέσιμων ενημερώσεων για περισσότερες πληροφορίες:"
 
-#: modules/update/update.module:448
+#: modules/update/update.module:441
 msgid "There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately!"
 msgstr "Υπάρχει διαθέσιμη ενημέρωση ασφαλείας για την έκδοση του Drupal σας. Για την ασφάλεια του διακομιστή σας, θα πρέπει να προβείτε σε ενημέρωση άμεσα!"
 
-#: modules/update/update.module:451
+#: modules/update/update.module:444
 msgid "There are security updates available for one or more of your modules or themes. To ensure the security of your server, you should update immediately!"
 msgstr "Υπάρχει διαθέσιμη ενημέρωση ασφαλείας για μία ή περισσότερες μονάδες ή θεματικές παραλλαγές σας. Για την ασφάλεια του διακομιστή σας, θα πρέπει να προβείτε σε ενημέρωση άμεσα!"
 
-#: modules/update/update.module:457
+#: modules/update/update.module:450
 msgid "Your version of Drupal has been revoked and is no longer available for download. Upgrading is strongly recommended!"
 msgstr "Η έκδοση του Drupal σας έχει ανακληθεί και δεν είναι πλέον διαθέσιμη για λήψη. Συνιστάται η άμεση αναβάθμιση!"
 
-#: modules/update/update.module:460
+#: modules/update/update.module:453
 msgid "The installed version of at least one of your modules or themes has been revoked and is no longer available for download. Upgrading or disabling is strongly recommended!"
 msgstr "Η εγκατεστημένη έκδοση τουλάχιστον μίας μονάδας ή θεματικής παραλλαγής έχει ανακληθεί και δεν είναι πλέον διαθέσιμη για λήψη. Συνιστάται η άμεση αναβάθμιση ή απενεργοποίηση!"
 
-#: modules/update/update.module:466
+#: modules/update/update.module:459
 msgid "Your version of Drupal is no longer supported. Upgrading is strongly recommended!"
 msgstr "Η εγκατεστημένη έκδοση του Drupal σας δεν υποστηρίζεται πλέον. Συνιστάται η αναβάθμιση!"
 
-#: modules/update/update.module:469
+#: modules/update/update.module:462
 msgid "The installed version of at least one of your modules or themes is no longer supported. Upgrading or disabling is strongly recommended! Please see the project homepage for more details."
 msgstr "Η εγκατεστημένη έκδοση τουλάχιστον μιας μονάδας ή θεματικής παραλλαγής σας δεν υποστηρίζεται πλέον. Συνιστάται η αναβάθμιση ή απενεργοποίηση! Δείτε την ιστοσελίδα του έργου για περισσότερες λεπτομέρειες."
 
-#: modules/update/update.module:475
+#: modules/update/update.module:468
 msgid "There are updates available for your version of Drupal. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr "Υπάρχουν διαθέσιμες ενημερώσεις για την έκδοση του Drupal σας. Για τη σωστή λειτουργία του ιστοτόπου σας, θα πρέπει να προβείτε σε ενημέρωση το συντομότερο δυνατόν."
 
-#: modules/update/update.module:478
+#: modules/update/update.module:471
 msgid "There are updates available for one or more of your modules or themes. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr "Υπάρχουν διαθέσιμες ενημερώσεις για μία ή περισσότερες μονάδες σας και θεματικές παραλλαγές σας. Για τη σωστή λειτουργία του ιστοτόπου σας, θα πρέπει να προβείτε σε ενημέρωση το συντομότερο δυνατόν."
 
-#: modules/update/update.module:485
+#: modules/update/update.module:479
 msgid "There was a problem determining the status of available updates for your version of Drupal."
 msgstr "Υπήρξε πρόβλημα κατά τον προσδιοριμό της κατάστασης των διαθέσιμων ενημερώσεων για την έκδοση του Drupal σας."
 
-#: modules/update/update.module:488
+#: modules/update/update.module:482
 msgid "There was a problem determining the status of available updates for one or more of your modules or themes."
 msgstr "Υπήρξε πρόβλημα κατά τον προσδιοριμό της κατάστασης των διαθέσιμων ενημερώσεων για μία ή περισσότερες από τις μονάδες και θεματικές παραλλαγές σας."
 
-#: modules/update/update.module:494
+#: modules/update/update.module:488
 msgid "See the <a href=\"@available_updates\">available updates</a> page for more information."
 msgstr "Δείτε τη σελίδα των <a href=\"@available_updates\">διαθέσιμων ενημερώσεων</a> για περισσότερες πληροφορίες."
 
-#: modules/update/update.module:120
+#: modules/update/update.module:129
 msgid "Available updates"
 msgstr "Διαθέσιμες ενημερώσεις"
 
-#: modules/update/update.module:121
+#: modules/update/update.module:130
 msgid "Get a status report about available updates for your installed modules and themes."
 msgstr "Λήψη αναφοράς κατάστασης σχετικά με διαθέσιμες ενημερώσεις για τις εγκατεστημένες μονάδες και θεματικές παραλλαγές."
 
-#: modules/update/update.module:143
+#: modules/update/update.module:152
 msgid "Manual update check"
 msgstr "Χειροκίνητος έλεγχος για ενημερώσεις"
 
-#: modules/update/update.install:39
-msgid "Cache table for the Update module to store information about available releases, fetched from central server."
-msgstr "Πίνακας λανθάνουσας μνήμης της μονάδας Update για την αποθήκευση πληροφοριών σχετικά με διαθέσιμες εκδόσεις, πληροφορίες που λαμβάνονται από τον κεντρικό διακομιστή."

@@ -1,15 +1,19 @@
+# translation of modules-blog.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-blog\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:32+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:108
+#: modules/blog/blog.pages.inc:15
 msgid "@name's blog"
 msgstr "Το ιστολόγιο του/της @name"
 
@@ -54,49 +58,53 @@ msgstr "Ιστολόγημα"
 msgid "A <em>blog entry</em> is a single post to an online journal, or <em>blog</em>."
 msgstr "Ένα <em>ιστολόγημα</em> είναι μια ανάρτηση σε ένα online ημερολόγιο, ή <em>blog</em>."
 
-#: modules/blog/blog.module:52
+#: modules/blog/blog.module:53
 msgid "View recent blog entries"
 msgstr "Προβολή πρόσφατων ιστολογημάτων"
 
-#: modules/blog/blog.module:52;124
-msgid "Read @username's latest blog entries."
+#: modules/blog/blog.module:53;126
+msgid "Read !username's latest blog entries."
 msgstr "Ανάγνωση των τελευταίων ιστολογημάτων του χρήστη @username."
 
 # αφήνω το blog γιατί είναι ορισμός τεχνικού όρου.
-#: modules/blog/blog.module:64
+#: modules/blog/blog.module:65
 msgid "The blog module allows registered users to maintain an online journal, or <em>blog</em>. Blogs are made up of individual <em>blog entries</em>, and the blog entries are most often displayed in descending order by creation time."
 msgstr "Η μονάδα blog επιτρέπει σε εγγεγραμένους χρήστες να διατηρούν ένα online ημερολόγιο, ή <em>blog</em>. Τα blogs αποτελούνται από ξεχωριστά <em>ιστολογήματα</em>, τα οποία συνήθως εμφανίζονται σε φθίνουσα χρονολογική σειρά."
 
-#: modules/blog/blog.module:65
+#: modules/blog/blog.module:66
 msgid "There is an (optional) <em>Blogs</em> menu item added to the Navigation menu, which displays all blogs available on your site, and a <em>My blog</em> item displaying the current user's blog entries. The <em>Blog entry</em> menu item under <em>Create content</em> allows new blog entries to be created."
 msgstr "Υπάρχει ένα (προαιρετικό) <em>Ιστολόγια</em> στοιχείο μενού στο μενού Πλοήγησης, το οποίο εμφανίζει όλα τα διαθέσιμα ιστολόγια στον ιστότοπο και ένα <em>Το ιστολόγιό μου</em> στοιχείο που εμφανίζει τα ιστολογήματα του παρόντος χρήστη. Το στοιχείο μενού <em>Καταχώρηση Ιστολογίου</em> κάτω από το <em>Δημιουργία Περιεχομένου</em> επιτρέπει τη δημιουργία νέων ιστολογημάτων."
 
-#: modules/blog/blog.module:66
+#: modules/blog/blog.module:67
 msgid "Each blog entry is displayed with an automatic link to other blogs created by the same user. By default, blog entries have comments enabled and are automatically promoted to the site front page. The blog module also creates a <em>Recent blog posts</em> block that may be enabled at the <a href=\"@blocks\">blocks administration page</a>."
 msgstr "Κάθε ιστολόγημα εμφανίζεται με ένα αυτόματο σύνδεσμο σε άλλα ιστολόγια που έχουν δημιουργηθεί από τον ίδιο χρήστη. Εξ ορισμού, τα ιστολογήματα έχουν ενεργοποιημένα τα σχόλια και προωθούνται αυτόματα στην πρώτη σελίδα του ιστοτόπου. Η μονάδα blog επίσης δημιουργεί ένα <em>Πρόσφατες καταχωρίσεις ιστολογίου</em> μπλοκ που μπορεί να ενεργοποιηθεί στη <a href=\"@blocks\">σελίδα διαχείρισης μπλοκ</a>."
 
 # populate = συμπληρώνω, εποικίζω;
-#: modules/blog/blog.module:67
+#: modules/blog/blog.module:68
 msgid "When using the aggregator module an automatic <em>blog it</em> icon is displayed next to the items in a feed's <em>latest items</em> block. Clicking this icon populates a <em>blog entry</em> with a title (the title of the feed item) and body (a link to the source item on its original site and illustrative content suitable for use in a block quote). Blog authors can use this feature to easily comment on items of interest that appear in aggregator feeds from other sites. To use this feature, be sure to <a href=\"@modules\">enable</a> the aggregator module, <a href=\"@feeds\">add and configure</a> a feed from another site, and <a href=\"@blocks\">position</a> the feed's <em>latest items</em> block."
 msgstr "Όταν η μονάδα συλλέκτη είναι εν χρήση εμφανίζεται αυτόματα ένα <em>ιστολόγισέ το</em> εικονίδιο δίπλα στα στοιχεία στο <em>πρόσφατα στοιχεία</em> μπλοκ της ροής. Πατώντας σε αυτό το εικονίδιο συμπληρώνει ένα <em>ιστολόγημα</em> με τίτλο (τον τίτλο του στοιχείου ροής) και σώμα (ένα σύνδεσμο στο πηγαίο στοιχείο στον πρωτότυπο ιστότοπο και ενδεικτικό περιεχόμενο κατάλληλο για χρήση σε μια παράθεση μπλοκ). Οι συντάκτες ενός ιστολογίου μπορούν να χρησιμοποιήσουν αυτό το χαρακτηριστικό για να σχολιάσουν εύκολα πάνω σε στοιχεία ενδιαφέροντος που εμφανίζονται στις ροές συλλέκτη από άλλους ιστοτόπους. Για να χρησιμοποιήσετε αυτό το χαρακτηριστικό, <a href=\"@modules\">ενεργοποιήστε</a> τη μονάδα aggregator, <a href=\"@feeds\">προσθέστε και ρυθμίστε</a> μια ροή από ένα άλλο ιστότοπο και <a href=\"@blocks\">τοποθετήστε</a> το <em>τελευταία στοιχεία</em> μπλοκ της ροής."
 
-#: modules/blog/blog.module:68
+#: modules/blog/blog.module:69
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@blog\">μονάδα Blog</a>."
 
-#: modules/blog/blog.module:108;137;152;161
+#: modules/blog/blog.module:109;139;154;163
 msgid "Blogs"
 msgstr "Ιστολόγια"
 
-#: modules/blog/blog.module:122
-msgid "@username's blog"
+#: modules/blog/blog.module:109
+msgid "!name's blog"
+msgstr "Το ιστολόγιο του/της @name"
+
+#: modules/blog/blog.module:124
+msgid "!username's blog"
 msgstr "Ιστολόγιο του χρήστη @username"
 
-#: modules/blog/blog.module:196;205
+#: modules/blog/blog.module:198;207
 msgid "Recent blog posts"
 msgstr "Πρόσφατα ιστολογήματα"
 
-#: modules/blog/blog.module:204
+#: modules/blog/blog.module:206
 msgid "Read the latest blog entries."
 msgstr "Διαβάστε τα τελευταία ιστολογήματα."
 
@@ -120,10 +128,7 @@ msgstr "τροποποίηση ιδίων καταχωρίσεων ιστολο�
 msgid "edit any blog entry"
 msgstr "τροποποίηση οποιονδήποτε καταχωρίσεων ιστολογίου"
 
-#: modules/blog/blog.module:144
+#: modules/blog/blog.module:146
 msgid "My blog"
 msgstr "Το ιστολόγιό μου"
 
-#: modules/blog/blog.module:0
-msgid "blog"
-msgstr "ιστολόγιο"

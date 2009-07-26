@@ -1,13 +1,17 @@
+# translation of modules-forum.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-forum\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:37+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/forum/forum-list.tpl.php:38
 msgid "Topics"
@@ -53,7 +57,7 @@ msgstr "Τα φόρουμ παρουσιάζονται σε αύξουσα σε�
 msgid "forum container"
 msgstr "φάκελος φόρουμ"
 
-#: modules/forum/forum.admin.inc:79 modules/forum/forum.module:0
+#: modules/forum/forum.admin.inc:79
 msgid "forum"
 msgstr "φόρουμ"
 
@@ -125,23 +129,23 @@ msgstr "Προεπιλεγμένη σειρά"
 msgid "Default display order for topics."
 msgstr "Προεπιλεγμένη σειρά παρουσίασης των θεμάτων."
 
-#: modules/forum/forum.admin.inc:230
+#: modules/forum/forum.admin.inc:229
 msgid "edit container"
 msgstr "επεξεργασία φακέλου"
 
-#: modules/forum/forum.admin.inc:233
+#: modules/forum/forum.admin.inc:232
 msgid "edit forum"
 msgstr "επεξεργασία φόρουμ"
 
-#: modules/forum/forum.admin.inc:245
+#: modules/forum/forum.admin.inc:244
 msgid "There are no existing containers or forums. Containers and forums may be added using the <a href=\"@container\">add container</a> and <a href=\"@forum\">add forum</a> pages."
 msgstr "Δεν υπάρχει κανένας φάκελος ή φόρουμ. Φάκελοι ή φόρουμ μπορούν να προστεθούν από τις σελίδες <a href=\"@container\">νέος φάκελος</a> ή <a href=\"@forum\">νέο φόρουμ</a>."
 
-#: modules/forum/forum.admin.inc:286
+#: modules/forum/forum.admin.inc:285
 msgid "Containers are usually placed at the top (root) level, but may also be placed inside another container or forum."
 msgstr "Τα container τοποθετούνται συνήθως στο επίπεδο της κορυφής (ρίζα), αλλά μπορούν επίσης να τοποθετηθούν μέσα σε άλλα container ή φόρουμ."
 
-#: modules/forum/forum.admin.inc:289
+#: modules/forum/forum.admin.inc:288
 msgid "Forums may be placed at the top (root) level, or inside another container or forum."
 msgstr "Τα φόρουμ μπορούν να τοποθετούνται στο επίπεδο της κορυφής (ρίζα), ή μέσα σε άλλα container ή φόρουμ."
 
@@ -237,35 +241,35 @@ msgstr "Δημιουργία σκιώδους αντιγράφου"
 msgid "If you move this topic, you can leave a link in the old forum to the new forum."
 msgstr "Αν μετακινήσετε αυτό το θέμα, μπορείτε να αφήσετε στο παλιό φόρουμ μια παραπομπή προς το νέο."
 
-#: modules/forum/forum.module:567
+#: modules/forum/forum.module:559
 msgid "Topic"
 msgstr "Θέμα"
 
-#: modules/forum/forum.module:569
+#: modules/forum/forum.module:561
 msgid "Created"
 msgstr "Δημιουργήθηκε"
 
-#: modules/forum/forum.module:570
+#: modules/forum/forum.module:562
 msgid "Last reply"
 msgstr "Τελευταία απάντηση"
 
-#: modules/forum/forum.module:683
+#: modules/forum/forum.module:675
 msgid "Post new @node_type"
 msgstr "Υποβολή νέου υλικού τύπου: @node_type"
 
-#: modules/forum/forum.module:690
-msgid "You are not allowed to post new content in forum."
-msgstr "Δεν έχετε το δικαίωμα να δημοσιεύσετε υλικό στο φόρουμ."
+#: modules/forum/forum.module:682
+msgid "You are not allowed to post new content in the forum."
+msgstr "Δεν έχετε το δικαίωμα να δημοσιεύσετε νέα ύλη στο φόρουμ."
 
-#: modules/forum/forum.module:694
-msgid "<a href=\"@login\">Login</a> to post new content in forum."
-msgstr "Πρέπει να <a href=\"@login\">εισέλθετε στο σύστημα</a> για να δημοσιεύσετε υλικό στο φόρουμ."
+#: modules/forum/forum.module:686
+msgid "<a href=\"@login\">Login</a> to post new content in the forum."
+msgstr "Πρέπει να <a href=\"@login\">εισέλθετε στο σύστημα</a> για να δημοσιεύσετε νέα ύλη στο φόρουμ."
 
-#: modules/forum/forum.module:732
+#: modules/forum/forum.module:724
 msgid "No forums defined"
 msgstr "Κανένα φόρουμ δεν έχει οριστεί."
 
-#: modules/forum/forum.module:818
+#: modules/forum/forum.module:810
 msgid "This topic has been moved"
 msgstr "Αυτό το θέμα έχει μετακινηθεί"
 
@@ -317,14 +321,3 @@ msgstr "Επεξεργασία φακέλου"
 msgid "Edit forum"
 msgstr "Επεξεργασία φόρουμ"
 
-#: modules/forum/forum.install:68
-msgid "Stores the relationship of nodes to forum terms."
-msgstr "Αποθηκεύει τη σχέση των καταχωρίσεων με την ορολογία του φόρουμ."
-
-#: modules/forum/forum.install:75
-msgid "The {node}.nid of the node."
-msgstr "Το {node}.nid της καταχώρησης."
-
-#: modules/forum/forum.install:89
-msgid "The {term_data}.tid of the forum term assigned to the node."
-msgstr "Ο όρος {term_data}.tid συσχετίστηκε με τη καταχώρηση."

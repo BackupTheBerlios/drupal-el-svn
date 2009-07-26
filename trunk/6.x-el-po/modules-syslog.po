@@ -1,14 +1,17 @@
-#, fuzzy
+# translation of modules-syslog.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-syslog\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 15:15+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/syslog/syslog.module:22
 msgid "The syslog module enables Drupal to send messages to the operating system's logging facility."
@@ -70,6 +73,3 @@ msgstr "LOG_LOCAL0 - Τοπικό 7"
 msgid "Settings for syslog logging. Syslog is an operating system administrative logging tool used in systems management and security auditing. Most suited to medium and large sites, syslog provides filtering tools that allow messages to be routed by type and severity."
 msgstr "Ρυθμίσεις για την καταγραφή συμβάντων στο syslog. Το syslog είναι ένα διαχειριστικό εργαλείο καταγραφής συμβάντων του λειτουργικού συστήματος που χρησιμοποιείται στη διαχείριση συστημάτων και του κριτικού ελέγχου ασφάλειας. Προοριζόμενο περισσότερο για μεσαίους και μεγάλους ιστοτόπους, το syslog παρέχει εργαλεία φιλτραρίσματος που επιτρέπουν την δρομολόγηση των μηνυμάτων ανάλογα με τον τύπο και την σοβαρότητά τους."
 
-#: modules/syslog/syslog.module:0
-msgid "syslog"
-msgstr "syslog"

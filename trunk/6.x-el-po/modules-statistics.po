@@ -1,14 +1,17 @@
-#, fuzzy
+# translation of modules-statistics.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-statistics\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 15:15+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/statistics/statistics.admin.inc:14
 #: modules/statistics/statistics.pages.inc:46
@@ -273,46 +276,3 @@ msgstr "Έλεγχος του τι και πως καταγράφει ο ιστ�
 msgid "Track page visits"
 msgstr "Παρακολούθηση επισκέψεων σελίδων"
 
-#: modules/statistics/statistics.module:0
-msgid "statistics"
-msgstr "στατιστικά"
-
-#: modules/statistics/statistics.install:52
-msgid "Stores site access information for statistics."
-msgstr "Αποθηκεύει πληροφορίες πρόσβασης στον ιστοτόπο για τα στατιστικά."
-
-#: modules/statistics/statistics.install:57
-msgid "Primary Key: Unique accesslog ID."
-msgstr "Πρωτεύον Κλειδί: Μοναδικό χαρακτηριστικό καταγραφής ημερολογίου."
-
-#: modules/statistics/statistics.install:64
-msgid "Browser session ID of user that visited page."
-msgstr "Αναγνωριστικό συνόδου του προγράμματος πλοήγησης του χρήστη που επισκέφθηκε τη σελίδα."
-
-#: modules/statistics/statistics.install:70
-msgid "Title of page visited."
-msgstr "Ο τίτλος της σελίδας για την οποία υπήρξε επίσκεψη."
-
-#: modules/statistics/statistics.install:76
-msgid "Internal path to page visited (relative to Drupal root.)"
-msgstr "Εσωτερική διαδρομή της σελίδας για την οποία υπήρξε επίσκεψη (σχετική με τη ρίζα του Drupal)."
-
-#: modules/statistics/statistics.install:82
-msgid "Referrer URI."
-msgstr "Παραπέμφθηκε από"
-
-#: modules/statistics/statistics.install:88
-msgid "Hostname of user that visited the page."
-msgstr "Το όνομα υπολογιστή του χρήστη που επισκέφθηκε τη σελίδα."
-
-#: modules/statistics/statistics.install:95
-msgid "User {users}.uid that visited the page."
-msgstr "Ο χρήστης {users}.uid που επισκέφθηκε τη σελίδα."
-
-#: modules/statistics/statistics.install:102
-msgid "Time in milliseconds that the page took to load."
-msgstr "Χρόνος σε χιλιοστά δευτερολέπτου που έκανε να φορτωθεί η σελίδα."
-
-#: modules/statistics/statistics.install:109
-msgid "Timestamp of when the page was visited."
-msgstr "Χρονική ετικέτα του πότε έγινε επίσκεψη της σελίδας."

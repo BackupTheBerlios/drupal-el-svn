@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-openid\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: 2008-09-09 23:30+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -45,63 +45,63 @@ msgstr "Θέλετε σίγουρα να διαγράψετε το αναγνω�
 msgid "OpenID deleted."
 msgstr "Το OpenID διαγράφηκε."
 
-#: modules/openid/openid.module:48
+#: modules/openid/openid.module:47
 msgid "This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log into many websites using a single username and password. OpenID can reduce the necessity of managing many usernames and passwords for many websites."
 msgstr "Ο ιστοτόπος υποστηρίζει το <a href=\"@openid-net\">OpenID</a>, ένα ασφαλή τρόπο για την είσοδο σε πολλούς ιστοτόπους χρησιμοποιώντας ένα όνομα χρήστη και συνθηματικό. Το OpenID μπορεί να μειώσει την αναγκαιότητα διαχείρισης πολλών ονομάτων χρήστη και συνθηματικών σε πολλούς ιστοτόπους."
 
-#: modules/openid/openid.module:49
+#: modules/openid/openid.module:48
 msgid "To use OpenID you must first establish an identity on a public or private OpenID server. If you do not have an OpenID and would like one, look into one of the <a href=\"@openid-providers\">free public providers</a>. You can find out more about OpenID at <a href=\"@openid-net\">this website</a>."
 msgstr "Για να χρησιμοποιήσετε το OpenID πρέπει πρώτα να δημιουργήσετε μια ταυτότητα σε ένα δημόσιο ή ιδιωτικό διακομιστή OpenID. Αν δεν έχετε OpenID και επιθυμείτε ένα, δείτε σε έναν από τους <a href=\"@openid-providers\">δημόσιους δωρεάν παροχείς</a>. Μπορείτε να βρείτε περισσότερες πληροφορίες σχετικά με το OpenID στον <a href=\"@openid-net\">ιστοτόπο αυτό</a>."
 
-#: modules/openid/openid.module:50
+#: modules/openid/openid.module:49
 msgid "If you already have an OpenID, enter the URL to your OpenID server below (e.g. myusername.openidprovider.com). Next time you login, you will be able to use this URL instead of a regular username and password. You can have multiple OpenID servers if you like; just keep adding them here."
 msgstr "Αν έχετε ήδη ένα OpenID, εισάγετε τη διεύθυνση URL του OpenID διακομιστή σας παρακάτω (πχ. myusername.openidprovider.com). Την επόμενη φορά που θα συνδεθείτε, θα μπορείτε να χρησιμοποιήσετε αυτή τη διεύθυνση URL αντί ενός σύνηθους ονόματος χρήστη και συνθηματικού. Μπορείτε να διατηρείτε πολλούς διακομιστές OpenID αν επιθυμείτε· απλά να τους προσθέτετε εδώ."
 
-#: modules/openid/openid.module:54
+#: modules/openid/openid.module:53
 msgid "OpenID is a secure method for logging into many websites with a single username and password. It does not require special software, and it does not share passwords with any site to which it is associated; including your site."
 msgstr "Το OpenID είναι μια ασφαλής μέθοδος εισόδου σε πολλούς ιστοτόπους με ένα κοινό όνομα χρήστη και συνθηματικό. Δεν απαιτεί ειδικό λογισμικό και δεν ανταλλάσει συνθηματικά με οποιονδήποτε ιστοτόπο με τον οποίο συσχετίζεται· συμπεριλαμβανομένου του ιστοτόπου σας."
 
-#: modules/openid/openid.module:55
+#: modules/openid/openid.module:54
 msgid "Users can create accounts using their OpenID, assign one or more OpenIDs to an existing account, and log in using an OpenID. This lowers the barrier to registration, which is good for the site, and offers convenience and security to the users. OpenID is not a trust system, so email verification is still necessary. The benefit stems from the fact that users can have a single password that they can use on many websites. This means they can easily update their single password from a centralized location, rather than having to change dozens of passwords individually."
 msgstr "Οι χρήστες μπορούν να δημιουργούν λογαριασμούς χρησιμοποιώντας το OpenID τους, να ορίσουν ένα ή περισσότερα OpenID σε ένα υπάρχων λογαριασμό και να συνδεθούν χρησιμοποιώντας ένα OpenID. Η διαδικασία αυτή χαμηλώνει τον πήχη για την εγγραφή, γεγονός που είναι καλό για τον ιστοτόπο και παρέχει ευκολία και ασφάλεια στους χρήστες. Το OpenID δεν είναι σύστημα εμπιστοσύνης, οπότε η επαλήθευση e-mail είναι ακόμη απαραίτητη. Το όφελος προέρχεται από το γεγονός ότι οι χρήστες μπορούν να έχουν ένα κοινό συνθηματικό για χρήση σε πολλούς ιστοτόπους. Αυτό σημαίνει ότι μπορούν να αλλάξουν το κοινό συνθηματικό τους από ένα κεντρικό σημείο, αντί να έχουν να αλλάξουν δεκάδες συνθηματικών ξεχωριστά."
 
-#: modules/openid/openid.module:56
+#: modules/openid/openid.module:55
 msgid "The basic concept is as follows: A user has an account on an OpenID server. This account provides them with a unique URL (such as myusername.openidprovider.com). When the user comes to your site, they are presented with the option of entering this URL. Your site then communicates with the OpenID server, asking it to verify the identity of the user. If the user is logged into their OpenID server, the server communicates back to your site, verifying the user. If they are not logged in, the OpenID server will ask the user for their password. At no point does your site record, or need to record the user's password."
 msgstr "Η βασική ιδέα έχει ως εξής: Ένας χρήστης έχει ένα λογαριασμό σε ένα διακομιστή OpenID. Ο λογαριασμός του παρέχει μία μοναδική διεύθυνση URL (όπως το myusername.openidprovider.com). Όταν ο χρήστης έρχεται στον ιστοτόπο σας, του δίνεται η επιλογή να εισάγει αυτή τη διεύθυνση. Ο ιστοτόπος στη συνέχεια επικοινωνεί με το διακομιστή OpenID, ζητώντας του να επιβεβαιώσει την ταυτότητα του χρήστη. Αν ο χρήστης έχει συνδεθεί στο διακομιστή του OpenID, ο τελευταίος επικοινωνεί με τον ιστοτόπο σας, επιβεβαιώνοντας το χρήστη. Αν ο χρήστης δεν έχει συνδεθεί, ο διακομιστής OpenID ζητάει για το συνθηματικό του. Σε κανένα σημείο, ο ιστοτόπος καταγράφει ή χρειάζεται να καταγράψει το συνθηματικό του χρήστη."
 
-#: modules/openid/openid.module:57
+#: modules/openid/openid.module:56
 msgid "More information on OpenID is available at <a href=\"@openid-net\">OpenID.net</a>."
 msgstr "Περισσότερες πληροφορίες σχετικά με το OpenID υπάρχουν στη διεύθυνση <a href=\"@openid-net\">OpenID.net</a>."
 
-#: modules/openid/openid.module:58
+#: modules/openid/openid.module:57
 msgid "For more information, see the online handbook entry for <a href=\"@handbook\">OpenID module</a>."
 msgstr "Για περισσότερες πληροφορίες διαβάστε το εγχειρίδιο ρύθμισης και προσαρμογής, <a href=\"@handbook\">μονάδα OpenID</a>."
 
-#: modules/openid/openid.module:70
+#: modules/openid/openid.module:69
 msgid "Once you have verified your email address, you may log in via OpenID."
 msgstr "Αφού επιβεβαιώσετε τη διεύθυνση e-mail σας, μπορείτε να συνδεθείτε μέσω OpenID."
 
-#: modules/openid/openid.module:92;109
+#: modules/openid/openid.module:91;108
 msgid "Log in using OpenID"
 msgstr "Σύνδεση με χρήση OpenID"
 
-#: modules/openid/openid.module:96
+#: modules/openid/openid.module:95
 msgid "Cancel OpenID login"
 msgstr "Ακύρωση σύνδεσης OpenID"
 
-#: modules/openid/openid.module:113
+#: modules/openid/openid.module:112
 msgid "What is OpenID?"
 msgstr "Τι είναι το OpenID;"
 
-#: modules/openid/openid.module:162
+#: modules/openid/openid.module:161
 msgid "Sorry, that is not a valid OpenID. Please ensure you have spelled your ID correctly."
 msgstr "Συγγνώμη, αλλά αυτό δεν είναι έγκυρο OpenID. Επιβεβαιώστε ότι γράψατε το αναγνωριστικό σας σωστά."
 
-#: modules/openid/openid.module:397
+#: modules/openid/openid.module:391
 msgid "You must validate your email address for this account before logging in via OpenID"
 msgstr "Πρέπει να επιβεβαιώσετε τη διεύθυνση e-mail σας για το λογαριασμό αυτό προτού συνδεθείτε με το OpenID"
 
-#: modules/openid/openid.module:415
+#: modules/openid/openid.module:409
 msgid "OpenID registration failed for the reasons listed. You may register now, or if you already have an account you can <a href=\"@login\">log in</a> now and add your OpenID under \"My Account\""
 msgstr "Η εγγραφή OpenID απέτυχε για τους παρακάτω λόγους. Μπορείτε να εγγραφείτε τώρα, ή αν έχετε ήδη λογαριασμό να <a href=\"@login\">συνδεθείτε</a> και να προσθέσετε το OpenID σας κάτω από το \"Ο λογαριασμός μου\""
 
@@ -117,39 +117,29 @@ msgstr "Ταυτότητες OpenID"
 msgid "Delete OpenID"
 msgstr "Διαγραφή του OpenID"
 
-#: modules/openid/openid.module:0
-msgid "openid"
-msgstr "openid"
+#~ msgid "openid"
+#~ msgstr "openid"
 
-#: modules/openid/openid.install:25
-msgid "Stores temporary shared key association information for OpenID authentication."
-msgstr "Αποθηκεύει προσωρινές πληροφορίες σχετικά με τη σχέση μοιραζόμενου κλειδιού για την πιστοποίηση OpenID."
+#~ msgid "Stores temporary shared key association information for OpenID authentication."
+#~ msgstr "Αποθηκεύει προσωρινές πληροφορίες σχετικά με τη σχέση μοιραζόμενου κλειδιού για την πιστοποίηση OpenID."
 
-#: modules/openid/openid.install:30
-msgid "URI of the OpenID Provider endpoint."
-msgstr "Η διεύθυνση URI του τελικού σημείου του Παροχέα OpenID."
+#~ msgid "URI of the OpenID Provider endpoint."
+#~ msgstr "Η διεύθυνση URI του τελικού σημείου του Παροχέα OpenID."
 
-#: modules/openid/openid.install:36
-msgid "Primary Key: Used to refer to this association in subsequent messages."
-msgstr "Πρωτεύον Κλειδί: Χρησιμοποιείται για την αναφορά στη σχέση αυτή σε επακόλουθα μηνύματα."
+#~ msgid "Primary Key: Used to refer to this association in subsequent messages."
+#~ msgstr "Πρωτεύον Κλειδί: Χρησιμοποιείται για την αναφορά στη σχέση αυτή σε επακόλουθα μηνύματα."
 
-#: modules/openid/openid.install:41
-msgid "The signature algorithm used: one of HMAC-SHA1 or HMAC-SHA256."
-msgstr "Ο αλγόριθμος υπογραφής που χρησιμοποιείται: ένα από τα HMAC-SHA1 ή HMAC-SHA256."
+#~ msgid "The signature algorithm used: one of HMAC-SHA1 or HMAC-SHA256."
+#~ msgstr "Ο αλγόριθμος υπογραφής που χρησιμοποιείται: ένα από τα HMAC-SHA1 ή HMAC-SHA256."
 
-#: modules/openid/openid.install:46
-msgid "Valid association session types: \"no-encryption\", \"DH-SHA1\", and \"DH-SHA256\"."
-msgstr "Έγκυροι τύποι σχέσεων συνόδου: \"χωρίς κρυπτογράφηση\", \"DH-SHA1\" και \"DH-SHA256\"."
+#~ msgid "Valid association session types: \"no-encryption\", \"DH-SHA1\", and \"DH-SHA256\"."
+#~ msgstr "Έγκυροι τύποι σχέσεων συνόδου: \"χωρίς κρυπτογράφηση\", \"DH-SHA1\" και \"DH-SHA256\"."
 
-#: modules/openid/openid.install:51
-msgid "The MAC key (shared secret) for this association."
-msgstr "Το κλειδί MAC (μοιρασμένο μυστικό) αυτής της σχέσης."
+#~ msgid "The MAC key (shared secret) for this association."
+#~ msgstr "Το κλειδί MAC (μοιρασμένο μυστικό) αυτής της σχέσης."
 
-#: modules/openid/openid.install:57
-msgid "UNIX timestamp for when the association was created."
-msgstr "Η χρονική ετικέτα τύπου UNIX της δημιουργίας της σχέσης."
+#~ msgid "UNIX timestamp for when the association was created."
+#~ msgstr "Η χρονική ετικέτα τύπου UNIX της δημιουργίας της σχέσης."
 
-#: modules/openid/openid.install:63
-msgid "The lifetime, in seconds, of this association."
-msgstr "Ο χρόνος, σε δευτερόλεπτα, αυτής της σχέσης."
-
+#~ msgid "The lifetime, in seconds, of this association."
+#~ msgstr "Ο χρόνος, σε δευτερόλεπτα, αυτής της σχέσης."

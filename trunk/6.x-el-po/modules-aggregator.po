@@ -1,13 +1,17 @@
+# translation of modules-aggregator.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-aggregator\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 15:13+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/aggregator/aggregator-feed-source.tpl.php:30
 msgid "URL:"
@@ -18,7 +22,6 @@ msgid "Updated:"
 msgstr "Ενημερώθηκε:"
 
 #: modules/aggregator/aggregator-item.tpl.php:42
-#: modules/aggregator/aggregator.pages.inc:63
 #: modules/aggregator/aggregator.module:151
 msgid "Categories"
 msgstr "Κατηγορίες"
@@ -170,7 +173,7 @@ msgstr "Η κατηγορία %category προστέθηκε."
 
 #: modules/aggregator/aggregator.admin.inc:161;174;325;338
 #: modules/aggregator/aggregator.pages.inc:16
-#: modules/aggregator/aggregator.module:607;641;648;718;0
+#: modules/aggregator/aggregator.module:607;641;648;717
 msgid "aggregator"
 msgstr "συλλέκτης"
 
@@ -191,59 +194,59 @@ msgid "Category %category added."
 msgstr "Η κατηγορία %category προστέθηκε."
 
 #: modules/aggregator/aggregator.admin.inc:30;41
-#: modules/aggregator/aggregator.module:928
+#: modules/aggregator/aggregator.module:927
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] "1 αντικείμενο"
 msgstr[1] "@count αντικείμενα"
 
-#: modules/aggregator/aggregator.pages.inc:68
+#: modules/aggregator/aggregator.pages.inc:67
 msgid "aggregator - @title"
 msgstr "συλλέκτης - @title"
 
-#: modules/aggregator/aggregator.pages.inc:175
+#: modules/aggregator/aggregator.pages.inc:174
 msgid "Save categories"
 msgstr "Αποθήκευση κατηγοριών"
 
-#: modules/aggregator/aggregator.pages.inc:185
+#: modules/aggregator/aggregator.pages.inc:184
 msgid "You are not allowed to categorize this feed item."
 msgstr "Δεν επιτρέπεται να κατατάξετε σε κατηγορίες αυτό το αντικείμενο ροής."
 
-#: modules/aggregator/aggregator.pages.inc:203
+#: modules/aggregator/aggregator.pages.inc:202
 msgid "The categories have been saved."
 msgstr "Οι κατηγορίες αποθηκεύτηκαν."
 
-#: modules/aggregator/aggregator.pages.inc:228
+#: modules/aggregator/aggregator.pages.inc:227
 #: modules/aggregator/aggregator.module:185;214
 msgid "Categorize"
 msgstr "Κατηγοριοποίηση"
 
-#: modules/aggregator/aggregator.pages.inc:262
+#: modules/aggregator/aggregator.pages.inc:261
 msgid "%ago ago"
 msgstr "πριν από %ago"
 
-#: modules/aggregator/aggregator.pages.inc:293
+#: modules/aggregator/aggregator.pages.inc:292
 #: modules/aggregator/aggregator.module:164
 msgid "OPML feed"
 msgstr "Ροή OPML"
 
-#: modules/aggregator/aggregator.pages.inc:377
+#: modules/aggregator/aggregator.pages.inc:376
 msgid "@site_name - aggregated feeds in category @title"
 msgstr "@site_name - συλλεχθείσες ροές στην κατηγορία @title"
 
-#: modules/aggregator/aggregator.pages.inc:377
+#: modules/aggregator/aggregator.pages.inc:376
 msgid "@site_name - aggregated feeds"
 msgstr "@site_name - συλλεχθείσες ροές"
 
-#: modules/aggregator/aggregator.pages.inc:381
+#: modules/aggregator/aggregator.pages.inc:380
 msgid "@site_name aggregator"
 msgstr "συλλέκτης @site_name"
 
-#: modules/aggregator/aggregator.pages.inc:459
+#: modules/aggregator/aggregator.pages.inc:458
 msgid "%age old"
 msgstr "δημοσιευμένο πριν από %age"
 
-#: modules/aggregator/aggregator.pages.inc:477
+#: modules/aggregator/aggregator.pages.inc:476
 msgid "!title feed"
 msgstr "Ροή !title"
 
@@ -315,15 +318,15 @@ msgstr "η ροή δεν είναι προσπελάσιμη"
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr "Η ροή από το %site φαίνεται να μη λειτουργεί, λόγω του σφάλματος \"%error\"."
 
-#: modules/aggregator/aggregator.module:719
+#: modules/aggregator/aggregator.module:718
 msgid "The feed from %site seems to be broken, because of error \"%error\" on line %line."
 msgstr "Η ροή από το %site φαίνεται να μη λειτουργεί, λόγω του σφάλματος \"%error\" στη γραμμή %line."
 
-#: modules/aggregator/aggregator.module:896;896
+#: modules/aggregator/aggregator.module:895;895
 msgid "blog it"
 msgstr "ιστολογήστε το"
 
-#: modules/aggregator/aggregator.module:897
+#: modules/aggregator/aggregator.module:896
 msgid "Comment on this news item in your personal blog."
 msgstr "Σχολιάστε αυτήν την είδηση στο προσωπικό σας ιστολόγιο."
 
@@ -335,7 +338,7 @@ msgstr "Η διεύθυνση URL για τη ροή %title ενημερώθηκ
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr "Η ροή από το %site φαίνεται να μη λειτουργεί, εξαιτίας του σφάλματος \"%error\"."
 
-#: modules/aggregator/aggregator.module:718
+#: modules/aggregator/aggregator.module:717
 msgid "The feed from %site seems to be broken, due to an error \"%error\" on line %line."
 msgstr "Η ροή από το %site φαίνεται να μη λειτουργεί εξαιτίας ενός σφάλματος \"%error\" στη γραμμή %line."
 
@@ -375,130 +378,3 @@ msgstr "Τροποποίηση ροής"
 msgid "Edit category"
 msgstr "Τροποποίηση κατηγορίας"
 
-#: modules/aggregator/aggregator.install:30
-msgid "Stores categories for aggregator feeds and feed items."
-msgstr "Αποθηκεύει κατηγορίες ροών και αντικειμένων ροών."
-
-#: modules/aggregator/aggregator.install:35
-msgid "Primary Key: Unique aggregator category ID."
-msgstr "Πρωτέυον Κλειδί: Ταυτότητα κατηγορίας"
-
-#: modules/aggregator/aggregator.install:42
-msgid "Title of the category."
-msgstr "Τίτλος της κατηγορίας."
-
-#: modules/aggregator/aggregator.install:48
-msgid "Description of the category"
-msgstr "Περιγραφή της κατηγορίας."
-
-#: modules/aggregator/aggregator.install:55
-msgid "The number of recent items to show within the category block."
-msgstr "Ο αριθμός των πρόσφατων αντικειμένων που θα εμφανίζονται στο μπλοκ της κατηγορίας."
-
-#: modules/aggregator/aggregator.install:63
-msgid "Bridge table; maps feeds to categories."
-msgstr "Πίνακας σύνδεσης: αντιστοιχεί ροές σε κατηγορίες."
-
-#: modules/aggregator/aggregator.install:69
-msgid "The feed's {aggregator_feed}.fid."
-msgstr "Το {aggregator_feed}.fid της ροής."
-
-#: modules/aggregator/aggregator.install:75
-msgid "The {aggregator_category}.cid to which the feed is being assigned."
-msgstr "Το {aggregator_category}.cid στο οποίο η ροή έχει καταταχθεί."
-
-#: modules/aggregator/aggregator.install:83
-msgid "Bridge table; maps feed items to categories."
-msgstr "Πίνακας σύνδεσης: αντιστοιχεί αντικείμενα ροής σε κατηγορίες."
-
-#: modules/aggregator/aggregator.install:89
-msgid "The feed item's {aggregator_item}.iid."
-msgstr "Το {aggregator_item}.iid του αντικειμένου ροής."
-
-#: modules/aggregator/aggregator.install:95
-msgid "The {aggregator_category}.cid to which the feed item is being assigned."
-msgstr "Το {aggregator_category}.cid στο οποίο το αντικείμενο της ροής έχει καταταχθεί."
-
-#: modules/aggregator/aggregator.install:103
-msgid "Stores feeds to be parsed by the aggregator."
-msgstr "Αποθηκεύει τις ροές που θα προσπελαστούν από τον συλλέκτη."
-
-#: modules/aggregator/aggregator.install:108
-msgid "Primary Key: Unique feed ID."
-msgstr "Πρωτεύον Κλειδί: Μοναδική ταυτότητα ροής."
-
-#: modules/aggregator/aggregator.install:115
-msgid "Title of the feed."
-msgstr "Ο τίτλος της ροής."
-
-#: modules/aggregator/aggregator.install:122
-msgid "URL to the feed."
-msgstr "URL της ροής."
-
-#: modules/aggregator/aggregator.install:128
-msgid "How often to check for new feed items, in seconds."
-msgstr "Συχνότητα ελέγχου για νέα αντικείμενα ροής, σε δευτερόλεπτα."
-
-#: modules/aggregator/aggregator.install:134
-msgid "Last time feed was checked for new items, as Unix timestamp."
-msgstr "Η τελευταία φορά που η ροή έλεγξε για νέα αντικείμενα, ως χρονόσημο UNIX."
-
-#: modules/aggregator/aggregator.install:141
-msgid "The parent website of the feed; comes from the <link> element in the feed."
-msgstr "Ο γονικός ιστοτόπος της ροής που δίνεται από το στοιχείο <link> της ροής."
-
-#: modules/aggregator/aggregator.install:147
-msgid "The parent website's description; comes from the <description> element in the feed."
-msgstr "Η περιγραφή του γονικού ιστοτόπου που προέρχεται από το στοιχείο <description> (περιγραφή) της ροής."
-
-#: modules/aggregator/aggregator.install:153
-msgid "An image representing the feed."
-msgstr "Μια εικόνα που αντιπροσωπεύει την ροή."
-
-#: modules/aggregator/aggregator.install:160
-msgid "Entity tag HTTP response header, used for validating cache."
-msgstr "Κεφαλίδα στοιχείου ταυτότητας HTTP, που χρησιμοποιείται για τον έλεγχο της λανθάνουσας μνήμης."
-
-#: modules/aggregator/aggregator.install:166
-msgid "When the feed was last modified, as a Unix timestamp."
-msgstr "Η τελευταία φορά που ενημερώθηκε η ροή, ως χρονόσημο UNIX."
-
-#: modules/aggregator/aggregator.install:173
-msgid "Number of items to display in the feed's block."
-msgstr "Αριθμός των αντικειμένων που θα εμφανίζονται στο μπλοκ της ροής."
-
-#: modules/aggregator/aggregator.install:184
-msgid "Stores the individual items imported from feeds."
-msgstr "Αποθηκεύει τα μεμονωμένα αντικείμενα που εισήχθησαν από τις ροές."
-
-#: modules/aggregator/aggregator.install:189
-msgid "Primary Key: Unique ID for feed item."
-msgstr "Πρωτεύον Κλειδί: Ταυτότητα αντικειμένου ροής."
-
-#: modules/aggregator/aggregator.install:195
-msgid "The {aggregator_feed}.fid to which this item belongs."
-msgstr "Το {aggregator_feed}.fid στο οποίο ανήκει το αντικείμενο."
-
-#: modules/aggregator/aggregator.install:202
-msgid "Title of the feed item."
-msgstr "Ο τίτλος του αντικειμένου ροής."
-
-#: modules/aggregator/aggregator.install:209
-msgid "Link to the feed item."
-msgstr "Ο σύνδεσμος προς το αντικείμενο ροής."
-
-#: modules/aggregator/aggregator.install:216
-msgid "Author of the feed item."
-msgstr "Δημιουργός του αντικειμένου ροής."
-
-#: modules/aggregator/aggregator.install:222
-msgid "Body of the feed item."
-msgstr "Κορμός του αντικειμένου ροής."
-
-#: modules/aggregator/aggregator.install:227
-msgid "Post date of feed item, as a Unix timestamp."
-msgstr "Δημοσίευση αντικειμένων ροής, ως χρονόσημο UNIX. "
-
-#: modules/aggregator/aggregator.install:233
-msgid "Unique identifier for the feed item."
-msgstr "Ταυτότητα του αντικειμένου ροής."

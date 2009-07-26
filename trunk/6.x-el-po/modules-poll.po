@@ -1,14 +1,17 @@
-#, fuzzy
+# translation of modules-poll.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: general\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-01-13 23:46+0200\n"
-"Last-Translator: Stavros Temertzidis <bullgr@gmail.com>\n"
-"Language-Team: Greek\n"
+"Project-Id-Version: modules-poll\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 15:14+0300\n"
+"Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
+"Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/poll/poll-bar.tpl.php:25 modules/poll/poll.pages.inc:20
 msgid "1 vote"
@@ -33,7 +36,7 @@ msgstr "έχει κλείσει"
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr "Αυτός ο πίνακας περιέχει όλες τις καταγεγραμένες ψήφους γι' αυτή την ψηφοφορία. Αν επιτρέπεται η ψηφοφορία και από ανώνυμους χρήστες, αυτοί θα ταυτοποιούνται με βάση τη διεύθυνση IP του υπολογιστή που χρησιμοποίησαν για να ψηφίσουν."
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:573
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:566
 msgid "Vote"
 msgstr "Ψήφος"
 
@@ -93,59 +96,59 @@ msgstr "Διάρκεια ψηφοφορίας"
 msgid "After this period, the poll will be closed automatically."
 msgstr "Μετά από αυτή την περίοδο, η ψηφοφορία θα κλείσει αυτόματα."
 
-#: modules/poll/poll.module:306
+#: modules/poll/poll.module:307
 msgid "Choice @n"
 msgstr "Επιλογή @n"
 
-#: modules/poll/poll.module:314
+#: modules/poll/poll.module:315
 msgid "Votes for choice @n"
 msgstr "Ψήφοι υπέρ της επιλογής @n"
 
-#: modules/poll/poll.module:387
+#: modules/poll/poll.module:380
 msgid "Negative values are not allowed."
 msgstr "Δεν επιτρέπονται αρνητικές τιμές."
 
-#: modules/poll/poll.module:392
+#: modules/poll/poll.module:385
 msgid "You must fill in at least two choices."
 msgstr "Πρέπει να συμπληρώσετε τουλάχιστον δύο επιλογές."
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:506
 msgid "Older polls"
 msgstr "Παλαιότερες ψηφοφορίες"
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:506
 msgid "View the list of polls on this site."
 msgstr "Δείτε τη λίστα των ψηφοφοριών σ' αυτό τον ιστοτόπο."
 
-#: modules/poll/poll.module:515;98
+#: modules/poll/poll.module:508;98
 msgid "Results"
 msgstr "Αποτελέσματα"
 
-#: modules/poll/poll.module:515
+#: modules/poll/poll.module:508
 msgid "View the current poll results."
 msgstr "Δείτε τα τρέχοντα αποτελέσματα της ψηφοφορίας."
 
-#: modules/poll/poll.module:595
+#: modules/poll/poll.module:588
 msgid "Your vote could not be recorded because you did not select any of the choices."
 msgstr "Η ψήφος σας δεν καταγράφηκε γιατί δεν κάνατε καμία επιλογή."
 
-#: modules/poll/poll.module:618
+#: modules/poll/poll.module:611
 msgid "Your vote was recorded."
 msgstr "Η ψήφος σας καταγράφηκε."
 
-#: modules/poll/poll.module:674
+#: modules/poll/poll.module:667
 msgid "Add another choice"
 msgstr "Προσθήκη επιλογής"
 
-#: modules/poll/poll.module:678
+#: modules/poll/poll.module:671
 msgid "Choice"
 msgstr "Επιλογή"
 
-#: modules/poll/poll.module:679
+#: modules/poll/poll.module:672
 msgid "Vote count"
 msgstr "Σύνολο ψήφων"
 
-#: modules/poll/poll.module:761
+#: modules/poll/poll.module:754
 msgid "Cancel your vote"
 msgstr "Ακύρωση της ψήφου σας"
 
@@ -193,66 +196,3 @@ msgstr "Ψήφοι"
 msgid "Javascript Choice Form"
 msgstr "Φόρμα επιλογών Javascript"
 
-#: modules/poll/poll.module:0
-msgid "poll"
-msgstr "ψηφοφορία"
-
-#: modules/poll/poll.install:25
-msgid "Stores poll-specific information for poll nodes."
-msgstr "Αποθηκεύει πληροφορίες σχετικές με τις ψηφοφορίες."
-
-#: modules/poll/poll.install:32
-msgid "The poll's {node}.nid."
-msgstr "Το {node}.nid της ψηφοφορίας."
-
-#: modules/poll/poll.install:38
-msgid "The number of seconds past {node}.created during which the poll is open."
-msgstr "Ο χρόνος σε δευτερόλεπτα μετά το {node}.created κατά τον οποίο η ψηφοφορία είναι ανοιχτή."
-
-#: modules/poll/poll.install:45
-msgid "Boolean indicating whether or not the poll is open."
-msgstr "Η Boolean έκφραση που δείχνει αν μια ψηφοφορία είναι ανοικτή ή όχι."
-
-#: modules/poll/poll.install:52
-msgid "Stores information about all choices for all {poll}s."
-msgstr "Αποθηκεύει πληροφορίες για τις επιλογές όλων των ψηφοφοριών."
-
-#: modules/poll/poll.install:58
-msgid "Unique identifier for a poll choice."
-msgstr "Μοναδικό προσδιοριστικό για την επιλογή ψηφοφορίας."
-
-#: modules/poll/poll.install:65
-msgid "The {node}.nid this choice belongs to."
-msgstr "Το {node}.nid της επιλογής."
-
-#: modules/poll/poll.install:72
-msgid "The text for this choice."
-msgstr "Το κείμενο για την επιλογή αυτή."
-
-#: modules/poll/poll.install:78
-msgid "The total number of votes this choice has received by all users."
-msgstr "Ο συνολικός αριθμός ψήφων που έλαβε η συγκεκριμένη επιλογή από όλους τους χρήστες."
-
-#: modules/poll/poll.install:84
-msgid "The sort order of this choice among all choices for the same node."
-msgstr "Ο τρόπος κατάταξης αυτής της επιλογής μεταξύ όλων των επιλογών του ίδιου κόμβου."
-
-#: modules/poll/poll.install:94
-msgid "Stores per-{users} votes for each {poll}."
-msgstr "Αποθηκεύει τις ανά {users} ψήφους για κάθε {poll}."
-
-#: modules/poll/poll.install:100
-msgid "The {poll} node this vote is for."
-msgstr "Ο κόμβος {poll} για τον οποίο είναι αυτή η ψήφος"
-
-#: modules/poll/poll.install:107
-msgid "The {users}.uid this vote is from unless the voter was anonymous."
-msgstr "Το {users}.uid από το οποίο προέρχεται αυτή η ψήφος, εκτός κι αν ο ψηφοφόρος ήταν ανώνυμος."
-
-#: modules/poll/poll.install:113
-msgid "The {users}'s vote for this poll."
-msgstr "Η ψήφος του χρήστη {users} για αυτήν τη ψηφοφορία."
-
-#: modules/poll/poll.install:120
-msgid "The IP address this vote is from unless the voter was logged in."
-msgstr "Η διεύθυνση IP από όπου προέρχεται η ψήφος αν ο ψηφοφόρος δεν είχε συνδεθεί στο σύστημα."

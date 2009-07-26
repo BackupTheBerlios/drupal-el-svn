@@ -1,13 +1,17 @@
+# translation of modules-system.po to Greek
+# Vasileios Lourdas <drupal@lourdas.name>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-system\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
-"PO-Revision-Date: 2008-09-10 00:13+0300\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2009-07-26 14:40+0300\n"
 "Last-Translator: Vasileios Lourdas <drupal@lourdas.name>\n"
 "Language-Team: Greek <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/system/system.admin.inc:22
 msgid "One or more problems were detected with your Drupal installation. Check the <a href=\"@status\">status report</a> for more information."
@@ -41,11 +45,11 @@ msgstr "Χρησιμοποίηση της θεματικής παραλλαγή�
 msgid "Use the administration theme when editing existing posts or creating new ones."
 msgstr "Χρησιμοποίηση της θεματικής παραλλαγής διαχείρισης κατά την επεξεργασία καταχωρήσεων που υπάρχουν ήδη ή δημιουργία νέων."
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:721
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
 msgid "Screenshot for %theme theme"
 msgstr "Δείγμα της θεματικής παραλλαγής %theme"
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:721
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
 msgid "no screenshot"
 msgstr "δεν υπάρχει δείγμα εικόνας"
 
@@ -54,7 +58,7 @@ msgid "Please note that the <a href=\"!admin_theme_page\">administration theme</
 msgstr "Προσέξτε ότι <a href=\"!admin_theme_page\">η θεματική παραλλαγή διαχείρισης</a> είναι ακόμα ορισμένη στην παραλλαγή %admin_theme· με συνέπεια η εμφάνιση αυτών των σελίδων να παραμείνει αναλλοίωτη. Όλες οι υπόλοιπες σελίδες όμως θα έχουν ως προεπιλογή την παραλλαγή %selected_theme."
 
 #: modules/system/system.admin.inc:306;555;933
-#: modules/system/system.module:1071
+#: modules/system/system.module:1062
 msgid "The configuration options have been saved."
 msgstr "Οι επιλογές διευθέτησης αποθηκεύτηκαν."
 
@@ -186,21 +190,21 @@ msgstr "Ρυθμίσεις για τη συγκεκριμένη θεματική
 msgid "These settings only exist for the %theme theme and all the styles based on it."
 msgstr "Οι ρυθμίσεις αυτές υπάρχουν μόνο για τη θεματική παραλλαγή %theme και για όλα τα στυλ που βασίζονται σε αυτή."
 
-#: modules/system/system.admin.inc:549 modules/system/system.module:1068
+#: modules/system/system.admin.inc:549 modules/system/system.module:1059
 msgid "The configuration options have been reset to their default values."
 msgstr "Οι επιλογές διευθέτησης επανήλθαν στις αρχικές τους τιμές."
 
 #: modules/system/system.admin.inc:683;715
-msgid " (<span class=\"admin-disabled\">disabled</span>)"
-msgstr " (<span class=\"admin-disabled\">ανενεργό</span>)"
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr "@module (<span class=\"admin-disabled\">απενεργοποιημένο</span>)"
 
 #: modules/system/system.admin.inc:686
-msgid " (<span class=\"admin-missing\">missing</span>)"
-msgstr " (<span class=\"admin-missing\">απουσιάζει</span>)"
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr "@module (<span class=\"admin-missing\">απουσιάζει</span>)"
 
 #: modules/system/system.admin.inc:692;710
-msgid " (<span class=\"admin-enabled\">enabled</span>)"
-msgstr " (<span class=\"admin-enabled\">ενεργοποιημένο</span>)"
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr "@module (<span class=\"admin-enabled\">ενεργοποιημένο</span>)"
 
 #: modules/system/system.admin.inc:699
 msgid "Depends on: !dependencies"
@@ -499,7 +503,7 @@ msgstr "Καθολική ρύθμιση για την εξ' ορισμού εμ�
 msgid "Custom format"
 msgstr "Προσαρμοσμένη μορφή"
 
-#: modules/system/system.admin.inc:1494 modules/system/system.module:567
+#: modules/system/system.admin.inc:1494 modules/system/system.module:558
 msgid "Locale settings"
 msgstr "Τοπικές ρυθμίσεις"
 
@@ -881,171 +885,171 @@ msgstr "Μια προχωρημένη ενέργεια παρέχει πρόσθ
 msgid "Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on drupal.org's support forums and project issue queues."
 msgstr "Εδώ μπορείτε να βρείτε μια σύντομη σύνοψη των παραμέτρων του ιστοτόπου σας, όπως επίσης και οποιαδήποτε προβλήματα που έχουν εντοπιστεί στην εγκατάστασή σας. Είναι πιθανόν χρήσιμο να αντιγράψετε και να επικολλήσετε την πληροφορία αυτή σε αιτήσεις υποστήριξης που υποβάλλετε στα φόρα υποστήριξης του drupal.org και στις ουρές θεμάτων των έργων."
 
-#: modules/system/system.module:561
+#: modules/system/system.module:552
 msgid "Selecting a different theme will change the look and feel of the site."
 msgstr "Με την επιλογή διαφορετικής θεματικής παραλλαγής αλλάζει η όψη και η αισθητική του ιστοτόπου."
 
-#: modules/system/system.module:573
+#: modules/system/system.module:564
 msgid "Time zone"
 msgstr "Ζώνη ώρας"
 
-#: modules/system/system.module:576
+#: modules/system/system.module:567
 msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
 msgstr "Επιλέξτε την τρέχουσα τοπική ώρα σας. Οι ημερομηνίες και οι ώρες σε ολόκληρο τον ιστοτόπο θα εμφανίζονται χρησιμοποιώντας αυτή τη ζώνη ώρας."
 
-#: modules/system/system.module:593
+#: modules/system/system.module:584
 msgid "Powered by Drupal"
 msgstr "Βασισμένο στο Drupal"
 
-#: modules/system/system.module:603
+#: modules/system/system.module:594
 msgid "Badge color"
 msgstr "Χρώμα διακριτικού σήματος"
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Black"
 msgstr "Μαύρο"
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Blue"
 msgstr "Μπλε"
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Gray"
 msgstr "Γκρι"
 
-#: modules/system/system.module:609
+#: modules/system/system.module:600
 msgid "Badge size"
 msgstr "Μέγεθος διακριτικού σήματος"
 
-#: modules/system/system.module:611
+#: modules/system/system.module:602
 msgid "Small"
 msgstr "Μικρό"
 
-#: modules/system/system.module:611
+#: modules/system/system.module:602
 msgid "Large"
 msgstr "Μεγάλο"
 
-#: modules/system/system.module:701
+#: modules/system/system.module:692
 msgid "Theme configuration"
 msgstr "Διευθέτηση θεματικής παραλλαγής"
 
-#: modules/system/system.module:724
+#: modules/system/system.module:715
 msgid "(site default theme)"
 msgstr "(προεπιλεγμένη θεματική παραλλαγή του ιστοτόπου)"
 
-#: modules/system/system.module:1037
+#: modules/system/system.module:1028
 msgid "The settings have not been saved because of the errors."
 msgstr "Οι ρυθμίσεις δεν αποθηκεύτηκαν επειδή υπάρχουν σφάλματα."
 
-#: modules/system/system.module:1208
+#: modules/system/system.module:1199
 msgid "Configure permissions"
 msgstr "Ρύθμιση αδειών πρόσβασης"
 
-#: modules/system/system.module:1262
+#: modules/system/system.module:1253
 msgid "When cron runs"
 msgstr "Κατά την εκτέλεση του cron"
 
-#: modules/system/system.module:1276
+#: modules/system/system.module:1267
 msgid "Display a message to the user"
 msgstr "Εμφάνιση μηνύματος στο χρήστη"
 
-#: modules/system/system.module:1297
+#: modules/system/system.module:1288
 msgid "Redirect to URL"
 msgstr "Ανακατεύθυνση σε URL"
 
-#: modules/system/system.module:1317
+#: modules/system/system.module:1308
 msgid "Choose an advanced action"
 msgstr "Επιλογή μιας προχωρημένης ενέργειας"
 
-#: modules/system/system.module:1332
+#: modules/system/system.module:1323
 msgid "Action type"
 msgstr "Τύπος ενέργειας"
 
-#: modules/system/system.module:1352
+#: modules/system/system.module:1343
 msgid "Actions available to Drupal:"
 msgstr "Ενέργειες διαθέσιμες στο Drupal:"
 
-#: modules/system/system.module:1378
+#: modules/system/system.module:1369
 msgid "Make a new advanced action available"
 msgstr "Κάντε μια νέα προχωρημένη ενέργεια διαθέσιμη"
 
-#: modules/system/system.module:1390
+#: modules/system/system.module:1381
 msgid "Create"
 msgstr "Δημιουργία"
 
-#: modules/system/system.module:1457
+#: modules/system/system.module:1448
 msgid "A unique description for this advanced action. This description will be displayed in the interface of modules that integrate with actions, such as Trigger module."
 msgstr "Μια μοναδική περιγραφή για την προχωρημένη ενέργεια. Η περιγραφή αυτή θα εμφανίζεται στη διεπαφή των μονάδων που αφομοιώνονται με τις ενέργειες, όπως η μονάδα Trigger."
 
-#: modules/system/system.module:1513
+#: modules/system/system.module:1504
 msgid "The action has been successfully saved."
 msgstr "Η ενέργεια αποθηκεύτηκε."
 
-#: modules/system/system.module:1531
+#: modules/system/system.module:1522
 msgid "Are you sure you want to delete the action %action?"
 msgstr "Θέλετε σίγουρα να διαγράψετε την ενέργεια %action;"
 
-#: modules/system/system.module:1533
+#: modules/system/system.module:1524
 msgid "This cannot be undone."
 msgstr "Η ενέργεια αυτή δεν μπορεί να αναιρεθεί."
 
-#: modules/system/system.module:1549
+#: modules/system/system.module:1540
 msgid "Action %action was deleted"
 msgstr "Η ενέργεια %action διαγράφηκε"
 
-#: modules/system/system.module:1561
+#: modules/system/system.module:1552
 msgid "Deleted orphaned action (%action)."
 msgstr "Η ορφανή ενέργεια (%action) διαγράφηκε."
 
-#: modules/system/system.module:1597
+#: modules/system/system.module:1588
 msgid "Recipient"
 msgstr "Παραλήπτης"
 
-#: modules/system/system.module:1600
+#: modules/system/system.module:1591
 msgid "The email address to which the message should be sent OR enter %author if you would like to send an e-mail to the author of the original post."
 msgstr "Η διεύθυνση e-mail στην οποία θα σταλεί το μήνυμα Ή εισάγετε %author αν επιθυμείτε να αποστέλλεται το e-mail στο συγγραφέα της αρχικής καταχώρησης."
 
-#: modules/system/system.module:1607
+#: modules/system/system.module:1598
 msgid "The subject of the message."
 msgstr "Το κείμενο του μηνύματος."
 
-#: modules/system/system.module:1615
+#: modules/system/system.module:1606
 msgid "The message that should be sent. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr "Το μήνυμα που πρέπει να σταλεί. Μπορείτε να συμπεριλάβετε τις παρακάτω μεταβλητές: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Δεν είναι διαθέσιμες όλες οι μεταβλητές σε όλα τα γενικά πλαίσια."
 
-#: modules/system/system.module:1628
+#: modules/system/system.module:1619
 msgid "Please enter a valid email address or %author."
 msgstr "Πρέπει να εισάγετε μια έγκυρη διεύθυνση e-mail ή %author."
 
-#: modules/system/system.module:1761
+#: modules/system/system.module:1752
 msgid "The message to be displayed to the current user. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr "Το μήνυμα που θα εμφανιστεί στο τρέχων χρήστη. Μπορείτε να συμπεριλάβετε τις παρακάτω μεταβλητές: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Δεν είναι διαθέσιμες όλες οι μεταβλητές σε όλα τα γενικά πλαίσια."
 
-#: modules/system/system.module:1834
+#: modules/system/system.module:1825
 msgid "The URL to which the user should be redirected. This can be an internal URL like node/1234 or an external URL like http://drupal.org."
 msgstr "Η διεύθυνση URL στην οποία θα ανακατευθυνθεί ο χρήστης. Μπορεί να είναι εσωτερική διεύθυνση όπως node/1234 ή μια εξωτερική διεύθυνση URL όπως http://drupal.org."
 
-#: modules/system/system.module:1897;1897
+#: modules/system/system.module:1882;1882
 msgid "Powered by Drupal, an open source content management system"
 msgstr "Βασισμένο στο Drupal, ένα ανοικτού λογισμικού σύστημα διαχείρισης περιεχομένου"
 
-#: modules/system/system.module:1241
+#: modules/system/system.module:1232
 msgid "Could not delete temporary file \"%path\" during garbage collection"
 msgstr "Δεν ήταν δυνατή η διαγραφή του προσωρινού αρχείου \"%path\" κατά την εκτέλεση της συλλογής απορριμάτων"
 
-#: modules/system/system.module:1548
+#: modules/system/system.module:1539
 msgid "Deleted action %aid (%action)"
 msgstr "Η ενέργεια %aid (%action) διαγράφηκε"
 
-#: modules/system/system.module:1675
+#: modules/system/system.module:1666
 msgid "Cannot use %author token in this context."
 msgstr "Δεν είναι δυνατή η χρησιμοποίηση του κουπονιού %author σε αυτό το γενικό πλαίσιο."
 
-#: modules/system/system.module:1706
+#: modules/system/system.module:1697
 msgid "Sent email to %recipient"
 msgstr "Στάλθηκε e-mail στον %recipient"
 
-#: modules/system/system.module:1709
+#: modules/system/system.module:1700
 msgid "Unable to send email to %recipient"
 msgstr "Δεν ήταν δυνατή η αποστολή e-mail στον %recipient"
 
@@ -1247,485 +1251,45 @@ msgid "Clean URL check"
 msgstr "Έλεγχος καθαρών διευθύνσεων URL"
 
 #: modules/system/system.module:474
-msgid "Request test"
-msgstr "Αίτηση ελέγχου"
-
-#: modules/system/system.module:483
 msgid "Reports"
 msgstr "Αναφορές"
 
-#: modules/system/system.module:484
+#: modules/system/system.module:475
 msgid "View reports from system logs and other status information."
 msgstr "Εμφάνιση αναφορών από τα ημερολόγια συστήματος και άλλων πληροφοριών κατάστασης."
 
-#: modules/system/system.module:492
+#: modules/system/system.module:483
 msgid "Status report"
 msgstr "Αναφορά κατάστασης"
 
-#: modules/system/system.module:493
+#: modules/system/system.module:484
 msgid "Get a status report about your site's operation and any detected problems."
 msgstr "Αναφορά κατάστασης λειτουργίας του ιστοτόπου και αναφορά σφαλμάτων."
 
-#: modules/system/system.module:500
+#: modules/system/system.module:491
 msgid "Run cron"
 msgstr "Εκτέλεση του cron"
 
-#: (duplicate) modules/system/system.module:507
+#: (duplicate) modules/system/system.module:498
 #: modules/system/system.install:36
 msgid "PHP"
 msgstr "PHP"
 
-#: modules/system/system.module:514
+#: modules/system/system.module:505
 msgid "SQL"
 msgstr "SQL"
-
-#: modules/system/system.module:0
-msgid "system"
-msgstr "σύστημα"
 
 #: modules/system/system.module:0
 msgid "Footer"
 msgstr "Υποσέλιδο"
 
-#: modules/system/system.install:417
-msgid "Named variable/value pairs created by Drupal core or any other module or theme. All variables are cached in memory at the start of every Drupal request so developers should not be careless about what is stored here."
-msgstr "Ονοματισμένα ζεύγη τύπου μεταβλητή/τιμή που δημιουργεί ο πυρήνας του Drupal ή οποιαδήποτε άλλη μονάδα ή θεματική παραλλαγή. Όλες οι μεταβλητές αποθηκεύονται στην λανθάνουσα μνήμη στην αρχή κάθε αίτησης για το Drupal, ώστε να μην ενδιαφέρει τους προγραμματιστές τι αποθηκεύεται εκεί."
+#: modules/system/system.install:67
+msgid "-1 (Unlimited)"
+msgstr "-1 (Άπειρα)"
 
-#: modules/system/system.install:420
-msgid "The name of the variable."
-msgstr "Το όνομα της μεταβλητής."
-
-#: modules/system/system.install:426
-msgid "The value of the variable."
-msgstr "Η τιμή της μεταβλητής."
-
-#: modules/system/system.install:435
-msgid "Stores action information."
-msgstr "Αποθηκεύει πληροφορίες σχετικά με μια ενέργεια."
-
-#: modules/system/system.install:438;474
-msgid "Primary Key: Unique actions ID."
-msgstr "Πρωτεύων Κλειδί: Μοναδικό αναγνωριστικό ενεργειών."
-
-#: modules/system/system.install:444
-msgid "The object that that action acts on (node, user, comment, system or custom types.)"
-msgstr "Το αντικείμενο στο οποίο δρα μια ενέργεια (κόμβος, χρήστης, σχόλιο, σύστημα ή προσαρμοσμένοι τύποι.)"
-
-#: modules/system/system.install:450
-msgid "The callback function that executes when the action runs."
-msgstr "Η callback συνάρτητη που καλείται όταν εκτελείται η ενέργεια."
-
-#: modules/system/system.install:456
-msgid "Parameters to be passed to the callback function."
-msgstr "Παράμετροι που θα περαστούν στη συνάρτηση callback."
-
-#: modules/system/system.install:461
-msgid "Description of the action."
-msgstr "Περιγραφή της ενέργειας."
-
-#: modules/system/system.install:471
-msgid "Stores action IDs for non-default actions."
-msgstr "Αποθηκεύει τα αναγνωριστικά για τις μη εξ' ορισμού ενέργειες."
-
-#: modules/system/system.install:483
+#: modules/system/system.install:497
 msgid "Stores details about batches (processes that run in multiple HTTP requests)."
 msgstr "Αποθηκεύει πληροφορίες σχετικά με τα batch (διεργασίες που εκτελούνται σε πολλαπλές αιτήσεις HTTP)."
-
-#: modules/system/system.install:486
-msgid "Primary Key: Unique batch ID."
-msgstr "Πρωτεύον Κλειδί: Μοναδικό αναγνωριστικό batch."
-
-#: modules/system/system.install:491
-msgid "A string token generated against the current user's session id and the batch id, used to ensure that only the user who submitted the batch can effectively access it."
-msgstr "Ένα κουπόνι αλφαριθμητικού που δημιουργείται με βάση το αναγνωριστικό συνόδου του τρέχοντος χρήστη και το αναγνωριστικό batch, που χρησιμοποιείται για να διασφαλίσει το ότι μόνο ο χρήστης που υπέβαλλε το batch μπορεί και να το προσπελάσει."
-
-#: modules/system/system.install:496
-msgid "A Unix timestamp indicating when this batch was submitted for processing. Stale batches are purged at cron time."
-msgstr "Μια χρονική ετικέτα τύπου Unix που δείχνει πότε το batch υποβλήθηκε για επεξεργασία. Τα \"μπαγιάτικα\" batch διαγράφονται κατά το χρόνο του cron."
-
-#: modules/system/system.install:500
-msgid "A serialized array containing the processing data for the batch."
-msgstr "Ένας σειριοποιημένος πίνακας που περιέχει τα δεδομένα επεξεργασίας για το batch."
-
-#: modules/system/system.install:510
-msgid "Generic cache table for caching things not separated out into their own tables. Contributed modules may also use this to store cached items."
-msgstr "Ένας γενικός πίνακας λανθάνουσας μνήμης για την αποθήκευση πραγμάτων που δεν υπάρχουν στους δικούς τους πίνακες. Οι μονάδες που συνεισφέρουν οι τρίτοι μπορούν να τον χρησιμοποιούν για την αποθήκευση αντικειμένων."
-
-#: modules/system/system.install:513
-msgid "Primary Key: Unique cache ID."
-msgstr "Πρωτεύων Κλειδί: Μοναδικό αναγνωριστικό λανθάνουσας μνήμης."
-
-#: modules/system/system.install:519
-msgid "A collection of data to cache."
-msgstr "Μια συλλογή από δεδομένα για τη λανθάνουσα μνήμη."
-
-#: modules/system/system.install:524
-msgid "A Unix timestamp indicating when the cache entry should expire, or 0 for never."
-msgstr "Μια χρονική ετικέτα τύπου Unix που δείχνει πότε η λανθάνουσα μνήμη θα πρέπει να λήξει, ή 0 για ποτέ."
-
-#: modules/system/system.install:529
-msgid "A Unix timestamp indicating when the cache entry was created."
-msgstr "Μια χρονική ετικέτα τύπου Unix που δείχνει πότε δημιουργήθηκε η εγγραφή της λανθάνουσας μνήμης."
-
-#: modules/system/system.install:534
-msgid "Any custom HTTP headers to be added to cached data."
-msgstr "Οποιαδήποτε κεφαλίδα HTTP που προστίθεται στα δεδομένα λανθάνουσας μνήμης."
-
-#: modules/system/system.install:538
-msgid "A flag to indicate whether content is serialized (1) or not (0)."
-msgstr "Μια σήμανση που δείχνει αν το περιεχόμενο είναι σειριοποιημένο (1) ή όχι (0)."
-
-#: modules/system/system.install:549
-msgid "Cache table for the form system to store recently built forms and their storage data, to be used in subsequent page requests."
-msgstr "Πίνακας λανθάνουσας μνήμης για το σύστημα φορμών που αποθηκεύει πρόσφατα δημιουργημένες φόρμες και τα δεδομένα αποθήκευσής τους, για να χρησιμοποιείται σε συνεχείς αιτήσεις σελίδων."
-
-#: modules/system/system.install:551
-msgid "Cache table used to store compressed pages for anonymous users, if page caching is enabled."
-msgstr "Πίνακας λανθάνουσας μνήμης για την αποθήκευση συμπιεσμένων σελίδων για τους ανώνυμους χρήστες, αν είναι ενεργοποιημένη η λανθάνουσα μνήμη σελιδας."
-
-#: modules/system/system.install:553
-msgid "Cache table for the menu system to store router information as well as generated link trees for various menu/page/user combinations."
-msgstr "Πίνακας λανθάνουσας μνήμης για το σύστημα μενού για την αποθήκευση πληροφοριών δρομολόγησης όπως επίσης και των δημιουργημένων δέντρων συνδέσμων για διάφορους συνδυασμούς μενού/σελίδας/χρήστη."
-
-#: modules/system/system.install:556
-msgid "Stores information for uploaded files."
-msgstr "Αποθηκεύει πληροφορίες σχετικά με απεσταλθέντα αρχεία."
-
-#: modules/system/system.install:559
-msgid "Primary Key: Unique files ID."
-msgstr "Πρωτεύων Κλειδί: Μοναδικό αναγνωριστικό αρχείου."
-
-#: modules/system/system.install:570
-msgid "Name of the file."
-msgstr "Το όνομα του αρχείου."
-
-#: modules/system/system.install:582
-msgid "The file MIME type."
-msgstr "Ο τύπος MIME του αρχείου."
-
-#: modules/system/system.install:594
-msgid "A flag indicating whether file is temporary (1) or permanent (0)."
-msgstr "Μια σήμανση που δείχνει αν το αρχείο είναι προσωρινό (1) ή μόνιμο (0)."
-
-#: modules/system/system.install:599
-msgid "UNIX timestamp for when the file was added."
-msgstr "Μια χρονική ετικέτα τύπου Unix του πότε προστέθηκε το αρχείο."
-
-#: modules/system/system.install:614
-msgid "Flood controls the threshold of events, such as the number of contact attempts."
-msgstr "Το ξεχείλισμα ελέγχει το κατώφλι των συμβάντων, όπως ο αριθμός των προσπαθειών επικοινωνίας."
-
-#: modules/system/system.install:617
-msgid "Unique flood event ID."
-msgstr "Μοναδικό αναγνωριστικό συμβάντος."
-
-#: modules/system/system.install:621
-msgid "Name of event (e.g. contact)."
-msgstr "Όνομα συμβάντος (πχ. επαφή)."
-
-#: modules/system/system.install:627
-msgid "Hostname of the visitor."
-msgstr "Το όνομα υπολογιστή του επισκέπτη."
-
-#: modules/system/system.install:633
-msgid "Timestamp of the event."
-msgstr "Χρονική ετικέτα του συμβάντος."
-
-#: modules/system/system.install:645
-msgid "A record of which {users} have read which {node}s."
-msgstr "Μια εγγραφή του τι {node} έχουν διαβάσει οι {users}."
-
-#: modules/system/system.install:648
-msgid "The {users}.uid that read the {node} nid."
-msgstr "Το {users}.uid που ανάγνωσε το {node} nid."
-
-#: modules/system/system.install:653
-msgid "The {node}.nid that was read."
-msgstr "Το {node}.nid που αναγνώστηκε."
-
-#: modules/system/system.install:658
-msgid "The Unix timestamp at which the read occurred."
-msgstr "Η χρονική ετικέτα τύπου Unix της στιγμής που έγινε η ανάγνωση."
-
-#: modules/system/system.install:669
-msgid "Maps paths to various callbacks (access, page and title)"
-msgstr "Αντιστοιχεί διαδρομές σε διάφορα callback (πρόσβαση, σελίδα και τίτλος)"
-
-#: modules/system/system.install:672
-msgid "Primary Key: the Drupal path this entry describes"
-msgstr "Πρωτεύον Κλειδί: η διαδρομή Drupal που περιγράφει η εγγραφή αυτή"
-
-#: modules/system/system.install:678
-msgid "A serialized array of function names (like node_load) to be called to load an object corresponding to a part of the current path."
-msgstr "Ένας σειριοποιημένος πίνακας από ονόματα συναρτήσεων (όπως node_load) που θα καλούνται για τη φόρτωση ενός αντικειμένου που αντιστοιχεί σε ένα τμήμα της τρέχουσας διαδρομής."
-
-#: modules/system/system.install:684
-msgid "A serialized array of function names (like user_uid_optional_to_arg) to be called to replace a part of the router path with another string."
-msgstr "Ένας σειριοποιημένος πίνακας από ονόματα συναρτήσεων (όπως user_uid_optional_to_arg) που θα καλούνται για την αντικατάσταση τμήματος μια διαδρομής δρομολόγησης με άλλο αλφαριθμητικό."
-
-#: modules/system/system.install:690
-msgid "The callback which determines the access to this router path. Defaults to user_access."
-msgstr "Η συνάρτηση callback που καθορίζει την πρόσβαση σε αυτή τη διαδρομή δρομολόγησης. Εξ' ορισμού είναι η user_access."
-
-#: modules/system/system.install:696
-msgid "A serialized array of arguments for the access callback."
-msgstr "Ένας σειριοποιημένος πίνακας ορισμάτων για τη συνάρτηση callback της πρόσβασης."
-
-#: modules/system/system.install:700
-msgid "The name of the function that renders the page."
-msgstr "Το όνομα της συνάρτησης που αποδίδει τη σελίδα."
-
-#: modules/system/system.install:706
-msgid "A serialized array of arguments for the page callback."
-msgstr "Ένας σειριοποιημένος πίνακας ορισμάτων για τη συνάρτηση callback σελίδας."
-
-#: modules/system/system.install:710
-msgid "A numeric representation of how specific the path is."
-msgstr "Αριθμητική απεικόνιση του πόσο ειδική είναι μια διαδρομή."
-
-#: modules/system/system.install:715
-msgid "Number of parts in this router path."
-msgstr "Ο αριθμός των μερών σε αυτή τη διαδρομή δρομολόγησης."
-
-#: modules/system/system.install:721
-msgid "Only for local tasks (tabs) - the router path of the parent page (which may also be a local task)."
-msgstr "Μόνο για τοπικές εργασίες (καρτέλες) - η διαδρομή δρομολόγησης της γονικής σελίδας (που μπορεί επίσης να είναι μια τοπική εργασία)."
-
-#: modules/system/system.install:727
-msgid "Router path of the closest non-tab parent page. For pages that are not local tasks, this will be the same as the path."
-msgstr "Η διαδρομή δρομολόγησης της πιο κοντινής γονικής μη-καρτέλα σελίδας. Για τις σελίδες που δεν είναι τοπικές εργασίες, αυτή θα είναι η ίδια με τη διαδρομή."
-
-#: modules/system/system.install:733
-msgid "The title for the current page, or the title for the tab if this is a local task."
-msgstr "Ο τίτλος της τρέχουσας σελίδας, ή ο τίτλος της καρτέλας αν αυτή είναι μια τοπική εργασία."
-
-#: modules/system/system.install:739
-msgid "A function which will alter the title. Defaults to t()"
-msgstr "Μια συνάρτηση που θα τροποποιήσει τον τίτλο. Εξ' ορισμού είναι η t()"
-
-#: modules/system/system.install:745
-msgid "A serialized array of arguments for the title callback. If empty, the title will be used as the sole argument for the title callback."
-msgstr "Ένας σειριοποιημένος πίνακας απο ορίσματα για τη συνάρτηση callback του τίτλου. Αν είναι κενός, ο τίτλος θα είναι το μόνο όρισμα για τη συνάρτητη callback του τίτλου."
-
-#: modules/system/system.install:751
-msgid "Numeric representation of the type of the menu item, like MENU_LOCAL_TASK."
-msgstr "Αριθμητική απεικόνιση του τύπου του αντικειμένου του μενού, όπως MENU_LOCAL_TASK."
-
-#: modules/system/system.install:756
-msgid "Name of a function used to render the block on the system administration page for this item."
-msgstr "Το όνομα της συνάρτησης που χρησιμοποιείται για την απόδοση του μπλοκ στη σελίδα διαχείρισης του συστήματος για αυτό το αντικείμενο."
-
-#: modules/system/system.install:762
-msgid "A description of this item."
-msgstr "Μια περιγραφή του αντικειμένου."
-
-#: modules/system/system.install:766
-msgid "The position of the block (left or right) on the system administration page for this item."
-msgstr "Η θέση του μπλοκ (αριστερά ή δεξιά) στη σελίδα διαχείρισης για αυτό το αντικείμενο."
-
-#: modules/system/system.install:772
-msgid "Weight of the element. Lighter weights are higher up, heavier weights go down."
-msgstr "Η βαρύτητα του στοιχείου. Τα ελαφρύτερα είναι πιο ψηλά, τα βαρύτερα τοποθετούνται πιο κάτω."
-
-#: modules/system/system.install:777
-msgid "The file to include for this element, usually the page callback function lives in this file."
-msgstr "Το αρχείο που συμπεριλαμβάνεται με αυτό το στοιχείο, συνήθως η συνάρτηση callback της σελίδας υπάρχει σε αυτό το αρχείο."
-
-#: modules/system/system.install:789
-msgid "Contains the individual links within a menu."
-msgstr "Περιέχει τους ξεχωριστούς συνδέσμους μέσα σε ένα μενού."
-
-#: modules/system/system.install:792
-msgid "The menu name. All links with the same menu name (such as 'navigation') are part of the same menu."
-msgstr "Το όνομα του μενού. Όλοι οι σύνδεσμοι με το ίδιο όνομα μενού (όπως 'navigation') είναι μέρη του ίδιου μενού."
-
-#: modules/system/system.install:798
-msgid "The menu link ID (mlid) is the integer primary key."
-msgstr "Το αναγνωριστικό του συνδέσμου του μενού (mlid) είναι ο ακέραιος αριθμός πρωτεύων κλειδί."
-
-#: modules/system/system.install:803
-msgid "The parent link ID (plid) is the mlid of the link above in the hierarchy, or zero if the link is at the top level in its menu."
-msgstr "Το αναγνωριστικό του συνδέσμου γονέα (plid) είναι το mlid του συνδέσμου από πάνω στην ιεραρχία, ή 0 αν ο σύνδεσμος είναι στο πιο πάνω επίπεδο στο μενού του."
-
-#: modules/system/system.install:809
-msgid "The Drupal path or external path this link points to."
-msgstr "Η διαδρομή Drupal ή εξωτερική διαδρομή που δείχνει ο σύνδεσμος αυτός."
-
-#: modules/system/system.install:815
-msgid "For links corresponding to a Drupal path (external = 0), this connects the link to a {menu_router}.path for joins."
-msgstr "Για συνδέσμους που αντιστοιχούν σε διαδρομή του Drupal (external = 0), αυτό συνδέει το σύνδεσμο με ένα {menu_router}.path για συζεύξεις."
-
-#: modules/system/system.install:821
-msgid "The text displayed for the link, which may be modified by a title callback stored in {menu_router}."
-msgstr "Το κείμενο που εμφανίζεται για ένα σύνδεσμο, που μπορεί να τροποποιηθεί από ένα callback τίτλου που αποθηκεύεται στο {menu_router}."
-
-#: modules/system/system.install:827
-msgid "A serialized array of options to be passed to the url() or l() function, such as a query string or HTML attributes."
-msgstr "Ένας σειριοποιημένος πίνακας από παραμέτρους που θα περάσουν στη συνάρτηση url() ή l(), όπως ένα αλφαριθμητικό ερωτήματος ή ιδιότητες HTML."
-
-#: modules/system/system.install:831
-msgid "The name of the module that generated this link."
-msgstr "Το όνομα της μονάδας που δημιούργησε αυτό το σύνδεσμο."
-
-#: modules/system/system.install:837
-msgid "A flag for whether the link should be rendered in menus. (1 = a disabled menu item that may be shown on admin screens, -1 = a menu callback, 0 = a normal, visible link)"
-msgstr "Μια σήμανση που δείχνει αν ο σύνδεσμος πρέπει να αποδοθεί στα μενού. (1 = ένα απενεργοποιημένο αντικείμενο μενού που μπορεί να εμφανίζεται στις οθόνες διαχείρισης, -1 = ένα μενού callback, 0 = ένα κανονικός, ορατός σύνδεσμος)"
-
-#: modules/system/system.install:843
-msgid "A flag to indicate if the link points to a full URL starting with a protocol, like http:// (1 = external, 0 = internal)."
-msgstr "Μια σήμανση που δείχνει αν ο σύνδεσμος δείχνει σε μια πλήρη διεύθυνση URL που ξεκινά με το πρωτόκολλο, όπως http:// (1 = εξωτερικός, 0 = εσωτερικός)."
-
-#: modules/system/system.install:849
-msgid "Flag indicating whether any links have this link as a parent (1 = children exist, 0 = no children)."
-msgstr "Μια σήμασνη που δείχνει αν οποιοιδήποτε σύνδεσμοι έχουν αυτό το σύνδεσμο ως γονέα (1 = υπάρχουν παιδιά, 0 = όχι παιδιά)."
-
-#: modules/system/system.install:855
-msgid "Flag for whether this link should be rendered as expanded in menus - expanded links always have their child links displayed, instead of only when the link is in the active trail (1 = expanded, 0 = not expanded)"
-msgstr "Μια σήμασνη που δείχνει αν ο σύνδεσμος αυτός πρέπει να αποδοθεί ως ξεδιπλωμένος στα μενού - οι ξεδιπλωμένοι σύνδεσμοι έχουν να εμφανίζονται πάντα τα παιδιά τους σύνδεσμοι, αντί μόνο όταν ο σύνδεσμος είναι στο ενεργό μονοπάτι (1 = ξεδιπλωμένος, 0 = όχι ξεδιπλωμένος)"
-
-#: modules/system/system.install:861
-msgid "Link weight among links in the same menu at the same depth."
-msgstr "Η βαρύτητα συνδέσμου μεταξύ συνδέσμων στο ίδιο μενού και στο ίδιο βάθος."
-
-#: modules/system/system.install:866
-msgid "The depth relative to the top level. A link with plid == 0 will have depth == 1."
-msgstr "Το βάθος σε σχέση με το επίπεδο στην κορυφή. Ένας σύνδεσμος με plid == 0 θα έχει βάθος depth == 1."
-
-#: modules/system/system.install:872
-msgid "A flag to indicate that the user has manually created or edited the link (1 = customized, 0 = not customized)."
-msgstr "Μια σήμασνη που δείχνει αν ο χρήστης έχει δημιουργήσει ή επεξεργαστεί χειροκίνητα το σύνδεσμο (1 = προσαρμοσμένος, 0 = μη προσαρμοσμένος)."
-
-#: modules/system/system.install:878
-msgid "The first mlid in the materialized path. If N = depth, then pN must equal the mlid. If depth > 1 then p(N-1) must equal the plid. All pX where X > depth must equal zero. The columns p1 .. p9 are also called the parents."
-msgstr "Το πρώτο mlid στην υλοποιημένη διαδρομή. Αν N = βάθος, τότε το pN πρέπει να ισούται με το mlid. Αν βάθος > 1 τότε το p(N-1) πρέπει να ισούται με το plid. Όλα τα pX όπου X > βάθος πρέπει να είναι ίσα με το 0. Οι στήλες p1 .. p9 ονομάζονται επίσης και γονείς."
-
-#: modules/system/system.install:884
-msgid "The second mlid in the materialized path. See p1."
-msgstr "Το δεύτερο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:890
-msgid "The third mlid in the materialized path. See p1."
-msgstr "Το τρίτο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:896
-msgid "The fourth mlid in the materialized path. See p1."
-msgstr "Το τέταρτο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:902
-msgid "The fifth mlid in the materialized path. See p1."
-msgstr "Το πέμπτο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:908
-msgid "The sixth mlid in the materialized path. See p1."
-msgstr "Το έκτο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:914
-msgid "The seventh mlid in the materialized path. See p1."
-msgstr "Το έβδομο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:920
-msgid "The eighth mlid in the materialized path. See p1."
-msgstr "Το όγδοο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:926
-msgid "The ninth mlid in the materialized path. See p1."
-msgstr "Το ένατο mlid στην υλοποιημένη διαδρομή. Δείτε p1."
-
-#: modules/system/system.install:932
-msgid "Flag that indicates that this link was generated during the update from Drupal 5."
-msgstr "Σήμανση που δείχνει ότι ο σύνδεσμος δημιουργήθηκε κατά την αναβάθμιση απο το Drupal 5."
-
-#: modules/system/system.install:950
-msgid "Drupal's session handlers read and write into the sessions table. Each record represents a user session, either anonymous or authenticated."
-msgstr "Οι χειριστές συνόδου του Drupal διαβάζουν και γράφουν στον πίνακα sessions. Κάθε εγγραφή αντιπροσωπεύει τη σύνοδο ενός χρήστη, είτε ανώνυμου είτε πιστοποιημένου."
-
-#: modules/system/system.install:953
-msgid "The {users}.uid corresponding to a session, or 0 for anonymous user."
-msgstr "Το {users}.uid που αντιστοιχεί σε μια σύνοδο, ή 0 για τον ανώνυμο χρήστη."
-
-#: modules/system/system.install:958
-msgid "Primary key: A session ID. The value is generated by PHP's Session API."
-msgstr "Πρωτεύων κλειδί: Ένα αναγνωριστικό συνόδου. Η τιμή δημιουργείται αυτόματα από το Session API της PHP."
-
-#: modules/system/system.install:964
-msgid "The IP address that last used this session ID (sid)."
-msgstr "Η διεύθυνση IP που χρησιμοποιήθηκε για αυτό το αναγνωριστικό συνόδου (sid)."
-
-#: modules/system/system.install:970
-msgid "The Unix timestamp when this session last requested a page. Old records are purged by PHP automatically."
-msgstr "Η χρονική ετικέτα τύπου Unix της στιγμής που ζητήθηκε σελίδα για αυτή τη σύνοδο. Παλιότερες εγγραφές διαγράφονται αυτόματα από την PHP."
-
-#: modules/system/system.install:975
-msgid "The time of this user's last post. This is used when the site has specified a minimum_cache_lifetime. See cache_get()."
-msgstr "Ο χρόνος της τελευταίας καταχώρησης του χρήστη. Αυτό χρησιμοποιείται όταν έχει οριστεί στον ιστοτόπο το minimum_cache_lifetime. Δείτε τη συνάρτηση cache_get()."
-
-#: modules/system/system.install:980
-msgid "The serialized contents of $_SESSION, an array of name/value pairs that persists across page requests by this session ID. Drupal loads $_SESSION from here at the start of each request and saves it at the end."
-msgstr "Τα σειριοποιημένα περιεχόμενα του $_SESSION, ενός πίνακα με ζεύγη τύπου όνομα/τιμή που παραμένουν μεταξύ των αιτήσεων σελίδων με αυτό το αναγνωριστικό συνόδου. Το Drupal φορτώνει από εδώ το $_SESSION στην αρχή κάθε αίτησης και το αποθηκεύει στο τέλος."
-
-#: modules/system/system.install:993
-msgid "A list of all modules, themes, and theme engines that are or have been installed in Drupal's file system."
-msgstr "Μια λίστα από όλες τις μονάδες, θεματικές παραλλαγές και μηχανές θεματικών παραλλαγών που υπάρχουν ή έχουν εγκατασταθεί στο σύστημα αρχείων του Drupal."
-
-#: modules/system/system.install:996
-msgid "The path of the primary file for this item, relative to the Drupal root; e.g. modules/node/node.module."
-msgstr "Η διαδρομή προς το πρωταρχικό αρχείο του αντικειμένου αυτού, σχετικό προς το ριζικό κατάλογο του Drupal, πχ. modules/node/node.module."
-
-#: modules/system/system.install:1002
-msgid "The name of the item; e.g. node."
-msgstr "Το όνομα του αντικειμένου· πχ. κόμβος."
-
-#: modules/system/system.install:1008
-msgid "The type of the item, either module, theme, or theme_engine."
-msgstr "Ο τύπος του αντικειμένου, είτε μονάδα, θεματική παραλλαγή ή μηχανή θεματικής παραλλαγής."
-
-#: modules/system/system.install:1014
-msgid "A theme's 'parent'. Can be either a theme or an engine."
-msgstr "Ο 'γονέας' μιας θεματικής παραλλαγής. Μπορεί να είναι είτε μια θεματική παραλλαγή είτε μια μηχανή."
-
-#: modules/system/system.install:1020
-msgid "Boolean indicating whether or not this item is enabled."
-msgstr "Τιμή τύπου boolean που δείχνει αν το αντικείμενο αυτό είναι ενεργοποιημένο ή όχι."
-
-#: modules/system/system.install:1025
-msgid "Boolean indicating whether this item is disabled when the throttle.module disables throttleable items."
-msgstr "Τιμή τύπου boolean που δείχνει αν το αντικείμενο απενεργοποιείται όταν η μονάδα απόπνιξης απενεργοποιεί αντικείμενα που δέχονται απόπνιξη."
-
-#: modules/system/system.install:1031
-msgid "Boolean indicating whether this module is loaded during Drupal's early bootstrapping phase (e.g. even before the page cache is consulted)."
-msgstr "Τιμή τύπου boolean που δείχνει αν η μονάδα φορτώνεται κατά την αρχική διαδικασία φόρτωσης (bootstrap) του Drupal (πχ. πριν ακόμη αναζητηθεί η λανθάνουσα μνήμη σελίδας)."
-
-#: modules/system/system.install:1036
-msgid "The module's database schema version number. -1 if the module is not installed (its tables do not exist); 0 or the largest N of the module's hook_update_N() function that has either been run or existed when the module was first installed."
-msgstr "Ο αριθμός έκδοσης του σχήματος βάσης δεδομένων της μονάδας. -1 αν η μονάδα δεν είναι εγκατεστημένη (οι πίνακές της δεν υπάρχουν)· 0 ή ο μεγαλύτερος αριθμός N της συνάρτησης hook_update_N() της μονάδας που είτε έχει εκτελεστεί είτε υπήρχε όταν η μονάδα αρχικά εγκαταστάθηκε."
-
-#: modules/system/system.install:1042
-msgid "The order in which this module's hooks should be invoked relative to other modules. Equal-weighted modules are ordered by name."
-msgstr "Η σειρά με την οποία τα hooks της μονάδας θα καλούνται σε σχέση με άλλες μονάδες. Μονάδες με την ίδια βαρύτητα ταξινομούνται με βάση το όνομα."
-
-#: modules/system/system.install:1047
-msgid "A serialized array containing information from the module's .info file; keys can include name, description, package, version, core, dependencies, dependents, and php."
-msgstr "Ένας σειριοποιημένος πίνακας που περιέχει πληροφορίες από τα αρχεία .info των μονάδων· τα κλειδιά μπορεί να περιέχουν το όνομα, την περιγραφή, το πακέτο, την έκδοση, τον πυρήνα, τις εξαρτήσεις και την php."
-
-#: modules/system/system.install:1060
-msgid "A list of URL aliases for Drupal paths; a user may visit either the source or destination path."
-msgstr "Μια λίστα από ψευδώνυμα διευθύνσεων URL για τις διαδρομές του Drupal· ο χρήστης μπορεί να επισκεφθεί είναι τη διαδρομή πηγής είτε τη διαδρομή προορισμού."
-
-#: modules/system/system.install:1063
-msgid "A unique path alias identifier."
-msgstr "Ένα μοναδικό αναγνωριστικό ψευδώνυμου διαδρομής."
-
-#: modules/system/system.install:1068
-msgid "The Drupal path this alias is for; e.g. node/12."
-msgstr "Η διαδρομή του Drupal για την οποία είναι αυτό το ψευδώνυμο· πχ. node/12."
-
-#: modules/system/system.install:1074
-msgid "The alias for this path; e.g. title-of-the-story."
-msgstr "Το ψευδώνυμο για αυτή τη διαδρομή· πχ. τίτλος-μιας-ιστορίας."
-
-#: modules/system/system.install:1080
-msgid "The language this alias is for; if blank, the alias will be used for unknown languages. Each Drupal path can have an alias for each supported language."
-msgstr "Η γλώσσα για την οποία είναι αυτό το ψευδώνυμο· αν μείνει κενό, το ψευδώνυμο αυτό θα χρησιμοποιηθεί για άγνωστες γλώσσες. Κάθε διαδρομή του Drupal μπορεί να έχει ένα ψευδώνυμο για κάθε υποστηριζόμενη γλώσσα."
 
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
@@ -1880,21 +1444,21 @@ msgstr "Απενεργοποιημένο"
 msgid "Update notifications are not enabled. It is <strong>highly recommended</strong> that you enable the update status module from the <a href=\"@module\">module administration page</a> in order to stay up-to-date on new releases. For more information please read the <a href=\"@update\">Update status handbook page</a>."
 msgstr "Οι ειδοποιήσεις ενημερώσεων δεν είναι ενεργποιημένες. Είναι <strong>έντονα προτεινόμενο</strong> να ενεργοποιήσετε τη μονάδα αναφοράς ενημερώσεων μέσα από τη <a href=\"@module\">σελίδα διαχείρισης μονάδων</a> ώστε να είστε ενημερωμένοι για νέες εκδόσεις. Για περισσότερες πληροφορίες παρακαλείσθε να συμβουλευτείτε τη <a href=\"@update\">σελίδα εγχειριδίου αναφοράς ενημερώσεων</a>."
 
-#: (duplicate) modules/system/system.install:286
+#: (duplicate) modules/system/system.install:285
+msgid "Update notifications"
+msgstr "Ειδοποιήσεις ενημερώσεων"
+
+#: (duplicate) modules/system/system.install:290
 msgid "HTTP request status"
 msgstr "Αναφορά αίτησης HTTP"
 
-#: (duplicate) modules/system/system.install:287
+#: (duplicate) modules/system/system.install:291
 msgid "Fails"
 msgstr "Αποτυχαίνει"
 
-#: (duplicate) modules/system/system.install:289
+#: (duplicate) modules/system/system.install:293
 msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
 msgstr "Το σύστημα ή η δικτυακή ρυθμίσεις σας δεν επιτρέπει στο Drupal την πρόσβαση σε δικτυακές σελίδες, καταλήγοντας σε μειωμένη λειτουργικότητα. Κάποιες πιθανές αιτίες μπορεί να βρίσκονται στις ρυθμίσεις του διακομιστή φιλοξενίας ιστοσελίδων ή της PHP και θα πρέπει να επιλυθούν ώστε να γίνεται λήψη πληροφοριών για διαθέσιμες ενημερώσεις, προσκόμιση ροών συλλέκτη δεδομένων, είσοδος μέσω OpenID, ή χρήση άλλων υπηρεσιών που βασίζονται στο δίκτυο."
-
-#: (duplicate) modules/system/system.install:293
-msgid "Update notifications"
-msgstr "Ειδοποιήσεις ενημερώσεων"
 
 #: modules/system/system.js:0
 msgid "Testing clean URLs..."
