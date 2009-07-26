@@ -1,17 +1,16 @@
-# $Id: modules-trigger.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-trigger.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-trigger)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
-#  trigger.module,v 1.13.2.1 2008/04/09 21:11:51 goba
-#  trigger.install,v 1.5 2007/12/28 12:02:52 dries
+#  trigger.module,v 1.13.2.3 2009/06/08 16:34:57 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -118,29 +117,5 @@ msgstr ""
 
 #: modules/trigger/trigger.module:115
 msgid "Unassign an action from a trigger."
-msgstr ""
-
-#: modules/trigger/trigger.module:0
-msgid "trigger"
-msgstr ""
-
-#: modules/trigger/trigger.install:28
-msgid "Maps trigger to hook and operation assignments from trigger.module."
-msgstr ""
-
-#: modules/trigger/trigger.install:35
-msgid "Primary Key: The name of the internal Drupal hook upon which an action is firing; for example, nodeapi."
-msgstr ""
-
-#: modules/trigger/trigger.install:42
-msgid "Primary Key: The specific operation of the hook upon which an action is firing: for example, presave."
-msgstr ""
-
-#: modules/trigger/trigger.install:49
-msgid "Primary Key: Action's {actions}.aid."
-msgstr ""
-
-#: modules/trigger/trigger.install:55
-msgid "The weight of the trigger assignment in relation to other triggers."
 msgstr ""
 

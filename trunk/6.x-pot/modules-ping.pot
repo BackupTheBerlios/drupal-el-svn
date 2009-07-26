@@ -1,4 +1,4 @@
-# $Id: modules-ping.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-ping.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-ping)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -35,9 +35,5 @@ msgstr ""
 
 #: modules/ping/ping.module:55
 msgid "Failed to notify pingomatic.com (site)."
-msgstr ""
-
-#: modules/ping/ping.module:0
-msgid "ping"
 msgstr ""
 

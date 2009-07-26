@@ -1,16 +1,16 @@
-# $Id: modules-blog.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-blog.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-blog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  blog.pages.inc,v 1.6.2.1 2008/02/08 21:15:12 goba
-#  blog.module,v 1.297.2.3 2008/05/19 07:27:35 goba
+#  blog.module,v 1.297.2.4 2009/02/25 12:21:53 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:108
+#: modules/blog/blog.pages.inc:15
 msgid "@name's blog"
 msgstr ""
 
@@ -63,47 +63,51 @@ msgstr ""
 msgid "A <em>blog entry</em> is a single post to an online journal, or <em>blog</em>."
 msgstr ""
 
-#: modules/blog/blog.module:52
+#: modules/blog/blog.module:53
 msgid "View recent blog entries"
 msgstr ""
 
-#: modules/blog/blog.module:52;124
-msgid "Read @username's latest blog entries."
-msgstr ""
-
-#: modules/blog/blog.module:64
-msgid "The blog module allows registered users to maintain an online journal, or <em>blog</em>. Blogs are made up of individual <em>blog entries</em>, and the blog entries are most often displayed in descending order by creation time."
+#: modules/blog/blog.module:53;126
+msgid "Read !username's latest blog entries."
 msgstr ""
 
 #: modules/blog/blog.module:65
-msgid "There is an (optional) <em>Blogs</em> menu item added to the Navigation menu, which displays all blogs available on your site, and a <em>My blog</em> item displaying the current user's blog entries. The <em>Blog entry</em> menu item under <em>Create content</em> allows new blog entries to be created."
+msgid "The blog module allows registered users to maintain an online journal, or <em>blog</em>. Blogs are made up of individual <em>blog entries</em>, and the blog entries are most often displayed in descending order by creation time."
 msgstr ""
 
 #: modules/blog/blog.module:66
-msgid "Each blog entry is displayed with an automatic link to other blogs created by the same user. By default, blog entries have comments enabled and are automatically promoted to the site front page. The blog module also creates a <em>Recent blog posts</em> block that may be enabled at the <a href=\"@blocks\">blocks administration page</a>."
+msgid "There is an (optional) <em>Blogs</em> menu item added to the Navigation menu, which displays all blogs available on your site, and a <em>My blog</em> item displaying the current user's blog entries. The <em>Blog entry</em> menu item under <em>Create content</em> allows new blog entries to be created."
 msgstr ""
 
 #: modules/blog/blog.module:67
-msgid "When using the aggregator module an automatic <em>blog it</em> icon is displayed next to the items in a feed's <em>latest items</em> block. Clicking this icon populates a <em>blog entry</em> with a title (the title of the feed item) and body (a link to the source item on its original site and illustrative content suitable for use in a block quote). Blog authors can use this feature to easily comment on items of interest that appear in aggregator feeds from other sites. To use this feature, be sure to <a href=\"@modules\">enable</a> the aggregator module, <a href=\"@feeds\">add and configure</a> a feed from another site, and <a href=\"@blocks\">position</a> the feed's <em>latest items</em> block."
+msgid "Each blog entry is displayed with an automatic link to other blogs created by the same user. By default, blog entries have comments enabled and are automatically promoted to the site front page. The blog module also creates a <em>Recent blog posts</em> block that may be enabled at the <a href=\"@blocks\">blocks administration page</a>."
 msgstr ""
 
 #: modules/blog/blog.module:68
+msgid "When using the aggregator module an automatic <em>blog it</em> icon is displayed next to the items in a feed's <em>latest items</em> block. Clicking this icon populates a <em>blog entry</em> with a title (the title of the feed item) and body (a link to the source item on its original site and illustrative content suitable for use in a block quote). Blog authors can use this feature to easily comment on items of interest that appear in aggregator feeds from other sites. To use this feature, be sure to <a href=\"@modules\">enable</a> the aggregator module, <a href=\"@feeds\">add and configure</a> a feed from another site, and <a href=\"@blocks\">position</a> the feed's <em>latest items</em> block."
+msgstr ""
+
+#: modules/blog/blog.module:69
 msgid "For more information, see the online handbook entry for <a href=\"@blog\">Blog module</a>."
 msgstr ""
 
-#: modules/blog/blog.module:108;137;152;161
+#: modules/blog/blog.module:109;139;154;163
 msgid "Blogs"
 msgstr ""
 
-#: modules/blog/blog.module:122
-msgid "@username's blog"
+#: modules/blog/blog.module:109
+msgid "!name's blog"
 msgstr ""
 
-#: modules/blog/blog.module:196;205
+#: modules/blog/blog.module:124
+msgid "!username's blog"
+msgstr ""
+
+#: modules/blog/blog.module:198;207
 msgid "Recent blog posts"
 msgstr ""
 
-#: modules/blog/blog.module:204
+#: modules/blog/blog.module:206
 msgid "Read the latest blog entries."
 msgstr ""
 
@@ -127,11 +131,7 @@ msgstr ""
 msgid "edit any blog entry"
 msgstr ""
 
-#: modules/blog/blog.module:144
+#: modules/blog/blog.module:146
 msgid "My blog"
-msgstr ""
-
-#: modules/blog/blog.module:0
-msgid "blog"
 msgstr ""
 

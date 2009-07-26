@@ -1,16 +1,16 @@
-# $Id: modules-translation.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-translation.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-translation)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  translation.pages.inc,v 1.2 2008/01/07 13:18:40 goba
-#  translation.module,v 1.23 2008/01/28 11:38:58 goba
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  translation.module,v 1.23.2.4 2009/01/14 23:34:07 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -21,6 +21,10 @@ msgstr ""
 
 #: modules/translation/translation.pages.inc:41
 msgid "outdated"
+msgstr ""
+
+#: modules/translation/translation.pages.inc:43
+msgid "<strong>@language_name</strong> (source)"
 msgstr ""
 
 #: modules/translation/translation.pages.inc:50
@@ -87,43 +91,39 @@ msgstr ""
 msgid "Translations of a piece of content are managed with translation sets. Each translation set has one source post and any number of translations in any of the <a href=\"!languages\">enabled languages</a>. All translations are tracked to be up to date or outdated based on whether the source post was modified significantly."
 msgstr ""
 
-#: modules/translation/translation.module:102
+#: modules/translation/translation.module:99
 msgid "Enabled, with translation"
 msgstr ""
 
-#: modules/translation/translation.module:104
+#: modules/translation/translation.module:101
 msgid "Enable multilingual support for this content type. If enabled, a language selection field will be added to the editing form, allowing you to select from one of the <a href=\"!languages\">enabled languages</a>. You can also turn on translation for this content type, which lets you have content translated to any of the enabled languages. If disabled, new posts are saved with the default language. Existing content will not be affected by changing this option."
 msgstr ""
 
-#: modules/translation/translation.module:127
+#: modules/translation/translation.module:124
 msgid "Translation settings"
 msgstr ""
 
-#: modules/translation/translation.module:138
+#: modules/translation/translation.module:135
 msgid "Flag translations as outdated"
 msgstr ""
 
-#: modules/translation/translation.module:140
+#: modules/translation/translation.module:137
 msgid "If you made a significant change, which means translations should be updated, you can flag all translations of this post as outdated. This will not change any other property of those posts, like whether they are published or not."
 msgstr ""
 
-#: modules/translation/translation.module:147
+#: modules/translation/translation.module:144
 msgid "This translation needs to be updated"
 msgstr ""
 
-#: modules/translation/translation.module:149
+#: modules/translation/translation.module:146
 msgid "When this option is checked, this translation needs to be updated because the source post has changed. Uncheck when the translation is up to date again."
 msgstr ""
 
-#: modules/translation/translation.module:89
+#: modules/translation/translation.module:86
 msgid "translate content"
 msgstr ""
 
 #: modules/translation/translation.module:59
 msgid "Translate"
-msgstr ""
-
-#: modules/translation/translation.module:0
-msgid "translation"
 msgstr ""
 

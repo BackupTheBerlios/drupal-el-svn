@@ -1,19 +1,19 @@
-# $Id: modules-book.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-book.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-book)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
-#  book.admin.inc,v 1.8.2.2 2008/07/08 10:19:46 goba
-#  book.module,v 1.454.2.5 2008/07/03 06:38:46 dries
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
 #  book.pages.inc,v 1.5.2.1 2008/08/13 23:59:13 drumm
-#  book.install,v 1.20 2008/01/10 18:13:42 goba
+#  book.install,v 1.20.2.1 2009/01/06 15:46:36 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -270,31 +270,11 @@ msgstr ""
 msgid "Remove from outline"
 msgstr ""
 
-#: modules/book/book.module:0
-msgid "book"
-msgstr ""
-
 #: modules/book/book.install:29
 msgid "Book page"
 msgstr ""
 
 #: modules/book/book.install:31
 msgid "A <em>book page</em> is a page of content, organized into a collection of related entries collectively known as a <em>book</em>. A <em>book page</em> automatically displays links to adjacent pages, providing a simple navigation system for organizing and reviewing structured content."
-msgstr ""
-
-#: modules/book/book.install:254
-msgid "Stores book outline information. Uniquely connects each node in the outline to a link in {menu_links}"
-msgstr ""
-
-#: modules/book/book.install:261
-msgid "The book page's {menu_links}.mlid."
-msgstr ""
-
-#: modules/book/book.install:268
-msgid "The book page's {node}.nid."
-msgstr ""
-
-#: modules/book/book.install:275
-msgid "The book ID is the {book}.nid of the top-level page."
 msgstr ""
 

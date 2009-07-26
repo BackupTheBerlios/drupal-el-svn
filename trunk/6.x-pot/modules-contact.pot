@@ -1,18 +1,17 @@
-# $Id: modules-contact.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-contact.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-contact)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  contact.admin.inc,v 1.3 2007/11/09 07:55:13 dries
-#  contact.pages.inc,v 1.6.2.1 2008/02/12 14:42:50 goba
+#  contact.pages.inc,v 1.6.2.2 2009/04/27 14:48:21 goba
 #  contact.module,v 1.103.2.1 2008/04/09 21:11:46 goba
-#  contact.install,v 1.10 2007/12/18 12:59:21 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -259,37 +258,5 @@ msgstr ""
 
 #: modules/contact/contact.module:76
 msgid "Delete contact"
-msgstr ""
-
-#: modules/contact/contact.module:0
-msgid "contact"
-msgstr ""
-
-#: modules/contact/contact.install:29
-msgid "Contact form category settings."
-msgstr ""
-
-#: modules/contact/contact.install:35
-msgid "Primary Key: Unique category ID."
-msgstr ""
-
-#: modules/contact/contact.install:42
-msgid "Category name."
-msgstr ""
-
-#: modules/contact/contact.install:48
-msgid "Comma-separated list of recipient e-mail addresses."
-msgstr ""
-
-#: modules/contact/contact.install:54
-msgid "Text of the auto-reply message."
-msgstr ""
-
-#: modules/contact/contact.install:61
-msgid "The category's weight."
-msgstr ""
-
-#: modules/contact/contact.install:68
-msgid "Flag to indicate whether or not category is selected by default. (1 = Yes, 0 = No)"
 msgstr ""
 

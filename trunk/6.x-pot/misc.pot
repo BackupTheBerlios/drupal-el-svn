@@ -1,18 +1,18 @@
-# $Id: misc.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: misc.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (misc)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  drupal.js,v 1.41.2.3 2008/06/25 09:06:57 goba
-#  tabledrag.js,v 1.13.2.3 2008/06/12 19:13:25 dries
+#  tabledrag.js,v 1.13.2.5 2009/06/18 12:24:24 goba
 #  tableselect.js,v 1.8 2007/11/19 12:15:16 goba
-#  teaser.js,v 1.12 2008/01/09 12:10:04 goba
+#  teaser.js,v 1.12.2.1 2009/05/20 11:50:54 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"

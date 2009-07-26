@@ -1,21 +1,20 @@
-# $Id: modules-aggregator.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-aggregator.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-aggregator)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  aggregator-feed-source.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator-item.tpl.php,v 1.1 2007/09/13 08:02:38 goba
-#  aggregator.pages.inc,v 1.12 2008/01/08 10:35:40 goba
-#  aggregator.module,v 1.374.2.3 2008/08/08 20:10:01 dries
+#  aggregator.module,v 1.374.2.5 2009/03/30 12:15:53 goba
 #  aggregator-summary-items.tpl.php,v 1.1 2007/09/13 08:02:38 goba
 #  aggregator.admin.inc,v 1.7.2.1 2008/04/25 21:11:57 goba
-#  aggregator.install,v 1.14 2007/12/18 12:59:20 dries
+#  aggregator.pages.inc,v 1.12.2.1 2008/08/16 21:13:48 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -32,7 +31,7 @@ msgstr ""
 msgid "Updated:"
 msgstr ""
 
-#: modules/aggregator/aggregator-item.tpl.php:42 modules/aggregator/aggregator.pages.inc:63 modules/aggregator/aggregator.module:151
+#: modules/aggregator/aggregator-item.tpl.php:42 modules/aggregator/aggregator.module:151
 msgid "Categories"
 msgstr ""
 
@@ -180,7 +179,7 @@ msgstr ""
 msgid "The category %category has been added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:161;174;325;338 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:607;641;648;718;0
+#: modules/aggregator/aggregator.admin.inc:161;174;325;338 modules/aggregator/aggregator.pages.inc:16 modules/aggregator/aggregator.module:607;641;648;717
 msgid "aggregator"
 msgstr ""
 
@@ -200,57 +199,57 @@ msgstr ""
 msgid "Category %category added."
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:928
+#: modules/aggregator/aggregator.admin.inc:30;41 modules/aggregator/aggregator.module:927
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/aggregator/aggregator.pages.inc:68
+#: modules/aggregator/aggregator.pages.inc:67
 msgid "aggregator - @title"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:175
+#: modules/aggregator/aggregator.pages.inc:174
 msgid "Save categories"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:185
+#: modules/aggregator/aggregator.pages.inc:184
 msgid "You are not allowed to categorize this feed item."
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:203
+#: modules/aggregator/aggregator.pages.inc:202
 msgid "The categories have been saved."
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:228 modules/aggregator/aggregator.module:185;214
+#: modules/aggregator/aggregator.pages.inc:227 modules/aggregator/aggregator.module:185;214
 msgid "Categorize"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:262
+#: modules/aggregator/aggregator.pages.inc:261
 msgid "%ago ago"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:293 modules/aggregator/aggregator.module:164
+#: modules/aggregator/aggregator.pages.inc:292 modules/aggregator/aggregator.module:164
 msgid "OPML feed"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:377
+#: modules/aggregator/aggregator.pages.inc:376
 msgid "@site_name - aggregated feeds in category @title"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:377
+#: modules/aggregator/aggregator.pages.inc:376
 msgid "@site_name - aggregated feeds"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:381
+#: modules/aggregator/aggregator.pages.inc:380
 msgid "@site_name aggregator"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:459
+#: modules/aggregator/aggregator.pages.inc:458
 msgid "%age old"
 msgstr ""
 
-#: modules/aggregator/aggregator.pages.inc:477
+#: modules/aggregator/aggregator.pages.inc:476
 msgid "!title feed"
 msgstr ""
 
@@ -322,15 +321,15 @@ msgstr ""
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:719
+#: modules/aggregator/aggregator.module:718
 msgid "The feed from %site seems to be broken, because of error \"%error\" on line %line."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:896;896
+#: modules/aggregator/aggregator.module:895;895
 msgid "blog it"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:897
+#: modules/aggregator/aggregator.module:896
 msgid "Comment on this news item in your personal blog."
 msgstr ""
 
@@ -342,7 +341,7 @@ msgstr ""
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:718
+#: modules/aggregator/aggregator.module:717
 msgid "The feed from %site seems to be broken, due to an error \"%error\" on line %line."
 msgstr ""
 
@@ -380,133 +379,5 @@ msgstr ""
 
 #: modules/aggregator/aggregator.module:239
 msgid "Edit category"
-msgstr ""
-
-#: modules/aggregator/aggregator.install:30
-msgid "Stores categories for aggregator feeds and feed items."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:35
-msgid "Primary Key: Unique aggregator category ID."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:42
-msgid "Title of the category."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:48
-msgid "Description of the category"
-msgstr ""
-
-#: modules/aggregator/aggregator.install:55
-msgid "The number of recent items to show within the category block."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:63
-msgid "Bridge table; maps feeds to categories."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:69
-msgid "The feed's {aggregator_feed}.fid."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:75
-msgid "The {aggregator_category}.cid to which the feed is being assigned."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:83
-msgid "Bridge table; maps feed items to categories."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:89
-msgid "The feed item's {aggregator_item}.iid."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:95
-msgid "The {aggregator_category}.cid to which the feed item is being assigned."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:103
-msgid "Stores feeds to be parsed by the aggregator."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:108
-msgid "Primary Key: Unique feed ID."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:115
-msgid "Title of the feed."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:122
-msgid "URL to the feed."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:128
-msgid "How often to check for new feed items, in seconds."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:134
-msgid "Last time feed was checked for new items, as Unix timestamp."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:141
-msgid "The parent website of the feed; comes from the <link> element in the feed."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:147
-msgid "The parent website's description; comes from the <description> element in the feed."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:153
-msgid "An image representing the feed."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:160
-msgid "Entity tag HTTP response header, used for validating cache."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:166
-msgid "When the feed was last modified, as a Unix timestamp."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:173
-msgid "Number of items to display in the feed's block."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:184
-msgid "Stores the individual items imported from feeds."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:189
-msgid "Primary Key: Unique ID for feed item."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:195
-msgid "The {aggregator_feed}.fid to which this item belongs."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:202
-msgid "Title of the feed item."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:209
-msgid "Link to the feed item."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:216
-msgid "Author of the feed item."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:222
-msgid "Body of the feed item."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:227
-msgid "Post date of feed item, as a Unix timestamp."
-msgstr ""
-
-#: modules/aggregator/aggregator.install:233
-msgid "Unique identifier for the feed item."
 msgstr ""
 

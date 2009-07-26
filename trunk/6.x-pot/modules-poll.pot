@@ -1,4 +1,4 @@
-# $Id: modules-poll.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-poll.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-poll)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
@@ -7,14 +7,13 @@
 #  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
 #  poll-results-block.tpl.php,v 1.2 2007/08/02 20:08:53 dries
 #  poll-results.tpl.php,v 1.2 2007/08/07 08:39:35 goba
-#  poll.module,v 1.263.2.2 2008/08/13 23:59:13 drumm
-#  poll.install,v 1.13 2007/12/18 12:59:21 dries
+#  poll.module,v 1.263.2.3 2008/12/18 15:46:20 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -45,7 +44,7 @@ msgstr ""
 msgid "This table lists all the recorded votes for this poll. If anonymous users are allowed to vote, they will be identified by the IP address of the computer they used when they voted."
 msgstr ""
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:573
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:566
 msgid "Vote"
 msgstr ""
 
@@ -105,59 +104,59 @@ msgstr ""
 msgid "After this period, the poll will be closed automatically."
 msgstr ""
 
-#: modules/poll/poll.module:306
+#: modules/poll/poll.module:307
 msgid "Choice @n"
 msgstr ""
 
-#: modules/poll/poll.module:314
+#: modules/poll/poll.module:315
 msgid "Votes for choice @n"
 msgstr ""
 
-#: modules/poll/poll.module:387
+#: modules/poll/poll.module:380
 msgid "Negative values are not allowed."
 msgstr ""
 
-#: modules/poll/poll.module:392
+#: modules/poll/poll.module:385
 msgid "You must fill in at least two choices."
 msgstr ""
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:506
 msgid "Older polls"
 msgstr ""
 
-#: modules/poll/poll.module:513
+#: modules/poll/poll.module:506
 msgid "View the list of polls on this site."
 msgstr ""
 
-#: modules/poll/poll.module:515;98
+#: modules/poll/poll.module:508;98
 msgid "Results"
 msgstr ""
 
-#: modules/poll/poll.module:515
+#: modules/poll/poll.module:508
 msgid "View the current poll results."
 msgstr ""
 
-#: modules/poll/poll.module:595
+#: modules/poll/poll.module:588
 msgid "Your vote could not be recorded because you did not select any of the choices."
 msgstr ""
 
-#: modules/poll/poll.module:618
+#: modules/poll/poll.module:611
 msgid "Your vote was recorded."
 msgstr ""
 
-#: modules/poll/poll.module:674
+#: modules/poll/poll.module:667
 msgid "Add another choice"
 msgstr ""
 
-#: modules/poll/poll.module:678
+#: modules/poll/poll.module:671
 msgid "Choice"
 msgstr ""
 
-#: modules/poll/poll.module:679
+#: modules/poll/poll.module:672
 msgid "Vote count"
 msgstr ""
 
-#: modules/poll/poll.module:761
+#: modules/poll/poll.module:754
 msgid "Cancel your vote"
 msgstr ""
 
@@ -203,69 +202,5 @@ msgstr ""
 
 #: modules/poll/poll.module:109
 msgid "Javascript Choice Form"
-msgstr ""
-
-#: modules/poll/poll.module:0
-msgid "poll"
-msgstr ""
-
-#: modules/poll/poll.install:25
-msgid "Stores poll-specific information for poll nodes."
-msgstr ""
-
-#: modules/poll/poll.install:32
-msgid "The poll's {node}.nid."
-msgstr ""
-
-#: modules/poll/poll.install:38
-msgid "The number of seconds past {node}.created during which the poll is open."
-msgstr ""
-
-#: modules/poll/poll.install:45
-msgid "Boolean indicating whether or not the poll is open."
-msgstr ""
-
-#: modules/poll/poll.install:52
-msgid "Stores information about all choices for all {poll}s."
-msgstr ""
-
-#: modules/poll/poll.install:58
-msgid "Unique identifier for a poll choice."
-msgstr ""
-
-#: modules/poll/poll.install:65
-msgid "The {node}.nid this choice belongs to."
-msgstr ""
-
-#: modules/poll/poll.install:72
-msgid "The text for this choice."
-msgstr ""
-
-#: modules/poll/poll.install:78
-msgid "The total number of votes this choice has received by all users."
-msgstr ""
-
-#: modules/poll/poll.install:84
-msgid "The sort order of this choice among all choices for the same node."
-msgstr ""
-
-#: modules/poll/poll.install:94
-msgid "Stores per-{users} votes for each {poll}."
-msgstr ""
-
-#: modules/poll/poll.install:100
-msgid "The {poll} node this vote is for."
-msgstr ""
-
-#: modules/poll/poll.install:107
-msgid "The {users}.uid this vote is from unless the voter was anonymous."
-msgstr ""
-
-#: modules/poll/poll.install:113
-msgid "The {users}'s vote for this poll."
-msgstr ""
-
-#: modules/poll/poll.install:120
-msgid "The IP address this vote is from unless the voter was logged in."
 msgstr ""
 

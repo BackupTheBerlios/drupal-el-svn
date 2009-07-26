@@ -1,18 +1,18 @@
-# $Id: modules-system.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-system.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-system)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  system.admin.inc,v 1.63.2.3 2008/05/19 07:27:35 goba
-#  system.module,v 1.585.2.16 2008/08/13 23:59:13 drumm
+#  system.admin.inc,v 1.63.2.8 2009/06/09 10:58:09 goba
+#  system.module,v 1.585.2.38 2009/07/01 20:51:56 goba
 #  system.js,v 1.14.2.1 2008/02/07 18:23:30 goba
-#  system.install,v 1.238.2.3 2008/04/25 21:24:20 goba
+#  system.install,v 1.238.2.15 2009/07/01 20:51:56 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -53,11 +53,11 @@ msgstr ""
 msgid "Use the administration theme when editing existing posts or creating new ones."
 msgstr ""
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:721
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
 msgid "Screenshot for %theme theme"
 msgstr ""
 
-#: modules/system/system.admin.inc:209 modules/system/system.module:721
+#: modules/system/system.admin.inc:209 modules/system/system.module:712
 msgid "no screenshot"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Please note that the <a href=\"!admin_theme_page\">administration theme</a> is still set to the %admin_theme theme; consequently, the theme on this page remains unchanged. All non-administrative sections of the site, however, will show the selected %selected_theme theme by default."
 msgstr ""
 
-#: modules/system/system.admin.inc:306;555;933 modules/system/system.module:1071
+#: modules/system/system.admin.inc:306;555;933 modules/system/system.module:1062
 msgid "The configuration options have been saved."
 msgstr ""
 
@@ -197,20 +197,20 @@ msgstr ""
 msgid "These settings only exist for the %theme theme and all the styles based on it."
 msgstr ""
 
-#: modules/system/system.admin.inc:549 modules/system/system.module:1068
+#: modules/system/system.admin.inc:549 modules/system/system.module:1059
 msgid "The configuration options have been reset to their default values."
 msgstr ""
 
 #: modules/system/system.admin.inc:683;715
-msgid " (<span class=\"admin-disabled\">disabled</span>)"
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
 msgstr ""
 
 #: modules/system/system.admin.inc:686
-msgid " (<span class=\"admin-missing\">missing</span>)"
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
 msgstr ""
 
 #: modules/system/system.admin.inc:692;710
-msgid " (<span class=\"admin-enabled\">enabled</span>)"
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
 msgstr ""
 
 #: modules/system/system.admin.inc:699
@@ -509,7 +509,7 @@ msgstr ""
 msgid "Custom format"
 msgstr ""
 
-#: modules/system/system.admin.inc:1494 modules/system/system.module:567
+#: modules/system/system.admin.inc:1494 modules/system/system.module:558
 msgid "Locale settings"
 msgstr ""
 
@@ -891,171 +891,171 @@ msgstr ""
 msgid "Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on drupal.org's support forums and project issue queues."
 msgstr ""
 
-#: modules/system/system.module:561
+#: modules/system/system.module:552
 msgid "Selecting a different theme will change the look and feel of the site."
 msgstr ""
 
-#: modules/system/system.module:573
+#: modules/system/system.module:564
 msgid "Time zone"
 msgstr ""
 
-#: modules/system/system.module:576
+#: modules/system/system.module:567
 msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
 msgstr ""
 
-#: modules/system/system.module:593
+#: modules/system/system.module:584
 msgid "Powered by Drupal"
 msgstr ""
 
-#: modules/system/system.module:603
+#: modules/system/system.module:594
 msgid "Badge color"
 msgstr ""
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Black"
 msgstr ""
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Blue"
 msgstr ""
 
-#: modules/system/system.module:605
+#: modules/system/system.module:596
 msgid "Gray"
 msgstr ""
 
-#: modules/system/system.module:609
+#: modules/system/system.module:600
 msgid "Badge size"
 msgstr ""
 
-#: modules/system/system.module:611
+#: modules/system/system.module:602
 msgid "Small"
 msgstr ""
 
-#: modules/system/system.module:611
+#: modules/system/system.module:602
 msgid "Large"
 msgstr ""
 
-#: modules/system/system.module:701
+#: modules/system/system.module:692
 msgid "Theme configuration"
 msgstr ""
 
-#: modules/system/system.module:724
+#: modules/system/system.module:715
 msgid "(site default theme)"
 msgstr ""
 
-#: modules/system/system.module:1037
+#: modules/system/system.module:1028
 msgid "The settings have not been saved because of the errors."
 msgstr ""
 
-#: modules/system/system.module:1208
+#: modules/system/system.module:1199
 msgid "Configure permissions"
 msgstr ""
 
-#: modules/system/system.module:1262
+#: modules/system/system.module:1253
 msgid "When cron runs"
 msgstr ""
 
-#: modules/system/system.module:1276
+#: modules/system/system.module:1267
 msgid "Display a message to the user"
 msgstr ""
 
-#: modules/system/system.module:1297
+#: modules/system/system.module:1288
 msgid "Redirect to URL"
 msgstr ""
 
-#: modules/system/system.module:1317
+#: modules/system/system.module:1308
 msgid "Choose an advanced action"
 msgstr ""
 
-#: modules/system/system.module:1332
+#: modules/system/system.module:1323
 msgid "Action type"
 msgstr ""
 
-#: modules/system/system.module:1352
+#: modules/system/system.module:1343
 msgid "Actions available to Drupal:"
 msgstr ""
 
-#: modules/system/system.module:1378
+#: modules/system/system.module:1369
 msgid "Make a new advanced action available"
 msgstr ""
 
-#: modules/system/system.module:1390
+#: modules/system/system.module:1381
 msgid "Create"
 msgstr ""
 
-#: modules/system/system.module:1457
+#: modules/system/system.module:1448
 msgid "A unique description for this advanced action. This description will be displayed in the interface of modules that integrate with actions, such as Trigger module."
 msgstr ""
 
-#: modules/system/system.module:1513
+#: modules/system/system.module:1504
 msgid "The action has been successfully saved."
 msgstr ""
 
-#: modules/system/system.module:1531
+#: modules/system/system.module:1522
 msgid "Are you sure you want to delete the action %action?"
 msgstr ""
 
-#: modules/system/system.module:1533
+#: modules/system/system.module:1524
 msgid "This cannot be undone."
 msgstr ""
 
-#: modules/system/system.module:1549
+#: modules/system/system.module:1540
 msgid "Action %action was deleted"
 msgstr ""
 
-#: modules/system/system.module:1561
+#: modules/system/system.module:1552
 msgid "Deleted orphaned action (%action)."
 msgstr ""
 
-#: modules/system/system.module:1597
+#: modules/system/system.module:1588
 msgid "Recipient"
 msgstr ""
 
-#: modules/system/system.module:1600
+#: modules/system/system.module:1591
 msgid "The email address to which the message should be sent OR enter %author if you would like to send an e-mail to the author of the original post."
 msgstr ""
 
-#: modules/system/system.module:1607
+#: modules/system/system.module:1598
 msgid "The subject of the message."
 msgstr ""
 
-#: modules/system/system.module:1615
+#: modules/system/system.module:1606
 msgid "The message that should be sent. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
 
-#: modules/system/system.module:1628
+#: modules/system/system.module:1619
 msgid "Please enter a valid email address or %author."
 msgstr ""
 
-#: modules/system/system.module:1761
+#: modules/system/system.module:1752
 msgid "The message to be displayed to the current user. You may include the following variables: %site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
 
-#: modules/system/system.module:1834
+#: modules/system/system.module:1825
 msgid "The URL to which the user should be redirected. This can be an internal URL like node/1234 or an external URL like http://drupal.org."
 msgstr ""
 
-#: modules/system/system.module:1897;1897
+#: modules/system/system.module:1882;1882
 msgid "Powered by Drupal, an open source content management system"
 msgstr ""
 
-#: modules/system/system.module:1241
+#: modules/system/system.module:1232
 msgid "Could not delete temporary file \"%path\" during garbage collection"
 msgstr ""
 
-#: modules/system/system.module:1548
+#: modules/system/system.module:1539
 msgid "Deleted action %aid (%action)"
 msgstr ""
 
-#: modules/system/system.module:1675
+#: modules/system/system.module:1666
 msgid "Cannot use %author token in this context."
 msgstr ""
 
-#: modules/system/system.module:1706
+#: modules/system/system.module:1697
 msgid "Sent email to %recipient"
 msgstr ""
 
-#: modules/system/system.module:1709
+#: modules/system/system.module:1700
 msgid "Unable to send email to %recipient"
 msgstr ""
 
@@ -1256,483 +1256,43 @@ msgid "Clean URL check"
 msgstr ""
 
 #: modules/system/system.module:474
-msgid "Request test"
-msgstr ""
-
-#: modules/system/system.module:483
 msgid "Reports"
 msgstr ""
 
-#: modules/system/system.module:484
+#: modules/system/system.module:475
 msgid "View reports from system logs and other status information."
 msgstr ""
 
-#: modules/system/system.module:492
+#: modules/system/system.module:483
 msgid "Status report"
 msgstr ""
 
-#: modules/system/system.module:493
+#: modules/system/system.module:484
 msgid "Get a status report about your site's operation and any detected problems."
 msgstr ""
 
-#: modules/system/system.module:500
+#: modules/system/system.module:491
 msgid "Run cron"
 msgstr ""
 
-#: (duplicate) modules/system/system.module:507 modules/system/system.install:36 
+#: (duplicate) modules/system/system.module:498 modules/system/system.install:36 
 msgid "PHP"
 msgstr ""
 
-#: modules/system/system.module:514
+#: modules/system/system.module:505
 msgid "SQL"
-msgstr ""
-
-#: modules/system/system.module:0
-msgid "system"
 msgstr ""
 
 #: modules/system/system.module:0
 msgid "Footer"
 msgstr ""
 
-#: modules/system/system.install:417
-msgid "Named variable/value pairs created by Drupal core or any other module or theme. All variables are cached in memory at the start of every Drupal request so developers should not be careless about what is stored here."
+#: modules/system/system.install:67
+msgid "-1 (Unlimited)"
 msgstr ""
 
-#: modules/system/system.install:420
-msgid "The name of the variable."
-msgstr ""
-
-#: modules/system/system.install:426
-msgid "The value of the variable."
-msgstr ""
-
-#: modules/system/system.install:435
-msgid "Stores action information."
-msgstr ""
-
-#: modules/system/system.install:438;474
-msgid "Primary Key: Unique actions ID."
-msgstr ""
-
-#: modules/system/system.install:444
-msgid "The object that that action acts on (node, user, comment, system or custom types.)"
-msgstr ""
-
-#: modules/system/system.install:450
-msgid "The callback function that executes when the action runs."
-msgstr ""
-
-#: modules/system/system.install:456
-msgid "Parameters to be passed to the callback function."
-msgstr ""
-
-#: modules/system/system.install:461
-msgid "Description of the action."
-msgstr ""
-
-#: modules/system/system.install:471
-msgid "Stores action IDs for non-default actions."
-msgstr ""
-
-#: modules/system/system.install:483
+#: modules/system/system.install:497
 msgid "Stores details about batches (processes that run in multiple HTTP requests)."
-msgstr ""
-
-#: modules/system/system.install:486
-msgid "Primary Key: Unique batch ID."
-msgstr ""
-
-#: modules/system/system.install:491
-msgid "A string token generated against the current user's session id and the batch id, used to ensure that only the user who submitted the batch can effectively access it."
-msgstr ""
-
-#: modules/system/system.install:496
-msgid "A Unix timestamp indicating when this batch was submitted for processing. Stale batches are purged at cron time."
-msgstr ""
-
-#: modules/system/system.install:500
-msgid "A serialized array containing the processing data for the batch."
-msgstr ""
-
-#: modules/system/system.install:510
-msgid "Generic cache table for caching things not separated out into their own tables. Contributed modules may also use this to store cached items."
-msgstr ""
-
-#: modules/system/system.install:513
-msgid "Primary Key: Unique cache ID."
-msgstr ""
-
-#: modules/system/system.install:519
-msgid "A collection of data to cache."
-msgstr ""
-
-#: modules/system/system.install:524
-msgid "A Unix timestamp indicating when the cache entry should expire, or 0 for never."
-msgstr ""
-
-#: modules/system/system.install:529
-msgid "A Unix timestamp indicating when the cache entry was created."
-msgstr ""
-
-#: modules/system/system.install:534
-msgid "Any custom HTTP headers to be added to cached data."
-msgstr ""
-
-#: modules/system/system.install:538
-msgid "A flag to indicate whether content is serialized (1) or not (0)."
-msgstr ""
-
-#: modules/system/system.install:549
-msgid "Cache table for the form system to store recently built forms and their storage data, to be used in subsequent page requests."
-msgstr ""
-
-#: modules/system/system.install:551
-msgid "Cache table used to store compressed pages for anonymous users, if page caching is enabled."
-msgstr ""
-
-#: modules/system/system.install:553
-msgid "Cache table for the menu system to store router information as well as generated link trees for various menu/page/user combinations."
-msgstr ""
-
-#: modules/system/system.install:556
-msgid "Stores information for uploaded files."
-msgstr ""
-
-#: modules/system/system.install:559
-msgid "Primary Key: Unique files ID."
-msgstr ""
-
-#: modules/system/system.install:570
-msgid "Name of the file."
-msgstr ""
-
-#: modules/system/system.install:582
-msgid "The file MIME type."
-msgstr ""
-
-#: modules/system/system.install:594
-msgid "A flag indicating whether file is temporary (1) or permanent (0)."
-msgstr ""
-
-#: modules/system/system.install:599
-msgid "UNIX timestamp for when the file was added."
-msgstr ""
-
-#: modules/system/system.install:614
-msgid "Flood controls the threshold of events, such as the number of contact attempts."
-msgstr ""
-
-#: modules/system/system.install:617
-msgid "Unique flood event ID."
-msgstr ""
-
-#: modules/system/system.install:621
-msgid "Name of event (e.g. contact)."
-msgstr ""
-
-#: modules/system/system.install:627
-msgid "Hostname of the visitor."
-msgstr ""
-
-#: modules/system/system.install:633
-msgid "Timestamp of the event."
-msgstr ""
-
-#: modules/system/system.install:645
-msgid "A record of which {users} have read which {node}s."
-msgstr ""
-
-#: modules/system/system.install:648
-msgid "The {users}.uid that read the {node} nid."
-msgstr ""
-
-#: modules/system/system.install:653
-msgid "The {node}.nid that was read."
-msgstr ""
-
-#: modules/system/system.install:658
-msgid "The Unix timestamp at which the read occurred."
-msgstr ""
-
-#: modules/system/system.install:669
-msgid "Maps paths to various callbacks (access, page and title)"
-msgstr ""
-
-#: modules/system/system.install:672
-msgid "Primary Key: the Drupal path this entry describes"
-msgstr ""
-
-#: modules/system/system.install:678
-msgid "A serialized array of function names (like node_load) to be called to load an object corresponding to a part of the current path."
-msgstr ""
-
-#: modules/system/system.install:684
-msgid "A serialized array of function names (like user_uid_optional_to_arg) to be called to replace a part of the router path with another string."
-msgstr ""
-
-#: modules/system/system.install:690
-msgid "The callback which determines the access to this router path. Defaults to user_access."
-msgstr ""
-
-#: modules/system/system.install:696
-msgid "A serialized array of arguments for the access callback."
-msgstr ""
-
-#: modules/system/system.install:700
-msgid "The name of the function that renders the page."
-msgstr ""
-
-#: modules/system/system.install:706
-msgid "A serialized array of arguments for the page callback."
-msgstr ""
-
-#: modules/system/system.install:710
-msgid "A numeric representation of how specific the path is."
-msgstr ""
-
-#: modules/system/system.install:715
-msgid "Number of parts in this router path."
-msgstr ""
-
-#: modules/system/system.install:721
-msgid "Only for local tasks (tabs) - the router path of the parent page (which may also be a local task)."
-msgstr ""
-
-#: modules/system/system.install:727
-msgid "Router path of the closest non-tab parent page. For pages that are not local tasks, this will be the same as the path."
-msgstr ""
-
-#: modules/system/system.install:733
-msgid "The title for the current page, or the title for the tab if this is a local task."
-msgstr ""
-
-#: modules/system/system.install:739
-msgid "A function which will alter the title. Defaults to t()"
-msgstr ""
-
-#: modules/system/system.install:745
-msgid "A serialized array of arguments for the title callback. If empty, the title will be used as the sole argument for the title callback."
-msgstr ""
-
-#: modules/system/system.install:751
-msgid "Numeric representation of the type of the menu item, like MENU_LOCAL_TASK."
-msgstr ""
-
-#: modules/system/system.install:756
-msgid "Name of a function used to render the block on the system administration page for this item."
-msgstr ""
-
-#: modules/system/system.install:762
-msgid "A description of this item."
-msgstr ""
-
-#: modules/system/system.install:766
-msgid "The position of the block (left or right) on the system administration page for this item."
-msgstr ""
-
-#: modules/system/system.install:772
-msgid "Weight of the element. Lighter weights are higher up, heavier weights go down."
-msgstr ""
-
-#: modules/system/system.install:777
-msgid "The file to include for this element, usually the page callback function lives in this file."
-msgstr ""
-
-#: modules/system/system.install:789
-msgid "Contains the individual links within a menu."
-msgstr ""
-
-#: modules/system/system.install:792
-msgid "The menu name. All links with the same menu name (such as 'navigation') are part of the same menu."
-msgstr ""
-
-#: modules/system/system.install:798
-msgid "The menu link ID (mlid) is the integer primary key."
-msgstr ""
-
-#: modules/system/system.install:803
-msgid "The parent link ID (plid) is the mlid of the link above in the hierarchy, or zero if the link is at the top level in its menu."
-msgstr ""
-
-#: modules/system/system.install:809
-msgid "The Drupal path or external path this link points to."
-msgstr ""
-
-#: modules/system/system.install:815
-msgid "For links corresponding to a Drupal path (external = 0), this connects the link to a {menu_router}.path for joins."
-msgstr ""
-
-#: modules/system/system.install:821
-msgid "The text displayed for the link, which may be modified by a title callback stored in {menu_router}."
-msgstr ""
-
-#: modules/system/system.install:827
-msgid "A serialized array of options to be passed to the url() or l() function, such as a query string or HTML attributes."
-msgstr ""
-
-#: modules/system/system.install:831
-msgid "The name of the module that generated this link."
-msgstr ""
-
-#: modules/system/system.install:837
-msgid "A flag for whether the link should be rendered in menus. (1 = a disabled menu item that may be shown on admin screens, -1 = a menu callback, 0 = a normal, visible link)"
-msgstr ""
-
-#: modules/system/system.install:843
-msgid "A flag to indicate if the link points to a full URL starting with a protocol, like http:// (1 = external, 0 = internal)."
-msgstr ""
-
-#: modules/system/system.install:849
-msgid "Flag indicating whether any links have this link as a parent (1 = children exist, 0 = no children)."
-msgstr ""
-
-#: modules/system/system.install:855
-msgid "Flag for whether this link should be rendered as expanded in menus - expanded links always have their child links displayed, instead of only when the link is in the active trail (1 = expanded, 0 = not expanded)"
-msgstr ""
-
-#: modules/system/system.install:861
-msgid "Link weight among links in the same menu at the same depth."
-msgstr ""
-
-#: modules/system/system.install:866
-msgid "The depth relative to the top level. A link with plid == 0 will have depth == 1."
-msgstr ""
-
-#: modules/system/system.install:872
-msgid "A flag to indicate that the user has manually created or edited the link (1 = customized, 0 = not customized)."
-msgstr ""
-
-#: modules/system/system.install:878
-msgid "The first mlid in the materialized path. If N = depth, then pN must equal the mlid. If depth > 1 then p(N-1) must equal the plid. All pX where X > depth must equal zero. The columns p1 .. p9 are also called the parents."
-msgstr ""
-
-#: modules/system/system.install:884
-msgid "The second mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:890
-msgid "The third mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:896
-msgid "The fourth mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:902
-msgid "The fifth mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:908
-msgid "The sixth mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:914
-msgid "The seventh mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:920
-msgid "The eighth mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:926
-msgid "The ninth mlid in the materialized path. See p1."
-msgstr ""
-
-#: modules/system/system.install:932
-msgid "Flag that indicates that this link was generated during the update from Drupal 5."
-msgstr ""
-
-#: modules/system/system.install:950
-msgid "Drupal's session handlers read and write into the sessions table. Each record represents a user session, either anonymous or authenticated."
-msgstr ""
-
-#: modules/system/system.install:953
-msgid "The {users}.uid corresponding to a session, or 0 for anonymous user."
-msgstr ""
-
-#: modules/system/system.install:958
-msgid "Primary key: A session ID. The value is generated by PHP's Session API."
-msgstr ""
-
-#: modules/system/system.install:964
-msgid "The IP address that last used this session ID (sid)."
-msgstr ""
-
-#: modules/system/system.install:970
-msgid "The Unix timestamp when this session last requested a page. Old records are purged by PHP automatically."
-msgstr ""
-
-#: modules/system/system.install:975
-msgid "The time of this user's last post. This is used when the site has specified a minimum_cache_lifetime. See cache_get()."
-msgstr ""
-
-#: modules/system/system.install:980
-msgid "The serialized contents of $_SESSION, an array of name/value pairs that persists across page requests by this session ID. Drupal loads $_SESSION from here at the start of each request and saves it at the end."
-msgstr ""
-
-#: modules/system/system.install:993
-msgid "A list of all modules, themes, and theme engines that are or have been installed in Drupal's file system."
-msgstr ""
-
-#: modules/system/system.install:996
-msgid "The path of the primary file for this item, relative to the Drupal root; e.g. modules/node/node.module."
-msgstr ""
-
-#: modules/system/system.install:1002
-msgid "The name of the item; e.g. node."
-msgstr ""
-
-#: modules/system/system.install:1008
-msgid "The type of the item, either module, theme, or theme_engine."
-msgstr ""
-
-#: modules/system/system.install:1014
-msgid "A theme's 'parent'. Can be either a theme or an engine."
-msgstr ""
-
-#: modules/system/system.install:1020
-msgid "Boolean indicating whether or not this item is enabled."
-msgstr ""
-
-#: modules/system/system.install:1025
-msgid "Boolean indicating whether this item is disabled when the throttle.module disables throttleable items."
-msgstr ""
-
-#: modules/system/system.install:1031
-msgid "Boolean indicating whether this module is loaded during Drupal's early bootstrapping phase (e.g. even before the page cache is consulted)."
-msgstr ""
-
-#: modules/system/system.install:1036
-msgid "The module's database schema version number. -1 if the module is not installed (its tables do not exist); 0 or the largest N of the module's hook_update_N() function that has either been run or existed when the module was first installed."
-msgstr ""
-
-#: modules/system/system.install:1042
-msgid "The order in which this module's hooks should be invoked relative to other modules. Equal-weighted modules are ordered by name."
-msgstr ""
-
-#: modules/system/system.install:1047
-msgid "A serialized array containing information from the module's .info file; keys can include name, description, package, version, core, dependencies, dependents, and php."
-msgstr ""
-
-#: modules/system/system.install:1060
-msgid "A list of URL aliases for Drupal paths; a user may visit either the source or destination path."
-msgstr ""
-
-#: modules/system/system.install:1063
-msgid "A unique path alias identifier."
-msgstr ""
-
-#: modules/system/system.install:1068
-msgid "The Drupal path this alias is for; e.g. node/12."
-msgstr ""
-
-#: modules/system/system.install:1074
-msgid "The alias for this path; e.g. title-of-the-story."
-msgstr ""
-
-#: modules/system/system.install:1080
-msgid "The language this alias is for; if blank, the alias will be used for unknown languages. Each Drupal path can have an alias for each supported language."
 msgstr ""
 
 #: (duplicate) modules/system/system.install:20 
@@ -1887,20 +1447,20 @@ msgstr ""
 msgid "Update notifications are not enabled. It is <strong>highly recommended</strong> that you enable the update status module from the <a href=\"@module\">module administration page</a> in order to stay up-to-date on new releases. For more information please read the <a href=\"@update\">Update status handbook page</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:286 
+#: (duplicate) modules/system/system.install:285 
+msgid "Update notifications"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:290 
 msgid "HTTP request status"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:287 
+#: (duplicate) modules/system/system.install:291 
 msgid "Fails"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:289 
-msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
-msgstr ""
-
 #: (duplicate) modules/system/system.install:293 
-msgid "Update notifications"
+msgid "Your system or network configuration does not allow Drupal to access web pages, resulting in reduced functionality. This could be due to your webserver configuration or PHP settings, and should be resolved in order to download information about available updates, fetch aggregator feeds, sign in via OpenID, or use other network-dependent services."
 msgstr ""
 
 #: modules/system/system.js:0

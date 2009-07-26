@@ -1,17 +1,16 @@
-# $Id: modules-dblog.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-dblog.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-dblog)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  dblog.admin.inc,v 1.6 2008/01/08 10:35:41 goba
+#  dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
 #  dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
-#  dblog.install,v 1.6 2007/11/04 14:33:06 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -28,27 +27,27 @@ msgstr ""
 msgid "The maximum number of rows to keep in the database log. Older entries will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:81;109
+#: modules/dblog/dblog.admin.inc:91;119
 msgid "No log messages available."
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:97
+#: modules/dblog/dblog.admin.inc:107
 msgid "Count"
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:140
+#: modules/dblog/dblog.admin.inc:150
 msgid "Location"
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:152;220
+#: modules/dblog/dblog.admin.inc:162;230
 msgid "Severity"
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:260
+#: modules/dblog/dblog.admin.inc:270
 msgid "Filter log messages"
 msgstr ""
 
-#: modules/dblog/dblog.admin.inc:297
+#: modules/dblog/dblog.admin.inc:307
 msgid "You must select something to filter by."
 msgstr ""
 
@@ -94,57 +93,5 @@ msgstr ""
 
 #: modules/dblog/dblog.module:72
 msgid "View 'access denied' errors (403s)."
-msgstr ""
-
-#: modules/dblog/dblog.module:0
-msgid "dblog"
-msgstr ""
-
-#: modules/dblog/dblog.install:25
-msgid "Table that contains logs of all system events."
-msgstr ""
-
-#: modules/dblog/dblog.install:30
-msgid "Primary Key: Unique watchdog event ID."
-msgstr ""
-
-#: modules/dblog/dblog.install:36
-msgid "The {users}.uid of the user who triggered the event."
-msgstr ""
-
-#: modules/dblog/dblog.install:43
-msgid "Type of log message, for example \"user\" or \"page not found.\""
-msgstr ""
-
-#: modules/dblog/dblog.install:49
-msgid "Text of log message to be passed into the t() function."
-msgstr ""
-
-#: modules/dblog/dblog.install:55
-msgid "Serialized array of variables that match the message string and that is passed into the t() function."
-msgstr ""
-
-#: modules/dblog/dblog.install:63
-msgid "The severity level of the event; ranges from 0 (Emergency) to 7 (Debug)"
-msgstr ""
-
-#: modules/dblog/dblog.install:70
-msgid "Link to view the result of the event."
-msgstr ""
-
-#: modules/dblog/dblog.install:75
-msgid "URL of the origin of the event."
-msgstr ""
-
-#: modules/dblog/dblog.install:82
-msgid "URL of referring page."
-msgstr ""
-
-#: modules/dblog/dblog.install:89
-msgid "Hostname of the user who triggered the event."
-msgstr ""
-
-#: modules/dblog/dblog.install:95
-msgid "Unix timestamp of when event occurred."
 msgstr ""
 

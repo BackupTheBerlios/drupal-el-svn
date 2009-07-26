@@ -1,18 +1,17 @@
-# $Id: modules-search.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-search.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-search)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
 #  search.pages.inc,v 1.4 2007/12/06 09:51:01 goba
-#  search.module,v 1.250.2.3 2008/08/13 06:59:49 dries
-#  search.install,v 1.14 2007/12/28 10:53:27 dries
+#  search.module,v 1.250.2.6 2009/03/10 17:20:01 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -103,7 +102,7 @@ msgstr ""
 msgid "Please enter some keywords."
 msgstr ""
 
-#: modules/search/search.pages.inc:29 modules/search/search.module:0
+#: modules/search/search.pages.inc:29
 msgid "search"
 msgstr ""
 
@@ -135,23 +134,23 @@ msgstr ""
 msgid "Search form"
 msgstr ""
 
-#: modules/search/search.module:918
+#: modules/search/search.module:922
 msgid "You must include at least one positive keyword with @count characters or more."
 msgstr ""
 
-#: modules/search/search.module:922
+#: modules/search/search.module:926
 msgid "Search for either of the two terms with uppercase <strong>OR</strong>. For example, <strong>cats OR dogs</strong>."
 msgstr ""
 
-#: modules/search/search.module:1029
+#: modules/search/search.module:1033
 msgid "Enter your keywords"
 msgstr ""
 
-#: modules/search/search.module:1063
+#: modules/search/search.module:1067
 msgid "Search this site"
 msgstr ""
 
-#: modules/search/search.module:1067
+#: modules/search/search.module:1071
 msgid "Enter the terms you wish to search for."
 msgstr ""
 
@@ -185,77 +184,5 @@ msgstr ""
 
 #: modules/search/search.module:194
 msgid "View most popular search phrases."
-msgstr ""
-
-#: modules/search/search.install:29
-msgid "Stores items that will be searched."
-msgstr ""
-
-#: modules/search/search.install:36
-msgid "Search item ID, e.g. node ID for nodes."
-msgstr ""
-
-#: modules/search/search.install:42
-msgid "Type of item, e.g. node."
-msgstr ""
-
-#: modules/search/search.install:48
-msgid "List of space-separated words from the item."
-msgstr ""
-
-#: modules/search/search.install:55
-msgid "Set to force node reindexing."
-msgstr ""
-
-#: modules/search/search.install:62
-msgid "Stores the search index, associating words, items and scores."
-msgstr ""
-
-#: modules/search/search.install:69
-msgid "The {search_total}.word that is associated with the search item."
-msgstr ""
-
-#: modules/search/search.install:76
-msgid "The {search_dataset}.sid of the searchable item to which the word belongs."
-msgstr ""
-
-#: modules/search/search.install:82
-msgid "The {search_dataset}.type of the searchable item to which the word belongs."
-msgstr ""
-
-#: modules/search/search.install:87
-msgid "The numeric score of the word, higher being more important."
-msgstr ""
-
-#: modules/search/search.install:98
-msgid "Stores search totals for words."
-msgstr ""
-
-#: modules/search/search.install:101
-msgid "Primary Key: Unique word in the search index."
-msgstr ""
-
-#: modules/search/search.install:108
-msgid "The count of the word in the index using Zipf's law to equalize the probability distribution."
-msgstr ""
-
-#: modules/search/search.install:117
-msgid "Stores items (like nodes) that link to other nodes, used to improve search scores for nodes that are frequently linked to."
-msgstr ""
-
-#: modules/search/search.install:124
-msgid "The {search_dataset}.sid of the searchable item containing the link to the node."
-msgstr ""
-
-#: modules/search/search.install:131
-msgid "The {search_dataset}.type of the searchable item containing the link to the node."
-msgstr ""
-
-#: modules/search/search.install:138
-msgid "The {node}.nid that this item links to."
-msgstr ""
-
-#: modules/search/search.install:144
-msgid "The text used to link to the {node}.nid."
 msgstr ""
 

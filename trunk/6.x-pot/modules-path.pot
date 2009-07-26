@@ -1,16 +1,16 @@
-# $Id: modules-path.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-path.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-path)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
-#  path.module,v 1.138.2.2 2008/06/21 18:22:53 dries
+#  path.admin.inc,v 1.7.2.1 2008/11/22 10:49:15 dries
+#  path.module,v 1.138.2.3 2008/11/22 10:49:15 dries
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -141,9 +141,5 @@ msgstr ""
 
 #: modules/path/path.module:67
 msgid "Add alias"
-msgstr ""
-
-#: modules/path/path.module:0
-msgid "path"
 msgstr ""
 

@@ -1,19 +1,18 @@
-# $Id: modules-node.pot,v 1.1.2.11 2008/08/16 12:39:39 timcn Exp $
+# $Id: modules-node.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
 #
 # LANGUAGE translation of Drupal (modules-node)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  content_types.inc,v 1.50.2.1 2008/02/13 11:23:28 goba
-#  node.pages.inc,v 1.28.2.1 2008/02/27 19:44:44 goba
-#  node.module,v 1.947.2.11 2008/06/25 08:59:57 goba
-#  node.admin.inc,v 1.19.2.1 2008/03/21 22:01:05 goba
-#  node.install,v 1.4.2.1 2008/04/15 08:39:40 dries
+#  content_types.inc,v 1.50.2.2 2009/04/27 14:28:57 goba
+#  node.pages.inc,v 1.28.2.4 2009/04/27 11:35:01 goba
+#  node.admin.inc,v 1.19.2.3 2009/06/08 16:45:34 goba
+#  node.module,v 1.947.2.15 2009/02/16 14:39:40 goba
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2008-08-16 14:35+0200\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -86,15 +85,15 @@ msgstr ""
 msgid "Default options"
 msgstr ""
 
-#: modules/node/content_types.inc:158 modules/node/node.pages.inc:212
+#: modules/node/content_types.inc:158 modules/node/node.pages.inc:215
 msgid "Promoted to front page"
 msgstr ""
 
-#: modules/node/content_types.inc:159 modules/node/node.pages.inc:217
+#: modules/node/content_types.inc:159 modules/node/node.pages.inc:220
 msgid "Sticky at top of lists"
 msgstr ""
 
-#: modules/node/content_types.inc:160 modules/node/node.pages.inc:156
+#: modules/node/content_types.inc:160 modules/node/node.pages.inc:158
 msgid "Create new revision"
 msgstr ""
 
@@ -146,7 +145,7 @@ msgstr ""
 msgid "The content type %name has been deleted."
 msgstr ""
 
-#: modules/node/content_types.inc:335 modules/node/node.module:0
+#: modules/node/content_types.inc:335
 msgid "node"
 msgstr ""
 
@@ -170,195 +169,195 @@ msgid_plural "<strong>Warning:</strong> there are currently @count %type posts o
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/node/node.admin.inc:17
+#: modules/node/node.admin.inc:13
 msgid "If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Possible causes for permission problems are disabling modules or configuration changes to permissions. Rebuilding will remove all privileges to posts, and replace them with permissions based on the current modules and settings."
 msgstr ""
 
-#: modules/node/node.admin.inc:18
+#: modules/node/node.admin.inc:14
 msgid "Rebuilding may take some time if there is a lot of content or complex permission settings. After rebuilding has completed posts will automatically use the new permissions."
 msgstr ""
 
-#: modules/node/node.admin.inc:22
+#: modules/node/node.admin.inc:18
 msgid "Node access status"
 msgstr ""
 
-#: modules/node/node.admin.inc:27;71;81 modules/node/node.module:1434
+#: modules/node/node.admin.inc:23;73 modules/node/node.module:1433
 msgid "Rebuild permissions"
 msgstr ""
 
-#: modules/node/node.admin.inc:32
+#: modules/node/node.admin.inc:28
 msgid "Number of posts on main page"
 msgstr ""
 
-#: modules/node/node.admin.inc:34
+#: modules/node/node.admin.inc:30
 msgid "The default maximum number of posts to display per page on overview pages such as the main page."
 msgstr ""
 
-#: modules/node/node.admin.inc:37
+#: modules/node/node.admin.inc:33
 msgid "Length of trimmed posts"
 msgstr ""
 
-#: modules/node/node.admin.inc:40
+#: modules/node/node.admin.inc:36
 msgid "200 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:41
+#: modules/node/node.admin.inc:37
 msgid "400 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:42
+#: modules/node/node.admin.inc:38
 msgid "600 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:43
+#: modules/node/node.admin.inc:39
 msgid "800 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:44
+#: modules/node/node.admin.inc:40
 msgid "1000 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:45
+#: modules/node/node.admin.inc:41
 msgid "1200 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:46
+#: modules/node/node.admin.inc:42
 msgid "1400 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:47
+#: modules/node/node.admin.inc:43
 msgid "1600 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:48
+#: modules/node/node.admin.inc:44
 msgid "1800 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:49
+#: modules/node/node.admin.inc:45
 msgid "2000 characters"
 msgstr ""
 
-#: modules/node/node.admin.inc:51
+#: modules/node/node.admin.inc:47
 msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
 msgstr ""
 
-#: modules/node/node.admin.inc:56
+#: modules/node/node.admin.inc:52
 msgid "Preview post"
 msgstr ""
 
-#: modules/node/node.admin.inc:59
+#: modules/node/node.admin.inc:55
 msgid "Must users preview posts before submitting?"
 msgstr ""
 
-#: modules/node/node.admin.inc:80
+#: modules/node/node.admin.inc:72
 msgid "Are you sure you want to rebuild the permissions on site content?"
 msgstr ""
 
-#: modules/node/node.admin.inc:81
+#: modules/node/node.admin.inc:73
 msgid "This action rebuilds all permissions on site content, and may be a lengthy process. This action cannot be undone."
 msgstr ""
 
-#: modules/node/node.admin.inc:99
+#: modules/node/node.admin.inc:90
 msgid "Publish"
 msgstr ""
 
-#: modules/node/node.admin.inc:104
+#: modules/node/node.admin.inc:95
 msgid "Unpublish"
 msgstr ""
 
-#: modules/node/node.admin.inc:109
+#: modules/node/node.admin.inc:100
 msgid "Promote to front page"
 msgstr ""
 
-#: modules/node/node.admin.inc:114
+#: modules/node/node.admin.inc:105
 msgid "Demote from front page"
 msgstr ""
 
-#: modules/node/node.admin.inc:119
+#: modules/node/node.admin.inc:110
 msgid "Make sticky"
 msgstr ""
 
-#: modules/node/node.admin.inc:124
+#: modules/node/node.admin.inc:115
 msgid "Remove stickiness"
 msgstr ""
 
-#: modules/node/node.admin.inc:144;501
+#: modules/node/node.admin.inc:135;492
 msgid "published"
 msgstr ""
 
-#: modules/node/node.admin.inc:145;501
+#: modules/node/node.admin.inc:136;492
 msgid "not published"
 msgstr ""
 
-#: modules/node/node.admin.inc:146
+#: modules/node/node.admin.inc:137
 msgid "promoted"
 msgstr ""
 
-#: modules/node/node.admin.inc:147
+#: modules/node/node.admin.inc:138
 msgid "not promoted"
 msgstr ""
 
-#: modules/node/node.admin.inc:148
+#: modules/node/node.admin.inc:139
 msgid "sticky"
 msgstr ""
 
-#: modules/node/node.admin.inc:149
+#: modules/node/node.admin.inc:140
 msgid "not sticky"
 msgstr ""
 
-#: modules/node/node.admin.inc:155
+#: modules/node/node.admin.inc:146
 msgid "Up to date translation"
 msgstr ""
 
-#: modules/node/node.admin.inc:156
+#: modules/node/node.admin.inc:147
 msgid "Outdated translation"
 msgstr ""
 
-#: modules/node/node.admin.inc:160
+#: modules/node/node.admin.inc:151
 msgid "type"
 msgstr ""
 
-#: modules/node/node.admin.inc:164
+#: modules/node/node.admin.inc:155
 msgid "category"
 msgstr ""
 
-#: modules/node/node.admin.inc:169
+#: modules/node/node.admin.inc:160
 msgid "language"
 msgstr ""
 
-#: modules/node/node.admin.inc:221
+#: modules/node/node.admin.inc:212
 msgid "Show only items where"
 msgstr ""
 
-#: modules/node/node.admin.inc:239
+#: modules/node/node.admin.inc:230
 msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
 msgstr ""
 
-#: modules/node/node.admin.inc:242
+#: modules/node/node.admin.inc:233
 msgid "<strong>%a</strong> is <strong>%b</strong>"
 msgstr ""
 
-#: modules/node/node.admin.inc:370
+#: modules/node/node.admin.inc:361
 msgid "The update has encountered an error."
 msgstr ""
 
-#: modules/node/node.admin.inc:436
+#: modules/node/node.admin.inc:427
 msgid "An error occurred and processing did not complete."
 msgstr ""
 
-#: modules/node/node.admin.inc:522
+#: modules/node/node.admin.inc:513
 msgid "No items selected."
 msgstr ""
 
-#: modules/node/node.admin.inc:620
+#: modules/node/node.admin.inc:611
 msgid "Are you sure you want to delete these items?"
 msgstr ""
 
-#: modules/node/node.admin.inc:630
+#: modules/node/node.admin.inc:621
 msgid "The items have been deleted."
 msgstr ""
 
-#: modules/node/node.admin.inc:437
+#: modules/node/node.admin.inc:428
 msgid "1 item successfully processed:"
 msgid_plural "@count items successfully processed:"
 msgstr[0] ""
@@ -368,123 +367,123 @@ msgstr[1] ""
 msgid "Create @name"
 msgstr ""
 
-#: modules/node/node.pages.inc:147
+#: modules/node/node.pages.inc:149
 msgid "Revision information"
 msgstr ""
 
-#: modules/node/node.pages.inc:161
+#: modules/node/node.pages.inc:163
 msgid "Log message"
 msgstr ""
 
-#: modules/node/node.pages.inc:163
+#: modules/node/node.pages.inc:166
 msgid "An explanation of the additions or updates being made to help other authors understand your motivations."
 msgstr ""
 
-#: modules/node/node.pages.inc:171
+#: modules/node/node.pages.inc:174
 msgid "Authoring information"
 msgstr ""
 
-#: modules/node/node.pages.inc:183
+#: modules/node/node.pages.inc:186
 msgid "Leave blank for %anonymous."
 msgstr ""
 
-#: modules/node/node.pages.inc:189
+#: modules/node/node.pages.inc:192
 msgid "Format: %time. Leave blank to use the time of form submission."
 msgstr ""
 
-#: modules/node/node.pages.inc:200
+#: modules/node/node.pages.inc:203
 msgid "Publishing options"
 msgstr ""
 
-#: modules/node/node.pages.inc:280
+#: modules/node/node.pages.inc:284
 msgid "Show summary in full view"
 msgstr ""
 
-#: modules/node/node.pages.inc:433
+#: modules/node/node.pages.inc:437
 msgid "The trimmed version of your post shows what your post looks like when promoted to the main page or when exported for syndication.<span class=\"no-js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the quotes) to fine-tune where your post gets split.</span>"
 msgstr ""
 
-#: modules/node/node.pages.inc:434
+#: modules/node/node.pages.inc:438
 msgid "Preview trimmed version"
 msgstr ""
 
-#: modules/node/node.pages.inc:436
+#: modules/node/node.pages.inc:440
 msgid "Preview full version"
 msgstr ""
 
-#: modules/node/node.pages.inc:459
+#: modules/node/node.pages.inc:463
 msgid "@type %title has been created."
 msgstr ""
 
-#: modules/node/node.pages.inc:463
+#: modules/node/node.pages.inc:467
 msgid "@type %title has been updated."
 msgstr ""
 
-#: modules/node/node.pages.inc:473
+#: modules/node/node.pages.inc:477
 msgid "The post could not be saved."
 msgstr ""
 
-#: modules/node/node.pages.inc:501
+#: modules/node/node.pages.inc:505
 msgid "Are you sure you want to delete %title?"
 msgstr ""
 
-#: modules/node/node.pages.inc:524
+#: modules/node/node.pages.inc:528
 msgid "Revisions for %title"
 msgstr ""
 
-#: modules/node/node.pages.inc:526
+#: modules/node/node.pages.inc:530
 msgid "Revision"
 msgstr ""
 
-#: modules/node/node.pages.inc:544;550
+#: modules/node/node.pages.inc:548;554
 msgid "!date by !username"
 msgstr ""
 
-#: modules/node/node.pages.inc:547
+#: modules/node/node.pages.inc:551
 msgid "current revision"
 msgstr ""
 
-#: modules/node/node.pages.inc:553
+#: modules/node/node.pages.inc:557
 msgid "revert"
 msgstr ""
 
-#: modules/node/node.pages.inc:570
+#: modules/node/node.pages.inc:574
 msgid "Are you sure you want to revert to the revision from %revision-date?"
 msgstr ""
 
-#: modules/node/node.pages.inc:570
+#: modules/node/node.pages.inc:574
 msgid "Revert"
 msgstr ""
 
-#: modules/node/node.pages.inc:576
+#: modules/node/node.pages.inc:580
 msgid "Copy of the revision from %date."
 msgstr ""
 
-#: modules/node/node.pages.inc:584
+#: modules/node/node.pages.inc:588
 msgid "@type %title has been reverted back to the revision from %revision-date."
 msgstr ""
 
-#: modules/node/node.pages.inc:590
+#: modules/node/node.pages.inc:594
 msgid "Are you sure you want to delete the revision from %revision-date?"
 msgstr ""
 
-#: modules/node/node.pages.inc:598
+#: modules/node/node.pages.inc:602
 msgid "Revision from %revision-date of @type %title has been deleted."
 msgstr ""
 
-#: modules/node/node.pages.inc:458
+#: modules/node/node.pages.inc:462
 msgid "@type: added %title."
 msgstr ""
 
-#: modules/node/node.pages.inc:462
+#: modules/node/node.pages.inc:466
 msgid "@type: updated %title."
 msgstr ""
 
-#: modules/node/node.pages.inc:583
+#: modules/node/node.pages.inc:587
 msgid "@type: reverted %title revision %revision."
 msgstr ""
 
-#: modules/node/node.pages.inc:597
+#: modules/node/node.pages.inc:601
 msgid "@type: deleted %title revision %revision."
 msgstr ""
 
@@ -544,499 +543,287 @@ msgstr ""
 msgid "The username %name does not exist."
 msgstr ""
 
-#: modules/node/node.module:980
+#: modules/node/node.module:979
 msgid "@type %title has been deleted."
 msgstr ""
 
-#: modules/node/node.module:1095
+#: modules/node/node.module:1094
 msgid "Revision of %title from %date"
 msgstr ""
 
-#: modules/node/node.module:1115
+#: modules/node/node.module:1114
 msgid "Log"
 msgstr ""
 
-#: modules/node/node.module:1160
+#: modules/node/node.module:1159
 msgid "Content ranking"
 msgstr ""
 
-#: modules/node/node.module:1164
+#: modules/node/node.module:1163
 msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
 msgstr ""
 
-#: modules/node/node.module:1167
+#: modules/node/node.module:1166
 msgid "Keyword relevance"
 msgstr ""
 
-#: modules/node/node.module:1168
+#: modules/node/node.module:1167
 msgid "Recently posted"
 msgstr ""
 
-#: modules/node/node.module:1170
+#: modules/node/node.module:1169
 msgid "Number of comments"
 msgstr ""
 
-#: modules/node/node.module:1173
+#: modules/node/node.module:1172
 msgid "Number of views"
 msgstr ""
 
-#: modules/node/node.module:1323
+#: modules/node/node.module:1322
 msgid "Factor"
 msgstr ""
 
-#: modules/node/node.module:1357
+#: modules/node/node.module:1356
 msgid "Read more"
 msgstr ""
 
-#: modules/node/node.module:1361
+#: modules/node/node.module:1360
 msgid "Read the rest of !title."
 msgstr ""
 
-#: modules/node/node.module:1624;1630;1631
+#: modules/node/node.module:1623;1629;1630
 msgid "Syndicate"
 msgstr ""
 
-#: modules/node/node.module:1745
+#: modules/node/node.module:1759
 msgid "RSS"
 msgstr ""
 
-#: modules/node/node.module:1749
+#: modules/node/node.module:1763
 msgid "<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow these steps to set up and start using your website:</p>"
 msgstr ""
 
-#: modules/node/node.module:1752
+#: modules/node/node.module:1766
 msgid "<strong>Configure your website</strong> Once logged in, visit the <a href=\"@admin\">administration section</a>, where you can <a href=\"@config\">customize and configure</a> all aspects of your website."
 msgstr ""
 
-#: modules/node/node.module:1753
+#: modules/node/node.module:1767
 msgid "<strong>Enable additional functionality</strong> Next, visit the <a href=\"@modules\">module list</a> and enable features which suit your specific needs. You can find additional modules in the <a href=\"@download_modules\">Drupal modules download section</a>."
 msgstr ""
 
-#: modules/node/node.module:1754
+#: modules/node/node.module:1768
 msgid "<strong>Customize your website design</strong> To change the \"look and feel\" of your website, visit the <a href=\"@themes\">themes section</a>. You may choose from one of the included themes or download additional themes from the <a href=\"@download_themes\">Drupal themes download section</a>."
 msgstr ""
 
-#: modules/node/node.module:1755
+#: modules/node/node.module:1769
 msgid "<strong>Start posting content</strong> Finally, you can <a href=\"@content\">create content</a> for your website. This message will disappear once you have promoted a post to the front page."
 msgstr ""
 
-#: modules/node/node.module:1757
+#: modules/node/node.module:1771
 msgid "For more information, please refer to the <a href=\"@help\">help section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of <a href=\"@support\">other support options</a> available."
 msgstr ""
 
-#: modules/node/node.module:1829;1881
+#: modules/node/node.module:1843;1895
 msgid "Advanced search"
 msgstr ""
 
-#: modules/node/node.module:1840
+#: modules/node/node.module:1854
 msgid "Containing any of the words"
 msgstr ""
 
-#: modules/node/node.module:1846
+#: modules/node/node.module:1860
 msgid "Containing the phrase"
 msgstr ""
 
-#: modules/node/node.module:1852
+#: modules/node/node.module:1866
 msgid "Containing none of the words"
 msgstr ""
 
-#: modules/node/node.module:1861
+#: modules/node/node.module:1875
 msgid "Only in the category(s)"
 msgstr ""
 
-#: modules/node/node.module:1874
+#: modules/node/node.module:1888
 msgid "Only of the type(s)"
 msgstr ""
 
-#: modules/node/node.module:2296
+#: modules/node/node.module:2312
 msgid "Rebuilding content access permissions"
 msgstr ""
 
-#: modules/node/node.module:2326
+#: modules/node/node.module:2342
 msgid "Content permissions have been rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2372
+#: modules/node/node.module:2388
 msgid "The content access permissions have been rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2376
+#: modules/node/node.module:2392
 msgid "The content access permissions have not been properly rebuilt."
 msgstr ""
 
-#: modules/node/node.module:2464
+#: modules/node/node.module:2480
 msgid "Submitted by !username on @datetime"
 msgstr ""
 
-#: modules/node/node.module:2479
+#: modules/node/node.module:2495
 msgid "When either saving a new post or updating an existing post"
 msgstr ""
 
-#: modules/node/node.module:2482
+#: modules/node/node.module:2498
 msgid "After saving a new post"
 msgstr ""
 
-#: modules/node/node.module:2485
+#: modules/node/node.module:2501
 msgid "After saving an updated post"
 msgstr ""
 
-#: modules/node/node.module:2488
+#: modules/node/node.module:2504
 msgid "After deleting a post"
 msgstr ""
 
-#: modules/node/node.module:2491
+#: modules/node/node.module:2507
 msgid "When content is viewed by an authenticated user"
 msgstr ""
 
-#: modules/node/node.module:2505
+#: modules/node/node.module:2521
 msgid "Publish post"
 msgstr ""
 
-#: modules/node/node.module:2515
+#: modules/node/node.module:2531
 msgid "Unpublish post"
 msgstr ""
 
-#: modules/node/node.module:2525
+#: modules/node/node.module:2541
 msgid "Make post sticky"
 msgstr ""
 
-#: modules/node/node.module:2535
+#: modules/node/node.module:2551
 msgid "Make post unsticky"
 msgstr ""
 
-#: modules/node/node.module:2545
+#: modules/node/node.module:2561
 msgid "Promote post to front page"
 msgstr ""
 
-#: modules/node/node.module:2555
+#: modules/node/node.module:2571
 msgid "Remove post from front page"
 msgstr ""
 
-#: modules/node/node.module:2565
+#: modules/node/node.module:2581
 msgid "Change the author of a post"
 msgstr ""
 
-#: modules/node/node.module:2576
+#: modules/node/node.module:2592
 msgid "Save post"
 msgstr ""
 
-#: modules/node/node.module:2584
+#: modules/node/node.module:2600
 msgid "Unpublish post containing keyword(s)"
 msgstr ""
 
-#: modules/node/node.module:2667
+#: modules/node/node.module:2683
 msgid "The username of the user to which you would like to assign ownership."
 msgstr ""
 
-#: modules/node/node.module:2706
+#: modules/node/node.module:2722
 msgid "Please enter a valid username."
 msgstr ""
 
-#: modules/node/node.module:2720
+#: modules/node/node.module:2736
 msgid "The post will be unpublished if it contains any of the character sequences above. Use a comma-separated list of character sequences. Example: funny, bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
 msgstr ""
 
-#: modules/node/node.module:979
+#: modules/node/node.module:978
 msgid "@type: deleted %title."
 msgstr ""
 
-#: modules/node/node.module:2599
+#: modules/node/node.module:2615
 msgid "Set @type %title to published."
 msgstr ""
 
-#: modules/node/node.module:2608;2743
+#: modules/node/node.module:2624;2759
 msgid "Set @type %title to unpublished."
 msgstr ""
 
-#: modules/node/node.module:2617
+#: modules/node/node.module:2633
 msgid "Set @type %title to sticky."
 msgstr ""
 
-#: modules/node/node.module:2626
+#: modules/node/node.module:2642
 msgid "Set @type %title to unsticky."
 msgstr ""
 
-#: modules/node/node.module:2635
+#: modules/node/node.module:2651
 msgid "Promoted @type %title to front page."
 msgstr ""
 
-#: modules/node/node.module:2644
+#: modules/node/node.module:2660
 msgid "Removed @type %title from front page."
 msgstr ""
 
-#: modules/node/node.module:2653
+#: modules/node/node.module:2669
 msgid "Saved @type %title"
 msgstr ""
 
-#: modules/node/node.module:2663
+#: modules/node/node.module:2679
 msgid "Changed owner of @type %title to uid %name."
 msgstr ""
 
-#: modules/node/node.module:1121
+#: modules/node/node.module:1120
 msgid "administer content types"
 msgstr ""
 
-#: modules/node/node.module:1121
+#: modules/node/node.module:1120
 msgid "administer nodes"
 msgstr ""
 
-#: modules/node/node.module:1121
+#: modules/node/node.module:1120
 msgid "access content"
 msgstr ""
 
-#: modules/node/node.module:1121
+#: modules/node/node.module:1120
 msgid "view revisions"
 msgstr ""
 
-#: modules/node/node.module:1121
+#: modules/node/node.module:1120
 msgid "revert revisions"
 msgstr ""
 
-#: modules/node/node.module:1412
+#: modules/node/node.module:1411
 msgid "View, edit, and delete your site's content."
 msgstr ""
 
-#: modules/node/node.module:1426
+#: modules/node/node.module:1425
 msgid "Post settings"
 msgstr ""
 
-#: modules/node/node.module:1427
+#: modules/node/node.module:1426
 msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
 msgstr ""
 
-#: modules/node/node.module:1445
+#: modules/node/node.module:1444
 msgid "Manage posts by content type, including default status, front page promotion, etc."
 msgstr ""
 
-#: modules/node/node.module:1456
+#: modules/node/node.module:1455
 msgid "Add content type"
 msgstr ""
 
-#: modules/node/node.module:1470
+#: modules/node/node.module:1469
 msgid "Create content"
 msgstr ""
 
-#: modules/node/node.module:1546;1556
+#: modules/node/node.module:1545;1555
 msgid "Revisions"
 msgstr ""
 
-#: modules/node/node.module:1565
+#: modules/node/node.module:1564
 msgid "Revert to earlier revision"
 msgstr ""
 
-#: modules/node/node.module:1575
+#: modules/node/node.module:1574
 msgid "Delete earlier revision"
-msgstr ""
-
-#: modules/node/node.install:9
-msgid "The base table for nodes."
-msgstr ""
-
-#: modules/node/node.install:12
-msgid "The primary identifier for a node."
-msgstr ""
-
-#: modules/node/node.install:17
-msgid "The current {node_revisions}.vid version identifier."
-msgstr ""
-
-#: modules/node/node.install:23
-msgid "The {node_type}.type of this node."
-msgstr ""
-
-#: modules/node/node.install:29
-msgid "The {languages}.language of this node."
-msgstr ""
-
-#: modules/node/node.install:35
-msgid "The title of this node, always treated as non-markup plain text."
-msgstr ""
-
-#: modules/node/node.install:41
-msgid "The {users}.uid that owns this node; initially, this is the user that created it."
-msgstr ""
-
-#: modules/node/node.install:46
-msgid "Boolean indicating whether the node is published (visible to non-administrators)."
-msgstr ""
-
-#: modules/node/node.install:51
-msgid "The Unix timestamp when the node was created."
-msgstr ""
-
-#: modules/node/node.install:56
-msgid "The Unix timestamp when the node was most recently saved."
-msgstr ""
-
-#: modules/node/node.install:61
-msgid "Whether comments are allowed on this node: 0 = no, 1 = read only, 2 = read/write."
-msgstr ""
-
-#: modules/node/node.install:66
-msgid "Boolean indicating whether the node should be displayed on the front page."
-msgstr ""
-
-#: modules/node/node.install:71
-msgid "Previously, a boolean indicating whether the node was \"in moderation\"; mostly no longer used."
-msgstr ""
-
-#: modules/node/node.install:76
-msgid "Boolean indicating whether the node should be displayed at the top of lists in which it appears."
-msgstr ""
-
-#: modules/node/node.install:81
-msgid "The translation set id for this node, which equals the node id of the source post in each set."
-msgstr ""
-
-#: modules/node/node.install:87
-msgid "A boolean indicating whether this translation page needs to be updated."
-msgstr ""
-
-#: modules/node/node.install:111
-msgid "Identifies which realm/grant pairs a user must possess in order to view, update, or delete specific nodes."
-msgstr ""
-
-#: modules/node/node.install:114
-msgid "The {node}.nid this record affects."
-msgstr ""
-
-#: modules/node/node.install:120
-msgid "The grant ID a user must possess in the specified realm to gain this row's privileges on the node."
-msgstr ""
-
-#: modules/node/node.install:126
-msgid "The realm in which the user must possess the grant ID. Each node access node can define one or more realms."
-msgstr ""
-
-#: modules/node/node.install:132
-msgid "Boolean indicating whether a user with the realm/grant pair can view this node."
-msgstr ""
-
-#: modules/node/node.install:139
-msgid "Boolean indicating whether a user with the realm/grant pair can edit this node."
-msgstr ""
-
-#: modules/node/node.install:146
-msgid "Boolean indicating whether a user with the realm/grant pair can delete this node."
-msgstr ""
-
-#: modules/node/node.install:157
-msgid "Access statistics for {node}s."
-msgstr ""
-
-#: modules/node/node.install:160
-msgid "The {node}.nid for these statistics."
-msgstr ""
-
-#: modules/node/node.install:165
-msgid "The total number of times the {node} has been viewed."
-msgstr ""
-
-#: modules/node/node.install:172
-msgid "The total number of times the {node} has been viewed today."
-msgstr ""
-
-#: modules/node/node.install:179
-msgid "The most recent time the {node} has been viewed."
-msgstr ""
-
-#: modules/node/node.install:189
-msgid "Stores information about each saved version of a {node}."
-msgstr ""
-
-#: modules/node/node.install:192
-msgid "The {node} this version belongs to."
-msgstr ""
-
-#: modules/node/node.install:198
-msgid "The primary identifier for this version."
-msgstr ""
-
-#: modules/node/node.install:203
-msgid "The {users}.uid that created this version."
-msgstr ""
-
-#: modules/node/node.install:208
-msgid "The title of this version."
-msgstr ""
-
-#: modules/node/node.install:214
-msgid "The body of this version."
-msgstr ""
-
-#: modules/node/node.install:219
-msgid "The teaser of this version."
-msgstr ""
-
-#: modules/node/node.install:224
-msgid "The log entry explaining the changes in this version."
-msgstr ""
-
-#: modules/node/node.install:229
-msgid "A Unix timestamp indicating when this version was created."
-msgstr ""
-
-#: modules/node/node.install:234
-msgid "The input format used by this version's body."
-msgstr ""
-
-#: modules/node/node.install:247
-msgid "Stores information about all defined {node} types."
-msgstr ""
-
-#: modules/node/node.install:250
-msgid "The machine-readable name of this type."
-msgstr ""
-
-#: modules/node/node.install:255
-msgid "The human-readable name of this type."
-msgstr ""
-
-#: modules/node/node.install:261
-msgid "The module that implements this type."
-msgstr ""
-
-#: modules/node/node.install:266
-msgid "A brief description of this type."
-msgstr ""
-
-#: modules/node/node.install:271
-msgid "Help information shown to the user when creating a {node} of this type."
-msgstr ""
-
-#: modules/node/node.install:276
-msgid "Boolean indicating whether this type uses the {node}.title field."
-msgstr ""
-
-#: modules/node/node.install:282
-msgid "The label displayed for the title field on the edit form."
-msgstr ""
-
-#: modules/node/node.install:288
-msgid "Boolean indicating whether this type uses the {node_revisions}.body field."
-msgstr ""
-
-#: modules/node/node.install:294
-msgid "The label displayed for the body field on the edit form."
-msgstr ""
-
-#: modules/node/node.install:300
-msgid "The minimum number of words the body must contain."
-msgstr ""
-
-#: modules/node/node.install:306
-msgid "A boolean indicating whether this type is defined by a module (FALSE) or by a user via a module like the Content Construction Kit (TRUE)."
-msgstr ""
-
-#: modules/node/node.install:312
-msgid "A boolean indicating whether this type has been modified by an administrator; currently not used in any way."
-msgstr ""
-
-#: modules/node/node.install:318
-msgid "A boolean indicating whether the administrator can change the machine name of this type."
-msgstr ""
-
-#: modules/node/node.install:324
-msgid "The original machine-readable name of this node type. This may be different from the current type name if the locked field is 0."
 msgstr ""
 
